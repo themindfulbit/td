@@ -1,0 +1,818 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/css3/hyphenation";
+@import "compass/css3/columns";
+@import "compass/css3/box-shadow";
+@import "takitapart/normalize";
+@import "takitapart/typography";
+@import "takitapart/grid";
+@import "takitapart/form";
+@import "takitapart/print";
+
+// Base font-size in pixels.
+$font-size: 16;
+
+// Base line-height.
+$line: $font-size * 1.5;
+$em: $font-size * 1;
+
+// Number of columns.
+$columns: 12;
+
+// Width of the outer margin, in percent.
+$outer-margin: 0%;
+
+$black: #000000;
+$dark-gray: #333;
+$medium-gray: #777;
+$light-gray: #ccc;
+$lighter-gray: #eee;
+$white: #fafafa;
+$yellow: #ffeb99;
+$dark-orange: #ff3300;
+$light-orange: #ff8600;
+
+body {
+  @include box-sizing(border-box);
+  @include grid();
+  padding: 0;
+  font-family: "adobe-caslon-pro", serif;
+  background-color: $dark-gray;
+
+  .background {
+    display: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "futura-pt", sans-serif;
+  }
+
+  .container {
+    @include column(12,12);
+    padding: 0;
+  }
+
+  .nav {
+    @include column(12,12);
+    padding: 0;
+
+    ul {
+      @include column(12,12);
+      padding: 0;
+      margin: 0;
+      text-align: center;
+
+      li {
+        padding: 1em;
+        font-family: "futura-pt", sans-serif;
+        text-transform: uppercase;
+        display: inline-block;
+
+        a,
+        a:visited,
+        a:active,
+        a:focus {
+          font-weight: normal;
+          font-size: 1.3em;
+          letter-spacing: 0.1em;
+          color: $white;
+
+          &:hover {
+            color: $yellow;
+          }
+        }
+      }
+    }
+  }
+
+  .header {
+    @include column(12,12);
+    padding: 2em 0 1em;
+    background-color: rgba(0, 0, 0, 0.65);
+
+    a {
+      @include column(8,12);
+      @include push(2);
+      padding: 0;
+
+      img { 
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    h1 {
+      display: none;
+    }
+
+    h2 {
+      @include column(10,12);
+      @include push(1);
+      padding: 0;
+      color: $yellow;
+      font-family: "adobe-caslon-pro", serif;
+      font-style: italic;
+      font-size: 1.3em;
+      line-height: 1em;
+      text-align: center;
+    }
+  }
+
+  .content {
+    @include column(12,12);
+    padding: 0;
+    background-color: $white;
+
+    .show,
+    .page,
+    .about,
+    .error {
+      @include column(12,12);
+      padding: 0;
+
+      .show-header,
+      .page-header,
+      .error-header {
+        @include column(12,12);
+        padding: 0.5em 1em;
+        text-align: center;
+
+        a.permalink,
+        a.permalink:visited,
+        a.permalink:active,
+        a.permalink:focus {
+          color: $black;
+
+          &:hover {
+            color: $medium-gray;
+          }
+        }
+
+        h1.page-title,
+        h2 {
+          text-transform: uppercase;
+          letter-spacing: 0.1em;
+
+          &.show-number {
+            margin-bottom: 0;
+          }
+
+          &.show-title,
+          &.error-title {
+            margin-top: 0.3em;
+            margin-bottom: 0.5em;
+            line-height: 1.3em;
+          }
+        }
+
+        .show-date {
+          margin: 0;
+          color: $medium-gray;
+          font-style: italic;
+          font-size: 1.3em;
+        }
+
+        .listen-links {
+          margin-top: 0.2em;
+          text-transform: uppercase;
+          font-family: "futura-pt", sans-serif;
+          letter-spacing: 0.1em;
+
+          .divider {
+            display: inline-block;
+            position: relative;
+            top: -0.1em;
+          }
+
+          a,
+          a:visited,
+          a:active,
+          a:focus {
+            color: $light-orange;
+
+            &:hover {
+              color: $dark-orange;
+            }
+          }
+        }
+      }
+
+      .show-banner,
+      .page-banner,
+      .error-banner {
+        @include column(12,12);
+        padding: 0;
+        margin-bottom: 0.5em;
+        height: auto;
+      }
+
+      .caption {
+        @include column(12,12);
+        padding: 0 1em;
+        font-size: 0.8em;
+        text-align: right;
+        font-style: italic;
+
+        p {
+          margin: 0;
+
+          a,
+          a:visited,
+          a:active,
+          a:focus {
+            color: $light-orange;
+
+            &:hover {
+              color: $dark-orange;
+            }
+          }
+
+          a:before {
+            content: "\00a0";
+            background-image: url("../img/photo.svg");
+            background-repeat: no-repeat;
+            width: 1.2em;
+            display: inline-block;
+            background-size: 1.1em auto;
+          }
+        }
+      }
+
+      .show-notes,
+      .page-content,
+      .error-notes {
+        @include column(12,12);
+        padding: 1em 1em 0;
+
+        iframe {
+          margin-bottom: 1em;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+          text-transform: uppercase;
+          letter-spacing: 0.1em;
+          // text-align: center;
+        }
+
+        h2 {
+          font-size: 1.3em;
+          padding-bottom: 0.5em;
+          border-bottom: 1px solid $light-gray;
+          margin-top: 0.5em;
+        }
+
+        ul {
+          list-style-type: none;
+          padding-left: 0;
+          font-size: 1.1em;
+
+          li {
+            padding: 0.2em 0;
+
+            &:before {
+              color: $medium-gray;
+              content: "\00BB";
+              padding-right: 0.5em;
+            }
+
+            a,
+            a:visited,
+            a:active,
+            a:focus {
+              color: $light-orange;
+
+              &:hover {
+                color: $dark-orange;
+              }
+            }         
+          }
+        }
+
+        img {
+          display: block;
+          margin-bottom: 1.5em;
+          width: 100%;
+          height: auto;
+        }
+
+        p {
+          margin-top: 0;
+          margin-bottom: 0.8em;
+
+          a,
+          a:visited,
+          a:active,
+          a:focus {
+            color: $light-orange;
+
+            &:hover {
+              color: $dark-orange;
+            }
+          } 
+        }
+      }
+
+      .show-meta {
+        @include column(12,12);
+        padding: 0 1em;
+        margin-bottom: 1.5em;
+
+        h3 {
+          margin: 0.5em 0 0;
+          padding: 0.5em 0 0;
+          text-transform: uppercase;
+          letter-spacing: 0.1em;
+          color: $dark-gray;
+          border-top: 1px solid $light-gray;
+          font-size: 0.9em;
+        }
+
+        a,
+        a:visited,
+        a:active,
+        a:focus {
+          color: $light-orange;          
+          text-transform: uppercase;
+          font-family: "futura-pt", sans-serif;
+
+          &:hover {
+            color: $dark-orange;
+          }
+        } 
+
+        p {
+          margin: 0;
+          font-size: 0.8em;
+        }
+      }
+
+      .error-header,
+      .error-notes {
+        margin-top: 1em;
+        margin-bottom: 1em;
+      }
+    }
+
+    .about {
+
+      .page-header .page-title {
+        margin-bottom: 0;
+      }
+
+      .page-content {
+        padding-bottom: 2em;
+
+        img {
+          border-radius: 1em;
+          margin-top: 2em;
+        }
+
+        .person {
+          padding-bottom: 1em;
+          border-bottom: 1px solid $light-gray;
+          margin-bottom: 0.5em;
+        }
+        
+        h2 {
+          border-bottom: 0;
+          margin-bottom: 0;
+          margin-top: 1em;
+          padding-bottom: 0;
+          text-align: center;
+          font-size: 1.8em;
+        }
+
+        h3 {
+          font-family: "adobe-caslon-pro", serif;
+          font-style: italic;
+          text-transform: none;
+          margin: 0;
+          margin-bottom: 0.5em;
+          text-align: center;
+          font-size: 1.3em;
+
+        }
+
+        p {
+          margin-bottom: 0.5em;
+        }
+
+        p.intro {
+          padding-bottom: 1em;
+          border-bottom: 1px solid $light-gray;
+        }
+
+        ul.social-links {
+          margin-top: 1em;
+          text-align: center;
+
+          li {
+            display: inline-block;
+
+            &:before {
+              display: none;
+            }
+
+            a,
+            a:active,
+            a:visited,
+            a:focus {
+              display: inline-block;
+              text-indent: -10000px;
+              height: 2em;
+              width: 4em;
+              background-repeat: no-repeat;
+              background-size: 2em 2em;
+              background-position: 50% 50%;
+
+              &.twitter {
+                background-image: url("../img/twitter-light.svg");
+
+                &:hover {
+                  background-image: url("../img/twitter-dark.svg");
+                }
+              }
+
+              &.adn {
+                background-image: url("../img/adn-light.svg");
+
+                &:hover {
+                  background-image: url("../img/adn-dark.svg");
+                }
+              }
+
+              &.web {
+                background-image: url("../img/web-light.svg");
+
+                &:hover {
+                  background-image: url("../img/web-dark.svg");
+                }
+              }
+            }
+
+
+          }
+        }
+
+      }
+
+    }
+
+    #show-archive,
+    #show-taxonomy {
+      @include column(12,12);
+      padding: 1em;
+
+      h1 {
+        @include column(10,12);
+        @include push(1);
+        padding: 0;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      input[type="search"]::-webkit-search-decoration,
+      input[type="search"]::-webkit-search-cancel-button,
+      input[type="search"]::-webkit-search-results-button,
+      input[type="search"]::-webkit-search-results-decoration {
+        display: none;
+      }
+
+      input {
+        @include column(8,12);
+        @include push(2,12);
+        padding: 0.3em 0 0.2em 2.2em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        font-family: "adobe-caslon-pro", serif;
+        font-style: italic;
+        border: 1px solid $light-gray;
+        border-radius: 1em;
+        line-height: 1.8em;
+        background-image: url('../img/search.svg');
+        background-size: 1.2em 1.2em;
+        background-repeat: no-repeat;
+        background-position: 0.6em 0.6em;
+        color: $dark-gray;
+        font-size: 0.9em;
+
+        -webkit-appearance: none;
+
+        &:focus {
+          outline-color: transparent;
+          outline-style: none;
+          border-color: $light-orange;
+        }
+      }
+
+      .instructions {
+        @include column(10,12);
+        @include push(1);
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        text-align: center;
+        font-style: italic;
+        font-size: 0.9em;
+        color: $medium-gray;
+      }
+
+      ul {
+        @include column(12,12);
+        padding: 0;
+        border-bottom: 1px solid $light-gray;
+
+        li {
+          @include column(12,12);
+          padding: 0;
+          text-align: center;
+          border-top: 1px solid $light-gray;
+
+          a,
+          a:visited,
+          a:active,
+          a:focus {
+            @include column(12,12);
+            padding: 1em 0.5em;
+            color: $black;
+            border-left: 1px solid $white;
+            border-right: 1px solid $white;
+
+            &:hover {
+              background-color: $lighter-gray;
+              border-left: 1px solid $light-gray;
+              border-right: 1px solid $light-gray;
+            } 
+
+            .show-number,
+            .show-title {
+              text-transform: uppercase;
+              letter-spacing: 0.1em;
+              line-height: 1.1em;
+              margin: 0 0 0.5em;
+            }
+
+            .show-date {
+              margin: 0;
+              color: $medium-gray;
+              font-style: italic;
+            }
+
+            .summary {
+              padding: 0;
+              // font-size: 0.9em;
+              text-align: left;
+            }
+
+            .type,
+            .people,
+            .topics {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    @include column(12,12);
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0.65);
+    text-align: center;
+    color: $white;
+    font-style: italic;
+    margin-bottom: 2em;
+
+    p {
+      margin: 0;
+    }
+    
+  }
+}
+
+/* @media screen and (min-width: 520px) */
+@media screen and (min-width: 32.5em) { 
+
+  body .header {
+    a {
+      @include column(6,12);
+      @include push(3);
+      padding: 0;
+    }
+  }
+
+  body .content .show,
+  body .content .page,
+  body .content .error,
+  body .content .about {
+    
+    .show-header,
+    .show-banner,
+    .caption,
+    .show-notes,
+    .show-meta,
+    .page-header,
+    .page-content,
+    .error-header,
+    .error-banner,
+    .error-notes {
+      @include column(10,12);
+      @include push(1);
+      padding: 0;
+    }
+
+    .show-notes,
+    .show-meta,
+    .page-content,
+    .error-notes {
+      font-size: 1.1em;
+    }
+
+    .show-notes {
+      padding: 1em 0 0;
+
+    }
+  }
+
+  body .content .about {
+    .page-content {
+      padding: 1em;
+
+      .person {
+        @include column(12,12);
+        padding: 0;
+      }
+
+      img {
+        @include column(4,12);
+        padding: 0;
+        margin-top: 1em;
+        clear: both;
+        border-radius: 0.5em;
+      }
+
+      .right {
+        @include column(7,12);
+        @include push(1,12);
+        padding: 0;
+
+        h2 {
+          margin-top: 0.5em;
+          padding-bottom: 0.1em;
+          text-align: left;
+          font-size: 1.5em;
+        }
+
+        h3 {
+          text-align: left;
+          font-size: 1em;
+        }
+
+        ul.social-links {
+          text-align: left;
+          margin-top: 0;
+
+          li {
+
+            a,
+            a:visited,
+            a:active,
+            a:focus {
+              width: 2em;
+              height: 2em;
+              background-size: 1.5em 1.5em;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  body .content #show-archive,
+  body .content #show-taxonomy {
+    ul li a {
+      padding: 1em 2em;
+    }
+  }
+}
+
+/* @media screen and (min-width: 640px) */
+@media screen and (min-width: 40em) { 
+
+  body {
+    
+    .background {
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      z-index: -1;
+      background-image: url('../img/scrim.jpg');
+      background-size: cover;
+      background-position: center center;
+
+    }
+
+    .container {
+      @include column(12,12);
+      padding: 1em;
+
+    }
+  }
+
+  body .content #show-archive,
+  body .content #show-taxonomy {
+    ul li a,
+    ul li a:visited,
+    ul li a:active,
+    ul li a:focus,
+    ul li a:hover {
+      padding: 1em 4em;
+    }
+  }
+}
+
+/* @media screen and (min-width: 720px) */
+@media screen and (min-width: 45em) { 
+
+  body {
+
+    .container {
+      @include column(10,12);
+      @include push(1);
+      padding: 0;
+
+    }
+  }
+}
+
+/* @media screen and (min-width: 960px) */
+@media screen and (min-width: 60em) { 
+  @include baseline-grid(18); 
+
+  body {
+
+    .container {
+      @include column(8,12);
+      @include push(2);
+      padding: 0;
+
+    }
+  }
+}
+
+/* @media screen and (min-width: 1200px) */
+@media screen and (min-width: 75em) { 
+  @include baseline-grid(20); 
+}
+
+/* @media screen and (min-width: 1440px) */
+@media screen and (min-width: 90em) {  
+  body {
+
+    .container {
+      @include column(6,12);
+      @include push(3);
+      padding: 0;
+
+    }
+  }
+}
+
+/* @media screen and (min-width: 1760px) */
+@media screen and (min-width: 110em) { 
+  @include baseline-grid(24); 
+}
+
+/* @media screen and (min-width: 2080px) */
+@media screen and (min-width: 130em) { 
+  @include baseline-grid(28); 
+}
+
+

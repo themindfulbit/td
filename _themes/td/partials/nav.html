@@ -1,0 +1,9 @@
+<ul>
+  {{ nav from="/" max_depth="1" }}
+    <li>
+      <a href="{{ url }}"{{ if is_current }} class="current"{{ endif }}>
+        {{ title }}
+      </a>
+    </li>
+  {{ /nav }}
+</ul>

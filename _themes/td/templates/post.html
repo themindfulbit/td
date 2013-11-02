@@ -1,0 +1,47 @@
+ <div class="show">
+
+    <div class="show-header">
+      <a class="permalink" href="{{ url }}">
+        <h2 class="show-number">&minus;&nbsp;{{ number }}&nbsp;&minus;</h2>
+        <h2 class="show-title">{{ title|widont }}</h2>
+      </a>
+      <p class="show-date"> {{ datestamp format="F jS, Y" }}</p>
+      <p class="listen-links"><a href="{{ download }}">Download</a> <span class="divider">::</span> <a href="{{ subscribe_link }}">Subscribe</a></p>
+    </div>
+
+    {{ if banner }}
+      <img class="show-banner" src="{{ path src='assets/img/{{ banner }}' }}" />
+    {{ else }}
+      <img class="show-banner" src="{{ path src='assets/img/plane-wreck.jpg' }}" />
+    {{ endif }}
+
+    {{ if caption }}
+      <div class="caption">
+        {{ caption|markdown }}
+      </div>
+    {{ endif }}
+
+    <div class="show-notes">
+      {{ summary|markdown }}
+      {{ player }}
+      {{ content }}
+    </div>
+
+    <div class="show-meta">
+      {{ if type }}
+      <h3>Show Type:</h3> 
+      <p>{{ type_url_list }}</p>
+      {{ endif }}
+
+      {{ if people }}
+      <h3>People:</h3>
+      <p class="people">{{ people_url_list }}</p>
+      {{ endif }}
+      
+      {{ if topics }}
+      <h3>Topics:</h3>
+      <p class="topics">{{ topics_url_list }}</p>
+      {{ endif }}
+    </div>
+
+  </div>

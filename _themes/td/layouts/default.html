@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ _site_name }}</title>
+  <meta name = "viewport" content = "initial-scale = 1.0">
+  <link rel="stylesheet" href="{{ theme:css }}" />
+  <link rel="icon" type="image/png" href="{{ theme:img src="favicon.png" }}" />
+  <link rel="alternate" type="application/rss+xml" href="{{ _site_url }}feed" title="The Mindful Bit" />
+  <script type="text/javascript" src="//use.typekit.net/xls7rmv.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+  <div class="background"></div>
+  <div class="container">
+    <div class="nav">
+      {{ theme:partial src="nav" }}
+    </div>
+    <div class="header">
+      {{ theme:partial src="header" }}
+    </div>
+    <div class="content">
+        {{ layout_content }}
+    </div>
+    <div class="footer">
+      {{ theme:partial src="footer" }}
+    </div>
+  </div>
+</body>
+</html>
