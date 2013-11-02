@@ -4,8 +4,8 @@ title: 'Building Sustainable Businesses with Maciej Cegłowski'
 type: [interview]
 people: [Gabe Weatherhead, Erik Hess, Maciej Ceglowski]
 topics: [pinboard, funding, business, capital]
-banner: 
-caption: 
+banner: store.jpg
+caption: '[Flickr Commons](http://www.flickr.com/photos/jhsum-commons/4418716325/)'
 download: http://www.buzzsprout.com/7417/96784-038-building-sustainable-businesses-with-maciej-cegowski.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/116840610"></iframe>'
 summary: 'Gabe and Erik chat with Maciej Cegłowski, creator of Pinboard, about travel, deciding to create your own business, and helping others build their own, $37 at a time. '

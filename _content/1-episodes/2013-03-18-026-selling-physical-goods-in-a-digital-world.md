@@ -4,8 +4,8 @@ title: 'Selling Physical Goods in a Digital World'
 type: [interview]
 people: [Gabe Weatherhead, Tom Borowski]
 topics: [products, sales]
-banner: 
-caption: 
+banner: market.jpg
+caption: '[Flickr Commons](http://www.flickr.com/photos/library_of_congress/2179931106/)'
 download: http://www.buzzsprout.com/7417/82309-generational-episode-026.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117534751"></iframe>'
 summary: 'This week Tom Borowski talks with Gabe about starting a business online and selling a physical product. Tom makes the Grooveboard and he’s gone through the a lot of work to make something he loves. Now he’s selling it.'

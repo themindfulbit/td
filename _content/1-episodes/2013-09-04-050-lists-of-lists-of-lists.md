@@ -4,8 +4,8 @@ title: 'Lists of Lists of Lists'
 type: [discussion]
 people: [Gabe Weatherhead, Erik Hess]
 topics: [productivity, lists, calendars, reminders]
-banner: 
-caption: 
+banner: list.jpg
+caption: '[Flickr Commons](http://www.flickr.com/photos/state-records-nsw/5227890976/)'
 download: http://www.buzzsprout.com/7417/112383-050-lists-of-lists-of-lists.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/116541986"></iframe>'
 summary: 'Erik and Gabe take a quiet moment to reflect on how bad they are at managing lists and reminders.'

@@ -4,8 +4,8 @@ title: 'Aaron Hillegass and Teaching Experts'
 type: [interview]
 people: [Gabe Weatherhead, Aaron Hillegass]
 topics: [teaching, programming, learning]
-banner: 
-caption: 
+banner: lecture.jpg
+caption: '[Flickr Commons](http://www.flickr.com/photos/ul_digital_library/9101516254/)'
 download: http://www.buzzsprout.com/7417/83184-generational-episode-027.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117534567"></iframe>'
 summary: 'Aaron Hillegass talks with Gabe about teaching experts. Aaron has taught many of the best iOS and Mac programmers in the world and has a lot to say about the process of teaching and learning. You also get to hear Gabe sound dumb as usual. What's not to love?'

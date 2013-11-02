@@ -4,8 +4,8 @@ title: 'Developing Workflow Software with Greg Pierce'
 type: [interview]
 people: [Gabe Weatherhead, Erik Hess, Greg Pierce]
 topics: [workflows, development, ios, careers]
-banner: 
-caption: 
+banner: assembly-line.jpg
+caption: '[Flickr Commons](http://www.flickr.com/photos/sdasmarchives/8870280165/)'
 download: http://www.buzzsprout.com/7417/91760-generational-episode-034.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117545777"></iframe>'
 summary: 'Greg Pierce of Agiletortoise joins Erik and Gabe to talk about building workflows and developing for sophisticated users.'
