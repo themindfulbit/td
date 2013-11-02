@@ -4,8 +4,8 @@ title: 'Myke Hurley and Building a New Career'
 type: [interview]
 people: [Gabe Weatherhead, Erik Hess, Myke Hurley]
 topics: [podcasting, careers]
-banner: 
-caption: 
+banner: london.jpg
+caption: '[Flickr Commons](http://www.flickr.com/photos/stockholmtransportmuseum_commons/6081778421/)'
 download: http://www.buzzsprout.com/7417/85822-generational-episode-029.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117534388"></iframe>'
 summary: 'This week Myke Hurley joins Gabe and Erik to talk about building two parallel careers and preparing for the future.'

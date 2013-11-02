@@ -4,8 +4,8 @@ title: 'Periodicals in the Digital Age with Jason Snell'
 type: [interview]
 people: [Gabe Weatherhead, Erik Hess, Jason Snell]
 topics: [periodicals, editing, digital media, publishing, writing]
-banner: 
-caption: 
+banner: periodicals.jpg
+caption: '[Flickr Commons](http://www.flickr.com/photos/nypl/3109788657/)'
 download: http://www.buzzsprout.com/7417/105550-045-periodicals-in-the-digital-age-with-jason-snell.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/116769804"></iframe>'
 summary: 'Gabe and Erik are joined by Jason Snell, Editorial Director of Macworld and host of The Incomparable, to look at the evolution of writing and publishing in the internet age. Is there still a place for periodical writing when news comes and goes by the minute? How have publications handled the transition from print to digital media? How has it changed the roles of the editor and writer? Then they go offtopic to talk about their favorite sci-fi interfaces, why some work and some don't, and how they've influenced today's devices for better and worse.'
@@ -26,7 +26,7 @@ summary: 'Gabe and Erik are joined by Jason Snell, Editorial Director of Macworl
 * [Bill Atkinson on Interface Design](http://www.tuaw.com/2011/01/26/macworld-industry-forum-bill-atkinson-on-interface-design/)
 * [Samsung Smart Pause](https://www.samsung.com/global/microsite/galaxys4/lifetask.html#page=smartpause)
 * [Accelerando](http://www.antipope.org/charlie/blog-static/fiction/accelerando/accelerando.html)
-* [Sunshine](http://en.wikipedia.org/wiki/Sunshine_(2007_film\))
+* [Sunshine](http://en.wikipedia.org/wiki/Sunshine_\(2007_film\))
 * [Ansible](http://en.wikipedia.org/wiki/Ansible)
 * [Oculus Rift](http://www.oculusvr.com/)
 * [Snow Crash](http://en.wikipedia.org/wiki/Snow_crash)

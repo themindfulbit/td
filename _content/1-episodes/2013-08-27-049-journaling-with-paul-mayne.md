@@ -4,8 +4,8 @@ title: 'Journaling with Paul Mayne'
 type: [interview]
 people: [Gabe Weatherhead, Erik Hess, Paul Mayne]
 topics: [journaling, Day One]
-banner: 
-caption: 
+banner: journal.jpg
+caption: '[Flickr Commons](http://www.flickr.com/photos/99902797@N03/9736726086/)'
 download: http://www.buzzsprout.com/7417/110943-049-journaling-with-paul-mayne.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/116764048"></iframe>'
 summary: 'Paul Mayne joins Gabe and Erik to discuss how he uses a daily journal and why he created Day One. They then talk a bit about how people use Day One, the role of journaling in the modern world, and where Day One is headed in the future. Then they go off topic to ponder whether the concept of "saving" a file is dead, and if not whether we can move beyond the anachronistic floppy disk icon.'

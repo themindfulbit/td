@@ -4,8 +4,8 @@ title: 'The Evolution of Internet Media with Neha Tiwari '
 type: [interview]
 people: [Gabe Weatherhead, Erik Hess, Neha Tiwari]
 topics: [video]
-banner: 
-caption: 
+banner: filming.jpg
+caption: '[Flickr Commons](http://www.flickr.com/photos/nationaalarchief/3199096890/)'
 download: http://www.buzzsprout.com/7417/86993-generational-030-the-evolution-of-internet-media-with-neha-tiwari.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117534290"></iframe>'
 summary: 'This week Gabe and Erik are joined by Neha Tiwari. They discuss the origins of video on the web, the differences between traditional and online production and advertising, and the future of visual entertainment in a mobile, on-demand era.'

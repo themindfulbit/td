@@ -47,3 +47,17 @@
 
   </div>
 {{ /entries:listing }}
+
+{{ entries:pagination folder="episodes" limit="{home_blog_items}" }}
+  <div class="pagination">
+    {{ if previous_page }}
+        <a class="previous" href="{{ previous_page }}"><span class="arrows">&laquo;</span> Newer</a>
+    {{ else }}
+        <div class="filler">&nbsp;</div>
+    {{ endif }}
+
+    {{ if next_page }}
+        <a class="next" href="{{ next_page }}">Older <span class="arrows">&raquo;</span></a>
+    {{ endif }}
+  </div>
+{{ /entries:pagination }}

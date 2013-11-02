@@ -4,8 +4,8 @@ title: 'Crossing the Chasm Between Science and the Real World'
 type: [interview]
 people: [Gabe Weatherhead, Jason Permenter]
 topics: [volcanoes, design, science, careers]
-banner: 
-caption: 
+banner: vesuvius.jpg
+caption: '[Flickr Commons](http://www.flickr.com/photos/sdasmarchives/8092095283/)'
 download: http://www.buzzsprout.com/7417/78848-generational-episode-023.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117546144"></iframe>'
 summary: 'This week Gabe is joined by Jason Permenter, former Volcanologist and current Designer at Mule Design. They discuss crossing the chasm from science to an entirely new career in the real world. They talk about fear, anxiety, hard work and how to come out happy on other side of a life changing decision.'

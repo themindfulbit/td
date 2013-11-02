@@ -4,8 +4,8 @@ title: 'Tasks, Contexts, and Projects with Jeff Hunsberger'
 type: [interview]
 people: [Gabe Weatherhead, Jeff Hunsberger]
 topics: [gtd, contexts, tasks, projects]
-banner: 
-caption: 
+banner: overlord.jpg
+caption: '[Flickr Commons](http://www.flickr.com/photos/sdasmarchives/7211912952/)'
 download: http://www.buzzsprout.com/7417/74452-generational-episode-019.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117546592"></iframe>'
 summary: 'In this episode Jeff Hunsberger of TechnologyNotes.net talks with Gabe about contexts and projects in task management. This is episode two in a three part series about task management.'

@@ -4,8 +4,8 @@ title: 'Raising a Human'
 type: [discussion]
 people: [Gabe Weatherhead, Merlin Mann]
 topics: [parenting, comics]
-banner: 
-caption: 
+banner: snoopy.jpg
+caption: '[Flickr Commons](http://www.flickr.com/photos/usnationalarchives/4726920829/)'
 download: https://www.buzzsprout.com/7417/76688-generational-episode-021.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117546341"></iframe>'
 summary: 'This week Gabe is joined by Merlin Mann to talk about raising a kid. They talk about the fears, mistakes, and joys of raising a child and screwing them up in their own special way. The discussion ranges from death to religion to Miyazaki films.'

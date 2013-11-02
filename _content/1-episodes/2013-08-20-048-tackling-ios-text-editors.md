@@ -4,8 +4,8 @@ title: 'Tackling iOS Text Editors'
 type: [discussion]
 people: [Gabe Weatherhead, Erik Hess]
 topics: [text editors, iOS, productivity, keyboards]
-banner: 
-caption: 
+banner: type-japan.jpg
+caption: '[Flickr Commons](http://www.flickr.com/photos/nationaalarchief/3774886804/)'
 download: http://www.buzzsprout.com/7417/109484-048-tackling-ios-text-editors.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/116764969"></iframe>'
 summary: 'Gabe and Erik throw caution to the wind and discuss the wide world of iOS text editors. They touch on the tools they use and the things they look for in text editing apps on iOS. Then they go through some of the bigger names in the field before picking their favorites.'
