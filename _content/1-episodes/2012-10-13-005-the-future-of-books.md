@@ -4,8 +4,8 @@ title: 'The Future of Books'
 type: [panel]
 people: [Gabe Weatherhead, Yuvi Zalkow, Michael Schechter]
 topics: [books, reading]
-banner: 
-caption: 
+banner: illuminated.jpg
+caption: '[Flickr Commons](http://www.flickr.com/photos/nationalarchives/3752393114/)'
 download: http://www.buzzsprout.com/7417/62672-generational-episode-005.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117548413"></iframe>'
 summary: 'Yuvi Zalkow, Michael Schechter and Gabe spend 90 minutes talking about the past, present and future of books and reading.'

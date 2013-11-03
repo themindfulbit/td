@@ -4,8 +4,8 @@ title: 'Being the IT Help Center'
 type: [discussion]
 people: [Gabe Weatherhead, David Sparks]
 topics: [support, family, education]
-banner: 
-caption: 
+banner: dog.jpg
+caption: '[Flickr Commons](http://www.flickr.com/photos/statelibraryofnsw/3210838977/)'
 download: http://www.buzzsprout.com/7417/59207-generational-episode-001.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117548766"></iframe>'
 summary: 'In this inaugural episode Gabe talks with David Sparks about how to help new and inexperienced computer users. They discuss how to provide the right help, teaching best practices and getting a new user up and running. They also talk about David's approach to writing a guide aimed at all levels of experience.'

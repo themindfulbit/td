@@ -4,8 +4,8 @@ title: 'The Home Office, Motivation and Poop Jokes'
 type: [interview]
 people: [Gabe Weatherhead, Brett Kelly]
 topics: [home office, motivation, remote work]
-banner: 
-caption: 
+banner: home-office.jpg
+caption: '[Flickr Commons](http://www.flickr.com/photos/library_of_congress/2179185708/)'
 download: http://www.buzzsprout.com/7417/68035-generational-episode-012.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117547652"></iframe>'
 summary: 'Gabe has a highly scatological discussion with Brett Kelly about the home office, self motivation and working remotely. This episode also holds the distinction of being the first profanity bleeped in the series. All around, this was great fun.'
