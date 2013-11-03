@@ -448,6 +448,14 @@ body {
           font-size: 1.8em;
         }
 
+        .site {
+
+          h2 {
+            margin-bottom: 0.5em;
+            font-size: 1.6em;
+          }
+        }
+
         h3 {
           font-family: "adobe-caslon-pro", serif;
           font-style: italic;
@@ -710,6 +718,12 @@ body {
       .person {
         @include column(12,12);
         padding: 0;
+      }
+
+      .site {
+        @include column(12,12);
+        padding: 0 0 2em;
+
       }
 
       img {
