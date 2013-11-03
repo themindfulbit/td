@@ -45,3 +45,17 @@
     </div>
 
   </div>
+
+  <div class="pagination">
+    {{ if prev }}
+        <a class="previous" href="{{ prev }}"><span class="arrows">&laquo;</span> Newer</a>
+    {{ else }}
+        <div class="filler">&nbsp;</div>
+    {{ endif }}
+
+        <a class="search" href="/episodes">Search</a>
+
+    {{ if next }}
+        <a class="next" href="{{ next }}">Older <span class="arrows">&raquo;</span></a>
+    {{ endif }}
+  </div>
