@@ -107,6 +107,7 @@ _environments:
     - '*.localip'
   live:
     - '*.com'
+    - '*.us'
 
 # Set to 'true' if you want to log system messages
 _log_enabled: false
