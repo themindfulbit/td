@@ -25,7 +25,7 @@ _site_name: Technical Difficulties
 _content_root: _content
 
 # Used for permalinks
-_site_url: http://technicaldifficulties.us
+_site_url: http://technicaldifficulties.us/
 
 # Folder name of your desired theme
 _theme: td
@@ -103,7 +103,7 @@ _fix_out_of_range_pagination: true
 _environments:
   dev:
     - 'http://localhost*'
-    - '*.dev'
+    - '*.dev:8888'
     - '*.localip'
   live:
     - '*.com'
