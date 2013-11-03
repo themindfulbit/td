@@ -4,8 +4,8 @@ title: 'NaNoWriMo and the Writing Process'
 type: [interview]
 people: [Gabe Weatherhead, Aaron Mahnke]
 topics: [writing]
-banner: 
-caption: 
+banner: writer.jpg
+caption: '[Flickr Commons](http://www.flickr.com/photos/nationalmediamuseum/7893553148/)'
 download: http://www.buzzsprout.com/7417/64231-generational-episode-007.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117548167"></iframe>'
 summary: 'Aaron Mahnke and I discuss his writing experience. We go in depth on the writing process and National Novel Writing Month with sweeping discussion of Tolkein and Vonnegut.'

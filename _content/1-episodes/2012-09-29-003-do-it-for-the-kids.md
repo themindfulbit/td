@@ -4,8 +4,8 @@ title: 'Do it for the Kids'
 type: [discussion]
 people: [Gabe Weatherhead, Nate Boateng]
 topics: [children, parenting, technology]
-banner: 
-caption: 
+banner: kids.jpg
+caption: '[Flickr Commons](http://www.flickr.com/photos/mennonitechurchusa-archives/7067898183/)'
 download: http://www.buzzsprout.com/7417/61193-generational-episode-003.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117548560"></iframe>'
 summary: 'Nate Boateng sits down to talk about raising kids in an always-on world of technology. They talk about setting rules, monitoring activity and the general challenges of being a parent.'

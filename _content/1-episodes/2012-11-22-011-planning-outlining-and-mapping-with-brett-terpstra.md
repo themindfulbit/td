@@ -4,8 +4,8 @@ title: 'Planning, Outlining, and Mapping with Brett Terpstra'
 type: [discussion]
 people: [Gabe Weatherhead, Brett Terpstra]
 topics: [planning, outlining, context maps]
-banner: 
-caption: 
+banner: stairway.jpg
+caption: '[Flickr Commons](http://www.flickr.com/photos/cornelluniversitylibrary/3678919842/)'
 download: http://www.buzzsprout.com/7417/67203-generational-episode-011.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117547644"></iframe>'
 summary: 'In this episode Brett Terpstra talks about outlining, planning and context maps. Gabe and Brett examine their workflows and goals as well as a bevy of applications.'

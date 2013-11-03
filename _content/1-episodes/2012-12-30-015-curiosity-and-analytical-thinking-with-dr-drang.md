@@ -4,8 +4,8 @@ title: 'Curiosity and Analytical Thinking with Dr. Drang'
 type: [interview]
 people: [Gabe Weatherhead, Dr. Drang]
 topics: [analytical thinking, curiosity, engineers, scripting]
-banner: 
-caption: 
+banner: tacoma.jpg
+caption: '[Flickr Commons](http://www.flickr.com/photos/uw_digital_images/4861196144/)'
 download: http://www.buzzsprout.com/7417/70914-generational-episode-015.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117546926"></iframe>'
 summary: 'In this episode, we're turtles all the way down. Gabe talks with Dr. Drang about analytical thinking, curiosity, "real" engineers, and Mac scripting'
