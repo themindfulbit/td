@@ -2858,7 +2858,6 @@ body .content .pagination .search {
   font-family: "futura-pt", sans-serif;
   color: #cccccc;
   text-transform: uppercase;
-  border: 1px dotted #fafafa;
 }
 /* line 611, ../sass/td.scss */
 body .content .pagination .previous .arrows,
@@ -2872,8 +2871,8 @@ body .content .pagination .search .arrows {
 body .content .pagination .previous:hover,
 body .content .pagination .next:hover,
 body .content .pagination .search:hover {
+  background-color: #f0f0f0;
   color: #ff8600;
-  border: 1px dotted #cccccc;
 }
 /* line 627, ../sass/td.scss */
 body .content .about .page-header .page-title {
