@@ -1027,6 +1027,17 @@ body {
       &:last-of-type {
         margin: 0 0 0.5em;
       }
+
+      a,
+      a:visited,
+      a:focus,
+      a:active {
+        color: $yellow;
+
+        &:hover {
+          color: $light-orange;
+        }
+      }
     }
     
   }
