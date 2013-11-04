@@ -606,7 +606,7 @@ body {
         font-family: "futura-pt", sans-serif;
         color: $light-gray;
         text-transform: uppercase;
-        border: 1px dotted $white;
+        // border: 1px dotted $white;
 
         .arrows {
           display: inline-block;
@@ -615,9 +615,9 @@ body {
         }
 
         &:hover {
-          // background-color: $light-gray;
+          background-color: $lightest-gray;
           color: $light-orange;
-          border: 1px dotted $light-gray;
+          // border: 1px dotted $light-gray;
         }
       }
     }
