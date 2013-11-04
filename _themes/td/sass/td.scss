@@ -583,19 +583,10 @@ body {
       }
 
       .previous,
-      .filler {
-        @include column(3,12);
-        @include push(1,12);
-        text-align: center;
-      }
-
-      .search {
-        @include column(4,12);
-        text-align: center;
-      }
-
+      .filler,
+      .search,
       .next {
-        @include column(3,12);
+        @include column(4,12);
         text-align: center;
       }
 
@@ -1091,7 +1082,20 @@ body {
     }
   }
 
+  body .content .pagination {
 
+    .prev,
+    .filler {
+      @include column(3,12);
+      @include push(1);
+      padding: 0.5em;
+    }
+
+    .next {
+      @include column(3,12);
+      padding: 0.5em;
+    }
+  }
 
   body .content #show-archive,
   body .content #show-taxonomy {
