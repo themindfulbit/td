@@ -15,6 +15,14 @@ $(document).ready(function(){
 </script>
 
 <div id="show-archive">
+  <ul class="toggle">
+    <li>
+     <a class="browser active" href="{{ _site_url }}browser">Browser</a>
+    </li>
+    <li>
+     <a class="list" href="{{ _site_url }}episodes">list</a>
+    </li>
+  </ul> 
   <h1>Episode Browser</h1>
   <input class="search" placeholder="Search Shows">
   <p class="instructions">You can search by show number, name, date, summary, type, people, or topic.</p>
