@@ -1,4 +1,10 @@
 <ul>
+  	<li class="extras">
+  	 <a class="browser" href="{{ _site_url }}browser">Browser</a>
+  	</li>  	
+  	<li class="extras">
+  	 <a class="rss" href="{{ _site_url }}feed">RSS</a>
+  	</li>
   {{ nav from="/" max_depth="1" }}
     <li>
       <a href="{{ url }}"{{ if is_current }} class="current"{{ endif }}>
@@ -6,9 +12,6 @@
       </a>
     </li>
   {{ /nav }}
-  	<li class="extras">
-  	 <a class="rss" href="{{ _site_url }}feed">RSS</a>
-  	</li>
   	<li class="extras">
   	 <a class="twitter" class="rss" href="http://twitter.com/techdiffpodcast">Twitter</a>
   	</li>

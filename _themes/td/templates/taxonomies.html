@@ -19,17 +19,17 @@ $(document).ready(function(){
   <h1>Episodes with: {{ taxonomy_slug|deslugify }} </h1>
   <input class="search" placeholder="Search Shows">
   <p class="instructions">You can refine your search by show number, name, date, summary, type, people, or topic.</p>
-  <ul class="list image-list">
+  <ul class="list text-list">
     {{ entries:listing folder="episodes" taxonomy="true" }}
+      {{ if no_results }}
+        {{ redirect url="/404" }}
+      {{ else }}
       <li>
         <a class="permalink" href="{{ url }}">
-          {{ theme:partial src="transform" title="" file="{{ banner }}" }}
-          <h2 class="show-number">{{ number }}</h2>
-          <div class="show-info">
-            <h2 class="show-title"> {{ title|widont }}</h2>
-            <div class="show-date"> {{ datestamp format="F jS, Y" }}</div>
-          </div>
-          <p class="summary">{{ summary|markdown }}</p>
+          <h2 class="show-number">&minus;&nbsp;{{ number }}&nbsp;&minus;</h2>
+          <h2 class="show-title"> {{ title|widont }}</h2>
+          <p class="show-date"> {{ datestamp format="F jS, Y" }}</p>
+          <p class="summary">{{ summary }}</p>
           {{ if type }}
             <p class="type">{{ type_list }}</p>
           {{ endif }}
@@ -43,6 +43,7 @@ $(document).ready(function(){
           {{ endif }}
         </a>
       </li>
+      {{ endif }}
     {{ /entries:listing }}
   </ul>
 </div>
