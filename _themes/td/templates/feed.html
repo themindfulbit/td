@@ -24,10 +24,7 @@
   <item>
     <title>{{ number }} - {{ title }}</title>
     <guid>{{ permalink }}</guid>
-    <description><![CDATA[{{ summary|markdown}}{{ content }}]]></description>
-    <itunes:author>Technical Difficulties</itunes:author>
-    <itunes:explicit>no</itunes:explicit>
-    <itunes:summary>{{ summary }}</itunes:summary>
+    <description><![CDATA[{{ if banner }}<img class="show-banner" src="{{ path src='assets/img/{{ banner }}' }}" />{{ endif }}{{ if caption }}<div class="caption">{{ caption|markdown }}</div>{{ endif }}{{ summary|markdown}}{{ player }}{{ content }}]]></description>
     <pubDate>{{ datestamp format="r" }}</pubDate>
     <itunes:image href="http://technicaldifficulties.us/assets/img/itunes-icon.png" />
     <enclosure url="{{ download }}" type="audio/mpeg" />

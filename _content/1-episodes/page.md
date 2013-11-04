@@ -1,4 +1,4 @@
 ---
 title: Episodes
-_template: ep-test
+_template: episodes
 ---
