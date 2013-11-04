@@ -585,12 +585,12 @@ body {
       .previous,
       .filler {
         @include column(3,12);
-        @include push(1.5,12);
+        @include push(1,12);
         text-align: center;
       }
 
       .search {
-        @include column(3,12);
+        @include column(4,12);
         text-align: center;
       }
 
