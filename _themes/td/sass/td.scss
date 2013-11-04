@@ -796,6 +796,45 @@ body {
         color: $medium-gray;
       }
 
+      #ep-toggle {
+        @include column(4,12);
+        @include push(4);
+        padding: 0;
+        margin-top: 0.3em;
+        margin-bottom: 0;
+        text-align: center;
+
+        li {
+          display: inline-block;
+          text-indent: -10000px;
+          height: 1.5em;
+          width: 1.5em;
+          background-repeat: no-repeat;
+          background-size: 1.2em 1.2em;
+          background-position: 50% 50%;
+
+          &#ep-browser {
+            background-image: url("../img/episodes-light.svg");
+
+            &:hover,
+            &.active {
+              background-image: url("../img/episodes-dark.svg");
+              cursor: pointer;
+            }
+          }
+
+          &#ep-list {
+            background-image: url("../img/list-light.svg");
+
+            &:hover,
+            &.active {
+              background-image: url("../img/list-dark.svg");
+              cursor: pointer;
+            }
+          }
+        }
+      }
+
       ul.text-list {
         @include column(12,12);
         padding: 0;
@@ -822,6 +861,10 @@ body {
               border-left: 1px solid $light-gray;
               border-right: 1px solid $light-gray;
             } 
+
+            .show-banner {
+              display: none;
+            }
 
             .show-number,
             .show-title {
@@ -896,6 +939,10 @@ body {
               color: $white;
               margin: 0;
               padding: 0.1em 0.2em;
+
+              .ticks {
+                display: none;
+              }
             }
 
             .show-info {
