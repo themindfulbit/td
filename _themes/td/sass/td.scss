@@ -180,6 +180,7 @@ body {
           letter-spacing: 0.1em;
 
           &.show-number {
+            margin-top: 0;
             margin-bottom: 0;
           }
 
@@ -570,8 +571,15 @@ body {
     .pagination {
       @include column(12,12);
       padding: 0;
-      margin-top: 1em;
-      margin-bottom: 2em;
+
+      &.top {
+        margin-top: 1em;
+      }
+
+      &.bottom {
+        margin-top: 1em;
+        margin-bottom: 2em;
+      }
 
       .previous,
       .filler {
@@ -957,8 +965,12 @@ body {
     font-style: italic;
     margin-bottom: 2em;
 
+    .nav {
+      font-style: normal;
+    }
+
     p {
-      margin: 0;
+      margin: 0.5em 0 0;
     }
     
   }
@@ -993,6 +1005,10 @@ body {
       @include column(10,12);
       @include push(1);
       padding: 0;
+    }
+
+    .show-header h2.show-number {
+      margin-top: 0.5em;
     }
 
     .show-notes,

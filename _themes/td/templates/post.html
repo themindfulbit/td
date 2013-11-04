@@ -1,3 +1,17 @@
+<div class="pagination top">
+  {{ if prev }}
+      <a class="previous" href="{{ prev }}"><span class="arrows">&laquo;</span> Newer</a>
+  {{ else }}
+      <div class="filler">&nbsp;</div>
+  {{ endif }}
+
+      <a class="search" href="/episodes">Episodes</a>
+
+  {{ if next }}
+      <a class="next" href="{{ next }}">Older <span class="arrows">&raquo;</span></a>
+  {{ endif }}
+</div>
+
  <div class="show">
 
     <div class="show-header">
@@ -46,7 +60,7 @@
 
   </div>
 
-  <div class="pagination">
+  <div class="pagination bottom">
     {{ if prev }}
         <a class="previous" href="{{ prev }}"><span class="arrows">&laquo;</span> Newer</a>
     {{ else }}
