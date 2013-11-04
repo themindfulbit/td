@@ -2823,14 +2823,14 @@ body .content .pagination .filler {
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-  margin-left: 12.5%;
+  margin-left: 8.33333%;
   text-align: center;
 }
 /* line 592, ../sass/td.scss */
 body .content .pagination .search {
   display: block;
   float: left;
-  width: 25%;
+  width: 33.33333%;
   padding: 0 0.75em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
