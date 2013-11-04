@@ -856,6 +856,7 @@ body {
             color: $black;
             border-left: 1px solid $white;
             border-right: 1px solid $white;
+            overflow: hidden;
 
             &:hover {
               background-color: $lighter-gray;
@@ -919,6 +920,7 @@ body {
             color: $black;
             background-color: $black;
             position: relative;
+            overflow: hidden;
             // border-left: 1px solid $white;
             // border-right: 1px solid $white;
 
@@ -940,6 +942,8 @@ body {
               color: $white;
               margin: 0;
               padding: 0.1em 0.2em;
+              overflow: hidden;
+
 
               .ticks {
                 display: none;
@@ -1022,6 +1026,17 @@ body {
 
       &:last-of-type {
         margin: 0 0 0.5em;
+      }
+
+      a,
+      a:visited,
+      a:focus,
+      a:active {
+        color: $yellow;
+
+        &:hover {
+          color: $light-orange;
+        }
       }
     }
     
