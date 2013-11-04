@@ -8,6 +8,7 @@
 @import "compass/css3/hyphenation";
 @import "compass/css3/columns";
 @import "compass/css3/box-shadow";
+@import "compass/css3/opacity";
 @import "takitapart/normalize";
 @import "takitapart/typography";
 @import "takitapart/grid";
@@ -778,51 +779,113 @@ body {
         color: $medium-gray;
       }
 
-      ul {
+      // ul {
+      //   @include column(12,12);
+      //   padding: 0;
+      //   border-bottom: 1px solid $light-gray;
+
+      //   li {
+      //     @include column(12,12);
+      //     padding: 0;
+      //     text-align: center;
+      //     border-top: 1px solid $light-gray;
+
+      //     a,
+      //     a:visited,
+      //     a:active,
+      //     a:focus {
+      //       @include column(12,12);
+      //       padding: 1em 0.5em;
+      //       color: $black;
+      //       border-left: 1px solid $white;
+      //       border-right: 1px solid $white;
+
+      //       &:hover {
+      //         background-color: $lighter-gray;
+      //         border-left: 1px solid $light-gray;
+      //         border-right: 1px solid $light-gray;
+      //       } 
+
+      //       .show-number,
+      //       .show-title {
+      //         text-transform: uppercase;
+      //         letter-spacing: 0.1em;
+      //         line-height: 1.1em;
+      //         margin: 0 0 0.5em;
+      //       }
+
+      //       .show-date {
+      //         margin: 0;
+      //         color: $medium-gray;
+      //         font-style: italic;
+      //       }
+
+      //       .summary {
+      //         padding: 0;
+      //         // font-size: 0.9em;
+      //         text-align: left;
+      //       }
+
+      //       .type,
+      //       .people,
+      //       .topics {
+      //         display: none;
+      //       }
+      //     }
+      //   }
+      // }
+
+      ul.image-list {
         @include column(12,12);
         padding: 0;
-        border-bottom: 1px solid $light-gray;
+        // border-bottom: 1px solid $light-gray;
 
         li {
           @include column(12,12);
           padding: 0;
           text-align: center;
-          border-top: 1px solid $light-gray;
+          // border-top: 1px solid $light-gray;
 
           a,
           a:visited,
           a:active,
           a:focus {
             @include column(12,12);
-            padding: 1em 0.5em;
+            padding: 0;
+            // padding: 1em 0.5em;
             color: $black;
-            border-left: 1px solid $white;
-            border-right: 1px solid $white;
+            background-color: $black;
+            position: relative;
+            // border-left: 1px solid $white;
+            // border-right: 1px solid $white;
 
-            &:hover {
-              background-color: $lighter-gray;
-              border-left: 1px solid $light-gray;
-              border-right: 1px solid $light-gray;
+            .show-banner {
+              width: 100%;
+              height: 250px;
+              margin: 0 auto;
+              background-size: cover;
+              background-position: 50% 50%;
             } 
 
-            .show-number,
-            .show-title {
-              text-transform: uppercase;
-              letter-spacing: 0.1em;
-              line-height: 1.1em;
-              margin: 0 0 0.5em;
-            }
-
-            .show-date {
+            .show-number {
+              position: absolute;
+              top: 0;
+              right: 0;
+              font-size: 3em;
+              font-weight: bold;
+              background-color: rgba(0,0,0,0.3);
+              color: $white;
               margin: 0;
-              color: $medium-gray;
-              font-style: italic;
+              padding: 0.1em 0.2em;
             }
 
+            .show-info {
+              display: none;
+            }
+
+            p,
             .summary {
-              padding: 0;
-              // font-size: 0.9em;
-              text-align: left;
+              display: none;
             }
 
             .type,
@@ -830,9 +893,47 @@ body {
             .topics {
               display: none;
             }
+
+            &:hover {
+              
+              background-color: $black;
+              // border-left: 1px solid $light-gray;
+              // border-right: 1px solid $light-gray;
+
+              .show-banner {
+                @include opacity(0.3);
+              }
+
+              .show-number {
+                background-color: transparent;
+              }
+
+              .show-info {
+                display: block;
+                position: absolute;
+                bottom: 2em;
+                left: 1em;
+                text-align: left;
+              }
+
+              .show-title {
+                color: $white;
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                line-height: 1.1em;
+                margin: 0 0 0.1em;
+              }
+
+              .show-date {
+                margin: 0;
+                color: $white;
+                font-style: italic;
+              }
+            }
           }
         }
       }
+
     }
   }
 
@@ -893,6 +994,36 @@ body {
     .show-notes {
       padding: 1em 0 0;
 
+    }
+  }
+
+
+
+  body .content #show-archive,
+  body .content #show-taxonomy {
+
+    ul.image-list {
+
+      li {
+        @include column(6,12);
+        padding: 0;
+
+        a,
+        a:visited,
+        a:focus,
+        a:active,
+        a:hover {
+          padding: 0;
+
+          .show-number {
+            font-size: 2.5em;
+          }
+
+          .show-info {
+            font-size: 0.8em;
+          }
+        }
+      }
     }
   }
 
@@ -1047,6 +1178,31 @@ body {
       @include push(3);
       padding: 0;
 
+    }
+  }
+
+  body .content #show-archive,
+  body .content #show-taxonomy {
+
+    ul.image-list {
+
+      li {
+
+        a,
+        a:visited,
+        a:focus,
+        a:active,
+        a:hover {
+
+          .show-number {
+            font-size: 2.5em;
+          }
+
+          .show-info {
+            font-size: 0.7em;
+          }
+        }
+      }
     }
   }
 }
