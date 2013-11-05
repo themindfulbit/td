@@ -105,6 +105,9 @@ _environments:
     - 'http://localhost*'
     - '*.dev:8888'
     - '*.localip'
+  c9:
+    - 'https://tdshow-c9-themindfulbit.c9.io'
+
   live:
     - '*.com'
     - '*.us'
