@@ -3,7 +3,6 @@
   <title>Technical Difficulties</title>
   <link>http://technicaldifficulties.us</link>
   <language>en-us</language>
-  <description>Like a normal tech podcast, but broken</description>
   <copyright>Gabe Weatherhead and Erik Hess</copyright>
   <itunes:owner>
     <itunes:email>erik@themindfulbit.com</itunes:email>
@@ -11,6 +10,7 @@
   </itunes:owner>
   <itunes:author>Technical Difficulties</itunes:author>
   <itunes:explicit>no</itunes:explicit>
+  <itunes:new-feed-url>http://technicaldifficulties.us/itunes</itunes:new-feed-url>
   <itunes:image href="http://technicaldifficulties.us/assets/img/itunes-icon.png" />
   <itunes:keywords>Macdrifter,TheMindfulBit,Gabe,Erik,Technology,Security,Apple,Mac,iOS,Family,Parenting,Writing,Hardware,Social</itunes:keywords>
   <itunes:subtitle>Like a normal tech podcast, but broken.</itunes:subtitle>
@@ -23,14 +23,15 @@
   {{ entries:listing folder="episodes" limit="10" }}
   <item>
     <title>{{ number }} - {{ title }}</title>
-    <guid>{{ permalink }}</guid>
+    <link>{{ permalink }}</link>
+    <guid isPermaLink="true">{{ permalink }}</guid>
     <description><![CDATA[{{ summary|markdown}}<p><a href="{{ permalink }}">View this episode's show notes (with images) on the Technical Difficulties website.</a></p>{{ content }}]]></description>
     <itunes:author>Technical Difficulties</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:summary>{{ summary }}</itunes:summary>
     <pubDate>{{ datestamp format="r" }}</pubDate>
     <itunes:image href="http://technicaldifficulties.us/assets/img/itunes-icon.png" />
-    <enclosure url="{{ download }}" type="audio/mpeg" />
+    <enclosure url="{{ download }}" length="0" type="audio/mpeg" />
   </item>
   {{ /entries:listing }}
 
