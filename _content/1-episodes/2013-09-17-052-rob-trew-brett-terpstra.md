@@ -5,7 +5,7 @@ type: [panel]
 people: [Gabe Weatherhead, Brett Terpstra, Rob Trew]
 topics: [code, AppleScript]
 banner: census.jpg
-caption: '[Flickr Commons](http://www.flickr.com/photos/usnationalarchives/3903231183/)'
+caption: '[US National Archives](http://www.flickr.com/photos/usnationalarchives/3903231183/)'
 download: http://www.buzzsprout.com/7417/115644-052a-rob-trew-and-brett-terpstra-talk-code-fixed.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/116535837"></iframe>'
 summary: 'With Erik on vacation, Gabe chats with Rob Trew and Brett Terpstra about writing code. They talk about how they got started, why they code, and their favorite tools. Be sure to listen in after the closing music for a special post-show continuation of the discussion.'
