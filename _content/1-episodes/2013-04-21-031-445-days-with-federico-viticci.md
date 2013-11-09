@@ -1,6 +1,6 @@
 ---
 number: '031'
-title: '445 Days with Federico Viticci: &ldquo;I'm just some guy that reads Twitter&rdquo;'
+title: '445 Days with Federico Viticci: "I'm just some guy that reads Twitter"'
 type: [interview]
 people: [Gabe Weatherhead, Erik Hess, Federico Viticci]
 topics: [cancer, ipad, careers]

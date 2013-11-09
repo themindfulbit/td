@@ -1,6 +1,6 @@
 ---
 number: '004'
-title: 'The Zymurgist&rsquo;s Dilemma'
+title: 'The Zymurgist's Dilemma'
 type: [interview]
 people: [Gabe Weatherhead, Ken Weingold]
 topics: [beer]
