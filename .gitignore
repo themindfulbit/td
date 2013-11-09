@@ -1,3 +1,5 @@
 /_config/environments/*
 /_cache/*
 .htaccess
+/_config/users/*
+!/_config/users/index.html
