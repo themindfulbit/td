@@ -1,0 +1,38 @@
+<channel>
+
+  <title>Technical Difficulties Podcast</title>
+  <link>http://technicaldifficulties.us/episodes</link>
+  <language>en-us</language>
+  <copyright>Gabe Weatherhead and Erik Hess</copyright>
+  <itunes:owner>
+    <itunes:email>erik@themindfulbit.com</itunes:email>
+    <itunes:name>Technical Difficulties</itunes:name>
+  </itunes:owner>
+  <itunes:author>Technical Difficulties</itunes:author>
+  <itunes:explicit>no</itunes:explicit>
+  <itunes:new-feed-url>http://technicaldifficulties.us/itunes</itunes:new-feed-url>
+  <itunes:image href="http://technicaldifficulties.us/assets/img/itunes-icon.png" />
+  <itunes:keywords>Macdrifter,TheMindfulBit,Gabe,Erik,Technology,Security,Apple,Mac,iOS,Family,Parenting,Writing,Hardware,Social</itunes:keywords>
+  <itunes:subtitle>Like a normal tech podcast, but broken.</itunes:subtitle>
+  <itunes:summary>Technical Difficulties is a weekly podcast exploring the often perplexing and broken world of technology, design, and related disciplines. Hosted by Gabe Weatherhead and Erik Hess</itunes:summary>
+  <description>Technical Difficulties is a weekly podcast exploring the often perplexing and broken world of technology, design, and related disciplines. Hosted by Gabe Weatherhead and Erik Hess</description>
+  <itunes:block>yes</itunes:block>
+  <itunes:category text="Technology" />
+  <admin:generatorAgent rdf:resource="http://technicaldifficulties.us/" />
+
+  {{ entries:listing folder="episodes" }}
+  <item>
+    <title>{{ number }} - {{ title }}</title>
+    <link>{{ permalink }}</link>
+    <guid isPermaLink="true">{{ permalink }}</guid>
+    <description><![CDATA[{{ summary }}<p><a href="{{ permalink }}">View this episode's show notes (with images) on the Technical Difficulties website.</a></p>{{ content }}]]></description>
+    <itunes:author>Technical Difficulties</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:summary>{{ summary }}</itunes:summary>
+    <pubDate>{{ datestamp format="r" }}</pubDate>
+    <itunes:image href="http://technicaldifficulties.us/assets/img/itunes-icon.png" />
+    <enclosure url="{{ download }}" length="0" type="audio/mpeg" />
+  </item>
+  {{ /entries:listing }}
+
+</channel>
