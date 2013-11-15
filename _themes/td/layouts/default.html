@@ -5,10 +5,20 @@
   <title>{{ _site_name }}</title>
   <meta name = "viewport" content = "initial-scale = 1.0">
   <link rel="stylesheet" href="{{ theme:css }}" />
+  <link rel="stylesheet" href="{{ theme:css src="jquery.fancybox.css"}}" type="text/css" media="screen" />
   <link rel="icon" type="image/png" href="{{ theme:img src="favicon.png" }}" />
-  <link rel="alternate" type="application/rss+xml" href="{{ _site_url }}feed" title="The Mindful Bit" />
+  <link rel="alternate" type="application/rss+xml" href="{{ _site_url }}feed" title="Technical Difficulties" />
   <script type="text/javascript" src="//use.typekit.net/xls7rmv.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script type="text/javascript" src="{{ theme:js src="jquery.fancybox.pack.js"}}"></script>
+  <script type="text/javascript">
+
+    $(document).ready(function(){
+      $(".fancybox").fancybox();
+    });
+
+  </script>
 </head>
 <body>
   <div class="background"></div>

@@ -299,6 +299,7 @@ body {
         }
 
         h3 {
+          margin-top: 1.5em;
           font-size: 1.2em;
         }
 
@@ -314,14 +315,46 @@ body {
           font-size: 0.9em;
         }
 
+        .timestamp {
+          background-color: $lightest-gray;
+          padding: 0.5em 1em;
+          font-family: "futura-pt", sans-serif;
+          text-transform: uppercase;
+          font-size: 0.8em;
+          margin-bottom: 0.8em;
+
+          a,
+          a:visited,
+          a:active,
+          a:focus {
+            color: $light-orange;
+
+            &:hover {
+              color: $dark-orange;
+            }
+          }
+
+
+
+        }
+
         blockquote,
         address {
-          border-left: 0.2em solid $lighter-gray;
-          margin-left: 0;
-          margin-bottom: 0.8em;
-          padding-top: 0.5em;
-          padding-left: 1em;
+          background-color: $lighter-gray;
+          border-radius: 0.5em;
+          padding: 1em 1em 0.5em;
           font-size: 0.9em;
+          margin: 0 0 1em 0;
+          
+          h4 {
+            background-image: url(../img/potatowire.png);
+            background-repeat: no-repeat;
+            background-size: auto 2em;
+            background-position: left top;
+            padding: 0.4em 0 1em 2.5em;
+            line-height: 1em;
+            margin-bottom: 0.5em;
+          }
         }
 
         table {
@@ -1078,6 +1111,16 @@ body {
 
     .show-notes {
       padding: 1em 0 0;
+
+      .timestamp a {
+        float: right;
+      }
+
+      blockquote {
+        padding: 1.5em 2em 1em;
+        margin-bottom: 2em;
+
+      }
 
     }
   }
