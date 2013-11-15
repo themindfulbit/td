@@ -42,7 +42,10 @@ summary: 'Gabe and Erik take a hard look at what it takes to wire your house for
 > As Gabe says, it probably doesn't matter. Still, considering the minimal added cost, Cat 6 is probably a smart bet. The bumper sticker version is that, "compared with Cat 5 and Cat 5e, Cat 6 features more stringent specifications for crosstalk and system noise." 
 
 * Fun term of the day? [Alien crosstalk](http://en.wikipedia.org/wiki/Alien_crosstalk)
-* A punchdown in [action](http://www.youtube.com/watch?v=cCFQJV0Kr7U#t=176)
+* A punchdown in action:
+
+<iframe width="960" height="720" src="//www.youtube.com/embed/cCFQJV0Kr7U?start=176" frameborder="0" allowfullscreen></iframe>
+
 * Ethernet [configuration](http://en.wikipedia.org/wiki/T568A/B#Wiring)
 * Solid vs. Stranded wires
 
@@ -57,10 +60,14 @@ summary: 'Gabe and Erik take a hard look at what it takes to wire your house for
 > 
 > Snip them square, then push the plug forward slightly to cover the ends, and crimp. Maybe just buy the [patch cables](http://www.amazon.com/Cable-Matters-5-Pack-Snagless-Ethernet/dp/B00C2B81K6/)... I will next time.
 > 
-> There are many options when it comes to wiring up the wall ports, but I think the best is to use [keystone modules](http://en.wikipedia.org/wiki/Keystone_module). These provide a way to mount a variety of standardized low-voltage plugs to a wall mount. These modules fit into mounts like these:  
+> There are many options when it comes to wiring up the wall ports, but I think the best is to use [keystone modules](http://en.wikipedia.org/wiki/Keystone_module). 
 > 
 > {{ theme:partial src="image" show="{{ number }}" title="Keystone Modules" file="keystone_modules.jpg" }}
+>
+> These provide a way to mount a variety of standardized low-voltage plugs to a wall mount. These modules fit into mounts like these:  
 > 
+> {{ theme:partial src="image" show="{{ number }}" title="Keystone Modules" file="keystone_mount.jpg" }}
+>
 > They attach to either a [single ](http://www.lowes.com/Electrical/Electrical-Boxes-Covers/Electrical-Boxes/_/N-1z0xc7b/pl?Ns=p_product_qty_sales_dollar|1#!&N%5B%5D=1z0xc7b&N%5B%5D=1z10wg4)or [double](http://www.lowes.com/Electrical/Electrical-Boxes-Covers/Electrical-Boxes/_/N-1z0xc7b/pl?Ns=p_product_qty_sales_dollar|1#!&N%5B%5D=1z0xc7b&N%5B%5D=1z10wfa)-gang box in the wall, and you simply connect the wire to the plug and snap the plug into the plate. I know this standard has been around for at least a decade too, since I used them to wire up surround speakers that long ago, so you can feel pretty safe using them. 
 > 
 > When it comes to wiring in the CAT6, these keystone modules make it really easy, since they are color-coded. There are two main varieties of these. The first is [tool-less](http://www.monoprice.com/Category?c_id=105&cp_id=10513&cs_id=1051303): 
@@ -81,7 +88,9 @@ summary: 'Gabe and Erik take a hard look at what it takes to wire your house for
 
 {{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="9:25" }}
 
-* "It depends on [how big your house is](http://www.youtube.com/watch?v=RXKqdi0Wp0E)."
+* "It depends on how big your house is."
+
+<iframe width="960" height="720" src="//www.youtube.com/embed/RXKqdi0Wp0E" frameborder="0" allowfullscreen></iframe>
 
 ### Cat 6 for More than Just Ethernet 
 
