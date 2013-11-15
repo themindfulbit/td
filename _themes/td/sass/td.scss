@@ -299,7 +299,12 @@ body {
         }
 
         h3 {
+          margin-top: 2em;
           font-size: 1.2em;
+          border-bottom: 1px solid $light-gray;
+          margin-bottom: 0.4em;
+          line-height: 1.1em;
+          padding-bottom: 0.3em;
         }
 
         h4 {
@@ -314,14 +319,49 @@ body {
           font-size: 0.9em;
         }
 
+        p:empty {
+          display: none;
+        }
+
+        .timestamp {
+          padding: 0 0 0.5em;
+          font-family: "futura-pt", sans-serif;
+          text-transform: uppercase;
+          font-size: 0.8em;
+          margin-bottom: 0.8em;
+          margin-top: 0;
+          line-height: 1.2em;
+
+          a,
+          a:visited,
+          a:active,
+          a:focus {
+            color: $light-orange;
+
+            &:hover {
+              color: $dark-orange;
+            }
+          }
+
+        }
+
         blockquote,
         address {
-          border-left: 0.2em solid $lighter-gray;
-          margin-left: 0;
-          margin-bottom: 0.8em;
-          padding-top: 0.5em;
-          padding-left: 1em;
+          background-color: $lighter-gray;
+          border-radius: 0.5em;
+          padding: 1em 1em 0.5em;
           font-size: 0.9em;
+          margin: 0 0 1em 0;
+          
+          h4 {
+            background-image: url(../img/potatowire.png);
+            background-repeat: no-repeat;
+            background-size: auto 2em;
+            background-position: left top;
+            padding: 0.4em 0 1em 2.5em;
+            line-height: 1em;
+            margin-bottom: 0.5em;
+          }
         }
 
         table {
@@ -378,6 +418,7 @@ body {
           list-style-type: none;
           padding-left: 0;
           font-size: 1em;
+          margin-top: 0.5em;
 
           li {
             padding: 0.2em 0;
@@ -1079,6 +1120,16 @@ body {
     .show-notes {
       padding: 1em 0 0;
 
+      .timestamp a {
+        float: right;
+      }
+
+      blockquote {
+        padding: 1.5em 2em 1em;
+        margin-bottom: 2em;
+
+      }
+
     }
   }
 
@@ -1384,6 +1435,15 @@ body {
       @include column(10,12);
       @include push(1);
       padding: 0;
+
+      .content .show .show-notes p .fancybox {
+        display: block;
+        padding: 0 4em;
+      }
+
+      .content .show .show-notes blockquote p .fancybox {
+        padding: 0;
+      }
 
     }
   }

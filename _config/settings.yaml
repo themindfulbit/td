@@ -105,11 +105,12 @@ _environments:
     - 'http://localhost*'
     - '*.dev:8888'
     - '*.localip'
+  af:
+    - '*.aws.af.cm'
   c9:
-    - '*.io'
-
-  live:
+    - 'https://tdshow-c9-themindfulbit.c9.io'
     - '*.com'
+  live:
     - '*.us'
 
 # Set to 'true' if you want to log system messages
