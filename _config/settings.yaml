@@ -105,6 +105,8 @@ _environments:
     - 'http://localhost*'
     - '*.dev:8888'
     - '*.localip'
+  af:
+    - '*.aws.af.cm'
   c9:
     - '*.io'
   live:
