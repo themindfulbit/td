@@ -110,7 +110,6 @@ _environments:
   c9:
     - 'https://tdshow-c9-themindfulbit.c9.io'
   live:
-    - '*.com'
     - '*.us'
 
 # Set to 'true' if you want to log system messages
