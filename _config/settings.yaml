@@ -108,7 +108,7 @@ _environments:
   af:
     - '*.aws.af.cm'
   c9:
-    - '*.io'
+    - 'https://tdshow-c9-themindfulbit.c9.io'
   live:
     - '*.com'
     - '*.us'
