@@ -17,7 +17,7 @@ summary: 'Gabe and Erik take a hard look at what it takes to wire your house for
 >
 > As the producer and editor of these show notes, for each episode I'll occasionally offer my take on the issues at hand in boxes just like this.
 >
-> Enjoy the show and as always, thanks for listening.
+> Enjoy the show and thanks for listening.
 
 ### How's Your Network?
 
@@ -47,7 +47,6 @@ summary: 'Gabe and Erik take a hard look at what it takes to wire your house for
 <iframe width="960" height="720" src="//www.youtube.com/embed/cCFQJV0Kr7U?start=176" frameborder="0" allowfullscreen></iframe>
 
 * Ethernet [configuration](http://en.wikipedia.org/wiki/T568A/B#Wiring)
-* Solid vs. Stranded wires
 
 > #### Solid vs. Stranded Wires
 > {{ theme:partial src="image" show="{{ number }}" title="Solid vs Stranded" file="solid-stranded.jpg" }}
@@ -184,3 +183,10 @@ summary: 'Gabe and Erik take a hard look at what it takes to wire your house for
 
 > #### Producer's Note
 > Well, that's all for this week. If you have anything that you'd like to add to or correct in the show notes you can find me on Twitter [@potatowire](http://twitter.com/potatowire/) or feel free to send an email to [me@potatowire.com](mailto:me@potatowire.com)
+
+Download Gabe's mind map on this week's topic:
+
+* [iThoughts](http://technicaldifficulties.us/assets/files/055/networking.itmz)
+* [OPML](http://technicaldifficulties.us/assets/files/055/networking.opml)
+
+

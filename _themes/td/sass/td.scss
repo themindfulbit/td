@@ -299,8 +299,12 @@ body {
         }
 
         h3 {
-          margin-top: 1.5em;
+          margin-top: 2em;
           font-size: 1.2em;
+          border-bottom: 1px solid $light-gray;
+          margin-bottom: 0.4em;
+          line-height: 1.1em;
+          padding-bottom: 0.3em;
         }
 
         h4 {
@@ -315,13 +319,18 @@ body {
           font-size: 0.9em;
         }
 
+        p:empty {
+          display: none;
+        }
+
         .timestamp {
-          background-color: $lightest-gray;
-          padding: 0.5em 1em;
+          padding: 0 0 0.5em;
           font-family: "futura-pt", sans-serif;
           text-transform: uppercase;
           font-size: 0.8em;
           margin-bottom: 0.8em;
+          margin-top: 0;
+          line-height: 1.2em;
 
           a,
           a:visited,
@@ -333,8 +342,6 @@ body {
               color: $dark-orange;
             }
           }
-
-
 
         }
 
@@ -411,6 +418,7 @@ body {
           list-style-type: none;
           padding-left: 0;
           font-size: 1em;
+          margin-top: 0.5em;
 
           li {
             padding: 0.2em 0;
@@ -1427,6 +1435,15 @@ body {
       @include column(10,12);
       @include push(1);
       padding: 0;
+
+      .content .show .show-notes p .fancybox {
+        display: block;
+        padding: 0 4em;
+      }
+
+      .content .show .show-notes blockquote p .fancybox {
+        padding: 0;
+      }
 
     }
   }
