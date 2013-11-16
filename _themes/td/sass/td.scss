@@ -1051,6 +1051,65 @@ body {
 
     .nav {
       font-style: normal;
+
+      ul {
+        li {
+          padding: 0.5em;
+
+          &.extras {
+            display: inline-block;
+            padding: 0.5em;
+
+            a,
+            a:visited,
+            a:active,
+            a:focus {
+              display: inline-block;
+              text-indent: -10000px;
+              height: 1em;
+              width: 1em;
+              background-repeat: no-repeat;
+              background-size: 1em 1em;
+              background-position: 50% 50%;
+              
+              &.twitter {
+                background-image: url("../img/twitter-light.svg");
+
+                &:hover {
+                  background-image: url("../img/twitter-yellow.svg");
+                }
+              }
+
+              &.adn {
+                background-image: url("../img/adn-light.svg");
+
+                &:hover {
+                  background-image: url("../img/adn-yellow.svg");
+                }
+              }
+
+              &.rss {
+                background-image: url("../img/rss-light.svg");
+                background-size: 0.9em 0.9em;
+
+                &:hover {
+                  background-image: url("../img/rss-yellow.svg");
+                }
+              }
+
+              &.browser {
+                background-image: url("../img/browser-light.svg");
+                background-size: 0.9em 0.9em;
+
+                &:hover {
+                  background-image: url("../img/browser-yellow.svg");
+                }
+              }
+
+            }
+          }
+        }
+      }
     }
 
     p {
