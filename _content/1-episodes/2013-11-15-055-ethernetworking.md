@@ -6,7 +6,7 @@ people: [Gabe Weatherhead, Erik Hess]
 topics: [ethernet, home improvement, networking, wiring]
 banner: spool.jpg
 caption: '[US Library of Congress](http://www.flickr.com/photos/library_of_congress/2179848724/)'
-download: 
+download: http://www.buzzsprout.com/7417/130476-055-ethernetworking.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/120276995"></iframe>'
 soundcloud-url: 055-ethernetworking
 summary: 'Gabe and Erik take a hard look at what it takes to wire your house for ethernet, from the why, to the how, to the how much.'
