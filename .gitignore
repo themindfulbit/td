@@ -3,3 +3,4 @@
 .htaccess
 /_config/users/*
 !/_config/users/index.html
+/_config/settings.yaml

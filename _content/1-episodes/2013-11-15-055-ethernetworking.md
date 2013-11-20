@@ -53,11 +53,11 @@ summary: 'Gabe and Erik take a hard look at what it takes to wire your house for
 > 
 > Gabe chose stranded for his installation, and I think the jury is out on this issue in general. The picture above is from [this](http://www.howtogeek.com/70494/what-kind-of-ethernet-cat-5e6a-cable-should-i-use/) page on [howtogeek.com](http://www.howtogeek.com), and they break down all aspects of choosing the right ethernet cable. I think it really boils down to flexibility versus strength. In my opinion, solid is better for running in the walls, and stranded is better for connecting devices to the wall. I'm not as sure about this as most of the other people on the internet seem to be. As for compatibility with connectors, hold that thought.
 >
-> Of the two main parts to this project -- wiring together the various wall ports, and connecting the various equipment to the walls -- this latter bit is certainly the easier step, but only if you allow it to be. A lot of the "experts" on the various forums state emphatically (as everything on forums is stated) that you shouldn't make your own [patch cables](http://en.wikipedia.org/wiki/Patch_cable). The reasoning here is that patch cables are very cheap, and between the potential of mis-wiring the terminators (remember the A vs. B discussion?) and the potential for a bad connection within the jack itself, and you may be better served having a robot build your cord. If you are stubborn, cheap, or want just the right length, I recommend [these](http://www.amazon.com/gp/product/B000FI9VU2/) from Platinum Tools. The idea here is that you feed the wires through the plug like so:    
+> Of the two main parts to this project -- wiring together the various wall ports, and connecting the various equipment to the walls -- this latter bit is certainly the easier step, but only if you allow it to be. A lot of the "experts" on the various forums state emphatically (as everything on forums is stated) that you shouldn't make your own [patch cables](http://en.wikipedia.org/wiki/Patch_cable). The reasoning here is that patch cables are very cheap, and between the potential of mis-wiring the terminators (remember the A vs. B discussion?) and the potential for a bad connection within the jack itself, and you may be better served having a robot build your cord. If you are stubborn, cheap, or want just the right length, I recommend [these](http://www.amazon.com/gp/product/B000FI9VU2/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B000FI9VU2&linkCode=as2&tag=potatowirecom-20) from Platinum Tools. The idea here is that you feed the wires through the plug like so:    
 > 
 > {{ theme:partial src="image" show="{{ number }}" title="Platinum Connectors" file="platinum_connector.jpg" }}
 > 
-> Snip them square, then push the plug forward slightly to cover the ends, and crimp. Maybe just buy the [patch cables](http://www.amazon.com/Cable-Matters-5-Pack-Snagless-Ethernet/dp/B00C2B81K6/)... I will next time.
+> Snip them square, then push the plug forward slightly to cover the ends, and crimp. Maybe just buy the [patch cables](http://www.amazon.com/gp/product/B00C2B81K6/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00C2B81K6&linkCode=as2&tag=potatowirecom-20)... I will next time.
 > 
 > There are many options when it comes to wiring up the wall ports, but I think the best is to use [keystone modules](http://en.wikipedia.org/wiki/Keystone_module). 
 > 
@@ -65,7 +65,7 @@ summary: 'Gabe and Erik take a hard look at what it takes to wire your house for
 >
 > These provide a way to mount a variety of standardized low-voltage plugs to a wall mount. These modules fit into mounts like these:  
 > 
-> {{ theme:partial src="image" show="{{ number }}" title="Keystone Modules" file="keystone_mount.jpg" }}
+> {{ theme:partial src="image" show="{{ number }}" title="Keystone Mount" file="keystone_mount.jpg" }}
 >
 > They attach to either a [single ](http://www.lowes.com/Electrical/Electrical-Boxes-Covers/Electrical-Boxes/_/N-1z0xc7b/pl?Ns=p_product_qty_sales_dollar|1#!&N%5B%5D=1z0xc7b&N%5B%5D=1z10wg4)or [double](http://www.lowes.com/Electrical/Electrical-Boxes-Covers/Electrical-Boxes/_/N-1z0xc7b/pl?Ns=p_product_qty_sales_dollar|1#!&N%5B%5D=1z0xc7b&N%5B%5D=1z10wfa)-gang box in the wall, and you simply connect the wire to the plug and snap the plug into the plate. I know this standard has been around for at least a decade too, since I used them to wire up surround speakers that long ago, so you can feel pretty safe using them. 
 > 
@@ -87,7 +87,7 @@ summary: 'Gabe and Erik take a hard look at what it takes to wire your house for
 
 {{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="9:25" }}
 
-* "It depends on how big your house is."
+{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="9:25" person="gabe" quote="It depends on how big your house is." }}
 
 <iframe width="960" height="720" src="//www.youtube.com/embed/RXKqdi0Wp0E" frameborder="0" allowfullscreen></iframe>
 
@@ -107,28 +107,25 @@ summary: 'Gabe and Erik take a hard look at what it takes to wire your house for
 {{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="11:37" }}
 
 * [Electrical Conduit](http://en.wikipedia.org/wiki/Electrical_conduit) 
-
-{{ theme:partial src="image" show="{{ number }}" title="Electrical Conduit" file="electrical_conduit.jpg" }}
-
 * There are some great techniques for pulling wire [here](http://www.wikihow.com/Fish-Wires-Through-a-Conduit-or-Pipe). 
 
 > #### Pulling Wire
 > My favorite is using a vacuum cleaner and loose string, because you think there is no way that it will work... until it does.
 
-* Line puller - also known as [fish tape](http://www.amazon.com/Klein-Tools-56001-50-Feet-Strength/dp/B0026TA6RK) *- I have found this very useful over the years :: pw*
-
-{{ theme:partial src="image" show="{{ number }}" title="Fish Tape" file="fish_tape.jpg" }}
-
-* There are many variations of segmented fiberglass wire running kits. Here is the Harbor Freight [version](http://www.harborfreight.com/3-16-inch-x-33-ft-fiberglass-wire-running-kit-65326.html).
+* Line puller - also known as [fish tape](http://www.amazon.com/gp/product/B0026TA6RK/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0026TA6RK&linkCode=as2&tag=potatowirecom-20) *- I have found this very useful over the years :: pw*
+* There are also many variations of segmented fiberglass wire running kits, which are especially useful for vertical runs. Here is the Harbor Freight [version](http://www.harborfreight.com/3-16-inch-x-33-ft-fiberglass-wire-running-kit-65326.html).
 * [Network Tester](http://www.monoprice.com/Product?c_id=105&cp_id=10524&cs_id=1052401&p_id=8138&seq=1&format=2)
+
+{{ theme:partial src="image-set" show="{{ number }}" title="Electrical Conduit" file="electrical_conduit.jpg" }}{{ theme:partial src="image-set" show="{{ number }}" title="Fish Tape" file="fish_tape.jpg" }}
 
 ### The Boxes
 
 {{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="16:57" }}
 
-* The first network switch - [SMC EZ Switch](http://www.amazon.com/SMC-16-Port-Gigabit-Unmanaged-SMCGS16/dp/B0009J1IB2)
+* The first network switch - [SMC EZ Switch](http://www.amazon.com/gp/product/B0009J1IB2/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0009J1IB2&linkCode=as2&tag=potatowirecom-20/amazon)
 * The [move](http://www.macdrifter.com/2013/02/moving-from-a-drobo-to-a-synology-nas.html) to Synology
 * [Synology Link Aggregation](http://www.synology.com/support/tutorials_show.php?lang=us&q_id=525) 
+* [This](http://www.amazon.com/gp/product/B004GHMU5G/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B004GHMU5G&linkCode=as2&tag=potatowirecom-20) is the beauty of a switch that Gabe is currently using.
 
 > #### Switches vs. Routers
 > This is more complicated than I will explain it here, but a [network switch](http://en.wikipedia.org/wiki/Network_switch) essentially provides a means for any connected device to talk to another. The devices themselves can address their messages, however, and the switch will only deliver it to the intended recipient in that case. This distinguishes it from a hub, which is more of a broadcasting mindset. The main difference between a [router](http://en.wikipedia.org/wiki/Network_router) and a switch, is that in addition to addressing functions, router connects a [local area network](http://en.wikipedia.org/wiki/Local_area_network) to a [wide area network](http://en.wikipedia.org/wiki/Wide_area_network).
@@ -136,7 +133,7 @@ summary: 'Gabe and Erik take a hard look at what it takes to wire your house for
 > #### Number of lines in a wall
 > I'll sometimes use one Cat 6 line with a small network switch on the distant end of the line, if I'm only networking.
 
-* "Bathing your house in wifi"
+{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="21:20" person="gabe" quote="Bathe it in wifi" }}
 
 > #### SSID sharing over ethernet
 > I feel stupid, because I had no idea this possible. It's easy too, just make sure the second router has a static IP within the range on the first one, has [DHCP](http://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol) turned off, has the same [SSID](http://en.wikipedia.org/wiki/Service_set_(802.11_network)#Service_set_identification), and is on a different [channel](http://en.wikipedia.org/wiki/List_of_WLAN_channels).
@@ -150,20 +147,13 @@ summary: 'Gabe and Erik take a hard look at what it takes to wire your house for
 > 
 > {{ theme:partial src="image" show="{{ number }}" title="FiOS Box" file="fios.jpg" }}
 
-* "Grandma is going to hack into my machine and steal all my warez"  
+{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="24:28" person="erik" quote="Grandma's going to hack into my machine and steal all my warez" }}
  
 ### Gabe's Setup
 
-* The networking closet  
-
-{{ theme:partial src="image" show="{{ number }}" title="The Closet" file="the_closet.jpg" }}
-{{ theme:partial src="image" show="{{ number }}" title="The Vents" file="the_vents.jpg" }}
-
-* The rack itself  
-
-{{ theme:partial src="image" show="{{ number }}" title="The Rack" file="the_rack.jpg" }}
-
 * [Rack-mounted servers](http://en.wikipedia.org/wiki/19-inch_rack)
+
+{{ theme:partial src="image-set" show="{{ number }}" title="The Closet" file="the_closet.jpg" }}{{ theme:partial src="image-set" show="{{ number }}" title="The Vents" file="the_vents.jpg" }}{{ theme:partial src="image-set" show="{{ number }}" title="The Rack" file="the_rack.jpg" }}
 
 > #### Facts about Racks
 > I discovered that the height of the modules in a rack-mount server are in multiples of 1.75 inches, and each multiple is called a "rack unit" or "U." Also, the industry standard rack is 42U tall and 19 inches wide.
