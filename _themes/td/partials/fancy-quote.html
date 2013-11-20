@@ -1,0 +1,19 @@
+{{ if person == "erik" }}
+<table class="fancy-quote erik">
+  <tr>
+    <td class="avatar">
+      <img src="{{ _site_url }}assets/img/erik-avatar.png" />
+    </td>
+    <td class="quote"><a href="https://soundcloud.com/techdiffpodcast/{{ url }}#t={{ time }}">&ldquo;{{ quote|widont|smartypants }}&rdquo;</a></td>
+  </tr>
+</table>
+{{ elseif person == "gabe" }}
+<table class="fancy-quote gabe">
+  <tr>
+    <td class="avatar">
+      <img src="{{ _site_url }}assets/img/gabe-avatar.png" />
+    </td>
+    <td class="quote"><a href="https://soundcloud.com/techdiffpodcast/{{ url }}#t={{ time }}">&ldquo;{{ quote|widont|smartypants }}&rdquo;</a></td>
+  </tr>
+</table>
+{{ endif }}
