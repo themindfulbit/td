@@ -350,6 +350,11 @@ body {
 
         }
 
+        iframe {
+          @include column(12,12);
+          padding: 0;
+        }
+
         blockquote,
         address {
           @include column(12,12);
