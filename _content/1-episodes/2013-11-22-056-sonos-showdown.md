@@ -30,9 +30,9 @@ It's important to remember that if the music source you want is not in the Sonos
 
 {{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="1:59" }}
 
-AirPlay is Apple's wifi-based audio streaming solution, and is [normally](http://www.rogueamoeba.com/airfoil/) tied to iTunes, Apple TV and iOS devices. It's similar to what Sonos uses but it's specific to Apple's hardware. While [hardware manufacturers can license the AirPlay](http://www.amazon.com/gp/product/B008KEPX1O/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B008KEPX1O) technology it's not part of the Sonos system out-of-the-box.
+AirPlay is Apple's wifi-based audio streaming solution, and is [normally](http://www.rogueamoeba.com/airfoil/) tied to iTunes, Apple TV and iOS devices. It's similar to what Sonos uses but  specific to Apple's hardware. While [hardware manufacturers can license the AirPlay](http://www.amazon.com/gp/product/B008KEPX1O/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B008KEPX1O) technology it's not part of the Sonos system out-of-the-box.
 
-AirPlay can integrate with requires the line-out port on an [AirPort Express](http://www.amazon.com/gp/product/B008ALA2RC/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B008ALA2RC) to inject the music into one of the Sonos nodes that supports line-in.
+AirPlay can integrate with Sonos, but it requires the line-out port on a Mac or an [AirPort Express](http://www.amazon.com/gp/product/B008ALA2RC/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B008ALA2RC) to inject the music into one of the Sonos nodes that supports line-in.
 
 Out of the box, multiroom audio on AirPlay requires iTunes on a Mac. iOS devices can only target one AirPlay device for audio playback at a time. If you use an Airport Express as a bridge to the Sonos system, you can then send one iOS AirPlay output to multiple speakers in your house.
 
