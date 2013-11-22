@@ -74,7 +74,7 @@ The current list of Sonos speaker options is impressive:
 
 {{ theme:partial src="image-set" show="{{ number }}" title="Play:1" file="play1blk.angle_big.jpg" }}{{ theme:partial src="image-set" show="{{ number }}" title="Play:3" file="play3blk.angle_big.jpg" }}{{ theme:partial src="image-set" show="{{ number }}" title="Play:5" file="play5blk.front_big.jpg" }}{{ theme:partial src="image-set" show="{{ number }}" title="Playbar" file="playbar.angle_big.jpg" }}{{ theme:partial src="image-set" show="{{ number }}" title="Sub" file="subglossblk.angle_big.jpg" }}{{ theme:partial src="image-set" show="{{ number }}" title="Connect" file="connect.front_big.jpg" }}{{ theme:partial src="image-set" show="{{ number }}" title="Connect Amp" file="connectamp.angle_big.jpg" }}{{ theme:partial src="image-set" show="{{ number }}" title="Bridge" file="bridge.angle_big.jpg" }}
 
-A few speakers from Erik's extensive Sonos collection. The Coke can is provided for scale. Or because otherwise it's all so... black.
+A few speakers from Erik's extensive Sonos collection. The Coke can is provided for scale. Or because otherwise it's all so... [black](http://www.youtube.com/watch?v=LOqAamL9xls).
 
 {{ theme:partial src="image" show="{{ number }}" title="A Musical Investment" file="overview.jpg" }}
 
