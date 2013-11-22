@@ -49,7 +49,7 @@ One of the benefits of the Sonos system is that there's a wide variety of speake
 {{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="3:35" person="gabe" quote="Apparently they don't like even numbers" }}
 
 > #### Producer's Note
-> I assume the Play:1 is so named, since it is really just one speaker, and even Sonos says it "can" be paired in order to provide "true" stereo. Look at the picture and judge for yourself.
+> I assume the Play:1 is so named since it is really just one speaker (well, two if you split up the woofer and tweeter) and even Sonos says it "can" be paired in order to provide "true" stereo. Look at the picture and judge for yourself.
 >
 >{{ theme:partial src="image" show="{{ number }}" title="One or Two?" file="1or2.png" }}
 
