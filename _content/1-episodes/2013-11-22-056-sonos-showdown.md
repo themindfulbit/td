@@ -81,7 +81,7 @@ A few speakers from Erik's extensive Sonos collection. The Coke can is provided 
 > #### Producer's Note
 > The proprietary wireless network that acts as the backbone of the Sonos system is called SonosNet 2.0. Sonos has not revealed too much about its actual protocol, but on its informational [page](https://sonos.custhelp.com/app/answers/detail/a_id/126) on this subject, Sonos calls it, "a secure, [AES](http://en.wikipedia.org/wiki/Advanced_Encryption_Standard)-encrypted, peer-to-peer wireless mesh network." This latter bit indicates at least one main structural difference between it and WiFi, which operates on a hub-and-spoke model, as Erik describes it. 
 >
-> That isn't to say that WiFi isn't capable of creating a mesh where each wireless device acts as another node that extends the network. Applied to WiFi, this is called a [Wireless Distribution System](http://en.wikipedia.org/wiki/Wireless_distribution_system). WDS functions by setting each access point as either a main, relay, or remote base station. One of the drawbacks of WDS, and one presumes any mesh setup, is that the throughput is halved each time an access point has to pass data "across" itself, because it is simultaneously transmitting in two directions. 
+> That isn't to say that WiFi isn't capable of creating a mesh where each wireless device acts as another node that extends the network. Applied to [WiFi](http://en.wikipedia.org/wiki/IEEE_802.11), this is called a [Wireless Distribution System](http://en.wikipedia.org/wiki/Wireless_distribution_system). WDS functions by setting each access point as either a main, relay, or remote base station. One of the drawbacks of WDS, and one presumes any mesh setup, is that the throughput is halved each time an access point has to pass data "across" itself, because it is simultaneously transmitting in two directions. 
 > 
  > If I am allowed  to speculate, I would guess that Sonos had to decide between the range benefits of a mesh system and the bandwidth conservation of hub-and-spoke. Having decided to maximize the former, they could only guarantee sufficient bandwidth by ensuring that they only had to account for their own data (audio and control signals). Hence, the private network.
  > 
@@ -89,7 +89,7 @@ A few speakers from Erik's extensive Sonos collection. The Coke can is provided 
 > 
 > An expert on embedded microprocessors reading this (man, I hope one isn't....) may be able to guess my other note, because one of the significant improvements in the Atheros line of wireless [LAN](en.wikipedia.org/wiki/Local_area_network‎) chips is the inclusion of [multiple-input multiple-output](http://electronicdesign.com/archive/mimo-enhanced-wi-fi-chips-extend-lan-speed-range-and-reliability) [(MIMO)](http://en.wikipedia.org/wiki/MIMO). This is the main upgrade from SonosNet 1.0 to 2.0. 
 >
-> MIMO is essentially an antenna design that's advertised to improve data rate, range, and link reliability, although Gabe may wish to dispute these last two benefits. The antennas spread the inputs and outputs spatially, and this should mitigate the theoretical throughput limitations mentioned earlier. Sonos maintained backwards compatibility with 1.0 after moving to 2.0, and reduction in range (depending on layout) is said to be the only consequence of mixing Sonos Generations.
+> MIMO is essentially an antenna design that's advertised to improve data rate, range, and link reliability, although Gabe may wish to dispute these last two benefits. The antennas spread the inputs and outputs spatially, and this should mitigate the theoretical throughput limitations mentioned earlier. Sonos maintained backwards compatibility with 1.0 after moving to 2.0, and reduction in range (depending on layout) is said to be the only consequence of mixing Sonos generations.
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="5:55" person="erik" quote="We went a little crazy" }}
 
@@ -107,7 +107,7 @@ Gabe only recently joined the Sonos party and he's still feeling a bit cold. Mul
 
 {{ theme:partial src="image-set" show="{{ number }}" title="First AirPort Express" file="airport_express_1.jpg" }}{{ theme:partial src="image-set" show="{{ number }}" title="Current AirPort Express" file="airport_express_2.jpg" }}
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="9:46" person="gabe" quote=""There's a cult around Sonos" }}
+{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="9:46" person="gabe" quote="There's a cult around Sonos" }}
 
 * Since it creates its own network, Sonos can't take advantage of a house "bathed in WiFi". Instead it needs to connect with other speakers via wired connections or be in range of another Sonos element.
 * Gabe had some problems with Sonos ungrouping speakers randomly. Erik hasn't had the same issues and suggests later that Gabe put a bridge between his distantly spaced speakers. In the coda Gabe describes his experiences with this solution.
