@@ -46,7 +46,7 @@ Out of the box, multiroom audio on AirPlay requires iTunes on a Mac. iOS devices
 
 One of the benefits of the Sonos system is that there's a wide variety of speakers to choose from. Depending on your need and room size, you can opt for the tiny Play:1 or move up to a home theater configuration with a [Soundbar](http://www.amazon.com/gp/product/B00AEMGGU2/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B00AEMGGU2) and [Subwoofer](http://www.amazon.com/gp/product/B00834SIO0/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B00834SIO0). 
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="3:35" person="gabe" quote=""Apparently they don't like even numbers" }}
+{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="3:35" person="gabe" quote="Apparently they don't like even numbers" }}
 
 > #### Producer's Note
 > I assume the Play:1 is so named, since it is really just one speaker, and even Sonos says it "can" be paired in order to provide "true" stereo. Look at the picture and judge for yourself.
