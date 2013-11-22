@@ -164,7 +164,7 @@ Gabe only recently joined the Sonos party and he's still feeling a bit cold. Mul
 
 {{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="21:29" }}
 
-* Good, but not exceptional from the smaller sized speakers.
+* Good, but not exceptional from the smaller-sized speakers.
 * A pair of Play:1s may be a better choice than a Play:5, with the caveat that the Play:1 does not have an aux-in port
 
 <blockquote class="twitter-tweet" lang="en"><p>I’m a dummy. No Aux in on Sonos Play:1 means no airplay, means no deal. Back to Amazon.</p>&mdash; macdrifter (@macdrifter) <a href="https://twitter.com/macdrifter/statuses/392767352460550144">October 22, 2013</a></blockquote>
