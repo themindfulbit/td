@@ -30,7 +30,7 @@ It's important to remember that if the music source you want is not in the Sonos
 
 {{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="1:59" }}
 
-AirPlay is Apple's wifi-based audio streaming solution, and is [normally](http://www.rogueamoeba.com/airfoil/) tied to iTunes, Apple TV and iOS devices. It's similar to what Sonos uses but  specific to Apple's hardware. While [hardware manufacturers can license the AirPlay](http://www.amazon.com/gp/product/B008KEPX1O/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B008KEPX1O) technology it's not part of the Sonos system out-of-the-box.
+AirPlay is Apple's WiFi-based audio streaming solution, and is [normally](http://www.rogueamoeba.com/airfoil/) tied to iTunes, Apple TV and iOS devices. It's similar to what Sonos uses but  specific to Apple's hardware. While [hardware manufacturers can license the AirPlay](http://www.amazon.com/gp/product/B008KEPX1O/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B008KEPX1O) technology it's not part of the Sonos system out-of-the-box.
 
 AirPlay can integrate with Sonos, but it requires the line-out port on a Mac or an [AirPort Express](http://www.amazon.com/gp/product/B008ALA2RC/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B008ALA2RC) to inject the music into one of the Sonos nodes that supports line-in.
 
@@ -51,7 +51,7 @@ One of the benefits of the Sonos system is that there's a wide variety of speake
 > #### Producer's Note
 > I assume the Play:1 is so named, since it is really just one speaker, and even Sonos says it "can" be paired in order to provide "true" stereo. Look at the picture and judge for yourself.
 >
->{{ theme:partial src="image" show="{{ number }}" title="One or Two?" file="play1blk.front_big.jpg" }}
+>{{ theme:partial src="image" show="{{ number }}" title="One or Two?" file="1or2.png" }}
 
 The current list of Sonos speaker options is impressive:
 
@@ -79,11 +79,11 @@ A few speakers from Erik's extensive Sonos collection. The Coke can is provided 
 {{ theme:partial src="image" show="{{ number }}" title="A Musical Investment" file="overview.jpg" }}
 
 > #### Producer's Note
-> The proprietary wireless network that acts as the backbone of the Sonos system is called SonosNet 2.0. Sonos has not revealed too much about its actual protocol, but on its informational [page](https://sonos.custhelp.com/app/answers/detail/a_id/126) on this subject, Sonos calls it, "a secure, [AES](http://en.wikipedia.org/wiki/Advanced_Encryption_Standard)-encrypted, peer-to-peer wireless mesh network." This latter bit indicates at least one main structural difference between it and wifi, which operates on a hub-and-spoke model, as Erik describes it. 
+> The proprietary wireless network that acts as the backbone of the Sonos system is called SonosNet 2.0. Sonos has not revealed too much about its actual protocol, but on its informational [page](https://sonos.custhelp.com/app/answers/detail/a_id/126) on this subject, Sonos calls it, "a secure, [AES](http://en.wikipedia.org/wiki/Advanced_Encryption_Standard)-encrypted, peer-to-peer wireless mesh network." This latter bit indicates at least one main structural difference between it and WiFi, which operates on a hub-and-spoke model, as Erik describes it. 
 >
-> That isn't to say that wifi isn't capable of creating a mesh where each wireless device acts as another node that extends the network. Applied to wifi, this is called a [Wireless Distribution System](http://en.wikipedia.org/wiki/Wireless_distribution_system). WDS functions by setting each access point as either a main, relay, or remote base station. One of the drawbacks of WDS, and one presumes any mesh setup, is that the throughput is halved each time an access point has to pass data "across" itself, because it is simultaneously transmitting in two directions. 
+> That isn't to say that WiFi isn't capable of creating a mesh where each wireless device acts as another node that extends the network. Applied to WiFi, this is called a [Wireless Distribution System](http://en.wikipedia.org/wiki/Wireless_distribution_system). WDS functions by setting each access point as either a main, relay, or remote base station. One of the drawbacks of WDS, and one presumes any mesh setup, is that the throughput is halved each time an access point has to pass data "across" itself, because it is simultaneously transmitting in two directions. 
 > 
- > If I am allowed  to speculate, I would guess that Sonos had to decide the range benefits of a mesh system and the bandwidth conservation of hub-and-spoke. Having decided to maximize the former, they could only guarantee sufficient bandwidth by ensuring that they only had to account for their own data (audio and control signals). Hence, the private network.
+ > If I am allowed  to speculate, I would guess that Sonos had to decide between the range benefits of a mesh system and the bandwidth conservation of hub-and-spoke. Having decided to maximize the former, they could only guarantee sufficient bandwidth by ensuring that they only had to account for their own data (audio and control signals). Hence, the private network.
  > 
  > A [couple](http://xkcd.com/1070/) of other notes on SonosNet. First, it is definitely a WiFi network, and I know this thanks to a [teardown](http://www.ifixit.com/Teardown/Sonos+Play%3A3+Teardown/12475) by the wonderful folks at [iFixit](http://www.ifixit.com). It has 2.4/5 GHz 802.11a/b/g/n capability through a single Qualcomm [Atheros](http://www.qca.qualcomm.com/technology/technology.php?nav1=47&product=88) chip. 
 > 
@@ -210,9 +210,9 @@ Gabe only recently joined the Sonos party and he's still feeling a bit cold. Mul
 {{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="33:09" }}
 
 * Gabe experienced no more random ungroupings after the adding the bridge
-* Setting the wifi channel manually may also have helped.
+* Setting the WiFi channel manually may also have helped.
 
-{{ theme:partial src="image" show="{{ number }}" title="Changing the Wifi Channel" file="changing_wifi_chs.jpg" }}
+{{ theme:partial src="image" show="{{ number }}" title="Changing the WiFi Channel" file="changing_WiFi_chs.jpg" }}
 
 * [Setting up](https://sonos.custhelp.com/app/answers/detail/a_id/1112) the [Synology](http://www.synology.com) with Sonos--It will need to be a [windows share](http://en.wikipedia.org/wiki/Server_Message_Block)
 * [Sonos forums](http://forums.sonos.com)
