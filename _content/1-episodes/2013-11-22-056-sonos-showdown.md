@@ -209,7 +209,7 @@ Gabe only recently joined the Sonos party and he's still feeling a bit cold. Mul
 
 {{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="33:09" }}
 
-* Gabe experienced no more random ungroupings after the adding the bridge
+* Gabe experienced no more random ungroupings after adding the bridge
 * Setting the WiFi channel manually may also have helped.
 
 {{ theme:partial src="image" show="{{ number }}" title="Changing the WiFi Channel" file="changing_wifi_chs.jpg" }}
