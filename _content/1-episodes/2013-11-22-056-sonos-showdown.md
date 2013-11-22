@@ -212,7 +212,7 @@ Gabe only recently joined the Sonos party and he's still feeling a bit cold. Mul
 * Gabe experienced no more random ungroupings after the adding the bridge
 * Setting the WiFi channel manually may also have helped.
 
-{{ theme:partial src="image" show="{{ number }}" title="Changing the WiFi Channel" file="changing_WiFi_chs.jpg" }}
+{{ theme:partial src="image" show="{{ number }}" title="Changing the WiFi Channel" file="changing_wifi_chs.jpg" }}
 
 * [Setting up](https://sonos.custhelp.com/app/answers/detail/a_id/1112) the [Synology](http://www.synology.com) with Sonos--It will need to be a [windows share](http://en.wikipedia.org/wiki/Server_Message_Block)
 * [Sonos forums](http://forums.sonos.com)
