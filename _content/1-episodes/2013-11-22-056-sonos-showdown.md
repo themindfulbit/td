@@ -56,21 +56,21 @@ One of the benefits of the Sonos system is that there's a wide variety of speake
 The current list of Sonos speaker options is impressive:
 
 * [Play:1](http://www.sonos.com/shop/products/play1)
-[$199.00](http://www.amazon.com/gp/product/B00EWCUK1Q/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00EWCUK1Q&linkCode=as2&tag=potatowirecom-20)
+[$199.00](http://www.amazon.com/gp/product/B00EWCUK1Q/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00EWCUK1Q&linkCode=as2&tag=potatowire-20)
 * [Play:3](http://www.sonos.com/shop/products/play3)
-[$299.00](http://www.amazon.com/gp/product/B005441AJC/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B005441AJC&linkCode=as2&tag=potatowirecom-20)
+[$299.00](http://www.amazon.com/gp/product/B005441AJC/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B005441AJC&linkCode=as2&tag=potatowire-20)
 * [Play:5](http://www.sonos.com/shop/products/play5)
-[$399.00](http://www.amazon.com/gp/product/B003CP0FUU/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B003CP0FUU&linkCode=as2&tag=potatowirecom-20)
+[$399.00](http://www.amazon.com/gp/product/B003CP0FUU/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B003CP0FUU&linkCode=as2&tag=potatowire-20)
 * [Playbar](http://www.sonos.com/shop/products/playbar)
-[$699.00](http://www.amazon.com/gp/product/B00AEMGGU2/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00AEMGGU2&linkCode=as2&tag=potatowirecom-20)
+[$699.00](http://www.amazon.com/gp/product/B00AEMGGU2/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00AEMGGU2&linkCode=as2&tag=potatowire-20)
 * [Sub](http://www.sonos.com/shop/products/sub)
-[$699.00](http://www.amazon.com/gp/product/B00834SIO0/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00834SIO0&linkCode=as2&tag=potatowirecom-20)
+[$699.00](http://www.amazon.com/gp/product/B00834SIO0/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00834SIO0&linkCode=as2&tag=potatowire-20)
 * [Connect](http://www.sonos.com/shop/products/connect)
-[$349.00](http://www.amazon.com/gp/product/B001CROHX6/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B001CROHX6&linkCode=as2&tag=potatowirecom-20)
+[$349.00](http://www.amazon.com/gp/product/B001CROHX6/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B001CROHX6&linkCode=as2&tag=potatowire-20)
 * [Connect Amp](http://www.sonos.com/shop/products/connectamp)
-[$499.00](http://www.amazon.com/gp/product/B001CROHU4/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B001CROHU4&linkCode=as2&tag=potatowirecom-20) 
+[$499.00](http://www.amazon.com/gp/product/B001CROHU4/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B001CROHU4&linkCode=as2&tag=potatowire-20) 
 * [Bridge](http://www.sonos.com/shop/products/bridge)
-[$49.00](http://www.amazon.com/gp/product/B000X1TS54/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B000X1TS54&linkCode=as2&tag=potatowirecom-20)
+[$49.00](http://www.amazon.com/gp/product/B000X1TS54/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B000X1TS54&linkCode=as2&tag=potatowire-20)
 
 {{ theme:partial src="image-set" show="{{ number }}" title="Play:1" file="play1blk.angle_big.jpg" }}{{ theme:partial src="image-set" show="{{ number }}" title="Play:3" file="play3blk.angle_big.jpg" }}{{ theme:partial src="image-set" show="{{ number }}" title="Play:5" file="play5blk.front_big.jpg" }}{{ theme:partial src="image-set" show="{{ number }}" title="Playbar" file="playbar.angle_big.jpg" }}{{ theme:partial src="image-set" show="{{ number }}" title="Sub" file="subglossblk.angle_big.jpg" }}{{ theme:partial src="image-set" show="{{ number }}" title="Connect" file="connect.front_big.jpg" }}{{ theme:partial src="image-set" show="{{ number }}" title="Connect Amp" file="connectamp.angle_big.jpg" }}{{ theme:partial src="image-set" show="{{ number }}" title="Bridge" file="bridge.angle_big.jpg" }}
 
@@ -186,8 +186,8 @@ Gabe only recently joined the Sonos party and he's still feeling a bit cold. Mul
 {{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="26:00" }}
 
 * For many use cases, the Sonos may not be the right solution. If you want a very simple or portable audio solution, Bluetooth might end your search.
-* The Big Jambox has great sound, and while it is portable, its great sound comes at the cost of added size and weight: [$299.99](http://www.amazon.com/gp/product/B006AXRR3Y/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B006AXRR3Y&linkCode=as2&tag=potatowirecom-20) 
-* "Baby" Jambox was a frontrunner in the portable speaker category, but there are now many other great [entrants in this category](http://thewirecutter.com/reviews/the-best-bluetooth-speaker/): [$149.99](http://www.amazon.com/gp/product/B004E10KI8/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B004E10KI8&linkCode=as2&tag=potatowirecom-20) 
+* The Big Jambox has great sound, and while it is portable, its great sound comes at the cost of added size and weight: [$299.99](http://www.amazon.com/gp/product/B006AXRR3Y/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B006AXRR3Y&linkCode=as2&tag=potatowire-20) 
+* "Baby" Jambox was a frontrunner in the portable speaker category, but there are now many other great [entrants in this category](http://thewirecutter.com/reviews/the-best-bluetooth-speaker/): [$149.99](http://www.amazon.com/gp/product/B004E10KI8/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B004E10KI8&linkCode=as2&tag=potatowire-20) 
 
 {{ theme:partial src="image" show="{{ number }}" title="Both Jamboxen" file="jamboxes.jpg" }} 
 
