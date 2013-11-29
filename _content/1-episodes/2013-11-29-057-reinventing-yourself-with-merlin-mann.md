@@ -108,7 +108,7 @@ When you [think outside the box](http://en.wikipedia.org/wiki/Thinking_outside_t
 <a class="fancybox" alt="I hear Steven Levitt is writing a book analyzing A.J. Jacobs' quest to spend a year reading everything Malcolm Gladwell ever wrote. The audiobook will be narrated by Robert Krulwich of Radiolab." title="I hear Steven Levitt is writing a book analyzing A.J. Jacobs' quest to spend a year reading everything Malcolm Gladwell ever wrote. The audiobook will be narrated by Robert Krulwich of Radiolab." rel="page" href="http://xkcd.com/863/" >
 	<img src="{{ _site_url }}assets/img/057/major_in_the_universe.png" />
 </a>
-<div class="manual-caption"><a href="http://xkcd.com/863/">XKCD</a></div>
+<div class="manual-caption"><a href="http://xkcd.com/863/">xkcd</a></div>
 
 ### Nouns and Verbs
 
@@ -200,18 +200,6 @@ Whether or not achieving quality of life is a [#firstworldproblem](https://twitt
 > I don't think [transference](http://en.wikipedia.org/wiki/Transference) is the right word.
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="51:38" person="erik" quote="It's better to be dead than look stupid, but it is possible to do both" }}
-
-> {{ theme:partial src="aside-header" voice="erik" text="On Fleet Week" }}
->
-> I have a lot of family in the Bay Area, and I've listened to them complain for years about low-flying jets during [Fleet Week](http://www.fleetweek.us/). Here are a couple of important notes.
->
-> First off, the only Navy airplanes who are ever allowed to fly low over populated areas in peacetime are the [Blue Angels](http://www.blueangels.navy.mil/), the Navy's aerial demonstration team. Any other low-flying Navy jet is either landing, taking off, or has a pilot who is about to get [FNAEB'd](http://www.public.navy.mil/bupers-npc/reference/milpersman/1000/1600Performance/Documents/1610-020.pdf) (pronounced FEE-NABBED). 
-> 
-> For Fleet Week, it's the Blue Angels who are doing the low flying, either for the pre-show rehearsal or for their actual demonstration during the event. Flying low at 500 miles an hour is really difficult and takes a lot of practice to do it safely. 
-> 
-> Each winter the Blues go to sunny [NAF El Centro, CA](http://en.wikipedia.org/wiki/NAF_El_Centro) and practice nothing but their show routine over the desert twice a day, six days a week, for two full months before doing it for real at the NAS Pensacola airshow. I've been lucky enough to work with a few former and future Blue Angels, and these guys take professionalism to a new level. Their post-flight debriefings are [merciless](http://vimeo.com/60346244). Being a Blue Angel one of the hardest jobs in Naval Aviation.
->
-> Unfortunately for everybody, due to the [sequestration cuts](http://en.wikipedia.org/wiki/Sequester_\(2013\)), the Blue Angels were barred from flying airshows (including Fleet Week) since their role was deemed non-mission-essential. Unless Congress fixes the current budget mess it's unknown when they'll start flying demonstrations again. 
 
 Erik [revisits fear and failure](http://themindfulbit.com/blog/fear-and-failure), and he and Merlin talk about [meditation](http://en.wikipedia.org/wiki/Mindfulness) while Gabe silently judges them.
 
