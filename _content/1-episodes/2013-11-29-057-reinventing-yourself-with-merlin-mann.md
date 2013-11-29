@@ -122,7 +122,7 @@ Beyond just the nouns and verbs, we are obsessed with labels, but sometimes they
 
 * Because nothing says [Serial Entrepreneur](http://www.urbandictionary.com/define.php?term=serial%20entrepreneur) like a [good business card](http://www.youtube.com/watch?v=qoIvd3zzu4Y).
 
-{{ theme:partial src="image" show="{{ number }}" title="Success" file="avery.jpg" }} 
+{{ theme:partial src="image-set" show="{{ number }}" title="Success" file="avery.jpg" }} 
 
 * [Quit on 5by5](http://5by5.tv/quit)
 * [Jamie Phelps](http://jxpx777.com)
