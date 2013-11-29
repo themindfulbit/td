@@ -22,7 +22,7 @@ summary: 'Gabe and Erik are joined by Merlin Mann to talk about starting over, w
 
 ### Guest Spotlight: Merlin Mann
 
-{{ theme:partial src="image" title="Merlin Mann" show="{{ number }}" file="merlin-face.jpg" }}
+{{ theme:partial src="image" title="Merlin Mann" show="{{ number }}" file="merlin-alt.jpg" }}
 
 * [Father](https://vimeo.com/827487)
 * [Human](http://www.43folders.com/2011/04/22/cranking)
