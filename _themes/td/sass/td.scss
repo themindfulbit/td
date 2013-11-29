@@ -255,7 +255,7 @@ body {
             }
           }
 
-          a:before {
+          a:last-of-type:before {
             content: "\00a0";
             background-image: url("../img/photo.svg");
             background-repeat: no-repeat;
@@ -313,6 +313,7 @@ body {
 
         h4 {
           font-size: 1.1em;
+          margin-bottom: 0.5em;
         }
 
         h5 {
@@ -373,7 +374,23 @@ body {
             padding: 0.4em 0 1em 2.5em;
             line-height: 1em;
             margin-bottom: 0.5em;
+
+            &.gabe {
+              background-image: url(../img/gabe-avatar.png);
+              border-radius: 0.4em;
+
+            }
+
+            &.erik {
+              background-image: url(../img/erik-avatar.png);
+              border-radius: 0.4em;
+
+            }
           }
+        }
+
+        hr {
+          @include column(12,12);
         }
 
         table {
@@ -553,7 +570,7 @@ body {
           font-size: 1.4em;
           text-transform: uppercase;
           color: $medium-gray;
-          margin-top: 1em;
+          margin-top: 0.5em;
           margin-bottom: 1em;
 
           tr {
