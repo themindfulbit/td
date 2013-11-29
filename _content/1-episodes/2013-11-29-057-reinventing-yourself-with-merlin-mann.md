@@ -105,9 +105,10 @@ When you [think outside the box](http://en.wikipedia.org/wiki/Thinking_outside_t
 
 * Usually being an undeclared major isn't about being open-minded.
 
-<a class="fancybox" alt="I hear Steven Levitt is writing a book analyzing A.J. Jacobs' quest to spend a year reading everything Malcolm Gladwell ever wrote. The audiobook will be narrated by Robert Krulwich of Radiolab." title="I hear Steven Levitt is writing a book analyzing A.J. Jacobs' quest to spend a year reading everything Malcolm Gladwell ever wrote. The audiobook will be narrated by Robert Krulwich of Radiolab." rel="page" href="{{ _site_url }}assets/img/057/major_in_the_universe.png" >
-	<img src="{{ _site_url }}assets/img/057/major_in_the_universe.png" /><span class="title"><a href="http://xkcd.com/863/">XKCD</a></span>
+<a class="fancybox" alt="I hear Steven Levitt is writing a book analyzing A.J. Jacobs' quest to spend a year reading everything Malcolm Gladwell ever wrote. The audiobook will be narrated by Robert Krulwich of Radiolab." title="I hear Steven Levitt is writing a book analyzing A.J. Jacobs' quest to spend a year reading everything Malcolm Gladwell ever wrote. The audiobook will be narrated by Robert Krulwich of Radiolab." rel="page" href="http://xkcd.com/863/" >
+	<img src="{{ _site_url }}assets/img/057/major_in_the_universe.png" />
 </a>
+<div class="manual-caption"><a href="http://xkcd.com/863/">XKCD</a></div>
 
 ### Nouns and Verbs
 
@@ -174,6 +175,14 @@ Gabe talks a bit more about why he made his change and another way [he is like a
 
 Whether or not achieving quality of life is a [#firstworldproblem](https://twitter.com/search?q=%23firstworldproblems) or not, sometimes we have to shift into emergency mode and reinvention isn't a choice. Merlin cautions us that this emergency mindset can taint our decisions long after we have reattained stability. Also, emotional pet shops.
 
+> {{ theme:partial src="aside-header" voice="potatowire" text="Producer's Note" }}
+>
+> The concept of three worlds is a carryover from the [Cold War](http://en.wikipedia.org/wiki/Cold_War). It came into being after [World War II](http://en.wikipedia.org/wiki/World_War_II) as a way to describe the split of the globe in to two large [blocs](http://term.ly/bloc), [Communism](http://en.wikipedia.org/wiki/Communism) and [capitalism](http://en.wikipedia.org/wiki/Capitalism). The [First World](http://en.wikipedia.org/wiki/First_World) represented the capitalist West, democracy, moonbeams, and unicorns. The [Second World](http://en.wikipedia.org/wiki/Second_World) represented, communism, [socialist](http://en.wikipedia.org/wiki/Socialism), [industrial states](http://en.wikipedia.org/wiki/Developed_country), red stars, and evil. The [Third World](http://en.wikipedia.org/wiki/Third_World) represented everyone else not aligned with the First or Second Worlds.
+>
+> This idea was also formed when everything was seen to be evolving, and the First World was defined as the bright and shining light that the other "worlds" would eventually become. Unsurprisingly, this opinion wasn't universally held, and [Mao Zedong's](http://en.wikipedia.org/wiki/Mao_Zedong) alternative [Three Worlds Theory](http://en.wikipedia.org/wiki/Three_Worlds_Theory) divides the globe into [superpowers](http://en.wikipedia.org/wiki/Superpower) (First World) and the superpowers' allies (Second World), with [the leftovers](http://en.wikipedia.org/wiki/Non-Aligned_Movement) as the Third World.
+>
+> This term no longer has its original clear definitions, and the First World is now used as a [pot-and-kettle](http://en.wikipedia.org/wiki/The_pot_calling_the_kettle_black) shaming technique on Twitter, and the Third World as a convenient "bin" for the aforementioned shamers and politicians to put poor foreigners. Fortunately, First World folks have now defined a [Fourth World](http://en.wikipedia.org/wiki/Fourth_World) in which to put the weird people from their own countries.
+
 {{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="45:23" person="merlin" quote="They seem to have pretty steady access to the internet" }} 
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Producer's Note" }}
@@ -211,8 +220,6 @@ Erik [revisits fear and failure](http://themindfulbit.com/blog/fear-and-failure)
 > {{ theme:partial src="aside-header" voice="potatowire" text="Producer's Note" }}
 > 
 > Therapy for whom? 
-
-
 
 ### What Happens After Reinvention
 
