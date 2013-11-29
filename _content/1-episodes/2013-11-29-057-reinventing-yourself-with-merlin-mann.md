@@ -23,16 +23,15 @@ summary: 'Gabe and Erik are joined by Merlin Mann to talk about starting over, w
 ### Guest Spotlight: Merlin Mann
 
 * [Father](https://vimeo.com/827487)
-* [Most Days](https://vimeo.com/2899397)
-* [TextExpander](https://vimeo.com/10125313)
-* [Kungfu Grippe](http://www.kungfugrippe.com)
-* As a [conosouier of select tree nuts](https://vimeo.com/885133), Merlin has developed a distinguishing palate of salty treats and healthy living.
-* [Merlin is on Twitter](https://twitter.com/hotdogsladies) but you probably shouldn't follow him. Well ok, just follow him for a little while. Maybe until you start to understand [his jokes](https://twitter.com/hotdogsladies/status/404459653968297984).
+* [Human](http://www.43folders.com/2011/04/22/cranking)
+* [Humorist](https://vimeo.com/2899397)
+* [Kung Fu Grippe](http://www.kungfugrippe.com)
+* As a [connoisseur of select tree nuts](https://vimeo.com/885133), Merlin has developed a distinguishing palate of salty treats and healthy living.
+* [Merlin is on Twitter](https://twitter.com/hotdogsladies) but you probably shouldn't follow him. Well OK, just follow him for a little while. Maybe until you start to understand [his jokes](https://twitter.com/hotdogsladies/status/404459653968297984).
 * Merlin is also [on Vimeo](https://vimeo.com/merlin/videos).
 * Merlin's interview on [The Great Discontent](http://thegreatdiscontent.com/merlin-mann) is a wonderful introduction.
-* The [ProfHacker](http://www.kungfugrippe.com/post/186463639/the-profhacker-podcast-merlin-mann-and-the-first)
 
-#### Merlin as Developer
+#### Merlin as Project Manager
 
 * [43 Folders](http://www.43folders.com)
 * [Project Manager](http://www.43folders.com/2008/08/13/estimating-time)
@@ -45,9 +44,9 @@ summary: 'Gabe and Erik are joined by Merlin Mann to talk about starting over, w
 * [RotL FAQ](http://www.merlinmann.com/rotl-faqs/)
 * [Unoffical Supertrain Trailer](https://vimeo.com/51833520)
 
-> {{ theme:partial src="aside-header" voice="potatowire" text="Producer's Note" }}
+> {{ theme:partial src="aside-header" voice="gabe" text="Gabe's Note" }}
 > 
-> John and Merlin are trying to help you . Especially, if you think you don't need their help. See: that's part of the problem ...
+> John and Merlin are trying to help you . Especially if you think you don't need their help. See: that's part of the problem ...
 > 
 > There's really no excuse for missing the supplemental material over at the [official Tumblr](http://rotl.tumblr.com) site.
 
@@ -57,7 +56,7 @@ summary: 'Gabe and Erik are joined by Merlin Mann to talk about starting over, w
 * Merlin has delivered [many tutorials](http://www.pixelcorps.tv/macbreak33) and [application reviews](http://www.pixelcorps.tv/macbreak301) through the, mostly defunct, MacBreak show. If you're like us, it was [a Merlin video](http://www.pixelcorps.tv/macbreak12) in 2006 that introduced you to the power of Quicksilver and changed the way you used your Mac (also the first thing he ever did with Leo Laporte). At least until Quicksilver [broke your heart](http://www.kungfugrippe.com/post/2409037212/quicksilver).
 * [The Merlin Show](http://www.themerlinshow.com)
 * [This Week in Tech](http://twit.tv/show/this-week-in-tech?page=62)
-* Merlin's most recent visit on Twit was [way back in 2011](http://wiki.twit.tv/wiki/TWiT_316)
+* Merlin's most recent visit on TWIT was [way back in 2011](http://wiki.twit.tv/wiki/TWiT_316)
 * Merlin's been involved with OmniFocus since before the first public release. The application has benefitted from his unique influence and you can watch his [most recent video](https://vimeo.com/61207928) about how he uses the tool.
 
 > {{ theme:partial src="aside-header" voice="gabe" text="Gabe's Note" }}
@@ -71,11 +70,14 @@ summary: 'Gabe and Erik are joined by Merlin Mann to talk about starting over, w
 * [Show Me Your Mike](http://www.ssktn.com/smym/merlin-mann/)
 * Merlin was the [first interview](http://www.70decibels.com/cmdspace/2012/8/1/001-im-yelling-at-me-with-merlin-mann.html) and [appeared again later to discuss Inbox Zero](http://www.70decibels.com/cmdspace/2013/4/11/038-inbox-zero-and-new-projects-with-merlin-mann.html) on CMD + Space.
 * [MaxFunCon in 2008](http://www.maximumfun.org/blog/2008/01/podcast-merlin-mann-live-in-san.html), [2009](http://www.maximumfun.org/sound-young-america/maxfuncon-merlin-mann-doing-creative-work-sound-young-america) and [2011](http://www.maxfuncon.com/2010/02/maxfuncon-podcast-episode-11-merlin.html)
+* The [ProfHacker](http://www.kungfugrippe.com/post/186463639/the-profhacker-podcast-merlin-mann-and-the-first)
 
 #### Merlin as Public Speaker
 
 * [Speaking to ASAE Members](https://vimeo.com/14291044)
 * [Fixing Broken Meetings](https://vimeo.com/15579561)
+* [Inbox Zero](http://www.youtube.com/watch?v=z9UjeTMb3Yk)
+* [Merlin Mann on Time and Attention](http://www.youtube.com/watch?v=uOgHE5nEq04)
 
 #### Merlin as Educator
 
@@ -83,8 +85,7 @@ summary: 'Gabe and Erik are joined by Merlin Mann to talk about starting over, w
 * [Education in the United States](http://en.wikipedia.org/wiki/Education_in_the_United_States)
 * [Say it don't spray it](https://vimeo.com/61207928)
 * [Organizing Perspectives](https://vimeo.com/19764661)
-* [Inbox Zero](http://www.youtube.com/watch?v=z9UjeTMb3Yk)
-* [Merlin Mann on Time and Attention](http://www.youtube.com/watch?v=uOgHE5nEq04)
+* [TextExpander](https://vimeo.com/10125313)
 
 ### "I am mainly former things"
 
@@ -102,7 +103,9 @@ When you [think outside the box](http://en.wikipedia.org/wiki/Thinking_outside_t
 
 * Usually being an undeclared major isn't about being open-minded.
 
-{{ theme:partial src="image" show="{{ number }}" title="Major in the Universe" file="major_in_the_universe.png" }} 
+<a class="fancybox" alt="I hear Steven Levitt is writing a book analyzing A.J. Jacobs' quest to spend a year reading everything Malcolm Gladwell ever wrote. The audiobook will be narrated by Robert Krulwich of Radiolab." title="I hear Steven Levitt is writing a book analyzing A.J. Jacobs' quest to spend a year reading everything Malcolm Gladwell ever wrote. The audiobook will be narrated by Robert Krulwich of Radiolab." rel="page" href="{{ _site_url }}assets/img/057/major_in_the_universe.png" >
+	<img src="{{ _site_url }}assets/img/057/major_in_the_universe.png" /><span class="title"><a href="http://xkcd.com/863/">XKCD</a></span>
+</a>
 
 ### Nouns and Verbs
 
@@ -124,11 +127,11 @@ Beyond just the nouns and verbs, we are obsessed with labels, but sometimes they
 * [Swiss Army Knife or Generalizing Specialist](http://www.codinghorror.com/blog/2006/10/swiss-army-knife-or-generalizing-specialist.html)
 * "Nouns and verbs, [nouns and verbs](http://www.quickanddirtytips.com/education/grammar/verbification-of-a-noun), [nouns and verbs](http://www.youtube.com/watch?v=GXaDebIbjig)"
 
-{{ theme:partial src="image" title="Verbing" show="{{ number }}" file="verbing.gif" }}
+{{ theme:partial src="image" title="Calvin and Hobbes, by Bill Watterson" show="{{ number }}" file="verbing.gif" }}
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Producer's Note" }}
 >
-> [Elon Musk](http://en.wikipedia.org/wiki/Elon_Musk) is [known](http://en.wikipedia.org/wiki/PayPal) [for](http://en.wikipedia.org/wiki/SpaceX) [many](http://en.wikipedia.org/wiki/Tesla_Motors) [things](http://en.wikipedia.org/wiki/SolarCity), but he may just [screwing with us](http://en.wikipedia.org/wiki/Hyperloop) now. Perhaps he is just trying desperately to avoid having a label
+> [Elon Musk](http://en.wikipedia.org/wiki/Elon_Musk) is [known](http://en.wikipedia.org/wiki/PayPal) [for](http://en.wikipedia.org/wiki/SpaceX) [many](http://en.wikipedia.org/wiki/Tesla_Motors) [things](http://en.wikipedia.org/wiki/SolarCity), but he may just be [screwing with us](http://en.wikipedia.org/wiki/Hyperloop) now. Perhaps he is just trying desperately to avoid having a label
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="26:20" person="gabe" quote="We're not even on iTunes" }}
 
@@ -145,7 +148,7 @@ While nearly returning once more to the nouns-and-verbs well, Merlin helps up kn
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="28:06" person="merlin" quote="That's a really, really big question" }}
 
-* Gabe channels [Cal Newport](http://www.youtube.com/watch?v=LUQjAAwsKR8), reacting strongly [against](http://www.theminimalists.com/cal/) passions, but Melin points out the limitless [career potential](http://en.wikipedia.org/wiki/Video_gaming_in_South_Korea#Pro-gaming) abroad.
+* Gabe channels [Cal Newport](http://www.youtube.com/watch?v=LUQjAAwsKR8), reacting strongly [against](http://www.theminimalists.com/cal/) passions, but Merlin points out the limitless [career potential](http://en.wikipedia.org/wiki/Video_gaming_in_South_Korea#Pro-gaming) abroad.
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Producer's Note" }}
 >
