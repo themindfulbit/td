@@ -22,6 +22,8 @@ summary: 'Gabe and Erik are joined by Merlin Mann to talk about starting over, w
 
 ### Guest Spotlight: Merlin Mann
 
+{{ theme:partial src="image" title="Merlin Mann" show="{{ number }}" file="merlin-face.jpg" }}
+
 * [Father](https://vimeo.com/827487)
 * [Human](http://www.43folders.com/2011/04/22/cranking)
 * [Humorist](https://vimeo.com/2899397)
@@ -131,7 +133,7 @@ Beyond just the nouns and verbs, we are obsessed with labels, but sometimes they
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Producer's Note" }}
 >
-> [Elon Musk](http://en.wikipedia.org/wiki/Elon_Musk) is [known](http://en.wikipedia.org/wiki/PayPal) [for](http://en.wikipedia.org/wiki/SpaceX) [many](http://en.wikipedia.org/wiki/Tesla_Motors) [things](http://en.wikipedia.org/wiki/SolarCity), but he may just be [screwing with us](http://en.wikipedia.org/wiki/Hyperloop) now. Perhaps he is just trying desperately to avoid having a label
+> [Elon Musk](http://en.wikipedia.org/wiki/Elon_Musk) is [known](http://en.wikipedia.org/wiki/PayPal) [for](http://en.wikipedia.org/wiki/SpaceX) [many](http://en.wikipedia.org/wiki/Tesla_Motors) [things](http://en.wikipedia.org/wiki/SolarCity), but he may just be [screwing with us](http://en.wikipedia.org/wiki/Hyperloop) now. Perhaps he is just trying desperately to avoid having a label.
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="26:20" person="gabe" quote="We're not even on iTunes" }}
 
