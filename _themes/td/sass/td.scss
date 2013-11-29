@@ -255,7 +255,7 @@ body {
             }
           }
 
-          a:before {
+          a:last-of-type:before {
             content: "\00a0";
             background-image: url("../img/photo.svg");
             background-repeat: no-repeat;
@@ -313,6 +313,7 @@ body {
 
         h4 {
           font-size: 1.1em;
+          margin-bottom: 0.5em;
         }
 
         h5 {
@@ -373,7 +374,19 @@ body {
             padding: 0.4em 0 1em 2.5em;
             line-height: 1em;
             margin-bottom: 0.5em;
+
+            &.gabe {
+              background-image: url(../img/gabe-avatar.png);
+            }
+
+            &.erik {
+              background-image: url(../img/erik-avatar.png);
+            }
           }
+        }
+
+        hr {
+          @include column(12,12);
         }
 
         table {
@@ -524,7 +537,8 @@ body {
             &.fancybox {
               @include column(12,12);
               padding: 0;
-              margin-bottom: 1em;
+              margin-top: 0.5em;
+              margin-bottom: 0;
 
               img {
                 @include column(12,12);
@@ -545,6 +559,27 @@ body {
           } 
         }
 
+        .manual-caption {
+          @include column(12,12);
+          padding: 0;
+          text-align: center;
+          color: $black;
+          font-size: 0.9em;
+          font-style: italic;
+
+          a,
+          a:visited,
+          a:active,
+          a:focus {
+            color: $light-orange;
+
+            &:hover {
+              color: $dark-orange;
+            }
+          }
+
+        }
+
         .fancy-quote {
           @include column(12,12);
           padding: 0;
@@ -553,7 +588,7 @@ body {
           font-size: 1.4em;
           text-transform: uppercase;
           color: $medium-gray;
-          margin-top: 1em;
+          margin-top: 0.5em;
           margin-bottom: 1em;
 
           tr {
