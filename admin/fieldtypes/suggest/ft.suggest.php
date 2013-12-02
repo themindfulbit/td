@@ -4,6 +4,8 @@ class Fieldtype_suggest extends Fieldtype
 {
     public function render()
     {
+        $field_data = $this->field_data;
+
         /*
         |--------------------------------------------------------------------------
         | Multi-select
@@ -129,16 +131,20 @@ class Fieldtype_suggest extends Fieldtype
 
         $is_indexed = (array_values($suggestions) === $suggestions);
 
-        // rd($suggestions);
+        // Preserve existing data's order
+        if (is_array($field_data)) {
+            $field_data = array_combine($field_data, $field_data);
+            $suggestions = array_merge($field_data, $suggestions);
+        }
 
         foreach ($suggestions as $value => $label) {
 
             $value = $is_indexed ? $label : $value; #allows setting custom values and labels
 
-            if ($multiple && is_array($this->field_data) ) {
-                $selected = in_array($value, $this->field_data) ? " selected " : '';
+            if ($multiple && is_array($field_data) ) {
+                $selected = in_array($value, $field_data) ? " selected " : '';
             } else {
-                $selected = $this->field_data == $value ? " selected " : '';
+                $selected = $field_data == $value ? " selected " : '';
             }
 
             $html .= "<option value='{$value}'{$selected}>{$label}</option>\n";
@@ -207,16 +213,20 @@ class Fieldtype_suggest extends Fieldtype
     }
 
 
-    // public function process()
-    // {
-    //     // If there's only one option
-    //     // save it as a string instead of an array
-    //     rd($this->field_data);
+    public function process($settings)
+    {
+        // If empty, save as null
+        if ($this->field_data === '') {
+            return null;
+        }
 
-    //     if (count($this->field_data) === 1) {
-    //         return $this->field_data[0];
-    //     }
+        // If we're forcing lowercase taxonomies (which we are by default), save them as lower too
+        if (array_get($settings, 'taxonomy', false) && Config::get('taxonomy_force_lowercase', false)) {
+            foreach ($this->field_data as $key => $value) {
+                $this->field_data[$key] = strtolower($value);
+            }
+        }
 
-    //     return $this->field_data;
-    // }
+        return $this->field_data;
+    }
 }
