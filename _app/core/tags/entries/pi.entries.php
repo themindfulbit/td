@@ -196,6 +196,12 @@ class Plugin_entries extends Plugin
             'type'        => 'entries',
             'conditions'  => trim($this->fetchParam('conditions', null))
         ));
+        
+        // prepare if needed
+        $parse_content = (bool) preg_match(Pattern::USING_CONTENT, $this->content);
+        if ($parse_content) {
+            $content_set->prepare();
+        }
 
         // supplement
         $content_set->supplement(array(
@@ -228,7 +234,7 @@ class Plugin_entries extends Plugin
         }
 
         // get content
-        $parse_content = (bool) preg_match(Pattern::USING_CONTENT, $this->content);
+        $content_set->prepare(false, true);
         $content = $content_set->get($parse_content);
 
         // set variables
