@@ -143,6 +143,44 @@ body {
       line-height: 1em;
       text-align: center;
     }
+
+    .search {
+
+      input[type="search"]::-webkit-search-decoration,
+      input[type="search"]::-webkit-search-cancel-button,
+      input[type="search"]::-webkit-search-results-button,
+      input[type="search"]::-webkit-search-results-decoration {
+        display: none;
+      }
+
+      input {
+        @include column(8,12);
+        @include push(2,12);
+        padding: 0.5em 0 0em 2.2em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        font-family: "adobe-caslon-pro", serif;
+        font-style: italic;
+        border: 2px solid $dark-gray;
+        border-radius: 1em;
+        line-height: 1.8em;
+        background-image: url('../img/search.svg');
+        background-size: 1.2em 1.2em;
+        background-repeat: no-repeat;
+        background-position: 0.6em 0.6em;
+        background-color: transparent;
+        color: $white;
+        font-size: 0.9em;
+
+        -webkit-appearance: none;
+
+        &:focus {
+          outline-color: transparent;
+          outline-style: none;
+          border-color: $medium-gray;
+        }
+      }
+    }
   }
 
   .content {
@@ -790,112 +828,92 @@ body {
       .page-content {
         padding-bottom: 2em;
 
-        img {
-          border-radius: 1em;
-          margin-top: 2em;
-        }
-
         .person {
-          padding-bottom: 1em;
-          border-bottom: 1px solid $light-gray;
-          margin-bottom: 0.5em;
-        }
+          @include column(12,12);
+          padding: 0 0 1em;
+
+          .portrait {
+            @include column(12,12);
+            padding: 0;
+            border-radius: 1em;
+            margin-bottom: 0;
+          }
         
-        h2 {
-          border-bottom: 0;
-          margin-bottom: 0;
-          margin-top: 1em;
-          padding-bottom: 0;
-          text-align: center;
-          font-size: 1.8em;
-        }
-
-        .site {
-
           h2 {
-            margin-bottom: 0.5em;
-            font-size: 1.6em;
+            text-align: center;
+            font-size: 1.8em;
+            margin-bottom: 0;
           }
-        }
 
-        h3 {
-          font-family: "adobe-caslon-pro", serif;
-          font-style: italic;
-          text-transform: none;
-          margin: 0;
-          margin-bottom: 0.5em;
-          text-align: center;
-          font-size: 1.3em;
+          h3 {
+            font-family: "adobe-caslon-pro", serif;
+            font-style: italic;
+            text-transform: none;
+            margin: 0.5em 0 1em;
+            text-align: center;
+            font-size: 1.3em;
+          }
 
-        }
+          ul.social-links {
+            @include column(12,12);
+            padding: 0;
+            margin-top: 1em;
+            text-align: center;
 
-        p {
-          margin-bottom: 0.5em;
-        }
+            li {
+              @include column(3,12);
+              padding: 0;
 
-        p.intro {
-          padding-bottom: 1em;
-          border-bottom: 1px solid $light-gray;
-        }
-
-        ul.social-links {
-          margin-top: 1em;
-          text-align: center;
-
-          li {
-            display: inline-block;
-
-            &:before {
-              display: none;
-            }
-
-            a,
-            a:active,
-            a:visited,
-            a:focus {
-              display: inline-block;
-              text-indent: -10000px;
-              height: 2em;
-              width: 4em;
-              background-repeat: no-repeat;
-              background-size: 2em 2em;
-              background-position: 50% 50%;
-
-              &.twitter {
-                background-image: url("../img/twitter-light.svg");
-
-                &:hover {
-                  background-image: url("../img/twitter-dark.svg");
-                }
+              &:before {
+                display: none;
               }
 
-              &.adn {
-                background-image: url("../img/adn-light.svg");
+              a,
+              a:active,
+              a:visited,
+              a:focus {
+                display: inline-block;
+                text-indent: -10000px;
+                height: 2em;
+                width: 4em;
+                background-repeat: no-repeat;
+                background-size: 2em 2em;
+                background-position: 50% 50%;
 
-                &:hover {
-                  background-image: url("../img/adn-dark.svg");
+                &.twitter {
+                  background-image: url("../img/twitter-light.svg");
+
+                  &:hover {
+                    background-image: url("../img/twitter-dark.svg");
+                  }
                 }
-              }
 
-              &.web {
-                background-image: url("../img/web-light.svg");
+                &.adn {
+                  background-image: url("../img/adn-light.svg");
 
-                &:hover {
-                  background-image: url("../img/web-dark.svg");
+                  &:hover {
+                    background-image: url("../img/adn-dark.svg");
+                  }
+                }
+
+                &.web {
+                  background-image: url("../img/web-light.svg");
+
+                  &:hover {
+                    background-image: url("../img/web-dark.svg");
+                  }
                 }
               }
             }
-
-
           }
         }
-
       }
 
     }
 
     #show-archive,
-    #show-taxonomy {
+    #show-taxonomy,
+    #search {
       @include column(12,12);
       padding: 1em;
 
@@ -941,18 +959,30 @@ body {
           outline-color: transparent;
           outline-style: none;
           border-color: $light-orange;
+          background-color: $black;
         }
       }
 
-      .instructions {
+      .instructions,
+      .message {
         @include column(10,12);
         @include push(1);
         margin-top: 0.5em;
         margin-bottom: 0.5em;
         text-align: center;
         font-style: italic;
-        font-size: 0.9em;
         color: $medium-gray;
+
+        a,
+        a:visited,
+        a:active,
+        a:focus {
+          color: $light-orange;
+
+          &:hover {
+            color: $dark-orange;
+          }
+        }
       }
 
       #ep-toggle {
@@ -1349,7 +1379,8 @@ body {
   }
 
   body .content #show-archive,
-  body .content #show-taxonomy {
+  body .content #show-taxonomy,
+  body .content #search {
 
     input {
       @include column(8,12);
@@ -1463,6 +1494,54 @@ body {
       .person {
         @include column(12,12);
         padding: 0;
+
+        .portrait {
+          @include column(4,12);
+          padding: 0;
+          margin-top: 1em;
+          clear: both;
+          border-radius: 0.5em;
+        }
+
+        .right {
+          @include column(7,12);
+          @include push(1,12);
+          padding: 0;
+
+          h2 {
+            margin-top: 0.5em;
+            padding-bottom: 0.1em;
+            text-align: left;
+            font-size: 1.3em;
+          }
+
+          h3 {
+            text-align: left;
+            font-size: 1em;
+          }
+
+          ul.social-links {
+            @include column(7,7);
+            padding: 0;
+            text-align: left;
+            margin-top: 0;
+
+            li {
+              @include column(1,7);
+              padding: 0;
+              
+              a,
+              a:visited,
+              a:active,
+              a:focus {
+                @include column(1,1);
+                padding: 0;
+                height: 2em;
+                background-size: 1.5em 1.5em;
+              }
+            }
+          }
+        }
       }
 
       .site {
@@ -1470,54 +1549,12 @@ body {
         padding: 0 0 2em;
 
       }
-
-      img {
-        @include column(4,12);
-        padding: 0;
-        margin-top: 1em;
-        clear: both;
-        border-radius: 0.5em;
-      }
-
-      .right {
-        @include column(7,12);
-        @include push(1,12);
-        padding: 0;
-
-        h2 {
-          margin-top: 0.5em;
-          padding-bottom: 0.1em;
-          text-align: left;
-          font-size: 1.3em;
-        }
-
-        h3 {
-          text-align: left;
-          font-size: 1em;
-        }
-
-        ul.social-links {
-          text-align: left;
-          margin-top: 0;
-
-          li {
-
-            a,
-            a:visited,
-            a:active,
-            a:focus {
-              width: 2em;
-              height: 2em;
-              background-size: 1.5em 1.5em;
-            }
-          }
-        }
-      }
     }
   }
 
   body .content #show-archive,
-  body .content #show-taxonomy {
+  body .content #show-taxonomy
+  body .content #search {
     ul li a {
       padding: 1em 2em;
     }
@@ -1606,7 +1643,8 @@ body {
   } 
 
   body .content #show-archive,
-  body .content #show-taxonomy {
+  body .content #show-taxonomy,
+  body .content #search {
 
     ul.text-list li a,
     ul.text-list li a:visited,
@@ -1635,6 +1673,12 @@ body {
       @include column(10,12);
       @include push(1);
       padding: 0;
+
+      .header .search input {
+        @include column(6,12);
+        @include push(3,12);
+        padding: 0.5em 0 0em 2.2em;
+      }
 
     }
   }
@@ -1689,7 +1733,8 @@ body {
   }
 
   body .content #show-archive,
-  body .content #show-taxonomy {
+  body .content #show-taxonomy,
+  body .content #search {
 
     ul.image-list {
 

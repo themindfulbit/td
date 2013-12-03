@@ -53,16 +53,16 @@
 # -----------------------------------------------------------------------------
 
 # the strength-multiplier for each type of match
-#match_weights:
-#  partial_word: 1,
-#  partial_first_word: 2,
-#  partial_word_start: 1,
-#  partial_first_word_start: 2,
-#  whole_word: 5,
-#  whole_first_word: 5,
-#  partial_whole: 2,
-#  partial_whole_start: 2,
-#  whole: 10
+match_weights:
+  partial_word: 1,
+  partial_first_word: 2,
+  partial_word_start: 1,
+  partial_first_word_start: 2,
+  whole_word: 20,
+  whole_first_word: 25,
+  partial_whole: 15,
+  partial_whole_start: 20,
+  whole: 25
   
 # the minimum number of characters required to trigger a search
 #min_characters: 3
@@ -71,7 +71,7 @@
 #min_word_characters: 2
 
 # the lowest score value a result can get to appear as a result 
-#score_threshold: 1
+score_threshold: 10
 
 # strength-multipliers for matches found in specific variables
 #property_weights:
@@ -114,7 +114,7 @@
 
 # folders to search through (search multiple folders at one by 
 # pipe-delimiting them)
-#folders: 
+folders: episodes
 
 # grab the taxonomy from the URL and only search over matching items?
 #taxonomy: false
@@ -153,10 +153,10 @@
 # -----------------------------------------------------------------------------
 
 # log successful searches as `info`-level messages?
-#log_successful_searches: true
+log_successful_searches: true
 
 # log failed searches as `warn`-level messages?
-#log_failed_searches: true
+log_failed_searches: true
 
 
 # -----------------------------------------------------------------------------

@@ -1,0 +1,292 @@
+exception 'Lex\ParsingException' with message 'You have a syntax error in your Lex tags. The offending code: <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){ 
+
+  $("#ep-browser").click(function() {
+    $("#ep-browser").addClass("active");
+    $("#ep-list").removeClass("active");
+    $(".list").removeClass("text-list");
+    $(".list").addClass("image-list");
+  });  
+
+  $("#ep-list").click(function() {
+    $("#ep-list").addClass("active");
+    $("#ep-browser").removeClass("active");
+    $(".list").removeClass("image-list");
+    $(".list").addClass("text-list");
+  });
+
+});
+
+</script>
+
+<div id="search">
+  <h1>Episode Search</h1>
+  <ul id="ep-toggle">
+    <li id="ep-browser">Browser</li>
+    <li id="ep-list" class="active">List</li>
+  </ul>
+
+  {{ bloodhound:search }}
+
+      if (null): 
+
+        <!-- do nothing -->
+
+      elseif (null): 
+
+      <p>Sorry, no results found for {{ _query }}.</p>
+
+      else: 
+        if (true): 
+
+          <p>Showing results for {{ _query }}.</p>
+          <ul class="list text-list">
+
+        endif; 
+
+        <li>
+          <a class="permalink" href="{{ url }}">
+            {{ theme:partial src="transform" title="" file="{{ banner }}" }}
+            <h2 class="show-number"><span class="ticks">&minus;&nbsp;</span>{{ number }}<span class="ticks">&nbsp;&minus;</span></h2>
+            <div class="show-info">
+              <h2 class="show-title"> {{ title|widont }}</h2>
+              <div class="show-date"> {{ datestamp format="F jS, Y" }}</div>
+            </div>
+            <p class="summary">{{ summary|markdown }}</p>
+          </a>
+        </li>
+
+        if (true): 
+          </ul>
+        endif; 
+
+  {{ bloodhound:search }}
+
+</div>' in /Users/erik/Dropbox/dev/td/_app/vendor/Lex/Parser.php:1348
+Stack trace:
+#0 /Users/erik/Dropbox/dev/td/_app/vendor/Lex/Parser.php(658): Lex\Parser->parsePhp('<script src="//...')
+#1 /Users/erik/Dropbox/dev/td/_app/vendor/Lex/Parser.php(103): Lex\Parser->parseConditionals('<script src="//...', Array, Array)
+#2 /Users/erik/Dropbox/dev/td/_app/core/view.php(80): Lex\Parser->parse('<script src="//...', Array, Array, false)
+#3 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/View.php(195): Statamic_View->render(NULL)
+#4 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/View.php(182): Slim\View->fetch(NULL)
+#5 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/Slim.php(672): Slim\View->display(NULL)
+#6 /Users/erik/Dropbox/dev/td/_app/routes.php(366): Slim\Slim->render(NULL, Array, 200)
+#7 [internal function]: {closure}(Array)
+#8 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/Router.php(172): call_user_func_array(Object(Closure), Array)
+#9 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/Slim.php(1222): Slim\Router->dispatch(Object(Slim\Route))
+#10 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#11 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#12 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#13 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/Slim.php(1174): Slim\Middleware\PrettyExceptions->call()
+#14 /Users/erik/Dropbox/dev/td/index.php(65): Slim\Slim->run()
+#15 {main}
+exception 'Lex\ParsingException' with message 'You have a syntax error in your Lex tags. The offending code: <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){ 
+
+  $("#ep-browser").click(function() {
+    $("#ep-browser").addClass("active");
+    $("#ep-list").removeClass("active");
+    $(".list").removeClass("text-list");
+    $(".list").addClass("image-list");
+  });  
+
+  $("#ep-list").click(function() {
+    $("#ep-list").addClass("active");
+    $("#ep-browser").removeClass("active");
+    $(".list").removeClass("image-list");
+    $(".list").addClass("text-list");
+  });
+
+});
+
+</script>
+
+<div id="search">
+  <h1>Episode Search</h1>
+  <ul id="ep-toggle">
+    <li id="ep-browser">Browser</li>
+    <li id="ep-list" class="active">List</li>
+  </ul>
+
+  {{ bloodhound:search }}
+
+      if (null): 
+
+        <!-- do nothing -->
+
+      elseif (null): 
+
+      <p>Sorry, no results found for {{ _query }}.</p>
+
+      else: 
+        if (true): 
+
+          <p>Showing results for {{ _query }}.</p>
+          <ul class="list text-list">
+
+        endif; 
+
+        <li>
+          <a class="permalink" href="{{ url }}">
+            {{ theme:partial src="transform" title="" file="{{ banner }}" }}
+            <h2 class="show-number"><span class="ticks">&minus;&nbsp;</span>{{ number }}<span class="ticks">&nbsp;&minus;</span></h2>
+            <div class="show-info">
+              <h2 class="show-title"> {{ title|widont }}</h2>
+              <div class="show-date"> {{ datestamp format="F jS, Y" }}</div>
+            </div>
+            <p class="summary">{{ summary|markdown }}</p>
+          </a>
+        </li>
+
+        if (true): 
+          </ul>
+        endif; 
+
+  {{ bloodhound:search }}
+
+</div>' in /Users/erik/Dropbox/dev/td/_app/vendor/Lex/Parser.php:1348
+Stack trace:
+#0 /Users/erik/Dropbox/dev/td/_app/vendor/Lex/Parser.php(658): Lex\Parser->parsePhp('<script src="//...')
+#1 /Users/erik/Dropbox/dev/td/_app/vendor/Lex/Parser.php(103): Lex\Parser->parseConditionals('<script src="//...', Array, Array)
+#2 /Users/erik/Dropbox/dev/td/_app/core/view.php(80): Lex\Parser->parse('<script src="//...', Array, Array, false)
+#3 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/View.php(195): Statamic_View->render(NULL)
+#4 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/View.php(182): Slim\View->fetch(NULL)
+#5 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/Slim.php(672): Slim\View->display(NULL)
+#6 /Users/erik/Dropbox/dev/td/_app/routes.php(366): Slim\Slim->render(NULL, Array, 200)
+#7 [internal function]: {closure}(Array)
+#8 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/Router.php(172): call_user_func_array(Object(Closure), Array)
+#9 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/Slim.php(1222): Slim\Router->dispatch(Object(Slim\Route))
+#10 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#11 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#12 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#13 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/Slim.php(1174): Slim\Middleware\PrettyExceptions->call()
+#14 /Users/erik/Dropbox/dev/td/index.php(65): Slim\Slim->run()
+#15 {main}
+exception 'Lex\ParsingException' with message 'You have a syntax error in your Lex tags. The offending code: <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){ 
+
+  $("#ep-browser").click(function() {
+    $("#ep-browser").addClass("active");
+    $("#ep-list").removeClass("active");
+    $(".list").removeClass("text-list");
+    $(".list").addClass("image-list");
+  });  
+
+  $("#ep-list").click(function() {
+    $("#ep-list").addClass("active");
+    $("#ep-browser").removeClass("active");
+    $(".list").removeClass("image-list");
+    $(".list").addClass("text-list");
+  });
+
+});
+
+</script>
+
+<div id="search">
+  <h1>Episode Search</h1>
+  <ul id="ep-toggle">
+    <li id="ep-browser">Browser</li>
+    <li id="ep-list" class="active">List</li>
+  </ul>
+
+  {{ bloodhound:search }}
+
+      if (null): 
+
+        <!-- do nothing -->
+
+      elseif (null): 
+
+      <p>Sorry, no results found for {{ _query }}.</p>
+
+      else: 
+        if (true): 
+
+          <p>Showing results for {{ _query }}.</p>
+          <ul class="list text-list">
+
+        endif; 
+
+        <li>
+
+        </li>
+
+        if (true): 
+          </ul>
+        endif; 
+
+  {{ bloodhound:search }}
+
+</div>' in /Users/erik/Dropbox/dev/td/_app/vendor/Lex/Parser.php:1348
+Stack trace:
+#0 /Users/erik/Dropbox/dev/td/_app/vendor/Lex/Parser.php(658): Lex\Parser->parsePhp('<script src="//...')
+#1 /Users/erik/Dropbox/dev/td/_app/vendor/Lex/Parser.php(103): Lex\Parser->parseConditionals('<script src="//...', Array, Array)
+#2 /Users/erik/Dropbox/dev/td/_app/core/view.php(80): Lex\Parser->parse('<script src="//...', Array, Array, false)
+#3 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/View.php(195): Statamic_View->render(NULL)
+#4 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/View.php(182): Slim\View->fetch(NULL)
+#5 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/Slim.php(672): Slim\View->display(NULL)
+#6 /Users/erik/Dropbox/dev/td/_app/routes.php(366): Slim\Slim->render(NULL, Array, 200)
+#7 [internal function]: {closure}(Array)
+#8 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/Router.php(172): call_user_func_array(Object(Closure), Array)
+#9 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/Slim.php(1222): Slim\Router->dispatch(Object(Slim\Route))
+#10 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#11 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#12 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#13 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/Slim.php(1174): Slim\Middleware\PrettyExceptions->call()
+#14 /Users/erik/Dropbox/dev/td/index.php(65): Slim\Slim->run()
+#15 {main}
+INFO|Mon, 02 Dec 2013 16:21:06 -0500|tasks|bloodhound|/search?query=mac|127.0.0.1||Someone searched for *mac* and found 33 results.
+INFO|Mon, 02 Dec 2013 16:29:56 -0500|tasks|bloodhound|/search?query=mind|127.0.0.1||Someone searched for *mind* and found 12 results.
+INFO|Mon, 02 Dec 2013 16:33:30 -0500|tasks|bloodhound|/search?query=Mac|127.0.0.1||Someone searched for *Mac* and found 33 results.
+INFO|Mon, 02 Dec 2013 16:37:59 -0500|tasks|bloodhound|/search?query=Merlin+Mann|127.0.0.1||Someone searched for *Merlin Mann* and found 5 results.
+WARN|Mon, 02 Dec 2013 16:41:18 -0500|tasks|bloodhound|/search?query=gorgonzola|127.0.0.1||Someone searched for *gorgonzola* and no results were found.
+INFO|Mon, 02 Dec 2013 16:42:50 -0500|tasks|bloodhound|/search?query=mind+map|127.0.0.1||Someone searched for *mind map* and found 13 results.
+INFO|Mon, 02 Dec 2013 16:44:10 -0500|tasks|bloodhound|/search?query=omnifocus|127.0.0.1||Someone searched for *omnifocus* and found 11 results.
+INFO|Mon, 02 Dec 2013 16:49:42 -0500|tasks|bloodhound|/search?query=ipad|127.0.0.1||Someone searched for *ipad* and found 6 results.
+WARN|Mon, 02 Dec 2013 16:52:46 -0500|tasks|bloodhound|/search?query=petshop|127.0.0.1||Someone searched for *petshop* and no results were found.
+WARN|Mon, 02 Dec 2013 16:54:22 -0500|tasks|bloodhound|/search?query=petshops|127.0.0.1||Someone searched for *petshops* and no results were found.
+INFO|Mon, 02 Dec 2013 16:57:00 -0500|tasks|bloodhound|/search?query=pet+shop|127.0.0.1||Someone searched for *pet shop* and found 2 results.
+INFO|Mon, 02 Dec 2013 16:57:55 -0500|tasks|bloodhound|/search?query=merlin+mann|127.0.0.1||Someone searched for *merlin mann* and found 3 results.
+INFO|Mon, 02 Dec 2013 17:00:23 -0500|tasks|bloodhound|/search?query=Sonos|127.0.0.1||Someone searched for *Sonos* and found 1 result.
+INFO|Mon, 02 Dec 2013 17:01:13 -0500|tasks|bloodhound|/search?query=Erik|127.0.0.1||Someone searched for *Erik* and found 31 results.
+INFO|Mon, 02 Dec 2013 17:20:11 -0500|tasks|bloodhound|/search?query=ethernet|127.0.0.1||Someone searched for *ethernet* and found 1 result.
+INFO|Mon, 02 Dec 2013 17:23:21 -0500|tasks|bloodhound|/search?query=eddie+smith|127.0.0.1||Someone searched for *eddie smith* and found 3 results.
+WARN|Mon, 02 Dec 2013 17:25:38 -0500|tasks|bloodhound|/search?query=PERSET|127.0.0.1||Someone searched for *PERSET* and no results were found.
+INFO|Mon, 02 Dec 2013 17:26:14 -0500|tasks|bloodhound|/search?query=lanham|127.0.0.1||Someone searched for *lanham* and found 1 result.
+INFO|Mon, 02 Dec 2013 17:31:52 -0500|tasks|bloodhound|/search?query=Generational|127.0.0.1||Someone searched for *Generational* and found 4 results.
+INFO|Mon, 02 Dec 2013 17:38:55 -0500|tasks|bloodhound|/search?query=This+is+search+text|127.0.0.1||Someone searched for *This is search text* and found 58 results.
+INFO|Mon, 02 Dec 2013 17:39:13 -0500|tasks|bloodhound|/search?query=video|127.0.0.1||Someone searched for *video* and found 2 results.
+INFO|Mon, 02 Dec 2013 17:48:28 -0500|tasks|bloodhound|/episodes?query=Merlin|127.0.0.1||Someone searched for *Merlin* and found 2 results.
+INFO|Mon, 02 Dec 2013 17:51:19 -0500|tasks|bloodhound|/episodes?query=Edison|127.0.0.1||Someone searched for *Edison* and found 1 result.
+WARN|Mon, 02 Dec 2013 17:51:27 -0500|tasks|bloodhound|/episodes?query=Elon|127.0.0.1||Someone searched for *Elon* and no results were found.
+WARN|Mon, 02 Dec 2013 17:54:25 -0500|tasks|bloodhound|/episodes?query=Musk|127.0.0.1||Someone searched for *Musk* and no results were found.
+INFO|Mon, 02 Dec 2013 17:55:44 -0500|tasks|bloodhound|/episodes?query=Mann|127.0.0.1||Someone searched for *Mann* and found 4 results.
+INFO|Mon, 02 Dec 2013 17:56:40 -0500|tasks|bloodhound|/episodes?query=test|127.0.0.1||Someone searched for *test* and found 6 results.
+INFO|Mon, 02 Dec 2013 18:01:17 -0500|tasks|bloodhound|/episodes?query=Elon+Musk|127.0.0.1||Someone searched for *Elon Musk* and found 1 result.
+INFO|Mon, 02 Dec 2013 18:08:47 -0500|tasks|bloodhound|/episodes?query=punch|127.0.0.1||Someone searched for *punch* and found 1 result.
+INFO|Mon, 02 Dec 2013 18:09:05 -0500|tasks|bloodhound|/episodes?query=punchdown|127.0.0.1||Someone searched for *punchdown* and found 1 result.
+INFO|Mon, 02 Dec 2013 18:09:26 -0500|tasks|bloodhound|/episodes?query=crimp|127.0.0.1||Someone searched for *crimp* and found 1 result.
+INFO|Mon, 02 Dec 2013 18:09:38 -0500|tasks|bloodhound|/episodes?query=cat+5|127.0.0.1||Someone searched for *cat 5* and found 10 results.
+INFO|Mon, 02 Dec 2013 18:11:11 -0500|tasks|bloodhound|/episodes?query=Ethernet|127.0.0.1||Someone searched for *Ethernet* and found 1 result.
+INFO|Mon, 02 Dec 2013 18:11:33 -0500|tasks|bloodhound|/episodes?query=crosstalk|127.0.0.1||Someone searched for *crosstalk* and found 1 result.
+INFO|Mon, 02 Dec 2013 18:12:35 -0500|tasks|bloodhound|/episodes?query=statamic|127.0.0.1||Someone searched for *statamic* and found 2 results.
+WARN|Mon, 02 Dec 2013 18:12:49 -0500|tasks|bloodhound|/episodes?query=app.net|127.0.0.1||Someone searched for *app.net* and no results were found.
+WARN|Mon, 02 Dec 2013 18:13:00 -0500|tasks|bloodhound|/episodes?query=App.net|127.0.0.1||Someone searched for *App.net* and no results were found.
+INFO|Mon, 02 Dec 2013 18:13:10 -0500|tasks|bloodhound|/episodes?query=Asymco|127.0.0.1||Someone searched for *Asymco* and found 1 result.
+INFO|Mon, 02 Dec 2013 18:13:20 -0500|tasks|bloodhound|/episodes?query=AppFog|127.0.0.1||Someone searched for *AppFog* and found 1 result.
+WARN|Mon, 02 Dec 2013 18:13:34 -0500|tasks|bloodhound|/episodes?query=cloud9|127.0.0.1||Someone searched for *cloud9* and no results were found.
+WARN|Mon, 02 Dec 2013 18:13:41 -0500|tasks|bloodhound|/episodes?query=Cloud9|127.0.0.1||Someone searched for *Cloud9* and no results were found.
+INFO|Mon, 02 Dec 2013 18:13:51 -0500|tasks|bloodhound|/episodes?query=Cloud9+IDE|127.0.0.1||Someone searched for *Cloud9 IDE* and found 14 results.
+INFO|Mon, 02 Dec 2013 18:14:43 -0500|tasks|bloodhound|/episodes?query=zendesk|127.0.0.1||Someone searched for *zendesk* and found 2 results.
+INFO|Mon, 02 Dec 2013 18:15:14 -0500|tasks|bloodhound|/episodes?query=fluid|127.0.0.1||Someone searched for *fluid* and found 1 result.
+INFO|Mon, 02 Dec 2013 18:16:01 -0500|tasks|bloodhound|/episodes?query=checkvist|127.0.0.1||Someone searched for *checkvist* and found 6 results.
+INFO|Mon, 02 Dec 2013 18:16:36 -0500|tasks|bloodhound|/episodes?query=Marked|127.0.0.1||Someone searched for *Marked* and found 3 results.
+INFO|Mon, 02 Dec 2013 18:16:50 -0500|tasks|bloodhound|/episodes?query=macminicolo|127.0.0.1||Someone searched for *macminicolo* and found 1 result.
+INFO|Mon, 02 Dec 2013 18:56:16 -0500|tasks|bloodhound|/episodes?query=Bespin|127.0.0.1||Someone searched for *Bespin* and found 1 result.

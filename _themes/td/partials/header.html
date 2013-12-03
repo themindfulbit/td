@@ -5,3 +5,9 @@
 </div>
 <h1>Technical Difficulties</h1>
 <h2>Like a normal tech podcast, but&nbsp;broken.</h2>
+
+<form class="search" action="/episodes" method="get">
+
+  <input class="search" placeholder="Search Episodes and Notes" type="text" name="query" value="{{ get:query|sanitize }}">
+
+</form>
