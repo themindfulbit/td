@@ -289,3 +289,4 @@ INFO|Mon, 02 Dec 2013 18:15:14 -0500|tasks|bloodhound|/episodes?query=fluid|127.
 INFO|Mon, 02 Dec 2013 18:16:01 -0500|tasks|bloodhound|/episodes?query=checkvist|127.0.0.1||Someone searched for *checkvist* and found 6 results.
 INFO|Mon, 02 Dec 2013 18:16:36 -0500|tasks|bloodhound|/episodes?query=Marked|127.0.0.1||Someone searched for *Marked* and found 3 results.
 INFO|Mon, 02 Dec 2013 18:16:50 -0500|tasks|bloodhound|/episodes?query=macminicolo|127.0.0.1||Someone searched for *macminicolo* and found 1 result.
+INFO|Mon, 02 Dec 2013 18:56:16 -0500|tasks|bloodhound|/episodes?query=Bespin|127.0.0.1||Someone searched for *Bespin* and found 1 result.
