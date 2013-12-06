@@ -69,7 +69,7 @@ summary: 'Gabe and Erik are joined by Merlin Mann to talk about starting over, w
 
 * [Mac Power Users](http://www.macpowerusers.com/2011/03/27/mpu-046-workflows-with-merlin-mann-ii/)
 * [Beyond the Todo List](http://beyondthetodolist.com/merlin-mann-on-inbox-zero-getting-things-done-opportunity-cost-and-sunk-cost-fallacy/)
-* [Show Me Your Mike](http://www.ssktn.com/smym/merlin-mann/)
+* [Show Me Your Mic](http://www.ssktn.com/smym/merlin-mann/)
 * Merlin was the [first interview](http://www.70decibels.com/cmdspace/2012/8/1/001-im-yelling-at-me-with-merlin-mann.html) and [appeared again later to discuss Inbox Zero](http://www.70decibels.com/cmdspace/2013/4/11/038-inbox-zero-and-new-projects-with-merlin-mann.html) on CMD + Space.
 * [MaxFunCon in 2008](http://www.maximumfun.org/blog/2008/01/podcast-merlin-mann-live-in-san.html), [2009](http://www.maximumfun.org/sound-young-america/maxfuncon-merlin-mann-doing-creative-work-sound-young-america) and [2011](http://www.maxfuncon.com/2010/02/maxfuncon-podcast-episode-11-merlin.html)
 * The [ProfHacker](http://www.kungfugrippe.com/post/186463639/the-profhacker-podcast-merlin-mann-and-the-first)
