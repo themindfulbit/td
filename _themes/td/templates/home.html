@@ -1,4 +1,4 @@
-{{ entries:pagination folder="episodes" limit="{home_blog_items}" }}
+{{ entries:pagination folder="episodes" limit="1" show_future="{ future }" }}
   <div class="pagination top">
     {{ if previous_page }}
         <a class="previous" href="{{ previous_page }}"><span class="arrows">&laquo;</span> Newer</a>
@@ -14,7 +14,7 @@
   </div>
 {{ /entries:pagination }}
 
-{{ entries:listing folder="episodes" limit="{home_blog_items}" }}
+{{ entries:listing folder="episodes" limit="1" show_future="{ future }" }}
  <div class="show">
 
     <div class="show-header">
@@ -64,7 +64,7 @@
   </div>
 {{ /entries:listing }}
 
-{{ entries:pagination folder="episodes" limit="{home_blog_items}" }}
+{{ entries:pagination folder="episodes" limit="1" show_future="{ future }" }}
   <div class="pagination bottom">
     {{ if previous_page }}
         <a class="previous" href="{{ previous_page }}"><span class="arrows">&laquo;</span> Newer</a>
