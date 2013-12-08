@@ -4,3 +4,5 @@
 /_config/users/*
 !/_config/users/index.html
 /_config/settings.yaml
+/_content/4-potatoschmidt
+/_content/4-potatoschmidt/*
