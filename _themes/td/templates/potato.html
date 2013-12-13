@@ -1,0 +1,65 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="{{ theme:js src="list.min.js" }}"></script>
+<script>
+
+$(document).ready(function(){ 
+
+  var options = {
+      valueNames: [  'show-number', 'show-title', 'show-date', 'summary', 'type', 'people', 'topics'  ]
+  };
+
+  var articleList = new List('show-archive', options);
+
+  $("#ep-browser").click(function() {
+    $("#ep-browser").addClass("active");
+    $("#ep-list").removeClass("active");
+    $(".list").removeClass("text-list");
+    $(".list").addClass("image-list");
+  });  
+
+  $("#ep-list").click(function() {
+    $("#ep-list").addClass("active");
+    $("#ep-browser").removeClass("active");
+    $(".list").removeClass("image-list");
+    $(".list").addClass("text-list");
+  });
+
+});
+
+</script>
+
+<div id="show-archive">
+  <h1>Potato Schmidt Archive</h1>
+  <input class="search" placeholder="Search Shows">
+  <p class="instructions">You can search by post number, name, date, summary, or topic.</p>
+  <ul id="ep-toggle">
+    <li id="ep-browser">Browser</li>
+    <li id="ep-list" class="active">List</li>
+  </ul>
+  <ul class="list text-list">
+    {{ entries:listing folder="potato" }}
+      <li>
+        <a class="permalink" href="{{ url }}">
+          {{ theme:partial src="transform" title="" file="{{ banner }}" }}
+          <h2 class="show-number"><span class="ticks">&minus;&nbsp;</span>{{ number }}<span class="ticks">&nbsp;&minus;</span></h2>
+          <div class="show-info">
+            <h2 class="show-title"> {{ title|widont }}</h2>
+            <div class="show-date"> {{ datestamp format="F jS, Y" }}</div>
+          </div>
+          <p class="summary">{{ summary|markdown }}</p>
+          {{ if type }}
+            <p class="type">{{ type_list }}</p>
+          {{ endif }}
+
+          {{ if people }}
+            <p class="people">{{ people_list }}</p>
+          {{ endif }}
+            
+          {{ if topics }}
+            <p class="topics">{{ topics_list }}</p>
+          {{ endif }}
+        </a>
+      </li>
+    {{ /entries:listing }}
+  </ul>
+</div>
