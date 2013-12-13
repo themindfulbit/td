@@ -1,0 +1,22 @@
+exception 'ErrorException' with message 'Array to string conversion' in /var/lib/stickshift/527531374382ec1280000001/app-root/data/667140/_app/vendor/Markup/markdown.php:320
+Stack trace:
+#0 [internal function]: Slim\Slim::handleErrors(8, 'Array to string...', '/var/lib/sticks...', 320, Array)
+#1 /var/lib/stickshift/527531374382ec1280000001/app-root/data/667140/_app/vendor/Markup/markdown.php(320): preg_replace('{^\xEF\xBB\xBF|...', '', Array)
+#2 /var/lib/stickshift/527531374382ec1280000001/app-root/data/667140/_app/vendor/Markup/markdown.php(71): Markdown_Parser->transform(Array)
+#3 /var/lib/stickshift/527531374382ec1280000001/app-root/data/667140/_app/vendor/Lex/Parser.php(1108): Markdown(Array)
+#4 /var/lib/stickshift/527531374382ec1280000001/app-root/data/667140/_app/vendor/Lex/Parser.php(235): Lex\Parser->getVariable('caption|markdow...', Array, '__lex_no_value_...')
+#5 /var/lib/stickshift/527531374382ec1280000001/app-root/data/667140/_app/vendor/Lex/Parser.php(105): Lex\Parser->parseVariables('<div class="pag...', Array, Array)
+#6 /var/lib/stickshift/527531374382ec1280000001/app-root/data/667140/_app/core/view.php(80): Lex\Parser->parse('<div class="pag...', Array, Array, false)
+#7 /var/lib/stickshift/527531374382ec1280000001/app-root/data/667140/_app/vendor/Slim/View.php(195): Statamic_View->render(NULL)
+#8 /var/lib/stickshift/527531374382ec1280000001/app-root/data/667140/_app/vendor/Slim/View.php(182): Slim\View->fetch(NULL)
+#9 /var/lib/stickshift/527531374382ec1280000001/app-root/data/667140/_app/vendor/Slim/Slim.php(672): Slim\View->display(NULL)
+#10 /var/lib/stickshift/527531374382ec1280000001/app-root/data/667140/_app/routes.php(366): Slim\Slim->render(NULL, Array, 200)
+#11 [internal function]: {closure}(Array)
+#12 /var/lib/stickshift/527531374382ec1280000001/app-root/data/667140/_app/vendor/Slim/Router.php(172): call_user_func_array(Object(Closure), Array)
+#13 /var/lib/stickshift/527531374382ec1280000001/app-root/data/667140/_app/vendor/Slim/Slim.php(1222): Slim\Router->dispatch(Object(Slim\Route))
+#14 /var/lib/stickshift/527531374382ec1280000001/app-root/data/667140/_app/vendor/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#15 /var/lib/stickshift/527531374382ec1280000001/app-root/data/667140/_app/vendor/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#16 /var/lib/stickshift/527531374382ec1280000001/app-root/data/667140/_app/vendor/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#17 /var/lib/stickshift/527531374382ec1280000001/app-root/data/667140/_app/vendor/Slim/Slim.php(1174): Slim\Middleware\PrettyExceptions->call()
+#18 /var/lib/stickshift/527531374382ec1280000001/app-root/data/667140/index.php(65): Slim\Slim->run()
+#19 {main}
