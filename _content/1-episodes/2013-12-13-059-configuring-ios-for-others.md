@@ -22,11 +22,13 @@ Gabe and Erik start by reminiscing about all the times they tried to give tech g
 
 {{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="2:23" }} 
 
-Users are faced with a decision about Apple accounts as soon as they start using a new device, and Gabe and Erik discuss techniques when setting up iCloud for new users.
-
 > {{ theme:partial src="aside-header" voice="potatowire" text="Apple Accounts" }}
 >
-> The two Apple data silos on iOS are [iCloud](http://support.apple.com/kb/HT4436?viewlocale=en_US&locale=en_US) and the [App Store](http://support.apple.com/kb/HT2001), but since these two don't necessarily share the same [Apple ID](http://support.apple.com/kb/PH2570), the distinction between the two logins can be tough to keep straight. 
+> Users are faced with a decision about Apple accounts as soon as they start using a new device, and for the sake of discussion, Gabe and Erik go right into setting up first party iCloud accounts. Surprising no one in this show's audience, we recommend [1Password](https://itunes.apple.com/us/app/1password-password-manager/id568903335?mt=8&uo=4&at=11l5Ug) to help keep track of all the various user accounts required on a functional iOS device. 
+>
+> If you install 1Password early in the process, then as the setup of the device progresses you'll have the chance to show your new user how to input the accounts they already know, while also showing them how easy it is to add new ones. If you are a saint (or masochist), you can even have them set new stronger passwords and show them how 1Password can generate them itself. Then, after performing these consecutive miracles, you can teach them to count to F in [hex](http://en.wikipedia.org/wiki/Hexadecimal).
+>
+> As far as first-party accounts are concerned, the two Apple data silos on iOS are [iCloud](http://support.apple.com/kb/HT4436?viewlocale=en_US&locale=en_US) and the [App Store](http://support.apple.com/kb/HT2001), but since these two don't necessarily share the same [Apple ID](http://support.apple.com/kb/PH2570), the distinction between the two logins can be tough to keep straight. 
 >
 > Gabe and Erik even "pretended" to confuse the terms during their discussion as an object lesson for the rest of us. They're givers.
 
@@ -73,7 +75,7 @@ Setting up a new iOS user with some useful non-Apple apps and accounts can make 
 >
 > [Literally](http://xkcd.com/1108/) 100 feet away from the Apple Store.
 
-* Apple's Find My [$foo](http://www.ietf.org/rfc/rfc3092.txt) apps can allow you to find Grandma's [missing iPad](http://www.apple.com/support/icloud/find-my-device/) or a [missing Grandma](http://support.apple.com/kb/ht4487), and you can even use them to make your spouse's  purse (or [murse](https://www.google.com/search?q=tom%20brady%20murse&revid=857829836&rls=en&tbm=isch&imgdii=_)) [ring in a meeting](http://support.apple.com/kb/PH2699).
+* Apple's Find My [Foo](http://www.ietf.org/rfc/rfc3092.txt) apps can allow you to find Grandma's [missing iPad](http://www.apple.com/support/icloud/find-my-device/) or a [missing Grandma](http://support.apple.com/kb/ht4487), and you can even use them to make your spouse's  purse (or [murse](https://www.google.com/search?q=tom%20brady%20murse&revid=857829836&rls=en&tbm=isch&imgdii=_)) [ring in a meeting](http://support.apple.com/kb/PH2699).
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="13:18" person="erik" quote="Speaking of creepy" }}
 <table class="fancy-quote merlin">
@@ -99,7 +101,7 @@ Gabe and Erik briefly touch on good ways to customize an iOS device for someone 
 * The new motion effects are impressive to demo, but many would like to [make iOS 7 less nausea-inducing](http://www.macworld.com/article/2049249/make-ios-7-less-nausea-inducing.html). Beyond that, these effects can diminish general performance and battery life if you are setting up a device without the [M7 motion coprocessor](http://en.wikipedia.org/wiki/Apple_M7).
 * [iOS 7 Multitasking Gestures](http://www.youtube.com/watch?v=w-W8vpnbf38) are very useful, but learning to use them is best saved for some point after the initial shakedown period in question here. It's not a bad idea to turn them on, however, because they aren't disruptive.
 * Spotlight's changes have arguably reduced its usefulness, but when app organization is unlikely, providing some [tips for using Spotlight](http://www.tuaw.com/2013/09/18/ios-7-searching-for-apps-and-info-with-spotlight-video-tutoria/) can prevent the frustration of "losing an app."
-* Dictation is another great demo item that has an unequal adoption rate. It is further case where providing some [pointers](http://www.macworld.com/article/2048196/beyond-siri-dictation-tricks-for-the-iphone-and-ipad.html) could go a long way.
+* Dictation is another great demo item that has an unequal adoption rate. It is a further case where providing some [pointers](http://www.macworld.com/article/2048196/beyond-siri-dictation-tricks-for-the-iphone-and-ipad.html) could go a long way.
 * The [Do Not Disturb](http://support.apple.com/kb/HT5463) feature is a perfect example of software making a device fit better into real life. It's a great way to segue into [how to use Control Center](http://www.macworld.com/article/2048740/get-to-know-ios-7-control-center.html) too.
 
 
