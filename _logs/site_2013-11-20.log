@@ -40,3 +40,9 @@ Stack trace:
 #29 /Users/erik/Dropbox/dev/td/_app/vendor/Slim/Slim.php(1174): Slim\Middleware\PrettyExceptions->call()
 #30 /Users/erik/Dropbox/dev/td/index.php(65): Slim\Slim->run()
 #31 {main}
+ERROR|Wed, 20 Nov 2013 11:50:00 -0500|page|content|/robots.txt|62.24.181.134||404 - Page not found. There is a bad link on <a href="/robots.txt">/robots.txt</a>.
+FATAL|Wed, 20 Nov 2013 11:50:00 -0500|template||/robots.txt|62.24.181.134||Can't find the specified theme
+FATAL|Wed, 20 Nov 2013 11:50:05 -0500|template||/|24.182.25.222||Can't find the specified theme
+INFO|Wed, 20 Nov 2013 11:50:06 -0500|site|favicon|/favicon.ico|24.182.25.222||The site favicon could not be found.
+FATAL|Wed, 20 Nov 2013 11:50:06 -0500|template||/favicon.ico|24.182.25.222||Can't find the specified theme
+FATAL|Wed, 20 Nov 2013 11:50:39 -0500|template||/episodes/055-ethernetworking|97.101.251.101||Can't find the specified theme
