@@ -22,18 +22,24 @@ Gabe and Erik start by reminiscing about all the times they tried to give tech g
 
 {{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="2:23" }} 
 
+> {{ theme:partial src="aside-header" voice="potatowire" text="1Password" }}
+>
+> Users are faced with a decision about Apple accounts as soon as they start using a new device and, for the sake of discussion, Gabe and Erik go right into setting up first party iCloud accounts. Surprising no one in this show's audience, we recommend [1Password](https://itunes.apple.com/us/app/1password-password-manager/id568903335?mt=8&uo=4&at=11l5Ug) to help keep track of all the various user accounts required on a functional iOS device. 
+>
+> If you install 1Password early in the process, then as the setup of the device progresses you'll have the chance to show your new user how to input the accounts they already know, while also showing them how easy it is to add new ones. If you are a saint (or masochist), you can even have them set new stronger passwords and show them how 1Password can generate them itself. 
+>
+> Then, after performing these consecutive miracles, you can teach them to count to F in [hex](http://en.wikipedia.org/wiki/Hexadecimal).
+>
+
+* iCloud accounts are good for a user's own data, such as calendars, reminders, etc.
+* A [shared](http://appadvice.com/appnn/2011/10/how-to-use-icloud-in-a-family-setting-share-apps-but-not-contacts) [Apple ID](http://gigaom.com/2012/05/26/how-many-apple-ids-should-your-family-have/) can be good for app management, but it's best for when the user is savvy enough to even [understand](http://www.tuaw.com/2013/09/19/how-to-use-multiple-apple-ids-in-ios-7/) that there are two different account types.
+
 > {{ theme:partial src="aside-header" voice="potatowire" text="Apple Accounts" }}
->
-> Users are faced with a decision about Apple accounts as soon as they start using a new device, and for the sake of discussion, Gabe and Erik go right into setting up first party iCloud accounts. Surprising no one in this show's audience, we recommend [1Password](https://itunes.apple.com/us/app/1password-password-manager/id568903335?mt=8&uo=4&at=11l5Ug) to help keep track of all the various user accounts required on a functional iOS device. 
->
-> If you install 1Password early in the process, then as the setup of the device progresses you'll have the chance to show your new user how to input the accounts they already know, while also showing them how easy it is to add new ones. If you are a saint (or masochist), you can even have them set new stronger passwords and show them how 1Password can generate them itself. Then, after performing these consecutive miracles, you can teach them to count to F in [hex](http://en.wikipedia.org/wiki/Hexadecimal).
 >
 > As far as first-party accounts are concerned, the two Apple data silos on iOS are [iCloud](http://support.apple.com/kb/HT4436?viewlocale=en_US&locale=en_US) and the [App Store](http://support.apple.com/kb/HT2001), but since these two don't necessarily share the same [Apple ID](http://support.apple.com/kb/PH2570), the distinction between the two logins can be tough to keep straight. 
 >
 > Gabe and Erik even "pretended" to confuse the terms during their discussion as an object lesson for the rest of us. They're givers.
 
-* iCloud accounts are good for a user's own data, such as calendars, reminders, etc.
-* A [shared](http://appadvice.com/appnn/2011/10/how-to-use-icloud-in-a-family-setting-share-apps-but-not-contacts) [Apple ID](http://gigaom.com/2012/05/26/how-many-apple-ids-should-your-family-have/) can be good for app management, but it's best for when the user is savvy enough to even [understand](http://www.tuaw.com/2013/09/19/how-to-use-multiple-apple-ids-in-ios-7/) that there are two different account types.
 * Setting up a shared calendar is a great way to show new users how online services and sync can make day-to-day things a little easier.
 * Almost everyone already has email, and setting this up on the iOS device ensures at least its [basic](http://en.wikipedia.org/wiki/Peek_(mobile_Internet_device)) utility.
 
