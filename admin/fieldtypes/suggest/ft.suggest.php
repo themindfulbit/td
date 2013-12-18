@@ -12,15 +12,16 @@ class Fieldtype_suggest extends Fieldtype
         |--------------------------------------------------------------------------
         |
         | We need to set an empty array brace [] and add the "multiple" attribute
-        | in  the event we want to allow multi-selects. We also change the
+        | in the event we want to allow multi-selects. We also change the
         | plurality of the placeholder content.
         |
         */
 
         $max_items = array_get($this->field_config, 'max_items', 'null');
+        $force_list = array_get($this->field_config, 'force_list', false);
         $multiple = array_get($this->field_config, 'multiple', true);
 
-        if ($max_items === 1) {
+        if ($max_items === 1 && !$force_list) {
             $multiple = false;
         }
 
@@ -222,6 +223,8 @@ class Fieldtype_suggest extends Fieldtype
 
         // If we're forcing lowercase taxonomies (which we are by default), save them as lower too
         if (array_get($settings, 'taxonomy', false) && Config::get('taxonomy_force_lowercase', false)) {
+            $this->field_data = Helper::ensureArray($this->field_data);
+            
             foreach ($this->field_data as $key => $value) {
                 $this->field_data[$key] = strtolower($value);
             }

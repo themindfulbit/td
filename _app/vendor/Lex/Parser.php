@@ -33,7 +33,7 @@ class Parser
     protected $callbackBlockRegex = '';
 
     protected $noparseRegex = '';
-    
+
     protected $recursiveRegex = '';
 
     protected $conditionalRegex = '';
@@ -197,7 +197,7 @@ class Parser
 
                             // merge this local data with callback data before performing actions
                             $loop_value = array_merge(self::$callbackData, $loop_value);
-                            
+
                             // perform standard actions
                             $str = $this->extractLoopedTags($match[2][0], $loop_value, $callback);
                             $str = $this->parseConditionals($str, $loop_value, $callback);
@@ -1083,7 +1083,8 @@ class Parser
                     $data = strtolower($data);
 
                 } else if ($modifier_name == 'slugify') {
-                    $data = \Slug::make($data);
+                    $delimiter = array_get($modifier_params, 0, '-');
+                    $data = \Slug::make($data, array('delimiter' => $delimiter));
 
                 } else if ($modifier_name == 'deslugify') {
                     $data = trim(preg_replace('~[-_]~', ' ', $data), " ");

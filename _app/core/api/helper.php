@@ -315,4 +315,29 @@ class Helper
 
         return array_unique($output);
     }
+    
+    
+    /**
+     * Creates a hash value for the arguments passed
+     * 
+     * @param mixed  ...  Arguments to include in hash
+     * @return string
+     */
+    public static function makeHash()
+    {
+        $args = func_get_args();
+        $data = array();
+        
+        // loop through arguments, adding flattened versions to $data
+        foreach ($args as $arg) {
+            if (is_array($arg)) {
+                array_push($data, join("|", $arg));
+            } else {
+                array_push($data, $arg);
+            }
+        }
+        
+        // return a hash of the flattened $data array
+        return md5(join('%', $data));
+    }
 }

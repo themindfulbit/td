@@ -755,4 +755,15 @@ class ContentSet
         $this->prepare($parse_content);
         return $this->content;
     }
+    
+    
+    /**
+     * Extracts data without altering it
+     * 
+     * @return array
+     */
+    public function extract()
+    {
+        return $this->content;
+    }
 }

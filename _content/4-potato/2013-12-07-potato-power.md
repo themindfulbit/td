@@ -90,7 +90,7 @@ Put two different metal strips into the potato, attach the wire clips to the met
 
 Don't get drunk on it and destroy the world, OK?
 
-{{ theme:partial src="zpq-image" title="The Dinosaur Killer" show="{{ number }}" file="zpq-impact2.jpg" }}
+{{ theme:partial src="zpq-image" title="It's the only way to be sure." show="{{ number }}" file="zpq-impact2.jpg" }}
 
 > {{ theme:partial src="aside-header" voice="zpq" text="Until Next Time" }}
 > 

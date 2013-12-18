@@ -34,6 +34,12 @@ abstract class Addon
     public $cache;
 
     /**
+     * Contextual blink object for this add-on
+     * @public ContextualBlink
+     */
+    public $blink;
+
+    /**
      * Related tasks object if it exists
      * @public Tasks
      */
@@ -90,6 +96,7 @@ abstract class Addon
         $this->css        = ContextualCSS::create($this);
         $this->js         = ContextualJS::create($this);
         $this->assets     = ContextualAssets::create($this);
+        $this->blink      = ContextualBlink::create($this);
     }
 
 
@@ -1068,5 +1075,73 @@ class ContextualAssets extends ContextualObject
     public static function create(Addon $context)
     {
         return new ContextualAssets($context);
+    }
+}
+
+
+
+/**
+ * ContextualBlink
+ * Store data only until the current page is done rendering
+ */
+class ContextualBlink extends ContextualObject
+{
+    /**
+     * Where pocket blink gets stored
+     */
+    public static $data = array();
+    
+
+    /**
+     * Gets blink data for a variable, or the $default if variable isn't set
+     * 
+     * @param string  $key  Key to retrieve
+     * @param mixed  $default  Default value to return
+     * @return void
+     */
+    public function get($key, $default=null)
+    {
+        if ($this->exists($key)) {
+            return self::$data[$key];
+        }
+        
+        return $default;
+    }
+    
+    
+    /**
+     * Sets blink data for a variable
+     * 
+     * @param string  $key  Key to set
+     * @param mixed  $value  Value to set
+     * @return void
+     */
+    public function set($key, $value)
+    {
+        self::$data[$key] = $value;
+    }
+    
+    
+    /**
+     * Checks if a $key exists in the blink data
+     * 
+     * @param string  $key  Key to set
+     * @return void
+     */
+    public function exists($key)
+    {
+        return isset(self::$data[$key]);
+    }
+
+
+    /**
+     * Creates a new ContextualBlink
+     *
+     * @param Addon  $context  Addon context for this object
+     * @return ContextualBlink
+     */
+    public static function create(Addon $context)
+    {
+        return new ContextualBlink($context);
     }
 }

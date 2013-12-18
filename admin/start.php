@@ -29,6 +29,8 @@ $admin_app = new \Slim\Slim(array_merge($config, array('view' => new Statamic_Vi
 
 $admin_app->config = $config;
 
+$admin_app->config['_cookies.secret_key'] = Cookie::getSecretKey();
+
 /*
 |--------------------------------------------------------------------------
 | Cookies for the Monster
