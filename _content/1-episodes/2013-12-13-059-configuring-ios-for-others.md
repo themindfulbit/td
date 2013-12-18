@@ -1,15 +1,27 @@
 ---
-number: '059'
-title: 'Configuring iOS for Others'
-type: [discussion]
-people: [Gabe Weatherhead, Erik Hess]
-topics: [ios, gifts, tech support, family]
+number: "059"
+title: Configuring iOS for Others
+type: Interview
+people:
+  - Gabe Weatherhead
+  - Erik Hess
+topics:
+  - ios
+  - gifts
+  - tech support
+  - family
 banner: presents.jpg
 caption: '[George Eastman House](http://www.flickr.com/photos/george_eastman_house/3122865907/sizes/o/)'
-download: http://www.buzzsprout.com/7417/136809-059-ios-for-others.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/124684709&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
-soundcloud-url: 059-ios-for-others
-summary: 'Gabe and Erik take a look at what it takes to get a new iOS device up and running for a non-technical user. Along the way they talk about system settings, built in, and third party applications.'
+download: >
+  http://www.buzzsprout.com/7417/136809-059-ios-for-others.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/124684709&color=ff6600&auto_play=false&show_artwork=true"></iframe>'
+soundcloud-url: ""
+summary: >
+  Gabe and Erik take a look at what it
+  takes to get a new iOS device up and
+  running for a non-technical user. Along
+  the way they talk about system settings,
+  built in, and third party applications.
 ---
 
 ### "Okay, how do I set it up?"
@@ -55,6 +67,17 @@ Setting up a new iOS user with some useful non-Apple apps and accounts can make 
 
 * [Dropbox](https://db.tt/f3lYNPt5) and [Evernote](https://www.evernote.com/referral/Registration.action?uid=22796&sig=8d1ea42c059736c9cfd1389e85ec2898) are a core part of a nerd's workflow, but virtually everyone can benefit from these services thanks to ubiquitous developer support.
 *  Dropbox photo support is continually improving, but turning [Camera Uploads](https://www.dropbox.com/help/289) off will reduce confusion and  preserve the limited disk space available with a free account.
+
+> {{ theme:partial src="aside-header" voice="potatowire" text="Good input" }}
+> 
+> Bradley Chambers brought up a good point on Twitter: 
+>
+> <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/themindfulbit">@themindfulbit</a> <a href="https://twitter.com/macdrifter">@macdrifter</a> regarding turning on dropbox camera uploads: it will get them an additional 3GB as they use it.</p>— Bradley Chambers (@bradleychambers) <a href="https://twitter.com/bradleychambers/statuses/412330129692430337">December 15, 2013</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+> 
+> This policy is detailed here, and 3 GB is a good amount of storage for iOS pictures, but the Dropbox desktop app will offer to backup any photos attached by USB, so the issue is more complicated if your new user is shutterbug. For illustration proposes, I use Camera Upload to sync two iPhones and a DSLR, and since June 15, 2012, which is when I think Dropbox began the 3 GB policy for everyone, I have uploaded at least 44 GB of photos and videos. I am not a standard user, but I doubt am an outlier
+> 
+> One other point, if you choose to tackle the issue of photo backup and want to use Dropbox for that purpose, recommend turning on background uploading, because backup is best if it's automatic. You can set it to only occur on wifi, and I haven't noticed an effect on battery life.
+
 * Evernote is a great [everything](http://al3x.net/2009/01/31/against-everything-buckets.html) [bucket](http://shawnblanc.net/2009/09/yojimbo-and-anything-buckets/) and there are plenty of resources you can suggest later if they want to learn more.
 
 > {{ theme:partial src="aside-header" voice="gabe" text="Evernote for the Family" }}
@@ -89,7 +112,7 @@ Setting up a new iOS user with some useful non-Apple apps and accounts can make 
     <td class="avatar">
       <img src="{{ _site_url }}assets/img/merlin-avatar.png" />
     </td>
-    <td class="quote"><a href="http://slabbulkhead.com/post/59778744262/the-official-back-to-work-drinking-game">&ldquo;Don&rsquo;t Be Creepy&rdquo;</a></td>
+    <td class="quote"><a href="http://slabbulkhead.com/post/59778744262/the-official-back-to-work-drinking-game">“Don’t Be Creepy”</a></td>
   </tr>
 </table>
 
@@ -100,7 +123,7 @@ Setting up a new iOS user with some useful non-Apple apps and accounts can make 
 
 Gabe and Erik briefly touch on good ways to customize an iOS device for someone else. 
 
-<blockquote class="twitter-tweet" lang="en"><p>Every iOS 7 review should start by explaining to middle-aged users how to make the system font thick enough to read.</p>&mdash; Dr. Drang (@drdrang) <a href="https://twitter.com/drdrang/statuses/380136444250976256">September 18, 2013</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p>Every iOS 7 review should start by explaining to middle-aged users how to make the system font thick enough to read.</p>— Dr. Drang (@drdrang) <a href="https://twitter.com/drdrang/statuses/380136444250976256">September 18, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 * The aesthetics of iOS 7 are polarizing, for sure, but many users can't *use* the default font setting. [Adjusting](http://support.apple.com/kb/HT5956) the font size and weight is mandatory in this case.
