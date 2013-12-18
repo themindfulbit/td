@@ -5,18 +5,34 @@ type: Interview
 people:
   - Gabe Weatherhead
   - Erik Hess
-topics: ""
+topics:
+  - Family
+  - Video
+  - Skype
+  - FaceTime
 banner: /assets/img/family.jpg
-caption: ""
+caption: '[Flickr Commons](http://www.flickr.com/photos/floridamemory/8283268199/)'
 download: ""
 player: ""
 soundcloud-url: ""
-summary: ""
-post_images: ""
+summary: >
+  Gabe and Erik talk about all the fun
+  ways to video conference with your
+  family over the holidays.
+post_images:
+  - 
+    image: >
+      /assets/img/Screen-Shot-2013-10-15-at-2-18-34-PM.png
+    title: Screenshot
+  - 
+    image: /assets/img/resource.jpg
+    title: Linen
 post_files: ""
 ---
 
 ### Services
+
+{{ theme:partial src="image" title="" show="{{ number }}" file="resource.jpg" }}
 
 #### Facetime
 
