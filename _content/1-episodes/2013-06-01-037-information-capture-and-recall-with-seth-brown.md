@@ -4,7 +4,7 @@ title: 'Information Capture and Recall with Seth Brown: The File System'
 type: [interview]
 people: [Gabe Weatherhead, Erik Hess, Seth Brown]
 topics: [files, capture, recall, photos]
-banner: console.jpg
+banner: /assets/img/console.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/sdasmarchives/7142832931/)'
 download: http://www.buzzsprout.com/7417/95462-generational-episode-037.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117203549"></iframe>'

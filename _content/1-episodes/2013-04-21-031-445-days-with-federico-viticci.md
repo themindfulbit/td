@@ -4,7 +4,7 @@ title: '445 Days with Federico Viticci: "I'm just some guy that reads Twitter"'
 type: [interview]
 people: [Gabe Weatherhead, Erik Hess, Federico Viticci]
 topics: [cancer, ipad, careers]
-banner: viterbo.jpg
+banner: /assets/img/viterbo.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/brooklyn_museum/2804411556/)'
 download: http://www.buzzsprout.com/7417/88073-generational-episode-031.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117534192"></iframe>'

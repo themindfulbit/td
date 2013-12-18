@@ -4,7 +4,7 @@ title: 'Going Back to School with Julia Richert'
 type: [interview]
 people: [Gabe Weatherhead, Julia Richert]
 topics: [continuing education, family]
-banner: school.jpg
+banner: /assets/img/school.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/mennonitechurchusa-archives/8024388985/)'
 download: http://www.buzzsprout.com/7417/66657-generational-episode-010.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117547803"></iframe>'

@@ -4,7 +4,7 @@ title: 'The Inbox, Review and A Lot of Apps'
 type: [panel]
 people: [Gabe Weatherhead, Jeff Hunsberger, Rob Agcaoili]
 topics: [inbox, notes, review]
-banner: inbox.jpg
+banner: /assets/img/inbox.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/lselibrary/6950307678/)'
 download: http://www.buzzsprout.com/7417/77897-generational-episode-022.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117546275"></iframe>>'

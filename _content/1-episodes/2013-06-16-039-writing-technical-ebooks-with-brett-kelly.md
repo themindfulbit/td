@@ -4,7 +4,7 @@ title: 'Writing Technical eBooks with Brett Kelly'
 type: [interview]
 people: [Gabe Weatherhead, Erik Hess, Brett Kelly]
 topics: [evernote, ebooks, publishing]
-banner: technical.jpg
+banner: /assets/img/technical.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/sdasmarchives/7585746234/)'
 download: http://www.buzzsprout.com/7417/98164-generational-episode-039.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117533073"></iframe>'

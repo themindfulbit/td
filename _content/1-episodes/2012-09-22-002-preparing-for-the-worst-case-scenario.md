@@ -4,7 +4,7 @@ title: 'Preparing for the Worst-Case Scenario'
 type: [discussion]
 people: [Gabe Weatherhead, Eddie Smith]
 topics: [dropbox, backups, security, passwords, credit]
-banner: lifeboat.jpg
+banner: /assets/img/lifeboat.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/anmm_thecommons/7749814006/)'
 download: http://www.buzzsprout.com/7417/60285-generational-episode-002.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117548674"></iframe>'

@@ -6,7 +6,7 @@ people:
   - Gabe Weatherhead
   - Erik Hess
 topics: ""
-banner: ""
+banner: /assets/img/family.jpg
 caption: ""
 download: ""
 player: ""

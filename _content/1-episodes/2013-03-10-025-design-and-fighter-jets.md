@@ -4,7 +4,7 @@ title: 'Design and Fighter Jets'
 type: [interview]
 people: [Gabe Weatherhead, Erik Hess]
 topics: [design, airplanes, careers]
-banner: tomcat.jpg
+banner: /assets/img/tomcat.jpg
 caption: 'F-14 Tomcat asymmetric wing sweep testing [Flickr Commons](http://www.flickr.com/photos/sdasmarchives/4559760940/)'
 download: http://www.buzzsprout.com/7417/81128-generational-episode-025.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117534860"></iframe>'

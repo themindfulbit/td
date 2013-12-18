@@ -4,7 +4,7 @@ title: 'Photos and Photography with Rob Agcaoili'
 type: [interview]
 people: [Gabe Weatherhead, Rob Agcaoili]
 topics: [photography]
-banner: photographer.jpg
+banner: /assets/img/photographer.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/nationalmediamuseum/8386803032/)'
 download: http://www.buzzsprout.com/7417/65103-generational-episode-008.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117548123"></iframe>'

@@ -4,7 +4,7 @@ title: 'Tackling iOS Text Editors'
 type: [discussion]
 people: [Gabe Weatherhead, Erik Hess]
 topics: [text editors, iOS, productivity, keyboards]
-banner: type-japan.jpg
+banner: /assets/img/type-japan.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/nationaalarchief/3774886804/)'
 download: http://www.buzzsprout.com/7417/109484-048-tackling-ios-text-editors.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/116764969"></iframe>'

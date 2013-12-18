@@ -4,7 +4,7 @@ title: 'The Death and Life of RSS with Alex Kessinger'
 type: [interview]
 people: [Gabe Weatherhead, Erik Hess, Alex Kessinger]
 topics: [RSS, App.net, Privacy]
-banner: graveyard.jpg
+banner: /assets/img/graveyard.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/library_of_congress/8622368648/)'
 download: http://www.buzzsprout.com/7417/100894-041-the-death-and-life-of-rss-with-alex-kessinger.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/116839878"></iframe>'

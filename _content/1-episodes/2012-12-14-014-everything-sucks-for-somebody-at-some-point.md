@@ -4,7 +4,7 @@ title: 'Everything Sucks for Somebody at Some Point'
 type: [discussion]
 people: [Gabe Weatherhead, Stephen Hackett]
 topics: [empathy, charity, parenting]
-banner: ward.jpg
+banner: /assets/img/ward.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/nlscotland/4699252069/)'
 download: http://www.buzzsprout.com/7417/69470-generational-episode-014.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117547416"></iframe>'

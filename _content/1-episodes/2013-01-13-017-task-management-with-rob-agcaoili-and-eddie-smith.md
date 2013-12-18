@@ -4,7 +4,7 @@ title: 'Task Management with Rob Agcaoili and Eddie Smith'
 type: [panel]
 people: [Gabe Weatherhead, Rob Agcaoili, Eddie Smith]
 topics: [gtd, project management]
-banner: tickle.jpg
+banner: /assets/img/tickle.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/sdasmarchives/7211915306/)'
 download: http://www.buzzsprout.com/7417/72637-generational-episode-017.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117546716"></iframe>'

@@ -4,7 +4,7 @@ title: 'Sonos Showdown'
 type: [discussion]
 people: [Gabe Weatherhead, Erik Hess]
 topics: [sonos, home audio, airplay]
-banner: radio.jpg
+banner: /assets/img/radio.jpg
 caption: 'Dr. Drang listening to Generational on an early wireless home audio system. [US National Archives](http://www.flickr.com/photos/usnationalarchives/5589767274/)'
 download: http://www.buzzsprout.com/7417/132277-056-sonos-showdown.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/121408824"></iframe>'

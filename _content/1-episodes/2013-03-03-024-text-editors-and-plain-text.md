@@ -4,7 +4,7 @@ title: 'Text Editors and Plain Text'
 type: [panel]
 people: [Gabe Weatherhead, Brett Terpstra, Dr. Drang, David Sparks]
 topics: [text, editors, formats]
-banner: writing.jpg
+banner: /assets/img/writing.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/nationaalarchief/3915529903/)'
 download: http://www.buzzsprout.com/7417/80006-generational-episode-024.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117546088"></iframe>'

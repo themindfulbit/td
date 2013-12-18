@@ -4,7 +4,7 @@ title: 'Exploring DEVONthink with Jim Neumann'
 type: [interview]
 people: [Gabe Weatherhead, Erik Hess, Jim Neumann]
 topics: [DEVONthink, organization, productivity]
-banner: exploring.jpg
+banner: /assets/img/exploring.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/cornelluniversitylibrary/3675918994/)'
 download: http://www.buzzsprout.com/7417/102038-042-exploring-devonthink-with-jim-neumann.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/116773322"></iframe>'

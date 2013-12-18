@@ -4,7 +4,7 @@ title: 'David Lanham on Icons, Illustrations, and Interfaces'
 type: [interview]
 people: [Gabe Weatherhead, Erik Hess, David Lanham]
 topics: [icons, illustration, interaction design]
-banner: artist.jpg
+banner: /assets/img/artist.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/smithsonian/3246676407/)'
 download: http://www.buzzsprout.com/7417/114000-051-david-lanham-on-icons-illustrations-and-interfaces.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/116537130"></iframe>'

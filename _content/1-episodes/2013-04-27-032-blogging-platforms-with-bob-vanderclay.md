@@ -4,7 +4,7 @@ title: 'Blogging Platforms with Bob VanderClay'
 type: [discussion]
 people: [Gabe Weatherhead, Erik Hess, Bob VanderClay]
 topics: [blogging, hosting, programming]
-banner: platform.jpg
+banner: /assets/img/platform.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/nlscotland/5181416698/)'
 download: http://www.buzzsprout.com/7417/89382-032-blogging-platforms-with-bob-vanderclay.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117522723"></iframe>'

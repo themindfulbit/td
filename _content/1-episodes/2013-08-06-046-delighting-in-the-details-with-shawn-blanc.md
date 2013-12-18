@@ -4,7 +4,7 @@ title: 'Delighting in the Details with Shawn Blanc'
 type: [interview]
 people: [Gabe Weatherhead, Erik Hess, Shawn Blanc]
 topics: [design, details, ui, productivity]
-banner: details.jpg
+banner: /assets/img/details.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/library_of_congress/7562146704/)'
 download: http://www.buzzsprout.com/7417/107167-046-delighting-in-the-details-with-shawn-blanc.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/116767234"></iframe>'

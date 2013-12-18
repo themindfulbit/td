@@ -4,7 +4,7 @@ title: 'Planning, Outlining, and Mapping with Brett Terpstra'
 type: [discussion]
 people: [Gabe Weatherhead, Brett Terpstra]
 topics: [planning, outlining, context maps]
-banner: stairway.jpg
+banner: /assets/img/stairway.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/cornelluniversitylibrary/3678919842/)'
 download: http://www.buzzsprout.com/7417/67203-generational-episode-011.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117547644"></iframe>'

@@ -4,7 +4,7 @@ title: 'Periodicals in the Digital Age with Jason Snell'
 type: [interview]
 people: [Gabe Weatherhead, Erik Hess, Jason Snell]
 topics: [periodicals, editing, digital media, publishing, writing]
-banner: periodicals.jpg
+banner: /assets/img/periodicals.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/nypl/3109788657/)'
 download: http://www.buzzsprout.com/7417/105550-045-periodicals-in-the-digital-age-with-jason-snell.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/116769804"></iframe>'

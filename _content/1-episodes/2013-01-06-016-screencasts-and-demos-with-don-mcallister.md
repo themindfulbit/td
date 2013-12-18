@@ -4,7 +4,7 @@ title: 'ScreenCasts and Demos with Don McAllister'
 type: [interview]
 people: [Gabe Weatherhead, Don McAllister]
 topics: [screencasts, demos]
-banner: audience.jpg
+banner: /assets/img/audience.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/statelibraryqueensland/4522510980/)'
 download: http://www.buzzsprout.com/7417/71620-generational-episode-016.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117546790"></iframe>'

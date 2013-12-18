@@ -4,7 +4,7 @@ title: 'What Happened When Gabe Set Himself on Fire'
 type: [discussion]
 people: [Gabe Weatherhead, Erik Hess]
 topics: [experimentation, chemistry, goals]
-banner: phosphorous.jpg
+banner: /assets/img/phosphorous.jpg
 caption: '[Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Phosphorus_explosion.gif)'
 caption: What it probably looked like when Gabe set himself on fire.
 download: http://www.buzzsprout.com/7417/90609-033-what-happened-when-gabe-set-himself-on-fire.mp3

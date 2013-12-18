@@ -4,7 +4,7 @@ title: 'Crossing the Chasm Between Science and the Real World'
 type: [interview]
 people: [Gabe Weatherhead, Jason Permenter]
 topics: [volcanoes, design, science, careers]
-banner: vesuvius.jpg
+banner: /assets/img/vesuvius.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/sdasmarchives/8092095283/)'
 download: http://www.buzzsprout.com/7417/78848-generational-episode-023.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117546144"></iframe>'

@@ -4,7 +4,7 @@ title: 'The Zymurgist's Dilemma'
 type: [interview]
 people: [Gabe Weatherhead, Ken Weingold]
 topics: [beer]
-banner: beer.jpg
+banner: /assets/img/beer.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/usnationalarchives/4726905311/)'
 download: http://www.buzzsprout.com/7417/61822-generational-episode-004.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117548447"></iframe>'

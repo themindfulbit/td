@@ -24,9 +24,9 @@
     </div>
 
     {{ if banner }}
-      <img class="show-banner" src="{{ path src='assets/img/{{ banner }}' }}" />
+      <img class="show-banner" src="{{ path src='{{ banner }}' }}" />
     {{ else }}
-      <img class="show-banner" src="{{ path src='assets/img/plane-wreck.jpg' }}" />
+      <img class="show-banner" src="{{ path src='plane-wreck.jpg' }}" />
     {{ endif }}
 
     {{ if caption }}

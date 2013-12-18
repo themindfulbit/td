@@ -4,7 +4,7 @@ title: 'Facing Email with Eddie Smith'
 type: [discussion]
 people: [Gabe Weatherhead, Erik Hess, Eddie Smith]
 topics: [email, productivity, TEDx]
-banner: boxes.jpg
+banner: /assets/img/boxes.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/smithsonian/3112472619/)'
 download: http://www.buzzsprout.com/7417/104559-044-facing-email-with-eddie-smith.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/116770494"></iframe>'

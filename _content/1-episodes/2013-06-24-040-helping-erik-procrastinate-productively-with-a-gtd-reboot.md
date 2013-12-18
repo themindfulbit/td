@@ -4,7 +4,7 @@ title: 'Helping Erik Procrastinate Productively with a GTD Reboot'
 type: [discussion]
 people: [Gabe Weatherhead, Erik Hess]
 topics: [GTD, productivity, OmniFocus, Reminders, Evernote]
-banner: barrier.jpg
+banner: /assets/img/barrier.jpg
 caption: 'An F8F takes the barrier on USS Tarawa (CV-40) in 1948. [Flickr Commons](http://www.flickr.com/photos/sdasmarchives/6107244020/)'
 download: http://www.buzzsprout.com/7417/99593-040-helping-erik-procrastinate-productively-with-a-gtd-reboot.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/116840610"></iframe>'

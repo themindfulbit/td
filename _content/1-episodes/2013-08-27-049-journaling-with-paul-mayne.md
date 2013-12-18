@@ -4,7 +4,7 @@ title: 'Journaling with Paul Mayne'
 type: [interview]
 people: [Gabe Weatherhead, Erik Hess, Paul Mayne]
 topics: [journaling, Day One]
-banner: journal.jpg
+banner: /assets/img/journal.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/99902797@N03/9736726086/)'
 download: http://www.buzzsprout.com/7417/110943-049-journaling-with-paul-mayne.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/116764048"></iframe>'

@@ -4,7 +4,7 @@ title: 'Research Materials and Tools with Walton Jones'
 type: [interview]
 people: [Gabe Weatherhead, Walton Jones]
 topics: [research]
-banner: research.jpg
+banner: /assets/img/research.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/cornelluniversitylibrary/3610752603/)'
 download: http://www.buzzsprout.com/7417/65846-generational-episode-009.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117547948"></iframe>'

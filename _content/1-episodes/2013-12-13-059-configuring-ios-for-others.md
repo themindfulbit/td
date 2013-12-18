@@ -10,7 +10,7 @@ topics:
   - gifts
   - tech support
   - family
-banner: presents.jpg
+banner: /assets/img/presents.jpg
 caption: '[George Eastman House](http://www.flickr.com/photos/george_eastman_house/3122865907/sizes/o/)'
 download: >
   http://www.buzzsprout.com/7417/136809-059-ios-for-others.mp3
@@ -22,6 +22,8 @@ summary: >
   running for a non-technical user. Along
   the way they talk about system settings,
   built in, and third party applications.
+post_images: ""
+post_files: ""
 ---
 
 ### "Okay, how do I set it up?"
@@ -69,14 +71,14 @@ Setting up a new iOS user with some useful non-Apple apps and accounts can make 
 *  Dropbox photo support is continually improving, but turning [Camera Uploads](https://www.dropbox.com/help/289) off will reduce confusion and  preserve the limited disk space available with a free account.
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Good input" }}
-> 
-> Bradley Chambers brought up a good point on Twitter: 
 >
-> <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/themindfulbit">@themindfulbit</a> <a href="https://twitter.com/macdrifter">@macdrifter</a> regarding turning on dropbox camera uploads: it will get them an additional 3GB as they use it.</p>— Bradley Chambers (@bradleychambers) <a href="https://twitter.com/bradleychambers/statuses/412330129692430337">December 15, 2013</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+> [Bradley Chambers](https://twitter.com/bradleychambers/) brought up a good point on Twitter:
+> <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/themindfulbit">@themindfulbit</a> <a href="https://twitter.com/macdrifter">@macdrifter</a> regarding turning on dropbox camera uploads: it will get them an additional 3GB as they use it.</p>— Bradley Chambers (@bradleychambers) <a href="https://twitter.com/bradleychambers/statuses/412330129692430337">December 15, 2013</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 > 
-> This policy is detailed here, and 3 GB is a good amount of storage for iOS pictures, but the Dropbox desktop app will offer to backup any photos attached by USB, so the issue is more complicated if your new user is shutterbug. For illustration proposes, I use Camera Upload to sync two iPhones and a DSLR, and since June 15, 2012, which is when I think Dropbox began the 3 GB policy for everyone, I have uploaded at least 44 GB of photos and videos. I am not a standard user, but I doubt am an outlier
-> 
-> One other point, if you choose to tackle the issue of photo backup and want to use Dropbox for that purpose, recommend turning on background uploading, because backup is best if it's automatic. You can set it to only occur on wifi, and I haven't noticed an effect on battery life.
+> This policy is detailed [here](https://www.dropbox.com/help/287/en), and 3 GB is a good amount of storage for iOS pictures, but the Dropbox desktop app will offer to backup any photos attached by USB, so the issue is more complicated if your new user is shutterbug. For illustration proposes, I use Camera Upload to sync two iPhones and a DSLR, and since June 15, 2012, which is [when I think Dropbox](http://howto.cnet.com/8301-11310_39-57454041-285/dropbox-gives-ios-users-camera-upload-free-storage/) began the 3 GB policy for everyone, I have uploaded at least 44 GB of photos and videos. I am not a standard user, but I doubt am an [outlier](http://xkcd.com/539/)
+>
+> One other point, if you choose to tackle the issue of photo backup and want to use Dropbox for that purpose, recommend turning on [background uploading](https://www.dropbox.com/help/500/en), because backup is best if it's automatic. You can set it to only occur on wifi, and I haven't noticed an effect on battery life.
 
 * Evernote is a great [everything](http://al3x.net/2009/01/31/against-everything-buckets.html) [bucket](http://shawnblanc.net/2009/09/yojimbo-and-anything-buckets/) and there are plenty of resources you can suggest later if they want to learn more.
 

@@ -4,7 +4,7 @@ title: 'Advocating for Science and Exploration with Emily Lakdawalla'
 type: [interview]
 people: [Gabe Weatherhead, Erik Hess, Emily Lakdawalla]
 topics: [science, space, exploration]
-banner: jupiter.jpg
+banner: /assets/img/jupiter.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/sdasmarchives/6996861298/)'
 download: http://www.buzzsprout.com/7417/94141-036-advocating-for-science-and-exploration-with-emily-lakdawalla.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117519629"></iframe>'
