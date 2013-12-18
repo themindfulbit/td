@@ -1,15 +1,12 @@
 fields:
   number: 
     display: Episode Number
-    required: true
     type: text
   title: 
     display: Episode Title
-    required: true
     type: text
   type: 
     display: Episode Type
-    required: true
     type: select
     options:
       - Interview
@@ -17,32 +14,64 @@ fields:
       - Discussion
   people: 
     display: Hosts and Guests
-    required: true
     type: tags
   topics: 
     display: Show Topics
-    required: true
     type: tags
   banner: 
     display: Banner Image
     type: file
     allowed: [png, gif, jpg, jpeg, svg]
     destination: assets/img
+  caption:
+    display: Banner Caption
+    type: text
   download: 
     display: Audio File URL
-    required: true 
     type: text
   player: 
     display: Web Player Code
-    required: true 
+    type: text
+  soundcloud-url:
+    display: Soundcloud URL
     type: text
   summary: 
     display: Episode Summary
-    required: true
     type: textarea
     instruction: "Keep it to a sentence or two, and no markdown - iTunes can't handle it."
   content:
     display: Show Notes
     type: markitup
+  post_images:
+    display: Show Images
+    type: grid
+    starting_rows: 1
+    min_rows: 1
+    fields:
+      image:
+        display: Image
+        type: file
+        allowed: [png, gif, jpg, jpeg, svg]
+        destination: assets/img
+        width: 50%
+      title:
+        display: Image Caption
+        type: text
+        width: 50%
 
-hide: true
+  post_files:
+    display: Show Files
+    type: grid
+    starting_rows: 1
+    min_rows: 1
+    fields:
+      image:
+        display: Image
+        type: file
+        allowed: [html, itmz, markdown, png, opml, mm, pdf]
+        destination: assets/files
+        width: 50%
+      title:
+        display: File Caption
+        type: text
+        width: 50%
