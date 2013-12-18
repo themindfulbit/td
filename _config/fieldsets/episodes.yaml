@@ -9,9 +9,9 @@ fields:
     display: Episode Type
     type: select
     options:
-      - Interview
-      - Panel
-      - Discussion
+      - interview
+      - panel
+      - discussion
   people: 
     display: Hosts and Guests
     type: tags
