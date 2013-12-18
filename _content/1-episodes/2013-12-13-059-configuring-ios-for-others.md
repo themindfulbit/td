@@ -15,7 +15,7 @@ caption: '[George Eastman House](http://www.flickr.com/photos/george_eastman_hou
 download: >
   http://www.buzzsprout.com/7417/136809-059-ios-for-others.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/124684709&color=ff6600&auto_play=false&show_artwork=true"></iframe>'
-soundcloud-url: ""
+soundcloud-url: "059-ios-for-others"
 summary: >
   Gabe and Erik take a look at what it
   takes to get a new iOS device up and
@@ -73,7 +73,12 @@ Setting up a new iOS user with some useful non-Apple apps and accounts can make 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Good input" }}
 >
 > [Bradley Chambers](https://twitter.com/bradleychambers/) brought up a good point on Twitter:
+<<<<<<< HEAD
 > <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/themindfulbit">@themindfulbit</a> <a href="https://twitter.com/macdrifter">@macdrifter</a> regarding turning on dropbox camera uploads: it will get them an additional 3GB as they use it.</p>&mdash; Bradley Chambers (@bradleychambers) <a href="https://twitter.com/bradleychambers/statuses/412330129692430337">December 15, 2013</a></blockquote>
+=======
+
+> <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/themindfulbit">@themindfulbit</a> <a href="https://twitter.com/macdrifter">@macdrifter</a> regarding turning on dropbox camera uploads: it will get them an additional 3GB as they use it.</p>— Bradley Chambers (@bradleychambers) <a href="https://twitter.com/bradleychambers/statuses/412330129692430337">December 15, 2013</a></blockquote>
+>>>>>>> 0ededebe247c762fde024d54aeb56269ed8543cd
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 > 
 > This policy is detailed [here](https://www.dropbox.com/help/287/en), and 3 GB is a good amount of storage for iOS pictures, but the Dropbox desktop app will offer to backup any photos attached by USB, so the issue is more complicated if your new user is shutterbug. For illustration proposes, I use Camera Upload to sync two iPhones and a DSLR, and since June 15, 2012, which is [when I think Dropbox](http://howto.cnet.com/8301-11310_39-57454041-285/dropbox-gives-ios-users-camera-upload-free-storage/) began the 3 GB policy for everyone, I have uploaded at least 44 GB of photos and videos. I am not a standard user, but I doubt am an [outlier](http://xkcd.com/539/)
