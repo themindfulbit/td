@@ -1,7 +1,7 @@
 ---
 number: '004'
 title: 'The Zymurgist's Dilemma'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Ken Weingold]
 topics: [beer]
 banner: /assets/img/beer.jpg

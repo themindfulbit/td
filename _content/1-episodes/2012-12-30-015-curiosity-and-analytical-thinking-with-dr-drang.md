@@ -1,7 +1,7 @@
 ---
 number: '015'
 title: 'Curiosity and Analytical Thinking with Dr. Drang'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Dr. Drang]
 topics: [analytical thinking, curiosity, engineers, scripting]
 banner: /assets/img/tacoma.jpg

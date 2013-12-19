@@ -1,7 +1,7 @@
 ---
 number: '022'
 title: 'The Inbox, Review and A Lot of Apps'
-type: [panel]
+showtype: [panel]
 people: [Gabe Weatherhead, Jeff Hunsberger, Rob Agcaoili]
 topics: [inbox, notes, review]
 banner: /assets/img/inbox.jpg

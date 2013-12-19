@@ -1,7 +1,7 @@
 ---
 number: '026'
 title: 'Selling Physical Goods in a Digital World'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Tom Borowski]
 topics: [products, sales]
 banner: /assets/img/market.jpg

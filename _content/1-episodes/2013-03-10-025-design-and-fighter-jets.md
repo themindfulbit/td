@@ -1,7 +1,7 @@
 ---
 number: '025'
 title: 'Design and Fighter Jets'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Erik Hess]
 topics: [design, airplanes, careers]
 banner: /assets/img/tomcat.jpg

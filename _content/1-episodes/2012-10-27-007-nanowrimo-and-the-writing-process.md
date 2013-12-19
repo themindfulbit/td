@@ -1,7 +1,7 @@
 ---
 number: '007'
 title: 'NaNoWriMo and the Writing Process'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Aaron Mahnke]
 topics: [writing]
 banner: /assets/img/writer.jpg

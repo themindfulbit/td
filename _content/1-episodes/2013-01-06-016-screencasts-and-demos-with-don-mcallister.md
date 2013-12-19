@@ -1,7 +1,7 @@
 ---
 number: '016'
 title: 'ScreenCasts and Demos with Don McAllister'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Don McAllister]
 topics: [screencasts, demos]
 banner: /assets/img/audience.jpg

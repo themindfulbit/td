@@ -1,7 +1,7 @@
 ---
 number: '027'
 title: 'Aaron Hillegass and Teaching Experts'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Aaron Hillegass]
 topics: [teaching, programming, learning]
 banner: /assets/img/lecture.jpg

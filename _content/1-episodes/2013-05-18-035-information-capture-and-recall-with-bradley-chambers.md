@@ -1,7 +1,7 @@
 ---
 number: '035'
 title: 'Information Capture and Recall with Bradley Chambers'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Erik Hess, Bradley Chambers]
 topics: [evernote, capture, recall]
 banner: /assets/img/console2.jpg

@@ -1,7 +1,7 @@
 ---
 number: '019'
 title: 'Tasks, Contexts, and Projects with Jeff Hunsberger'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Jeff Hunsberger]
 topics: [gtd, contexts, tasks, projects]
 banner: /assets/img/overlord.jpg

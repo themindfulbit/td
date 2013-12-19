@@ -1,7 +1,7 @@
 ---
 number: '006'
 title: 'From Employee to Self Employed'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Shawn Blanc]
 topics: [blogging, employment]
 banner: /assets/img/parachute.jpg

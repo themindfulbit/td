@@ -1,7 +1,7 @@
 ---
 number: '018'
 title: 'Digital Publishing with Adam Engst'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Adam Engst]
 topics: [publishing, writing, editing, ebooks]
 banner: /assets/img/printer.jpg

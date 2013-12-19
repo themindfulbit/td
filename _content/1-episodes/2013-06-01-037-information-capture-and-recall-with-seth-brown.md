@@ -1,7 +1,7 @@
 ---
 number: '037'
 title: 'Information Capture and Recall with Seth Brown: The File System'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Erik Hess, Seth Brown]
 topics: [files, capture, recall, photos]
 banner: /assets/img/console.jpg

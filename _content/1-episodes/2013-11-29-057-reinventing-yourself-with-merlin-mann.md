@@ -1,14 +1,14 @@
 ---
 number: '057'
 title: 'Reinventing Yourself with Merlin Mann'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Erik Hess, Merlin Mann]
 topics: [growth, discomfort, progress, stress, fleet week]
 banner: /assets/img/edison.jpg
 caption: '["I'll start all over again tomorrow"](http://query.nytimes.com/mem/archive-free/pdf?res=F40614FF3F5C13738DDDA90994DA415B848DF1D3) [Library of Congress](http://www.flickr.com/photos/library_of_congress/6559347383/)'
 download: http://www.buzzsprout.com/7417/133581-057-reinventing-yourself-with-merlin-mann.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/122444866"></iframe>'
-soundcloud-url: 057-reinventing-yourself-with
+soundcloudurl: 057-reinventing-yourself-with
 summary: 'Gabe and Erik are joined by Merlin Mann to talk about starting over, what you really should be doing with your life, verbing, inventors, and emotional petshops.'
 ---
 
@@ -91,15 +91,15 @@ summary: 'Gabe and Erik are joined by Merlin Mann to talk about starting over, w
 
 ### "I am mainly former things"
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="0:00" }} 
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="0:00" }} 
 
 Erik begins the podcast by preaching some Apple heresy, is named the [Marie Curie](http://en.wikipedia.org/wiki/Marie_Curie) of the podcast and is discovered to be the real world [Mr. Burns](http://en.wikipedia.org/wiki/Mr._Burns).
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="0:27" person="merlin" quote="That doesn't cancer your balls or anything?" }} 
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="0:27" person="merlin" quote="That doesn't cancer your balls or anything?" }} 
 
 Merlin explains that he didn't decide to do [43 Folders](http://www.43folders.com), but instead realized that he was already doing it and likens early life to a map primarily built around school. Deviations from the map build the resiliency needed to properly navigate the territory.
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="10:30" person="merlin" quote="I'm not saying go out and just be a hobo" }}
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="10:30" person="merlin" quote="I'm not saying go out and just be a hobo" }}
 
 When you [think outside the box](http://en.wikipedia.org/wiki/Thinking_outside_the_box), sometimes you realize that you've "entered a new" box only by looking backwards. Worrying too much about the box means missed opportunity.
 
@@ -112,11 +112,11 @@ When you [think outside the box](http://en.wikipedia.org/wiki/Thinking_outside_t
 
 ### Nouns and Verbs
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="15:34" }} 
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="15:34" }} 
 
 Merlin talks about our obsession with [naming things](http://www.npr.org/templates/story/story.php?storyId=5285531),  revisits [nouns](http://www.43folders.com/2004/10/04/capital-letter-nouns-v-lower-case-verbs)  [and](http://www.43folders.com/2006/11/14/project-versus-next-action) [verbs](http://www.43folders.com/2006/10/15/look-into), and prevents us from ever not-imagining a pimply, pudgy, masturbating, 13-year-old version of him.
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="19:33" person="merlin" quote="...you need a good noun" }} 
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="19:33" person="merlin" quote="...you need a good noun" }} 
 
 Beyond just the nouns and verbs, we are obsessed with labels, but sometimes they can only be applied when the [work](http://en.wikipedia.org/wiki/Nikola_Tesla) [is](http://www.thomasedison.com) [done](http://en.wikipedia.org/wiki/Steve_jobs). Maybe it's [chunking](http://en.wikipedia.org/wiki/Chunking_(psychology)), but we need to beware othe lack of creativity that this connotes. We also discover that Merlin's presentation may be a [MacGuffin](http://en.wikipedia.org/wiki/MacGuffin), but in the end, you'll still get to pal around with him and have a steak.
 
@@ -136,7 +136,7 @@ Beyond just the nouns and verbs, we are obsessed with labels, but sometimes they
 >
 > [Elon Musk](http://en.wikipedia.org/wiki/Elon_Musk) is [known](http://en.wikipedia.org/wiki/PayPal) [for](http://en.wikipedia.org/wiki/SpaceX) [many](http://en.wikipedia.org/wiki/Tesla_Motors) [things](http://en.wikipedia.org/wiki/SolarCity), but he may just be [screwing with us](http://en.wikipedia.org/wiki/Hyperloop) now. Perhaps he is just trying desperately to avoid having a label.
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="26:20" person="gabe" quote="We're not even on iTunes" }}
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="26:20" person="gabe" quote="We're not even on iTunes" }}
 
 <blockquote class="twitter-tweet" lang="en"><p>I… I… I don't even know what to say... <a href="http://t.co/Dy9anfc3Tr">pic.twitter.com/Dy9anfc3Tr</a></p>&mdash; Technical Difficulti (@techdiffpodcast) <a href="https://twitter.com/techdiffpodcast/statuses/401101708694024192">November 14, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -145,11 +145,11 @@ Beyond just the nouns and verbs, we are obsessed with labels, but sometimes they
 
 ### Doing this Other Thing
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="27:39" }} 
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="27:39" }} 
 
 While nearly returning once more to the nouns-and-verbs well, Merlin helps up know when to un-pot ourselves, even though learning to take risks and thinking [orthogonally](http://term.ly/orthogonal) may land us in a [Mississippi chain gang](http://en.wikipedia.org/wiki/Chain_gang).
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="28:06" person="merlin" quote="That's a really, really big question" }}
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="28:06" person="merlin" quote="That's a really, really big question" }}
 
 * Gabe channels [Cal Newport](http://www.youtube.com/watch?v=LUQjAAwsKR8), reacting strongly [against](http://www.theminimalists.com/cal/) passions, but Merlin points out the limitless [career potential](http://en.wikipedia.org/wiki/Video_gaming_in_South_Korea#Pro-gaming) abroad.
 
@@ -161,7 +161,7 @@ While nearly returning once more to the nouns-and-verbs well, Merlin helps up kn
 
 ### Running Away from Discomfort
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="35:53" }} 
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="35:53" }} 
 
 Gabe talks a bit more about why he made his change and another way [he is like a cowboy](http://www.macdrifter.com/2013/11/the-saddleback-briefcase.html). Merlin [problematizes](http://en.wikipedia.org/wiki/Problematization) all the way back to [Roald Dahl](http://en.wikipedia.org/wiki/Roald_Dahl)
 
@@ -171,7 +171,7 @@ Gabe talks a bit more about why he made his change and another way [he is like a
 
 ### Forced Reinvention
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="44:45" }} 
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="44:45" }} 
 
 Whether or not achieving quality of life is a [#firstworldproblem](https://twitter.com/search?q=%23firstworldproblems) or not, sometimes we have to shift into emergency mode and reinvention isn't a choice. Merlin cautions us that this emergency mindset can taint our decisions long after we have reattained stability. Also, emotional pet shops.
 
@@ -183,27 +183,27 @@ Whether or not achieving quality of life is a [#firstworldproblem](https://twitt
 >
 > This term no longer has its original clear definitions, and the First World is now used as a [pot-and-kettle](http://en.wikipedia.org/wiki/The_pot_calling_the_kettle_black) shaming technique on Twitter, and the Third World as a convenient "bin" for the aforementioned shamers and politicians to put poor foreigners. Fortunately, First World folks have now defined a [Fourth World](http://en.wikipedia.org/wiki/Fourth_World) in which to put the weird people from their own countries.
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="45:23" person="merlin" quote="They seem to have pretty steady access to the internet" }} 
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="45:23" person="merlin" quote="They seem to have pretty steady access to the internet" }} 
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Producer's Note" }}
 >
 > Did Erik create Ping-pong [Inception](http://www.imdb.com/title/tt1375666/) by specifically marginalizing the East? I also found out about [Ping-pong Diplomacy](http://en.wikipedia.org/wiki/Ping-pong_diplomacy). What.
  
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="47:00" person="merlin" quote="I'm going to stop with the whores" }} 
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="47:00" person="merlin" quote="I'm going to stop with the whores" }} 
 
 * "The talk where I cried" [Merlin Mann Webstock 2011](https://vimeo.com/21730173)
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="49:00" person="merlin" quote="We really have an emotional petshop, not a life" }}
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="49:00" person="merlin" quote="We really have an emotional petshop, not a life" }}
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Producer's Note" }}
 > 
 > I don't think [transference](http://en.wikipedia.org/wiki/Transference) is the right word.
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="51:38" person="erik" quote="It's better to be dead than look stupid, but it is possible to do both" }}
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="51:38" person="erik" quote="It's better to be dead than look stupid, but it is possible to do both" }}
 
 Erik [revisits fear and failure](http://themindfulbit.com/blog/fear-and-failure), and he and Merlin talk about [meditation](http://en.wikipedia.org/wiki/Mindfulness) while Gabe silently judges them.
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="52:12" person="erik" quote="It's called therapy" }} 
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="52:12" person="erik" quote="It's called therapy" }} 
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Producer's Note" }}
 > 
@@ -211,17 +211,17 @@ Erik [revisits fear and failure](http://themindfulbit.com/blog/fear-and-failure)
 
 ### What Happens After Reinvention
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="55:00" }} 
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="55:00" }} 
 
 Merlin ponders how we change, what our personal [admixture](http://term.ly/admixture) might be, and why feelings of incompetence can be a good thing.
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="59:48" person="gabe" quote="You're going to spend a lot of your cycles just trying to figure out what you should be learning" }} 
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="59:48" person="gabe" quote="You're going to spend a lot of your cycles just trying to figure out what you should be learning" }} 
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Producer's Note" }}
 > 
 > Merlin's reference to [William James](http://en.wikipedia.org/wiki/William_James) is likely the result of the [epigram](http://term.ly/epigram) often attributed to him: "Never attribute to malice that which can be adequately explained by stupidity." This quip, which runs parallel to [Occam's Razor](http://en.wikipedia.org/wiki/Occam%27s_Razor), has also been attributed to [Napoleon Bonaparte](http://en.wikipedia.org/wiki/Napoleon) and [Richard Feynman](http://en.wikipedia.org/wiki/Richard_Feynman) referred to as [Hanlon's Razor](http://en.wikipedia.org/wiki/Hanlon's_razor), but the James tie seems most common on the internet due to a [Jargon File Entry](http://jargon-file.org/archive/jargon-2.2.1.dos.txt). I have more about why "Hanlon," but you're just here for Merlin anyway….
  
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="1:02:14" person="merlin" quote="My daughter punches me in the nose and says, 'you're full of it.' Very good, grasshoper" }} 
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="1:02:14" person="merlin" quote="My daughter punches me in the nose and says, 'you're full of it.' Very good, grasshoper" }} 
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Producer's Note" }}
 > 

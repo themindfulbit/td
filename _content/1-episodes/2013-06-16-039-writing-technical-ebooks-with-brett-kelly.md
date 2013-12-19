@@ -1,7 +1,7 @@
 ---
 number: '039'
 title: 'Writing Technical eBooks with Brett Kelly'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Erik Hess, Brett Kelly]
 topics: [evernote, ebooks, publishing]
 banner: /assets/img/technical.jpg

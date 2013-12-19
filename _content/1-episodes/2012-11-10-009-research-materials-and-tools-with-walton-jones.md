@@ -1,7 +1,7 @@
 ---
 number: '009'
 title: 'Research Materials and Tools with Walton Jones'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Walton Jones]
 topics: [research]
 banner: /assets/img/research.jpg

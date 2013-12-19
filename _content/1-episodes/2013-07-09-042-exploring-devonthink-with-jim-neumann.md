@@ -1,7 +1,7 @@
 ---
 number: '042'
 title: 'Exploring DEVONthink with Jim Neumann'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Erik Hess, Jim Neumann]
 topics: [DEVONthink, organization, productivity]
 banner: /assets/img/exploring.jpg

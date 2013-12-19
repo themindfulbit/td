@@ -1,7 +1,7 @@
 ---
 number: '028'
 title: 'Jonathan Poritsky and Markup Languages'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Erik Hess, Jonathan Poritsky]
 topics: [markup, fountain, screenplays, cinema, film]
 banner: /assets/img/camera.jpg

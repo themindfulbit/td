@@ -1,7 +1,7 @@
 ---
 number: '023'
 title: 'Crossing the Chasm Between Science and the Real World'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Jason Permenter]
 topics: [volcanoes, design, science, careers]
 banner: /assets/img/vesuvius.jpg

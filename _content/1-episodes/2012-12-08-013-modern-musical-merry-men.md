@@ -1,7 +1,7 @@
 ---
 number: '013'
 title: 'Modern Musical Merry Men'
-type: [panel]
+showtype: [panel]
 people: [Gabe Weatherhead, Federico Viticci, Myke Hurley, TJ Luoma]
 topics: [music]
 banner: /assets/img/music.jpg

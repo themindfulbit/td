@@ -1,7 +1,7 @@
 ---
 number: '044'
 title: 'Facing Email with Eddie Smith'
-type: [discussion]
+showtype: [discussion]
 people: [Gabe Weatherhead, Erik Hess, Eddie Smith]
 topics: [email, productivity, TEDx]
 banner: /assets/img/boxes.jpg

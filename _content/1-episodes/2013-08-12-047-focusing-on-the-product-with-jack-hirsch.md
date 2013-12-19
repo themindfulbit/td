@@ -1,7 +1,7 @@
 ---
 number: '047'
 title: 'Focusing on the Product with Jack Hirsch'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Erik Hess, Jack Hirsch]
 topics: [product management, evernote, djibouti]
 banner: /assets/img/product.jpg

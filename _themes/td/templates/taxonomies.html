@@ -30,9 +30,6 @@ $(document).ready(function(){
           <h2 class="show-title"> {{ title|widont }}</h2>
           <p class="show-date"> {{ datestamp format="F jS, Y" }}</p>
           <p class="summary">{{ summary }}</p>
-          {{ if type }}
-            <p class="type">{{ type_list }}</p>
-          {{ endif }}
 
           {{ if people }}
             <p class="people">{{ people_list }}</p>

@@ -1,7 +1,7 @@
 ---
 number: '014'
 title: 'Everything Sucks for Somebody at Some Point'
-type: [discussion]
+showtype: [discussion]
 people: [Gabe Weatherhead, Stephen Hackett]
 topics: [empathy, charity, parenting]
 banner: /assets/img/ward.jpg

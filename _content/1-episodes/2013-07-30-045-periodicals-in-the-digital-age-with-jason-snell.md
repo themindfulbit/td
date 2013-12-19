@@ -1,7 +1,7 @@
 ---
 number: '045'
 title: 'Periodicals in the Digital Age with Jason Snell'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Erik Hess, Jason Snell]
 topics: [periodicals, editing, digital media, publishing, writing]
 banner: /assets/img/periodicals.jpg

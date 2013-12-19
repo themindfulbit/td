@@ -1,14 +1,14 @@
 ---
 number: '055'
 title: 'Ethernetworking'
-type: [discussion]
+showtype: [discussion]
 people: [Gabe Weatherhead, Erik Hess]
 topics: [ethernet, home improvement, networking, wiring]
 banner: /assets/img/spool.jpg
 caption: '[US Library of Congress](http://www.flickr.com/photos/library_of_congress/2179848724/)'
 download: http://www.buzzsprout.com/7417/130476-055-ethernetworking.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/120276995"></iframe>'
-soundcloud-url: 055-ethernetworking
+soundcloudurl: 055-ethernetworking
 summary: 'Gabe and Erik take a hard look at what it takes to wire your house for ethernet, from the why, to the how, to the how much.'
 ---
 
@@ -21,7 +21,7 @@ summary: 'Gabe and Erik take a hard look at what it takes to wire your house for
 
 ### How's Your Network?
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" url="{{ soundcloud-url }}" time="0:00" }}
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" url="{{ soundcloudurl }}" time="0:00" }}
 
 {{ theme:partial src="image" show="{{ number }}" title="Gabe's networking gateway drug" file="apple_tv_streaming.png" }}
 
@@ -29,7 +29,7 @@ summary: 'Gabe and Erik take a hard look at what it takes to wire your house for
 
 ### Tools & Materials 
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="2:47" }}
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="2:47" }}
 
 * [1,000 feet of Cat 6' cable](http://www.monoprice.com/Product?c_id=102&cp_id=10234&cs_id=1023404&p_id=8092&seq=1&format=2)
 * [Crimpers](http://www.monoprice.com/Product?c_id=105&cp_id=10509&cs_id=1050901&p_id=3350&seq=1&format=2) 
@@ -85,15 +85,15 @@ summary: 'Gabe and Erik take a hard look at what it takes to wire your house for
 
 ### Cost
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="9:25" }}
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="9:25" }}
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="9:25" person="gabe" quote="It depends on how big your house is." }}
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="9:25" person="gabe" quote="It depends on how big your house is." }}
 
 <iframe width="960" height="720" src="//www.youtube.com/embed/RXKqdi0Wp0E" frameborder="0" allowfullscreen></iframe>
 
 ### Cat 6 for More than Just Ethernet 
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="10:18" }}
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="10:18" }}
 
 * [HDMI to ethernet](http://www.monoprice.com/Product?c_id=104&cp_id=10425&cs_id=1042501&p_id=7330&seq=1&format=2)
 * [USB to ethernet](http://www.cablestogo.com/category/usb/usb-extenders-extensions/usb-over-cat5)
@@ -104,7 +104,7 @@ summary: 'Gabe and Erik take a hard look at what it takes to wire your house for
 
 ### How do you get it through the walls?
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="11:37" }}
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="11:37" }}
 
 * [Electrical Conduit](http://en.wikipedia.org/wiki/Electrical_conduit) 
 * There are some great techniques for pulling wire [here](http://www.wikihow.com/Fish-Wires-Through-a-Conduit-or-Pipe). 
@@ -120,7 +120,7 @@ summary: 'Gabe and Erik take a hard look at what it takes to wire your house for
 
 ### The Boxes
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="16:57" }}
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="16:57" }}
 
 * The first network switch - [SMC EZ Switch](http://www.amazon.com/gp/product/B0009J1IB2/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0009J1IB2&linkCode=as2&tag=potatowirecom-20/amazon)
 * The [move](http://www.macdrifter.com/2013/02/moving-from-a-drobo-to-a-synology-nas.html) to Synology
@@ -133,7 +133,7 @@ summary: 'Gabe and Erik take a hard look at what it takes to wire your house for
 > #### Number of lines in a wall
 > I'll sometimes use one Cat 6 line with a small network switch on the distant end of the line, if I'm only networking.
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="21:20" person="gabe" quote="Bathe it in wifi" }}
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="21:20" person="gabe" quote="Bathe it in wifi" }}
 
 > #### SSID sharing over ethernet
 > I feel stupid, because I had no idea this possible. It's easy too, just make sure the second router has a static IP within the range on the first one, has [DHCP](http://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol) turned off, has the same [SSID](http://en.wikipedia.org/wiki/Service_set_(802.11_network)#Service_set_identification), and is on a different [channel](http://en.wikipedia.org/wiki/List_of_WLAN_channels).
@@ -147,7 +147,7 @@ summary: 'Gabe and Erik take a hard look at what it takes to wire your house for
 > 
 > {{ theme:partial src="image" show="{{ number }}" title="FiOS Box" file="fios.jpg" }}
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="24:28" person="erik" quote="Grandma's going to hack into my machine and steal all my warez" }}
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="24:28" person="erik" quote="Grandma's going to hack into my machine and steal all my warez" }}
  
 ### Gabe's Setup
 
@@ -160,7 +160,7 @@ summary: 'Gabe and Erik take a hard look at what it takes to wire your house for
 
 ### Parting Shots
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="26:33" }}
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="26:33" }}
 
 * Erik's GTD [problem](http://technicaldifficulties.us/episodes/040-helping-erik-procrastinate-productively-with-a-gtd-reboot)
 * Firewire as the Phoenix - [Thanks Steve](http://www.geekculture.com/joyoftech/joyarchives/1164.html)

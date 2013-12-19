@@ -5,7 +5,7 @@ fields:
   title: 
     display: Episode Title
     type: text
-  type: 
+  showtype: 
     display: Episode Type
     type: select
     options:
@@ -32,7 +32,7 @@ fields:
   player: 
     display: Web Player Code
     type: text
-  soundcloud-url:
+  soundcloudurl:
     display: Soundcloud URL
     type: text
   summary: 

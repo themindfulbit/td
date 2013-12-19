@@ -1,7 +1,7 @@
 ---
 number: '008'
 title: 'Photos and Photography with Rob Agcaoili'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Rob Agcaoili]
 topics: [photography]
 banner: /assets/img/photographer.jpg

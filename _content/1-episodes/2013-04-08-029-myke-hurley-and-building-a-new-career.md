@@ -1,7 +1,7 @@
 ---
 number: '029'
 title: 'Myke Hurley and Building a New Career'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Erik Hess, Myke Hurley]
 topics: [podcasting, careers]
 banner: /assets/img/london.jpg

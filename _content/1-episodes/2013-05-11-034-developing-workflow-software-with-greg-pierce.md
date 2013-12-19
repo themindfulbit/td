@@ -1,7 +1,7 @@
 ---
 number: '034'
 title: 'Developing Workflow Software with Greg Pierce'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Erik Hess, Greg Pierce]
 topics: [workflows, development, ios, careers]
 banner: /assets/img/assembly-line.jpg

@@ -1,7 +1,7 @@
 ---
 number: "059"
 title: Configuring iOS for Others
-type: [interview]
+showtype: [interview]
 people:
   - Gabe Weatherhead
   - Erik Hess
@@ -15,7 +15,7 @@ caption: '[George Eastman House](http://www.flickr.com/photos/george_eastman_hou
 download: >
   http://www.buzzsprout.com/7417/136809-059-ios-for-others.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/124684709&color=ff6600&auto_play=false&show_artwork=true"></iframe>'
-soundcloud-url: "059-ios-for-others"
+soundcloudurl: "059-ios-for-others"
 summary: >
   Gabe and Erik take a look at what it
   takes to get a new iOS device up and
@@ -28,13 +28,13 @@ post_files: ""
 
 ### "Okay, how do I set it up?"
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="0:00" }}
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="0:00" }}
  
 Gabe and Erik start by reminiscing about all the times they tried to give tech gifts and ended up doing a lot of support. iOS helped a bunch. iOS 7 hasn't.
 
 ### Apple Account Set Up
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="2:23" }} 
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="2:23" }} 
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="1Password" }}
 >
@@ -63,7 +63,7 @@ Gabe and Erik start by reminiscing about all the times they tried to give tech g
 
 ### Third-party Account Set up
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="8:20" }}
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="8:20" }}
 
 Setting up a new iOS user with some useful non-Apple apps and accounts can make their device shine. It also might expand their appreciation of mobile technology in general.
 
@@ -113,7 +113,7 @@ Setting up a new iOS user with some useful non-Apple apps and accounts can make 
 
 * Apple's Find My [Foo](http://www.ietf.org/rfc/rfc3092.txt) apps can allow you to find Grandma's [missing iPad](http://www.apple.com/support/icloud/find-my-device/) or a [missing Grandma](http://support.apple.com/kb/ht4487), and you can even use them to make your spouse's  purse (or [murse](https://www.google.com/search?q=tom%20brady%20murse&revid=857829836&rls=en&tbm=isch&imgdii=_)) [ring in a meeting](http://support.apple.com/kb/PH2699).
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="13:18" person="erik" quote="Speaking of creepy" }}
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="13:18" person="erik" quote="Speaking of creepy" }}
 <table class="fancy-quote merlin">
   <tr>
     <td class="avatar">
@@ -126,7 +126,7 @@ Setting up a new iOS user with some useful non-Apple apps and accounts can make 
 
 ### Critical Settings
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="16:29" }}
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="16:29" }}
 
 Gabe and Erik briefly touch on good ways to customize an iOS device for someone else. 
 
@@ -147,7 +147,7 @@ Gabe and Erik briefly touch on good ways to customize an iOS device for someone 
 
 ### Other Apps to Setup or Install
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="22:20" }} 
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="22:20" }} 
 
 Gabe and Erik close out the show by listing some great apps to setup or install for a new user.
 

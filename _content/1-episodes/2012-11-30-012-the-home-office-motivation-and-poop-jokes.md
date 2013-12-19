@@ -1,7 +1,7 @@
 ---
 number: '012'
 title: 'The Home Office, Motivation and Poop Jokes'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Brett Kelly]
 topics: [home office, motivation, remote work]
 banner: /assets/img/home-office.jpg

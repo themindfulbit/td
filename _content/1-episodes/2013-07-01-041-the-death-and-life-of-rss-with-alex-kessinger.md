@@ -1,7 +1,7 @@
 ---
 number: '041'
 title: 'The Death and Life of RSS with Alex Kessinger'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Erik Hess, Alex Kessinger]
 topics: [RSS, App.net, Privacy]
 banner: /assets/img/graveyard.jpg

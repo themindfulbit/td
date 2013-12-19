@@ -1,7 +1,7 @@
 ---
 number: '036'
 title: 'Advocating for Science and Exploration with Emily Lakdawalla'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Erik Hess, Emily Lakdawalla]
 topics: [science, space, exploration]
 banner: /assets/img/jupiter.jpg

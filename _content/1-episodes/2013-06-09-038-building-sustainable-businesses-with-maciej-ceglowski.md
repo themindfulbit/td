@@ -1,7 +1,7 @@
 ---
 number: '038'
 title: 'Building Sustainable Businesses with Maciej Cegłowski'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Erik Hess, Maciej Ceglowski]
 topics: [pinboard, funding, business, capital]
 banner: /assets/img/store.jpg

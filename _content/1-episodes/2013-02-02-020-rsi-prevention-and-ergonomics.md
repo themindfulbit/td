@@ -1,7 +1,7 @@
 ---
 number: '020'
 title: 'RSI Prevention and Ergonomics'
-type: [panel]
+showtype: [panel]
 people: [Gabe Weatherhead, Matt Might, Seth Brown]
 topics: [gtd, contexts, tasks, projects]
 banner: /assets/img/rsi.jpg

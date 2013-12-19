@@ -1,7 +1,7 @@
 ---
 number: '010'
 title: 'Going Back to School with Julia Richert'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Julia Richert]
 topics: [continuing education, family]
 banner: /assets/img/school.jpg

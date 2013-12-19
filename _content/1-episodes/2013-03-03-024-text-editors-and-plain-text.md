@@ -1,7 +1,7 @@
 ---
 number: '024'
 title: 'Text Editors and Plain Text'
-type: [panel]
+showtype: [panel]
 people: [Gabe Weatherhead, Brett Terpstra, Dr. Drang, David Sparks]
 topics: [text, editors, formats]
 banner: /assets/img/writing.jpg

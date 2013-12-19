@@ -1,7 +1,7 @@
 ---
 number: '002'
 title: 'Preparing for the Worst-Case Scenario'
-type: [discussion]
+showtype: [discussion]
 people: [Gabe Weatherhead, Eddie Smith]
 topics: [dropbox, backups, security, passwords, credit]
 banner: /assets/img/lifeboat.jpg

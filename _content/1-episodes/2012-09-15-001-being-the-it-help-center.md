@@ -1,7 +1,7 @@
 ---
 number: '001'
 title: 'Being the IT Help Center'
-type: [discussion]
+showtype: [discussion]
 people: [Gabe Weatherhead, David Sparks]
 topics: [support, family, education]
 banner: /assets/img/dog.jpg

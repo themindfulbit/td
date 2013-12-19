@@ -1,7 +1,7 @@
 ---
 number: '017'
 title: 'Task Management with Rob Agcaoili and Eddie Smith'
-type: [panel]
+showtype: [panel]
 people: [Gabe Weatherhead, Rob Agcaoili, Eddie Smith]
 topics: [gtd, project management]
 banner: /assets/img/tickle.jpg

@@ -1,7 +1,7 @@
 ---
 number: '040'
 title: 'Helping Erik Procrastinate Productively with a GTD Reboot'
-type: [discussion]
+showtype: [discussion]
 people: [Gabe Weatherhead, Erik Hess]
 topics: [GTD, productivity, OmniFocus, Reminders, Evernote]
 banner: /assets/img/barrier.jpg

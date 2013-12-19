@@ -1,7 +1,7 @@
 ---
 number: '033'
 title: 'What Happened When Gabe Set Himself on Fire'
-type: [discussion]
+showtype: [discussion]
 people: [Gabe Weatherhead, Erik Hess]
 topics: [experimentation, chemistry, goals]
 banner: /assets/img/phosphorous.jpg

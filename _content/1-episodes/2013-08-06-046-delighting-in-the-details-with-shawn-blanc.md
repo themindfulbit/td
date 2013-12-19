@@ -1,7 +1,7 @@
 ---
 number: '046'
 title: 'Delighting in the Details with Shawn Blanc'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Erik Hess, Shawn Blanc]
 topics: [design, details, ui, productivity]
 banner: /assets/img/details.jpg

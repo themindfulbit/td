@@ -1,20 +1,20 @@
 ---
 number: '056'
 title: 'Sonos Showdown'
-type: [discussion]
+showtype: [discussion]
 people: [Gabe Weatherhead, Erik Hess]
 topics: [sonos, home audio, airplay]
 banner: /assets/img/radio.jpg
 caption: 'Dr. Drang listening to Generational on an early wireless home audio system. [US National Archives](http://www.flickr.com/photos/usnationalarchives/5589767274/)'
 download: http://www.buzzsprout.com/7417/132277-056-sonos-showdown.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/121408824"></iframe>'
-soundcloud-url: 056-sonos-showdown
+soundcloudurl: 056-sonos-showdown
 summary: 'Erik and Gabe go toe-to-toe over the Sonos Wireless sound system. Erik thinks it's expensive but worth it. Gabe thinks it's expensive and worthless. Who wins? You judge.'
 ---
 
 ### Wireless Is a Bit Problematic ###
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="0:00" }}
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="0:00" }}
 
 #### Why Sonos?
 
@@ -28,7 +28,7 @@ It's important to remember that if the music source you want is not in the Sonos
 
 ### Why not AirPlay?
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="1:59" }}
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="1:59" }}
 
 AirPlay is Apple's WiFi-based audio streaming solution, and is [normally](http://www.rogueamoeba.com/airfoil/) tied to iTunes, Apple TV and iOS devices. It's similar to what Sonos uses but  specific to Apple's hardware. While [hardware manufacturers can license the AirPlay](http://www.amazon.com/gp/product/B008KEPX1O/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B008KEPX1O) technology it's not part of the Sonos system out-of-the-box.
 
@@ -42,11 +42,11 @@ Out of the box, multiroom audio on AirPlay requires iTunes on a Mac. iOS devices
 
 ### So Which Sonos?
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="3:28" }}
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="3:28" }}
 
 One of the benefits of the Sonos system is that there's a wide variety of speakers to choose from. Depending on your need and room size, you can opt for the tiny Play:1 or move up to a home theater configuration with a [Soundbar](http://www.amazon.com/gp/product/B00AEMGGU2/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B00AEMGGU2) and [Subwoofer](http://www.amazon.com/gp/product/B00834SIO0/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B00834SIO0). 
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="3:35" person="gabe" quote="Apparently they don't like even numbers" }}
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="3:35" person="gabe" quote="Apparently they don't like even numbers" }}
 
 > #### Producer's Note
 > I assume the Play:1 is so named since it is really just one speaker (well, two if you split up the woofer and tweeter) and even Sonos says it "can" be paired in order to provide "true" stereo. Look at the picture and judge for yourself.
@@ -91,11 +91,11 @@ A few speakers from Erik's extensive Sonos collection. The Coke can is provided 
 >
 > MIMO is essentially an antenna design that's advertised to improve data rate, range, and link reliability, although Gabe may wish to dispute these last two benefits. The antennas spread the inputs and outputs spatially, and this should mitigate the theoretical throughput limitations mentioned earlier. Sonos maintained backwards compatibility with 1.0 after moving to 2.0, and reduction in range (depending on layout) is said to be the only consequence of mixing Sonos generations.
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="5:55" person="erik" quote="We went a little crazy" }}
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="5:55" person="erik" quote="We went a little crazy" }}
 
 ### The Sonos Negatives ###
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="7:50" }}
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="7:50" }}
 
 Gabe only recently joined the Sonos party and he's still feeling a bit cold. Multiple problems have discouraged him and diminished his opinion of the Sonos speaker pairing and grouping options. He's also not particularly fond of the Sonos app that is *required* for streaming audio.
 
@@ -107,19 +107,19 @@ Gabe only recently joined the Sonos party and he's still feeling a bit cold. Mul
 
 {{ theme:partial src="image-set" show="{{ number }}" title="First AirPort Express" file="airport_express_1.jpg" }}{{ theme:partial src="image-set" show="{{ number }}" title="Current AirPort Express" file="airport_express_2.jpg" }}
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="9:46" person="gabe" quote="There's a cult around Sonos" }}
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="9:46" person="gabe" quote="There's a cult around Sonos" }}
 
 * Since it creates its own network, Sonos can't take advantage of a house "bathed in WiFi". Instead it needs to connect with other speakers via wired connections or be in range of another Sonos element.
 * Gabe had some problems with Sonos ungrouping speakers randomly. Erik hasn't had the same issues and suggests later that Gabe put a bridge between his distantly spaced speakers. In the coda Gabe describes his experiences with this solution.
 * Like all wireless solutions, Sonos has range limits.
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="5:55" person="gabe" quote="As the crow flies?" }}
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="5:55" person="gabe" quote="As the crow flies?" }}
 
 * On Gabe's first try with Sonos, it didn't pass the spouse test.
 
 ### The Sonos Positives
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="13:45" }}
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="13:45" }}
 
 * As long as your files are available, you don't even have to be running that bloated resource-hog iTunes to listen to your music.
 
@@ -132,7 +132,7 @@ Gabe only recently joined the Sonos party and he's still feeling a bit cold. Mul
 
 ### The Mobile and Desktop Interface
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="15:44" }}
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="15:44" }}
 
 {{ theme:partial src="image-set" title="Selecting a Source" show="{{ number }}" file="ss-music-sources.png" }}{{ theme:partial src="image-set" title="Now Playing Screen" show="{{ number }}" file="ss-now-playing.png" }}{{ theme:partial src="image-set" title="Album Art View" show="{{ number }}" file="ss-album-view.png" }}
 
@@ -141,7 +141,7 @@ Gabe only recently joined the Sonos party and he's still feeling a bit cold. Mul
 {{ theme:partial src="image" title="Sonos Desktop for Mac" show="{{ number }}" file="ss-desktop.png" }}
 
 ### Spotify
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="18:13" }}
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="18:13" }}
 
 > #### Producer's Note
 > Gabe and Erik alluded to the issue of artist compensation, and it certainly is a complicated one. Spotify itself has an "Artist Services" page with a sort of [FAQ](https://www.spotify.com/us/about-us/artists/get-paid-from-spotify/) set up to deal with this publicly. Their general point is that the free service, which does pay out advertising royalties, is used, "to drive users into our paid subscription tier," where they assert that the users are "higher value" customers.
@@ -158,11 +158,11 @@ Gabe only recently joined the Sonos party and he's still feeling a bit cold. Mul
 * Spotify is often more convenient, even when you own the music
 * There are some gaps in the catalog
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="19:59" person="erik" quote="I listen to some weird music sometimes" }}
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="19:59" person="erik" quote="I listen to some weird music sometimes" }}
 
 ### Sound Quality
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="21:29" }}
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="21:29" }}
 
 * Good, but not exceptional from the smaller-sized speakers.
 * A pair of Play:1s may be a better choice than a Play:5, with the caveat that the Play:1 does not have an aux-in port
@@ -172,7 +172,7 @@ Gabe only recently joined the Sonos party and he's still feeling a bit cold. Mul
 
 ### Sonos Setup
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="22:24" }}
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="22:24" }}
 
 * Get it networked by plugging in a patch cable directly connected to your network or by using the Sonos Bridge
 * Press "volume up" and "mute"
@@ -183,7 +183,7 @@ Gabe only recently joined the Sonos party and he's still feeling a bit cold. Mul
 
 ### Alternatives
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="26:00" }}
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="26:00" }}
 
 * For many use cases, the Sonos may not be the right solution. If you want a very simple or portable audio solution, Bluetooth might end your search.
 * The Big Jambox has great sound, and while it is portable, its great sound comes at the cost of added size and weight: [$299.99](http://www.amazon.com/gp/product/B006AXRR3Y/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B006AXRR3Y&linkCode=as2&tag=potatowire-20) 
@@ -194,20 +194,20 @@ Gabe only recently joined the Sonos party and he's still feeling a bit cold. Mul
 > #### Producer's Note
 > I find Bluetooth perfect for my uses, and as Gabe said it really does just work. Apple has been quick to incorporate lower-power revisions of Bluetooth, but it has yet to do much with the sound profiles themselves. I'm okay with that since I mainly listen to Technical Difficulties on continual loop with a Vim window open in front of me.
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="" person="erik" quote="Sonos is portable like an iMac is portable" }}
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="" person="erik" quote="Sonos is portable like an iMac is portable" }}
 
 {{ theme:partial src="image" show="{{ number }}" title="WoW at Panera" file="portable_imac.jpg" }} 
 
 * If you want multiroom, the only real Sonos alternative is a good receiver with wired speakers
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloud-url }}" time="31:09" person="gabe" quote="That requires running copper throughout the house...that's kind of a pain" }}
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="31:09" person="gabe" quote="That requires running copper throughout the house...that's kind of a pain" }}
 
 > #### Producer's Note
 > Is he being [ironic](http://technicaldifficulties.us/episodes/055-ethernetworking)?
 
 ### Troubleshooting Gabe's Connectivity issues with a Bridge
 
-{{ theme:partial src="timestamp" url="{{ soundcloud-url }}" time="33:09" }}
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="33:09" }}
 
 * Gabe experienced no more random ungroupings after adding the bridge
 * Setting the WiFi channel manually may also have helped.

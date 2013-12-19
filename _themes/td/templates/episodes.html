@@ -47,9 +47,6 @@ $(document).ready(function(){
             <div class="show-date"> {{ datestamp format="F jS, Y" }}</div>
           </div>
           <p class="summary">{{ summary|markdown }}</p>
-          {{ if type }}
-            <p class="type">{{ type_list }}</p>
-          {{ endif }}
 
           {{ if people }}
             <p class="people">{{ people_list }}</p>

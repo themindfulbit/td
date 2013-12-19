@@ -1,7 +1,7 @@
 ---
 number: '005'
 title: 'The Future of Books'
-type: [panel]
+showtype: [panel]
 people: [Gabe Weatherhead, Yuvi Zalkow, Michael Schechter]
 topics: [books, reading]
 banner: /assets/img/illuminated.jpg

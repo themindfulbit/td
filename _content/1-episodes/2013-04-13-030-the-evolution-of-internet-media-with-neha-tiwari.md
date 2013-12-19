@@ -1,7 +1,7 @@
 ---
 number: '030'
 title: 'The Evolution of Internet Media with Neha Tiwari '
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Erik Hess, Neha Tiwari]
 topics: [video]
 banner: /assets/img/filming.jpg

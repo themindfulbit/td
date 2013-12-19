@@ -1,7 +1,7 @@
 ---
 number: '021'
 title: 'Raising a Human'
-type: [discussion]
+showtype: [discussion]
 people: [Gabe Weatherhead, Merlin Mann]
 topics: [parenting, comics]
 banner: /assets/img/snoopy.jpg

@@ -8,7 +8,7 @@ banner: zpq-batt.jpg
 caption: '[Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Potato-Battery-5495.jpg)'
 download: 
 player: ''
-soundcloud-url:
+soundcloudurl:
 summary: 'The fascinating and surprising history of potato batteries and other potato power generating schemes. Potato Schmidt shows you how to create your own potato battery and explains how the thirst for potato power destroyed a great potato empire and almost the entire world.'
 ---
 

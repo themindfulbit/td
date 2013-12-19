@@ -1,7 +1,7 @@
 ---
 number: '049'
 title: 'Journaling with Paul Mayne'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Erik Hess, Paul Mayne]
 topics: [journaling, Day One]
 banner: /assets/img/journal.jpg

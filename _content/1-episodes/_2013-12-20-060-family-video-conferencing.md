@@ -1,7 +1,7 @@
 ---
 number: "060"
 title: Family Video Conferencing
-type: interview
+showtype: interview
 people:
   - Gabe Weatherhead
   - Erik Hess
@@ -15,7 +15,7 @@ caption: '[Library of Congress](http://www.flickr.com/photos/8623220@N02/2179146
 download: >
   http://www.buzzsprout.com/7417/138072-060-family-videoconferencing.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125607393&color=ff6600&auto_play=false&show_artwork=true"></iframe>'
-soundcloud-url: ""
+soundcloudurl: 060-family-videoconferencing
 summary: >
   Gabe and Erik talk about all the fun
   ways to video conference with your

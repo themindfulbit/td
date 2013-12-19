@@ -1,7 +1,7 @@
 ---
 number: '052'
 title: 'Rob Trew and Brett Terpstra Talk Code'
-type: [panel]
+showtype: [panel]
 people: [Gabe Weatherhead, Brett Terpstra, Rob Trew]
 topics: [code, AppleScript]
 banner: /assets/img/census.jpg

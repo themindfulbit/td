@@ -1,7 +1,7 @@
 ---
 number: '032'
 title: 'Blogging Platforms with Bob VanderClay'
-type: [discussion]
+showtype: [discussion]
 people: [Gabe Weatherhead, Erik Hess, Bob VanderClay]
 topics: [blogging, hosting, programming]
 banner: /assets/img/platform.jpg

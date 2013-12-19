@@ -1,7 +1,7 @@
 ---
 number: '011'
 title: 'Planning, Outlining, and Mapping with Brett Terpstra'
-type: [discussion]
+showtype: [discussion]
 people: [Gabe Weatherhead, Brett Terpstra]
 topics: [planning, outlining, context maps]
 banner: /assets/img/stairway.jpg

@@ -1,7 +1,7 @@
 ---
 number: '051'
 title: 'David Lanham on Icons, Illustrations, and Interfaces'
-type: [interview]
+showtype: [interview]
 people: [Gabe Weatherhead, Erik Hess, David Lanham]
 topics: [icons, illustration, interaction design]
 banner: /assets/img/artist.jpg

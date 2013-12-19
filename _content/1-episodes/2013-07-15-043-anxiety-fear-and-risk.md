@@ -1,7 +1,7 @@
 ---
 number: '043'
 title: 'Anxiety, Fear, and Risk'
-type: [discussion]
+showtype: [discussion]
 people: [Gabe Weatherhead, Erik Hess]
 topics: [anxiety, fear, risk, iOS, Android]
 banner: /assets/img/anxiety.jpg

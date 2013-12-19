@@ -1,7 +1,7 @@
 ---
 number: '003'
 title: 'Do it for the Kids'
-type: [discussion]
+showtype: [discussion]
 people: [Gabe Weatherhead, Nate Boateng]
 topics: [children, parenting, technology]
 banner: /assets/img/kids.jpg

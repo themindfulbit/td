@@ -1,7 +1,7 @@
 ---
 number: '050'
 title: 'Lists of Lists of Lists'
-type: [discussion]
+showtype: [discussion]
 people: [Gabe Weatherhead, Erik Hess]
 topics: [productivity, lists, calendars, reminders]
 banner: /assets/img/list.jpg

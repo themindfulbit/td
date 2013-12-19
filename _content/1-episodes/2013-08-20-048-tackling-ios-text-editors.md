@@ -1,7 +1,7 @@
 ---
 number: '048'
 title: 'Tackling iOS Text Editors'
-type: [discussion]
+showtype: [discussion]
 people: [Gabe Weatherhead, Erik Hess]
 topics: [text editors, iOS, productivity, keyboards]
 banner: /assets/img/type-japan.jpg
