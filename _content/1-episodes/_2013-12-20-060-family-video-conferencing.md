@@ -1,7 +1,7 @@
 ---
 number: "060"
 title: Family Video Conferencing
-type: Interview
+type: interview
 people:
   - Gabe Weatherhead
   - Erik Hess
@@ -11,28 +11,21 @@ topics:
   - Skype
   - FaceTime
 banner: /assets/img/family.jpg
-caption: '[Flickr Commons](http://www.flickr.com/photos/floridamemory/8283268199/)'
-download: ""
-player: ""
+caption: '[Library of Congress](http://www.flickr.com/photos/8623220@N02/2179146618/in/photolist-4jyGnq-55ArW4-5eKzgh-5QyVVN-5S5RC3-5S6h1L-5S6jAG-5S7VfW-5S87Kq-5S8enU-5ScMsn-5SnYX7-5U6sJb-5WXi5P-628Ywz-6YL9vy-7eU3qV-7h3Y9v-7mfWkS-7mJ7LW-7vtnBF-7vxbH1-buvjtp-81hBPV-7Nprbb-7JDc7h-7Jxe57-d2yDwC-gFp5UU-9Pye5Q-9oVDPg-a7wKnH-92q2N9-92q2P9-8Zzt16-8ZCy4Q-8ZCy5s-8ZCy5S-8ZCy59-92q2LQ-9CtVhz-bucRsX-bucVr2-7Nksat-7WN49i-7NkraK-9RRYVk-btzAo9-eXCwH1-8cGCZt-7JDbKh)'
+download: >
+  http://www.buzzsprout.com/7417/138072-060-family-videoconferencing.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125607393&color=ff6600&auto_play=false&show_artwork=true"></iframe>'
 soundcloud-url: ""
 summary: >
   Gabe and Erik talk about all the fun
   ways to video conference with your
   family over the holidays.
-post_images:
-  - 
-    image: >
-      /assets/img/Screen-Shot-2013-10-15-at-2-18-34-PM.png
-    title: Screenshot
-  - 
-    image: /assets/img/resource.jpg
-    title: Linen
+post_images: ""
 post_files: ""
 ---
 
 ### Services
 
-{{ theme:partial src="image" title="" show="{{ number }}" file="resource.jpg" }}
 
 #### Facetime
 
