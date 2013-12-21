@@ -1,14 +1,31 @@
 ---
-number: '048'
-title: 'Tackling iOS Text Editors'
-showtype: [discussion]
-people: [Gabe Weatherhead, Erik Hess]
-topics: [text editors, iOS, productivity, keyboards]
+number: "048"
+title: Tackling iOS Text Editors
+showtype: interview
+people:
+  - Gabe Weatherhead
+  - Erik Hess
+topics:
+  - text editors
+  - iOS
+  - productivity
+  - keyboards
 banner: /assets/img/type-japan.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/nationaalarchief/3774886804/)'
-download: http://www.buzzsprout.com/7417/109484-048-tackling-ios-text-editors.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/116764969"></iframe>'
-summary: 'Gabe and Erik throw caution to the wind and discuss the wide world of iOS text editors. They touch on the tools they use and the things they look for in text editing apps on iOS. Then they go through some of the bigger names in the field before picking their favorites.'
+download: >
+  http://www.buzzsprout.com/7417/109484-048-tackling-ios-text-editors.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125810137%3Fsecret_token%3Ds-ob7kK&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
+summary: >
+  Gabe and Erik throw caution to the wind
+  and discuss the wide world of iOS text
+  editors. They touch on the tools they
+  use and the things they look for in text
+  editing apps on iOS. Then they go
+  through some of the bigger names in the
+  field before picking their favorites.
+soundcloudurl: 048-tackling-ios-text-editors
+post_images: ""
+post_files: ""
 ---
 
 ## Show notes

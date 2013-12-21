@@ -1,14 +1,24 @@
 ---
-number: '008'
-title: 'Photos and Photography with Rob Agcaoili'
-showtype: [interview]
-people: [Gabe Weatherhead, Rob Agcaoili]
-topics: [photography]
+number: "008"
+title: Photos and Photography with Rob Agcaoili
+showtype: interview
+people:
+  - Gabe Weatherhead
+  - Rob Agcaoili
+topics:
+  - photography
 banner: /assets/img/photographer.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/nationalmediamuseum/8386803032/)'
-download: http://www.buzzsprout.com/7417/65103-generational-episode-008.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117548123"></iframe>'
-summary: 'Rob Agcaoili of Gridwriter.com talks about his photography workflow. We start at backups and end at photo editing.'
+download: >
+  http://www.buzzsprout.com/7417/65103-generational-episode-008.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125781778%3Fsecret_token%3Ds-8b2xP&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
+summary: >
+  Rob Agcaoili of Gridwriter.com talks
+  about his photography workflow. We start
+  at backups and end at photo editing.
+soundcloudurl: 008-photos-and-photography
+post_images: ""
+post_files: ""
 ---
 
 ## Show Notes ##

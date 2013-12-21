@@ -1,14 +1,31 @@
 ---
-number: '024'
-title: 'Text Editors and Plain Text'
-showtype: [panel]
-people: [Gabe Weatherhead, Brett Terpstra, Dr. Drang, David Sparks]
-topics: [text, editors, formats]
+number: "024"
+title: Text Editors and Plain Text
+showtype: interview
+people:
+  - Gabe Weatherhead
+  - Brett Terpstra
+  - Dr. Drang
+  - David Sparks
+topics:
+  - text
+  - editors
+  - formats
 banner: /assets/img/writing.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/nationaalarchief/3915529903/)'
-download: http://www.buzzsprout.com/7417/80006-generational-episode-024.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117546088"></iframe>'
-summary: 'This episode has an all-star cast of plain text nerds, Brett Terpstra, Dr. Drang and David Sparks. The discussion starts with text editors on Mac and iOS and wraps up with a discussion about the future of text editors and file formats.'
+download: >
+  http://www.buzzsprout.com/7417/80006-generational-episode-024.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125798900&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
+summary: >
+  This episode has an all-star cast of
+  plain text nerds, Brett Terpstra, Dr.
+  Drang and David Sparks. The discussion
+  starts with text editors on Mac and iOS
+  and wraps up with a discussion about the
+  future of text editors and file formats.
+soundcloudurl: 024-text-editors-and-plain
+post_images: ""
+post_files: ""
 ---
 
 ## Show Notes

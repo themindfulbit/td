@@ -1,14 +1,31 @@
 ---
-number: '014'
-title: 'Everything Sucks for Somebody at Some Point'
-showtype: [discussion]
-people: [Gabe Weatherhead, Stephen Hackett]
-topics: [empathy, charity, parenting]
+number: "014"
+title: >
+  Everything Sucks for Somebody at Some
+  Point
+showtype: interview
+people:
+  - Gabe Weatherhead
+  - Stephen Hackett
+topics:
+  - empathy
+  - charity
+  - parenting
 banner: /assets/img/ward.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/nlscotland/4699252069/)'
-download: http://www.buzzsprout.com/7417/69470-generational-episode-014.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117547416"></iframe>'
-summary: 'Gabe talks with Stephen Hackett of 512Pixels.net about empathy and charity. The show is an awkward mix of irreverent and introspective discussion of the role of charities, picking trustworthy charities and raising empathetic kids.'
+download: >
+  http://www.buzzsprout.com/7417/69470-generational-episode-014.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125782779%3Fsecret_token%3Ds-9lEGN&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
+summary: >
+  Gabe talks with Stephen Hackett of
+  512Pixels.net about empathy and charity.
+  The show is an awkward mix of irreverent
+  and introspective discussion of the role
+  of charities, picking trustworthy
+  charities and raising empathetic kids.
+soundcloudurl: 014-everything-sucks-for
+post_images: ""
+post_files: ""
 ---
 
 ## Show Notes ##

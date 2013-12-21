@@ -1,14 +1,27 @@
 ---
-number: '025'
-title: 'Design and Fighter Jets'
-showtype: [interview]
-people: [Gabe Weatherhead, Erik Hess]
-topics: [design, airplanes, careers]
+number: "025"
+title: Design and Fighter Jets
+showtype: interview
+people:
+  - Gabe Weatherhead
+  - Erik Hess
+topics:
+  - design
+  - airplanes
+  - careers
 banner: /assets/img/tomcat.jpg
 caption: 'F-14 Tomcat asymmetric wing sweep testing [Flickr Commons](http://www.flickr.com/photos/sdasmarchives/4559760940/)'
-download: http://www.buzzsprout.com/7417/81128-generational-episode-025.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117534860"></iframe>'
-summary: 'This week Erik Hess educates Gabe about what design is, how he went from jet pilot to designer and how everything is a product of the design process.'
+download: >
+  http://www.buzzsprout.com/7417/81128-generational-episode-025.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125799871&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
+summary: >
+  This week Erik Hess educates Gabe about
+  what design is, how he went from jet
+  pilot to designer and how everything is
+  a product of the design process.
+soundcloudurl: 025-design-and-fighter-jets
+post_images: ""
+post_files: ""
 ---
 
 ## Show Notes

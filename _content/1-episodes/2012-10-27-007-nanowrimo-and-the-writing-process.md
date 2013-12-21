@@ -1,14 +1,26 @@
 ---
-number: '007'
-title: 'NaNoWriMo and the Writing Process'
-showtype: [interview]
-people: [Gabe Weatherhead, Aaron Mahnke]
-topics: [writing]
+number: "007"
+title: NaNoWriMo and the Writing Process
+showtype: interview
+people:
+  - Gabe Weatherhead
+  - Aaron Mahnke
+topics:
+  - writing
 banner: /assets/img/writer.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/nationalmediamuseum/7893553148/)'
-download: http://www.buzzsprout.com/7417/64231-generational-episode-007.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117548167"></iframe>'
-summary: 'Aaron Mahnke and I discuss his writing experience. We go in depth on the writing process and National Novel Writing Month with sweeping discussion of Tolkein and Vonnegut.'
+download: >
+  http://www.buzzsprout.com/7417/64231-generational-episode-007.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125781624%3Fsecret_token%3Ds-APyil&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
+summary: >
+  Aaron Mahnke and I discuss his writing
+  experience. We go in depth on the
+  writing process and National Novel
+  Writing Month with sweeping discussion
+  of Tolkein and Vonnegut.
+soundcloudurl: 007-nanowrimo-and-the-writing
+post_images: ""
+post_files: ""
 ---
 
 This Episode is sponsored by [TextDrop](http://textdropapp.com/), the best way to work with plain text and Markdown on the web. It's the Dropbox based text editor with super powers. [Sign-up](https://www.textdropapp.com/home/Sign_up) with the code "Generational Podcast".

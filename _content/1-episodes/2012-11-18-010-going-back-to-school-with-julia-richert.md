@@ -1,14 +1,28 @@
 ---
-number: '010'
-title: 'Going Back to School with Julia Richert'
-showtype: [interview]
-people: [Gabe Weatherhead, Julia Richert]
-topics: [continuing education, family]
+number: "010"
+title: Going Back to School with Julia Richert
+showtype: interview
+people:
+  - Gabe Weatherhead
+  - Julia Richert
+topics:
+  - continuing education
+  - family
 banner: /assets/img/school.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/mennonitechurchusa-archives/8024388985/)'
-download: http://www.buzzsprout.com/7417/66657-generational-episode-010.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117547803"></iframe>'
-summary: 'Julia Richert and Gabe talk at length about the life changing event of going back to school and continuing education. They discuss the consequences on the family and some of the decisions and planning to make it work out right.'
+download: >
+  http://www.buzzsprout.com/7417/66657-generational-episode-010.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125782141%3Fsecret_token%3Ds-42jhv&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
+summary: >
+  Julia Richert and Gabe talk at length
+  about the life changing event of going
+  back to school and continuing education.
+  They discuss the consequences on the
+  family and some of the decisions and
+  planning to make it work out right.
+soundcloudurl: 010-going-back-to-school-with
+post_images: ""
+post_files: ""
 ---
 
 ## Show Notes ##

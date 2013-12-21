@@ -1,14 +1,30 @@
 ---
-number: '036'
-title: 'Advocating for Science and Exploration with Emily Lakdawalla'
-showtype: [interview]
-people: [Gabe Weatherhead, Erik Hess, Emily Lakdawalla]
-topics: [science, space, exploration]
+number: "036"
+title: >
+  Advocating for Science and Exploration
+  with Emily Lakdawalla
+showtype: interview
+people:
+  - Gabe Weatherhead
+  - Erik Hess
+  - Emily Lakdawalla
+topics:
+  - science
+  - space
+  - exploration
 banner: /assets/img/jupiter.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/sdasmarchives/6996861298/)'
-download: http://www.buzzsprout.com/7417/94141-036-advocating-for-science-and-exploration-with-emily-lakdawalla.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117519629"></iframe>'
-summary: 'This week Emily Lakdawalla, planetary evangelist for The Planetary Society, joins Gabe and Erik to discuss planetary science, education and exploration.'
+download: >
+  http://www.buzzsprout.com/7417/94141-036-advocating-for-science-and-exploration-with-emily-lakdawalla.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125806814%3Fsecret_token%3Ds-dfaSQ&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
+summary: >
+  This week Emily Lakdawalla, planetary
+  evangelist for The Planetary Society,
+  joins Gabe and Erik to discuss planetary
+  science, education and exploration.
+soundcloudurl: 036-advocating-for-science-and
+post_images: ""
+post_files: ""
 ---
 
 ## Show notes

@@ -1,15 +1,32 @@
 ---
-number: '057'
-title: 'Reinventing Yourself with Merlin Mann'
-showtype: [interview]
-people: [Gabe Weatherhead, Erik Hess, Merlin Mann]
-topics: [growth, discomfort, progress, stress, fleet week]
+number: "057"
+title: Reinventing Yourself with Merlin Mann
+showtype: interview
+people:
+  - Gabe Weatherhead
+  - Erik Hess
+  - Merlin Mann
+topics:
+  - growth
+  - discomfort
+  - progress
+  - stress
+  - fleet week
 banner: /assets/img/edison.jpg
-caption: '["I'll start all over again tomorrow"](http://query.nytimes.com/mem/archive-free/pdf?res=F40614FF3F5C13738DDDA90994DA415B848DF1D3) [Library of Congress](http://www.flickr.com/photos/library_of_congress/6559347383/)'
-download: http://www.buzzsprout.com/7417/133581-057-reinventing-yourself-with-merlin-mann.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/122444866"></iframe>'
+caption: |
+  ["I'll start all over again tomorrow"](http://query.nytimes.com/mem/archive-free/pdf?res=F40614FF3F5C13738DDDA90994DA415B848DF1D3) [Library of Congress](http://www.flickr.com/photos/library_of_congress/6559347383/)
+download: >
+  http://www.buzzsprout.com/7417/133581-057-reinventing-yourself-with-merlin-mann.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125811988%3Fsecret_token%3Ds-Bjenw&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 soundcloudurl: 057-reinventing-yourself-with
-summary: 'Gabe and Erik are joined by Merlin Mann to talk about starting over, what you really should be doing with your life, verbing, inventors, and emotional petshops.'
+summary: >
+  Gabe and Erik are joined by Merlin Mann
+  to talk about starting over, what you
+  really should be doing with your life,
+  verbing, inventors, and emotional
+  petshops.
+post_images: ""
+post_files: ""
 ---
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Producer's Note" }}
@@ -138,7 +155,7 @@ Beyond just the nouns and verbs, we are obsessed with labels, but sometimes they
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="26:20" person="gabe" quote="We're not even on iTunes" }}
 
-<blockquote class="twitter-tweet" lang="en"><p>I… I… I don't even know what to say... <a href="http://t.co/Dy9anfc3Tr">pic.twitter.com/Dy9anfc3Tr</a></p>&mdash; Technical Difficulti (@techdiffpodcast) <a href="https://twitter.com/techdiffpodcast/statuses/401101708694024192">November 14, 2013</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p>I… I… I don't even know what to say... <a href="http://t.co/Dy9anfc3Tr">pic.twitter.com/Dy9anfc3Tr</a></p>— Technical Difficulti (@techdiffpodcast) <a href="https://twitter.com/techdiffpodcast/statuses/401101708694024192">November 14, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 * Success vs. fame

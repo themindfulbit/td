@@ -1,14 +1,30 @@
 ---
-number: '013'
-title: 'Modern Musical Merry Men'
-showtype: [panel]
-people: [Gabe Weatherhead, Federico Viticci, Myke Hurley, TJ Luoma]
-topics: [music]
+number: "013"
+title: Modern Musical Merry Men
+showtype: interview
+people:
+  - Gabe Weatherhead
+  - Federico Viticci
+  - Myke Hurley
+  - TJ Luoma
+topics:
+  - music
 banner: /assets/img/music.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/nypl/4057968245/)'
-download: http://www.buzzsprout.com/7417/68737-generational-episode-013.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117547538"></iframe>'
-summary: 'A group discussion with Federico Viticci (MacStories), Myke Hurley (70Decibels), TJ Luoma (TUAW) and Gabe (Macdrifter) about the current state of accessing and exploring music. We talk about streaming music and compare the available options with iTunes.'
+download: >
+  http://www.buzzsprout.com/7417/68737-generational-episode-013.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125782565%3Fsecret_token%3Ds-nYIcy&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
+summary: >
+  A group discussion with Federico Viticci
+  (MacStories), Myke Hurley (70Decibels),
+  TJ Luoma (TUAW) and Gabe (Macdrifter)
+  about the current state of accessing and
+  exploring music. We talk about streaming
+  music and compare the available options
+  with iTunes.
+soundcloudurl: 013-modern-musical-merry-men
+post_images: ""
+post_files: ""
 ---
 
 ## Show Notes ##

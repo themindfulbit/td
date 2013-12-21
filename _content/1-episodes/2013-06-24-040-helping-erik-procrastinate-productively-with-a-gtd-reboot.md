@@ -1,14 +1,27 @@
 ---
-number: '040'
-title: 'Helping Erik Procrastinate Productively with a GTD Reboot'
-showtype: [discussion]
-people: [Gabe Weatherhead, Erik Hess]
-topics: [GTD, productivity, OmniFocus, Reminders, Evernote]
+number: "040"
+title: >
+  Helping Erik Procrastinate Productively
+  with a GTD Reboot
+showtype: interview
+people:
+  - Gabe Weatherhead
+  - Erik Hess
+topics:
+  - GTD
+  - productivity
+  - OmniFocus
+  - Reminders
+  - Evernote
 banner: /assets/img/barrier.jpg
 caption: 'An F8F takes the barrier on USS Tarawa (CV-40) in 1948. [Flickr Commons](http://www.flickr.com/photos/sdasmarchives/6107244020/)'
-download: http://www.buzzsprout.com/7417/99593-040-helping-erik-procrastinate-productively-with-a-gtd-reboot.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/116840610"></iframe>'
-summary: 'It's all come crashing down in Erik's work life, so Gabe helps Erik rethink his system for Getting Things Done. Along the way, they share their different perspectives and talk about how they handle multiple family members and multiple areas of responsibility. Finally, Gabe and Erik dig into a few major apps, hierarchy, tags, start dates and all sorts of other fiddly productivity topics that are a whole lot more interesting than actual work.'
+download: >
+  http://www.buzzsprout.com/7417/99593-040-helping-erik-procrastinate-productively-with-a-gtd-reboot.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125807749&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
+summary: "It's all come crashing down in Erik's work life, so Gabe helps Erik rethink his system for Getting Things Done. Along the way, they share their different perspectives and talk about how they handle multiple family members and multiple areas of responsibility. Finally, Gabe and Erik dig into a few major apps, hierarchy, tags, start dates and all sorts of other fiddly productivity topics that are a whole lot more interesting than actual work."
+soundcloudurl: 040-helping-erik-procrastinate
+post_images: ""
+post_files: ""
 ---
 
 ## Show notes

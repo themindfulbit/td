@@ -1,14 +1,34 @@
 ---
-number: '039'
-title: 'Writing Technical eBooks with Brett Kelly'
-showtype: [interview]
-people: [Gabe Weatherhead, Erik Hess, Brett Kelly]
-topics: [evernote, ebooks, publishing]
+number: "039"
+title: >
+  Writing Technical eBooks with Brett
+  Kelly
+showtype: interview
+people:
+  - Gabe Weatherhead
+  - Erik Hess
+  - Brett Kelly
+topics:
+  - evernote
+  - ebooks
+  - publishing
 banner: /assets/img/technical.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/sdasmarchives/7585746234/)'
-download: http://www.buzzsprout.com/7417/98164-generational-episode-039.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117533073"></iframe>'
-summary: 'This week Brett Kelly from Nerdgap.com is back to talk about his process for writing a technical book. Brett created the Evernote Essentials guide in 3 months and he talks about what he learned from the process as well as what he’s continuing to learn as an independent publisher.'
+download: >
+  http://www.buzzsprout.com/7417/98164-generational-episode-039.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125807519%3Fsecret_token%3Ds-tubDE&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
+summary: >
+  This week Brett Kelly from Nerdgap.com
+  is back to talk about his process for
+  writing a technical book. Brett created
+  the Evernote Essentials guide in 3
+  months and he talks about what he
+  learned from the process as well as what
+  he’s continuing to learn as an
+  independent publisher.
+soundcloudurl: 039-writing-technical-ebooks
+post_images: ""
+post_files: ""
 ---
 
 ## Show Notes

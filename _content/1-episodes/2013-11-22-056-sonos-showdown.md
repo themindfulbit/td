@@ -1,15 +1,23 @@
 ---
-number: '056'
-title: 'Sonos Showdown'
-showtype: [discussion]
-people: [Gabe Weatherhead, Erik Hess]
-topics: [sonos, home audio, airplay]
+number: "056"
+title: Sonos Showdown
+showtype: interview
+people:
+  - Gabe Weatherhead
+  - Erik Hess
+topics:
+  - sonos
+  - home audio
+  - airplay
 banner: /assets/img/radio.jpg
 caption: 'Dr. Drang listening to Generational on an early wireless home audio system. [US National Archives](http://www.flickr.com/photos/usnationalarchives/5589767274/)'
-download: http://www.buzzsprout.com/7417/132277-056-sonos-showdown.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/121408824"></iframe>'
+download: >
+  http://www.buzzsprout.com/7417/132277-056-sonos-showdown.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125811815&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 soundcloudurl: 056-sonos-showdown
-summary: 'Erik and Gabe go toe-to-toe over the Sonos Wireless sound system. Erik thinks it's expensive but worth it. Gabe thinks it's expensive and worthless. Who wins? You judge.'
+summary: "Erik and Gabe go toe-to-toe over the Sonos Wireless sound system. Erik thinks it's expensive but worth it. Gabe thinks it's expensive and worthless. Who wins? You judge."
+post_images: ""
+post_files: ""
 ---
 
 ### Wireless Is a Bit Problematic ###
@@ -99,7 +107,7 @@ A few speakers from Erik's extensive Sonos collection. The Coke can is provided 
 
 Gabe only recently joined the Sonos party and he's still feeling a bit cold. Multiple problems have discouraged him and diminished his opinion of the Sonos speaker pairing and grouping options. He's also not particularly fond of the Sonos app that is *required* for streaming audio.
 
-<blockquote class="twitter-tweet" lang="en"><p>You people are super high. Sonos is the biggest piece or shit system. Constantly loses grouping. It also sounds like a boom box.</p>&mdash; macdrifter (@macdrifter) <a href="https://twitter.com/macdrifter/statuses/397835744573919233">November 5, 2013</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p>You people are super high. Sonos is the biggest piece or shit system. Constantly loses grouping. It also sounds like a boom box.</p>— macdrifter (@macdrifter) <a href="https://twitter.com/macdrifter/statuses/397835744573919233">November 5, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 * For Gabe, AirPlay has worked very well for podcasts and audiobooks
@@ -167,7 +175,7 @@ Gabe only recently joined the Sonos party and he's still feeling a bit cold. Mul
 * Good, but not exceptional from the smaller-sized speakers.
 * A pair of Play:1s may be a better choice than a Play:5, with the caveat that the Play:1 does not have an aux-in port
 
-<blockquote class="twitter-tweet" lang="en"><p>I’m a dummy. No Aux in on Sonos Play:1 means no airplay, means no deal. Back to Amazon.</p>&mdash; macdrifter (@macdrifter) <a href="https://twitter.com/macdrifter/statuses/392767352460550144">October 22, 2013</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p>I’m a dummy. No Aux in on Sonos Play:1 means no airplay, means no deal. Back to Amazon.</p>— macdrifter (@macdrifter) <a href="https://twitter.com/macdrifter/statuses/392767352460550144">October 22, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### Sonos Setup

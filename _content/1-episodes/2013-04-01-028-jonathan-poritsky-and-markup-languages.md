@@ -1,14 +1,32 @@
 ---
-number: '028'
-title: 'Jonathan Poritsky and Markup Languages'
-showtype: [interview]
-people: [Gabe Weatherhead, Erik Hess, Jonathan Poritsky]
-topics: [markup, fountain, screenplays, cinema, film]
+number: "028"
+title: Jonathan Poritsky and Markup Languages
+showtype: interview
+people:
+  - Gabe Weatherhead
+  - Erik Hess
+  - Jonathan Poritsky
+topics:
+  - markup
+  - fountain
+  - screenplays
+  - cinema
+  - film
 banner: /assets/img/camera.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/australian-war-memorial/3527157206/)'
-download: http://www.buzzsprout.com/7417/84475-generational-episode-028.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/117534511"></iframe>'
-summary: 'This week Gabe is joined by Jonathan Poritsky and the new Generational co-host Erik Hess. Together they discuss using Fountain to write screenplays with plain-text markup and explore the foundations of CriticMarkup.'
+download: >
+  http://www.buzzsprout.com/7417/84475-generational-episode-028.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125801561%3Fsecret_token%3Ds-NzrSG&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
+summary: >
+  This week Gabe is joined by Jonathan
+  Poritsky and the new Generational
+  co-host Erik Hess. Together they discuss
+  using Fountain to write screenplays with
+  plain-text markup and explore the
+  foundations of CriticMarkup.
+soundcloudurl: 028-jonathan-poritsky-and
+post_images: ""
+post_files: ""
 ---
 
 ## Show Notes

@@ -1,15 +1,28 @@
 ---
-number: '055'
-title: 'Ethernetworking'
-showtype: [discussion]
-people: [Gabe Weatherhead, Erik Hess]
-topics: [ethernet, home improvement, networking, wiring]
+number: "055"
+title: Ethernetworking
+showtype: interview
+people:
+  - Gabe Weatherhead
+  - Erik Hess
+topics:
+  - ethernet
+  - home improvement
+  - networking
+  - wiring
 banner: /assets/img/spool.jpg
 caption: '[US Library of Congress](http://www.flickr.com/photos/library_of_congress/2179848724/)'
-download: http://www.buzzsprout.com/7417/130476-055-ethernetworking.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/120276995"></iframe>'
+download: >
+  http://www.buzzsprout.com/7417/130476-055-ethernetworking.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125811692%3Fsecret_token%3Ds-nIsQr&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 soundcloudurl: 055-ethernetworking
-summary: 'Gabe and Erik take a hard look at what it takes to wire your house for ethernet, from the why, to the how, to the how much.'
+summary: >
+  Gabe and Erik take a hard look at what
+  it takes to wire your house for
+  ethernet, from the why, to the how, to
+  the how much.
+post_images: ""
+post_files: ""
 ---
 
 > #### Producer's Note
