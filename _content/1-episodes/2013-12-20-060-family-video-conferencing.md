@@ -14,7 +14,7 @@ banner: /assets/img/family.jpg
 caption: '[Library of Congress](http://www.flickr.com/photos/8623220@N02/2179146618/in/photolist-4jyGnq-55ArW4-5eKzgh-5QyVVN-5S5RC3-5S6h1L-5S6jAG-5S7VfW-5S87Kq-5S8enU-5ScMsn-5SnYX7-5U6sJb-5WXi5P-628Ywz-6YL9vy-7eU3qV-7h3Y9v-7mfWkS-7mJ7LW-7vtnBF-7vxbH1-buvjtp-81hBPV-7Nprbb-7JDc7h-7Jxe57-d2yDwC-gFp5UU-9Pye5Q-9oVDPg-a7wKnH-92q2N9-92q2P9-8Zzt16-8ZCy4Q-8ZCy5s-8ZCy5S-8ZCy59-92q2LQ-9CtVhz-bucRsX-bucVr2-7Nksat-7WN49i-7NkraK-9RRYVk-btzAo9-eXCwH1-8cGCZt-7JDbKh)'
 download: >
   http://www.buzzsprout.com/7417/138072-060-family-videoconferencing.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125812266%3Fsecret_token%3Ds-r2Gyw&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125812266%3Fsecret_token%3Ds-r2Gyw&color=ff6600&auto_play=false&show_artwork=true"></iframe>'
 soundcloudurl: 060-family-videoconferencing
 summary: >
   Gabe and Erik talk about all the fun
@@ -44,7 +44,7 @@ FaceTime has likely made video conferencing as easy as it can be, but that doesn
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="1:33" person="erik" quote="Grandma sometimes doesn't have her iPhone connected to her wifi" }}
 
-* iChat was the way many of us first got the family connected, and though it did fail in weird ways due to its [polyglot](http://term.ly/polyglot) tendencies, the transition to FaceTime saw the loss of some unique features such as [multiparty video]() and [iChat Theater]()
+* iChat was the way many of us first got the family connected, and though it did fail in weird ways due to its [polyglot](http://term.ly/polyglot) tendencies, the transition to FaceTime saw the loss of some unique features such as [multiparty video]() and [iChat Theater](https://tidbits.com/article/9468)
 * If your video conference list consists only of people in the Apple ecosystem, it's a [no-brainer](http://www.youtube.com/watch?v=A9kvT1zhP)
 
 > {{ theme:partial src="aside-header" voice="gabe" text="FaceTime" }}
@@ -100,7 +100,7 @@ Gabe and Erik discuss the popular alternative to use when you don't have all-App
 <blockquote class="twitter-tweet" lang="en"><p>My Skype life with <a href="https://twitter.com/reneritchie">@reneritchie</a> <a href="http://t.co/XnlDqhqF3g">pic.twitter.com/XnlDqhqF3g</a></p>— Derek Kessler (@dkdsgn) <a href="https://twitter.com/dkdsgn/statuses/387225914708209664">October 7, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-* Beyond podcasters, many people use Skype to replace their phone in some situations. Erik said that he uses it as a work phone, and you [Skype](http://www.oxforddictionaries.com/us/definition/american_english/Skype) to a regular phone number for a [modest fee](http://www.skype.com/en/rates/). Skype is ubiquitous in many countries where Apple isn't, so it can be a good way to connect to international friends and family. 
+* Beyond podcasters, many people use Skype to replace their phone in some situations. Erik said that he uses it as a work phone, and you can [Skype](http://www.oxforddictionaries.com/us/definition/american_english/Skype) to a regular phone number for a [modest fee](http://www.skype.com/en/rates/). Skype is ubiquitous in many countries where Apple isn't, so it can be a good way to connect to international friends and family. 
 * The main drawback to Skype on mobile is that it can take a long time to activate the app in order to receive the call, and it is easy to miss the notification that you have an incoming call.
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="11:50" person="gabe" quote="Let's change the subject" }}
@@ -119,7 +119,7 @@ Erik and Gabe close out the big three with Google Hangouts.
 > 
 > There is another Hangouts page [here](http://www.google.com/hangouts/). I almost didn't make it out of there alive.
 
-* Hangouts relies on a [Google+](https://plus.google.com/) account and its organiztion is built around [Circles](https://www.google.com/+/learnmore/circles/). In other words, it can be a challenge setting up a Hangout with anyeone who gives you a blank stare when you use "Google" and "Hangout" in the same sentence.
+* Hangouts relies on a [Google+](https://plus.google.com/) account and its organization is built around [Circles](https://www.google.com/+/learnmore/circles/). In other words, it can be a challenge setting up a Hangout with anyeone who gives you a blank stare when you use "Google" and "Hangout" in the same sentence.
  
 ### Video chat as a medium
 
@@ -131,11 +131,11 @@ Now that we can video conference, do we even want to? For many of us growing up,
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="15:33" person="gabe" quote="This was back when you had a cord on your phone" }}
 
-* Whether it's stalled technological advancement or an simply over-estimating the demand for video conferencing, the younger generation seems to be more interested in "older" [ways](en.wikipedia.org/wiki/ICQ) to [chat](en.wikipedia.org/wiki/Instant_messaging‎), made [new](http://line.me/en/) with features like [stickers](http://campaign.naver.com/linesticker/en). [Smart people](https://twitter.com/monkbent) are [keeping an eye on this](http://stratechery.com/2013/instagram-direct-twitter-dms-socialcommunications-map/).
+* Whether it's stalled technological advancement or an simply over-estimating the demand for video conferencing, the younger generation seems to be more interested in "older" [ways](http://en.wikipedia.org/wiki/ICQ) to [chat](http://en.wikipedia.org/wiki/Instant_messaging‎), made [new](http://line.me/en/) with features like [stickers](http://campaign.naver.com/linesticker/en). [Smart people](https://twitter.com/monkbent) are [keeping an eye on this](http://stratechery.com/2013/instagram-direct-twitter-dms-socialcommunications-map/).
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="The Great Emojification" }}
 >
-> The shift in ideal conversation from moving pictures on a screen to text-based threads littered with [jargon]() and [emoji](http://sheet.shiar.nl/emoji) actually seems to follow the [set of rules](http://www.goodreads.com/quotes/39828-i-ve-come-up-with-a-set-of-rules-that-describe) coined by a [great thinker](http://en.wikipedia.org/wiki/Douglas_Adams‎), which in this case means that there is nothing exciting about video chat – I've seen all that before. Now, if you can pepper your prose with [hearts](http://www.iemoji.com/view/emoji/40/smileys/red-heart) and [anthropomorphized feces](http://www.iemoji.com/view/emoji/55/smileys/dog-dirt), you're really in the future.
+> The shift in ideal conversation from moving pictures on a screen to text-based threads littered with [jargon](http://www.netlingo.com/acronyms.php) and [emoji](http://sheet.shiar.nl/emoji) actually seems to follow the [set of rules](http://www.goodreads.com/quotes/39828-i-ve-come-up-with-a-set-of-rules-that-describe) coined by a [great thinker](http://en.wikipedia.org/wiki/Douglas_Adams‎), which in this case means that there is nothing exciting about video chat – I've seen all that before. Now, if you can pepper your prose with [hearts](http://www.iemoji.com/view/emoji/40/smileys/red-heart) and [anthropomorphized feces](http://www.iemoji.com/view/emoji/55/smileys/dog-dirt), you're really in the future.
 >
 > Hashtag winky face
 
@@ -154,12 +154,10 @@ Whether video conferencing is futuristic or not, it's a great way to share your 
 
 {{ theme:partial src="image" show="{{ number }}" title="State of the Art" file="webcam.jpg" }}
 
-* Other than cobbling together a solution of your own, or purchasing an [Xbox One](www.microsoftstore.com/Xbox-One) and using the [Kinect](http://en.wikipedia.org/wiki/Kinect#Kinect_for_Xbox_One) with [built-in](http://support.xbox.com/en-US/xbox-one/apps/skype-faq) [Skype](http://blogs.skype.com/2013/11/26/the-road-to-skype-for-xbox-one/), you are forced to wait for the [certain](https://www.google.com/search?q=gene+munster+apple+tv) Apple television with built-in FaceTime Camera.
+* Other than cobbling together a solution of your own, or purchasing an [Xbox One](http://www.microsoftstore.com/Xbox-One) and using the [Kinect](http://en.wikipedia.org/wiki/Kinect#Kinect_for_Xbox_One) with [built-in](http://support.xbox.com/en-US/xbox-one/apps/skype-faq) [Skype](http://blogs.skype.com/2013/11/26/the-road-to-skype-for-xbox-one/), you are forced to wait for the [certain](https://www.google.com/search?q=gene+munster+apple+tv) Apple television with built-in FaceTime Camera.
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="25:33" person="gabe" quote="I'm not talking to you about this" }}
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Until next week" }}
 >
 > Well, that's all for this week. If you have anything that you'd like to add to or correct in the show notes you can find me on Twitter [@potatowire](http://twitter.com/potatowire/) or feel free to send an email to [me@potatowire.com](mailto:me@potatowire.com).
-
-[Download](assets/files/060/Family-Videoconferencing.itmz) Gabe's iThoughts mind map on this week's topic.
