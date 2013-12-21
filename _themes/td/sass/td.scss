@@ -1369,14 +1369,14 @@ body {
 
   body .content .pagination {
 
-    .previous {
+    .previous,
+    .filler {
       @include column(3,12);
       @include push(1);
       padding: 0.5em;
     }
 
-    .next,
-    .filler {
+    .next {
       @include column(3,12);
       padding: 0.5em;
     }
