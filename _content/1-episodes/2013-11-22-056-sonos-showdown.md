@@ -13,7 +13,7 @@ banner: /assets/img/radio.jpg
 caption: 'Dr. Drang listening to Generational on an early wireless home audio system. [US National Archives](http://www.flickr.com/photos/usnationalarchives/5589767274/)'
 download: >
   http://www.buzzsprout.com/7417/132277-056-sonos-showdown.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125811815&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125811815&color=ff6600&auto_play=false&show_artwork=true"></iframe>'
 soundcloudurl: 056-sonos-showdown
 summary: "Erik and Gabe go toe-to-toe over the Sonos Wireless sound system. Erik thinks it's expensive but worth it. Gabe thinks it's expensive and worthless. Who wins? You judge."
 post_images: ""
@@ -228,7 +228,6 @@ Gabe only recently joined the Sonos party and he's still feeling a bit cold. Mul
 * Final result is a tentative thumbs up from the Weatherhead house
 
 > #### Producer's Note
-> Well, that's all for this week. If you have anything that you'd like to add to or correct in the show notes you can find me on Twitter [@potatowire](http://twitter.com/potatowire/) or feel free to send an email to [me@potatowire.com](mailto:me@potatowire.com)
+> Well, that's all for this week. If you have anything that you'd like to add to or correct in the show notes you can find me on Twitter [@potatowire](http://twitter.com/potatowire/) or feel free to send an email to me at potatowire dot com.
 
 [Download](http://technicaldifficulties.us/assets/files/055/Sonos.itmz) Gabe's iThoughts mind map on this week's topic.
-

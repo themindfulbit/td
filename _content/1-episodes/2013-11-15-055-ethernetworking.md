@@ -14,7 +14,7 @@ banner: /assets/img/spool.jpg
 caption: '[US Library of Congress](http://www.flickr.com/photos/library_of_congress/2179848724/)'
 download: >
   http://www.buzzsprout.com/7417/130476-055-ethernetworking.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125811692%3Fsecret_token%3Ds-nIsQr&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125811692%3Fsecret_token%3Ds-nIsQr&color=ff6600&auto_play=false&show_artwork=true"></iframe>'
 soundcloudurl: 055-ethernetworking
 summary: >
   Gabe and Erik take a hard look at what
@@ -140,6 +140,7 @@ post_files: ""
 * [Synology Link Aggregation](http://www.synology.com/support/tutorials_show.php?lang=us&q_id=525) 
 * [This](http://www.amazon.com/gp/product/B004GHMU5G/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B004GHMU5G&linkCode=as2&tag=potatowirecom-20) is the beauty of a switch that Gabe is currently using.
 
+<a name="switches"></a> 
 > #### Switches vs. Routers
 > This is more complicated than I will explain it here, but a [network switch](http://en.wikipedia.org/wiki/Network_switch) essentially provides a means for any connected device to talk to another. The devices themselves can address their messages, however, and the switch will only deliver it to the intended recipient in that case. This distinguishes it from a hub, which is more of a broadcasting mindset. The main difference between a [router](http://en.wikipedia.org/wiki/Network_router) and a switch, is that in addition to addressing functions, router connects a [local area network](http://en.wikipedia.org/wiki/Local_area_network) to a [wide area network](http://en.wikipedia.org/wiki/Wide_area_network).
 
@@ -185,11 +186,10 @@ post_files: ""
 *  Some other detail can be found here on the [Ars forum](http://arstechnica.com/civis/viewtopic.php?p=25543691#p25543691)--Beware, here be tcpdumps....
 
 > #### Producer's Note
-> Well, that's all for this week. If you have anything that you'd like to add to or correct in the show notes you can find me on Twitter [@potatowire](http://twitter.com/potatowire/) or feel free to send an email to [me@potatowire.com](mailto:me@potatowire.com)
+> Well, that's all for this week. If you have anything that you'd like to add to or correct in the show notes you can find me on Twitter [@potatowire](http://twitter.com/potatowire/) or feel free to send an email to me at potatowire dot com.
 
 Download Gabe's mind map on this week's topic:
 
 * [iThoughts](http://technicaldifficulties.us/assets/files/055/networking.itmz)
 * [OPML](http://technicaldifficulties.us/assets/files/055/networking.opml)
-
 

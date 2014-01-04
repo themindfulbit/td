@@ -17,7 +17,7 @@ caption: |
   ["I'll start all over again tomorrow"](http://query.nytimes.com/mem/archive-free/pdf?res=F40614FF3F5C13738DDDA90994DA415B848DF1D3) [Library of Congress](http://www.flickr.com/photos/library_of_congress/6559347383/)
 download: >
   http://www.buzzsprout.com/7417/133581-057-reinventing-yourself-with-merlin-mann.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125811988%3Fsecret_token%3Ds-Bjenw&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125811988%3Fsecret_token%3Ds-Bjenw&color=ff6600&auto_play=false&show_artwork=true"></iframe>'
 soundcloudurl: 057-reinventing-yourself-with
 summary: >
   Gabe and Erik are joined by Merlin Mann
@@ -242,8 +242,7 @@ Merlin ponders how we change, what our personal [admixture](http://term.ly/admix
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Producer's Note" }}
 > 
-> Well, that's all for this week. If you have anything that you'd like to add to or correct in the show notes you can find me on Twitter [@potatowire](http://twitter.com/potatowire/) or feel free to send an email to [me@potatowire.com](mailto:me@potatowire.com)
+> Well, that's all for this week. If you have anything that you'd like to add to or correct in the show notes you can find me on Twitter [@potatowire](http://twitter.com/potatowire/) or feel free to send an email to me at potatowire dot com.
 
 [Download](http://technicaldifficulties.us/assets/files/057/Reinventing.itmz) Gabe's iThoughts mind map on this week's topic.
-
 
