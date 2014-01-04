@@ -421,9 +421,21 @@ body {
               background-image: url(../img/erik-avatar.png);
             }
 
+            &.bradley {
+              background-image: url(../img/bradley-avatar.png);
+            }
+
+            &.korzdorfer {
+              background-image: url(../img/korzdorfer-avatar.png);
+            }
+
             &.zpq {
               background-image: url(../img/zpq-avatar.jpg);
             }
+          }
+
+          ul ul {
+            padding-left: 0.5em !important;
           }
         }
 
