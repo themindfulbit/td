@@ -26,10 +26,19 @@
   </tr>
 </table>
 {{ elseif person == "bradley" }}
-<table class="fancy-quote merlin">
+<table class="fancy-quote bradley">
   <tr>
     <td class="avatar">
       <img src="{{ _site_url }}assets/img/bradley-avatar.png" />
+    </td>
+    <td class="quote"><a href="https://soundcloud.com/techdiffpodcast/{{ url }}#t={{ time }}">&ldquo;{{ quote|widont|smartypants }}&rdquo;</a></td>
+  </tr>
+</table>
+{{ elseif person == "mailmate" }}
+<table class="fancy-quote mailmate">
+  <tr>
+    <td class="avatar">
+      <img src="{{ _site_url }}assets/img/mailmate-avatar.png" />
     </td>
     <td class="quote"><a href="https://soundcloud.com/techdiffpodcast/{{ url }}#t={{ time }}">&ldquo;{{ quote|widont|smartypants }}&rdquo;</a></td>
   </tr>
