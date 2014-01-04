@@ -14,7 +14,7 @@ banner: /assets/img/presents.jpg
 caption: '[George Eastman House](http://www.flickr.com/photos/george_eastman_house/3122865907/sizes/o/)'
 download: >
   http://www.buzzsprout.com/7417/136809-059-ios-for-others.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125812166&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125812166&color=ff6600&auto_play=false&show_artwork=true"></iframe>'
 soundcloudurl: 059-ios-for-others
 summary: >
   Gabe and Erik take a look at what it
@@ -208,7 +208,6 @@ Here are a couple of quick lists of apps and settings you may want to configure 
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Until next week" }}
 >
-> Well, that's all for this week. If you have anything that you'd like to add to or correct in the show notes you can find me on Twitter [@potatowire](http://twitter.com/potatowire/) or feel free to send an email to [me@potatowire.com](mailto:me@potatowire.com).
+> Well, that's all for this week. If you have anything that you'd like to add to or correct in the show notes you can find me on Twitter [@potatowire](http://twitter.com/potatowire/) or feel free to send an email to me at potatowire dot com.
 
 [Download](assets/files/059/iOS_Setup.itmz) Gabe's iThoughts mind map on this week's topic.
-

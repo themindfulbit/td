@@ -44,7 +44,7 @@ FaceTime has likely made video conferencing as easy as it can be, but that doesn
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="1:33" person="erik" quote="Grandma sometimes doesn't have her iPhone connected to her wifi" }}
 
-* iChat was the way many of us first got the family connected, and though it did fail in weird ways due to its [polyglot](http://term.ly/polyglot) tendencies, the transition to FaceTime saw the loss of some unique features such as [multiparty video]() and [iChat Theater](https://tidbits.com/article/9468)
+* iChat was the way many of us first got the family connected, and though it did fail in weird ways due to its [polyglot](http://term.ly/polyglot) tendencies, the transition to FaceTime saw the loss of some unique features such as [multiparty video](http://www.macworld.com/article/1044544/tigerichatav3.html) and [iChat Theater](https://tidbits.com/article/9468)
 * If your video conference list consists only of people in the Apple ecosystem, it's a [no-brainer](http://www.youtube.com/watch?v=A9kvT1zhP)
 
 > {{ theme:partial src="aside-header" voice="gabe" text="FaceTime" }}
@@ -81,6 +81,7 @@ Gabe and Erik discuss the popular alternative to use when you don't have all-App
 * There's a lot to like about Skype with its support for [virtually all conceivable platforms](http://www.skype.com/en/download-skype/skype-for-linux/‎), along with audio, video, and text protocols. It even has easy [file sharing](http://www.skype.com/en/features/send-files/) and [screen sharing](https://support.skype.com/en/faq/FA10022/how-do-i-share-my-screen-in-skype-for-mac-os-x). 
 * What Skype does lack (recently) is consistent quality, fit and finish. Skype causes podcasters endless anguish, but nearly all of them use it because there isn't anything better.
 
+<a name="skype"></a> 
 <blockquote class="twitter-tweet" lang="en"><p>I updated Skype. That cool?
 <a href="https://twitter.com/search?q=%23FiveWordPodcastHorrors&src=hash">#FiveWordPodcastHorrors</a></p>— Santa J Clark (@andrewjclark) <a href="https://twitter.com/andrewjclark/statuses/410701258131906560">December 11, 2013</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -160,4 +161,4 @@ Whether video conferencing is futuristic or not, it's a great way to share your 
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Until next week" }}
 >
-> Well, that's all for this week. If you have anything that you'd like to add to or correct in the show notes you can find me on Twitter [@potatowire](http://twitter.com/potatowire/) or feel free to send an email to [me@potatowire.com](mailto:me@potatowire.com).
+> Well, that's all for this week. If you have anything that you'd like to add to or correct in the show notes you can find me on Twitter [@potatowire](http://twitter.com/potatowire/) or feel free to send an email to me at potatowire dot com.
