@@ -402,7 +402,7 @@ body {
           border-radius: 0.5em;
           padding: 1em 1em 0.5em;
           font-size: 0.9em;
-          margin: 1em 0 1em 0;
+          margin: 1em 0 2em 0;
           
           h4 {
             background-image: url(../img/potatowire.png);
@@ -434,13 +434,23 @@ body {
             }
           }
 
+          ul {
+            margin-top: 0 !important;
+          }
+
           ul ul {
             padding-left: 0.5em !important;
           }
         }
 
         hr {
-          @include column(12,12);
+          @include column(10,12);
+          @include push(1,12);
+          border: 0;
+          color: $light-gray;
+          background-color: $light-gray;
+          height: 1px;
+          margin-bottom: 1.5em;
         }
 
         table {
@@ -500,7 +510,7 @@ body {
           padding: 0;
           list-style-type: none;
           font-size: 1em;
-          margin-top: 1em;
+          margin-top: 0em;
           margin-bottom: 1em;
 
           li {

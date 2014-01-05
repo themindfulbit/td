@@ -84,6 +84,25 @@ A [network hub](http://en.wikipedia.org/wiki/Ethernet_hub) is really just a dumb
 >
 > Congestion and interference aren't the only reasons that 5 GHz is faster though. Since the 2.4 and 5 band represent the frequency of the [carrier wave](http://en.wikipedia.org/wiki/Carrier_signal) that the WiFi router is using to transmit its information, all else being equal, moving to the higher frequency band would carry information slightly more than twice as fast.
 > 
+> ***
+>
+> ##### Correction
+>
+> Shortly after going live with this episode, an error in this last paragraph was pointed out by [Allen MacKenzie](https://twitter.com/mackenab):
+>
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/macdrifter">@macdrifter</a> Same bandwidth with same noise/interference has same capacity, regardless of carrier frequency.</p>&mdash; Allen B. MacKenzie (@mackenab) <a href="https://twitter.com/mackenab/statuses/419628314593353728">January 5, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+> 
+> Essentially, the question of speed boils down to how much information can be transmitted and received in a given period of time. Because these waves travel at the speed of light, the only way to convey more information per unit of time is to code more information into the carrier signal. 
+>
+> The informational capacity of a wave is defined by the [bandwidth](http://en.wikipedia.org/wiki/Bandwidth_\(signal_processing\)) which is defined in this context as the difference between the higher and lower frequencies in a given set of frequencies. The set of frequencies in this case corresponds to a WiFi channel, and since both the 2.4 GHz and 5 GHz bands have channels that are 5 MHz wide, they have the same "storage capacity." 
+>
+> That being said, modern equipment can pair multiple channels together, thereby increasing the available bandwidth and providing a speed benefit. These wider channels are more prone to interference, however, because there are more frequencies that can be affected. As discussed above, the 5 GHz band is less prone to interference and is therefore more able to support wider channels. 
+>
+> So... the 5 GHz band is faster. Easy, right?
+> 
+> ***
+> 
 > One trade-off with a higher frequency signal is range. I am unqualified to talk about the physics involved here, but all waves are [attenuated](http://en.wikipedia.org/wiki/Attenuation) as they travel through a medium, but lower frequency waves can travel further before they are attenuated to an unusable level. 
 >
 > An illustration of an extreme extension of this principle in action is the [communication with submarines](http://en.wikipedia.org/wiki/Communication_with_submarines) using [extremely low frequency](http://en.wikipedia.org/wiki/Extremely_low_frequency) waves, often using frequencies as low as 3 Hz which penetrate seawater to a submarine's operating depths.  You may want to use 2.4 GHz, even with all of its negatives, in an old house with [lath-and-plaster](http://en.wikipedia.org/wiki/Lath_and_plaster) walls, in order to get sufficient range. As Gabe notes, old houses can also resist Cat-6 cable installation in many creative ways. 
@@ -110,7 +129,7 @@ Bradley [has provided](http://chambersdaily.com/bradleychambers/2013/7/25/80211a
 
 If you want to do it all with one router, you can go the route Gabe did and [leave the walled garden](http://thewirecutter.com/reviews/best-wi-fi-router-asus-rt-n66u/), which will allow you to buy [huge antennas](http://www.amazon.com/gp/product/B00DMJI9TA/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B00DMJI9TA) if you need more range.
 
-> {{ theme:partial src="aside-header" voice="potatowire" text="Wirecutter says "Wait" }}
+> {{ theme:partial src="aside-header" voice="potatowire" text="Wirecutter says &ldquo;Wait&rdquo;" }}
 > 
 > The Wirecutter has their ["Best Wifi Router"](http://thewirecutter.com/reviews/best-wi-fi-router-asus-rt-n66u/) – currently Gabe's Asus RT-N66u – in its "Wait!" status due to current versions all being 802.11AC. As discussed in this show, there is not currently an obvious need to go AC, but if you are at all concerned about being future-proof (for a bit longer, at least), then it might be good to wait, if you are happy with your current setup.
 >
