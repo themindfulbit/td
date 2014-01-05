@@ -1,5 +1,5 @@
 ---
-banner: "/assets/img/power-banner.jpg"
+banner: /assets/img/power-banner.jpg
 title: Drunk With Power
 number: "062"
 showtype: discussion
@@ -10,11 +10,16 @@ topics:
   - Power Management
   - Power Strips
   - Surge Protectors
-caption: "[Library of Congress](http://www.flickr.com/photos/library_of_congress/2179851346/)"
-download: ""
-player: ""
-soundcloudurl: ""
-summary: "Struggling with unreliable power at home and on the road, Gabe and Erik talk about how they make sure their gadgets stay running."
+caption: '[Library of Congress](http://www.flickr.com/photos/library_of_congress/2179851346/)'
+download: >
+  http://www.buzzsprout.com/7417/140620-062-drunk-with-power.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/127920253%3Fsecret_token%3Ds-LXJpf&color=ff6600&auto_play=false&show_artwork=true"></iframe>'
+soundcloudurl: 062-drunk-with-power
+summary: >
+  Struggling with unreliable power at home
+  and on the road, Gabe and Erik talk
+  about how they make sure their gadgets
+  stay running.
 post_images: ""
 post_files: ""
 ---
