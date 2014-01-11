@@ -80,7 +80,7 @@ A [network hub](http://en.wikipedia.org/wiki/Ethernet_hub) is really just a dumb
 > {{ theme:partial src="image" show="{{ number }}" title="WLAN Channel Overlap" file="overlap.png" }}
 >
 > 
->  To beat up my metaphor a bit more, 5 GHz has more lanes.  Also, note that a [channel](http://en.wikipedia.org/wiki/List_of_WLAN_channels) just refers to a small, 5 MHz  segment of its respective band. Its easier than saying your WiFi router is on channel 11 rather than 2.462 GHz.
+>  To beat up my metaphor a bit more, 5 GHz has more lanes.  Also, note that a [channel](http://en.wikipedia.org/wiki/List_of_WLAN_channels) just refers to a small, 5 MHz  segment of its respective band. It is much easier to say your WiFi router is on channel 11 rather than 2.462 GHz, and defining the segments in this way improves interoperability.
 >
 > Congestion and interference aren't the only reasons that 5 GHz is faster though. Since the 2.4 and 5 band represent the frequency of the [carrier wave](http://en.wikipedia.org/wiki/Carrier_signal) that the WiFi router is using to transmit its information, all else being equal, moving to the higher frequency band would carry information slightly more than twice as fast.
 > 
@@ -90,7 +90,7 @@ A [network hub](http://en.wikipedia.org/wiki/Ethernet_hub) is really just a dumb
 >
 > Shortly after going live with this episode, an error in this last paragraph was pointed out by [Allen MacKenzie](https://twitter.com/mackenab):
 >
-<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/macdrifter">@macdrifter</a> Same bandwidth with same noise/interference has same capacity, regardless of carrier frequency.</p>&mdash; Allen B. MacKenzie (@mackenab) <a href="https://twitter.com/mackenab/statuses/419628314593353728">January 5, 2014</a></blockquote>
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/macdrifter">@macdrifter</a> Same bandwidth with same noise/interference has same capacity, regardless of carrier frequency.</p>— Allen B. MacKenzie (@mackenab) <a href="https://twitter.com/mackenab/statuses/419628314593353728">January 5, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 > 
 > Essentially, the question of speed boils down to how much information can be transmitted and received in a given period of time. Because these waves travel at the speed of light, the only way to convey more information per unit of time is to code more information into the carrier signal. 
@@ -129,7 +129,7 @@ Bradley [has provided](http://chambersdaily.com/bradleychambers/2013/7/25/80211a
 
 If you want to do it all with one router, you can go the route Gabe did and [leave the walled garden](http://thewirecutter.com/reviews/best-wi-fi-router-asus-rt-n66u/), which will allow you to buy [huge antennas](http://www.amazon.com/gp/product/B00DMJI9TA/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B00DMJI9TA) if you need more range.
 
-> {{ theme:partial src="aside-header" voice="potatowire" text="Wirecutter says &ldquo;Wait&rdquo;" }}
+> {{ theme:partial src="aside-header" voice="potatowire" text="Wirecutter says “Wait”" }}
 > 
 > The Wirecutter has their ["Best Wifi Router"](http://thewirecutter.com/reviews/best-wi-fi-router-asus-rt-n66u/) – currently Gabe's Asus RT-N66u – in its "Wait!" status due to current versions all being 802.11AC. As discussed in this show, there is not currently an obvious need to go AC, but if you are at all concerned about being future-proof (for a bit longer, at least), then it might be good to wait, if you are happy with your current setup.
 >
