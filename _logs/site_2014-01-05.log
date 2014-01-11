@@ -158,3 +158,4 @@ Stack trace:
 #14 /Users/erik/Dropbox/dev/td/index.php(65): Slim\Slim->run()
 #15 {main}
 ERROR|Sun, 05 Jan 2014 09:06:44 -0500|page|content|/episodes/%7B%7B%20path%20src='%7B%7B%20banner%20%7D%7D'%20%7D%7D|::1|dev|404 - Page not found. There is a bad link on <a href="/episodes/061-taming-wifi-with-bradley-chambers">/episodes/061-taming-wifi-with-bradley-chambers</a>.
+FATAL|Sun, 05 Jan 2014 13:39:38 -0500|template||/|75.141.204.143||Can't find the specified theme
