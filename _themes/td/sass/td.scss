@@ -555,6 +555,7 @@ body {
             @include column(12,12);
             padding: 0.2em 0 0 1.2em;
             text-indent: -1em;
+            display: list-item;
 
             a,
             a:visited,
@@ -696,15 +697,17 @@ body {
         p code,
         li code {
           padding: 0.3em 1.5em;
-          background: $lightest-gray;  
-          border-radius: 0.5em;
-          border: 1px solid $light-gray;
-          overflow-x: auto;
         }
 
         p code,
         li code {
-          padding: 0.2em 0.3em;
+          padding: 0.2em 0.5em;
+        }
+
+        p code {
+          background: $lightest-gray;  
+          border-radius: 0.5em;
+          border: 1px solid $light-gray;
         }
 
         pre {
@@ -712,6 +715,48 @@ body {
           padding: 0;
           margin-top: 1.5em;
           margin-bottom: 1.5em;
+          background: $lightest-gray;  
+          border-radius: 0.5em;
+          border: 1px solid $light-gray;
+          overflow-x: auto;
+
+          ol.linenums {
+            margin: 0;
+            padding-left: 3em;
+            list-style-type: decimal !important; 
+
+            li {
+              text-indent: 0;
+              border-left: 1px solid $light-gray;
+              text-shadow: 0 1px 0 #fff;
+              font-size: 0.7em;
+
+              code {
+                font-size: 1em;
+              }
+            }
+          }
+
+          li.L0,
+          li.L1,
+          li.L2,
+          li.L3,
+          li.L4,
+          li.L5,
+          li.L6,
+          li.L7,
+          li.L8,
+          li.L9 {
+            list-style-type: decimal !important;
+          }
+
+          li.L1,
+          li.L3,
+          li.L5,
+          li.L7,
+          li.L9 {
+            background-color: #e6e6e6;
+          }
         }
 
         abbr {

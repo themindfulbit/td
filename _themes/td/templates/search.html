@@ -36,7 +36,7 @@ $(document).ready(function(){
           <li id="ep-list" class="active">List</li>
         </ul>
         <ul class="list text-list">
-          {{ entries:listing folder="episodes" }}
+          {{ entries:listing folder="episodes" show_future="{ future }" }}
             <li>
               <a class="permalink" href="{{ url }}">
                 {{ theme:partial src="transform" title="" file="{{ banner }}" }}
