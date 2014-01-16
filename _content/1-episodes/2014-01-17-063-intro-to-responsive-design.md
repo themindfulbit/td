@@ -72,6 +72,7 @@ The alternative is to adapt your layout so that it responds properly to the size
 I've created a simple responsive website as part of this tutorial. You can find the source code for the tutorial as well as for the Technical Difficulties site itself on [Github](https://github.com/).
 
 * [Tutorial Source Code](https://github.com/themindfulbit/responsive)
+* [Tutorial Live Demo Site](http://responsive.technicaldifficulties.us)
 * [Technical Difficulties Source Code](https://github.com/themindfulbit/td)
 * [The Mindful Bit Source Code](https://github.com/themindfulbit/tmb)
 
