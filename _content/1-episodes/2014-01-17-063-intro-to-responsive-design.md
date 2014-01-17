@@ -9,7 +9,7 @@ caption: '[Het Nieuwe Instituut](http://www.flickr.com/photos/nai_collection/815
 download: 'http://www.buzzsprout.com/7417/143046-063-intro-to-responsive-web-design.mp3'
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/129636942%3Fsecret_token%3Ds-8QbCc&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 soundcloudurl: '063-intro-to-responsive-web'
-summary: 'This week's topic is responsive web design. What is it, and how is it done? Erik steers clear of the controversies surrounding the issue and talks about what it actually takes to make your site work on a wide range of screen sizes.'
+summary: 'This week's topic is responsive web design, both what it is, and how it's done. Erik steers clear of the controversies surrounding the issue and talks about what it actually takes to make your site work on a wide range of screen sizes.'
 ---
 
 ### Introducing Responsive Web Design
@@ -29,18 +29,18 @@ For a live example of responsive design, load up any of these sites on a desktop
 * [The Mindful Bit](http://themindfulbit.com)
 * [NerdQuery](http://nerdquery.com)
 
-Drag the window's edge until it's as narrow as you can make it, then expand it slowly and watch as the elements and font sizes grow and respond to the changing width of the browser. All these sites use the tools and techniques we discuss here.
+Drag the window's edge until it's as narrow as you can make it, then expand it slowly and watch as the page elements and fonts grow and respond to the changing width of the browser. All these sites use the exact same tools and techniques we discuss here.
 
 #### Who is this for?
 
-By necessity, this is a more technical topic than we've discussed on this show before. Still, we believe it's one that's relevant to a large number of our listeners, many of whom have personal blogs or reference sites.
+By necessity, this is a more technical topic than we've discussed on the show before. Still, we believe it's one that's relevant to a large number of our listeners, many of whom have personal blogs or reference sites.
 
 To get the most out of this tutorial, you will probably need to be comfortable with a few things first:
 
 * Simple HTML/CSS
 * Basic web design principles
 * Running a given command in the terminal
-* Text editing, using whatever raw text editor you prefer
+* Text editing, using whatever plain-text editor you prefer
 * Running a web server on your local machine
 
 If you don't meet any of the above criteria, don't worry. There are many tutorials available on the web or in books that can help you get up to speed. You still may pick up something by listening in and reading through the show notes, so stick with us.
@@ -51,11 +51,11 @@ The problem is that since the mid-2000s the number and variety of devices and sc
 
 Those days are long past.
 
-Today, you should be prepared to serve your site to browsers as small as the old iPhone (320 &times; 480 pixels) all the way up to desktop displays sporting 2560 &times; 1440 pixels or higher. Even on the desktop there's a wide variety, as some users prefer narrow overlapping windows and others prefer browsing in a single, full-screen window.
+Today, you should be prepared to serve your site to browsers as small as the old iPhone (320 &times; 480 pixels) all the way up to desktop displays sporting 2560 &times; 1440 pixels or higher. Even on the desktop there's a wide variety, as some users prefer narrow overlapping windows and others prefer browsing full-screen.
 
 It's difficult to make font and interaction element choices that work equally well on both big and small screens. Some designers prefer to keep things simple, making a single layout (usually around 960 pixels wide) and trusting mobile users to pinch and zoom for reading and navigation.
 
-Strictly speaking, there's nothing wrong with this sort of design, especially for content-driven sites with simple navigation. Unfortunately, some sites with long [line lengths](http://baymard.com/blog/line-length-readability) may be difficult to read even when zoomed in. Other sites with detailed, interactive navigation (think detailed, nested lists of links) may make it difficult for users of small screens to find what they're looking for as they pan through a zoomed site looking through their virtual soda straw.
+Strictly speaking, there's nothing wrong with this sort of design, especially for content-driven sites with simple navigation. Unfortunately, some sites with long [line lengths](http://baymard.com/blog/line-length-readability) may be difficult to read even when zoomed in. Other sites with detailed, interactive navigation (think multi-level nested hierarchies) may make it difficult for users of small screens to find what they're looking for as they pan through a zoomed site looking through their virtual soda straw.
 
 The alternative is to adapt your layout so that it responds properly to the size of the browser window being used. That's called responsive or adaptive design.
 
@@ -69,12 +69,17 @@ The alternative is to adapt your layout so that it responds properly to the size
 
 #### Before We Begin
 
-I've created a simple responsive website as part of this tutorial. You can find the source code for the tutorial as well as for the Technical Difficulties site itself on [Github](https://github.com/).
+We've created a simple responsive website as part of this tutorial. You can find the source code for the tutorial as well as for the Technical Difficulties site itself on [Github](https://github.com/).
 
 * [Tutorial Source Code](https://github.com/themindfulbit/responsive)
-* [Tutorial Live Demo Site](http://responsive.technicaldifficulties.us)
 * [Technical Difficulties Source Code](https://github.com/themindfulbit/td)
 * [The Mindful Bit Source Code](https://github.com/themindfulbit/tmb)
+
+Here's a link to the live demo of the tutorial site, if you want to try it out.
+
+* [Tutorial Live Demo Site](http://responsive.technicaldifficulties.us) 
+
+We've omitted the responsive viewport width readout in our demo code for clarity.
 
 ### The Tools
 
@@ -87,7 +92,7 @@ We're going use the following languages and libraries to design a simple respons
 * [Compass](http://compass-style.org/)
 * [Takitapart Web Framework](https://github.com/takitapart/takitapart-framework)
 
-Each library in this toolset builds on top of the one before it like [nesting dolls](http://en.wikipedia.org/wiki/Matryoshka_doll) with basic CSS at the core.
+Each library in this toolset builds on top of the one before it like [nesting dolls](http://en.wikipedia.org/wiki/Matryoshka_doll), with basic CSS at its core.
 
 > {{ theme:partial src="aside-header" voice="erik" text="Why these tools?" }}
 >
@@ -100,11 +105,11 @@ Each library in this toolset builds on top of the one before it like [nesting do
 > * They're fairly simple to get up and running
 > * They offer a tremendous amount of flexibility and growth potential
 >
-> As always, if these tools don't work for you, look around, try a bunch of new things and find a workflow that fits your needs. Then come back and tell me about all the awesome stuff you've found so I can use it too.
+> As always, if these tools don't work for you, look around, try a bunch of new things and find a workflow that fits your needs. Then come back and tell me about all the awesome new tools you've found so I can start using them too.
 
 #### Configuring the toolset
 
-Before we start discussing the different tools, let's get them installed. I'm assuming you've got a web server running on your computer already. 
+Before we start discussing the different tools, let's get them installed. We're assuming you've got a web server running on your computer already. 
 
 > {{ theme:partial src="aside-header" voice="erik" text="Web Servers" }}
 >
@@ -114,11 +119,11 @@ Before we start discussing the different tools, let's get them installed. I'm as
 >
 > `php -S localhost:8888`
 >
-> There are many options, and feel free to contact me on [App.net](http://app.net/themindfulbit) if you run into any problems that Google can't help you surmount. 
+> There are many options, so feel free to contact me on [App.net](http://app.net/themindfulbit) if you run into any problems that Google can't help you surmount. 
 >
 > You can also try me on [Twitter](http://twitter.com/themindfulbit), but you don't know pain until you've helped somebody troubleshoot their development platform 140 characters at a time.
 
-In the root folder of your new site, run the following command via Terminal, followed by your password if necessary. It will install Sass, Compass, and the Takitapart Web Framework on your machine:
+In the root folder of your new site, run the following command in a terminal window, followed by your password if necessary. It will install Sass, Compass, and the Takitapart Web Framework on your machine:
 
 ~~~
 sudo gem install compass.takitapart.framework
@@ -130,7 +135,9 @@ Next we're going to create the foundational files for your design. It's another 
 compass create
 ~~~
 
-Let's make some tweaks to those files, just to be sure they're all set for our use. In the root of your directory you should see a file named `config.rb`. Open it up and after the first comment add this line:
+Let's make some tweaks to those files, just to be sure they're all set for our use. 
+
+In the root of your directory you should see a file named `config.rb`. Open it up and after the first comment add this line:
 
 ~~~
 # Require any additional compass plugins here.
@@ -139,7 +146,7 @@ require "takitapart"
 
 That tells Compass we're using the Takitapart Web Framework.
 
-Finally, we're going to give the web-server something to show. We'll create a file called `index.html` in the root of your web directory, and we'll fill it with the following lines:
+Finally, we'll need to give the web-server something to show. Create a file called `index.html` in the root of your web directory and fill it with the following lines:
 
 ~~~
 <!doctype html>
@@ -157,7 +164,9 @@ Finally, we're going to give the web-server something to show. We'll create a fi
 </html>
 ~~~
 
-If you load this simple web page in a browser, you'll notice a few things right away. First, unless you have a thing for [unleaded](http://en.wikipedia.org/wiki/Leading) Times New Roman, it's not the most attractive site, but it *is* fairly readable. Second, it doesn't look like we've done anything but put some text on the page. What's all that Takitapart stuff for?
+If you load this simple web page in a browser, you'll notice a few things right away. First, unless you have a thing for [unleaded](http://en.wikipedia.org/wiki/Leading) Times New Roman, it's not the most attractive site, but it *is* fairly readable. Second, it doesn't look like we've done anything but put some text on the page. *What's all that Takitapart stuff for, anyway?*
+
+Trust us. We'll get there.
 
 Third and most importantly, if you shrink down the browser window to as tiny as you can possibly get it, the site doesn't look a whole lot worse. In fact, those shorter lines even seem a little *easier* to read. What's up with *that?*
 
@@ -179,7 +188,7 @@ Let's take a break now and briefly discuss what each of these fancy libraries do
 
 #### Sass
 
-The folks who make [Sass](http://sass-lang.com/) call it "CSS with superpowers" and I have to agree. Sass is an extension of CSS that adds [a whole lot of great stuff](http://sass-lang.com/guide) we all wish it had from the start:
+The folks who make [Sass](http://sass-lang.com/) call it "CSS with superpowers" and we have to agree. Sass is an extension of CSS that adds [a whole lot of great stuff](http://sass-lang.com/guide) we all wish it had from the start:
 
 * **Variables:** Useful for a lot of things, like defining a color at the beginning of your stylesheet so you only have to change it in one place.
 * **Nesting:** This can save a lot of redundant CSS lines while making it clearer what styles apply to which elements, and limiting their scope.
@@ -188,7 +197,7 @@ The folks who make [Sass](http://sass-lang.com/) call it "CSS with superpowers" 
 
 The way Sass works is by creating `.scss` files that you later compile into valid CSS. You can see that our initial setup left you with a few of those files ready to go in your website's cleverly named `sass` directory.
 
-We'll work with those a little more in a bit.
+We'll work with those in a little bit.
 
 #### Compass
 
@@ -245,9 +254,9 @@ Whoa! Five lines of Sass is now *nearly 800 lines* of CSS!
 >
 > {{ theme:partial src="image" title="Much better." show="{{ number }}" file="compressed-sass.png" }}
 >
-> You can get a nice compressed version of your CSS file for your production site by running `compass compile --output-style compressed --force` which will minimize file size and speed up your site.
+> You can get a nice compressed version of your CSS file for your production site by running `compass compile --output-style compressed --force` which will minimize file size (usually it's about 1/3 the size of the uncompressed version) speed up your site for bandwidth-limited visitors.
 
-The [Takitapart Web Framework](https://github.com/takitapart/takitapart-framework) builds on Compass to normalize browser defaults (because each browser shows the same thing a little differently) and gives us the tools to build a [grid](http://en.wikipedia.org/wiki/Grid_(graphic_design)).
+The [Takitapart Web Framework](https://github.com/takitapart/takitapart-framework) builds on Compass to normalize the often conflicting default styling across different browsers. It also gives us the tools to build a [grid](http://en.wikipedia.org/wiki/Grid_(graphic_design)).
 
 {{ theme:partial src="image" title="Not this..." show="{{ number }}" file="not-grid.jpg" }}
 
@@ -265,11 +274,11 @@ What is a viewport anyway? Well, it's the area your browser uses to display a si
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="11:51" person="gabe" quote="Like on a submarine?" }}
 
-In the old days, there used to be just one kind of viewport, which was the size of your computer's browser window. When iOS came out, Apple engineers needed a way to make normal sites functional on a very small screen. They ended up having iOS tell the sites it was visiting that the browser was really 980 pixels wide instead of 320. Other mobile browsers followed suit.
+In the old days, there used to be just one kind of viewport, which was the size of your computer's browser window. When iOS came out, Apple engineers needed a way to make normal sites functional on a very small screen. Their solution was to have iOS tell the websites that the browser was really 980 pixels wide instead of 320. Other mobile browsers followed suit.
 
 Here's a little more information for those who want to get into the details:
 
-* [A tale of Two Viewports Part One](http://www.quirksmode.org/mobile/viewports.html)
+* [A Tale of Two Viewports Part One](http://www.quirksmode.org/mobile/viewports.html)
 * [A Tale of Two Viewports Part Two](http://www.quirksmode.org/mobile/viewports2.html)
 * [Configuring the Viewport](https://developer.apple.com/library/ios/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html)
 
@@ -283,7 +292,7 @@ Well, because without some tweaking, that text is going to look incredibly tiny 
 
 #### Fixing the viewport
 
-Overriding this feature is actually pretty easy. Just add the following line to the first line after `<head>` in your `index.html` file.
+Overriding this feature is actually pretty easy. Just add the following line just after `<head>` in your `index.html` file.
 
 ~~~
 <meta name="viewport" content="width=device-width">
@@ -324,7 +333,7 @@ body {
 
 Refreshing your browser won't show much in the way of change, but we've set some important values as variables.
 
-First, we set the base value for the `$font-size` variable to 16 pixels. This is a good default, but you can move it up or down as needed by your site's design and it's audience. The next two lines build on this, setting the line-height to 1.5 &times; the base font size, which is set equal to one em.
+First, we set the base value for the `$font-size` variable to 16 pixels. This is a good default, but you can move it up or down as needed by your site's design and its audience. The next two lines build on this, setting the line-height to 1.5 times the base font size, which we also set equal to one em.
 
 > {{ theme:partial src="aside-header" voice="erik" text="Ems vs. Pixels" }}
 >
@@ -334,19 +343,19 @@ First, we set the base value for the `$font-size` variable to 16 pixels. This is
 >
 > See also: [W3C - The Amazing em Unit and Other Best Practices](http://www.w3.org/WAI/GL/css2em.htm)
 
-The next variable is the number of columns, which I set to 12. As the site adapts to larger screen sizes, different elements will start by taking up all the columns, then will gradually share horizontal space with other elements as space allows. Twelve is a good number because the columns group easily to allow 1, 2, 3, 4 and 6 column layouts. 
+The next variable is the number of columns, which we'll set to 12. As the site adapts to larger screen sizes, different elements will start by filling all twelve the columns then gradually shrink, sharing horizontal space with other elements as space allows. Twelve is a good number because it breaks into groups easily, allowing 1, 2, 3, 4 and 6 column layouts. 
 
-The final variable is outer margin width, which is set independently as a variable. The default is 1/18, which is as good a starting place as any. You may also wish to set it to zero and handle all margins on an element-by-element basis.
+The final variable is outer margin width, which is independent of the gutter width between the columns. The default is 1/18 of the viewport width (5.55555%) which is as good a starting place as any. As you gain more experience, you may  wish to set this value to zero and handle all margins on an element-by-element basis.
 
 The final step is to initialize the grid on the `body` element, using the `@include` syntax, which tells the Sass compiler that you want to use the `grid()` mixin.
 
-Refresh your browser and you should see those nice outer margins in place. Our site is coming along nicely.
+Refresh your browser and you should see those nice outer margins drop into place. Our new responsive website is coming along nicely.
 
 ### Responding to Screen Size
 
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="20:40" }}
 
-Now that we've got everything set, let's start building our site. First we've got to add a little structure to the bare content, so update your `index.html` file so that it looks like this:
+Now that we've got everything set, let's start filling the site out. First we've got to add a little structure to the bare content, so update your `index.html` file so that it looks like this:
 
 ~~~
 <!doctype html>
@@ -394,13 +403,13 @@ Now that we've got everything set, let's start building our site. First we've go
 </html>
 ~~~
 
-Conceptually, it's a bit easier in the long run to build from small screens to large screens, keeping with a "mobile-first" philosophy. Building this way forces the developer to answer all the hard questions first.
+In the long run, it's a bit easier to build from small screens to large screens, in keeping with the "mobile-first" philosophy. Since small screens offer the most constrained canvas for design, building this way forces the developer to answer all the hard questions first.
 
 If you refresh your screen and take your browser down to its narrowest width (320 pixels wide for Chrome, which is convenient for iPhone layouts) you'll see that a lot has naturally fallen into place. You've got a header with a site title, your content next, your site navigation after that, and a footer at the bottom. 
 
 By thoughtfully picking the location of your major elements, you've already a pretty good mobile layout *without doing anything special*.
 
-To make the elements a little easier to visualize, let's give them a little bit of color using variables. Before `body` insert these lines:
+To make the elements a little easier to visualize, let's give them some color using variables. Before `body` insert these lines:
 
 ~~~
 $header-color: #f6a9a9;
@@ -447,7 +456,7 @@ When you refresh your browser, the different elements should stand out a bit mor
 
 {{ theme:partial src="image-set" title="Taste the Rainbow" show="{{ number }}" file="div-colors.png" }}
 
-Notice the gray bars outside the `#posts` and `#links` elements. That's the color of the enclosing `#nav` element's automatic margins showing through.
+Notice the gray bars outside the `#posts` and `#links` elements. That color is the enclosing `#nav` element's automatic column padding showing through.
 
 Let's get back to the Sass for a bit. Did you notice the nesting? How about the variables for the colors? Pretty simple, huh?
 
@@ -457,7 +466,7 @@ Now let's talk about that other line that crops up everywhere:
 
 That line is telling the element to take up all twelve columns in the grid, making one big column appropriate to a mobile browser. So what about the `@include column(12,12);` for `#posts` and `#links`? That tells a sub-element to take up all twelve of the parent's columns. Because the first sub-element `#posts` fills all twelve columns, the second sub-element `#links` is forced beneath it.
 
-The gray padding in the `#nav` element doesn't look that good. Get rid of it by adding `padding: 0;` to the line right before `#posts`.
+That gray padding in the `#nav` element doesn't look too nice, so get rid of it by adding `padding: 0;` to the line right before `#posts`.
 
 #### Them's the Breaks
 
@@ -465,7 +474,7 @@ Let's give our site some breathing room and look at the screen at 600 pixels wid
 
 {{ theme:partial src="image" title="Like an old Kindle Fire" show="{{ number }}" file="tabletish.png" }}
 
-Not bad. The header looks fine and the content is still quite readable. We're wasting a lot of space with those `#nav` sub-elements though. Maybe we could stack 'em side by side or something. We can do that using CSS media queries.
+Not bad. The header looks fine and the content is still quite readable. We're wasting a lot of space with those `#nav` sub-elements though. Maybe we could stack 'em side by side or something. You do that using CSS media queries.
 
 Put the following code immediately after the closing brace of your `body` styling.
 
@@ -533,13 +542,13 @@ Not bad at all! Note that the `#footer` element automatically clears both of the
 
 > {{ theme:partial src="aside-header" voice="erik" text="It's All Just Math" }}
 >
-> The more mathematically or web-design inclined reader may have already guessed this, but all the `@include column(3,3);` line is doing is setting the CSS `width:` property to the first number divided by the second number. In that sense `@include column(6,12);` is completely equal to `@include column(3,6);` or even `@include column(1,2);`.
+> The mathematically-inclined reader may have already guessed this, but all the `@include column(3,3);` line is doing is setting the CSS `width:` property to the first number divided by the second number. In that sense `@include column(6,12);` is precisely equal to `@include column(3,6);` or even `@include column(1,2);`.
 >
-> That being said, I try to avoid mixing the numbers up unless I need to fit, say, three equally spaced elements into a four-column parent. Then it works like a champ.
+> That being said, I try to keep all the numbers matched up unless I need to fit, say, three equally spaced elements into a four-column parent. Then, bending the rules works like a champ.
 
 #### Work on the Core
 
-Stretch your browser window past 1024 pixels or so, and things start to get a little two stretchy. There are a couple of things you can do at this point, so let's give them both a try one after the other.
+Stretch your browser window past 1024 pixels or so, and things start to get a little too stretchy. There are a couple of solutions available to you at this point, so let's give them both a try one after the other.
 
 The first is to add columns of white space to the left and right of your content. To do this, we use the `@include push(x,y);` mixin. Let's add a third breakpoint to your `screen.scss` file.
 
@@ -585,7 +594,7 @@ Refresh your browser and see how it turned out.
 
 > {{ theme:partial src="aside-header" voice="erik" text="You Can Pull, Too" }}
 >
-> The `@include push(x,y);` mixin has an evil twin: `@include pull(x,y);`. It works the same as `push`, just in the other direction. I've only used it a few times, but when you need it, it's there for you.
+> The `@include push(x,y);` mixin has an evil twin: `@include pull(x,y);`. It works the same as `push`, just in the other direction. I've only used it a few times, but when you need it, it's nice to have.
 
 #### Making things a bit bigger
 
@@ -625,7 +634,7 @@ Add the next nine breakpoints (*yes, nine*) below your previous ones:
 }
 ~~~
 
-Refresh your browser, and if you're on a large display pull the browser window as wide as it will go. You'll see the size of everything smoothly ramp up *assuming you scaled everything in relative measures like ems and percentages*. This is why I don't use exact pixel sizes when I can avoid it. They don't scale.
+Refresh your browser, and if you're on a large display pull the window as wide as it will go. You'll see the size of everything smoothly ramp up *assuming you scaled everything in relative measures like ems and percentages*. This is why it's a good idea to avoid exact pixel sizes whenever possible. They don't scale.
 
 > {{ theme:partial src="aside-header" voice="erik" text="Except..." }}
 >
@@ -635,23 +644,23 @@ Refresh your browser, and if you're on a large display pull the browser window a
 
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="29:20" }}
 
-There's so much more to cover, but it's mostly outside the scope of this intro. There are three issues we should touch on before you go, and that's accessibility, images and unfriendly (old Microsoft) browsers.
+There's so much more to cover, but it's mostly outside the scope of this intro. The three issues we should touch on before you go, are accessibility, images and unfriendly (old Microsoft) browsers.
 
 #### Accessibility
 
-Unfortunately this is a critically important issue that is too big to squeeze into this discussion. Nothing we've discussed should hurt accessibility, and the font scaling should help it a bit.
+Unfortunately this is a critically important issue that is just [too big](http://www.d.umn.edu/itss/training/online/webdesign/accessibility.html) to squeeze into this discussion. Luckily, nothing we've done so far should hinder accessibility, and the font scaling may even help it a bit.
 
 #### Images
 
 Responsive image manipulation is still in its infancy, so here are a few considerations that will help you now and lead you in useful directions for future exploration.
 
-First, do everything you possibly can in a vector format like SVG. If it's more of a diagram than a picture (many logos, interface elements and other similar graphics) it can probably be presented in razor sharp fidelity at all screen sizes by presenting it as a vector SVG file.
+First, try to work as much as possible in a vector image format like SVG. If it looks more like a diagram than a picture (many logos, interface elements and other similar graphics) it can probably be presented in razor sharp fidelity at all screen resolutions by presenting it as a vector SVG file.
 
 [All modern browsers](http://caniuse.com/svg) support SVG, and you can offer CSS `background-image:` fallback options for older applications.
 
 #### Older Browsers (IE)
 
-Speaking of older browsers like IE 8 and earlier, you can use [conditional comments](http://msdn.microsoft.com/en-us/library/ms537512.ASPX) to serve up an alternate stylesheet to just Internet Explorer, or even specific versions if you like.  In fact, you've already used them. Check out lines 7 through 9 in your `index.html` file:
+Speaking of older browsers (generally IE 8 and earlier) you can use [conditional comments](http://msdn.microsoft.com/en-us/library/ms537512.ASPX) to serve up an alternate stylesheet that will be interpreted by only Internet Explorer. You can even target specific versions if you like.  In fact, you've already used conditional comments in the demo site. Check out lines 7 through 9 in your `index.html` file:
 
 ~~~
 <!doctype html>
@@ -668,7 +677,7 @@ Speaking of older browsers like IE 8 and earlier, you can use [conditional comme
   ...
 ~~~
 
-Those lines serve up an alternate `ie.css` file generated from the `ie.scss` file in your `sass` directory.
+Those lines serve up an alternate `ie.css` file generated from the `ie.scss` file in your `sass` directory. Compass includes it by default.
 
 ### That About Does It
 
@@ -676,7 +685,7 @@ Those lines serve up an alternate `ie.css` file generated from the `ie.scss` fil
 
 Remember that there are no hard and fast answers for any of this stuff. This field is changing every day, and new tools, technologies, and hacks come along regularly that could change your entire workflow.
 
-This is awesome, and hopefully why we started messing with this stuff. Good luck, happy coding, and let us know if you run into any problems that a Google search can't help you solve.
+This is awesome, and hopefully it's the reason why we started messing with this stuff in the first place. Good luck, happy coding, and let us know if you run into any problems that a Google search can't help you solve.
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Until next week" }}
 > 
