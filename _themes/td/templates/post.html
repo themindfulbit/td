@@ -20,7 +20,7 @@
         <h2 class="show-title">{{ title|widont }}</h2>
       </a>
       <p class="show-date"> {{ datestamp format="F jS, Y" }}</p>
-      <p class="listen-links"><a href="{{ download }}">Download</a> <span class="divider">::</span> <a href="{{ subscribe_link }}">Subscribe</a></p>
+      <p class="listen-links"><a href="{{ download }}" title="{{ number }} - {{ title }}">Download</a> <span class="divider">::</span> <a href="{{ subscribe_link }}">Subscribe</a></p>
     </div>
 
     {{ if banner }}
