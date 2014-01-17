@@ -73,7 +73,7 @@ The problem is that since the mid-2000s the number and variety of devices and sc
 > 
 > I think that we lost a lot of [true artistry](http://noahstokes.com/) in addition to uniform experience.
 > 
-> {{ theme:partial src="image" show="{{ number }}" title="The good old days" file="underconstruction.gif" }}
+> <img style="width: 100px; display: inline;" src="/assets/img/underconstruction.gif">
 
 Those days are long past.
 
@@ -278,7 +278,7 @@ Whoa! Five lines of Sass is now *nearly 800 lines* of CSS!
 >
 > {{ theme:partial src="image" title="I feel bloated." show="{{ number }}" file="but-slow.png" }}
 > 
-> Despite being very helpful during development (remember, your web inspector only shows you the CSS - try finding that styling bug without the Sass line numbers) you probably don't need all that nice breathing room and helpful commenting cluttering up your production stylesheet. 
+> Despite being very helpful during development (remember, your web inspector only shows you the CSS ([for now](https://developers.google.com/chrome-developer-tools/docs/css-preprocessors)) - try finding that styling bug without the Sass line numbers) you probably don't need all that nice breathing room and helpful commenting cluttering up your production stylesheet. 
 >
 > You can get a nice compressed version of your CSS file for your production site by running `compass compile --output-style compressed --force` which will minimize file size (usually it's about 1/3 the size of the uncompressed version) speed up your site for bandwidth-limited visitors.
 > 
