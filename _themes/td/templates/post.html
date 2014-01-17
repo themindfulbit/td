@@ -1,3 +1,12 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){ 
+    $("#huffduffer").click(function() {
+      window.open('http://huffduffer.com/add?popup=true&page='+encodeURIComponent(location.href),'huffduff','scrollbars=1,status=0,resizable=1,location=0,toolbar=0,width=360,height=480');
+    });
+  });
+</script>
+
 <div class="pagination top">
   {{ if prev }}
       <a class="previous" href="{{ prev }}"><span class="arrows">&laquo;</span> Newer</a>
@@ -20,7 +29,7 @@
         <h2 class="show-title">{{ title|widont }}</h2>
       </a>
       <p class="show-date"> {{ datestamp format="F jS, Y" }}</p>
-      <p class="listen-links"><a href="{{ download }}" title="Technical Difficulties {{ number }} - {{ title }}">Download</a> <span class="divider">::</span> <a href="{{ subscribe_link }}">Subscribe</a></p>
+      <p class="listen-links"><a href="{{ download }}" title="Technical Difficulties {{ number }} - {{ title }}">Download</a> <span class="divider">::</span> <a id="huffduffer">Huffduff it</a>&nbsp;<span class="divider">::</span> <a href="{{ subscribe_link }}">Subscribe</a></p>
     </div>
 
     {{ if banner }}
