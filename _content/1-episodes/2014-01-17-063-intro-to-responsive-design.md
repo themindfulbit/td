@@ -1,16 +1,36 @@
 ---
-number: '063'
-title: 'Intro to Responsive Web Design'
-type: [discussion]
-people: [Gabe Weatherhead, Erik Hess]
-topics: [web, design, responsive, adaptive, sass, compass]
+number: "063"
+title: Intro to Responsive Web Design
+type:
+  - discussion
+people:
+  - Gabe Weatherhead
+  - Erik Hess
+topics:
+  - web
+  - design
+  - responsive
+  - adaptive
+  - sass
+  - compass
 banner: /assets/img/maquette.jpg
 caption: '[Het Nieuwe Instituut](http://www.flickr.com/photos/nai_collection/8157177063/)'
-download: 'http://www.buzzsprout.com/7417/143046-063-intro-to-responsive-web-design.mp3'
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/129636942%3Fsecret_token%3Ds-8QbCc&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
-soundcloudurl: '063-intro-to-responsive-web'
-summary: 'This week's topic is responsive web design, both what it is, and how it's done. Erik steers clear of the controversies surrounding the issue and talks about what it actually takes to make your site work on a wide range of screen sizes.'
+download: >
+  http://www.buzzsprout.com/7417/143046-063-intro-to-responsive-web-design.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/129636942%3Fsecret_token%3Ds-8QbCc&color=ff6600&auto_play=false&show_artwork=true"></iframe>'
+soundcloudurl: 063-intro-to-responsive-web
+summary: "This week's topic is responsive web design, both what it is, and how it's done. Erik steers clear of the controversies surrounding the issue and talks about what it actually takes to make your site work on a wide range of screen sizes."
+showtype: interview
+post_images:
+  - 
+    image: /assets/img/underconstruction.gif
+    title: ""
+post_files: ""
 ---
+
+> {{ theme:partial src="aside-header" voice="potatowire" text="Before we begin" }}
+> 
+> It should be obvious to anyone familiar with our hosts that this episode's topic is right in Erik's wheelhouse. He is in control of the notes this week, and I think they have now realized that they don't need me. It's been nice knowing you. 
 
 ### Introducing Responsive Web Design
 
@@ -47,21 +67,27 @@ If you don't meet any of the above criteria, don't worry. There are many tutoria
 
 #### What's the problem?
 
-The problem is that since the mid-2000s the number and variety of devices and screens that might view your website has exploded. Ten years ago, it used to be pretty safe to assume that people would be looking at your site on a 1024 &times; 768 screen using Microsoft Internet Explorer 6. 
+The problem is that since the mid-2000s the number and variety of devices and screens used to view websites has exploded. Ten years ago, it was safe to assume that people would be looking at your site on a 1024 × 768 screen using Microsoft Internet Explorer 6. 
+
+> {{ theme:partial src="aside-header" voice="potatowire" text="Win some lose some" }}
+> 
+> I think that we lost a lot of [true artistry](http://noahstokes.com/) in addition to uniform experience.
+> 
+> {{ theme:partial src="image" show="{{ number }}" title="The good old days" file="underconstruction.gif" }}
 
 Those days are long past.
 
-Today, you should be prepared to serve your site to browsers as small as the old iPhone (320 &times; 480 pixels) all the way up to desktop displays sporting 2560 &times; 1440 pixels or higher. Even on the desktop there's a wide variety, as some users prefer narrow overlapping windows and others prefer browsing full-screen.
+Today, you should be prepared to serve your site to browsers as small as the original iPhone (320 × 480 pixels) all the way up to desktop displays sporting 2560 × 1440 pixel resolutions or higher. Even on the desktop there's a wide variety, as some users prefer narrow overlapping windows, while others prefer browsing full-screen.
 
 It's difficult to make font and interaction element choices that work equally well on both big and small screens. Some designers prefer to keep things simple, making a single layout (usually around 960 pixels wide) and trusting mobile users to pinch and zoom for reading and navigation.
 
-Strictly speaking, there's nothing wrong with this sort of design, especially for content-driven sites with simple navigation. Unfortunately, some sites with long [line lengths](http://baymard.com/blog/line-length-readability) may be difficult to read even when zoomed in. Other sites with detailed, interactive navigation (think multi-level nested hierarchies) may make it difficult for users of small screens to find what they're looking for as they pan through a zoomed site looking through their virtual soda straw.
+Strictly speaking, there's nothing wrong with this sort of design, especially for content-driven sites with simple navigation. Unfortunately, some sites with long [line lengths](http://baymard.com/blog/line-length-readability) may be difficult to read even when zoomed in. Other sites with detailed, interactive navigation (think multi-level, nested hierarchies) may make it difficult for users of small screens to find what they're looking for as they pan through a zoomed site seen though their virtual soda straw.
 
 The alternative is to adapt your layout so that it responds properly to the size of the browser window being used. That's called responsive or adaptive design.
 
 > {{ theme:partial src="aside-header" voice="erik" text="Flamewarning" }}
 >
-> There are some major philosophical flame-wars over responsive design, adaptive design, whether there's a difference between them, or whether we should even be designing that way at all. Like any inexact science or art, there are substantial differences in perspective, and they all offer good arguments and accept different compromises.
+> There are some major philosophical flame-wars over responsive design, adaptive design, whether there's a difference between them, and even whether we should be designing this way at all. Like any inexact science or art, there are substantial differences in perspective, and they all offer good arguments and accept different compromises.
 >
 > I'm not here to tell you how responsive design *should* be done. I'm telling you how *I do it*. If you're interested, I highly encourage you to scour the web for alternate perspectives and tools. It's a great way to broaden your horizons. 
 >
@@ -79,7 +105,9 @@ Here's a link to the live demo of the tutorial site, if you want to try it out.
 
 * [Tutorial Live Demo Site](http://responsive.technicaldifficulties.us) 
 
-We've omitted the responsive viewport width readout in our demo code for clarity.
+> {{ theme:partial src="aside-header" voice="erik" text="Viewport width" }}
+>
+> For clarity's sake, I  omitted the responsive viewport width readout in the demo code.
 
 ### The Tools
 
@@ -105,7 +133,7 @@ Each library in this toolset builds on top of the one before it like [nesting do
 > * They're fairly simple to get up and running
 > * They offer a tremendous amount of flexibility and growth potential
 >
-> As always, if these tools don't work for you, look around, try a bunch of new things and find a workflow that fits your needs. Then come back and tell me about all the awesome new tools you've found so I can start using them too.
+> As always, if these tools don't work for you, look around, try a bunch of new things and find a workflow that fits your needs. Then come back and tell me about all the awesome new tools you've found, so I can start using them too.
 
 #### Configuring the toolset
 
@@ -119,7 +147,7 @@ Before we start discussing the different tools, let's get them installed. We're 
 >
 > `php -S localhost:8888`
 >
-> There are many options, so feel free to contact me on [App.net](http://app.net/themindfulbit) if you run into any problems that Google can't help you surmount. 
+> There are many options, so feel free to contact me on [App.net](http://app.net/themindfulbit), if you run into any problems that Google can't help you surmount. 
 >
 > You can also try me on [Twitter](http://twitter.com/themindfulbit), but you don't know pain until you've helped somebody troubleshoot their development platform 140 characters at a time.
 
@@ -166,7 +194,7 @@ Finally, we'll need to give the web-server something to show. Create a file call
 
 If you load this simple web page in a browser, you'll notice a few things right away. First, unless you have a thing for [unleaded](http://en.wikipedia.org/wiki/Leading) Times New Roman, it's not the most attractive site, but it *is* fairly readable. Second, it doesn't look like we've done anything but put some text on the page. *What's all that Takitapart stuff for, anyway?*
 
-Trust us. We'll get there.
+Trust me. We'll get there.
 
 Third and most importantly, if you shrink down the browser window to as tiny as you can possibly get it, the site doesn't look a whole lot worse. In fact, those shorter lines even seem a little *easier* to read. What's up with *that?*
 
@@ -174,7 +202,7 @@ Third and most importantly, if you shrink down the browser window to as tiny as 
 
 The central takeaway is this: 
 
-Before you do any styling to a website, keep in mind that it already works better in a tiny mobile browser than a big desktop one. As you style your site, make sure you don't "break" the experience for mobile users. This is one of many reasons why it's smart to design with a *mobile-first* mindset.
+Before you add *any* styling to a website, it already works better in a tiny mobile browser than a big desktop one. As you style the site, make sure you don't "break" the experience for mobile users. This is one of many reasons why it's smart to design with a *mobile-first* mindset.
 
 > {{ theme:partial src="aside-header" voice="erik" text="Development Browser" }}
 >
@@ -188,7 +216,7 @@ Let's take a break now and briefly discuss what each of these fancy libraries do
 
 #### Sass
 
-The folks who make [Sass](http://sass-lang.com/) call it "CSS with superpowers" and we have to agree. Sass is an extension of CSS that adds [a whole lot of great stuff](http://sass-lang.com/guide) we all wish it had from the start:
+The folks who make [Sass](http://sass-lang.com/) call it "CSS with superpowers" and I have to agree. Sass is an extension of CSS that adds [a whole lot of great stuff](http://sass-lang.com/guide) that probably should be there from the start:
 
 * **Variables:** Useful for a lot of things, like defining a color at the beginning of your stylesheet so you only have to change it in one place.
 * **Nesting:** This can save a lot of redundant CSS lines while making it clearer what styles apply to which elements, and limiting their scope.
@@ -206,9 +234,9 @@ We'll work with those in a little bit.
 * A toolset to compile and compress Sass
 * A library of mixins for making a whole lot of tricky cross-platform styling much easier
 
-The third thing it offers is almost more important &ndash; excellent [documentation](http://compass-style.org/reference/compass/).
+There's actually a third thing it offers which may be more important: excellent [documentation](http://compass-style.org/reference/compass/).
 
-Let's do something fun with Compass real quick. Open up a new tab in your Terminal and make sure you're in the root directory of your website. Now type this command:
+Let's do something fun with Compass real quick. Open up a new tab in Terminal and make sure you're in the root directory of your website. Now type this command:
 
 ~~~
 compass watch
@@ -236,7 +264,7 @@ Save your file, and check that terminal window one more time:
 
 {{ theme:partial src="image" title="I told you to keep watching!" show="{{ number }}" file="compass-watched.png" }}
 
-Compass saw that you changed your `screen.scss` file (and didn't change the others) and recompiled it for you. Refresh your browser and you'll see that it's starting to look a little different, with a sans-serif font and a little more line spacing.
+Compass saw that you changed your `screen.scss` file (not changing any others) and recompiled it for you. Refresh your browser and you'll see that it's starting to look a little different, with a sans-serif font and a little more line spacing.
 
 {{ theme:partial src="image" title="Well, something happened." show="{{ number }}" file="compass-sans.png" }}
 
@@ -252,9 +280,10 @@ Whoa! Five lines of Sass is now *nearly 800 lines* of CSS!
 > 
 > Despite being very helpful during development (remember, your web inspector only shows you the CSS - try finding that styling bug without the Sass line numbers) you probably don't need all that nice breathing room and helpful commenting cluttering up your production stylesheet. 
 >
+> You can get a nice compressed version of your CSS file for your production site by running `compass compile --output-style compressed --force` which will minimize file size (usually it's about 1/3 the size of the uncompressed version) speed up your site for bandwidth-limited visitors.
+> 
 > {{ theme:partial src="image" title="Much better." show="{{ number }}" file="compressed-sass.png" }}
 >
-> You can get a nice compressed version of your CSS file for your production site by running `compass compile --output-style compressed --force` which will minimize file size (usually it's about 1/3 the size of the uncompressed version) speed up your site for bandwidth-limited visitors.
 
 The [Takitapart Web Framework](https://github.com/takitapart/takitapart-framework) builds on Compass to normalize the often conflicting default styling across different browsers. It also gives us the tools to build a [grid](http://en.wikipedia.org/wiki/Grid_(graphic_design)).
 
@@ -538,7 +567,7 @@ Likewise, we've resized the `#nav` element to three columns, reminded it that we
 
 {{ theme:partial src="image" title="Now With 100% More Sidebar" show="{{ number }}" file="sidebar.png" }}
 
-Not bad at all! Note that the `#footer` element automatically clears both of the columns above because it's twelve columns wide &ndash; too wide to do anything else. Pretty cool, huh?
+Not bad at all! Note that the `#footer` element automatically clears both of the columns above because it's twelve columns wide – too wide to do anything else. Pretty cool, huh?
 
 > {{ theme:partial src="aside-header" voice="erik" text="It's All Just Math" }}
 >
