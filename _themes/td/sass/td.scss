@@ -69,6 +69,10 @@ body {
     padding: 0;
   }
 
+  #huffduffer {
+    cursor: pointer;
+  }
+
   .nav {
     @include column(12,12);
     padding: 0;
