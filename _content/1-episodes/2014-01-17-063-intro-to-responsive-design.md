@@ -291,7 +291,7 @@ The [Takitapart Web Framework](https://github.com/takitapart/takitapart-framewor
 
 {{ theme:partial src="image" title="...this." show="{{ number }}" file="the-grid.png" }}
 
-Grids are helpful because they give us a tool to logically lay out text, images and other elements in a design. They're even more helpful in responsive design because their sequence of alternating columns and gutters lends itself well to expanding and contracting content as the browser size changes.
+Grids are helpful because they give us a tool to logically lay out text, images and other elements in a design. They're even more helpful in responsive design because their sequence of alternating [columns and gutters](http://en.wikipedia.org/wiki/Column_(typography)) lends itself well to expanding and contracting content as the browser size changes.
 
 We'll get back to the grid in just a little bit, but first let's fix the viewport.
 
@@ -362,7 +362,7 @@ body {
 
 Refreshing your browser won't show much in the way of change, but we've set some important values as variables.
 
-First, we set the base value for the `$font-size` variable to 16 pixels. This is a good default, but you can move it up or down as needed by your site's design and its audience. The next two lines build on this, setting the line-height to 1.5 times the base font size, which we also set equal to one em.
+First, we set the base value for the `$font-size` variable to 16 pixels. This is a good default, but you can move it up or down as needed by your site's design and [its audience](https://twitter.com/drdrang). The next two lines build on this, setting the line-height to 1.5 times the base font size, which we also set equal to one em.
 
 > {{ theme:partial src="aside-header" voice="erik" text="Ems vs. Pixels" }}
 >
@@ -432,13 +432,13 @@ Now that we've got everything set, let's start filling the site out. First we've
 </html>
 ~~~
 
-In the long run, it's a bit easier to build from small screens to large screens, in keeping with the "mobile-first" philosophy. Since small screens offer the most constrained canvas for design, building this way forces the developer to answer all the hard questions first.
+Hopefully you're beginning to see the wisdom of the "mobile-first" philosophy. Since small screens offer the most constrained canvas for design, building this way forces the developer to answer all the hard questions first.
 
 If you refresh your screen and take your browser down to its narrowest width (320 pixels wide for Chrome, which is convenient for iPhone layouts) you'll see that a lot has naturally fallen into place. You've got a header with a site title, your content next, your site navigation after that, and a footer at the bottom. 
 
 By thoughtfully picking the location of your major elements, you've already a pretty good mobile layout *without doing anything special*.
 
-To make the elements a little easier to visualize, let's give them some color using variables. Before `body` insert these lines:
+In order to make the elements a little easier to visualize, let's give them some color using variables. Before `body` insert these lines:
 
 ~~~
 $header-color: #f6a9a9;
@@ -485,7 +485,7 @@ When you refresh your browser, the different elements should stand out a bit mor
 
 {{ theme:partial src="image-set" title="Taste the Rainbow" show="{{ number }}" file="div-colors.png" }}
 
-Notice the gray bars outside the `#posts` and `#links` elements. That color is the enclosing `#nav` element's automatic column padding showing through.
+Notice the gray bars outside the `#posts` and `#links` elements. The`#nav` element is colored gray here, and since it encloses the `#posts` and `#links` elements, you are seeing the automatic column padding showing through.
 
 Let's get back to the Sass for a bit. Did you notice the nesting? How about the variables for the colors? Pretty simple, huh?
 
@@ -503,9 +503,9 @@ Let's give our site some breathing room and look at the screen at 600 pixels wid
 
 {{ theme:partial src="image" title="Like an old Kindle Fire" show="{{ number }}" file="tabletish.png" }}
 
-Not bad. The header looks fine and the content is still quite readable. We're wasting a lot of space with those `#nav` sub-elements though. Maybe we could stack 'em side by side or something. You do that using CSS media queries.
+Not bad. The header looks fine and the content is still quite readable. We're wasting a lot of space with those `#nav` sub-elements though. Maybe we could stack 'em side by side or something. We'll do that with CSS media queries.
 
-Put the following code immediately after the closing brace of your `body` styling.
+Put the following code immediately after the closing brace of your `body` styling:
 
 ~~~
 @media screen and (min-width: 32em) {
@@ -524,9 +524,9 @@ Refresh and:
 
 {{ theme:partial src="image" title="Side by Side" show="{{ number }}" file="side-by-side.png" }}
 
-Not bad! It makes for a more efficient use of space, that's for sure. What we've done is tell the browser that for window widths greater than 32em (512 pixels at 16 pixels = 1em) we want the `#posts` and `#links` sub-elements to take up only six out of its parent's twelve columns. Because the Takitapart Web Framework floats all column inhabitants to the left by default, they nestle right next to each other.
+Pretty good! It makes for a more efficient use of space, that's for sure. What we've done is tell the browser that for window widths greater than 32em (512 pixels here, since we set 16 pixels = 1em) we want the `#posts` and `#links` sub-elements to take up only six of their parent's twelve columns. Because the Takitapart Web Framework floats all column inhabitants to the left by default, they nestle up right next to each other.
 
-Resize your browser window above and below the 512 pixel point and you'll see the elements snap above and beside each other without any browser refresh required. This point is called a breakpoint.
+Resize your browser window width back and forth around the 512-pixel point and you'll see the elements snap from stacked to side-by-side and back again, without refreshing the browser. This point is called a breakpoint.
 
 > {{ theme:partial src="aside-header" voice="erik" text="Point Break...point" }}
 >
@@ -534,11 +534,11 @@ Resize your browser window above and below the 512 pixel point and you'll see th
 >
 > Additionally, you may want to avoid picking common screen sizes for your breakpoints. Strange things can happen at a break, and you don't want those quirks messing up the experience for your site's visitors.
 >
-> Finally, try not to get too picky about your exact element sizes. There are no pixel-perfect layouts when designing a fluid web page, so expect things to look a little strange sometimes. Fix what you can and accept that this is the web and not print. If you *do* need a rigid, pixel-perfect layout, use fixed design within each breakpoint and bridge the gap between those breakpoints with fluid margins. If it's not immediately obvious to you how to implement that, you probably don't really need a rigid, pixel-perfect layout.
+> Finally, try not to get too picky about your exact element sizes. There are no pixel-perfect layouts when designing a fluid web page, so expect things to look a little strange sometimes. Fix what you can and accept that this is the web and not print. If you *do* need a rigid, pixel-perfect layout, use fixed design within each breakpoint, and bridge the gap between those breakpoints with fluid margins. If that sentence doesn't make sense, then you probably don't really need a rigid, pixel-perfect layout.
 
 #### Adding a sidebar
 
-Stretch your site out to 768 pixels wide, which is the width of an iPad in portrait orientation. The site still works, but the line length on the text is getting a bit wide. Let's try a sidebar instead.
+Stretch your site out to 768 pixels wide, which is the width of an iPad in portrait orientation. The site still works, but the line length of the text is getting a bit too wide. Let's try using that excess space for something useful like a sidebar.
 
 Beneath the closing brace of your `@media` query, put the following lines:
 
@@ -561,9 +561,9 @@ Beneath the closing brace of your `@media` query, put the following lines:
 }
 ~~~
 
-So what are we doing here? First, we're setting a new breakpoint at 42em (672 pixels). Next we're shrinking the `#content` element from twelve to nine columns and overriding the default `float` so that it stays right instead of left. Remember, elements pile up in the order they're listed in the HTML file, so since the `#nav` element comes after `#content` you have to force it right with the `float: right;` instruction.
+So what are we doing here? First, we set a new breakpoint at 42em (672 pixels). Next, we shrink the `#content` element from 12 to 9 columns, overriding the default `float` so that it stays right instead of going left. Remember, elements pile up in the order they appear in the HTML file. Since the `#nav` element comes after `#content`, you have to force it right with the `float: right;` instruction.
 
-Likewise, we've resized the `#nav` element to three columns, reminded it that we don't want those gray padding sidebars, and told both `#posts` and `#links` that they should take all three of their parent's columns. Let's refresh the browser and see how it looks:
+Lastly, we've resized the `#nav` element to three columns, reminded it that we don't want those gray padding sidebars, and told both `#posts` and `#links` that they should utilize all three of their parent's columns. Let's refresh the browser and see how it looks.
 
 {{ theme:partial src="image" title="Now With 100% More Sidebar" show="{{ number }}" file="sidebar.png" }}
 
@@ -573,13 +573,13 @@ Not bad at all! Note that the `#footer` element automatically clears both of the
 >
 > The mathematically-inclined reader may have already guessed this, but all the `@include column(3,3);` line is doing is setting the CSS `width:` property to the first number divided by the second number. In that sense `@include column(6,12);` is precisely equal to `@include column(3,6);` or even `@include column(1,2);`.
 >
-> That being said, I try to keep all the numbers matched up unless I need to fit, say, three equally spaced elements into a four-column parent. Then, bending the rules works like a champ.
+> That being said, I try to keep all the numbers "un-reduced" unless I need to fit, say, three equally spaced elements into a four-column parent. Then, bending the rules works like a champ.
 
 #### Work on the Core
 
-Stretch your browser window past 1024 pixels or so, and things start to get a little too stretchy. There are a couple of solutions available to you at this point, so let's give them both a try one after the other.
+Stretch your browser window width past 1024 pixels or so, and things start to get a little too stretchy. There are two solutions available to you at this point, and we'll give them both a try.
 
-The first is to add columns of white space to the left and right of your content. To do this, we use the `@include push(x,y);` mixin. Let's add a third breakpoint to your `screen.scss` file.
+The first option is to add columns of white space to the left and right of your content. To do this, we use the `@include push(x,y);` mixin. To that end, let's add a third breakpoint to your `screen.scss` file:
 
 ~~~
 @media screen and (min-width: 62em) {
@@ -615,7 +615,7 @@ The first is to add columns of white space to the left and right of your content
 
 What we're doing here is making the widest elements ten columns wide, and pushing them one column to the right, leaving a column of space on *both* sides. 
 
-You may also have noticed the `#core` element earlier and wondered why it's there. Using this kind of enclosing element allows us to take the entire central block and push it right, without disrupting or having to individually `@include push();` the elements within. 
+You may have noticed the `#core` element earlier and wondered why it's there. This kind of enclosing element allows us to take the entire central block and push it right, without disrupting the elements within or having to individually `@include push();` them. 
 
 Refresh your browser and see how it turned out.
 
@@ -623,11 +623,11 @@ Refresh your browser and see how it turned out.
 
 > {{ theme:partial src="aside-header" voice="erik" text="You Can Pull, Too" }}
 >
-> The `@include push(x,y);` mixin has an evil twin: `@include pull(x,y);`. It works the same as `push`, just in the other direction. I've only used it a few times, but when you need it, it's nice to have.
+> The `@include push(x,y);` mixin has an evil twin: `@include pull(x,y);`. It works the same as `push`, just in the opposite direction. I've only used it a few times, but it's nice to have when you do need it.
 
 #### Making things a bit bigger
 
-The sidebars were a nice fix, but by 1200 pixels you've got the same problem again. One option is to enlarge the sidebars by using `@include push(2);` and shrinking the widest elements to eight columns wide. You can keep going with that for a bit, but after a while it becomes a little unwieldy.
+The sidebars were a nice fix, but you've got the same problem again once your viewport reaches 1200 pixels wide. One option is to enlarge the sidebars by using `@include push(2);` and shrinking the widest elements to eight columns wide. You can keep going with that for a bit, but after a while it becomes a little unwieldy.
 
 There's another option you may want to use, and that's to make everything bigger. We do that by adjusting the size of the grid itself.  
 
@@ -663,33 +663,33 @@ Add the next nine breakpoints (*yes, nine*) below your previous ones:
 }
 ~~~
 
-Refresh your browser, and if you're on a large display pull the window as wide as it will go. You'll see the size of everything smoothly ramp up *assuming you scaled everything in relative measures like ems and percentages*. This is why it's a good idea to avoid exact pixel sizes whenever possible. They don't scale.
+Refresh your browser, and if you're on a large display pull the window as wide as it will go. You'll see everything smoothly increase in size *assuming you scaled everything in relative measures like ems and percentages*. This is why it's a good idea to avoid exact pixel sizes whenever possible. They don't scale.
 
 > {{ theme:partial src="aside-header" voice="erik" text="Except..." }}
 >
-> Every rule has an exception, and this is no... exception. When I need a hairline border, I use `border-width: 1px;` since that will always give me the thinnest border possible on that platform.
+> Every rule has an exception, and this one is no... exception. When I need a hairline border, I use `border-width: 1px;` since that will always give me the thinnest border possible on that platform.
 
 ### We've Only Just Begun
 
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="29:20" }}
 
-There's so much more to cover, but it's mostly outside the scope of this intro. The three issues we should touch on before you go, are accessibility, images and unfriendly (old Microsoft) browsers.
+There's so much more to cover, but it goes beyond the scope of an intro. There are three issues we should touch on before you go: accessibility, images, and unfriendly (old Microsoft) browsers.
 
 #### Accessibility
 
-Unfortunately this is a critically important issue that is just [too big](http://www.d.umn.edu/itss/training/online/webdesign/accessibility.html) to squeeze into this discussion. Luckily, nothing we've done so far should hinder accessibility, and the font scaling may even help it a bit.
+Unfortunately this critically important issue that is just [too big](http://www.d.umn.edu/itss/training/online/webdesign/accessibility.html) to squeeze into this discussion. Luckily, nothing we've done so far should *hinder* accessibility, and the font scaling can help in some cases.
 
 #### Images
 
-Responsive image manipulation is still in its infancy, so here are a few considerations that will help you now and lead you in useful directions for future exploration.
+Responsive image manipulation is still in its infancy, but here are a few considerations that will help you now and start you down a good path for future exploration.
 
-First, try to work as much as possible in a vector image format like SVG. If it looks more like a diagram than a picture (many logos, interface elements and other similar graphics) it can probably be presented in razor sharp fidelity at all screen resolutions by presenting it as a vector SVG file.
+First, try to work as much as possible in a vector image format like [SVG](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics). Anything that looks more like a diagram than a picture (many logos, interface elements, or other similar graphics) can be presented in razor-sharp fidelity at all screen resolutions by serving up a vector SVG file.
 
-[All modern browsers](http://caniuse.com/svg) support SVG, and you can offer CSS `background-image:` fallback options for older applications.
+[All modern browsers](http://caniuse.com/svg) support SVG natively, and you can offer a CSS [`background-image:` fallback](http://css-tricks.com/svg-fallbacks/) for older applications.
 
 #### Older Browsers (IE)
 
-Speaking of older browsers (generally IE 8 and earlier) you can use [conditional comments](http://msdn.microsoft.com/en-us/library/ms537512.ASPX) to serve up an alternate stylesheet that will be interpreted by only Internet Explorer. You can even target specific versions if you like.  In fact, you've already used conditional comments in the demo site. Check out lines 7 through 9 in your `index.html` file:
+Speaking of older browsers (generally IE 8 and earlier) you can use [conditional comments](http://msdn.microsoft.com/en-us/library/ms537512.ASPX) to serve up an alternate stylesheet that will only be used Internet Explorer. You can even target specific versions if you like.  In fact, you've already used conditional comments in the demo site. Check out lines 7 through 9 in your `index.html` file:
 
 ~~~
 <!doctype html>
@@ -706,16 +706,16 @@ Speaking of older browsers (generally IE 8 and earlier) you can use [conditional
   ...
 ~~~
 
-Those lines serve up an alternate `ie.css` file generated from the `ie.scss` file in your `sass` directory. Compass includes it by default.
+Those lines serve up an alternate `ie.css` file generated from the `ie.scss` file. Compass includes it by default.
 
 ### That About Does It
 
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="30:40" }}
 
-Remember that there are no hard and fast answers for any of this stuff. This field is changing every day, and new tools, technologies, and hacks come along regularly that could change your entire workflow.
+Remember that there are no hard-and-fast rules for any of this stuff. This field is changing every day, and new tools, technologies, and hacks regularly come along to change your entire workflow.
 
-This is awesome, and hopefully it's the reason why we started messing with this stuff in the first place. Good luck, happy coding, and let us know if you run into any problems that a Google search can't help you solve.
+This is awesome though, and hopefully it's the reason why we started messing with this stuff in the first place. Good luck, happy coding, and let us know if you run into any problems that a Google search doesn't readily solve.
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Until next week" }}
 > 
-> Well, that's it for this week. If you have anything that you'd like to add to or correct in the show notes you can find me on Twitter [@potatowire](http://twitter.com/potatowire/) or feel free to send an email to me at potatowire dot com.
+> Well, that's it for this week. If you have anything that you'd like to add to or correct in the show notes you can find me on Twitter [@potatowire](http://twitter.com/potatowire/) or feel free to send an email to me at potatowire dot com. Also let us know if you like this instructive type of show. It's an experiment that we may re-visit again.
