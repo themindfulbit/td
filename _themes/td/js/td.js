@@ -38,4 +38,14 @@ $(document).ready(function(){
        
       // Kick off one resize to fix all videos on page load
       }).resize();
+
+      // Prettyprint and line numbers on all pre elements
+
+      $(".show-notes pre").addClass("prettyprint linenums");
+
+      // Huffduff it!
+
+      $("#huffduffer").click(function() {
+            window.open('http://huffduffer.com/add?popup=true&page='+encodeURIComponent(location.href),'huffduff','scrollbars=1,status=0,resizable=1,location=0,toolbar=0,width=360,height=480');
+      });
 });
