@@ -51,6 +51,10 @@ For a live example of responsive design, load up any of these sites on a desktop
 
 Drag the window's edge until it's as narrow as you can make it, then expand it slowly and watch as the page elements and fonts grow and respond to the changing width of the browser. All these sites use the exact same tools and techniques we discuss here.
 
+As the show notes progress, we'll walk you through building a simple responsive site. Here's a link to the live demo of the tutorial site, if you want to follow along.
+
+* [Tutorial Live Demo Site](http://responsive.technicaldifficulties.us) 
+
 #### Who is this for?
 
 By necessity, this is a more technical topic than we've discussed on the show before. Still, we believe it's one that's relevant to a large number of our listeners, many of whom have personal blogs or reference sites.
@@ -71,7 +75,7 @@ The problem is that since the mid-2000s the number and variety of devices and sc
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Win some lose some" }}
 > 
-> I think that we lost a lot of [true artistry](http://noahstokes.com/) in addition to uniform experience.
+> I think that we lost a lot of [true](http://noahstokes.com/) [artistry](http://timecube.com) in addition to uniform experience.
 > 
 > <img style="width: 100px; display: inline;" src="/assets/img/underconstruction.gif">
 
@@ -100,14 +104,6 @@ We've created a simple responsive website as part of this tutorial. You can find
 * [Tutorial Source Code](https://github.com/themindfulbit/responsive)
 * [Technical Difficulties Source Code](https://github.com/themindfulbit/td)
 * [The Mindful Bit Source Code](https://github.com/themindfulbit/tmb)
-
-Here's a link to the live demo of the tutorial site, if you want to try it out.
-
-* [Tutorial Live Demo Site](http://responsive.technicaldifficulties.us) 
-
-> {{ theme:partial src="aside-header" voice="erik" text="Viewport width" }}
->
-> For clarity's sake, I  omitted the responsive viewport width readout in the demo code.
 
 ### The Tools
 
@@ -663,7 +659,11 @@ Add the next nine breakpoints (*yes, nine*) below your previous ones:
 }
 ~~~
 
-Refresh your browser, and if you're on a large display pull the window as wide as it will go. You'll see everything smoothly increase in size *assuming you scaled everything in relative measures like ems and percentages*. This is why it's a good idea to avoid exact pixel sizes whenever possible. They don't scale.
+Refresh your browser, and if you're on a large display pull the window as wide as it will go. 
+
+{{ theme:partial src="image" title="Big Text" show="{{ number }}" file="larger-fonts.png" }}
+
+You'll see everything smoothly increase in size *assuming you scaled everything in relative measures like ems and percentages*. This is why it's a good idea to avoid exact pixel sizes whenever possible. They don't scale.
 
 > {{ theme:partial src="aside-header" voice="erik" text="Except..." }}
 >
@@ -685,7 +685,7 @@ Responsive image manipulation is still in its infancy, but here are a few consid
 
 First, try to work as much as possible in a vector image format like [SVG](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics). Anything that looks more like a diagram than a picture (many logos, interface elements, or other similar graphics) can be presented in razor-sharp fidelity at all screen resolutions by serving up a vector SVG file.
 
-[All modern browsers](http://caniuse.com/svg) support SVG natively, and you can offer a CSS [`background-image:` fallback](http://css-tricks.com/svg-fallbacks/) for older applications.
+[All modern browsers](http://caniuse.com/svg) support SVG natively, and you can offer a CSS `background-image:` [fallback](http://css-tricks.com/svg-fallbacks/) for older applications.
 
 #### Older Browsers (IE)
 
