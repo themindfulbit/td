@@ -248,10 +248,15 @@ body {
           font-family: "futura-pt", sans-serif;
           letter-spacing: 0.1em;
 
-          .divider {
+          .divider,
+          .divider2 {
             display: inline-block;
             position: relative;
             top: -0.1em;
+          }
+
+          .divider2 {
+            display: none;
           }
 
           a,
@@ -1398,6 +1403,14 @@ body {
 
     .show-header h2.show-number {
       margin-top: 0.5em;
+    }
+
+    .show-header .listen-links .divider2 {
+      display: inline;
+    }
+
+    .show-header .listen-links .break {
+      display: none;
     }
 
     .show-notes,
