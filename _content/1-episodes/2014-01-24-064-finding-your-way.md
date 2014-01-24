@@ -15,7 +15,7 @@ summary: 'This week's topic is navigation apps. From Gabe and Erik's earliest de
 ### The Time Gabe's Wife Almost Divorced Him On the Way to Ikea
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="0:00" }}
 
-In car navigation has come a long way in the last decade or so.  Gabe's [Garmin Street Pilot 2720](https://buy.garmin.com/en-US/US/on-the-road/discontinued/streetpilot-2720/prod6387.html) is a classic example of the big, heavy, dedicated GPS that straps to your car. Erik's Palm OS based [Garmin iQue 3600](http://reviews.cnet.com/search-results/garmin-ique-3600/4505-5_7-20799434.html) was an early attempt at streamlining the device and expanding beyond basic navigation functionality, but the cost was almost unusably low battery life.
+In-car navigation has come a long way in the last decade or so.  Gabe's [Garmin Street Pilot 2720](https://buy.garmin.com/en-US/US/on-the-road/discontinued/streetpilot-2720/prod6387.html) is a classic example of the big, heavy, dedicated GPS that straps to your car's dashboard. Erik's Palm OS based [Garmin iQue 3600](http://reviews.cnet.com/search-results/garmin-ique-3600/4505-5_7-20799434.html) was an early attempt at streamlining the device and expanding beyond basic navigation functionality, but the cost was almost unusably low battery life.
 
 > {{ theme:partial src="aside-header" voice="erik" text="Convergence" }}
 >
@@ -60,25 +60,25 @@ There are a bunch of ways you can attach a phone to your vehicle. Erik has had g
 
 > {{ theme:partial src="aside-header" voice="erik" text="Live in the Now" }}
 >
-> {{ theme:partial src="image" title="Yes, I took this picture with an iPad" show="{{ number }}" file="the-now.jpg" }}
->
 > While I no longer drive around with an iPad mini as my car computer like the image above, I have had continued success using the [Satechi Bluetooth MediaRemote](http://www.amazon.com/Satechi-MediaRemote-Bluetooth-Multi-Media-Control/dp/B00824948U) velcroed to a non-airbag-obstructing location on my steering wheel. 
 >
-> {{ theme:partial src="image" title="Satechi Bluetooth MediaRemote" show="{{ number }}" file="satechi.jpg" }}
+> {{ theme:partial src="image" title="Yes, I took this picture with an iPad" show="{{ number }}" file="the-now.jpg" }}
 >
 > With judicious use of the handy on-off switch, its battery lasts about six months. The remote is very helpful at keeping my eyes on the road as I manically shuffle through Spotify playlists on the desolate highways of western Nevada.
 >
-> I've also moved on from Proclip's car mounts to the more minimal [Kenu Airframe](http://store.apple.com/us/product/HC299ZM/A/kenu-airframe-portable-car-vent-mount-for-iphone?fnode=46) which works even with bulkier iPhone cases (in width, not depth &ndash; the Mophie Juice Pack Air is pushing it). 
+> {{ theme:partial src="image" title="Satechi Bluetooth MediaRemote" show="{{ number }}" file="satechi.jpg" }}
+>
+> I've also moved on from ProClip's excellent car mounts to the more minimal [Kenu Airframe](http://store.apple.com/us/product/HC299ZM/A/kenu-airframe-portable-car-vent-mount-for-iphone?fnode=46) which works even with bulkier iPhone cases (in width, not depth &ndash; the Mophie Juice Pack Air is pushing it). 
 >
 > {{ theme:partial src="image" title="Kenu Airframe" show="{{ number }}" file="kenu-horiz.jpg" }}
 > 
-> Its low profile, rotating vent-grip, and easy removal makes it useful for taking on trips for use in rental cars. You'll probably want to turn off airflow to that vent though, since your car's climate control can make your phone ice cold or even hot enough for it to turn itself off.
+> Its low profile, rotating vent-grip, and easy removal makes it useful for taking on trips for your rental car. You'll probably want to turn off airflow to the vent it's mounted on, since your car's climate control can make your phone ice cold or even hot enough for it to turn itself off.
 >
 > Also useful is the [Griffin BlueTrip](http://www.amazon.com/Griffin-Technology-BlueTrip-iPhone-Smartphones/dp/B004KPLS7K/ref=sr_1_1?s=electronics&ie=UTF8&qid=1390591412&sr=1-1&keywords=griffin+bluetrip) for routing phone audio to vehicles (like mine) that lack [Bluetooth Audio](http://en.wikipedia.org/wiki/Bluetooth_profile#Advanced_Audio_Distribution_Profile_.28A2DP.29) integration. Its one big failing is that the microphone is both greedy and terrible, so you'll find yourself fumbling to connect via your car's hands-free connection when somebody calls.
 >
 > {{ theme:partial src="image" title="Griffin BlueTrip" show="{{ number }}" file="bluetrip.jpg" }}
 >
-> The ability to disable the Bluetooth phone audio profile while keeping the media audio profile on a per-device basis is one of the things I really like about Android.
+> The ability to disable the Bluetooth phone audio profile while keeping the media audio profile on a per-device basis is one of the things I really like about Android. It makes disabling the BlueTrip's microphone as easy as checking a box.
 
 Gabe's shiny new Acura can even talk to his iPhone using the [AcuraLink Connect](https://itunes.apple.com/us/app/acuralink-connect/id610964308?mt=8) app.
 
