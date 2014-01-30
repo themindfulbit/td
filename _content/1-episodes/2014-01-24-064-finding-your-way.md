@@ -1,15 +1,26 @@
 ---
-number: '064'
-title: 'Finding Your Way'
-type: [discussion]
-people: [Gabe Weatherhead, Erik Hess]
-topics: [gps, navigation, car mounts, flying]
+number: "064"
+title: Finding Your Way
+type:
+  - discussion
+people:
+  - Gabe Weatherhead
+  - Erik Hess
+topics:
+  - gps
+  - navigation
+  - car mounts
+  - flying
 banner: /assets/img/iter-avto.jpg
 caption: '[Nationaal Archief](http://www.flickr.com/photos/nationaalarchief/4192749543/)'
-download: http://www.buzzsprout.com/7417/144921-064-finding-your-way.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/130884066%3Fsecret_token%3Ds-WKt2e&amp;color=ff5500&amp;auto_play=false&amp;show_artwork=true"></iframe>'
+download: >
+  http://www.buzzsprout.com/7417/144921-064-finding-your-way.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/130884066%3Fsecret_token%3Ds-WKt2e&color=ff5500&auto_play=false&show_artwork=true"></iframe>'
 soundcloudurl: 064-finding-your-way
-summary: 'This week's topic is navigation apps. From Gabe and Erik's earliest dedicated GPS devices to today's location-enabled everything, they break down the good and the not-so-good in today's market.'
+summary: "This week's topic is navigation apps. From Gabe and Erik's earliest dedicated GPS devices to today's location-enabled everything, they break down the good and the not-so-good in today's market."
+showtype: interview
+post_images: ""
+post_files: ""
 ---
 
 ### The Time Gabe's Wife Almost Divorced Him On the Way to Ikea
@@ -29,7 +40,7 @@ In-car navigation has come a long way in the last decade or so.  Gabe's [Garmin 
 >
 >{{ theme:partial src="image-set" title="Garmin iQue 3600" show="{{ number }}" file="ique.jpg" }}
 >
-> The thing was basically trying to be an iPhone without the phone (or data, or the web, or usability, or battery life). There were limitations, but this was nearly *four years* before the iPhone's unveiling, in a package that was basically the same size and weight (about [.4&Prime;](https://twitter.com/drdrang/status/423870083367071745) larger in each dimension and about .4&nbsp;oz heavier). It may not have been successful, but it sure was ambitious.
+> The thing was basically trying to be an iPhone without the phone (or data, or the web, or usability, or battery life). There were limitations, but this was nearly *four years* before the iPhone's unveiling, in a package that was basically the same size and weight (about [.4″](https://twitter.com/drdrang/status/423870083367071745) larger in each dimension and about .4 oz heavier). It may not have been successful, but it sure was ambitious.
 >
 > It's easy to take for granted how much power your run-of-the-mill smartphone gives you in this day and age.
 
@@ -68,11 +79,11 @@ There are a bunch of ways you can attach a phone to your vehicle. Erik has had g
 >
 > {{ theme:partial src="image" title="Satechi Bluetooth MediaRemote" show="{{ number }}" file="satechi.jpg" }}
 >
-> I've also moved on from ProClip's excellent car mounts to the more minimal [Kenu Airframe](http://store.apple.com/us/product/HC299ZM/A/kenu-airframe-portable-car-vent-mount-for-iphone?fnode=46) which works even with bulkier iPhone cases (in width, not depth &ndash; the Mophie Juice Pack Air is pushing it). 
+> I've also moved on from ProClip's excellent car mounts to the more minimal [Kenu Airframe](http://store.apple.com/us/product/HC299ZM/A/kenu-airframe-portable-car-vent-mount-for-iphone?fnode=46) which works even with bulkier iPhone cases (in width, not depth – the Mophie Juice Pack Air is pushing it). 
 >
 > {{ theme:partial src="image" title="Kenu Airframe" show="{{ number }}" file="kenu-horiz.jpg" }}
 > 
-> Its low profile, rotating vent-grip, and easy removal makes it useful for taking on trips for your rental car. You'll probably want to turn off airflow to the vent it's mounted on, since your car's climate control can make your phone ice cold or even hot enough for it to turn itself off.
+> Its low profile, rotating vent-grip, and easy removal makes it useful for taking on trips in a rental car. You'll probably want to turn off airflow to the vent it's mounted on, since your car's climate control can make your phone ice cold or even hot enough for it to turn itself off.
 >
 > Also useful is the [Griffin BlueTrip](http://www.amazon.com/Griffin-Technology-BlueTrip-iPhone-Smartphones/dp/B004KPLS7K/ref=sr_1_1?s=electronics&ie=UTF8&qid=1390591412&sr=1-1&keywords=griffin+bluetrip) for routing phone audio to vehicles (like mine) that lack [Bluetooth Audio](http://en.wikipedia.org/wiki/Bluetooth_profile#Advanced_Audio_Distribution_Profile_.28A2DP.29) integration. Its one big failing is that the microphone is both greedy and terrible, so you'll find yourself fumbling to connect via your car's hands-free connection when somebody calls.
 >
