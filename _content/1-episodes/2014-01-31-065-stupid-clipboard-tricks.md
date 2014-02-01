@@ -75,7 +75,7 @@ After reminiscing about how confusing and surprising other people's [Portal runs
 
 Many people treat the clipboard as a temporary way station between apps. While that's true, it's also an opportunity to transform and manipulate the information before it gets to its final destination.
 
-Plain text is awesome, but many apps support RTF formatting that can be a nuisance when jumping to another app like your email client. While some application support the "paste and match style" function that's not a universal option. Rather than relying on some developer's whim, try stripping out the formatting when the text is on the clipboard.
+Plain text is awesome, but many apps support RTF formatting that can be a nuisance when jumping to another app like your email client. While some applications support the "paste and match style" function, that's not a universal option. Rather than relying on some developer's whim, try stripping out the formatting when the text is on the clipboard.
 
 The clipboard is another good opportunity for converting and encoding text. Whether it be converting lower case to title case or URL encoding a string, why bother using a totally separate application when it's already on your clipboard?
 
@@ -91,7 +91,7 @@ The clipboard is another good opportunity for converting and encoding text. Whet
 >
 > I refer to these services as clipboard syncing services which is technically incorrect. I use them as a way to share clips between devices. Some use them to share clips with other people. Using any of these services to make clippings available between devices requires a conscious effort to put the material on their host.
 >
-> If what you want is true clipboard syncing then there are a few methods. [CloudClip](http://www.thinkbitz.com/cloudclip/) is what I would recommend. It doesn't have a web interface but it does sync your clipboards over the Internet using iCloud. There's also utilities that use Bluetooth, like [Scribe](http://usescribe.com) but those require your devices to be near each other and connected by Bluetooth. There's also [Command-C](http://www.danilo.to/command-c) which works over WiFi.
+> If what you want is true clipboard syncing then there are a few methods. [CloudClip](http://www.thinkbitz.com/cloudclip/) is what I would recommend. It doesn't have a web interface but it does sync your clipboards over the Internet using iCloud. There are also utilities that use Bluetooth like [Scribe](http://usescribe.com), but those require your devices to be near each other and connected by Bluetooth. There's also [Command-C](http://www.danilo.to/command-c) which works over WiFi.
 >
 > I still prefer Evernote because it's available everywhere, including the web and Windows. I also rarely wish that my clipboards were "automatically" syncing. I don't want sensitive data flying around unnecessarily. 
 
@@ -99,7 +99,7 @@ Of the three of these web-based clipboard services, Gabe prefers Evernote for it
 
 The CloudApp Mac app is a good option if just want a web-syncing clipboard tool. The Mac app is easy to use and provides a history view of the items you have uploaded.
 
-{{ theme:partial src="image-set" title="CloudApp Clipboard" show="{{ number }}" file="Screen-Shot-20140126-154558.jpg" }}
+{{ theme:partial src="image" title="CloudApp Clipboard" show="{{ number }}" file="Screen-Shot-20140126-154558.jpg" }}
 
 
 > {{ theme:partial src="aside-header" voice="gabe" text="Why Do It?" }}
@@ -125,7 +125,7 @@ The CloudApp Mac app is a good option if just want a web-syncing clipboard tool.
 
 [CopyLess](http://www.maxbor.net/portfolio/copyless) is the one Gabe prefers, because of his penchant for removing all text styling on the clipboard. This area is so well served that it may just take one feature to win you over. CopyLess has good keyboard shortcuts and does a good job of preserving information like the source app in the history view.
 
-{{ theme:partial src="image-set" title="CopyLess Clipboard" show="{{ number }}" file="Screen-Shot-20140126-163246.jpg" }}
+{{ theme:partial src="image" title="CopyLess Clipboard" show="{{ number }}" file="Screen-Shot-20140126-163246.jpg" }}
 
 > {{ theme:partial src="aside-header" voice="gabe" text="The pbcopy and pbpaste Commands" }}
 >
@@ -137,7 +137,7 @@ The CloudApp Mac app is a good option if just want a web-syncing clipboard tool.
 
 If you are already an Alfred user, then you already have a pretty good clipboard history app. Just turn it on in the Alfred preferences and configure a shortcut. The history can go back as far as 3 months but it's user configurable. You can even exclude some application like 1Password from the history to avoid holding on to sensitive information too long.
 
-{{ theme:partial src="image-set" title="Alfred Clipboard History" show="{{ number }}" file="Screen-Shot-20140126-154558.jpg" }}
+{{ theme:partial src="image" title="Alfred Clipboard History" show="{{ number }}" file="Screen-Shot-20140126-154558.jpg" }}
 
 > {{ theme:partial src="aside-header" voice="gabe" text="Local vs. Web History" }}
 >
@@ -160,7 +160,7 @@ If you are already an Alfred user, then you already have a pretty good clipboard
 
 The Keyboard Maestro clipboard history viewer can be as simple as a list of your most recent additions. You can also create and manage any number of custom clipboards separate from the system clipboard. The items in the clipboards are static and live on after reboots.
 
-{{ theme:partial src="image-set" title="Keyboard Maestro History Viewer" show="{{ number }}" file="Screen-Shot-20140126-154701.jpg" }}
+{{ theme:partial src="image" title="Keyboard Maestro History Viewer" show="{{ number }}" file="Screen-Shot-20140126-154701.jpg" }}
 
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Down the Vim rabbit hole" }}
@@ -176,19 +176,19 @@ The Keyboard Maestro clipboard history viewer can be as simple as a list of your
 
 Keyboard Maestro also provides a way to share the full contents of a clipboard instance between Macs on the same network. Jump into the preferences an enable the webserver on the Macs.
 
-{{ theme:partial src="image-set" title="Keyboard Maestro Clipboard Sharing" show="{{ number }}" file="Screen-Shot-20140126-161509.jpg" }}
+{{ theme:partial src="image" title="Keyboard Maestro Clipboard Sharing" show="{{ number }}" file="Screen-Shot-20140126-161509.jpg" }}
 
 As an exmple of how simple it is to use Keyboard Maestro to do complex clipboard manipulations, Gabe describes a macro to paste the clipboard text through typing. That macro can be as simple as a single pre-made action. With a just a couple of tweaks, you can create a macro that responds appropriately to based on the content current on the clipboard. If it's text, it gets typed out, if not, it gets pasted as normal.
 
-{{ theme:partial src="image-set" title="Type Clipboard Text" show="{{ number }}" file="Screen-Shot-20140126-154736.jpg" }}
+{{ theme:partial src="image" title="Type Clipboard Text" show="{{ number }}" file="Screen-Shot-20140126-154736.jpg" }}
 
 Gabe also mentions a "plain text clipboard" in Keyboard Maestro. This macro copies text to a named clipboard and automatically removes all styling information.
 
-{{ theme:partial src="image-set" title="The Plain Text Clipboard" show="{{ number }}" file="Screen-Shot-20140126-154748.jpg" }}
+{{ theme:partial src="image" title="The Plain Text Clipboard" show="{{ number }}" file="Screen-Shot-20140126-154748.jpg" }}
 
 Keyboard Maestro also provides actions for doing very sophisticated things with text. For example, URL encoding a string by converting things like spaces, brackets and other "un-safe" characters with a single macro action.
 
-{{ theme:partial src="image-set" title="URL Encode Clipboard" show="{{ number }}" file="Screen-Shot-20140126-154448.jpg" }}
+{{ theme:partial src="image" title="URL Encode Clipboard" show="{{ number }}" file="Screen-Shot-20140126-154448.jpg" }}
 
 ### TextExpander
 
@@ -201,3 +201,7 @@ One place where TextExpander wins, is with the cursor position token. After expa
 > {{ theme:partial src="aside-header" voice="gabe" text="The Clipboard Conduit" }}
 >
 > It's easy to think of the clipboard as just a temporary holding place between apps or for a short period of time. When I started to think of it as an entry point for scripts and macros, it transformed (pun intended) the way I worked. If I can get it on my clipboard, I can do almost anything with it.
+
+> {{ theme:partial src="aside-header" voice="potatowire" text="Until next week" }}
+> 
+> Well, that's it for this week. If you have anything that you'd like to add to or correct in the show notes you can find me on Twitter [@potatowire](http://twitter.com/potatowire/) or feel free to send an email to me at potatowire dot com.
