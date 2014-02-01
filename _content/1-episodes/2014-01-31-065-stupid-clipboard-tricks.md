@@ -83,6 +83,10 @@ The clipboard is another good opportunity for converting and encoding text. Whet
 
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="3:55" }}
 
+* [Cloud App](http://www.getcloudapp.com)
+* [Droplr](https://droplr.com/join/d/tR009a9Q)
+* [Evernote](http://evernote.com)
+
 > {{ theme:partial src="aside-header" voice="gabe" text="Sync or Share" }}
 >
 > I refer to these services as clipboard syncing services which is technically incorrect. I use them as a way to share clips between devices. Some use them to share clips with other people. Using any of these services to make clippings available between devices requires a conscious effort to put the material on their host.
@@ -90,11 +94,6 @@ The clipboard is another good opportunity for converting and encoding text. Whet
 > If what you want is true clipboard syncing then there are a few methods. [CloudClip](http://www.thinkbitz.com/cloudclip/) is what I would recommend. It doesn't have a web interface but it does sync your clipboards over the Internet using iCloud. There's also utilities that use Bluetooth, like [Scribe](http://usescribe.com) but those require your devices to be near each other and connected by Bluetooth. There's also [Command-C](http://www.danilo.to/command-c) which works over WiFi.
 >
 > I still prefer Evernote because it's available everywhere, including the web and Windows. I also rarely wish that my clipboards were "automatically" syncing. I don't want sensitive data flying around unnecessarily. 
-
-
-* [Cloud App](http://www.getcloudapp.com)
-* [Droplr](https://droplr.com/join/d/tR009a9Q)
-* [Evernote](http://evernote.com)
 
 Of the three of these web-based clipboard services, Gabe prefers Evernote for its ubiquity. Previously, [he was a CloudApp user](http://www.macdrifter.com/2012/10/cloudapp-and-droplr.html). All three can handle images and formatted text. Droplr has the best support for code snippets. They all provide options for sharing links to clippings and are private by default. You can't really go wrong with any one of these services.
 
@@ -122,7 +121,7 @@ The CloudApp Mac app is a good option if just want a web-syncing clipboard tool.
 * [TextExpander](http://smilesoftware.com/TextExpander/index.html)
 * [Brett Terpstra's TextExpander Tools](http://brettterpstra.com/projects/te-tools/)
 
-[iClip](http://www.irradiatedsoftware.com/iclip/) is a very good and highly visual clipboard manager. It's not as sophisticated as some of the tools they dive into, but it may be the right fit if you just want an easy to use clipboard history browser on your Mac.
+[iClip](http://www.irradiatedsoftware.com/iclip/) is a very good and highly visual clipboard manager. It's not as sophisticated as some of the tools Erik and Gabe dive into, but it may be the right fit if you just want an easy to use clipboard history browser on your Mac.
 
 [CopyLess](http://www.maxbor.net/portfolio/copyless) is the one Gabe prefers, because of his penchant for removing all text styling on the clipboard. This area is so well served that it may just take one feature to win you over. CopyLess has good keyboard shortcuts and does a good job of preserving information like the source app in the history view.
 
@@ -142,7 +141,7 @@ If you are already an Alfred user, then you already have a pretty good clipboard
 
 > {{ theme:partial src="aside-header" voice="gabe" text="Local vs. Web History" }}
 >
-> Since application like Keyboard Maestro and Alfred only exist on my Mac and do not sync information over the Internet, I don't have an concerns about sensitive information being recorded in the history. I use FileVault on my Mac, so in theory, someone would need to know my master password to view the history. However, there are plenty of tools that sync information through the Internet and I would think twice about allowing them to grab my passwords.
+> Since applications like Keyboard Maestro and Alfred only exist on my Mac and do not sync information over the Internet, I don't have any concerns about sensitive information being recorded in the history. I use FileVault on my Mac, so in theory someone would need to know my master password to view the history. However, there are plenty of tools that sync information through the Internet and I would think twice about allowing them to grab my passwords.
 
 ### Keyboard Maestro
 
@@ -163,6 +162,18 @@ The Keyboard Maestro clipboard history viewer can be as simple as a list of your
 
 {{ theme:partial src="image-set" title="Keyboard Maestro History Viewer" show="{{ number }}" file="Screen-Shot-20140126-154701.jpg" }}
 
+
+> {{ theme:partial src="aside-header" voice="potatowire" text="Down the Vim rabbit hole" }}
+>
+> Vim also has the ability to use multiple clipboards of a sort, and they are called registers.  If you have used Vim at all, you may already know a register as the thing you yank (copy) or delete (cut) into. This particular register is known as "unnamed," and there are [nine types of registers](http://vimdoc.sourceforge.net/htmldoc/change.html#registers) in all. Registers are identified first with the `"` character, and the unnamed register is really just named `""`. I'd like to highlight a couple of nice things about these registers.
+> 
+> As you yank (`y`) or delete (`d`, `c`, `s`, or `x`) you move your selection into `""` *and* into the numbered register `0` with a yank or register `1` for a delete or change. I often delete a few items before realized that I still needed some of the text, but the nice thing is all may not be lost, because each time you delete or change, the item in `1` is rolled to `2`, `2` to `3`, etc. Gone but not forgotten...well, except for item number nine. It actually is forgotten, so this is only good for a quick fix. If you know you will need some text again, put it into a named register. Note that the `0` is always the last yanked item, and it never rolls anywhere. That is because you don't delete text when you yank it, so it isn't lost the same way deleted text can be.
+> 
+> When the goal is text re-use, you can specify one of 26 single-letter named registers. A lower case number fills the register from scratch, but a capital letter appends to what's already in the register. I know, Vim *is* awesome. An example command to illustrate this is `"ryy`, which yanks the entire  line into the `r` register.  To get it back out of there, you could type `"rp` which puts (pastes) the yanked line into place after the cursor. 
+> 
+> It's easy to lose track of the state of your registers, so remember that you can type the command `:reg` to print out all of your defined registers. I could go on, but I hear the conductor playing me off the stage. 
+
+
 Keyboard Maestro also provides a way to share the full contents of a clipboard instance between Macs on the same network. Jump into the preferences an enable the webserver on the Macs.
 
 {{ theme:partial src="image-set" title="Keyboard Maestro Clipboard Sharing" show="{{ number }}" file="Screen-Shot-20140126-161509.jpg" }}
@@ -178,3 +189,15 @@ Gabe also mentions a "plain text clipboard" in Keyboard Maestro. This macro copi
 Keyboard Maestro also provides actions for doing very sophisticated things with text. For example, URL encoding a string by converting things like spaces, brackets and other "un-safe" characters with a single macro action.
 
 {{ theme:partial src="image-set" title="URL Encode Clipboard" show="{{ number }}" file="Screen-Shot-20140126-154448.jpg" }}
+
+### TextExpander
+
+TextExpander is typically used to expand snippets but it also includes functions for working with the clipboard contents. You can also trigger a shell script or AppleScript to be executed during snippet expansion. That's an easy way to grab the clipboard and start ripping it apart.
+
+Unlike Keyboard Maestro, TextExpander will only operate on text *after* it has been placed on the clipboard rather than converting selected text.
+
+One place where TextExpander wins, is with the cursor position token. After expanding a snippet, the cursor can be repositioned within the string.
+
+> {{ theme:partial src="aside-header" voice="gabe" text="The Clipboard Conduit" }}
+>
+> It's easy to think of the clipboard as just a temporary holding place between apps or for a short period of time. When I started to think of it as an entry point for scripts and macros, it transformed (pun intended) the way I worked. If I can get it on my clipboard, I can do almost anything with it.
