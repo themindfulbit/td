@@ -43,24 +43,6 @@ post_images:
     image: /assets/img/modernscientist.png
 post_files: ""
 ---
----
-number: '066'
-title: 'Files in the Cloud'
-type: [discussion]
-people: [Gabe Weatherhead, Erik Hess]
-topics: [files, cloud, storage, sftp, sync, dropbox]
-banner: /assets/img/file-cabinet.jpg
-caption: '[Mennonite Church 
-USA](http://www.flickr.com/photos/mennonitechurchusa-archives/9011343990/)'
-download: http://www.buzzsprout.com/7417/147653-066-files-in-the-cloud.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" 
-src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1
-32835633%3Fsecret_token%3Ds-dyR30&color=ff5500&auto_play=false&hide
-_related=false&show_artwork=true"></iframe>'
-soundcloudurl: 066-files-in-the-cloud
-summary: 'Gabe and Erik take a look at a number of different online sync and 
-storage options for moving your files to the cloud.'
----
 
 ### Gabe's Latest Crazy Online File Syncing Scheme
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="0:00" }}
@@ -115,7 +97,7 @@ stand in for you. While Transporter offers an elegant ready-to-go personal Dropb
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Welcome @modernscientist" }}
 > 
-> Because I knew that [@modernscientist](https://twitter.com/modernscientist) has been using BitTorrent Sync, I asked her to add to the disussion here
+> Because I knew that [@modernscientist](https://twitter.com/modernscientist) has been using BitTorrent Sync, I asked her to add to the disussion here.
 
 > {{ theme:partial src="aside-header" voice="modernscientist" text="BT Sync" }}
 > 
