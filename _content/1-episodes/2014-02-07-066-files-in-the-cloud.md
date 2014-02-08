@@ -47,8 +47,11 @@ post_files: ""
 ### Gabe's Latest Crazy Online File Syncing Scheme
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="0:00" }}
 
-Gabe begins the discussion of files in the cloud by describing a scheme to use a separate Dropbox account running on his
-WebFaction web hosting, because he can `sftp` from within [Sublime Text](http://www.sublimetext.com/) while being unable to install any online syncing services. Easy. The cloud is easy when you have IT autonomy...or can find a loophole.
+Gabe begins the discussion by describing a scheme to use a separate Dropbox account running on his WebFaction web hosting, because he can `sftp` from within [Sublime Text](http://www.sublimetext.com/) even though he's unable to install any online syncing services. 
+
+Easy. 
+
+The cloud is always easy when you have IT autonomy...or can find a loophole.
 
 Being able to `sftp`-out does not provide the same benefit of a proper syncing service, but there are some tools that try to help:
 
@@ -56,7 +59,7 @@ Being able to `sftp`-out does not provide the same benefit of a proper syncing s
 * [FTP Box](http://ftpbox.org/)
 * [Wappwolf](http://wappwolf.com/dropboxautomator)
 
-By offloading the sync part to a web host. Sure, you can achieve this benefit by `sftp`ing into a computer at home, but then you face issues such as [DNS](http://en.wikipedia.org/wiki/Domain_Name_System) intermediaries if you do not have a static external IP address, [opening ports](http://en.wikipedia.org/wiki/Port_forwarding) into your home network, or just having to leave a computer at home always on. You may want to consider [having](http://www.webfaction.com/signup?affiliate=potatowire) [someone](https://www.linode.com/) [else](https://www.nitrous.io/) worry about your [uptime](http://en.wikipedia.org/wiki/Uptime).
+Generally, these tools work by offloading sync to a web host. Sure, you can achieve this benefit by `sftp`ing into a computer at home, but then you face issues such as [DNS](http://en.wikipedia.org/wiki/Domain_Name_System) intermediaries if you don't have a static external IP address, [opening ports](http://en.wikipedia.org/wiki/Port_forwarding) into your home network, or just having to leave your home computer on all the time. You may want to consider [having](http://www.webfaction.com/signup?affiliate=potatowire) [someone](https://www.linode.com/) [else](https://www.nitrous.io/) worry about your [uptime](http://en.wikipedia.org/wiki/Uptime).
 
 <a href="http://xkcd.com/705/"><img src="http://imgs.xkcd.com/comics/devotion_to_duty.png" alt="The weird sense of duty really good sysadmins have can border on the sociopathic, but it's nice to know that it stands between the forces of darkness and your cat blog's servers."></a>
 
@@ -77,29 +80,23 @@ available for free or a modest fee:
 * [Google Drive](http://www.google.com/drive/about.html)
 * [Plex Cloud Sync](https://elan.plexapp.com/2013/10/24/introducing-cloud-sync-beta/)
 
-Dropbox offers a very refined experience, both through its web interface or in its seamless filesystem integration, but your Dropbox folder will often require some pruning to stay below your particular space limit. [Hazel](http://www.noodlesoft.com/hazel.php) is a big help here, as it is with so many other [menial system tasks](http://nerdquery.com/?media_only=0&query=hazel&search=1&category=-1&catid=&type=and&results=50&db=0&prefix=0).
+Dropbox offers a very refined experience, both through its web interface and its seamless filesystem integration, but your Dropbox folder will probably require some pruning to stay below your subscription's space limit. [Hazel](http://www.noodlesoft.com/hazel.php) is a big help here, as it is with so many other [menial system tasks](http://nerdquery.com/?media_only=0&query=hazel&search=1&category=-1&catid=&type=and&results=50&db=0&prefix=0).
 
 Many of us remember when cool new services 
-like [IFTTT](ifttt.com) only supported Dropbox, but web service often start 
-off integrating virtually all of the usual suspects. On the other hand, these 
-systems are not of much use if they can't sync to mobile, and right now it's 
-Dropbox that is most widely supported.
+like [IFTTT](ifttt.com) only supported Dropbox, but these days most web services  start off with integration for virtually all of the usual hosting suspects. On the other hand, these systems aren't much use if they can't sync to mobile, and right now Dropbox is most widely supported.
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="7:24" 
 person="gabe" quote="You almost need a Dropbox account at this point just to 
 use iOS" }}
 
-[Steve Jobs purportedly](http://www.forbes.com/sites/victoriabarret/2011/10/18/dropbox-the-
-inside-story-of-techs-hottest-startup/) called Dropbox a service rather than a 
-product, but since so many developers have settled on it for sync, things may not have been that different in effect. A little bit of a shakeup in the developer community could be nice, because there are some interesting alternatives:
+[Steve Jobs purportedly](http://www.forbes.com/sites/victoriabarret/2011/10/18/dropbox-the-inside-story-of-techs-hottest-startup/) called Dropbox a service rather than a product, but since so many developers have settled on it for sync, things may not have been that different in effect. A little bit of a shakeup in the developer community could be nice, because there are some interesting alternatives:
 
 * [BitTorrent Sync](http://www.bittorrent.com/sync)
 * [Transporter](http://www.filetransporter.com/)
 
-When syncing needs go beyond usual, there are more niche options available. 
+When syncing needs go beyond the usual, there are other niche options available. 
 Whether you feel the need to control your own data or you want more 
-granularity in administering permissions, you can find a service ready to 
-stand in for you. While Transporter offers an elegant ready-to-go personal Dropbox, BitTorrent Sync offers a distributed sync setup which you may be able to construct with old equipment already on had.
+granularity in administering permissions, you can probably find a service that will meet your needs. While Transporter offers an elegant ready-to-go personal Dropbox, BitTorrent Sync offers a distributed sync setup which you may be able to construct with old equipment already on had.
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Welcome @modernscientist" }}
 > 
@@ -142,7 +139,7 @@ Clicking on the "Sharing" icon in Dropbox's web interface does provide a snapsho
 {{ theme:partial src="image-set" show="{{ number }}" title="Dropbox Sharing" 
 file="dbshare.jpg" }}
 
-Google Drive also provides this information, but showing what is shared *with* 
+Google Drive also provides this information by showing what is shared *with* 
 you on its web-view sidebar, and you can view the "visibility " of all your 
 documents by clicking the  drop-down in the search field.
 
@@ -151,15 +148,12 @@ file="drivesharedwith.jpg" }}{{ theme:partial src="image-set" show="{{ number
 }}" title="Shared by You" file="drivesharing.jpg" }}
 
 One of the challenges of app integration is a cluttered Dropbox root folder. 
-As Gabe alluded to, permission polices have 
-had the unexpected benefit of causing more apps to use the app folder. Some 
-more finicky (cranky?) users think apps unnecessarily restrict themselves
+As Gabe alluded to, permission polices have had the unexpected benefit of causing more apps to use the app folder. Some more finicky (cranky?) users think apps unnecessarily restrict themselves.
 
 <blockquote class="twitter-tweet" lang="en"><p>Apps shouldn't be able to claim Dropbox support unless they let the user specify which folder to use.</p>— potatowire (@potatowire) <a href="https://twitter.com/potatowire/statuses/419599924003885056">January 4, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Regardless of whether these policies, or your own, put folders in where they 
-are not best found, you can always [symlink](http://en.wikipedia.org/wiki/Symbolic_link) to wherever you prefer.
+Regardless of whether these policies (or your own) locate folders in inconvenient or inappropriate locations, you can always [symlink](http://en.wikipedia.org/wiki/Symbolic_link) to whichever location you prefer.
 
 Syncing apps are not always the best stewards of your internet connection, 
 however, and while Drive will allow you pause sync, you can't specifically 
@@ -179,7 +173,7 @@ person="erik" quote="It's reticulating splines" }}
 * [Bitbucket](https://www.atlassian.com/software/bitbucket/overview)
 * [Sourcetree](https://www.atlassian.com/software/sourcetree/overview)
 
-We [may](http://chambersdaily.com/bradleychambers/2014/2/3/out-of-school-71-i-want-to-be-wrong) be living in a [Post-PC] world, but plenty of us would rather have 
+We [may](http://chambersdaily.com/bradleychambers/2014/2/3/out-of-school-71-i-want-to-be-wrong) be living in a Post-PC world, but plenty of us would rather have 
 explicit control over our data. [Distributed Version Control](http://en.wikipedia.org/wiki/Distributed_revision_control) with [Git](http://en.wikipedia.org/wiki/Git_(software)) 
 or [Mercurial](http://en.wikipedia.org/wiki/Mercurial) has long been a staple in programming circles, but if you 
 take the time to learn the language, you'll find 
@@ -188,7 +182,7 @@ that [repositories](http://en.wikipedia.org/wiki/Repository_(version_control)) m
 ### The Next Big Round of Innovation
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="26:00" }}
 
-When  something like sync is designed to fade into the background, the whole thing can seem a bit stale. The next innovation might involve more abstraction to the cloud, like [Evernote](https://evernote.com/‎), but hopefully some of it will be finding new convenient ways to access our data from anywhere, like [TextDrop](https://www.textdropapp.com/home/Home) .
+When  something like sync is designed to fade into the background, the whole thing can seem a bit stale. The next round of innovation might involve more abstraction to the cloud, like [Evernote](https://evernote.com/‎), but hopefully some of it will be finding new convenient ways to access our data from anywhere, like [TextDrop](https://www.textdropapp.com/home/Home) .
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Until next week" }}
 > 
