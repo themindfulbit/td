@@ -39,36 +39,47 @@ post_images:
     image: /assets/img/raspberrypi.jpg
     title: ""
   - 
-    title: ""
     image: /assets/img/modernscientist.png
+    title: ""
 post_files: ""
 ---
 
 ### Gabe's Latest Crazy Online File Syncing Scheme
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="0:00" }}
 
-Gabe describes the way he uses a separate Dropbox account tied to his 
-WebFaction web hosting plan to enable remote Sublime Text script editing from 
-his Windows machine at work.
+Gabe begins the discussion of files in the cloud by describing a scheme to use a separate Dropbox account running on his
+WebFaction web hosting, because he can `sftp` from within [Sublime Text](http://www.sublimetext.com/) while being unable to install any online syncing services. Easy. The cloud is easy when you have IT autonomy...or can find a loophole.
+
+Being able to `sftp`-out does not provide the same benefit of a proper syncing service, but there are some tools that try to help:
 
 * [Backup Box](https://mybackupbox.com/)
 * [FTP Box](http://ftpbox.org/)
 * [Wappwolf](http://wappwolf.com/dropboxautomator)
 
+By offloading the sync part to a web host. Sure, you can achieve this benefit by `sftp`ing into a computer at home, but then you face issues such as [DNS](http://en.wikipedia.org/wiki/Domain_Name_System) intermediaries if you do not have a static external IP address, [opening ports](http://en.wikipedia.org/wiki/Port_forwarding) into your home network, or just having to leave a computer at home always on. You may want to consider [having](http://www.webfaction.com/signup?affiliate=potatowire) [someone](https://www.linode.com/) [else](https://www.nitrous.io/) worry about your [uptime](http://en.wikipedia.org/wiki/Uptime).
+
+<a href="http://xkcd.com/705/"><img src="http://imgs.xkcd.com/comics/devotion_to_duty.png" alt="The weird sense of duty really good sysadmins have can border on the sociopathic, but it's nice to know that it stands between the forces of darkness and your cat blog's servers."></a>
+
+> {{ theme:partial src="aside-header" voice="potatowire" text="Again with the Synology" }}
+> 
+> This episode would have been about five minutes shorter if Gabe could have figured out how to install Dropbox on [his](http://www.macdrifter.com/2013/02/moving-from-a-drobo-to-a-synology-nas.html) [beloved](http://www.macdrifter.com/2013/06/a-synology-plex-server.html) [Synology](https://www.amazon.com/dp/B00CRB53CU?tag=potatowire-20&camp=0&creative=0&linkCode=as4&creativeASIN=B00CRB53CU). His loss is our gain.
+
 ### Online Storage and Sync Options
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="4:10" }}
+
+In a embarrassment of tech riches, there are many great sync systems 
+available for free or a modest fee:
 
 * [Cloudfuse](https://github.com/redbo/cloudfuse)
 * [Dropbox](http://dropbox.com)
 * [Box](http://box.com)
 * [Windows Azure](http://www.windowsazure.com/en-us/)
 * [Google Drive](http://www.google.com/drive/about.html)
-* [Plex Cloud 
-Sync](https://elan.plexapp.com/2013/10/24/introducing-cloud-sync-beta/)
-* [Hazel](http://www.noodlesoft.com/hazel.php)
+* [Plex Cloud Sync](https://elan.plexapp.com/2013/10/24/introducing-cloud-sync-beta/)
 
-In a true tech embarrassment of riches, there are many great sync systems 
-available for free or a modest fee. Many of us remember when cool new services 
+Dropbox offers a very refined experience, both through its web interface or in its seamless filesystem integration, but your Dropbox folder will often require some pruning to stay below your particular space limit. [Hazel](http://www.noodlesoft.com/hazel.php) is a big help here, as it is with so many other [menial system tasks](http://nerdquery.com/?media_only=0&query=hazel&search=1&category=-1&catid=&type=and&results=50&db=0&prefix=0).
+
+Many of us remember when cool new services 
 like [IFTTT](ifttt.com) only supported Dropbox, but web service often start 
 off integrating virtually all of the usual suspects. On the other hand, these 
 systems are not of much use if they can't sync to mobile, and right now it's 
@@ -78,14 +89,9 @@ Dropbox that is most widely supported.
 person="gabe" quote="You almost need a Dropbox account at this point just to 
 use iOS" }}
 
-As Gabe's "crazy scheme" using ssh, Dropbox, and WebFaction can provide a way 
-around this limitation by using Dropbox as an intermediary between multiple 
-other systems. The free 2GB account tier makes this an even easier solutions. 
-[Steve Jobs 
-purportedly](http://www.forbes.com/sites/victoriabarret/2011/10/18/dropbox-the-
+[Steve Jobs purportedly](http://www.forbes.com/sites/victoriabarret/2011/10/18/dropbox-the-
 inside-story-of-techs-hottest-startup/) called Dropbox a service rather than a 
-product, but if Apple had acquired them, iCloud would likely have become better 
-quicker, but multi-OS life would certainly have become much harder.
+product, but since so many developers have settled on it for sync, things may not have been that different in effect. A little bit of a shakeup in the developer community could be nice, because there are some interesting alternatives:
 
 * [BitTorrent Sync](http://www.bittorrent.com/sync)
 * [Transporter](http://www.filetransporter.com/)
@@ -103,7 +109,7 @@ stand in for you. While Transporter offers an elegant ready-to-go personal Dropb
 > 
 > I have recently started using [BitTorrent Sync](http://www.bittorrent.com/sync) to manage the synchronization of approximately 200 GBs of data between two Macs used for my research. While the end result is similar to traditional cloud storage options such as Dropbox, the BitTorrent protocol does not utilize a centralized server to which all clients upload and download files. Instead, every client can upload and download to all other clients. This decentralized, peer-to-peer model requires the user to provide the devices that will serve as synchronization points (peers), but that requirement also has many advantages. In my situation, it is more cost efficient to provide my own (existing) hardware than pay the monthly fee for increased cloud storage. The BitTorrent protocol also allows users to avoid storing data on servers belonging to someone else, potentially making BitTorrent Sync more private.
 > 
-> BitTorrent Sync and Dropbox have many similar features, though there are some subtle differences. Much like Dropbox, BitTorrent Sync uses a folder paradigm for determining which files are synchronized. However, folders that are synchronized by BitTorrent Sync can be located anywhere accessible to the peer, including on an attached hard drive or local network. BitTorrent Sync has options that are analogous to Dropbox's selective synchronization and version control features; however BitTorent Sync's selective synchronization recognizes basic file globbing, making it more powerful than Dropbox's implementation. Files can also be shared with others using BitTorrent Sync, and write access can optionally be restricted for these shares. Unfortunately, a share must include the entire contents of a torrent, and right now there's no option for downloading shared files through a web browser. 
+> BitTorrent Sync and Dropbox have many similar features, though there are some subtle differences. Much like Dropbox, BitTorrent Sync uses a folder paradigm for determining which files are synchronized. However, folders that are synchronized by BitTorrent Sync can be located anywhere accessible to the peer, including on an attached hard drive or local network. BitTorrent Sync has options that are analogous to Dropbox's selective synchronization and version control features; however BitTorent Sync's selective synchronization recognizes basic [file globbing](http://en.wikipedia.org/wiki/Glob_(programming)), making it more powerful than Dropbox's implementation. Files can also be shared with others using BitTorrent Sync, and write access can optionally be restricted for these shares. Unfortunately, a share must include the entire contents of a torrent, and right now there's no option for downloading shared files through a web browser. 
 > 
 > Perhaps the most important--and very subtle--difference is that BitTorrent Sync **does not** support extended attributes. This isn't an issue for me, as most of my files do not have extended attributes and those that do have them don't seem to actually use them. Usage scenarios differ, so this limitation should be tested carefully. For example, devout users of file tagging in Mavericks, which relies on extended attributes, may find that BitTorrent Sync does not suit their needs.
 > 
@@ -113,7 +119,7 @@ stand in for you. While Transporter offers an elegant ready-to-go personal Dropb
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="More info" }}
 > 
-> @modernscientist [blogged about this](http://themodernscientist.com/posts/2014/2014-02-06-torrential_file_synchronization/) on her own site in more detail, so head there if you'd link to know more. Also, the Backupsy link above will provide a discount of as much as 40%, while getting her some extra storage space. Win/win.
+> @modernscientist [blogged about this](http://themodernscientist.com/posts/2014/2014-02-06-torrential_file_synchronization/) on her own site in more detail, so head there if you'd link to know more. Also, the Backupsy link provided above will discount the service as much as 40%, while getting her some extra storage space. Win/win.
 
 ### The Challenges of Sharing and Syncing
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="11:03" }}
@@ -125,8 +131,13 @@ When you fold in additional users of your files in the cloud, you also fold in
 a lot of complexity. Syncing solutions designed for business can make this 
 complexity more manageable, but that is more capability (and cost) than most 
 individuals, families, and small businesses need. Leaving these specialized 
-solutions aside, managing your shares can be a bit of a challenge. Clicking on 
-the "Sharing" icon in Dropbox's web interface does provide a good snapshot. 
+solutions aside, managing your shares can be a bit of a challenge. 
+
+> {{ theme:partial src="aside-header" voice="potatowire" text="Forgotten" }}
+> 
+> It was me. He was trying to share with me.
+
+Clicking on the "Sharing" icon in Dropbox's web interface does provide a snapshot of your shares. 
 
 {{ theme:partial src="image-set" show="{{ number }}" title="Dropbox Sharing" 
 file="dbshare.jpg" }}
@@ -140,22 +151,15 @@ file="drivesharedwith.jpg" }}{{ theme:partial src="image-set" show="{{ number
 }}" title="Shared by You" file="drivesharing.jpg" }}
 
 One of the challenges of app integration is a cluttered Dropbox root folder. 
-As Gabe alluded to, [somewhat recent changes to the permission polices]() have 
+As Gabe alluded to, permission polices have 
 had the unexpected benefit of causing more apps to use the app folder. Some 
 more finicky (cranky?) users think apps unnecessarily restrict themselves
 
-Tweet
+<blockquote class="twitter-tweet" lang="en"><p>Apps shouldn't be able to claim Dropbox support unless they let the user specify which folder to use.</p>— potatowire (@potatowire) <a href="https://twitter.com/potatowire/statuses/419599924003885056">January 4, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Regardless of whether these policies, or your own, put folders in where they 
-are not best found, you can always [symlink]() to wherever you prefer.
-
-Apps using folders
-dropbox permissions
-aliasing
-repositories
-ifttt ios
-bandwidth
-lan link
+are not best found, you can always [symlink](http://en.wikipedia.org/wiki/Symbolic_link) to wherever you prefer.
 
 Syncing apps are not always the best stewards of your internet connection, 
 however, and while Drive will allow you pause sync, you can't specifically 
@@ -173,18 +177,18 @@ person="erik" quote="It's reticulating splines" }}
 * [Transmit](http://panic.com/transmit/)
 * [Github](https://github.com/)
 * [Bitbucket](https://www.atlassian.com/software/bitbucket/overview)
-* [Sourcetree](https://www.atlassian.com/software/ sourcetree/overview)
+* [Sourcetree](https://www.atlassian.com/software/sourcetree/overview)
 
-We [may]() be living in a [Post-PC] world, but plenty of us would rather have 
-explicit control over our data. [Distributed Version Control]() with [Git]() 
-or [Mercurial]() has long been a staple in programming circles, but if you 
-take the time to learn the [sometimes frustrating]() language, you'll find 
-that [repositories]() make good homes for prose (or verse) too.
+We [may](http://chambersdaily.com/bradleychambers/2014/2/3/out-of-school-71-i-want-to-be-wrong) be living in a [Post-PC] world, but plenty of us would rather have 
+explicit control over our data. [Distributed Version Control](http://en.wikipedia.org/wiki/Distributed_revision_control) with [Git](http://en.wikipedia.org/wiki/Git_(software)) 
+or [Mercurial](http://en.wikipedia.org/wiki/Mercurial) has long been a staple in programming circles, but if you 
+take the time to learn the language, you'll find 
+that [repositories](http://en.wikipedia.org/wiki/Repository_(version_control)) make good homes for prose (or verse) too.
 
 ### The Next Big Round of Innovation
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="26:00" }}
 
-* [TextDrop](https://www.textdropapp.com/home/Home)   
+When  something like sync is designed to fade into the background, the whole thing can seem a bit stale. The next innovation might involve more abstraction to the cloud, like [Evernote](https://evernote.com/‎), but hopefully some of it will be finding new convenient ways to access our data from anywhere, like [TextDrop](https://www.textdropapp.com/home/Home) .
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Until next week" }}
 > 
