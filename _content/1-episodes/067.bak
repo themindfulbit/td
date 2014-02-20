@@ -1,0 +1,324 @@
+---
+number: "067"
+title: Authoring iBooks with David Sparks
+type:
+  - interview
+people:
+  - Gabe Weatherhead
+  - Erik Hess
+  - David Sparks
+topics:
+  - iBooks
+  - eBooks
+  - ePub
+  - PDF
+  - writing
+  - editing
+  - dictation
+banner: /assets/img/first-class-typist.jpg
+caption: '[University of Washington](http://www.flickr.com/photos/uw_digital_images/4670206226/)'
+download: >
+  http://www.buzzsprout.com/7417/148312-067-authoring-ibooks-with-david-sparks.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/133189353%3Fsecret_token%3Ds-a8kTI&color=ff5500&auto_play=false&hide_related=false&show_artwork=true"></iframe>'
+soundcloudurl: 067-authoring-ibooks-with
+summary: 'David Sparks joins Gabe and Erik to talk about why he switched from writing paper books to writing iBooks. Along the way they touch on  ideas, tools, inspiration, collaboration, and Star Wars.'
+showtype: interview
+post_images: ""
+post_files: ""
+---
+
+### Guest Spotlight: David Sparks
+
+* [Mac at Work](https://itunes.apple.com/us/book/mac-at-work/id410102246?mt=11)
+* [iPad at Work](https://itunes.apple.com/us/book/ipad-at-work/id469510064?mt=11)
+* [60 Mac Tips](https://itunes.apple.com/us/book/60-mac-tips-volume-1/id565956630?mt=11)
+* [Paperless](https://itunes.apple.com/us/book/paperless/id520393162?mt=11)
+* [Markdown](https://itunes.apple.com/us/book/markdown/id622433972?mt=11)
+* [Email](https://itunes.apple.com/us/book/email/id743560201?mt=11)
+
+
+### Why not Paper?
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="0:00" }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="2:00" person="erik" quote="The man is very large and very busy" }}
+
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="9:00" person="macsparky" quote="Not every ePub is created equal" }}
+
+### Why Choose iBooks Over Alternative Bookstores?
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="8:35" }}
+
+
+* [Saving Mr. Banks: The Official Multi-Touch Book](https://itunes.apple.com/us/book/saving-mr.-banks-official/id775411203?mt=11)
+* [OmniGraffle 6 User Manual](https://itunes.apple.com/us/book/omnigraffle-6-user-manual/id757352657?mt=11)
+
+### How Do You Put an iBook Together?
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="17:55" }}
+
+### Starting With the Outline
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="19:10" }}
+
+* [Mind Node]()
+* [iThoughts]()
+
+### Moving to Scrivener
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="24:25" }}
+
+* [Scrivener]()
+* [Byword]()
+
+### Using Dictation
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="27:45" }}
+
+* [Siri]()
+* [Dragon]()
+
+### Working with Others
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="33:38" }}
+
+* [Google Docs]()
+
+### Working with an Editor and Typesetting in iBooks
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="36:55" }}
+
+### Choosing Topics and Getting Help
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="41:42" }}
+
+### The Future of the iBooks Format and Publishing for Yourself
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="46:00" }}
+
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="50:59" person="macsparky" quote="It's kind of the love child of iWeb, Keynote, and Pages" }}
+
+### Tell Us about Something You Like
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="53:22" }}
+
+> {{ theme:partial src="aside-header" voice="macsparky" text="Launch Center Pro" }}
+>
+> {{ theme:partial src="aside-header" voice="erik" text="HipChat" }}
+>
+> {{ theme:partial src="aside-header" voice="gabe" text="The Graveyard Book" }}
+>
+> {{ theme:partial src="aside-header" voice="gabe" text="The Golem and the Genie" }}
+>
+> {{ theme:partial src="aside-header" voice="macsparky" text="The Making of the Empire Strikes Back" }}
+> Text.
+
+***
+### pw notes while listening
+
+- dead trees
+- technical books
+- never published an ebook
+- david's two books
+- publisher's limits on pictures
+- logo reference
+- army of geeks to replace inflexible authors
+- secure diskimage --> macsparky instructions
+    - much better as a screer
+- Jan 2012 iBooks
+- ibooks author panned
+- 10,000 mistakes (hours) gladwell reference (L)
+-
+- updates on books
+
+- reasons to stick with iBA
+    - Apple experience
+    - Apple devices
+    - impediments to Amazon
+        - huge
+        - 70/30 the wrong way
+        - download fee (?)
+- also pdf (internat'l audiences)
+    -
+    - distroed as a folder
+    - unknown split between iB and pdf
+
+- iB = ebook as a new experience, not a book formar - paper
+- Apple is rich media leader
+- iB software manuals
+- iB like slide deck
+- how do even buy an iB took some teaching
+
+- workflow
+- titles in a NVAlt text file
+- start with an outline/mindmap
+    - little at a time
+    - cook on outlines for a month
+- export as opml to Scrivener
+- pages for a giggle
+    - handy for an 
+- just bullet points
+- ithoughts vs. mindnote
+    Gabe loves both of his kids
+    - ithoughts nodes with commas while dictating
+- structure
+- massive push in Scrivener
+    - no ipad app
+    - sync in dropbox by staying out of them simultaneously
+    - icloud fanboy
+    - dropbox sync conflicts --> vlose each tim he's done
+- day job
+
+- dictating
+- maloof anecsote
+- siri into drafts in the car
+- kids tyoing on the phone
+    touch tyoing
+- conversational style
+- tea house?
+- screenshots/casts at tbe end
+    - don't want to interrupt flow
+    - minimiz changes by doing them at the end
+
+- block out time (lunch pail style
+    - hard to  meet goals with kids and responxi
+    - get frustrate at himself
+    - worse, make it happen
+    
+- co-authors
+    - terpstra - screencast focus
+    - eddie - Google docs, more traditional book
+    - January 2012/13 mac tips, magic tricks
+    - Voice is the challenge
+
+- next stage of process
+    - cortez buring ships
+    - move to scrivener
+        - editor --> not just for the industrial tech flow
+        - track changes
+    - convention is vital
+
+- ibook file
+    - customizing
+    - a little customizing
+    - monkeying with the templates
+    - own look for his books
+    - craftsman style (A?)
+    - pics of covers
+    - interviews
+        - started as a way of adding in the perspectives of others
+        - trait of Field Guides
+
+- actually getting into the store
+    - kinda easy
+    - 800 number
+    - won't approve with certain problems
+        - audio problem ((c) concern
+        - machine kicks back
+
+- what if they take their ball and go home
+    - reason to use pdf
+    - doesn't think it's going anywhere
+
+- publish for yourself
+    - package up multimedia for family
+    - self-archiving anecdote
+        - also make a pdf, export video
+
+- How did you learn?
+    - by doing
+    - watching sessions(ish)
+    - Gabe 
+
+- improvements
+    - keybooard shortcuts
+    - template customization
+    - track changes
+    - enhanced support for video
+
+- love child of iWeb, Keynote, and Pages
+    - HTML 5 is backbone
+
+- DS has his own guy
+- High file sizes stress the spec
+- dilithium reference
+
+- something you like
+    - DS
+        - Launch center pro
+        - drafts kept him away
+        - launches quickly
+        - lack of an ipad app had been a limiter
+        - can you sync
+    - Erik
+        - hipchat
+        - part of dev suite
+        - free up to 5
+        - cross platform (linux & web)
+        - search
+        - good alternative to Hangouts
+        - No winner
+        - ADN and whisper
+        - iMessages only if you're all-Apple
+        - ICQ
+    - Gabe
+        - "youth wasted on science"
+        - SF
+        - PKD
+        - the incomperable
+        - neil gaiman - Graveyard Book (nursery rhymes?)
+        - creepy with good moral lessons
+        - genie and the gollum - new writer
+    - DS reattack
+        - Making of ESB
+        - Made for iBooks
+            (badge means enhanced)
+
+- Star Wars Geeking Out
+    - Gabe pics
+    - proper way to watch
+    - next episodes
+    - prequels ruined hopes
+    - Star Trek not the same, but the reboot was good
+    - trading cards
+    - doesn't hold up for Gabe
+    - Star Fleet Battles
+    - Star Wars Darth Plagueis
+        - may save prequels
+        - new movies could spread wider
+    - on film, maybe fewer effects
+
+- things we don't like
+    - metachlorians 
+    - Force choking Meme
+    - Jar Jar
+    - Jobs buying LucusArts instead of Pixar
+    - chrome ship
+    - Prequels too clean
+    - deserts too clean
+
+
