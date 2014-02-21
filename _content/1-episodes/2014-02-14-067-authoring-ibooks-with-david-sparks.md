@@ -264,12 +264,12 @@ While the iBooks Author tool is great in so many ways, there is certainly room f
 > {{ theme:partial src="aside-header" voice="macsparky" text="Making of Empire Strikes Back" }}
 > 
 > I distinctly remember covetously fondling a Star Wars “movie  magazine" as an eight-year-old. It was awesome with pictures of C3PO with his face mask off … and there was a man inside. He looked like a really old man to eight-year-old me but was, nonetheless, a man. At that point in my life my wealth was measured in packs of baseball cards, which cost 20 cents. The $10 magazine was a bridge too far for me but I remembered and 38 years later bought this iBook. My life is complete now.
-
+>
 > {{ theme:partial src="aside-header" voice="potatowire" text="Vadering" }}
 > 
-> I can't hear about Gabe and Derek's erstwhile attempts at revenge upon their foes without thinking about the Vadering meme from last Spring. Now they just sub-tweet.
-
-{{ theme:partial src="image" show="{{ number }}" title="Revenge" file="vadering.jpg" }} 
+> I can't hear about Gabe and Erik's erstwhile attempts at revenge upon their foes without thinking about the Vadering meme from last Spring. Now they just sub-tweet.
+>
+> {{ theme:partial src="image" show="{{ number }}" title="Revenge" file="vadering.jpg" }} 
 
 ### Things We Don't Like
 
