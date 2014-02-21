@@ -98,7 +98,7 @@ There is a difference between working on a book that will be collaterally publis
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Books" }}
 > 
-> I'm a little bit intimidated by the idea of an army of geeks ready to step into to replace an intransigent author, but I already knew that "respect" isn't the right word to describe a big publisher's side of the relationship.
+> I'm a little bit intimidated by the idea of an army of geeks ready to step in to replace an intransigent author, but I already knew that "respect" isn't the right word to describe a big publisher's side of the relationship.
 
 In David's case, this is best illustrated by the time he wanted to explain [how to create an encrypted disk image on a Mac](http://support.apple.com/kb/ht1578). Screenshots are nice in this case, but this is an ideal use case for a [screencast](http://en.wikipedia.org/wiki/Screencast). Screencasts can teach a true beginner how to do complex things on a computer, but you can't put video into a book.
 
