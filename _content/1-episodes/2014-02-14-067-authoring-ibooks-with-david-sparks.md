@@ -245,7 +245,7 @@ While the iBooks Author tool is great in so many ways, there is certainly room f
 > If you're a fan of Gaiman, then you do not want to miss [the Audible version](http://www.audible.com/pd/Teens/The-Graveyard-Book-Audiobook/B002V8DEKC) which is read by [Neil himself](https://twitter.com/neilhimself). This isn't the case of an egomaniac writer wanting the spotlight on the audio book. Neil is the perfect voice for his stories and he captures each character with subtle accents unique inflections. 
 > {{ theme:partial src="image-set" show="{{ number }}" title="The Graveyard Book" file="graveyard-book.jpg" }} 
 >
-> {{ theme:partial src="aside-header" voice="gabe" text="The Golem and the Genie" }}
+> {{ theme:partial src="aside-header" voice="gabe" text="The Golem and the Jinni" }}
 > 
 > [The Golem and the Jinni](http://www.amazon.com/gp/product/0062110845/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=0062110845) is the debut novel by [Hellene Wecker](http://www.helenewecker.com/the-golem-and-the-jinni-by-helene-wecker/synopsis-of-the-novel-the-golem-and-the-jinni/). I came across it from the [Incomparable podcast](http://5by5.tv/incomparable/179) and it was a very fun introduction to an entirely new (to me) genre. It pulls together mythology from various middle eastern cultures and plunks it down in the early 1900's of New York.
 > 
