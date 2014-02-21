@@ -68,6 +68,8 @@ post_files:
 
 ### Guest Spotlight: David Sparks
 
+{{ theme:partial src="image" title="David Sparks" show="{{ number }}" file="macsparky.jpg" }}
+
 David Sparks likely needs no introduction here, but it may be easy to forget how accomplished he is. As is so often the case, David probably says it best on his own "about" page, "David Sparks is an Orange County, California business attorney and a geek. David is also a [podcaster](http://www.5by5.tv/mpu/), [blogger](http://www.macsparky.com/), and author who writes about finding the best tools, hardware, and workflows for using Apple products to get work done. David also writes for [Macworld magazine](http://www.macworld.com/browse.html?author=David+Sparks) and [speaks about technology](http://macsparky.com/speaking/)."
 
 He has taught a lot of geeks many things, but what brings him here today is the "author" part of his bio. He is a published author of "dead tree" books, [*iPad at Work*](http://www.amazon.com/iPad-at-Work-David-Sparks/dp/1118100565/) and [*Mac at Work*](http://www.amazon.com/Mac-at-Work-David-Sparks/dp/0470877006/), and eBooks, [MacSparky Field Guides](http://macsparky.com/fieldguides/). There are currently six books in the series, and thankfully there are even more on the way.
@@ -78,8 +80,6 @@ He has taught a lot of geeks many things, but what brings him here today is the 
 * [Paperless](https://itunes.apple.com/us/book/paperless/id520393162?mt=11)
 * [Markdown](https://itunes.apple.com/us/book/markdown/id622433972?mt=11)
 * [Email](https://itunes.apple.com/us/book/email/id743560201?mt=11)
-
-***
 
 ### Why not Paper?
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="0:00" }}
@@ -100,7 +100,7 @@ There is a difference between working on a book that will be collaterally publis
 > 
 > I'm a little bit intimidated by the idea of an army of geeks ready to step into to replace an intransigent author, but I already knew that "respect" isn't the right word to describe a big publisher's side of the relationship.
 
-In David's case, this is best illustrated by when he wanted to explain [how to create an encrypted disk image on a Mac](http://support.apple.com/kb/ht1578). Screenshots are nice in this case, but this is an ideal use case for a [screencast](http://en.wikipedia.org/wiki/Screencast). Screencasts can teach a true beginner how to do complex things on a computer, but you can't put video into a book...
+In David's case, this is best illustrated by the time he wanted to explain [how to create an encrypted disk image on a Mac](http://support.apple.com/kb/ht1578). Screenshots are nice in this case, but this is an ideal use case for a [screencast](http://en.wikipedia.org/wiki/Screencast). Screencasts can teach a true beginner how to do complex things on a computer, but you can't put video into a book.
 
 ### Why Choose iBooks Over Alternative Bookstores?
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="8:35" }}
@@ -110,15 +110,17 @@ In David's case, this is best illustrated by when he wanted to explain [how to c
 * [OmniGraffle 6 User Manual](https://itunes.apple.com/us/book/omnigraffle-6-user-manual/id757352657?mt=11)
 * 10,000 mistakes as David's [10,000 hours of practice](http://gladwell.com/outliers/the-10000-hour-rule/)
 
-In January of 2012, David's behind-the-scenes book writing found a better outlet, when Apple announced [iBooks 2](http://www.apple.com/ibooks/) and [iBooks  Author](http://www.apple.com/ibooks-author/). The snarky Apple opinionators panned this, as always, but David immediately knew he could produce a better book.
+In January of 2012, David's behind-the-scenes book writing found a better outlet, when Apple announced [iBooks 2](http://www.apple.com/ibooks/) and [iBooks Author](http://www.apple.com/ibooks-author/). The snarky Apple opinionators panned this (as always) but David immediately knew the tools could help him produce a better book.
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Opinions" }}
 > 
 > Maybe I should have made that "opinionators" bit an aside...
 
-Already convinced that the "Apple Experience" was better and knowing that his target audience was already on Apple devices, David still had other reasons to commit to the iBooks Store. The other big contender for David's book as he struck out on his own was Amazon, but the economics of the then wrong-way 70/30 revenue split was a problem, and beyond that, Amazon's download fee is based on file size, and that meant that he would again have to ration his multimedia. Not the right direction to be going.
+Already convinced that the "Apple Experience" was better and knowing that his target audience was already on Apple devices, David still had other reasons to commit to the iBooks Store. 
 
-The iBooks Store is of course not perfect. Many potential international customers would have no access to the the book were it only sold in it, and [some of the target audience](https://twitter.com/drdrang) didn't own an iPad. iBooks author provided a solution at this point too: [PDF export](http://support.apple.com/kb/PH2809), including the media. While the [PDF specification](http://www.adobe.com/products/acrobat/create-interactive-pdf-files.html) allows for a full multimedia document, David chose to package it all in a folder, maximizing flexibility.
+The other big contender for David's first solo eBook was Amazon, but the economics of the then wrong-way 70/30 revenue split was a problem, and beyond that, Amazon's download fee is based on file size, and that meant that he would again have to ration his multimedia. Not the right direction to be going.
+
+The iBooks Store is of course not perfect. Many potential international customers would have no access to the the book were it only sold through that venue, and [some of the target audience](https://twitter.com/drdrang) didn't own an iPad. iBooks author provided a solution at this point too: [PDF export](http://support.apple.com/kb/PH2809), including the media. While the [PDF specification](http://www.adobe.com/products/acrobat/create-interactive-pdf-files.html) allows for a full multimedia document, David chose to package it all in a folder, maximizing flexibility.
 
 ### How Do You Put an iBook Together?
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="17:55" }}
@@ -163,7 +165,7 @@ Another great point here is that setting writing goals can be helpful, but it ca
 
 * [Google Docs](http://docs.google.com/)
 
-Because the challenge of writing a book was not enough, David decided to expand his work to include co-authors. Fortunately, he had the luxury of working with authors he chose himself, and each of the two co-authored books thus far have had a different feel to them. 
+Because the challenge of writing a book was not enough, David decided to expand his work to include co-authors. Fortunately, he had the luxury of working with authors he chose himself, and each of his two co-authored books has its own unique feel. 
 
 {{ theme:partial src="image-set" show="{{ number }}" title="60 Mountain Lion Tips" file="60MLTips.jpg" }}
 
@@ -171,7 +173,7 @@ First was the screencast-focused [60 Mountain Lion Tips](http://www.60tips.com/)
 
 {{ theme:partial src="image-set" show="{{ number }}" title="Markdown" file="markdown.jpg" }}
 
-David's [book about Markdown](http://macsparky.com/markdown) was a more conventional book, written with [Eddie Smith](http://www.practicallyefficient.com/about/). The major collaboration for it was done in a shared Google Doc, and one of the new challenges here was for the book to have a unified voice.
+David's [book about Markdown](http://macsparky.com/markdown) offered a more conventional approach, and was written with [Eddie Smith](http://www.practicallyefficient.com/about/). The major collaboration for it was done in a shared Google Doc, and one of the new challenges here was for the book to have a unified voice.
 
 ### Working with an Editor and Typesetting in iBooks
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="36:55" }}
@@ -188,9 +190,10 @@ MacSparky Field Guides.
 
 {{ theme:partial src="image-set" show="{{ number }}" title="Paperless" file="paperless.jpg" }}{{ theme:partial src="image-set" show="{{ number }}" title="60 Mountain Lion Tips" file="60MLTips.jpg" }}{{ theme:partial src="image-set" show="{{ number }}" title="Markdown" file="markdown.jpg" }}{{ theme:partial src="image-set" show="{{ number }}" title="Email" file="email.jpg" }} 
 
-Another unique addition to the MacSparky Field Guides is the addition of interviews, which David included to broaden the appeal beyond his own experience. An example of this need is how *Paperless* reads for those who have [Evernote](https://evernote.com) as an integral part of their workflow.
+Another unique addition to the MacSparky Field Guides is the inclusion of interviews, which David selected to broaden the book's perspective beyond his own experience. An example of this need is how *Paperless* reads for those who have [Evernote](https://evernote.com) as an integral part of their workflow.
 
-### Choosing Topics and Getting Help {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="41:42" }}
+### Choosing Topics and Getting Help 
+{{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="41:42" }}
 
 Choosing topics can be a challenge, but if you start with what you know, you'll have a ready list to begin working with. 
 
@@ -226,18 +229,12 @@ While the iBooks Author tool is great in so many ways, there is certainly room f
 > [Launch Center Pro for iPad](https://itunes.apple.com/us/app/launch-center-pro-for-ipad/id799664902?mt=8&uo=4&at=11l5Ug) was recently released and is very similar to the iPhone version. You ***can*** sync actions between the two versions too.
 
 > {{ theme:partial src="aside-header" voice="erik" text="HipChat" }}
-> 
-
-- hipchat
-- part of dev suite
-- free up to 5
-- cross platform (linux & web)
-- search
-- good alternative to Hangouts
-- No winner
-- ADN and whisper
-- iMessages only if you're all-Apple
-- ICQ
+>
+> [HipChat](https://www.atlassian.com/software/hipchat/overview) is a part of [Atlassian's](https://www.atlassian.com/) greater development suite, which also includes [JIRA](https://www.atlassian.com/software/jira), [BitBucket](https://www.atlassian.com/software/bitbucket/overview) and other popular collaborative tools.
+>
+> Despite competition from the popular new upstart [Slack](https://slack.com/), HipChat offers a solid cross-platform discussion tool, with desktop, mobile and web clients, group and individual chat threads, a decent API for integrating other services, and a reliable notification back-end. 
+>
+> It's free for teams of up to five, and is worth a look if you're in the market for a small-team chat service.
 
 > {{ theme:partial src="aside-header" voice="gabe" text="The Graveyard Book" }}
 > 
@@ -246,17 +243,14 @@ While the iBooks Author tool is great in so many ways, there is certainly room f
 > It's a story of an infant that is raised by a graveyard of ghosts. The story follows the character through puberty, all the while building on various subplots as only a master like Gaiman can do. One of my particular, favorite quirks of Gaiman's writing is how he plays on words for character names. It twists the mundane into the fantastic by slight changes in pronunciation.
 > 
 > If you're a fan of Gaiman, then you do not want to miss [the Audible version](http://www.audible.com/pd/Teens/The-Graveyard-Book-Audiobook/B002V8DEKC) which is read by [Neil himself](https://twitter.com/neilhimself). This isn't the case of an egomaniac writer wanting the spotlight on the audio book. Neil is the perfect voice for his stories and he captures each character with subtle accents unique inflections. 
-
-{{ theme:partial src="image-set" show="{{ number }}" title="The Graveyard Book" file="graveyard-book.jpg" }} 
-
+> {{ theme:partial src="image-set" show="{{ number }}" title="The Graveyard Book" file="graveyard-book.jpg" }} 
+>
 > {{ theme:partial src="aside-header" voice="gabe" text="The Golem and the Genie" }}
 > 
 > [The Golem and the Jinni](http://www.amazon.com/gp/product/0062110845/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=0062110845) is the debut novel by [Hellene Wecker](http://www.helenewecker.com/the-golem-and-the-jinni-by-helene-wecker/synopsis-of-the-novel-the-golem-and-the-jinni/). I came across it from the [Incomparable podcast](http://5by5.tv/incomparable/179) and it was a very fun introduction to an entirely new (to me) genre. It pulls together mythology from various middle eastern cultures and plunks it down in the early 1900's of New York.
 > 
 > As with most books, I experienced the Golem and the Jinni as [an Audible book](http://www.audible.com/pd/Fiction/The-Golem-and-the-Jinni-Audiobook/B00BU8KV2S/ref=a_search_c4_1_1_srTtl?qid=1392667917&sr=1-1) and it was terrific. The voice acting helped keep the myriad character straight through the almost 20 hrs of audio. George Guidall voiced the story and delivered a typically superlative performance. It's like a one-man radio drama.
-
-{{ theme:partial src="image-set" show="{{ number }}" title="The Golem and the Jinni" file="golemjinni.jpg" }} 
-
+> {{ theme:partial src="image-set" show="{{ number }}" title="The Golem and the Jinni" file="golemjinni.jpg" }} 
 > {{ theme:partial src="aside-header" voice="gabe" text="Proper Star Wars" }}
 > 
 > Most old-school Star Wars fans refuse to acknowledge the existence of Episodes I-III. However, if you have a little kid, they will certainly enjoy episode I the most. Kids love to watch other little kids. It's hard to resist, but I forced my daughter to start with A New Hope and progress through Empire and Return of the Jedi. After that set it, I then tolerated a viewing of the unmentionable episodes.
