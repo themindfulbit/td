@@ -813,6 +813,69 @@ body {
         q:after {
           content: "\201D"; 
         }
+
+        .product,
+        .app {
+          @include column(12,12);
+          padding: 0;
+          margin-top: 1em;
+          margin-bottom: 1em;
+          text-align: center;
+          
+          .fancybox {
+
+            img {
+              @include column(8,12);
+              @include push(2,12);
+              padding: 0;
+              border: 0.5em solid $lighter-gray;
+              background-color: transparent;
+            }
+
+            &.icon img {
+              border: 0;
+              padding: 0.5em;
+            }
+
+          }
+
+          .details {
+            @include column(12,12);
+            padding: 0;
+
+            li::before {
+              display: none;
+            }
+
+            li {
+              text-indent: 0;
+              padding: 0;
+            }
+
+            .name {
+              font-family: "futura-pt", sans-serif;
+              text-transform: uppercase;
+              padding-bottom: 0.5em;
+            }
+
+            .description {
+              font-style: italic;
+              font-size: 0.9em;
+              text-align: left;
+              padding-bottom: 0.5em;
+            }
+
+            .price {
+              font-family: "futura-pt", sans-serif;
+              text-transform: uppercase;
+              padding-bottom: 0.5em;
+            }
+
+            .link {
+              line-height: 1.4em
+            }
+          }
+        }
       }
 
       .show-meta {
@@ -1454,6 +1517,22 @@ body {
 
         .quote {
           font-size: 1.3em;
+        }
+      }
+
+      .product,
+      .app {
+
+        .fancybox img {
+          @include column(4,12);
+          @include push(0);
+          padding: 0;
+        }
+
+        .details {
+          @include column(8,12);
+          font-size: 1em;
+          text-align: left;
         }
       }
     }
