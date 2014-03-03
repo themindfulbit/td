@@ -3,7 +3,7 @@
       <img src="{{ _site_url }}{{ transform src="assets/img/{{ image }}" width="512" height="512" type="jpg" action="smart" }}" />
   </a>
   <ul class="details">
-    <li class="name">{{ name }}</li>
+    <li class="name"><a href="{{ amazon }}">{{ name }}</a></li>
     <li class="description">{{ description }}</li>
     <li class="price">MSRP: {{ msrp }}</li>
     {{ if manufacturer }}

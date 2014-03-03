@@ -15,7 +15,7 @@ download: >
   http://www.buzzsprout.com/7417/153960-068-microphones-and-headphones.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/137063004%3Fsecret_token%3Ds-pqFuA&color=ff5500&auto_play=false&hide_related=false&show_artwork=true"></iframe>'
 soundcloudurl: 068-microphones-and-headphones
-summary: "Microphones and headphones are the topic for the day, as Gabe and Erik talk about the ones they like and the ones they don't really like, but own anyway. Along the way, they try out a bunch of different microphones, so listen in and decide for yourself."
+summary: "Microphones and headphones are the topic of the day, as Gabe and Erik talk about the ones they like and the ones they don't really like, but own anyway. Along the way, they try out a bunch of different microphones, so listen in and decide for yourself."
 showtype: interview
 post_images:
   - 
@@ -31,6 +31,12 @@ post_files: ""
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="0:00" }}
 
 A good pair of headphones is indispensable for recording, editing and enjoying audio. Here is a short list of the headphones we use, and why.
+
+> {{ theme:partial src="aside-header" voice="gabe" text="Closed Cups" }}
+>
+> I generally prefer [closed cup headphones](http://en.wikipedia.org/wiki/Headphones#Open_or_closed_back) and do not enjoy noise-cancellation. Closed cup headphones reduce outside noise and prevent audio bleed-through to the external world. Unfortunately, it seems hard to get closed-cups that work well. I imagine it is difficult to isolate the internal diaphragm but still allow for air movement. I've tried some in the past that actually made my eyes water because of internal pressure changes with deeper bass.
+> 
+> I'm also not a big fan of ear buds for long term use. Unless I spend a small fortune (which I have) on custom-modeled performer-grade earbuds, they hurt over time. While some brands are more comfortable than others, after 4-6 hours of use, I always end up with ear pain which can lead to tinnitus.
 
 #### Erik's Headphones
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="0:51" }}
@@ -49,16 +55,6 @@ A good pair of headphones is indispensable for recording, editing and enjoying a
 >
 > * None that I've experienced
 
-
-
-
-> {{ theme:partial src="aside-header" voice="gabe" text="Closed Cups" }}
->
-> I generally prefer [closed cup headphones](http://en.wikipedia.org/wiki/Headphones#Open_or_closed_back) and do not enjoy noise-cancellation. Closed cup headphones reduce outside noise and prevent audio bleed through to the external world. Unfortunately, it seems hard to get closed-cups that work well. I imagine it is difficult to isolate the internal diaphragm but still allow for air movement. I've tried some in the past that actually made my eyes water because of internal pressure changes with deeper base.
-> 
-> I'm also not a big fan of ear buds for long term use. Unless I spend a small fortune (which I have) on custom modeled performer grade ear buds, they hurt over time. While some brands are more comfortable than others, after 4-6 hours of use, I always end up with ear pain which can lead to tinnitus.
-
-
 {{ theme:partial src="product" show="{{ number }}" image="ath-m50.jpg" name="Audio-Technica ATH-M50" description="Designed especially for professional monitoring and mixing, these studiophones feature an efficient collapsible design for space-saving portability and storage. " msrp="$199.00" manufacturer="http://www.audio-technica.com/cms/headphones/0edf909675b1be4d/index.html" amazon="http://www.amazon.com/gp/product/B000ULAP4U/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000ULAP4U&linkCode=as2&tag=theminbit-20" }}
 
 #### Gabe's Headphones
@@ -66,7 +62,7 @@ A good pair of headphones is indispensable for recording, editing and enjoying a
 
 > {{ theme:partial src="aside-header" voice="gabe" text="Beyerdynamic DT 770 Pro" }}
 >
-> [Beyerdynamic](http://north-america.beyerdynamic.com) is a solid company. They're small but they make excellent headphones that are dependable and well made. I'm using the 250 ohm version of the DT770 Pro. This means they are effectively driven by a laptop but in theory struggle with an iPod. Beyerdynamic also makes a 32 and 600 Ohm model. The higher the impedence, the better the coil response but a lower impedence requires more power to achieve the same volume. In reality, I think the 250 Ohm model works fine with an iPhone or laptop.
+> [Beyerdynamic](http://north-america.beyerdynamic.com) is a solid company. They're small but produce excellent headphones that are dependable and well made. I'm using the 250 ohm version of the DT770 Pro. This means they are effectively driven by a laptop but in theory struggle with an iPod. Beyerdynamic also makes a 32 and 600 Ohm model. The higher the impedence, the better the coil response but a lower impedence requires more power to achieve the same volume. In reality, I think the 250 Ohm model works fine with an iPhone or laptop.
 > 
 > I can't stress enough how comfortable these headphones are. I can easily wear them all day without a problem. There's enough flex in the headband that there's little pressure. Since the cups do not rest on the ears, they also do not bother me while wearing glasses. Oh, and they sound amazing.
 > 
@@ -114,7 +110,7 @@ A good pair of headphones is indispensable for recording, editing and enjoying a
 ### The Microphones We Use to Record
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="4:36" }}
 
-The first thing you need if you're going to start recording a podcast is a good microphone. Unless you want to set up a mixing board and really geek out on the audio, there seem to be two primary contenders in this space, the RØDE Podcaster and the Blue Yeti.
+The first thing you need if you're going to start recording a podcast is a good microphone. Unless you want to set up a mixing board and really geek out on the audio, you'll want a USB mic. There are two major contenders in this space: the RØDE Podcaster and the Blue Yeti.
 
 #### Gabe's Recording Microphone
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="4:51" }}
@@ -193,7 +189,7 @@ The first two help you reposition the mic and isolate it from vibrations (like t
 
 Sometimes a big boom-mounted studio microphone isn't what you're looking for. Mobile and lecture-hall recording requires something a little more portable and discreet. These smaller microphones may work well where the others don't.
 
-We've taken several different microphones and swapped them out during our recording session, so you can hear how they sound. In general, we've tried to leave the levels and other sound settings the same so you can hear the differences between each microphone as accurately as possible.
+We've taken several different microphones and swapped them out during our recording session, so you can hear how they sound. We've tried to leave the levels and other sound settings the same so you can hear the differences between each microphone as accurately as possible.
 
 #### Samson Meteor
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="8:15" }}
@@ -232,7 +228,7 @@ We've taken several different microphones and swapped them out during our record
 
 > {{ theme:partial src="aside-header" voice="gabe" text="A Few Words on the Go Mic" }}
 >
-> Samson has a real nack for making interesting looking microphones. The Go Mic looks like they shrunk a Mic from the 50s down to an impossible scale and attached it to a clip. It *looks* like it would be the perfect travel Mic until you realize that it needs a Micro USB connection. This makes the entire package pretty bulky.
+> Samson has a real knack for making interesting-looking microphones. The Go Mic looks like they shrunk a Mic from the 50s down to an impossible scale and attached it to a clip. It *looks* like it would be the perfect travel Mic until you realize that it needs a Micro USB connection. This makes the entire package pretty bulky.
 > 
 > This is a good recommendation for someone that wants to record auditorium lectures or meetings with a laptop or iPhone. It can be placed in the center of the table and has several different directional recording modes. I wouldn't recommend it for basic dictation with an iPhone but it could be a good option for an external (and superior) dictation microphone for a Mac or Windows PC.
 >
@@ -257,9 +253,9 @@ We've taken several different microphones and swapped them out during our record
 
 > {{ theme:partial src="aside-header" voice="gabe" text="A Few Words on the IMM-6" }}
 >
-> Wow. This thing is tiny. It plugs directly into the headphone jack of an iPhone or Mac and has a pass through for monitor headphones. The audio quality is certainly good enough for recording a lecture or doing dictation.
+> Wow. This thing is tiny. It plugs directly into the headphone jack of an iPhone or Mac and has a pass-through for monitor headphones. The audio quality is certainly good enough for recording a lecture or doing dictation.
 > 
-> Did I mention this thing is tiny? Pop it in your pocket or lose it in a backpack. It's basically a microphone that can always be with you that provides a huge improvement over the built-in mic of most electronics.
+> Did I mention this thing is tiny? Pop it in your pocket or lose it in a backpack. It's basically a microphone that can always be with you and provides a huge improvement over the built-in mic of most electronics.
 >
 > ##### Pros
 > 
@@ -279,7 +275,7 @@ We've taken several different microphones and swapped them out during our record
 
 Here are a few desktop-use microphones that we had lying around for comparison. One (the Logitech G35) is a gaming headset, and the others are built-in headsets on a MacBook Pro and Apple 27" Thunderbolt Display. 
 
-Unsurprisingly none of these options are optimal for high-quality recording.
+Unsurprisingly, none of these options are optimal for high-quality recording.
 
 #### Logitech G35
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="16:20" }}
@@ -344,18 +340,19 @@ Our final category takes us into the mobile world, with a few earbuds and one Bl
 {{ theme:partial src="product" show="{{ number }}" image="klipsch-s4i.jpg" name="Klipsch Image S4i Noise-Isolating Headset" description="The Image S4i employs a moving coil micro-speaker with controlled damping for smooth, full-bodied sound that’s similar to a more expensive design." msrp="$99.99" manufacturer="http://www.klipsch.com/s4i-headphones" amazon="http://www.amazon.com/gp/product/B00264GYMG/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00264GYMG&linkCode=as2&tag=theminbit-20" }}
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="An easy upgrade" }}
+>
 > I think [Comply foam earphone tips](http://www.complyfoam.com/)  are a great upgrade to any set of in-ear headphones. They have different versions which will fit nearly every conceivable model out there. Your mileage may vary, but I won't ever willingly go without them again.
-
-{{ theme:partial src="product" show="{{ number }}" image="comply.jpg" name="Comply Tx-400 Isolation PLUS Earphone Tips (3-pack)" description="Delivering maximum isolation for a superior audio experience, Comply Isolation Plus Tx-Series provide amazing comfort and stay-in-ear fit --- so you hear music the way it was meant to be heard. " msrp="$19.95" manufacturer="http://www.complyfoam.com/" amazon="http://www.amazon.com/gp/product/B002OOWBWA/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B002OOWBWA&linkCode=as2&tag=potatowire-20" }}
+>
+> {{ theme:partial src="product" show="{{ number }}" image="comply.jpg" name="Comply Tx-400 Isolation PLUS Earphone Tips (3-pack)" description="Delivering maximum isolation for a superior audio experience, Comply Isolation Plus Tx-Series provide amazing comfort and stay-in-ear fit --- so you hear music the way it was meant to be heard. " msrp="$19.95" manufacturer="http://www.complyfoam.com/" amazon="http://www.amazon.com/gp/product/B002OOWBWA/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B002OOWBWA&linkCode=as2&tag=potatowire-20" }}
 
 #### Sennheiser px 200-II i
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="22:55" }} 
 
 > {{ theme:partial src="aside-header" voice="gabe" text="All-around Headphones" }}
 >
-> These are my all-around headphones. I wear them on walks and when doing casual work where I need some mobility. I think the audio quality of the microphone is much better than most other iPhone headphones. While I have no problems talking with them on, some users may tend to yell a bit more since there is no pass through from the mic to the headphones (sidetone).
+> These are my all-around headphones. I wear them on walks and when doing casual work where I need some mobility. I think the audio quality of the microphone is much better than most other iPhone headphones. While I have no problems talking with them on, some users may tend to yell a bit more since there is no pass-through from the mic to the headphones (sidetone).
 > 
-> The px 200 are comfortable but do rest directly on the ears. Wearing them with glasses on all day is very painful for me.
+> The PX 200 are comfortable but do rest directly on the ears. Wearing them with glasses on all day is very painful for me.
 > 
 > The sound is pretty good for this level of headphone. While I wouldn't say they provide "sound isolation" there's not a lot of audio bleed through to the outside world. They do reduce outside noise but are in no way closed headphones.
 >
@@ -378,7 +375,7 @@ Our final category takes us into the mobile world, with a few earbuds and one Bl
 
 > {{ theme:partial src="aside-header" voice="gabe" text="You Already Have Them" }}
 >
-> Apple definitely improved their ear bud design with the latest iteration. The new design is comfortable for some and down-right painful for others. Personally, I like them but I think they are too expensive. They audio quality is good enough for listening to podcasts but is pretty rubbish for music.
+> Apple definitely improved their earbud design with the latest iteration. The new shape is comfortable for some and down-right painful for others. Personally, I like them but I think they are too expensive. They audio quality is good enough for listening to podcasts but is pretty rubbish for music.
 > 
 > The microphone in the Apple ear buds does a pretty good job of isolating outside noise on a call or when doing dictation. However, the audio fidelity is terrible.
 >
@@ -412,9 +409,9 @@ Our final category takes us into the mobile world, with a few earbuds and one Bl
 > * They feel cheap
 > * You get what you pay for
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="26:03" person="erik" quote="That's my favorite number" }}
-
 {{ theme:partial src="product" show="{{ number }}" image="rptcm125w.jpg" name="Panasonic RP-TCM125-K In-Ear Headphones with Mic" description="ErgoFit design for ultimate comfort and fit. Compatible with iPhone, Palm, and Blackberry." msrp="$19.99" manufacturer="http://shop.panasonic.com/shop/model/RP-TCM125-W?t=specs" amazon="http://www.amazon.com/Panasonic-RP-TCM125-W--Ear-Headphones-White/dp/B00E4LGU1Y/ref=sr_1_1?s=electronics&ie=UTF8&qid=1393435697&sr=1-1&keywords=panasonic+rp-tcm125-w" }}
+
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="26:03" person="erik" quote="That's my favorite number" }}
 
 #### Motorola HX550
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="26:43" }}
@@ -431,7 +428,7 @@ Our final category takes us into the mobile world, with a few earbuds and one Bl
 > ##### Cons
 >
 > * Terrible microphone
-> * Typically unknowable one-button UI
+> * Typically unfathomable one-button UI
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="27:14" person="gabe" quote="Are you inside of a car trunk?" }}
 
@@ -442,9 +439,10 @@ Our final category takes us into the mobile world, with a few earbuds and one Bl
 > I love Bluetooth headphones, but not [Bluetooth headsets](https://twitter.com/BleuToot). My clear-favorite model is the LG Tone HBS700 (I bought the older version based on the Amazon reviews). They have great sound, to my ears, and you can also use them to place and receive phone calls, but this leads to the only potential negative mark on them. The Tones vibrate if your phone rings, and the part of them that vibrates sits against your collarbone. I was so startled the first time I received a call that I peed myself and fell out of the chair I was sitting in. 
 >
 > I'm kidding. I kept my seat.
- 
-{{ theme:partial src="product" show="{{ number }}" image="lgtone.jpg" name="The LG Tone Wireless Stereo Headset" description="The LG Tone Wireless Stereo Headset brings you the high quality audio experience of stereo sound with the convenience of Bluetooth technology." msrp="$69.99" manufacturer="http://www.lg.com/us/bluetooth-accessories" amazon="http://www.amazon.com/gp/product/B0052YFYFK/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0052YFYFK&linkCode=as2&tag=potatowire-20" }}
+>
+> {{ theme:partial src="product" show="{{ number }}" image="lgtone.jpg" name="The LG Tone Wireless Stereo Headset" description="The LG Tone Wireless Stereo Headset brings you the high quality audio experience of stereo sound with the convenience of Bluetooth technology." msrp="$69.99" manufacturer="http://www.lg.com/us/bluetooth-accessories" amazon="http://www.amazon.com/gp/product/B0052YFYFK/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B0052YFYFK&linkCode=as2&tag=potatowire-20" }}
 
+<div></div>
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Until next week" }}
 > 
