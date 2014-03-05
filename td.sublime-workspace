@@ -1,0 +1,348 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "---\nnumber: \"069\"\ntitle: Writing Workflows\ntype:\n  - discussion\npeople:\n  - Gabe Weatherhead\n  - Erik Hess\ntopics:\n  - writing\n  - workflows\n  - ios\n  - mac\nbanner: /assets/img/headphones.jpg\ncaption: \"\"\ndownload: \nplayer: ''\nsoundcloudurl: 067-writing-workflows\nsummary: \"Gabe takes time from his high-volume blogging schedule to join Erik for a chat about writing tools and workflows. Along the way, they touch on the apps and devices they use to write for the web, work, and themselves.\"\n---\n\n### A High-Volume Writer\n{{ theme:partial src=\"timestamp\" url=\"{{ soundcloudurl }}\" time=\"0:00\" }}\n\nGabe's workflow\n\n* Mind map\n* Plain text outline\n* iThoughts\n* Markdown\n* nvAlt\n* TextDrop\n* Sublime Text\n* Sublime Text SFTP Plugin\n\n> {{ theme:partial src=\"aside-header\" voice=\"potatowire\" text=\"Until next week\" }}\n> \n> Well, that's it for this week. If you have anything that you'd like to add to or correct in the show notes you can find me on Twitter [@potatowire](http://twitter.com/potatowire/), or feel free to send an email to me at potatowire dot com.\n",
+			"file": "_content/1-episodes/2014-03-10-069-writing-workflows.md",
+			"file_size": 1031,
+			"file_write_time": 130384505680000000,
+			"settings":
+			{
+				"buffer_size": 1058,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib2,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/Europa/Media/Audio/TD/Random/headsets.md",
+		"/Volumes/Europa/Media/Audio/TD/068 - Mics and Headphones/mics-and-headphones.md",
+		"/Users/erik/Dropbox/dev/td/_content/1-episodes/2014-02-07-066-files-in-the-cloud.md",
+		"/Users/erik/Dropbox/dev/td/_content/1-episodes/2014-02-14-067-authoring-ibooks-with-david-sparks.md",
+		"/Users/erik/Dropbox/dev/nam/_content/3-columns/2-from-the-editor/2013-11-11-1200-a-welcome-from-the-editor.md",
+		"/Users/erik/Dropbox/dev/nam/_content/3-columns/1-founders-update/2013-11-11-1300-a-multifamily-lawyer.md",
+		"/Users/erik/Dropbox/dev/nam/_content/2-news/2013-10-06-2142-weinstein-pays-record-price-for-cielo.md",
+		"/Users/erik/Dropbox/dev/nam/_content/2-news/2013-10-06-2141-riverstone-retains-management-of-the-bravern.md",
+		"/Users/erik/Dropbox/dev/nam/_content/2-news/2013-10-06-2140-bozzuto-and-mgl-team-up-to-develop-virginia-project.md",
+		"/Users/erik/Dropbox/dev/nam/_content/2-news/2013-10-06-2139-relateds-stephen-ross-gives-200-million-to-alma-mater.md",
+		"/Users/erik/Dropbox/dev/nam/_content/2-news/2013-10-06-2138-forest-city-and-greenland-join-forces-to-develop-atlantic-yards.md",
+		"/Users/erik/Dropbox/dev/nam/_content/2-news/2013-10-06-2137-greystar-acquires-460-million-portfolio-of-multifamily-assets.md",
+		"/Users/erik/Dropbox/dev/nam/_content/2-news/2013-10-06-2136-brach-wins-regional-property-manager-award.md",
+		"/Users/erik/Dropbox/dev/nam/_content/2-news/2013-10-06-2135-bozzutos-julie-smith-wins-executive-of-the-year-award.md",
+		"/Users/erik/Dropbox/dev/nam/_content/2-news/2013-10-06-2134-winndevelopments-fish-wins-rising-star-award.md",
+		"/Users/erik/Dropbox/dev/nam/_content/2-news/2013-10-06-2133-real-estate-forum-recognizes-bruce-ward.md",
+		"/Users/erik/Dropbox/dev/nam/_content/2-news/2013-10-06-2132-fortune-recognizes-camden.md",
+		"/Users/erik/Dropbox/dev/nam/_content/2-news/2013-10-06-2130-bh-management-hires-four-regional-managers.md",
+		"/Users/erik/Dropbox/dev/nam/_content/2-news/2013-10-06-2131-laramar-hires-devon-bergman-and-matt-levy.md",
+		"/Users/erik/Dropbox/dev/nam/_content/2-news/2013-10-06-2129-village-green-hires-weingast.md",
+		"/Users/erik/Dropbox/dev/nam/_content/2-news/2013-10-06-2128-prestige-hires-a-president-and-vice-president.md",
+		"/Users/erik/Dropbox/dev/nam/_content/2-news/2013-10-06-2127-hunt-hires-clay-parker.md",
+		"/Users/erik/Dropbox/dev/nam/_content/2-news/2013-10-06-2126-winn-hires-two-executives.md",
+		"/Users/erik/Dropbox/dev/nam/_content/2-news/2013-10-06-2125-riverstone-hires-shelley-james.md",
+		"/Users/erik/Dropbox/dev/nam/_content/2-news/2013-10-06-2123-laramar-promotes-joe-coleman.md",
+		"/Users/erik/Dropbox/dev/nam/_content/2-news/2013-10-06-2120-greystar-promotes-david-reid.md",
+		"/Users/erik/Dropbox/dev/nam/_content/1-journal/2013-11-11-2200-whats-namfl.md",
+		"/Users/erik/Dropbox/dev/nam/_content/1-journal/2013-11-11-2000-rent-or-own.md",
+		"/Users/erik/Dropbox/dev/nam/_content/1-journal/2013-11-11-0900-help-us.md",
+		"/Users/erik/Dropbox/dev/nam/_content/1-journal/2013-11-11-1000-by-the-numbers.md",
+		"/Users/erik/Dropbox/dev/nam/_content/2-news/2013-10-06-2120-aimco-promotes-john-bezzant.md",
+		"/Users/erik/Dropbox/dev/nam/_content/1-journal/page.md",
+		"/Users/erik/Dropbox/dev/nam/_content/2-news/page.md",
+		"/Users/erik/Dropbox/dev/nam/_content/3-columns/page.md",
+		"/Users/erik/Dropbox/dev/nam/_content/4-events/page.md",
+		"/Users/erik/Dropbox/dev/nam/_content/404.md",
+		"/Users/erik/Dropbox/dev/nam/_content/5-about/page.md",
+		"/Users/erik/Dropbox/dev/nam/_content/6-join/page.md",
+		"/Users/erik/Dropbox/dev/nam/_content/page.md",
+		"/Users/erik/Dropbox/dev/nam/_content/1-journal/2013-11-11-1200-a-welcome-from-the-editor.md",
+		"/Users/erik/Dropbox/dev/nam/_config/users/staff.yaml",
+		"/Users/erik/Dropbox/dev/nam/_config/users/mark.yaml",
+		"/Users/erik/Dropbox/dev/nam/_config/users/admin.yaml",
+		"/Users/erik/Dropbox/dev/nam/_content/2-news/feed.md",
+		"/Users/erik/Dropbox/dev/nam/_content/3-columns/feed.md",
+		"/Users/erik/Dropbox/dev/nam/_content/1-journal/feed.md",
+		"/Users/erik/Dropbox/dev/nam/_content/3-calendar/_2013-08-20-begin-preparations.md",
+		"/Users/erik/Dropbox/dev/tmb/_content/1-blog/2014-01-17-0730-optimizing-your-podcast-site-for-huffduffer.md",
+		"/Users/erik/Dropbox/dev/td/_content/1-episodes/2014-01-17-063-intro-to-responsive-design.md",
+		"/Users/erik/Dropbox/dev/td/_themes/td/partials/footer.html",
+		"/Users/erik/Dropbox/dev/td/_themes/td/templates/post.html",
+		"/Users/erik/Dropbox/dev/td/_themes/td/templates/home.html",
+		"/Users/erik/Dropbox/dev/td/_themes/td/layouts/default.html",
+		"/Users/erik/Dropbox/Shared/Technical Difficulties/Episodes/063 - Intro to Responsive Web Design/show-outline.md",
+		"/Users/erik/Dropbox/dev/td/_themes/td/sass/td.scss",
+		"/Users/erik/Dropbox/dev/td/_content/1-episodes/_2014-01-10-062-drunk-with-power.md",
+		"/Users/erik/Dropbox/dev/namfl/wp-content/themes/namfl/functions.php",
+		"/Volumes/Europa/Media/Audio/Generational/GTD Reboot/show-notes.md",
+		"/Users/erik/Dropbox/dev/td/_content/1-episodes/2013-07-23-044-facing-email-with-eddie-smith.md",
+		"/Users/erik/Dropbox/dev/td/_content/2-about/page.md",
+		"/Users/erik/Dropbox/dev/td/_content/1-episodes/2013-08-6-046-delighting-in-the-details-with-shawn-blanc.md",
+		"/Users/erik/Dropbox/dev/td/_themes/td/templates/episodes.html",
+		"/Users/erik/Dropbox/dev/td/_content/1-episodes/2013-09-17-052-rob-trew-brett-terpstra.md",
+		"/Users/erik/Dropbox/dev/td/_content/1-episodes/2013-09-09-051-david-lanham-on-illustration.md",
+		"/Users/erik/Dropbox/dev/td/_content/1-episodes/2013-09-04-050-lists-of-lists-of-lists.md",
+		"/Users/erik/Dropbox/dev/td/_content/1-episodes/fields.yaml",
+		"/Users/erik/Dropbox/dev/td/_content/1-episodes/2013-09-24-053-justin-lancy.md",
+		"/Users/erik/Dropbox/dev/td/_themes/td/templates/default.html",
+		"/Users/erik/Dropbox/dev/td/_themes/td/templates/about.html",
+		"/Users/erik/Dropbox/dev/td/_themes/td/templates/feed.html",
+		"/Users/erik/Dropbox/dev/td/_themes/td/templates/page.html",
+		"/Users/erik/Dropbox/dev/td/_content/1-episodes/2013-09-04-0206-050-lists-of-lists-of-lists.md",
+		"/Users/erik/Dropbox/dev/td/_content/1-episodes/2013-09-09-1028-david-lanham-on-illustration.md",
+		"/Users/erik/Dropbox/dev/td/_content/1-episodes/2013-09-24-0232-053-justin-lancy.md",
+		"/Users/erik/Dropbox/dev/td/_content/1-episodes/2013-09-17-0734-052-rob-trew-brett-terpstra.md",
+		"/Users/erik/Dropbox/dev/td/_themes/td/theme.yaml",
+		"/Users/erik/Dropbox/dev/td/_content/1-shows/2013-09-24-0232-053-justin-lancy.md",
+		"/Users/erik/Dropbox/dev/td/_content/1-shows/2013-09-17-0734-052-rob-trew-brett-terpstra.md",
+		"/Users/erik/Dropbox/dev/td/_content/1-episodes/page.md",
+		"/Users/erik/Dropbox/dev/td/_themes/td/partials/nav.html",
+		"/Users/erik/Dropbox/dev/namfl/_themes/namfl/theme.yaml",
+		"/Users/erik/Dropbox/dev/namfl/_config/settings.yaml",
+		"/Users/erik/Dropbox/dev/namfl/_config/environments/dev.yaml",
+		"/Users/erik/Dropbox/dev/namfl/_config/environments/live.yaml",
+		"/Users/erik/Dropbox/dev/namfl/wp-content/themes/namfl/screen.css",
+		"/Users/erik/Dropbox/dev/namfl/wp-content/themes/namfl/sass/screen.scss",
+		"/Users/erik/Dropbox/dev/namfl/wp-content/themes/namfl/style.css",
+		"/Users/erik/Dropbox/dev/namfl/config.rb",
+		"/Users/erik/Dropbox/dev/namfl/wp-content/themes/namfl/stylesheets/print.css",
+		"/Users/erik/Dropbox/dev/namfl/wp-content/themes/namfl/config.rb",
+		"/Users/erik/Dropbox/dev/senexlaw/_config/environments/live.yaml",
+		"/Users/erik/Dropbox/dev/senexlaw/_themes/senex/js/senex.js",
+		"/Users/erik/Dropbox/MAMP/htdocs/sage-black/media/sass/screen.scss",
+		"/Users/erik/Dropbox/dev/senexlaw/_themes/senex/templates/default.html",
+		"/Users/erik/Dropbox/dev/senexlaw/_config/settings.yaml",
+		"/Users/erik/Dropbox/dev/senexlaw/_config/environments/dev.yaml",
+		"/Users/erik/Dropbox/dev/senexlaw/config.rb",
+		"/Users/erik/Dropbox/dev/senexlaw/_themes/senex/sass/senex.scss",
+		"/Users/erik/Dropbox/dev/tmb/_content/1-blog/2013-09-30-1025-contrasts.md",
+		"/Users/erik/Dropbox/dev/tmb/_content/1-blog/2013-04-17-0740-everyday-sounds-from-the-station.md",
+		"/Users/erik/Dropbox/dev/newest-cigars/application/views/cigars/rss.php",
+		"/Users/erik/Dropbox/dev/newest-cigars/application/views/template/rss.php",
+		"/Users/erik/Dropbox/dev/newest-cigars/application/views/admin/cigars/show.php",
+		"/Users/erik/Dropbox/dev/newest-cigars/application/views/cigars/show.php",
+		"/Applications/MAMP/conf/php5.4.10/php.ini",
+		"/Applications/MAMP/bin/php/php5.4.10/conf/php.ini",
+		"/Users/erik/Dropbox/dev/newest-cigars/application/views/template/pub-temp.html",
+		"/Volumes/Europa/Media/Audio/Generational/Justin Lancy/show-notes.md",
+		"/Users/erik/Dropbox/dev/td/_themes/td/config.rb",
+		"/Volumes/Europa/Media/Audio/Generational/Paul Mayne/show-notes.md",
+		"/Volumes/Europa/Media/Audio/Generational/Text Editors/show-notes.md",
+		"/Volumes/Europa/Media/Audio/Generational/Jack Hirsch/show-notes.md",
+		"/Volumes/Europa/Media/Audio/Generational/Shawn Blanc/show-notes.md",
+		"/Volumes/Europa/Media/Audio/Generational/Jason Snell/show-notes.md",
+		"/Volumes/Europa/Media/Audio/Generational/Eddie Smith/show-notes.md",
+		"/Volumes/Europa/Media/Audio/Generational/Anxiety/show-notes.md"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/erik/Dropbox/dev/nam/_content/",
+			"/Users/erik/Dropbox/dev/namfl/_content/",
+			"/Users/erik/Dropbox/dev/namfl",
+			"/Users/erik/Dropbox/dev/tmb"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"gabe",
+			">\n",
+			"title:",
+			".",
+			"liste",
+			"5em",
+			"HTML5 Blank Custom Post",
+			"/)",
+			"		<",
+			".title",
+			"statamic.com",
+			"cigar-list",
+			"main-nav",
+			"admin-list",
+			"add-cigar",
+			"admin-menu",
+			"strength",
+			"input",
+			"background-image",
+			"sidebar",
+			"ad"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"---\ntitle:"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "_content/1-episodes/2014-03-10-069-writing-workflows.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1058,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								728,
+								728
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "td.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 252.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
