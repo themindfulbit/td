@@ -158,9 +158,9 @@ In the event of a website emergency, if all Erik had was an iPad he'd turn to Di
 
 If you're looking to write the next great novel, or even take part in [NaNoWriMo](http://nanowrimo.org/), you have probably considered Scrivener. It's like an IDE for books. The lack of an iOS version is its only Achilles' Heel, but hey, at least it runs on [Windows](https://www.literatureandlatte.com/scrivener.php?platform=win) and even [Linux](http://www.literatureandlatte.com/forum/viewforum.php?f=33).
 
-> {{ theme:partial src="aside-header" voice="potatowire" text="MmmHmmm" }}
+> {{ theme:partial src="aside-header" voice="potatowire" text="Bah" }}
 >
-> Bah, so does Vim.
+> Vim runs everywhere, too.
 
 {{ theme:partial src="app" show="{{ number }}" image="scrivener.png" name="Scrivener" description="Scrivener is a powerful content-generation tool for writers that allows you to concentrate on composing and structuring long and difficult documents. While it gives you complete control of the formatting, its focus is on helping you get to the end of that awkward first draft." price="$45" developer="https://www.literatureandlatte.com/scrivener.php" appstore="" }}
 
