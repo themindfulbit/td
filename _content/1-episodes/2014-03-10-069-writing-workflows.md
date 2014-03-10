@@ -27,13 +27,13 @@ summary: >
 showtype: interview
 post_images:
   - 
-    title: Project File Actions
     image: >
       /assets/img/Screen-Shot-20140309-165006.jpg
+    title: Project File Actions
   - 
-    title: Open Recent Project
     image: >
       /assets/img/Screen-Shot-20140309-164818.jpg
+    title: Open Recent Project
 post_files: ""
 ---
 
@@ -50,7 +50,7 @@ The good news is that many of these same bloggers are also in the habit of spend
 
 #### Gabe's Desktop workflow
 
-Gabe [has mentioned mind maps before](http://technicaldifficulties.us/assets/img/mapsdrifter.jpg) but (as he points out) after a great deal of practice at using [mind maps](http://en.wikipedia.org/wiki/Mind_map) in general, and [iThoughts](http://www.macdrifter.com/2013/12/ithoughts-is-the-premier-mind-mapping-software-for-mac-and-ios-sponsor.html) in particular, it's now just the way he thinks about a big project.
+Gabe [has "mentioned" mind maps before](http://technicaldifficulties.us/assets/img/mapsdrifter.jpg) but after a great deal of experience using [them](http://en.wikipedia.org/wiki/Mind_map) in general, and [iThoughts](http://www.macdrifter.com/2013/12/ithoughts-is-the-premier-mind-mapping-software-for-mac-and-ios-sponsor.html) in particular, it's now just the way he thinks about a big project.
 
 {{ theme:partial src="app" show="{{ number }}" image="ithoughts.png" name="iThoughtsX" description="iThoughtsX is a mind mapping app for the Mac. It is based upon and fully compatible with iThoughts on iPad and iPhone." price="$59.99" developer="http://toketaware.com/ithoughtsx-gallery/" appstore="https://itunes.apple.com/us/app/ithoughtsx/id720669838?mt=12" }}
 
@@ -77,8 +77,12 @@ You'll love the slick user interface, extraordinary features and amazing perform
 > 
 > There are [a few plugins I recommend](http://www.macdrifter.com/2014/01/a-sublime-writing-experience.html) for Sublime Text that make for a better writing experience. None of them are necessary. But at the very least, get comfortable with the [commands and memorize the keyboard shortcuts built](http://www.macdrifter.com/2012/08/sublime-text-shortcuts-for-writing.html) into Sublime Text. Being able to quickly jump through a document makes all the difference when working on a large block of text. I also recommend [learning how to use split panes](http://www.macdrifter.com/2012/07/sublime-text-working-with-multiple-panes.html).
 
+* Here is a look at the Project dialog boxes that Gabe and Erik highlighted:
+
+{{ theme:partial src="image-set" title="Project File Actions" show="{{ number }}" file="Screen-Shot-20140309-165006.jpg" }}{{ theme:partial src="image-set" title="Open Recent Project" show="{{ number }}" file="Screen-Shot-20140309-164818.jpg" }}
+
 Through the wonders of TextDrop, you can even have ubiquitous access to your notes in 
-[almost any web browser](http://windows.microsoft.com/en-us/internet-explorer/download-ie). Gabe also makes extensive use of the [Sublime Text SFTP Plugin](http://wbond.net/sublime_packages/sftp).
+[almost any web browser](http://windows.microsoft.com/en-us/internet-explorer/download-ie). Gabe also makes extensive use of the [Sublime Text SFTP Plugin](http://wbond.net/sublime_packages/sftp), which provides him another way to remotely manage his text, while being at home in Sublime Text.
 
 {{ theme:partial src="app" show="{{ number }}" image="textdrop.png" name="TextDrop" description="The fastest way to edit text files in your Dropbox using a web browser.
 It's designed for situations where you don't have Dropbox installed, like when you're at work." price="$12.75 per year" developer="" appstore="https://www.textdropapp.com/home/Home" }}
@@ -90,7 +94,7 @@ Also note that even when your writing's eventual destination is an email recipie
 #### Gabe's Mobile Workflow
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="8:25" }}
 
-On the mobile side of the house, things are in some ways the same. Without commenting on whether the iPad is a consumption or production device, many of us do the bulk of our work on a conventional desktop or laptop. Likewise most of us do need to do some work on a mobile device, and there are many great apps that permit easy work with plain text and markdown, and Dropbox to it all in sync.
+On the mobile side of the house, things are in some ways much the same. Without commenting on whether the iPad is a consumption or production device, many of us do the bulk of our work on a conventional desktop or laptop. Likewise most of us do need to do some work on a mobile device, and there are many great apps that permit easy work with plain text and markdown, and Dropbox to it all in sync.
 
 {{ theme:partial src="app" show="{{ number }}" image="editorial.png" name="Editorial" description="Editorial is a plain text editor for the iPad with powerful automation tools and a beautiful inline preview for writing Markdown." price="$4.99" developer="http://omz-software.com/editorial/" appstore="https://itunes.apple.com/us/app/editorial/id673907758?mt=8" }}
 
@@ -100,32 +104,36 @@ On the mobile side of the house, things are in some ways the same. Without comme
 >
 > For the uninitiated, Editorial is a Dropbox-enabled plain text editor for the iPad. At launch, it provides a light and dark writing mode, document syncing, Dropbox powered version control, MultiMarkdown preview and a built-in web browser. But the real power of Editorial is the workflow engine that extends the application in a variety of ways. There are plenty of overviews of the application, as well as a book you can buy to learn more about the tool. But I'd recommend a few workflows to get you started:
 >
-> * Paste Workflow to save effort trying to trigger the pop-over
-> * Select Forward and Backward by whole words
-> * Find and Replace workflow
-> * Smart Case conversion workflow
+> * [Paste Workflow](http://www.editorial-workflows.com/workflow/5906336214679552/lpfMDuLW-lw) to save effort trying to trigger the pop-over
+> * [Select Forward](http://www.editorial-workflows.com/workflow/5094432508477440/nJJOEEx8jO4) and [Backward](http://www.editorial-workflows.com/workflow/5839987559890944/gXuCdz-pNuc) by whole words
+> * [Find and Replace workflow](http://www.editorial-workflows.com/workflow/6224352504709120/IKMQXCyjYZY) (or by [popover](http://www.editorial-workflows.com/workflow/4719258525237248/QeLTWGkgAaw))
+> * [Smart Case conversion workflow](http://www.editorial-workflows.com/workflow/5736959615959040/xoAcFROrjZA)
 
 ##### Some Other Noteworthy Mobile Editors
 
-Gabe and Erik discussed iOS text editing on an [earlier episode](http://technicaldifficulties.us/episodes/048-tackling-ios-text-editors) of the show, but there were a couple worth mentioning again here.
+Gabe and Erik discussed iOS text editing on an [earlier episode](http://technicaldifficulties.us/episodes/048-tackling-ios-text-editors) of the show, but there are a couple worth revisiting here.
 
 {{ theme:partial src="app" show="{{ number }}" image="nebulous-notes.png" name="Nebulous Notes" description="Nebulous Notes is a powerful, yet simple, text editor for note-takers, writers, and coders. Your notes are backed up and available from Dropbox, the best back-up service in the world. " price="$7.99" developer="http://nebulousapps.net/" appstore="https://itunes.apple.com/us/app/nebulous-notes/id375006422?mt=8" }}
 
 {{ theme:partial src="app" show="{{ number }}" image="writeroom.png" name="WriteRoom" description="Write without distractions. WriteRoom is a full screen writing environment. Unlike the cluttered word processors you're used to, WriteRoom lets you focus on writing.
 " price="Unavailable" developer="http://blog.hogbaysoftware.com/post/72442052582/winter-2014-newsletter" appstore="" }}
 
-Another useful tip is to separate certain bits of your writing from the main body of your other work. A perfect example of this is the way Gabe keeps his personal writing in a different app: Day One. He [discussed](http://www.macdrifter.com/2012/02/dayone-and-time-travel.html) his journaling workflow on his blog in 2012.
+While any of these apps can separate types of writing through the use of Dropbox directory structure, a useful tip is to separate out certain bits of your writing by confining it to a specific app. A perfect example of this is the way Gabe keeps his personal writing in Day One. He [discussed](http://www.macdrifter.com/2012/02/dayone-and-time-travel.html) his journaling workflow on his blog in 2012.
+
+> {{ theme:partial src="aside-header" voice="potatowire" text="Day One and Time Travel" }}
+>
+> You owe it to yourself to go read Gabe's article now. We'll wait for you to come back.
+
+While this can just be a simple way to ensure no personal detail is accidentally shared, don't discount the mental benefits of shifting your mindset by switching to a single-purpose app.
 
 {{ theme:partial src="app" show="{{ number }}" image="dayone.png" name="Day One" description="Record life as you live it. From once-in-a-lifetime events to everyday moments, Day One's elegant interface makes journaling your life a simple pleasure. " price="$4.99" developer="http://dayoneapp.com/" appstore="https://itunes.apple.com/us/app/day-one-journal-diary/id421706526?mt=8" }}
-
-While this may just be a simple way to ensure no personal details are shared accidentally, don't discount the mental benefits of shifting your mindset by switching to a single-purpose app.
 
 ### A Low-Volume Writer
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="15:20" }}
 
-At the other end of the spectrum is Erik, at best a semi-periodic "blogger." Erik may only [write](http://themindfulbit.com/blog/1v0) [rarely](http://technicaldifficulties.us/episodes/063-intro-to-responsive-design) for the web, he has a workflow that's as considered as Gabe's, but often takes a more developer's bent.
+At the other end of the spectrum is Erik, at best a semi-periodic "blogger." While Erik may only [write](http://themindfulbit.com/blog/1v0) [rarely](http://technicaldifficulties.us/episodes/063-intro-to-responsive-design) for the web, he has a workflow that's as well-considered as Gabe's, but often having more of a developer's bent.
 
-Sublime Text is his primary tool, as his workflow centers primarily around development on his [laptop](http://store.apple.com/us/buy-mac/macbook-pro?product=MD101LL/A&step=config). Most of the time that he doesn't have a laptop with him, he's not in a position to write anyway. 
+Sublime Text is his primary tool, as his workflow centers development using his [laptop](http://store.apple.com/us/buy-mac/macbook-pro?product=MD101LL/A&step=config). Most of the time that he doesn't have a laptop with him, he's not in a position to write anyway. 
 
 Erik [may not always](http://www.youtube.com/watch?v=U18VkI0uDxE) write when mobile, but when he does it's usually with Byword.
 
@@ -139,27 +147,31 @@ The main things going for Byword are its speed, its simplicity, and its near-uni
 ### Tools We'd Like to Use
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="22:00" }}
 
-Dictation is one of those things that seems like a perfect way to write on the go. Instead it usually ends in frustration. iOS dictation is improving, but you still have to wait for the server. Android dictation is significantly faster and gives you the benefit of seeing your text appear word by word, but it still leaves something to be desired.
+Dictation is one of those things that seems like a perfect way to write on the go. Instead it usually ends in frustration. iOS dictation is improving, but you still have to wait for the server. Android dictation is significantly faster and gives you the benefit of seeing your text appear word by word, but in the end you're still talking into a rectangle in your hand.
 
 {{ theme:partial src="app" show="{{ number }}" image="dragon.png" name="Dragon Dictation" description="Dragon Dictation is an easy-to-use voice recognition application powered by Dragon® NaturallySpeaking® that allows you to easily speak and instantly see your text or email messages. In fact, it’s up to five (5) times faster than typing on the keyboard." price="Free" developer="http://www.nuancemobilelife.com/"
 appstore="https://itunes.apple.com/us/app/dragon-dictation/id341446764?mt=8" }}
 
 In the event of a website emergency, if all Erik had was an iPad he'd turn to Diet Coda from Panic. With recent updates, it supports local files, Dropbox, 1Password integration, and a bunch of really great features you'd expect in a desktop editor. Unfortunately, as a paranoid shut-in, Erik rarely ventures out without his laptop.
 
-*Still, if the laptop died...*
+*Although, if the laptop died...*
 
 {{ theme:partial src="app" show="{{ number }}" image="diet-coda.png" name="Diet Coda" description="What happens when you take the power of Coda, our Mac OS X web code editor, and crunch it down into a powerful, feature-packed iPad package? Introducing Diet Coda, the best way to make quick edits to your websites on the go." price="$19.99" developer="http://panic.com/dietcoda/" appstore="https://itunes.apple.com/us/app/diet-coda/id500906297?mt=8&uo=4&at=11lqk8" }}
 
-If you're looking to write the next great novel, or even take part in NaNoWriMo, you probably considered using Scrivener. It's like an IDE for books. Lack of an iOS version is its only Achilles' Heel, but hey, at least it runs on [Windows](https://www.literatureandlatte.com/scrivener.php?platform=win) and even [Linux](http://www.literatureandlatte.com/forum/viewforum.php?f=33).
+If you're looking to write the next great novel, or even take part in [NaNoWriMo](http://nanowrimo.org/), you have probably considered Scrivener. It's like an IDE for books. The lack of an iOS version is its only Achilles' Heel, but hey, at least it runs on [Windows](https://www.literatureandlatte.com/scrivener.php?platform=win) and even [Linux](http://www.literatureandlatte.com/forum/viewforum.php?f=33).
+
+> {{ theme:partial src="aside-header" voice="potatowire" text="MmmHmmm" }}
+>
+> Bah, so does Vim.
 
 {{ theme:partial src="app" show="{{ number }}" image="scrivener.png" name="Scrivener" description="Scrivener is a powerful content-generation tool for writers that allows you to concentrate on composing and structuring long and difficult documents. While it gives you complete control of the formatting, its focus is on helping you get to the end of that awkward first draft." price="$45" developer="https://www.literatureandlatte.com/scrivener.php" appstore="" }}
 
-Many of us have aspirational tools that we really think should be perfect for *something*. Our hosts are no different in this, but if a tool is a right fit, then it will likely worm its way into your workflow rather than be denied.
+Many of us have aspirational tools that we really think should be perfect for... *something*. Our hosts are no different in this, but then again, if a tool really is a right fit, it will likely worm its way into your workflow, rather than be denied.
 
 ### Tools We Use Without Even Thinking About Them
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="27:12" }}
 
-Some workflow tools exist in the background, rarely needed (like a system dictionary). But some are so vital as to be a source of worry when their fate is considered, like TextExpander. For Erik it is the glue that holds his writing together, but we all fear dependency...
+Some workflow tools like the system dictionary, exist in the background rarely(?) needed. Some tools like TextExpander, are so vital that minor panic attackes ensue whenever their absense is considered. For Erik TextExpander is the glue that holds his writing together, but we should all fear dependency...
 
 > {{ theme:partial src="aside-header" voice="erik" text="Expanding on Expansion" }}
 >
@@ -171,7 +183,7 @@ Some workflow tools exist in the background, rarely needed (like a system dictio
 >
 > {{ theme:partial src="app" show="{{ number }}" image="textexpander.png" name="TextExpander" description="Type more with less effort! TextExpander saves your fingers and your keyboard, expanding custom keyboard shortcuts into frequently-used text and pictures." price="$34.95" developer="https://smilesoftware.com/TextExpander/index.html" appstore="https://itunes.apple.com/us/app/textexpander-for-mac/id405274824?mt=12" }}
 > 
-> Yet one of my biggest uses for TextExpander is writing for this site and my blog. You see, I do a sort of meta expansion &ndash; using snippets to write templates. On many modern blogging platforms [Template Engines](http://garann.github.io/template-chooser/) allow you to do TextExpander-like expansion of a few variables into a whole lot more HTML. They keep the markdown files of your blog fairly readable, and they make it easy to extend your design with new functionality quickly and painlessly.
+> Yet one of my biggest uses for TextExpander is writing for this site and my blog. You see, I do a sort of meta expansion – using snippets to write templates. On many modern blogging platforms [Template Engines](http://garann.github.io/template-chooser/) allow you to do TextExpander-like expansion of a few variables into a whole lot more HTML. They keep the markdown files of your blog fairly readable, and they make it easy to extend your design with new functionality quickly and painlessly.
 >
 > Discussing the virtues and perils of templating engines is beyond the scope of these notes, but to give you an idea of what they can do, I've included below a few of the templates we use on this site, along with the corresponding TextExpander snippet, the HTML and rendered output.
 
@@ -179,13 +191,7 @@ Some workflow tools exist in the background, rarely needed (like a system dictio
 
 These go just beneath our section headers and embed a linked Soundcloud time stamp.
 
-Typing this:
-
-~~~
-;tsc
-~~~
-
-Turns into this template:
+Typing `;tsc` turns into this template:
 
 {{ noparse }}
 ~~~
@@ -209,13 +215,7 @@ And ends up looking like this:
 
 What about those fancy time stamped pull quotes? Same deal.
 
-This:
-
-~~~
-;tfq
-~~~
-
-Becomes this (once I've filled in the variable values):
+`;tfq` becomes this (once I've filled in the variable values):
 
 {{ noparse }}
 ~~~
@@ -231,7 +231,7 @@ Which is rendered as this HTML:
     <td class="avatar">
       <img src="http://technicaldifficulties.us/assets/img/erik-avatar.png" />
     </td>
-    <td class="quote"><a href="https://soundcloud.com/techdiffpodcast/069-writing-workflows#t=0:00">&ldquo;I am serious.&rdquo;</a></td>
+    <td class="quote"><a href="https://soundcloud.com/techdiffpodcast/069-writing-workflows#t=0:00">“I am serious.”</a></td>
   </tr>
 </table>
 ~~~
@@ -244,13 +244,7 @@ Which comes out looking like this:
 
 We even use it to optimize images, using the built-in [transform](http://statamic.com/learn/documentation/tags/transform) tag in [our CMS](http://statamic.com).
 
-This:
-
-~~~
-;timg
-~~~
-
-Becomes this:
+`;timg` becomes this:
 
 {{ noparse }}
 ~~~
