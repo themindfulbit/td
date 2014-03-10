@@ -131,11 +131,9 @@ While this can just be a simple way to ensure no personal detail is accidentally
 ### A Low-Volume Writer
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="15:20" }}
 
-At the other end of the spectrum is Erik, at best a semi-periodic "blogger." While Erik may only [write](http://themindfulbit.com/blog/1v0) [rarely](http://technicaldifficulties.us/episodes/063-intro-to-responsive-design) for the web, he has a workflow that's as well-considered as Gabe's, but often having more of a developer's bent.
+At the other end of the spectrum is Erik, at best a semi-periodic "blogger." While Erik may only [write](http://themindfulbit.com/blog/1v0) [rarely](http://technicaldifficulties.us/episodes/063-intro-to-responsive-design) for the web, he does write. For Erik, new tools should fit into his existing workflow, which is development focused.
 
-Sublime Text is his primary tool, as his workflow centers development using his [laptop](http://store.apple.com/us/buy-mac/macbook-pro?product=MD101LL/A&step=config). Most of the time that he doesn't have a laptop with him, he's not in a position to write anyway. 
-
-Erik [may not always](http://www.youtube.com/watch?v=U18VkI0uDxE) write when mobile, but when he does it's usually with Byword.
+Sublime Text is his primary tool, as his workflow is almost purely [laptop](http://store.apple.com/us/buy-mac/macbook-pro?product=MD101LL/A&step=config) based. Most of the time that he doesn't have a laptop with him, he's not in a position to write anyway. Erik [may not always](http://www.youtube.com/watch?v=U18VkI0uDxE) write when mobile, but when he does it's usually with Byword.
 
 {{ theme:partial src="app" show="{{ number }}" image="byword.png" name="Byword" description="Byword is designed to make writing more enjoyable with Markdown on your iPhone and iPad. " price="$4.99" developer="http://bywordapp.com/" appstore="https://itunes.apple.com/us/app/byword/id482063361?mt=8" }}
 
@@ -213,9 +211,7 @@ And ends up looking like this:
 
 #### Fancy Quotes
 
-What about those fancy time stamped pull quotes? Same deal.
-
-`;tfq` becomes this (once I've filled in the variable values):
+What about those fancy time stamped pull quotes? Same deal. `;tfq` becomes this (once I've filled in the variable values):
 
 {{ noparse }}
 ~~~
@@ -242,13 +238,11 @@ Which comes out looking like this:
 
 #### Images
 
-We even use it to optimize images, using the built-in [transform](http://statamic.com/learn/documentation/tags/transform) tag in [our CMS](http://statamic.com).
-
-`;timg` becomes this:
+We even use it to optimize images, using the built-in [transform](http://statamic.com/learn/documentation/tags/transform) tag in [our CMS](http://statamic.com). Typing `;timg` turns into this:
 
 {{ noparse }}
 ~~~
-{{ theme:partial src="image" title="None keystrokes, such expansion. Wow." show="{{ number }}" file="doge.jpg" }}
+{{ theme:partial src="image" title="Much expand. Wow." show="{{ number }}" file="doge.jpg" }}
 ~~~
 {{ /noparse }}
 
@@ -264,7 +258,7 @@ To this (with the variables left intact so you can see under the hood):
 
 To this:
 
-{{ theme:partial src="image" title="None keystrokes, such expansion. Wow." show="{{ number }}" file="doge.jpg" }}
+{{ theme:partial src="image" title="Much expand. Wow." show="{{ number }}" file="doge.jpg" }}
 
 ### Capturing Thoughts
 {{ theme:partial src="timestamp" url="{{ soundcloudurl }}" time="30:30" }}
