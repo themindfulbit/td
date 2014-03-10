@@ -77,7 +77,7 @@ You'll love the slick user interface, extraordinary features and amazing perform
 > 
 > There are [a few plugins I recommend](http://www.macdrifter.com/2014/01/a-sublime-writing-experience.html) for Sublime Text that make for a better writing experience. None of them are necessary. But at the very least, get comfortable with the [commands and memorize the keyboard shortcuts built](http://www.macdrifter.com/2012/08/sublime-text-shortcuts-for-writing.html) into Sublime Text. Being able to quickly jump through a document makes all the difference when working on a large block of text. I also recommend [learning how to use split panes](http://www.macdrifter.com/2012/07/sublime-text-working-with-multiple-panes.html).
 
-* Here is a look at the Project dialog boxes that Gabe and Erik highlighted:
+Here's a look at the Project dialog boxes that Gabe and Erik highlighted:
 
 {{ theme:partial src="image-set" title="Project File Actions" show="{{ number }}" file="Screen-Shot-20140309-165006.jpg" }}{{ theme:partial src="image-set" title="Open Recent Project" show="{{ number }}" file="Screen-Shot-20140309-164818.jpg" }}
 
