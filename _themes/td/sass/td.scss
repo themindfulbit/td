@@ -356,6 +356,18 @@ body {
           margin-bottom: 0.4em;
           line-height: 1.1em;
           padding-bottom: 0.3em;
+
+          a,
+          a:visited,
+          a:active,
+          a:focus {
+            color: $black;
+            outline: 0;
+
+            &:hover {
+              color: $black;
+            }
+          }
         }
 
         h4 {

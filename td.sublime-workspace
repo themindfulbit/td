@@ -7,17 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "---\nnumber: \"069\"\ntitle: Writing Workflows\ntype:\n  - discussion\npeople:\n  - Gabe Weatherhead\n  - Erik Hess\ntopics:\n  - writing\n  - workflows\n  - ios\n  - mac\nbanner: /assets/img/headphones.jpg\ncaption: \"\"\ndownload: \nplayer: ''\nsoundcloudurl: 067-writing-workflows\nsummary: \"Gabe takes time from his high-volume blogging schedule to join Erik for a chat about writing tools and workflows. Along the way, they touch on the apps and devices they use to write for the web, work, and themselves.\"\n---\n\n### A High-Volume Writer\n{{ theme:partial src=\"timestamp\" url=\"{{ soundcloudurl }}\" time=\"0:00\" }}\n\nGabe's workflow\n\n* Mind map\n* Plain text outline\n* iThoughts\n* Markdown\n* nvAlt\n* TextDrop\n* Sublime Text\n* Sublime Text SFTP Plugin\n\n> {{ theme:partial src=\"aside-header\" voice=\"potatowire\" text=\"Until next week\" }}\n> \n> Well, that's it for this week. If you have anything that you'd like to add to or correct in the show notes you can find me on Twitter [@potatowire](http://twitter.com/potatowire/), or feel free to send an email to me at potatowire dot com.\n",
-			"file": "_content/1-episodes/2014-03-10-069-writing-workflows.md",
-			"file_size": 1031,
-			"file_write_time": 130384505680000000,
-			"settings":
-			{
-				"buffer_size": 1058,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -56,6 +45,9 @@
 	},
 	"file_history":
 	[
+		"/Users/erik/Dropbox/dev/td/_content/1-episodes/2014-03-31-072-passwords.md",
+		"/Users/erik/Dropbox/dev/td/_content/1-episodes/2014-03-24-071-reading.md",
+		"/Users/erik/Dropbox/dev/td/_content/1-episodes/2014-03-17-070-using-slack.md",
 		"/Volumes/Europa/Media/Audio/TD/Random/headsets.md",
 		"/Volumes/Europa/Media/Audio/TD/068 - Mics and Headphones/mics-and-headphones.md",
 		"/Users/erik/Dropbox/dev/td/_content/1-episodes/2014-02-07-066-files-in-the-cloud.md",
@@ -232,39 +224,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "_content/1-episodes/2014-03-10-069-writing-workflows.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1058,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								728,
-								728
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -340,7 +301,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 252.0,
+	"side_bar_width": 186.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
