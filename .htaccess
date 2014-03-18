@@ -11,7 +11,7 @@ RewriteRule ^feed/?$ http://feedpress.me/td/feed [R=302,NC,L]
 RewriteEngine On
 RewriteCond %{HTTP_USER_AGENT} !FeedValidator [NC]
 RewriteCond %{HTTP_USER_AGENT} !FeedPress [NC]
-RewriteRule ^itunes/?$ http://feedpress.me/td/feed [R=302,NC,L]
+RewriteRule ^itunes/?$ http://feedpress.me/td/podcast [R=302,NC,L]
 # END FEEDPRESS
 
 # If you're running in a subfolder (like http://example.com/statamic),
