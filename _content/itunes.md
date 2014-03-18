@@ -1,6 +1,6 @@
 ---
 _layout: feed
-_template: itunes
+_template: feed
 _type: rss
 folder: episodes
 ---
