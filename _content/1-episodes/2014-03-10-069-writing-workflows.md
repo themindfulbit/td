@@ -85,7 +85,7 @@ Through the wonders of TextDrop, you can even have ubiquitous access to your not
 [almost any web browser](http://windows.microsoft.com/en-us/internet-explorer/download-ie). Gabe also makes extensive use of the [Sublime Text SFTP Plugin](http://wbond.net/sublime_packages/sftp), which provides him another way to remotely manage his text, while being at home in Sublime Text.
 
 {{ theme:partial src="app" show="{{ number }}" image="textdrop.png" name="TextDrop" description="The fastest way to edit text files in your Dropbox using a web browser.
-It's designed for situations where you don't have Dropbox installed, like when you're at work." price="$12.75 per year" developer="" appstore="https://www.textdropapp.com/home/Home" }}
+It's designed for situations where you don't have Dropbox installed, like when you're at work." price="$12.75 per year" developer="https://www.textdropapp.com/home/Home" appstore="" }}
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="8:07" person="gabe" quote="I made her use Pages before they ruined Pages" }}
 
