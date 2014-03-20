@@ -1,0 +1,16 @@
+<div class="app">
+  <a class="fancybox icon" alt="{{ name }}" title="{{ name }}" rel="page" href="{{ _site_url }}assets/img/{{ image }}" >
+      <img src="{{ _site_url }}assets/img/{{ image }}" />
+  </a>
+  <ul class="details">
+    <li class="name"><a href="{{ appstore }}">{{ name }}</a></li>
+    <li class="description">{{ description }}</li>
+    <li class="price">Price: {{ price }}</li>
+    {{ if developer }}
+      <li class="link"><a href="{{ developer }}">Developer's Page</a></li>
+    {{ endif }}
+    {{ if playstore }}
+      <li class="link"><a href="{{ playstore }}">Play Store</a></li>
+    {{ endif }}
+  </ul>
+</div>
