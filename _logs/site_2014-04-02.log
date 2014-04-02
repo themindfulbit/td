@@ -1,0 +1,6 @@
+ERROR|Wed, 02 Apr 2014 08:34:56 -0400|core|Transform|/|::1|dev|Could not find requested image to transform: /Users/erik/Dropbox/dev/td/assets/img/http://imgs.xkcd.com/comics/password_strength.png
+ERROR|Wed, 02 Apr 2014 08:34:56 -0400|core|Transform|/|::1|dev|Could not find requested image to transform: /Users/erik/Dropbox/dev/td/assets/img/http://imgs.xkcd.com/comics/password_strength.png
+ERROR|Wed, 02 Apr 2014 08:34:57 -0400|core|Transform|/|::1|dev|Could not find requested image to transform: /Users/erik/Dropbox/dev/td/assets/img/http://imgs.xkcd.com/comics/password_strength.png
+ERROR|Wed, 02 Apr 2014 08:39:08 -0400|core|Transform|/|::1|dev|Could not find requested image to transform: /Users/erik/Dropbox/dev/td/
+ERROR|Wed, 02 Apr 2014 08:39:08 -0400|page|content|/%E2%80%9Dhttp://localhost:8888/%E2%80%9D|::1|dev|404 - Page not found. There is a bad link on <a href="/">/</a>.
+ERROR|Wed, 02 Apr 2014 08:39:08 -0400|page|content|/%E2%80%9Dhttp://localhost:8888/%E2%80%9D|::1|dev|404 - Page not found. There is a bad link on <a href="/">/</a>.

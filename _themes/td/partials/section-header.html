@@ -1,4 +1,6 @@
 <h3><a href="{{ _site_url }}episodes/{{ url }}#{{ title|lower|slugify }}" id="{{ title|lower|slugify }}">{{ title }}</a></h3>
+{{ if time }}
 <div class="timestamp">
   <span class="listen">Listen to this section on SoundCloud:</span> <a href="https://soundcloud.com/techdiffpodcast/{{ url }}#t={{ time }}">{{ time }}</a>
 </div>
+{{ endif }}
