@@ -1,0 +1,147 @@
+---
+number: "073"
+title: Becoming an Author with Helene Wecker
+type:
+  - interview
+people:
+  - Gabe Weatherhead
+  - Erik Hess
+  - Helene Wecker
+topics:
+  - writing
+banner: /assets/img/nyc-street.jpg
+caption: '[US National Archives](https://www.flickr.com/photos/usnationalarchives/7494395856)'
+download: >
+  http://www.buzzsprout.com/7417/164916-073-becoming-an-author-with-helene-wecker
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/144026802%3Fsecret_token%3Ds-WxQGn&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true"></iframe>'
+soundcloudurl: 073-becoming-an-author-with
+summary: "Have you ever had to reset a password? Have you ever forgotten the new password after you reset it? Gabe and Erik share their password struggles and talk about how they're trying to solve them, mostly with the help of 1Password."
+showtype: interview
+post_images: ""
+post_files: ""
+---
+
+{{ theme:partial src="section-header" title="Have You Ever Been Forced to Reset a Password?" url="{{ soundcloudurl }}" time="0:00" }}
+
+We all know passwords are important. Sure, they're important. But they're also boring, and sometimes it takes a [security blunder](http://arstechnica.com/security/2013/11/how-an-epic-blunder-by-adobe-could-strengthen-hand-of-password-crackers/) by one of the critical links in our online systems to make us remember to pay attention again. Consider this episode a reminder, too, and do some housekeeping.
+
+> {{ theme:partial src="aside-header" voice="gabe" text="Explaining Passwords" }}
+>
+> One of the hardest things to do is to explain password security "best practices" to an average "Alice" or "Joe". I've tackled the discussion about changing passwords with my family and they look at me like I suggested they change their first name. Passwords are looked at like house keys. As long as you keep them in your pocket, there's nothing to worry about. But I try to explain it more like, a valet car service. You give them your key and then you have no idea what they do with it for the other 99% of the time you have a relationship with them.
+ 
+#### The Applications
+
+This is not one of those times when we are going to recommend a whole host of possible apps for you to try. All of us use 1Password, and I bet this is true of most of our listeners too. The [AgileBits](https://agilebits.com/) have created a great app that is well-supported and available on [most platforms](http://discussions.agilebits.com/discussion/2846/new-product-request-1password-for-linux). More than that though, they seem to have a great mindset towards security, and
+they take the time to educate the masses on their site. All of this usually ends the app search before it begins.
+
+{{ theme:partial src="app" show="{{ number }}" image="1password.png" name="1Password" description="1Password gives you the security you need in today's online world without slowing you down. 1Password makes you more productive while simultaneously increasing your security with strong, unique passwords for all your accounts." price="$24.99" developer="https://agilebits.com/onepassword" appstore="https://itunes.apple.com/us/app/1password-password-manager/id443987910?mt=12" }}
+
+There are, however, some other apps to consider, if you aren't interested in 1Password for any reason.
+
+{{ theme:partial src="app" show="{{ number }}" image="dashlane.png" name="Dashlane" description="Dashlane is the best, free password manager and secure digital wallet for your iPhone, iPad, and other devices. " price="Free/$19.99 per Year" developer="https://www.dashlane.com/" appstore="https://itunes.apple.com/us/app/dashlane-password-manager/id552383089?mt=12" }}
+
+{{ theme:partial src="app" show="{{ number }}" image="lastpass.png" name="LastPass" description="LastPass is the last password you'll ever have to remember. Once setup you'll have your login and password data on your PC and your iPhone/iPad seamlessly synced via a Host Proof Hosting method which does not allow LastPass (or anyone else) access to your sensitive data." price="Free/$12 per Year" developer="https://lastpass.com/" appstore="https://itunes.apple.com/us/app/lastpass-for-premium-customers/id324613447?mt=8" }}
+
+> {{ theme:partial src="aside-header" voice="potatowire" text="For edge cases" }}
+>
+> The first password app I ever heard of and used was [KeePass](http://keepass.info/), which is still likely the best choice for the open-source crowd. It is also a good choice for a universal solution, since it has unofficial [ports](http://en.wikipedia.org/wiki/Porting) on virtually every OS. It has also been around internet forever, as in it was there when Lifehacker was still good and before Merlin became sick to death of talking about GTD.
+>
+> As to universal access to yous passwords, there is also the somewhat hidden gem of [1PasswordAnywhere](http://help.agile.ws/1Password3/1passwordanywhere.html), which allows you to view your data in a browser window. One gotcha that can affect those of us on IT lock-down is that 1PasswordAnywhere unfortunately (wisely) does not support Internet Explorer.
+
+{{ theme:partial src="section-header" title="Creating Good Passwords" url="{{ soundcloudurl }}" time="3:49" }}
+
+Perhaps the best lesson on password strength can be found in a cartoon.
+
+{{ theme:partial src="xkcd" alt="To anyone who understands information theory and security and is in an infuriating argument with someone who does not (possibly involving mixed case), I sincerely apologize." title="Password Strength" show="{{ number }}" img="http://imgs.xkcd.com/comics/password_strength.png" url="http://xkcd.com/936/" }}
+
+Of course, [xkcd](http://xkcd.com/) is not your average webcomic, and [Randall](http://xkcd.com/about/) [Munroe](http://en.wikipedia.org/wiki/Randall_Munroe) is not your averagewebcomic author, so the truth found here should not be discounted. 
+
+Remember that you are trying to win the [opportunity cost](http://en.wikipedia.org/wiki/Opportunity_cost) battle with a hacker here, and the length of a password equals computer cycles and time. In the time it takes to crack a long password, there are thousands of the Password! variety that could be had. 
+
+Also keep in mind that the length of the password can be offset if the phrase you've chosen is not random and is instead be found in a
+[cracker's](http://en.wikipedia.org/wiki/Password_cracking) files already. Say, for instance, that it is a notable quote from the [Big Lebowski](http://www.imdb.com/title/tt0118715/)...
+
+> {{ theme:partial src="aside-header" voice="gabe" text="About the One Password" }}
+>
+> One day, I walked my spouse through creating a strong password for 1Password. I explained the importance of using something that wasn't easily guessed. All was going great and felt pretty good about myself. When we finished, she pulled out her little notebook and immediately wrote the strong password down.
+> 
+> The next time, I used a phrase that she could remember but I also understood that nothing I said would change the fact that she was going to write the password down for at least the first week she used it. By using a phrase, it's unlikely anyone would even suspect that it was a password.
+
+{{ theme:partial src="section-header" title="Sharing Passwords" url="{{ soundcloudurl }}" time="14:00" }}
+
+Sometimes a password is required to be easily passed verbally, or potentially under duress. An example having both of these requirements would be your home security system's "all-clear"  password, but banks and billers sometime require a code word in order to take actions on your account. 
+
+> {{ theme:partial src="aside-header" voice="potatowire" text="password" }}
+>
+> You can certainly pass your long, not-a-word, alphanumeric password to the bank teller, but even if you choose [1Password's "pronounceable" option](http://help.agilebits.com/1Password3/strong_password_generator.html#1_pronounceable_password), you may find it hard to convey. No matter what, you probably shouldn't pass it to the teller on on folded slip of paper. Especially if you have shifty little eyes.
+
+> {{ theme:partial src="aside-header" voice="gabe" text="Passwords for Humans" }}
+>
+> Seriously, take it easy on the rules about password complexity for anything that you must remember. In my experience, people give up pretty quickly and just start cheating. They write it down or end up making the passwords too obvious and easily guessed.
+> Not all systems accept space characters as part of the password either. Because the space character was only invented in 2003.
+ 
+Whether you are protecting access to a bunch of already maxed-out credit cards or to a strangely valuable [Twitter Username](http://arstechnica.com/security/2014/01/how-i-lost-my-50000-twitter-username/), you should put some care into setting your one password (to rule them all). AgileBits [expounds on the wisdom](http://blog.agilebits.com/2011/08/10/better-master-passwords-the-geek-edition/) in the xkcd comic above, and it marks a good entry point for the nerdy.
+ 
+> {{ theme:partial src="aside-header" voice="gabe" text="Default Passwords" }}
+>
+> Modern technology makes it pretty easy to be lazy. Just don't forget that thousands of other people buy the same devices and know what the default passwords are too. It's worth the extra time it takes to change the default user and password on routers. Don't believe me? [Here's a list](http://www.phenoelit-us.org/dpl/dpl.html) that probably contains the password your router had when you first installed it.
+ 
+
+{{ theme:partial src="section-header" title="Managing Passwords" url="{{ soundcloudurl }}" time="23:10" }}
+
+Any password management system worth its salt needs to be available when you need it to look up a password. Depending on what your needs are, there are several syncing options. 1Password uses Dropbox or iCloud to sync between devices. The benefit of Dropbox syncing is that it's available on Windows, Android or in a web browser through Dropbox. The [1PasswordAnywhere](http://help.agilebits.com/1Password3/1passwordanywhere.html) option is convenient if you find yourself stuck on a new machine without 1Password installed.
+
+[mSecure](https://msevensoftware.com) also provides cross platform syncing through Dropbox. Both application suites creat their own encrypted data file but rely on Dropbox to handle the heavy lifting for syncing. Each device keeps a complete copy of the data, so if there's a Dropbox outage, the data is still accessible on your computer.
+
+[LastPass](https://lastpass.com) offers another option for syncing passwords between browsers across platforms. Instead of using Dropbox, LastPass is a centralized password syncing service made available across platforms through a browser extension.
+
+Most modern browsers also offer password syncing between instances. [Chrome provides syncing](https://support.google.com/chrome/answer/95606?hl=en) as a Google services. Firefox also indicated [through a nightly build](https://blog.mozilla.org/futurereleases/2014/02/01/test-the-new-firefox-sync-on-nightly-release-channel/) that it will also be moving toward a centralized syncing service using Mozilla servers.
+
+> {{ theme:partial src="aside-header" voice="gabe" text="Your sensitive bits" }}
+>
+> Remember, passwords aren't the only pieces of sensitive information we need to track and recall. 1Password is a secure note system too. I store a lot of different things in 1Password, partly because it's very secure and partly because I like to keep all of it in one place. Here's some of the stuff I store in 1Password. It's not all sensitive but it's secure and available any time.
+> 
+> - Family info (social security, maiden names, birth counties and hospitals)
+> - Tax IDs for business
+> - Mortgage information and scans
+> - Day Care information
+> - Old Credit Card details
+> - A list of previous and expired passwords
+> - Codes for emergency key lock box
+> - Photos of various super saver cards
+> - Photos of social security cards
+> - Car VIN numbers
+> - Reset code for car stereo
+> - Scans of medical directives
+> 
+> The great thing about adding scans and photos to 1Password is that it's instantly available to me with my iPhone, iPad or Mac and if it's even mildly sensitive I know where it is.
+
+{{ theme:partial src="section-header" title="Password Tips" url="{{ soundcloudurl }}" time="23:50" }}
+
+Once you begin using 1Password for its basics purpose of securing your online presense, it comes time to explore the preferences and tinker, like all good nerds should. AgileBits has packed a lot of value into the app itself, and there are many great features that you won't know you needed until you you discover them.
+
+> {{ theme:partial src="aside-header" voice="gabe" text="Sharing Vaults" }}
+>
+> The hardest part of getting someone to start using a password manager is getting them to remember to use it at all. By pre-populating it with a bunch of useful information, you give them a big reason to even open the app. Once they see the value, hopefully they add their own stuff too.
+> 
+> The latest version of 1Password for the Mac now allows access to multiple vaults. This is a great way to create and manage a vault that you share with a family member.
+> 
+>  Sharing a vault in 1Password is possible because of Dropbox sharing. Agile Bits have created a robust system but the real work of syncing is performed by Dropbox. [There's a good tutorial available](http://blog.agilebits.com/2013/11/13/1password-tip-how-to-create-share-a-vault-with-family-or-coworkers-mac/) on the Agile Bits Web site.
+>  
+>  I find that the value of sharing a vault is all in the ease of helping to administer passwords for my family. When I update a password for a bank account or cable TV, I can easily edit the entry for both my wife and I. I keep two separate vaults, one for me and one for my wife, so passwords must be updated in each vault separately.
+
+In addition to its out-of-the-box utility, a lot of efficiency can be gained by using your favorite keyboard launcher to access your secured data.
+
+> {{ theme:partial src="aside-header" voice="gabe" text="Launch Center Pro" }}
+> 1Password is a little slow on the draw when you just want to get in a do a search. Launch Center Pro takes a lot of the fiddling out of the process.
+> 
+> [Here's a good source](http://philgr.com/blog/onepassword-with-launch-center-pro-list-and-prompt-fallback) of a complex 1Password action for Launch Center Pro. Phillip is crafty with URL schemes and in particular has some nice examples of Launch Center Pro actions.
+> 
+> I use a [Launch Center Pro action](http://launchcenterpro.com/8whxqy) (you can install it from that link) to open a URL on the clipboard in the 1Password browser almost every day. Open in 1Password is almost always more convenient if I need to end up logging into a site or creating a password.
+
+> I also regularly use [a LCP action](http://launchcenterpro.com/67g68c) that prompts for input and then searches in 1Password. This takes far less time than navigating to the 1Password search box.
+> 
+
+> {{ theme:partial src="aside-header" voice="potatowire" text="Until next week" }}
+> 
+> Well, that's it for this week. If you have anything that you'd like to add to or correct in the show notes you can find me on Twitter [@potatowire](http://twitter.com/potatowire/), or feel free to send an email to me at potatowire dot com.
