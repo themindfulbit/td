@@ -1,6 +1,8 @@
 ---
 number: "073"
-title: Bringing Stories to Life with Helene Wecker
+title: >
+  Bringing Stories to Life with Helene
+  Wecker
 type:
   - interview
 people:
@@ -13,7 +15,7 @@ banner: /assets/img/nyc-street.jpg
 caption: '[US National Archives](https://www.flickr.com/photos/usnationalarchives/7494395856)'
 download: >
   http://www.buzzsprout.com/7417/164916-073-becoming-an-author-with-helene-wecker
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/144026802%3Fsecret_token%3Ds-WxQGn&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true"></iframe>'
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/144026802%3Fsecret_token%3Ds-WxQGn&color=ff5500&auto_play=false&hide_related=false&show_artwork=true"></iframe>'
 soundcloudurl: 073-becoming-an-author-with
 summary: "Have you ever had to reset a password? Have you ever forgotten the new password after you reset it? Gabe and Erik share their password struggles and talk about how they're trying to solve them, mostly with the help of 1Password."
 showtype: interview
@@ -158,4 +160,15 @@ post_files: ""
 > 
 
 
+> {{ theme:partial src="aside-header" voice="gabe" text="On Being a Writer" }}
+>
+> One of my favorite aspects of this interview was the obvious dichotomy of becoming a professional writer. Anyone can become a "real" writer and professional story teller, but not just anyone has the tenacity and professionalism to make it a career. I think Helene is a character study in the birth of a professional writer. She gave up a lucrative career, worked very hard at perfeting her craft, and stuck with it until someone noticed.
+>
+> While I do believe that it takes talent to be a professional writer, I think Helene's story is compeling because of her fortitude and persistence in achieving that status. It's fun, but it sure is a lot of hard work too.
 
+
+
+> {{ theme:partial src="aside-header" voice="gabe" text="SciFi and Fantasy" }}
+>
+> Science fiction and fantasy has gotten a bad rap over the years. For a long time it was second class to works by authors that focused solely on the human condition, like Hemingway and Fitzgerald. I made my way to the genre through Vonnegut, who elegantly intertwined time travel and alien planets with alcoholism and suicide. It was a surprise when I learned that fiction and scifi were two separate things.
+> With the popularity of vampire stories and comic book movies, I think the mainstream is steadily moving toward my own happy conclusion: SciFi is just fiction with an imagination.
