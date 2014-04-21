@@ -19,6 +19,33 @@ player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="
 soundcloudurl: 073-becoming-an-author-with
 summary: "Have you ever had to reset a password? Have you ever forgotten the new password after you reset it? Gabe and Erik share their password struggles and talk about how they're trying to solve them, mostly with the help of 1Password."
 showtype: interview
+post_images:
+  - 
+    title: ""
+    image: /assets/img/helene.jpg
+post_files: ""
+---
+---
+number: "073"
+title: >
+  Bringing Stories to Life with Helene
+  Wecker
+type:
+  - interview
+people:
+  - Gabe Weatherhead
+  - Erik Hess
+  - Helene Wecker
+topics:
+  - writing
+banner: /assets/img/nyc-street.jpg
+caption: '[US National Archives](https://www.flickr.com/photos/usnationalarchives/7494395856)'
+download: >
+  http://www.buzzsprout.com/7417/164916-073-becoming-an-author-with-helene-wecker
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/144026802%3Fsecret_token%3Ds-WxQGn&color=ff5500&auto_play=false&hide_related=false&show_artwork=true"></iframe>'
+soundcloudurl: 073-becoming-an-author-with
+summary: "Have you ever had to reset a password? Have you ever forgotten the new password after you reset it? Gabe and Erik share their password struggles and talk about how they're trying to solve them, mostly with the help of 1Password."
+showtype: interview
 post_images: ""
 post_files: ""
 ---
@@ -33,7 +60,64 @@ post_files: ""
 > 
 > Though we were all a bit starstruck, Helene was a gracious and wonderful guest on the show. We think you'll agree.
 
-> {{ theme:partial src="aside-header" voice="helen" text="The tools of the trade" }}
+{{ theme:partial src="section-header" title="Tell us a little about yourself" url="{{ soundcloudurl }}" time="0:01" }}
+
+Currently living in the San Fransisco, Helene previously worked in Marketing and PR. After a brief(!) seven years in the industry, she decided to stop writing about other people's awesome projects and working on her own instead. Having written Doctor Who and Star Trek [fanfic](http://en.wikipedia.org/wiki/Fan_fiction) in high school and treating herself to creative writing classes, she decided to pursue a career in fiction. Perhaps being
+towards the [Type A](http://en.wikipedia.org/wiki/Type_A_and_Type_B_personality_theory) side of the personality spectrum (no comment), she didn't just quit work and start spending her days in coffee shops typing away on a laptops but instead enrolled in and graduated from the very prestigious Master of Fine Arts Degree program at [Columbia University in New York](http://arts.columbia.edu/writing/about-mfa-program).
+
+{{ theme:partial src="section-header" title="On being published" url="{{ soundcloudurl }}" time="9:38" }}
+
+One of the benefits of Helene's decision to pursue a writing career in a very adult manner was that the degree program offered annual mixers which allowed students the opportunity to interact with literary agents. While certainly being a wonderful opportunity, the introductions made at these mixers by no means guaranteed representation, much less fame, fortune, and a show on HBO. As Helene sought to hone her own [Elevator spiel](http://http://en.wikipedia.org/wiki/Elevator_pitch),
+the pitch for her novel generated enough interest that she was able to start a professional relationship with the man who would eventually become her agent. The resulting [pas de deux](http://http://en.wikipedia.org/wiki/Pas_de_deux) over a period of four or five years helped her novel stay on track and be purchased by [HarperCollins Publishers](http://http://www.harpercollins.com/) at about 50% completion.
+
+{{ theme:partial src="section-header" title="The Basis for the story" url="{{ soundcloudurl }}" time="19:49" }}
+
+*The Golem and the Jinni* is the story of interleaved Jewish and Arab American tradition and mythologies on the backdrop of [1899 New York City](http://www.helenewecker.com/new-york-in-1899/). Making a novel with these three main components ring true required exhaustive research and a careful attention to the "rules" of the world she was creating. Helene had access to both family traditions and the Columbia library, but making a [golem](http://http://en.wikipedia.org/wiki/Golem) and a
+[jinni](http://http://en.wikipedia.org/wiki/Jinn) believably walk the streets of [The Lower East Side](http://http://www.helenewecker.com/new-york-in-1899/the-lower-east-side/) and [Little Syria](http://http://www.helenewecker.com/new-york-in-1899/little-syria/) requires an immense amount of good old-fashioned hard work. It takes far more than a quick viewing of [Funny Girl](http://en.wikipedia.org/wiki/Funny_Girl_(film)).
+
+* [Maronite Church](http://http://en.wikipedia.org/wiki/Maronite_Church)
+* [Eastern Orthodox Church](http://http://en.wikipedia.org/wiki/Eastern_Orthodox_Church)
+* [Judaism](http://http://en.wikipedia.org/wiki/Judaism)
+
+> {{ theme:partial src="aside-header" voice="potatowire" text="Caution" }}
+>
+> Erik's dismissal of Dearborn's lack of romance do not necessarily reflect those of the management.
+
+{{ theme:partial src="section-header" title="Fitting Research into a narrative" url="{{ soundcloudurl }}" time="32:50" }}
+
+When a story expands into the length of a novel, a line needs to be drawn between fleshing out a tale's detail, and writing a textbook. And what about the characters? A world needs a full cast to feel real, but nothing feels like more of a cheat to the reader than when the author's hand can be seen dropping an [extra](http://en.wikipedia.org/wiki/Extra_(acting)) into the plot in order to keep things moving along. 
+
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="38:19" person="helene" quote="That starts to feel a little woo-woo" }}
+
+Sometimes carefully prepared and even beloved writing has to go into the trash heap when it isn't right, and Helene experienced this herself when writing the ending of her book. Like a surgeon's cut, sometimes excess or damaged pieces need to be removed.
+
+{{ theme:partial src="section-header" title="The direction of writing" url="{{ soundcloudurl }}" time="41:47" }}
+
+There are many variations in technique, but Helene generally moved her story forward, often taking steps back into the past to refine a character's path through the story or correct wrong turns. This attention to detail and internal consistency allows for the reader to know that there are rules. Having other readers at this point is particularly useful in order to avoid a [frog-in-a-pot](http://en.wikipedia.org/wiki/Boiling_frog) scenario. A word of caution: learning this skill 
+may ruin your ability to enjoy entire swaths of literature.
+
+{{ theme:partial src="section-header" title="The hazards of hearing your own writing read" url="{{ soundcloudurl }}" time="53:27" }}
+
+When you write a book over a period of years, there are likely going to be sections that benefit unequally from increasing skill. This is usually transparent to the reader, but an author may want a few more editorial passes done on a completed book, if they are forced to spend to much time with their own words.
+
+This is made worse for someone hearing [George Guidall](http://http://www.audible.com/guestauthor/Guest_Editor_Narrator_Guidall) perform their story. [Dostoevsky](http://www.audible.com/pd/Classics/Crime-and-Punishment-Recorded-Books-Edition-Audiobook/B002V5GTWA) might even want to revise a paragraph here or there.
+
+> {{ theme:partial src="aside-header" voice="potatowire" text="Narrators" }}
+>
+> George Guidall is probably the best there is, but I have a soft spot in my heart for the narrator couple of [Kate Reading](http://www.audible.com/guestauthor/Guest_Editor_Narrator_Reading) and [Michael Kramer](http://www.audible.com/search/ref=a_search_c4_1_1_1_srNarr?searchNarrator=Michael+Kramer&qid=1398055985&sr=1-1) after hearing them read the whole [*Wheel of Time*](http://http://en.wikipedia.org/wiki/The_Wheel_of_Time). I also
+> love [Stefan Rudnicki](http://http://www.audible.com/search/ref=a_search_c4_1_1_1_srNarr?searchNarrator=Stefan+Rudnicki&qid=1398056134&sr=1-1), [Gabrielle de Cuir](http://http://www.audible.com/search/ref=a_search_c4_1_1_3_srNarr?searchNarrator=Gabrielle+de+Cuir&qid=1398056134&sr=1-1), and [Richard Ferrone](http://www.audible.com/search/ref=a_search_c4_1_1_1_srNarr?searchNarrator=Richard+Ferrone&qid=1398056269&sr=1-1).
+
+Proper (we hope) name pronunciation is one of the benefits of hearing a professional read a book to you, and the characters in *The Golem and the Jinni* really highlight this. Helene's method of combining names from family members, ship manifests, and other period source material, give the world its feeling of reality. 
+
+{{ theme:partial src="section-header" title="Spoilers" url="{{ soundcloudurl }}" time="1:04:57" }}
+
+For the sake of readers, there are now spoilers on the page here. Once you have read the book, this section of the audio will add additional character insight and some thoughts on faith in the world of the golem and the jinni.
+
+> {{ theme:partial src="aside-header" voice="potatowire" text="Additional information" }}
+>
+> One of the other great things Helene did was provide some more detail about the tools she used whe writing her novel. Some of this was alluded to in the audio, but the whole picture is great to see.
+
+  {{ theme:partial src="aside-header" voice="helene" text="The tools of the trade" }}
 >
 > ### HARDWARE ###
 > 
@@ -172,3 +256,8 @@ post_files: ""
 >
 > Science fiction and fantasy has gotten a bad rap over the years. For a long time it was second class to works by authors that focused solely on the human condition, like Hemingway and Fitzgerald. I made my way to the genre through Vonnegut, who elegantly intertwined time travel and alien planets with alcoholism and suicide. It was a surprise when I learned that fiction and scifi were two separate things.
 > With the popularity of vampire stories and comic book movies, I think the mainstream is steadily moving toward my own happy conclusion: SciFi is just fiction with an imagination.
+
+> {{ theme:partial src="aside-header" voice="potatowire" text="Until next week" }}
+
+> 
+> Well, that's it for this week. If you have anything that you'd like to add to or correct in the show notes you can find me on Twitter [@potatowire](http://twitter.com/potatowire/), or feel free to send an email to me at potatowire dot com.
