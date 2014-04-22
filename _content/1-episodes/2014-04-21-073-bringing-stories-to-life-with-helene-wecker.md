@@ -220,7 +220,7 @@ While she used various techniques along the way, Helene gradually moved her stor
 {{ theme:partial src="image" title="" caption="[
 Tekniska museet](https://www.flickr.com/photos/tekniskamuseet/8764194433)" show="{{ number }}" file="nystereo.jpg" }}
 
-{{ theme:partial src="section-header" title="The hazards of hearing your own writing read" url="{{ soundcloudurl }}" time="53:27" }}
+{{ theme:partial src="section-header" title="The hazards of hearing your own writing read aloud" url="{{ soundcloudurl }}" time="53:27" }}
 
 When you write a book over a period of years, there are likely going to be sections that benefit unequally from increasing skill. This is usually transparent to the reader, but an author may want a few more editorial passes done on a completed book, if they are forced to spend to much time with their own words.
 
