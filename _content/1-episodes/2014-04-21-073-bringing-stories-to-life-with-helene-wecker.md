@@ -73,7 +73,7 @@ When a story expands to the length of a novel, a line needs to be drawn somewher
 
 > {{ theme:partial src="aside-header" voice="gabe" text="On Being a Writer" }}
 >
-> One of my favorite aspects of this interview was the obvious dichotomy of becoming a professional writer. Anyone can become a "real" writer and professional story teller, but not just anyone has the tenacity and professionalism to make it a career. I think Helene is a character study in the birth of a professional writer. She gave up a lucrative career, worked very hard at perfeting her craft, and stuck with it until someone noticed.
+> One of my favorite aspects of this interview was the obvious dichotomy of becoming a professional writer. Anyone can become a "real" writer and professional story teller, but not just anyone has the tenacity and professionalism to make it a career. I think Helene is a character study in the birth of a professional writer. She gave up a lucrative career, worked very hard at perfecting her craft, and stuck with it until someone noticed.
 >
 > While I do believe that it takes talent to be a professional writer, I think Helene's story is compeling because of her fortitude and persistence in achieving that status. It's fun, but it sure is a lot of hard work too.
 
