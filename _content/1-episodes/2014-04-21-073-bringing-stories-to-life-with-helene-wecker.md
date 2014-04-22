@@ -1,7 +1,8 @@
 ---
 number: "073"
 title: >
-  Bringing Stories to Life with Helene Wecker
+  Bringing Stories to Life with Helene
+  Wecker
 type:
   - interview
 people:
@@ -14,11 +15,12 @@ banner: /assets/img/nyc-street.jpg
 caption: '[US National Archives](https://www.flickr.com/photos/usnationalarchives/7494395856)'
 download: >
   http://www.buzzsprout.com/7417/167937-073-bringing-stories-to-life-with-helene-wecker.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/144026802%3Fsecret_token%3Ds-WxQGn&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true"></iframe>'
-soundcloudurl: 073-bringing-stories-to-life-with-helene-wecker
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/144026802%3Fsecret_token%3Ds-WxQGn&color=ff5500&auto_play=false&hide_related=false&show_artwork=true"></iframe>'
+soundcloudurl: >
+  073-bringing-stories-to-life-with-helene-wecker
 summary: "We're thrilled to welcome Helene Wecker to the show this week. Helene recently published her debut novel *The Golem and the Jinni*. On the show, Helene discusses how she got started as an author, her approach to writing, and some of the tools she uses to bring her stories from concept to reality."
 showtype: interview
-post_images:
+post_images: ""
 post_files: ""
 ---
 
@@ -30,7 +32,7 @@ Helene Wecker is the author of [*The Golem and the Jinni*](http://www.heleneweck
 
 Helene got her start in the Marketing and Public Relations field. Seven years into her career, she decided to stop writing about other people's awesome projects and start working on her own instead. 
 
-Having written Doctor Who and Star Trek [fanfic](http://en.wikipedia.org/wiki/Fan_fiction) in high school and leaning on some additional experience in creative writing classes, Helene chose to pursue a career writing fiction. Perhaps leaning towards the [Type A](http://en.wikipedia.org/wiki/Type_A_and_Type_B_personality_theory) side of the personality spectrum *(no comment &ndash; pw)* she was talented enough to graduate from the prestigious Master of Fine Arts Degree program at [Columbia University in New York](http://arts.columbia.edu/writing/about-mfa-program).
+Having written Doctor Who and Star Trek [fanfic](http://en.wikipedia.org/wiki/Fan_fiction) in high school and leaning on some additional experience in creative writing classes, Helene chose to pursue a career writing fiction. Perhaps leaning towards the [Type A](http://en.wikipedia.org/wiki/Type_A_and_Type_B_personality_theory) side of the personality spectrum *(no comment – pw)* she was talented enough to graduate from the prestigious Master of Fine Arts Degree program at [Columbia University in New York](http://arts.columbia.edu/writing/about-mfa-program).
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Welcoming Helene Wecker" }}
 >
@@ -53,7 +55,7 @@ Among the benefits of Helene's Columbia MFA program were the annual mixers which
 *The Golem and the Jinni* is a story that interweaves Jewish and Arab American traditions and mythologies amidst the backdrop of [New York City in 1899](http://www.helenewecker.com/new-york-in-1899/). Ensuring that a novel with such distinctive themes rang true required Helene to conduct exhaustive research and pay careful attention to the "rules" of the world she was creating.
 
 Fortunately, Helene had access to family traditions from both cultures as well as the Columbia University library. That being said, making a [golem](http://en.wikipedia.org/wiki/Golem) and a
-[jinni](http://en.wikipedia.org/wiki/Jinn) believably walk the streets of [The Lower East Side](http://www.helenewecker.com/new-york-in-1899/the-lower-east-side/) and [Little Syria](http://www.helenewecker.com/new-york-in-1899/little-syria/) requires an immense amount of good old-fashioned hard work &ndash; far more than just a quick viewing of [Funny Girl](http://en.wikipedia.org/wiki/Funny_Girl_(film)).
+[jinni](http://en.wikipedia.org/wiki/Jinn) believably walk the streets of [The Lower East Side](http://www.helenewecker.com/new-york-in-1899/the-lower-east-side/) and [Little Syria](http://www.helenewecker.com/new-york-in-1899/little-syria/) requires an immense amount of good old-fashioned hard work – far more than just a quick viewing of [Funny Girl](http://en.wikipedia.org/wiki/Funny_Girl_(film)).
 
 * [Maronite Church](http://en.wikipedia.org/wiki/Maronite_Church)
 * [Eastern Orthodox Church](http://en.wikipedia.org/wiki/Eastern_Orthodox_Church)
@@ -193,8 +195,9 @@ While she used various techniques along the way, Helene gradually moved her stor
 > 
 > Oh, Alfred, how I neglect you. I know you're more than just an app switcher and document finder. Others whisper amazing things about your clipboard prowess, but do I take the time to figure you out? No, I just tell you to open iTunes again. Poor Alfred.
 > 
-> {{ theme:partial src="app" show="{{ number }}" image="textexpander.png" name="TextExpander" description="Type more with less effort! TextExpander saves your fingers and your keyboard, expanding custom keyboard shortcuts into frequently-used text and pictures." price="$34.95" developer="https://smilesoftware.com/TextExpander/index.html" appstore="https://itunes.apple.com/us/app/textexpander-for-mac/id405274824?mt=12" }}
+> {{ theme:partial src="app" show="{{ number }}" image="textexpander.png" name="TextExpander" description="Type more with less effort! TextExpander saves your fingers and your keyboard, expanding custom keyboard shortcuts into frequently-used text and pictures." price="$34.95" developer="https://smilesoftware.com/TextExpander/index.html" appstore="https://itunes.apple.com/us/app/textexpander-for-mac/id405274824?mt=12"}}
 >  
+> 
 > I've been tinkering with TextExpander for a few months, figuring out where the big wins are. At first I created a zillion snippets for small, often-used phrases, but I found it was more effort to remember the snippet than to just type out the phrase. Now I'm much more interested in long-form snippets. Recently I figured out how to use TextExpander snippets to write answers to frequently asked questions. I tend to answer the same dozen or so questions repeatedly, either in email interviews
 > or in readers' emails. I wanted a way to speed up the process, but I didn't want to copy and paste canned responses. So I developed a set of snippets that present me with lists of phrases related to each answer. For instance, if someone asks about my inspiration for THE GOLEM AND THE JINNI, I type ".inspiration" and get this:
 > 
