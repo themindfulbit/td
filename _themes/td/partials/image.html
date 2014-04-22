@@ -1,3 +1,8 @@
 <a class="fancybox" alt="{{ title }}" title="{{ title }}" rel="page" href="{{ _site_url }}assets/img/{{ file }}" >
-	<img src="{{ _site_url }}{{ transform src="assets/img/{{ file }}" width="1024" type="jpg" action="resize" }}" /><span class="title">{{ title }}</span>
+	<img src="{{ _site_url }}{{ transform src="assets/img/{{ file }}" width="1024" type="jpg" action="resize" }}" />{{ if title }}<span class="title">{{ title }}</span>{{ endif }}
 </a>
+{{ if caption }}
+  <div class="caption">
+    {{ caption|markdown }}
+  </div>
+{{ endif }}

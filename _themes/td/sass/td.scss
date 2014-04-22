@@ -458,6 +458,10 @@ body {
               background-image: url(../img/korzdorfer-avatar.png);
             }
 
+            &.helene {
+              background-image: url(../img/helene-avatar.png);
+            }
+
             &.zpq {
               background-image: url(../img/zpq-avatar.jpg);
             }
@@ -610,6 +614,17 @@ body {
           margin-bottom: 1.5em;
           width: 100%;
           height: auto;
+        }
+
+        .caption {
+          @include column(12,12);
+          padding: 0;
+          margin-top: -1em;
+
+          p {
+            margin: 0;
+            padding: 0;
+          }
         }
 
         p {
@@ -1528,6 +1543,18 @@ body {
 
       p a.fancybox.set {
         @include column(4,12);
+      }
+
+      .caption {
+        @include column(10,10);
+        margin-left:0;
+        padding: 0;
+        margin-top: -0.5em;
+
+        p {
+          margin: auto;
+          padding: 0;
+        }
       }
 
       .fancy-quote {
