@@ -74,8 +74,8 @@ It's probably best to start with a short overview of where everybody is coming f
   </tr>
   <tr>
     <td class="item"><h4><a href="http://www.synology.com/en-us/surveillance/index#Deployment_tabs_1">Synology Surveillance Station</a></h4></td>
+    <td class="avatar"><img src="{{ _site_url }}assets/img/gabe-avatar.png" /></td>
     <td class="avatar"></td>
-    <td class="avatar"><img src="{{ _site_url }}assets/img/erik-avatar.png" /></td>
     <td class="avatar"></td>
   </tr>
   <tr>
