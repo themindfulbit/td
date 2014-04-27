@@ -526,6 +526,31 @@ body {
             text-transform: uppercase;
             font-size: 0.8em;
           }
+
+          &.use-matrix {
+
+            td.item h4 a {
+              color: $black;
+
+              &:hover {
+                color: $dark-orange;
+              }
+            }
+
+            td.avatar {
+              text-align: center;
+              width: 2em;
+              padding: 0.5em;
+
+              img {
+                width: 100%;
+                height: auto;
+                border-radius: 0.2em;
+                margin-bottom: 0;
+              }
+            }
+
+          }
         }
 
         dl {

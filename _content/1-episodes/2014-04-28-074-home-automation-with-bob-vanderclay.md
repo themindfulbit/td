@@ -45,55 +45,111 @@ Bob worked as a developer for NASA, ETS, BAE, and the US Joint Forces Command, b
 
 ### A Litany of Disasters
 
-It's probably best to start with an overview of where everybody is coming from, highlighting the systems we've each used, loved, and hated over the years.
+It's probably best to start with a short overview of where everybody is coming from, with a table that highlights the systems we've used, loved, and hated over the years.
 
-#### Erik's Automation Attempts
-
-* Sonos
-* Logitech Harmony Ultimate
-* Nest
-* WeMo
-
-#### Gabe
-
-* Sonos
-* Security Camera (Synology)
-* Smart Things
-* Hue
-* Some Logitech Harmony remote
+<table class="use-matrix">
+  <tr>
+    <td class="item"><h4><a href="http://www.sonos.com/">Sonos</h4></a></td>
+    <td class="avatar"><img src="{{ _site_url }}assets/img/gabe-avatar.png" /></td>
+    <td class="avatar"><img src="{{ _site_url }}assets/img/erik-avatar.png" /></td>
+    <td class="avatar"><img src="{{ _site_url }}assets/img/bob-avatar.jpg" /></td>
+  </tr>
+  <tr>
+    <td class="item"><h4><a href="http://www.logitech.com/en-us/product/harmony-ultimate">Logitech Harmony Ultimate</a></h4></td>
+    <td class="avatar"></td>
+    <td class="avatar"><img src="{{ _site_url }}assets/img/erik-avatar.png" /></td>
+    <td class="avatar"></td>
+  </tr>
+  <tr>
+    <td class="item"><h4><a href="https://nest.com/thermostat/life-with-nest-thermostat/">Nest</a></h4></td>
+    <td class="avatar"><img src="{{ _site_url }}assets/img/gabe-avatar.png" /></td>
+    <td class="avatar"></td>
+    <td class="avatar"><img src="{{ _site_url }}assets/img/bob-avatar.jpg" /></td>
+  </tr>
+  <tr>
+    <td class="item"><h4><a href="http://www.belkin.com/us/Products/home-automation/c/wemo-home-automation/">WeMo</a></h4></td>
+    <td class="avatar"></td>
+    <td class="avatar"><img src="{{ _site_url }}assets/img/erik-avatar.png" /></td>
+    <td class="avatar"><img src="{{ _site_url }}assets/img/bob-avatar.jpg" /></td>
+  </tr>
+  <tr>
+    <td class="item"><h4><a href="http://www.synology.com/en-us/surveillance/index#Deployment_tabs_1">Synology Surveillance Station</a></h4></td>
+    <td class="avatar"></td>
+    <td class="avatar"><img src="{{ _site_url }}assets/img/erik-avatar.png" /></td>
+    <td class="avatar"></td>
+  </tr>
+  <tr>
+    <td class="item"><h4><a href="http://www.smartthings.com/">SmartThings</a></h4></td>
+    <td class="avatar"><img src="{{ _site_url }}assets/img/gabe-avatar.png" /></td>
+    <td class="avatar"></td>
+    <td class="avatar"><img src="{{ _site_url }}assets/img/bob-avatar.jpg" /></td>
+  </tr>
+  <tr>
+    <td class="item"><h4><a href="http://meethue.com/">Hue</a></h4></td>
+    <td class="avatar"><img src="{{ _site_url }}assets/img/gabe-avatar.png" /></td>
+    <td class="avatar"></td>
+    <td class="avatar"><img src="{{ _site_url }}assets/img/bob-avatar.jpg" /></td>
+  </tr>
+  <tr>
+    <td class="item"><h4><a href="http://www.jascoproducts.com/z-wave/">GE/Jasco Smart Switches</a></h4></td>
+    <td class="avatar"><img src="{{ _site_url }}assets/img/gabe-avatar.png" /></td>
+    <td class="avatar"></td>
+    <td class="avatar"></td>
+  </tr>
+</table>
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="2:55" person="gabe" quote="It went back into the somewhere box." }}
 
-#### Bob
-
-* Sonos
-* Nest
-* Hue
-* Smart Things
-* WeMo
-
 {{ theme:partial src="section-header" title="Smart Switches and WeMo" url="{{ soundcloudurl }}" time="3:34" }}
 
-* Gabe's house was built in the 70s.
-* He bought 12-15 switches
-* GE Jasco Switches
-* Tried 3-way dimmers, 3-way toggles, and 2-way toggles.
-* Do connect to SmartThings
-* Require neutral lines
-* Don't work well with 3-way
-* Another alternative is Lutron
-* Lutron is proprietary
-* The general trend has been to move away from the wall
-* Bob thinks a centralized system is no longer viable
-* Lobot
-* X10
-* The trend has also been towards decentralization
+In theory, the dream has always been to have your smart home be wired into the walls. We'd be able to interact with everything the way we're used to, but could also do it more awesomely *with technology*. Unfortunately, that's continued to be more of a dream than a reality as "smart" wiring options have proven anything but. Gabe's experiences are sadly typical in this arena.
 
-#### WeMo
+#### Smart Switches: Wiping out on the Z-Wave
 
-* Wall Warts can be a bit inconvenient
+As you might recall from [earlier](http://technicaldifficulties.us/episodes/055-ethernetworking) [episodes](http://technicaldifficulties.us/episodes/056-sonos-showdown) Gabe's home was built in the seventies, and is full of pleasant (read: unpleasant) surprises in the walls that interfere with the sorts of modern conveniences he's come to expect in a family home.
 
-{{ theme:partial src="image" title="Erik's WeMo Stack" file="wemo-stack.jpg" }}
+Gabe bought about a dozen of the [GE/Jasco Z-Wave](http://www.jascoproducts.com/z-wave/) Smart Switches for his home, called an electrician and got down to work. 
+
+> {{ theme:partial src="aside-header" voice="erik" text="Z-Wave" }}
+>
+> I didn't know a whole lot about Z-Wave before the show, so I was surprised to find out that it creates its own low-bandwidth wireless network at 900 MHz. While that might interfere with older cordless phones, it won't interfere with WiFi which operates mostly in the 2.4 GHz band. As we discussed in an [earlier show](http://technicaldifficulties.us/episodes/061-taming-wifi-with-bradley-chambers), interference can be a big concern in a home with a lot of connected toys... er, devices.
+>
+> If you're interested in learning more about Z-Wave, here are a few useful links:
+>
+> * [Z-Wave on Wikipedia](http://en.wikipedia.org/wiki/Z-Wave)
+> * [The Z-Wave Home Page](http://www.z-wave.com/home)
+> * [The Z-Wave Alliance](http://www.z-wavealliance.org/)
+> * [The Open Z-Wave Project](https://code.google.com/p/open-zwave/)
+
+Unfortunately, given the crazy topology of his home wiring setup, they didn't work out for him and got sent back. His specific problems might not cause issues in your home, but Gabe particularly struggled with the 3-way dimmers and toggles. The 2-way ones worked much better.
+
+> {{ theme:partial src="aside-header" voice="erik" text="Lutron and X10" }}
+>
+> Many builders use [Lutron](http://www.lutron.com/en-US/Pages/default.aspx) home automation products as well. It's a proprietary system with marketing that seems geared towards contractors and large organizations (so, not us).
+>
+> On the other end of the spectrum is [X10](http://en.wikipedia.org/wiki/X10_\(industry_standard\)), a home automation protocol which has been the standard since shortly after its inception in the late 1970s. Devices have historically been cheap and accessible, and there are many manufacturers who offer a wide range of compatible hardware.
+>
+> You can find a short history of X10 [here](http://home.planet.nl/~lhendrix/x10_history.htm), and for more on the technical aspects of the X10 protocol, you can look [here](http://www.smarthomeusa.com/info/x10theory/x10theory/#theory).
+
+In general, trends seem to be moving away from this kind of in-wall support given the rapidly changing state of the technology and wide variety of alternatives.
+
+#### Wall Warts: WeMo
+
+A popular alternative to expensive switches and smart outlets is [WeMo](http://www.belkin.com/us/Products/home-automation/c/wemo-home-automation/). Belkin has been working on WeMo for a few years now, gradually expanding their lineup from a simple networked wall wart to lighting and power efficiency solutions.
+
+{{ theme:partial src="image-set" title="WeMo Outlet" show="{{ number }}" file="wemo-outlet.jpg" }}{{ theme:partial src="image-set" title="WeMo Motion" show="{{ number }}" file="wemo-motion.jpg" }}{{ theme:partial src="image-set" title="WeMo Insight" show="{{ number }}" file="wemo-insight.jpg" }}{{ theme:partial src="image-set" title="WeMo Switch" show="{{ number }}" file="wemo-switch.jpg" }}{{ theme:partial src="image-set" title="WeMo Lighting" show="{{ number }}" file="wemo-lighting.jpg" }}
+
+> {{ theme:partial src="aside-header" voice="erik" text="Christmas Lighting and Beyond?" }}
+>
+> I've used WeMo outlets for two years now as my primary Christmas lighting control, and they've worked great. They've even stood up to some fairly chilly winters outside (not recommended if you live in an area with liquid precipitation) attached to an outlet on my front porch. You can set up timers inside the WeMo mobile app, basing it on local sunset or a specific time.
+>
+> {{ theme:partial src="image" title="Erik's WeMo Stack" caption="" file="wemo-stack.jpg" }}
+>
+> Despite their success during the holidays, I've struggled to find a use for them the rest of the year because they're a bit awkward in practice. If they're on a switched outlet, that switch always has to remain on. If the outlet is low to the ground and you don't have your phone, you have to bend over to activate it with the button on the housing, which can be difficult if the only outlet is buried behind your couch. 
+>
+> In my house, I've also struggled with units occasionally dropping off the network. For timed holiday lights this is no big deal at all -- the timers still work fine. For daily use lighting, it can be pretty frustrating.
+
+The biggest problem with WeMo? Wall warts are ugly.
 
 {{ theme:partial src="section-header" title="Hue" url="{{ soundcloudurl }}" time="15:10" }}
 
@@ -124,7 +180,7 @@ It's probably best to start with an overview of where everybody is coming from, 
 * QuickClick - maps tasker activities to phone volume keys
 * Bob's WiFi scale turns on the lights when he steps on it in the morning.
 
-{{ theme:partial src="section-header" title="Smart Things" url="{{ soundcloudurl }}" time="28:28" }}
+{{ theme:partial src="section-header" title="SmartThings" url="{{ soundcloudurl }}" time="28:28" }}
 
 * Works with a lot of things
 * Internet of things
