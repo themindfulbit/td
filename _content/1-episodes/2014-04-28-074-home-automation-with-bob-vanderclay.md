@@ -256,9 +256,9 @@ The number of supported services are truly dizzying, and a reminder of what can 
 - IP Control TV 
 - Plex
 
-Yet another option Gabe tried was UnityRemote, a Bluetooth IR blaster for iOS. Unfortunately it's no longer available. Gabe's ended up in his "something" box alongside his Smart Switches.
+Yet another option Gabe tried was UnityRemote, a Bluetooth IR blaster for iOS. Unfortunately it's no longer available. Gabe's ended up in his "somewhere" box alongside his Smart Switches.
 
-> {{ theme:partial src="aside-header" voice="erik" text="Gabe's Something Box" }}
+> {{ theme:partial src="aside-header" voice="erik" text="Gabe's Somewhere Box" }}
 >
 > *Am I the only one creeped out by this?*
 
