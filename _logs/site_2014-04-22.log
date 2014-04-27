@@ -203,3 +203,7 @@ Stack trace:
 #35 /var/www/html/_app/vendor/Slim/Slim.php(1174): Slim\Middleware\PrettyExceptions->call()
 #36 /var/www/html/index.php(65): Slim\Slim->run()
 #37 {main}
+ERROR|Tue, 22 Apr 2014 21:29:34 -0400|visitor|content|/wp-login.php|183.238.246.90||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Tue, 22 Apr 2014 22:40:16 -0400|visitor|content|/muieblackcat|192.210.146.183||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Tue, 22 Apr 2014 22:42:42 -0400|visitor|content|//phpmyadmin/scripts/setup.php|192.210.146.183||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Tue, 22 Apr 2014 22:42:42 -0400|visitor|content|//pma/scripts/setup.php|192.210.146.183||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
