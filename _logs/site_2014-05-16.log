@@ -1,0 +1,7 @@
+ERROR|Fri, 16 May 2014 02:46:31 -0400|visitor|content|/w00tw00t.at.blackhats.romanian.anti-sec:)|210.1.51.132||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 16 May 2014 02:46:32 -0400|visitor|content|/phpMyAdmin/scripts/setup.php|210.1.51.132||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 16 May 2014 02:46:33 -0400|visitor|content|/phpmyadmin/scripts/setup.php|210.1.51.132||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 16 May 2014 02:46:34 -0400|visitor|content|/pma/scripts/setup.php|210.1.51.132||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 16 May 2014 02:46:35 -0400|visitor|content|/myadmin/scripts/setup.php|210.1.51.132||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 16 May 2014 02:46:35 -0400|visitor|content|/MyAdmin/scripts/setup.php|210.1.51.132||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+INFO|Fri, 16 May 2014 12:02:06 -0400|site|favicon|/favicon.ico|75.141.234.128|dev|The site favicon could not be found.
