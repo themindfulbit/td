@@ -1,113 +1,67 @@
 ---
-number: "075"
-title: Plex and Roku
+number: "076"
+title: What's Living in Gabe's Closet?
 type:
   - discussion
 people:
   - Gabe Weatherhead
   - Erik Hess
 topics:
-  - plex
-  - roku
-banner: /assets/img/theater.jpg
-caption: '[Het Nieuwe Institut](https://www.flickr.com/photos/nai_collection/5415224445)'
+  - networking
+  - closets
+banner: /assets/img/generator-room.jpg
+caption: '[Library of Congress](https://www.flickr.com/photos/library_of_congress/2179853552)'
 download: >
-  https://www.buzzsprout.com/7417/172657-075-plex-and-roku.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/148838598%3Fsecret_token%3Ds-Z0Bbj&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true"></iframe>'
-soundcloudurl: 075-plex-and-roku
-summary: 'Fed up with their Apple TV, Gabe and Erik talk about Plex and the Roku Media Player. They cover what Plex is, how it works, and the advantages and disadvantages of pairing Plex with the Roku.'
+  http://www.buzzsprout.com/7417/176280-076-what-s-living-in-gabe-s-closet.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/151055094%3Fsecret_token%3Ds-3DnAx&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true"></iframe>'
+soundcloudurl: 076-whats-living-in-gabes-closet
+summary: 'Intrigued by Gabe's frequent mentions of his Network Closet, Erik asks some tough questions. Why put the closet in the basement? Why all the extra ventilation? What happens when you run out of red printer ink? The answers may disturb and frighten you.'
 showtype: discussion
 post_images: ""
 post_files: ""
 ---
 
-{{ theme:partial src="section-header" title="Authorizing..." url="{{ soundcloudurl }}" time="0:00" }}
+{{ theme:partial src="section-header" title="A Closet of His Very Own" url="{{ soundcloudurl }}" time="0:00" }}
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="1:12" person="erik" quote="The problem is you're trying to pull a very large file from a very distant place" }}
+Erik tries to dig into the history of Gabe's networking closet. How did he decide to build his own, and why?
 
-{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="1:18" person="gabe" quote="And we're spoiled" }}
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="0:54" person="gabe" quote="I have a wife" }}
 
-{{ theme:partial src="section-header" title="Choosing Plex" url="{{ soundcloudurl }}" time="2:02" }}
+Gabe thinks you should install vents at the top and bottom of your network closet if feasible for ventilation.
 
-#### What is Plex?
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="3:27" person="erik" quote="Like quiet and awesome mode?" }}
 
-#### Serving your Files
+Having a network closet means you can put all your noisy devices in the same room and still keep the room quiet enough to record in.
 
-* Synology (file-host)
-* Mac Mini (file server)
-* Multiple servers
+{{ theme:partial src="section-header" title="What's in there?" url="{{ soundcloudurl }}" time="5:04" }}
 
-#### Viewing your Movies
+* 8-bay 1813+ Synology with seven drives
+* Mac Mini
+* 24 port Network Switch
+* Network-based Printer Scanner
+* Toolbox and Cables
+* 3 UPS
 
-* Roku
-* iOS
-* Album Art
-* Metadata
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="7:52" person="gabe" quote="The Dobermans bring it up" }}
 
-{{ theme:partial src="section-header" title="Let's Talk about the Roku" url="{{ soundcloudurl }}" time="10:27" }}
+Nobody touches Gabe's Network Toolbox.
 
-#### The Remote
+* Independent power circuit
+* Stays cool since it's partially underground
+* Uses slatted doors
 
-* WiFi
-* Kid-Friendly Buttons
-* Motion Sensing
-* Built-in Headphone Jack
-* Remote App
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="14:33" person="gabe" quote="I kept them to menace the other drives" }}
 
-#### The Channels
+* Backup drives
+* Thermaltake BlackX Duet 
+* 3U Rack
+* Boxes for resale
 
-* Plex
-* Netflix
-* Amazon Prime
-* Spotify
+{{ theme:partial src="image" title="More Expensive than Blood" caption="" show="{{ number }}" file="ink-blood.jpg" }}
 
-#### Roku Variants
+{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="18:29" person="gabe" quote="Turns out the printer head clogs with blood. Tried that." }}
 
-{{ theme:partial src="product" show="{{ number }}" image="roku-stick.jpg" name="Roku Streaming Stick" description="The Roku 3500R Streaming Stick (HDMI Version) is a convenient little stick that streams loads of entertainment to your TV." msrp="$49.99" manufacturer="http://www.roku.com/products/streaming-stick" amazon="http://www.amazon.com/Roku-3500R-Streaming-Stick-HDMI/dp/B00INNP5VU/ref=sr_1_2?ie=UTF8&qid=1399726371&sr=8-2&keywords=roku" }}
-
-{{ theme:partial src="product" show="{{ number }}" image="roku1.jpg" name="Roku 1 Streaming Player" description="The Roku 1 makes it easy to enjoy over 1,000 entertainment channels on your TV." msrp="49.99" manufacturer="http://www.roku.com/products/roku-1" amazon="http://www.amazon.com/Roku-Streaming-Player-Black-2710R/dp/B00F5NB7JK/ref=sr_1_4?ie=UTF8&qid=1399726371&sr=8-4&keywords=roku" }}
-
-{{ theme:partial src="product" show="{{ number }}" image="roku2.jpg" name="Roku 2 Streaming Player" description="Crank up the volume, and enjoy the show with the Roku 2. Dive into 1,000+ channels of movies, TV shows, sports and more in stunning 1080p HD. Watch without disturbing the house when you plug the included headphones into the remote. Enjoy free features like channel shortcut buttons and much more." msrp="$69.99" manufacturer="http://www.roku.com/products/roku-2" amazon="http://www.amazon.com/Roku-Streaming-Player-Black-2720R/dp/B00F5NB7MW/ref=sr_1_5?ie=UTF8&qid=1399726371&sr=8-5&keywords=roku" }}
-
-{{ theme:partial src="product" show="{{ number }}" image="roku3.jpg" name="Roku 3 Streaming Media Player" description="Faster and more powerful than ever. Enjoy 1,000+ channels of movies, TV shows, sports, and more. Plug headphones into the motion-control remote to play games or watch late-night flicks without disturbing the household. Fully loaded with one-stop search, 1080p, dual-band wireless, Ethernet, USB, plus a free Roku app. The Roku 3—the new streaming standard." msrp="$89.99" manufacturer="http://www.roku.com/products/roku-3" amazon="http://www.amazon.com/Roku-3-Streaming-Media-Player/dp/B00BGGDVOO/ref=sr_1_1?ie=UTF8&qid=1399726371&sr=8-1&keywords=roku" }}
-
-#### What we miss
-
-* Subscriptions
-* iTunes Radio
-* iTunes Remote App
-* Quick and easy purchasing
-
-{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="14:38" person="gabe" quote="I ended up just unplugging the Apple TV" }}
-
-{{ theme:partial src="section-header" title="Using Plex" url="{{ soundcloudurl }}" time="19:10" }}
-
-#### Within the Apple Ecosystem
-
-* iOS App
-* AirPlay
-
-{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="20:57" person="gabe" quote="I've had my Apple TV disconnected for so long I can't remember" }}
-
-#### Plex Pass
-
-* Plex It
-* Cloud-based media
-
-{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="27:18" person="gabe" quote="I don't have a lot of friends" }}
-
-#### The Apps
-
-{{ theme:partial src="app" show="{{ number }}" image="plex-app.png" name="Plex" description="With Plex, you can easily stream your videos, music, photos and home movies to your iPad, iPhone or iPod Touch from your home computer running Plex Media Server (available for free at http://plex.tv). " price="$4.99" developer="https://plex.tv/" appstore="https://itunes.apple.com/us/app/plex/id383457673?mt=8" }}
-
-{{ theme:partial src="app" show="{{ number }}" image="roku-app.png" name="Roku" description="The free Roku iOS application allows you to control your Roku player from your mobile device and more." price="Free" developer="http://www.roku.com/" appstore="https://itunes.apple.com/us/app/roku/id482066631?mt=8" }}
-
-#### Other Neat Stuff Plex can Do
-
-* Photos
-* Music
-
-{{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="32:25" person="erik" quote="It's become the Internet Explorer 6 of Media Managers" }}
+Erik needs a network closet, but his office is on one end of his house and doesn't have one. Long cable runs aren't a real problem for Ethernet, but it can be nice to co-locate your network closet and your primary workspace if possible.
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Producer's Note" }}
 >
