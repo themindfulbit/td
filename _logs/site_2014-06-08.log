@@ -1,0 +1,17 @@
+ERROR|Sun, 08 Jun 2014 02:39:29 -0400|visitor|content|/wp-login.php|213.60.210.202||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 08 Jun 2014 02:39:29 -0400|visitor|content|/blog/wp-login.php|213.60.210.202||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 08 Jun 2014 02:39:30 -0400|visitor|content|/wordpress/wp-login.php|213.60.210.202||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 08 Jun 2014 02:39:30 -0400|visitor|content|/wp/wp-login.php|213.60.210.202||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 08 Jun 2014 02:39:30 -0400|visitor|content|/news/wp-login.php|213.60.210.202||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 08 Jun 2014 02:39:31 -0400|visitor|content|/test/wp-login.php|213.60.210.202||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 08 Jun 2014 04:32:56 -0400|visitor|content|/webdav|173.193.120.242||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 08 Jun 2014 10:44:48 -0400|visitor|content|/w00tw00t.at.blackhats.romanian.anti-sec:)|61.147.67.88||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 08 Jun 2014 10:44:54 -0400|visitor|content|/phpMyAdmin/scripts/setup.php|61.147.67.88||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 08 Jun 2014 10:44:56 -0400|visitor|content|/phpmyadmin/scripts/setup.php|61.147.67.88||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 08 Jun 2014 10:44:57 -0400|visitor|content|/pma/scripts/setup.php|61.147.67.88||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 08 Jun 2014 10:44:59 -0400|visitor|content|/myadmin/scripts/setup.php|61.147.67.88||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 08 Jun 2014 10:45:00 -0400|visitor|content|/MyAdmin/scripts/setup.php|61.147.67.88||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 08 Jun 2014 16:00:59 -0400|visitor|content|/wp-login.php|62.109.16.101||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 08 Jun 2014 17:00:19 -0400|visitor|content|http://www.google.com/|118.244.186.157||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 08 Jun 2014 20:46:03 -0400|page|content|http://hotel.qunar.com/render/hoteldiv.jsp?&__jscallback=XQScript_4|115.29.34.48||404 - Page not found. There is a bad link on <a href="/">/</a>.
+ERROR|Sun, 08 Jun 2014 23:41:23 -0400|visitor|content|/wp-login.php|58.64.177.132|live|404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.

@@ -1,0 +1,33 @@
+FATAL|Mon, 26 May 2014 02:16:35 -0400|core|routes|/wp-login.php|87.242.64.76|live|Undefined index: path on line 229.
+exception 'ErrorException' with message 'Undefined index: path' in /var/www/html/_app/routes.php:229
+Stack trace:
+#0 /var/www/html/_app/routes.php(229): Slim\Slim::handleErrors(8, 'Undefined index...', '/var/www/html/_...', 229, Array)
+#1 [internal function]: {closure}(Array)
+#2 /var/www/html/_app/vendor/Slim/Router.php(172): call_user_func_array(Object(Closure), Array)
+#3 /var/www/html/_app/vendor/Slim/Slim.php(1222): Slim\Router->dispatch(Object(Slim\Route))
+#4 /var/www/html/_app/vendor/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /var/www/html/_app/vendor/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /var/www/html/_app/vendor/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /var/www/html/_app/vendor/Slim/Slim.php(1174): Slim\Middleware\PrettyExceptions->call()
+#8 /var/www/html/index.php(65): Slim\Slim->run()
+#9 {main}
+ERROR|Mon, 26 May 2014 08:28:22 -0400|visitor|content|/muieblackcat|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Mon, 26 May 2014 08:28:23 -0400|visitor|content|//scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Mon, 26 May 2014 08:28:24 -0400|visitor|content|//phpAdmin/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Mon, 26 May 2014 08:28:24 -0400|visitor|content|//phpMyAdmin/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Mon, 26 May 2014 08:28:25 -0400|visitor|content|//phpmyadmin/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Mon, 26 May 2014 08:28:26 -0400|visitor|content|//myadmin/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Mon, 26 May 2014 08:28:26 -0400|visitor|content|//mysql/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Mon, 26 May 2014 08:28:27 -0400|visitor|content|//mysqladmin/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Mon, 26 May 2014 08:28:28 -0400|visitor|content|//web/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Mon, 26 May 2014 08:28:28 -0400|visitor|content|//pma/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Mon, 26 May 2014 08:28:29 -0400|visitor|content|//sql/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Mon, 26 May 2014 08:28:30 -0400|visitor|content|//websql/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Mon, 26 May 2014 08:28:30 -0400|visitor|content|//pMA/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Mon, 26 May 2014 08:28:31 -0400|visitor|content|//MyAdmin/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Mon, 26 May 2014 08:28:31 -0400|visitor|content|//PHPMYADMIN/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Mon, 26 May 2014 08:28:32 -0400|visitor|content|//PMA/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Mon, 26 May 2014 08:28:33 -0400|visitor|content|//SQL/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Mon, 26 May 2014 08:28:33 -0400|visitor|content|//db/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Mon, 26 May 2014 08:28:37 -0400|visitor|content|//pHpMyAdMiN/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Mon, 26 May 2014 15:07:00 -0400|visitor|content|/manager/html|189.51.133.144||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.

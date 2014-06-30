@@ -1,0 +1,87 @@
+ERROR|Fri, 27 Jun 2014 01:36:12 -0400|visitor|content|/cgi-bin/php?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E|180.120.36.144||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 01:36:13 -0400|visitor|content|/cgi-bin/php5?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E|180.120.36.144||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 01:36:14 -0400|visitor|content|/cgi-bin/php-cgi?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E|180.120.36.144||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 01:36:15 -0400|visitor|content|/cgi-bin/php.cgi?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E|180.120.36.144||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 01:36:15 -0400|visitor|content|/cgi-bin/php4?%2D%64+%61%6C%6C%6F%77%5F%75%72%6C%5F%69%6E%63%6C%75%64%65%3D%6F%6E+%2D%64+%73%61%66%65%5F%6D%6F%64%65%3D%6F%66%66+%2D%64+%73%75%68%6F%73%69%6E%2E%73%69%6D%75%6C%61%74%69%6F%6E%3D%6F%6E+%2D%64+%64%69%73%61%62%6C%65%5F%66%75%6E%63%74%69%6F%6E%73%3D%22%22+%2D%64+%6F%70%65%6E%5F%62%61%73%65%64%69%72%3D%6E%6F%6E%65+%2D%64+%61%75%74%6F%5F%70%72%65%70%65%6E%64%5F%66%69%6C%65%3D%70%68%70%3A%2F%2F%69%6E%70%75%74+%2D%64+%63%67%69%2E%66%6F%72%63%65%5F%72%65%64%69%72%65%63%74%3D%30+%2D%64+%63%67%69%2E%72%65%64%69%72%65%63%74%5F%73%74%61%74%75%73%5F%65%6E%76%3D%30+%2D%6E|180.120.36.144||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 01:54:31 -0400|visitor|content|http://www.google.com/|118.244.186.157||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+FATAL|Fri, 27 Jun 2014 08:34:52 -0400|core|routes|/wp-login.php|5.9.139.208|live|Undefined index: path on line 229.
+exception 'ErrorException' with message 'Undefined index: path' in /var/www/html/_app/routes.php:229
+Stack trace:
+#0 /var/www/html/_app/routes.php(229): Slim\Slim::handleErrors(8, 'Undefined index...', '/var/www/html/_...', 229, Array)
+#1 [internal function]: {closure}(Array)
+#2 /var/www/html/_app/vendor/Slim/Router.php(172): call_user_func_array(Object(Closure), Array)
+#3 /var/www/html/_app/vendor/Slim/Slim.php(1222): Slim\Router->dispatch(Object(Slim\Route))
+#4 /var/www/html/_app/vendor/Slim/Middleware/Flash.php(86): Slim\Slim->call()
+#5 /var/www/html/_app/vendor/Slim/Middleware/MethodOverride.php(94): Slim\Middleware\Flash->call()
+#6 /var/www/html/_app/vendor/Slim/Middleware/PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#7 /var/www/html/_app/vendor/Slim/Slim.php(1174): Slim\Middleware\PrettyExceptions->call()
+#8 /var/www/html/index.php(65): Slim\Slim->run()
+#9 {main}
+ERROR|Fri, 27 Jun 2014 11:38:01 -0400|page|content|/wp|78.186.148.138||404 - Page not found. There is a bad link on <a href="/wp">/wp</a>.
+ERROR|Fri, 27 Jun 2014 20:22:33 -0400|visitor|content|/checknfurl123|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:33 -0400|visitor|content|/.ssh/id_rsa|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:34 -0400|visitor|content|/.ssh/id_dsa|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:34 -0400|visitor|content|/.ssh/rsa|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:34 -0400|visitor|content|/.ssh/dsa|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:34 -0400|visitor|content|/.ssh/key|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:34 -0400|visitor|content|/.ssh/priv|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:35 -0400|visitor|content|/.ssh/id_rsa.old|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:35 -0400|visitor|content|/.ssh/id_dsa.old|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:35 -0400|visitor|content|/.ssh/identity|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:35 -0400|visitor|content|/.ssh/authorized_keys|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:36 -0400|visitor|content|/.ssh/authorized_keys2|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:36 -0400|visitor|content|/.ssh/known_hosts|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:36 -0400|visitor|content|/.ssh/config|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:36 -0400|visitor|content|/.ssh/config.old|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:36 -0400|visitor|content|/.ssh/config~|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:37 -0400|visitor|content|/.ssh/id_rsa.pub|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:37 -0400|visitor|content|/.ssh/id_dsa.pub|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:37 -0400|visitor|content|/.ssh/id_rsa_2|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:37 -0400|visitor|content|/.ssh/id_rsa.2|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:38 -0400|visitor|content|/.ssh/id_dsa_2|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:38 -0400|visitor|content|/.ssh/id_dsa.2|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:38 -0400|visitor|content|/.ssh/id_ecdsa|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:38 -0400|visitor|content|/.ssh/id_ecdsa.2|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:39 -0400|visitor|content|/.ssh/id_ecdsa_2|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:39 -0400|visitor|content|/.ssh/id_rsa2|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:39 -0400|visitor|content|/.ssh/id_dsa2|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:39 -0400|visitor|content|/.ssh/id_ecdsa2|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:40 -0400|visitor|content|/.ssh/id_ecdsa_old|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:40 -0400|visitor|content|/.ssh/id_ecdsa.old|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:40 -0400|visitor|content|/.ssh/id_rsa.bak|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:40 -0400|visitor|content|/.ssh/id_dsa.bak|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:41 -0400|visitor|content|/.bash_history|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:41 -0400|visitor|content|/.history|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:41 -0400|visitor|content|/.sh_history|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:41 -0400|visitor|content|/.bitcoin/wallet.dat|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:42 -0400|visitor|content|/.litecoin/wallet.dat|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:42 -0400|visitor|content|/.psi/profiles/default/config.xml|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:42 -0400|visitor|content|/.purple/accounts.xml|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:42 -0400|visitor|content|/.mozilla/firefox/profiles.ini|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:42 -0400|visitor|content|/id_ecdsa|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:43 -0400|visitor|content|/id_ecdsa.2|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:43 -0400|visitor|content|/id_ecdsa_2|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:43 -0400|visitor|content|/id_ecdsa_old|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:43 -0400|visitor|content|/id_ecdsa.old|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:44 -0400|visitor|content|/id_rsa|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:44 -0400|visitor|content|/id_dsa|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:44 -0400|visitor|content|/rsa|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:44 -0400|visitor|content|/dsa|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:45 -0400|visitor|content|/key|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:45 -0400|visitor|content|/key.priv|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:45 -0400|visitor|content|/id_rsa.old|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:45 -0400|visitor|content|/id_dsa.old|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:46 -0400|visitor|content|/identity|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:46 -0400|visitor|content|/authorized_keys|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:46 -0400|visitor|content|/authorized_keys2|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:46 -0400|visitor|content|/known_hosts|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:46 -0400|visitor|content|/id_rsa.pub|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:47 -0400|visitor|content|/id_dsa.pub|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:47 -0400|visitor|content|/htpasswd|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:47 -0400|visitor|content|/passwd|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:48 -0400|visitor|content|/.passwd|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:48 -0400|visitor|content|/passwords|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:48 -0400|visitor|content|/password|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:48 -0400|visitor|content|/passwords.txt|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 20:22:49 -0400|visitor|content|/pass|94.23.243.131||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Fri, 27 Jun 2014 22:12:48 -0400|visitor|content|http://www.baidu.com/|123.151.149.222||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.

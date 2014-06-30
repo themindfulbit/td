@@ -1,0 +1,21 @@
+ERROR|Sun, 25 May 2014 11:02:33 -0400|page|content|/wp-login.php|200.139.175.57||404 - Page not found. There is a bad link on <a href="voodev.com">voodev.com</a>.
+ERROR|Sun, 25 May 2014 11:18:14 -0400|visitor|content|/muieblackcat|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 25 May 2014 11:18:15 -0400|visitor|content|//scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 25 May 2014 11:18:16 -0400|visitor|content|//phpAdmin/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 25 May 2014 11:18:17 -0400|visitor|content|//phpMyAdmin/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 25 May 2014 11:18:19 -0400|visitor|content|//phpmyadmin/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 25 May 2014 11:18:20 -0400|visitor|content|//myadmin/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 25 May 2014 11:18:21 -0400|visitor|content|//mysql/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 25 May 2014 11:18:21 -0400|visitor|content|//mysqladmin/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 25 May 2014 11:18:22 -0400|visitor|content|//web/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 25 May 2014 11:18:23 -0400|visitor|content|//pma/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 25 May 2014 11:18:25 -0400|visitor|content|//sql/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 25 May 2014 11:18:26 -0400|visitor|content|//websql/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 25 May 2014 11:18:26 -0400|visitor|content|//pMA/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 25 May 2014 11:18:27 -0400|visitor|content|//MyAdmin/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 25 May 2014 11:18:28 -0400|visitor|content|//PHPMYADMIN/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 25 May 2014 11:18:29 -0400|visitor|content|//PMA/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 25 May 2014 11:18:30 -0400|visitor|content|//SQL/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 25 May 2014 11:18:30 -0400|visitor|content|//db/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 25 May 2014 11:18:31 -0400|visitor|content|//dbadmin/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 25 May 2014 11:18:32 -0400|visitor|content|//pHpMyAdMiN/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.

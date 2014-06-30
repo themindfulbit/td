@@ -1,0 +1,7 @@
+ERROR|Sun, 22 Jun 2014 04:24:05 -0400|external|content|/docs/funcspecs/3.jsp|175.102.14.233||404 - Page not found. User clicked an outside bad link at <a href="http://65.74.153.170/docs/funcspecs/3.jsp">http://65.74.153.170/docs/funcspecs/3.jsp</a>.
+ERROR|Sun, 22 Jun 2014 06:33:05 -0400|visitor|content|/webdav|173.193.120.242||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 22 Jun 2014 20:51:35 -0400|visitor|content|/CFIDE/h.cfm|82.221.105.223||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 22 Jun 2014 20:51:36 -0400|visitor|content|/CFIDE/administrator/index.cfm|82.221.105.223||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 22 Jun 2014 20:51:36 -0400|visitor|content|/manager/html|82.221.105.223||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 22 Jun 2014 20:51:38 -0400|visitor|content|/jmx-console|82.221.105.223||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Sun, 22 Jun 2014 21:03:40 -0400|page|content|http://hotel.qunar.com/render/hoteldiv.jsp?&__jscallback=XQScript_4|115.29.9.110||404 - Page not found. There is a bad link on <a href="/">/</a>.

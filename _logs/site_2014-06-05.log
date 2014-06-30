@@ -1,0 +1,19 @@
+ERROR|Thu, 05 Jun 2014 06:41:17 -0400|page|content|/wp-login.php|176.109.195.139||404 - Page not found. There is a bad link on <a href="/wp-login.php">/wp-login.php</a>.
+ERROR|Thu, 05 Jun 2014 13:36:41 -0400|visitor|content|/muieblackcat|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Thu, 05 Jun 2014 13:36:42 -0400|visitor|content|//phpMyAdmin/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Thu, 05 Jun 2014 13:36:42 -0400|visitor|content|//myadmin/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Thu, 05 Jun 2014 13:36:43 -0400|visitor|content|//phpmyadmin/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Thu, 05 Jun 2014 13:36:45 -0400|visitor|content|//mysqladmin/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Thu, 05 Jun 2014 13:36:46 -0400|visitor|content|//mysql/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Thu, 05 Jun 2014 13:36:46 -0400|visitor|content|//pma/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Thu, 05 Jun 2014 13:36:49 -0400|visitor|content|//web/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Thu, 05 Jun 2014 13:36:50 -0400|visitor|content|//websql/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Thu, 05 Jun 2014 13:36:51 -0400|visitor|content|//sql/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Thu, 05 Jun 2014 13:36:51 -0400|visitor|content|//MyAdmin/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Thu, 05 Jun 2014 13:36:53 -0400|visitor|content|//PHPMYADMIN/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Thu, 05 Jun 2014 13:36:54 -0400|visitor|content|//phpAdmin/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Thu, 05 Jun 2014 13:36:55 -0400|visitor|content|//pMA/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Thu, 05 Jun 2014 13:36:55 -0400|visitor|content|//PMA/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Thu, 05 Jun 2014 13:36:56 -0400|visitor|content|//pma/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Thu, 05 Jun 2014 13:36:56 -0400|visitor|content|//pHpMyAdMiN/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Thu, 05 Jun 2014 13:36:57 -0400|visitor|content|//MySQLAdmin/scripts/setup.php|61.191.62.7||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
