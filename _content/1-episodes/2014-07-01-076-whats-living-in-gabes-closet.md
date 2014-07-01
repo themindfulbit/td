@@ -23,15 +23,15 @@ post_files: ""
 
 {{ theme:partial src="section-header" title="A Closet of His Very Own" url="{{ soundcloudurl }}" time="0:00" }}
 
-Erik tries to dig into the history of Gabe's networking closet. How did he decide to build his own, and why? When this podcast was newly re-launched, we discussed [how to wire a house for ethernet](http://technicaldifficulties.us/episodes/055-ethernetworking). This topic has come up periodically, but now it's time to learn a little bit more about the center of Gabe's wired house.
+Erik digs into the history of Gabe's networking closet. How did he decide to build his own, and why? When this podcast was newly re-launched, we discussed [how to wire a house for ethernet](http://technicaldifficulties.us/episodes/055-ethernetworking). This topic has come up periodically, but now it's time to learn a little bit more about the center of Gabe's wired house.
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="0:54" person="gabe" quote="I have a wife" }}
 
-And Gabe's wife doesn't like nerdy hardware out sitting around. Weird double entendres aside, Gabe has always tried to isolate his networked and nerdy equipment. When you put a lot of running electronics in one place, however, they produce a lot of heat. For that reason, Gabe thinks you should install vents at the top and bottom of your network closet if feasible. It may also make sense to add a temperature sensor too, but beware. [Home automation](http://technicaldifficulties.us/episodes/074-home-automation-with-bob-vanderclay) can be a slippery slope.
+And Gabe's wife doesn't like nerdy hardware out sitting around. Weird double entendres aside, Gabe has always tried to isolate his networked and nerdy equipment. When you put a lot of running electronics in one place, however, they produce a lot of heat. For that reason, he thinks you should install vents at the top and bottom of your network closet if feasible. It may also make sense to add a temperature sensor too, but beware. [Home automation](http://technicaldifficulties.us/episodes/074-home-automation-with-bob-vanderclay) can be a slippery slope.
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="3:27" person="erik" quote="Like quiet and awesome mode?" }}
 
-Having a network closet also means you can put your noisy devices in the one room and it will still be quiet enough to record podcasts in.
+Having a network closet also means you can put your noisy devices in the one room and it will still be quiet enough that you can record a podcast.
 
 {{ theme:partial src="section-header" title="What's in there?" url="{{ soundcloudurl }}" time="5:04" }}
 
@@ -46,7 +46,7 @@ The network closet is likely the center of nerd necessities. For Gabe, his close
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="7:52" person="gabe" quote="The Dobermans bring it up" }}
 
-Nobody touches Gabe's Network Toolbox.
+*Nobody touches Gabe's Network Toolbox.*
 
 > {{ theme:partial src="aside-header" voice="gabe" text="The Toolbox" }}
 > 
@@ -74,7 +74,7 @@ Nobody touches Gabe's Network Toolbox.
 > 
 > You can [get a kit](http://www.monoprice.com/Product?c_id=105&cp_id=10509&cs_id=1050905&p_id=7055&seq=1&format=2) full of reasonably good quality tools for making network cables and connectors.
 > 
-> ### Flashlights
+> ##### Flashlights
 > 
 > Boy am I a sucker for [a good flashlight](http://www.amazon.com/gp/product/B00AEUQGR2/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B00AEUQGR2). I have some nice flashlights that can cook a turkey, but the one I use the most around the house is my [Joby tripod light](http://www.amazon.com/gp/product/B0087FFU9Q/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B0087FFU9Q). It has flexible legs and magnet feet. It also takes standard batteries so I'm pretty much always ready to go with it. I upgraded to the more powerful 125 Lumen model from my trusty [65 Lumen model](http://www.amazon.com/gp/product/B002IT5DIU/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B002IT5DIU) that my toddler now loves.
 
@@ -86,11 +86,11 @@ The internal closet setup may require less premeditation, but is no less importa
 
 > {{ theme:partial src="aside-header" voice="gabe" text="Setup" }}
 > 
-> ### Shelving
+> ##### Shelving
 > 
 > Get some simple but durable shelving. You'll always put way more stuff on the top shelf than you expect, so anchor it to the wall. My network closet isn't pretty on the inside so I don't have high standards for how the shelving looks. There's reasonable good plastic shelving at most hardware stores. I worried about WiFi interference with a large metal shelf and plastic is pretty easy to drill holes in. I'd also recommend open shelving without sides or backs. It's easier to run cables around them.
 > 
-> ### Running Lines
+> ##### Running Lines
 > 
 > [A line puller](http://www.amazon.com/gp/product/B001HWEEIY/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B001HWEEIY) is the best and worst thing I've used. When it works, you'll do a little fist pump. When it gets caught on something you'll fist pump the wall. There's really not a lot of choice if you need to fish for a line over more than a couple of feet.
 > 
@@ -100,7 +100,7 @@ The internal closet setup may require less premeditation, but is no less importa
 > 
 > But for short runs, just buy [a few different colors](http://www.monoprice.com/Product?c_id=102&cp_id=10232&cs_id=1023205&p_id=2295&seq=1&format=2) and always keep one free. I have three hanging on a peg board all of the time. And remember, a [crossover cable](http://www.monoprice.com/Category?c_id=102&cp_id=10232&cs_id=1023202) is something entirely different. You will be pissed the first time you need one and only have patch cables.
 > 
-> ### Power
+> ##### Power
 > 
 > We covered a lot of the power supply and backup UPS stuff in [a previous episode of Technical Difficulties](http://technicaldifficulties.us/episodes/062-drunk-with-power). Nothing has changed. I keep a couple of good quality [UPS](http://www.amazon.com/gp/product/B000FBK3QK/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B000FBK3QK) in my network closet. Each one is plugged into a different circuit. Yes, I have two circuits in my network closet. One powers only the router and network switch and inside light. The other carries everything else. It seems like overkill until you have a power converter on a laptop go bad and throw the breaker on one circuit once a day. It's not a big interruption to lose access to a printer and various backup drives. Losing the network connection for the entire house would have been very frustrating.
 > 
@@ -112,7 +112,7 @@ The internal closet setup may require less premeditation, but is no less importa
 Lastly, there are the cables and all of the tech they enable.
 
 > {{ theme:partial src="aside-header" voice="gabe" text="Everything else" }}
-> ### More Cables
+> ##### More Cables
 > 
 > I didn't set out to collect cables. In fact, I make it a personal policy to throw away extra cables whenever I get new cables. But I do try to keep one of every kind of cable. Here's a quick list of what's hanging in my closet:
 > 
@@ -125,7 +125,7 @@ Lastly, there are the cables and all of the tech they enable.
 > - [Firewire DV](http://www.monoprice.com/Product?c_id=103&cp_id=10301&cs_id=1030102&p_id=38&seq=1&format=2)
 > - [Firewire adapter](http://www.monoprice.com/Product?c_id=103&cp_id=10301&cs_id=1030105&p_id=332&seq=1&format=2)
 > 
-> ### Tech
+> ##### Tech
 > 
 > I have a color printer/scanner combo. I really just wanted a basic WiFi enabled color printer but I've actually found myself using the flatbed scanner more than I thought. Of course the ink is stupidly expensive but it's rarely used unless it's dire.
 > 

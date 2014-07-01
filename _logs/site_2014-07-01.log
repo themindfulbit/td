@@ -1,0 +1,4 @@
+ERROR|Tue, 01 Jul 2014 02:27:46 -0400|visitor|content|http://www.google.com/|118.244.186.157||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Tue, 01 Jul 2014 11:16:18 -0400|page|content|http://hotel.qunar.com/render/hoteldiv.jsp?&__jscallback=XQScript_4|114.232.149.33||404 - Page not found. There is a bad link on <a href="/">/</a>.
+ERROR|Tue, 01 Jul 2014 11:24:26 -0400|visitor|content|/user/soapCaller.bs|65.207.23.201||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
+ERROR|Tue, 01 Jul 2014 17:20:06 -0400|visitor|content|/manager/html|115.239.248.112||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
