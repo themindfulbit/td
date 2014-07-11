@@ -16,6 +16,15 @@
     <td class="quote"><a href="https://soundcloud.com/techdiffpodcast/{{ url }}#t={{ time }}">&ldquo;{{ quote|widont|smartypants }}&rdquo;</a></td>
   </tr>
 </table>
+{{ elseif person == "potatowire" }}
+<table class="fancy-quote potatowire">
+  <tr>
+    <td class="avatar">
+      <img src="{{ _site_url }}assets/img/potatowire-avatar.png" />
+    </td>
+    <td class="quote"><a href="https://soundcloud.com/techdiffpodcast/{{ url }}#t={{ time }}">&ldquo;{{ quote|widont|smartypants }}&rdquo;</a></td>
+  </tr>
+</table>
 {{ elseif person == "macsparky" }}
 <table class="fancy-quote macsparky">
   <tr>
