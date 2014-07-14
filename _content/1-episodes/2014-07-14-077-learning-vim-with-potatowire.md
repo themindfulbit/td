@@ -143,7 +143,7 @@ when you start typing, "hello world" in normal mode is nothing until you get to
 'l' when it tries to move the cursor to the right, but it can't because that is
 [virtual space](http://usevim.com/2012/09/21/vim101-virtualedit/), since you
 haven't yet "typed" anything. It's not until you get to the "o" that anything
-other than a beep or [visual bell] happens, because when you type the "o" you
+other than a [beep or visual bell](http://en.wikipedia.org/wiki/Bell_character) happens, because when you type the "o" you
 are telling Vim to "open a line below this one and go into [*Insert
 Mode*](http://en.wikibooks.org/wiki/Learning_the_vi_Editor/Vim/Modes#insert_.28and_replace.29)."
 After this, you can type " world" with impunity. Insert mode is where you can
