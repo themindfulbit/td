@@ -109,8 +109,7 @@ write`](http://www.defaults-write.com/). I was in love with the command line
 anew.
 
 My computer use [took another leap forward in its
-evolution](https://www.youtube.com/watch?v=RlGqVk_9JLg) when I read a post
-o][O'Reilly's Radar](http://radar.oreilly.com/), which has been lost from my
+evolution](https://www.youtube.com/watch?v=RlGqVk_9JLg) when I read a post on [O'Reilly's Radar](http://radar.oreilly.com/), which has been lost from my
 mind and bookmarks, about this editor called Vim that I really knew nothing
 about. This was interesting, but nothing really changed for me until I read
 [Steve Losh's](https://twitter.com/stevelosh) post about [Coming Home to

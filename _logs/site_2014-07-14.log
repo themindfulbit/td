@@ -1,2 +1,4 @@
 ERROR|Mon, 14 Jul 2014 07:25:50 -0400|visitor|content|/webdav|69.64.72.41||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
 ERROR|Mon, 14 Jul 2014 11:09:18 -0400|page|content|http://hotel.qunar.com/render/hoteldiv.jsp?&__jscallback=XQScript_4|114.232.148.30||404 - Page not found. There is a bad link on <a href="/">/</a>.
+INFO|Mon, 14 Jul 2014 13:05:58 -0400|site|favicon|/favicon.ico|138.162.8.57|live|The site favicon could not be found.
+INFO|Mon, 14 Jul 2014 13:09:29 -0400|site|favicon|/favicon.ico|138.162.8.58|live|The site favicon could not be found.
