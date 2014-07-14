@@ -51,7 +51,9 @@ into the conversation as it happened, rather than afterwards.
 try to avoid. Anyway, what follows is a long discussion about Vim and the
 terminal. I am very strong proponent about Vim, but I *try* not to browbeat
 people about it, since I know that it works best for me, and not necessarily
-for everyone else. Though it should. Damn it, that slipped out.
+for everyone else. Though it should be. Damn it, that slipped out.
+>
+> Also, if it seems like my attention occaisionally wandered, my kids came home during the middle of the recording, and my daughter, in particular, thought she ought to have my undivided attention periodically. I am not a professional.
 
 {{ theme:partial src="section-header" title="Introducing Potatowire" url="{{ soundcloudurl }}" time="0:00" }}
 
@@ -69,8 +71,7 @@ of the [great material](http://web.cecs.pdx.edu/~kirkenda/joy84.html) that
 exists from the formative years of these tools.
 
 Like many kids, I liked video games before I liked computers, and in my case,
-they first became connected with the [Commodore
-64](http://en.wikipedia.org/wiki/Commodore_64), which was both computer and
+the two first became connected by the [Commodore 64](http://en.wikipedia.org/wiki/Commodore_64), which was both computer and
 game platform. It wasn't really great at either function, but I didn't know
 that. I loved [Jumpman](http://en.wikipedia.org/wiki/Jumpman) and
 [Popeye](https://www.youtube.com/watch?v=rCwGxOTfUXM), and that even caused me
@@ -85,7 +86,7 @@ by starting too young though, because I didn't go back to programming again
 until college.
 
 It was also in college that I really realized that the command line lurked
-there underneath the surface of that pretty GUI. I don't remember what I was
+there underneath the surface of all that pretty [GUI](http://en.wikipedia.org/wiki/Graphical_user_interface). I don't remember what I was
 trying to do, but I was having some trouble accomplishing a task with the
 [wonderful computer](http://en.wikipedia.org/wiki/Intel_80486DX2) that I had
 been given, and the guy who lived across the hall from me asked me why I didn't
@@ -106,13 +107,13 @@ It was a revelation. As I poked around this new-to-me [OS
 X](https://twitter.com/potatowire/status/473873091354177536) I discovered the
 hidden settings made possible by [`defaults
 write`](http://www.defaults-write.com/). I was in love with the command line
-anew.
+all over again.
 
 My computer use [took another leap forward in its
 evolution](https://www.youtube.com/watch?v=RlGqVk_9JLg) when I read a post
-o][O'Reilly's Radar](http://radar.oreilly.com/), which has been lost from my
-mind and bookmarks, about this editor called Vim that I really knew nothing
-about. This was interesting, but nothing really changed for me until I read
+on [O'Reilly's Radar](http://radar.oreilly.com/), which has since been lost from both my
+mind and my bookmarks, about this editor called Vim that I really knew nothing
+about. This was interesting, but nothing *really* changed for me until I read
 [Steve Losh's](https://twitter.com/stevelosh) post about [Coming Home to
 Vim](http://stevelosh.com/blog/2010/09/coming-home-to-vim/). I thought it was
 wonderful and compelling and I [switched text
@@ -122,15 +123,14 @@ editors](http://en.wikipedia.org/wiki/TextMate) on the spot.
 
 #### tmux - The Terminal Multiplexer
 
-[Tmux](http://tmux.sourceforge.net/) is a terminal multiplexer. That didn't mean much to me when I first read it, but the idea is that you have multiple terminal sessions in a single terminal window. You can organize these into *panes* by splitting the windows up, or into *windows*, which most of us would think of as tabs. Another main feature is that you can *detach* from a session, and anything you have in progress will continue on while you are away. When you later *attach* back to your session, everything is set up as you left it even though you may have closed your terminal window, restarted your computer, or have decided to `ssh` in using your phone. 
+[Tmux](http://tmux.sourceforge.net/) is a terminal multiplexer. That didn't mean much to me when I was first told that either, but the idea is that you can have multiple terminal sessions in a single terminal window or emulator. You can organize these into *panes* by splitting the windows into sections, or into *windows*, which most of us would think of as tabs. Another main feature is that you can *detach* from a session, and anything you have in progress will continue on while you are away. When you later *attach* back to your session, everything is as you left it, even though you may have closed your terminal window, restarted your computer, or have decided to `ssh`-in using your phone. 
 
-Much of the discussion went on to Vim, and tmux alone is worthy of its own show, but if this has piqued your interest, there are countless resources available online, from [basic](http://mutelight.org/practical-tmux) [crash courses](http://robots.thoughtbot.com/a-tmux-crash-course) to the [more exhaustive](http://www.openbsd.org/cgi-bin/man.cgi?query=tmux&sektion=1). While I do [wonder about the cost](http://twitter.com/potatowire/status/442691860629565441), the [Pragpub tmux book](http://pragprog.com/book/bhtmux/tmux) is a very good way to go from zero to tmux-functional in a couple days. In case you're wondering, i remained too cheap to buy it, but a [friend](https://twitter.com/themindfulbit) gave it to me, and I can personally vouch for it as a good starting point.
+Much of the discussion in the audio was devoted to Vim, and tmux alone is worthy of its own show, but if this has piqued your interest, there are countless resources available online, from [basic](http://mutelight.org/practical-tmux) [crash courses](http://robots.thoughtbot.com/a-tmux-crash-course) to the [more exhaustive](http://www.openbsd.org/cgi-bin/man.cgi?query=tmux&sektion=1). While I do [wonder about the cost](http://twitter.com/potatowire/status/442691860629565441), the [Pragpub tmux book](http://pragprog.com/book/bhtmux/tmux) is a very good way to go from zero to tmux-functional in a couple days. In case you're wondering, I remained too cheap to buy it, but a [friend](https://twitter.com/themindfulbit) gave it to me, and I can personally vouch for it as a good starting point.
  
 #### Vim - Everything Improved
 
-Now, those of you who know Vim know that it isn't very easy to switch to Vim
-without forethought. For starters, it is ugly right out of the box. Second of
-all, once you look at the ugly window and try to type something, say, "hello
+Now, those of you familiar with Vim know that it isn't very easy to switch to without significant forethought. For starters, it is ugly right out of the box. Really ugly. Second of
+all, once you try to type something into the ugly window, say, "hello
 world," you will actually see this:
 
 {{ theme:partial src="image" show="{{ number }}" title="Windows version, so even uglier" file="vim-1st.jpg" }}
@@ -148,7 +148,7 @@ are telling Vim to "open a line below this one and go into [*Insert
 Mode*](http://en.wikibooks.org/wiki/Learning_the_vi_Editor/Vim/Modes#insert_.28and_replace.29)."
 After this, you can type " world" with impunity. Insert mode is where you can
 type like usual. At this point you may just want to quit Vim an move on. Wait,
-how in the Sam Hill do you quit Vim?
+how in the Sam Hill do you quit Vim? For that you need to enter [Command-line or Command mode](http://en.wikibooks.org/wiki/Learning_the_vi_Editor/Vim/Modes#command-line) by typing `:`.
 
 Vim doesn't seem to like beginners.
 
@@ -160,12 +160,11 @@ say this is because of how the Vim vocabulary functions.
 ##### Vocabulary
 
 Vim has its own vocabulary, and once you learn it it applies everywhere.
-There are a lot of good resources to learn more about this language, which I
-will leave you with, but the basics are pretty easy to grasp. The general idea
+There are a lot of good resources about this language, but the basics are pretty easy to grasp. The general idea
 is that there are *verbs*, *objects*, and *modifiers*. To keep it simple(er),
 we are going to talk about all of these in Normal mode.
 
-The verbs fall into the general categories of *movement* and *action*. The most
+The verbs fall into the general categories of *movement* and *action*. This is my distinction. The most
 familiar way to *move* around is with the arrow keys, or in better Vim fashion,
 using the `h`, `j`, `k`, and `l` keys. 
 
@@ -184,54 +183,54 @@ has a command and its opposite):
 | `W` | *Forward* to the beginning of the next WORD | `B` | *Backwards* to the beginning of the next WORD |
 
 I worked from big movements to small, and I left plenty of things out. Just
-like when learning a foreign language, you can function if you have limited
-vocablulary, you just won't be very eloquent. This small subset will make you
-able to move around Vim, and when you have mastered them, you can use [one
+like when learning a foreign language, you can function with limited
+vocablulary, you just won't be very eloquent. 
+
+This small subset of the Vim "language" will allow you
+to move around, and once you have mastered these, you can expand your word list using [one
 of](http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html) the many
 [great cheatsheets](http://vimcheatsheet.com/) that exist, or you can use my
-method of putting a few things you want to learn on a Post-it stuck to your
-monitor. One other note on the table above, is that Vim distinguishes between
+method of putting a few new things you want to learn on a Post-it stuck to your
+monitor. 
+
+One other note on the table above, is that Vim distinguishes between
 words and WORDS. There is a pretty good description of what this means
 [here](http://stackoverflow.com/a/14390568), but stated simply, a "word" is
 literally a word, while a "WORD" is *whatever* surrounded by whitespace. I
-think WORD is the better choice for us right now.
+think WORD is the better choice for us right now, because it is usually what you want.
 
 This is great, you can move around, but why is this any different from using
 keyboard shortcuts? The biggest way they're better in my opinion is that these
 *movements* can be combined with the *actions* I mentioned earlier. Some
-examples would be `d` to delete, `y` to yank (Vim for copy), `c` to change,
+examples of actions would be `d` to delete, `y` to yank (Vim for copy), `c` to change,
 and `v` to select. You can combine the *actions* with the *movements*,
 so for example, `y$` yanks from the cursor to the end of the line, `d}`
 deletes from the cursor to the end of the paragraph, etc. One final note
 here, when you delete in Vim, you are in effect, cutting the text,
 because the contents are moved into the unnamed register. I wrote more
 about that in the [clipboard episode of
-TD](http://technicaldifficulties.us/episodes/065-stupid-clipboard-tricks#registers)
-.
+TD](http://technicaldifficulties.us/episodes/065-stupid-clipboard-tricks#registers).
 
-The last part of Vim vocabulary I'd like to highlight is the "object."
+The last part of Vim vocabulary I'd like to highlight is the *object*.
 Now, the movements above would qualify as objects when combined with the
-actions, but some actions always require objects. Two good examples of
+actions in my examples, but some actions always require objects. Two good examples of
 this are `t`, meaning "till," and `f`, meaning "find." These both operate 
 similarly, and both are probably best explained by an example.
 
-The x in "hello world" is the cursor position.
+Let the `x` in "hello world" represent the cursor position.
 
-For `hxllo world` `tw` yields `helloxworld`, and `fw` yields 
-`hello xorld`. The cursor moves forward until it finds the character
+For `hxllo world`, `tw` yields `helloxworld`, and `fw` yields 
+`hello xorld`. To elaborate a bit, the cursor moves forward until it finds the character
 that was the *object*, and it either stops right before the character or
 right on it. Because Vim seeks to be logical, `F` and `T` work the same
-way, only the cursor moves backwards.
+way, only the cursor moves backwards. This relationship between uppercase and lowercase letter commands recurs often, and it is another example of how you can learn a Vim convention once and apply it everywhere
 
 The last thing I will say about vocabulary is to point out that this
 only scratches the surface. I will leave the following as exercises for the 
 reader: try typing any of the previous commands with a `2` in front, and
-try typing a `.` after any of them.
-
-If you want to explore the idea of Vim's vocabulary a little more, try
+try typing a `.` after any of them. If you want to explore this language analogy a little more, try
 these links:
 
-* Type `:help motion` in Vim
 * [Vim Text Objects: The Definitive Guide](http://blog.carbonfive.com/2011/10/17/vim-text-objects-the-definitive-guide/)
 * [Vim as
   Language](http://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/)
@@ -242,9 +241,9 @@ those starting out.
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Herr Doktor" }}
 >
-> I talked a bit in the audio about Dr. Drang's thoughts on why Vim doesn't work with theway he writes, as highlighted in [this post](http://www.leancrew.com/all-this/2011/11/the-siren-song-of-vim/). I seem to write in a similar way as he does, but while the modes bothered him, I always am ready to edit, because I spend most of my time in Normal mode. I used to find myself in the the wrong mode often, but that hanged for me once I decided that I would just go back to Normal mode, every time I wasn't actually typing. This worked for me. Now my left pinky continually pecks at the Escape key any time I am deep in thought. I get a lot of weird looks in meetings, where there is often no keyboard in sight...
+> I talked a bit in the audio about Dr. Drang's thoughts on why Vim doesn't work with theway he writes, as highlighted in [this post](http://www.leancrew.com/all-this/2011/11/the-siren-song-of-vim/). I seem to write in a similar way as he does, but while the modes bothered him, I always am ready to edit, because I spend most of my time in Normal mode. I used to always find myself in the the wrong mode, but that changed for me once I decided that I would train myself to go back to Normal mode every time I wasn't actively typing. This worked for me. Now my left pinky continually pecks at the Escape key any time I am deep in thought. I get a lot of weird looks in meetings, where there is usually no keyboard in sight...
 >
-> While I'm talking about Dr. Drang (as I so often do here), you really ought to go back and read his series "Text Files and Me." Go read the whole thing, I'll wait.
+> While I'm talking about Dr. Drang (as I so often do here), you really ought to go back and read his series "Text Files and Me." Seriously, go read the whole thing, I'll wait.
 > 
 > * [Part 1](http://www.leancrew.com/all-this/2011/02/text-files-and-me-part-1/)
 > * [Part 2](http://www.leancrew.com/all-this/2011/03/text-files-and-me-part-2/)
@@ -256,11 +255,11 @@ those starting out.
 
 {{ theme:partial src="section-header" title="Tweaking your setup" url="{{ soundcloudurl }}" time="37:37" }}
 
-As I earlier said, Vim is ugly out of the box, and some of its settings could benefit from some tuning. Vim makes this pretty easy...well Vim easy, at least. There are global settings for Vim which can be applied to all users, but most people keep all of their personal settings in a .vimrc file which lives in the [home directory](http://en.wikipedia.org/wiki/Home_directory). This is just a plain text file that contains customization written in the Vim Language (Viml, often), and sometimes I think 10% of Github is hosted .vimrc files, so there are no limits to what you can find in the way of help online.
+As I earlier said, Vim is ugly out of the box, and some of its settings could benefit from some tuning. Vim makes this pretty easy...well Vim easy, at least. There are global settings for Vim which can be applied to all users, but most people keep all of their personal settings in a `.vimrc` file which lives in the [home directory](http://en.wikipedia.org/wiki/Home_directory). This is just a plain text file that contains customizations written in the Vim Language, and sometimes I think 10% of Github is hosted `.vimrc files`. There is plenty of ready help online.
 
 #### Custom colors
 
-I have been using [Ethan Schoonover's](https://twitter.com/ethanschoonover) [Solarized](http://ethanschoonover.com/solarized) color scheme ever since I first saw it, but I recognize that others remain color-curious. For those in that camp, I think that there is no better resource than [this](http://daylerees.github.io/). All of these themes are available in [this repository](https://github.com/daylerees/colour-schemes), so switch around to your hearts content. Vim makes switching as easy as putting a color scheme in the `~/.vim/colors` folder and typing `:colorscheme solarized` or `:colo solarized`. Vim has a short version of all common commands, and the convention for writing these is of the form `:colo[rscheme]`, with the part in brackets being optional. I'll write it this way from now on.
+I have been using [Ethan Schoonover's](https://twitter.com/ethanschoonover) [Solarized](http://ethanschoonover.com/solarized) color scheme ever since I first saw it, but I recognize that others remain color-curious. For those in that camp, I don't think there is a better comparison-shopping resource than [this](http://daylerees.github.io/). All of these themes are available in [this repository](https://github.com/daylerees/colour-schemes), so switch around to your heart's content. Vim makes installing a new color scheme as simple as copying the folder to the `~/.vim/colors` directory and typing `:colorscheme solarized` or `:colo solarized`. Vim has a short version of all common commands, and the convention for writing these is of the form `:colo[rscheme]`, with the part in brackets being optional. I'll write it this way from now on.
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="For ST refugees" }}
 >
@@ -268,9 +267,9 @@ I have been using [Ethan Schoonover's](https://twitter.com/ethanschoonover) [Sol
 
 #### Keyboard Mapping and the Help System
 
-Gabe asked about seeing a list of all the key mappings, and the way to get a listing of your custom mappings all at once is to type `:nmap`, `:imap`, `:vmap`, etc. I didn't know this when we recorded the episode and had previously just taken a look in my .vimrc when something in Vim surprised me. Now, this provides a listing of custom mappings, but it doesn't really teach you anything. Additionally, it doesn't tell you anything about the standard key mapping. To fulfill both of these requirements, venture into the Vim help system.
+Gabe asked about seeing a list of all the key mappings, and the way to get a listing of your custom mappings all at once is to type `:nmap`, `:imap`, `:vmap`, etc. You can see a summary of all default mappings by utilizing `:h[elp] index`. I didn't know about these  commands when we recorded the episode and had previously just taken a look in my .vimrc when something in Vim surprised me. Now, this provides a listing and general summary, but it doesn't really teach you anything. For that purpose, let's venture into the help system.
 
-The help system in Vim is very capable, and I have no problem saying that it is the best in any software application I have ever used. This being Vim, some homework is required. To dirive that point home, you can even run `:h[elp] help` in VIm, but I'll highlight a number of techniques here so that you can be pretty capable right off the bat.
+The help system in Vim is very capable, and I have no problem saying that it is the best in any software application I have ever used. This being Vim, some homework is required. To drive that point home, you can even run `:h[elp] help` (which opens helphelp.txt), but I'll highlight a number of techniques here so that you can be pretty capable right off the bat.
 
 First of all, if you are browsing help just to learn, you probably want to have it take up the whole window instead of having it split. If so, type `<C-W>o`. `C` is how the Control Key is represented in Vim convention and the `<>` indicates the use of a [modifier or special key](http://en.wikipedia.org/wiki/Modifier_key), `Control` plus `w` then `o` in this case,  and you'll see this sort of thing if you read about Vim on the interwebs. I mention this becuase my small mind was cunfused by this for a little while. Anyway `<C-W>` is the way that you talk to the window, and in this case you are typing saying "Window, only," because you want the active window to be the only window.
 
@@ -293,7 +292,7 @@ With my preamble out of the way, here are the plugins that I mentioned on the sh
 * [Pathogen](https://github.com/tpope/vim-pathogen) - This plugin management system developed by [Tim Pope](https://twitter.com/tpope) is probably the main reason that the Vim bundle ecosystem is so healthy. Pathogen makes adding a plugin as easy as copying a folder into your `.vim` folder.
 * [Vundle](https://github.com/gmarik/Vundle.vim) - In my opinion, the only thing better than managing plugins through the filesystem is managing them right in the `.vimrc`. Using Vundle you simply put the location of a plugin's repository in your `.vimrc` and Vundle clones the repository and puts everything in its proper place after running `:PluginInstall` from within Vim.
 * [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) - YCM, as the cool kids call it, is a code-completion engine for Vim, and I am in love with it. It works in virtually any language, and it is pre-compiled so that it is fast. I have run it locally and on a remote server, and it always seems snappy and responsive. The project page has some gifs showing it in action, so take alook there to see some pictures worth far more than a thousand of my words.
-* [UltiSnips](https://github.com/SirVer/ultisnips) - This text expansion tool is the next of new-to-me plugins that I am madly in love with. Similar in capability to the much-beloved [TextExpander](http://smilesoftware.com/TextExpander/index.html), this tool allows fill-in snippets, shell script expansion, and quick editing snippets while you work. The author has some great screencasts beginning with [this one](http://www.sirver.net/blog/2011/12/30/first-episode-of-ultisnips-screencast/), and the always-great [Drew Neil](https://twitter.com/nelstrom) has begun a series on [Vimcasts](http://vimcasts.org/episodes/meet-ultisnips/). My favorite feature may be its integration with YouCompleteMe, and it allows for fuzzy-search to find my snippets, because, as I talked about in the audio, I can't remember keyboard shortcuts for the life of me.
+* [UltiSnips](https://github.com/SirVer/ultisnips) - This text expansion tool is the next of new-to-me plugins that I am madly in love with. Similar in capability to the much-beloved [TextExpander](http://smilesoftware.com/TextExpander/index.html), this tool allows fill-in snippets, shell script expansion, and quick editing snippets while you work. The author has some great screencasts beginning with [this one](http://www.sirver.net/blog/2011/12/30/first-episode-of-ultisnips-screencast/), and the always-great [Drew Neil](https://twitter.com/nelstrom) has begun a series on [Vimcasts](http://vimcasts.org/episodes/meet-ultisnips/). My favorite feature may be its integration with YouCompleteMe, and it allows for fuzzy-search to find my snippets, because, as I talked about in the audio, I can't remember keyboard shortcuts for the life of me. The starter set of snippets I mentioned in the audio can be found [here](https://github.com/honza/vim-snippets).
 * [Easy Motion](https://github.com/Lokaltog/vim-easymotion) - This plugin takes Vim's already great movement to the next level with some additional functionality and creative text highlighting. I am beating a dead horse, but learn baseline Vim motion before installing this. [I cannot be held responsible for my actions](http://media.tumblr.com/tumblr_lqeto3WZ3S1qdd6a1.gif) if you ignore this advice.
 
 #### Managing Dotfiles
