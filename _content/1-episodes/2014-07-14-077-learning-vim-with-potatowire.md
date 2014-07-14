@@ -64,8 +64,7 @@ for everyone else. Though it should. Damn it, that slipped out.
   * [tmux](http://tmux.sourceforge.net/)
 
 The story about how I became so fascinated by Vim and the command line is not
-terribly glamorous or interesting. I think [Dr.
-Drang](http://twitter.com/drdrang] has a much better story, leaving aside some
+terribly glamorous or interesting. I think [Dr.Drang](http://twitter.com/drdrang] has a much better story, leaving aside some
 of the [great material](http://web.cecs.pdx.edu/~kirkenda/joy84.html) that
 exists from the formative years of these tools.
 
@@ -75,8 +74,7 @@ they first became connected with the [Commodore
 game platform. It wasn't really great at either function, but I didn't know
 that. I loved [Jumpman](http://en.wikipedia.org/wiki/Jumpman) and
 [Popeye](https://www.youtube.com/watch?v=rCwGxOTfUXM), and that even caused me
-to dig into the [Programmer's Reference
-Guide(http://www.commodore.ca/manuals/c64_programmers_reference/c64-programmers_reference.htm)
+to dig into the [Programmer's Reference Guide](http://www.commodore.ca/manuals/c64_programmers_reference/c64-programmers_reference.htm)
 to try to write my own game.
 
 {{ theme:partial src="image-set" show="{{ number }}" title="Memories" file="c64-prog-ref-guide.jpg" }}
@@ -115,7 +113,7 @@ evolution](https://www.youtube.com/watch?v=RlGqVk_9JLg) when I read a post
 o][O'Reilly's Radar](http://radar.oreilly.com/), which has been lost from my
 mind and bookmarks, about this editor called Vim that I really knew nothing
 about. This was interesting, but nothing really changed for me until I read
-[Steve Losh's] post about [Coming Home to
+[Steve Losh's](https://twitter.com/stevelosh) post about [Coming Home to
 Vim](http://stevelosh.com/blog/2010/09/coming-home-to-vim/). I thought it was
 wonderful and compelling and I [switched text
 editors](http://en.wikipedia.org/wiki/TextMate) on the spot.
@@ -177,7 +175,6 @@ This isn't very efficient though, and Vim lets you make bigger moves. A basic
 but useful subset of these bigger moves can be found in this table (each row 
 has a command and its opposite):
 
-|  Command || Opposite||
 | Key    | Moves you to: | Key    | Moves you to: |
 | :----- | :------------ | :----- | :------------ |
 | `gg` | Top of the buffer (file) | `G` | Bottom of the buffer |
@@ -248,11 +245,12 @@ those starting out.
 > I talked a bit in the audio about Dr. Drang's thoughts on why Vim doesn't work with theway he writes, as highlighted in [this post](http://www.leancrew.com/all-this/2011/11/the-siren-song-of-vim/). I seem to write in a similar way as he does, but while the modes bothered him, I always am ready to edit, because I spend most of my time in Normal mode. I used to find myself in the the wrong mode often, but that hanged for me once I decided that I would just go back to Normal mode, every time I wasn't actually typing. This worked for me. Now my left pinky continually pecks at the Escape key any time I am deep in thought. I get a lot of weird looks in meetings, where there is often no keyboard in sight...
 >
 > While I'm talking about Dr. Drang (as I so often do here), you really ought to go back and read his series "Text Files and Me." Go read the whole thing, I'll wait.
->  * [Part 1](http://www.leancrew.com/all-this/2011/02/text-files-and-me-part-1/)
->  * [Part 2](http://www.leancrew.com/all-this/2011/03/text-files-and-me-part-2/)
->  * [Part 3](http://www.leancrew.com/all-this/2011/04/text-files-and-me-part-3/)
->  * [Part 3.5](http://www.leancrew.com/all-this/2011/04/text-files-and-me-part-3-5/)
->  * [Part 4](http://www.leancrew.com/all-this/2011/07/text-files-and-me-iv-bbedit-and-textmate/)
+> 
+> * [Part 1](http://www.leancrew.com/all-this/2011/02/text-files-and-me-part-1/)
+> * [Part 2](http://www.leancrew.com/all-this/2011/03/text-files-and-me-part-2/)
+> * [Part 3](http://www.leancrew.com/all-this/2011/04/text-files-and-me-part-3/)
+> * [Part 3.5](http://www.leancrew.com/all-this/2011/04/text-files-and-me-part-3-5/)
+> * [Part 4](http://www.leancrew.com/all-this/2011/07/text-files-and-me-iv-bbedit-and-textmate/)
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="24:19" person="potatowire" quote="Next thing you know I'm playing a song in Pandora" }}
 
