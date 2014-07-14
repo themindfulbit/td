@@ -231,7 +231,7 @@ try typing a `.` after any of them.
 If you want to explore the idea of Vim's vocabulary a little more, try
 these links:
 
-* `:h motion` in Vim
+* Type `:help motion` in Vim
 * [Vim Text Objects: The Definitive Guide](http://blog.carbonfive.com/2011/10/17/vim-text-objects-the-definitive-guide/)
 * [Vim as
   Language](http://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/)
@@ -260,18 +260,29 @@ As I earlier said, Vim is ugly out of the box, and some of its settings could be
 
 #### Custom colors
 
-I have been using [Ethan Schoonover's](https://twitter.com/ethanschoonover) [Solarized](http://ethanschoonover.com/solarized) color scheme ever since I first saw it, but I recognize that others remain color-curious. For those in that camp, I think that there is no better resource than [this](http://daylerees.github.io/). All of these themes are available in [this repository](https://github.com/daylerees/colour-schemes), so switch around to your hearts content. Vim makes switching as easy as putting a color scheme in the `~/.vim/colors` folder and typing `:colorscheme solarized` or `:colo solarized`. Vim has a short version of all common commands.
+I have been using [Ethan Schoonover's](https://twitter.com/ethanschoonover) [Solarized](http://ethanschoonover.com/solarized) color scheme ever since I first saw it, but I recognize that others remain color-curious. For those in that camp, I think that there is no better resource than [this](http://daylerees.github.io/). All of these themes are available in [this repository](https://github.com/daylerees/colour-schemes), so switch around to your hearts content. Vim makes switching as easy as putting a color scheme in the `~/.vim/colors` folder and typing `:colorscheme solarized` or `:colo solarized`. Vim has a short version of all common commands, and the convention for writing these is of the form `:colo[rscheme]`, with the part in brackets being optional. I'll write it this way from now on.
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="For ST refugees" }}
 >
 > I mentioned the [Spacegray](https://github.com/kkga/spacegray) color scheme, and if you want it go [here](https://github.com/chriskempson/base16-vim), because it is based on the [base16](https://github.com/chriskempson/base16) project.
 
-#### Keyboard Mapping
+#### Keyboard Mapping and the Help System
 
-Gabe asked about seeing a list of all the key mappings, and the first way to learn more is to use the help system from within Vim itself. The help system in Vim is very capable, and I have no problem saying that it is the best in any software application I have ever used. This being Vim, some homework is required. To learn more, I'm of course going to recommend`:h help` in VIm, but you can also watch the Derek Wyatt [Video on the Help system](http://derekwyatt.org/vim/tutorials/novice/#Help). I'll add a few points here, though.
+Gabe asked about seeing a list of all the key mappings, and the way to get a listing of your custom mappings all at once is to type `:nmap`, `:imap`, `:vmap`, etc. I didn't know this when we recorded the episode and had previously just taken a look in my .vimrc when something in Vim surprised me. Now, this provides a listing of custom mappings, but it doesn't really teach you anything. Additionally, it doesn't tell you anything about the standard key mapping. To fulfill both of these requirements, venture into the Vim help system.
 
+The help system in Vim is very capable, and I have no problem saying that it is the best in any software application I have ever used. This being Vim, some homework is required. To dirive that point home, you can even run `:h[elp] help` in VIm, but I'll highlight a number of techniques here so that you can be pretty capable right off the bat.
 
-* [Beautiful Vim Cheat-Sheet](http://vimcheatsheet.com/)
+First of all, if you are browsing help just to learn, you probably want to have it take up the whole window instead of having it split. If so, type `<C-W>o`. `C` is how the Control Key is represented in Vim convention and the `<>` indicates the use of a [modifier or special key](http://en.wikipedia.org/wiki/Modifier_key), `Control` plus `w` then `o` in this case,  and you'll see this sort of thing if you read about Vim on the interwebs. I mention this becuase my small mind was cunfused by this for a little while. Anyway `<C-W>` is the way that you talk to the window, and in this case you are typing saying "Window, only," because you want the active window to be the only window.
+
+Regardless of how you get there, once you are in the help files, you can get away with just typing `/` to search and then navigate by going forward with `n` and backwards with `N`. That works fine, and I did it for years, but it is much better to utilize the tags in Vim help. With your cursor in `|bookmark|`, typing `<C-]>` will search for where that `*tag*` is defined in the help files. Even better, if you see an interesting term in the documentation, `<C-]> will search the help tags for whatever `WORD` (remember that distinction earlier) the cursor is on. 
+
+Now, as you move around from tag to tag, you may want to go back, and the way to do that is either with `<C-T>` (think "Control Tag"), which jumps you back one older entry in the tag stack, or with `<C-O>` (think "Control Older"), which jumps you back one older entry in the "jump list" of old cursor positions (`<C-I>` takes you to newer cursor positions in the jump list). Jumping by cursor position is good if you have used `/` to search a little within the help file.
+
+All of this assumes that you know what you what the help subject you want is, but Vim provides some tools if you don't know exactly what you want. The first step here is to ensure that "wildmenu" on with `:set wildmenu`. Wildmenu in Vim allows for `<Tab>` completion in command mode, and it is fantastic. In this case, wildmenu means that you can type `:h patt<Tab>` and Vim will cycle through the available options. Even better, because sometimes the list of potential matches is long, you can  type `:h patt<C-D>` and see a list of the available possibilities.
+
+Another option when you are shooting blind if the use helpgrep by typing `helpg[rep] {pattern}`. You can navigate through the matches with the `:cn[ext]` or `:cp[revious] to jump around between the matches.  Or use `:cw[indow]` to get the list of matches.
+
+One final assistance I can recommend is the [Beautiful Vim Cheat-Sheet](http://vimcheatsheet.com/). I used an older one when i was starting out, but this version provides a nice logical layout of the basics for getting around Vim. I like it.
 
 #### Plugins
 
