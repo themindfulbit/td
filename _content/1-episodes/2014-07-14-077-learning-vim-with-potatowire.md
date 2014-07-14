@@ -66,7 +66,7 @@ for everyone else. Though it should be. Damn it, that slipped out.
   * [tmux](http://tmux.sourceforge.net/)
 
 The story about how I became so fascinated by Vim and the command line is not
-terribly glamorous or interesting. I think [Dr.Drang](http://twitter.com/drdrang] has a much better story, leaving aside some
+terribly glamorous or interesting. I think [Dr.Drang](http://twitter.com/drdrang) has a much better story, leaving aside some
 of the [great material](http://web.cecs.pdx.edu/~kirkenda/joy84.html) that
 exists from the formative years of these tools.
 
