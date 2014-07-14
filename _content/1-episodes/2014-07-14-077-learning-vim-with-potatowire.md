@@ -286,22 +286,29 @@ One final assistance I can recommend is the [Beautiful Vim Cheat-Sheet](http://v
 
 #### Plugins
 
-* Pathogen
-* Vundle
-* You Complete Me
-* Ultisnips
-* Easy Motion
+I talked about this in the audio, but in general, I am against adding plugins to Vim too early. In a similar vein, I don't think it is wise to just start with someone else's `.vimrc`. I did that when I started and to this day, I have lingering confusion over whether some mappings are a part of baseline Vim or not. Had I to do it over again, I would work with a barebones installation (with Solarized installed though. I am not an animal), and make changes to my installation only when I reached repeated friction points in my workflow. I would also better learn the help system right away. As a counterpoint, there are full Vim "Distributions" like [Janus](https://github.com/carlhuda/janus), so you are free to go in the completely opposite direction.
+
+With my preamble out of the way, here are the plugins that I mentioned on the show:
+
+* [Pathogen](https://github.com/tpope/vim-pathogen) - This plugin management system developed by [Tim Pope](https://twitter.com/tpope) is probably the main reason that the Vim bundle ecosystem is so healthy. Pathogen makes adding a plugin as easy as copying a folder into your `.vim` folder.
+* [Vundle](https://github.com/gmarik/Vundle.vim) - In my opinion, the only thing better than managing plugins through the filesystem is managing them right in the `.vimrc`. Using Vundle you simply put the location of a plugin's repository in your `.vimrc` and Vundle clones the repository and puts everything in its proper place after running `:PluginInstall` from within Vim.
+* [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) - YCM, as the cool kids call it, is a code-completion engine for Vim, and I am in love with it. It works in virtually any language, and it is pre-compiled so that it is fast. I have run it locally and on a remote server, and it always seems snappy and responsive. The project page has some gifs showing it in action, so take alook there to see some pictures worth far more than a thousand of my words.
+* [UltiSnips](https://github.com/SirVer/ultisnips) - This text expansion tool is the next of new-to-me plugins that I am madly in love with. Similar in capability to the much-beloved [TextExpander](http://smilesoftware.com/TextExpander/index.html), this tool allows fill-in snippets, shell script expansion, and quick editing snippets while you work. The author has some great screencasts beginning with [this one](http://www.sirver.net/blog/2011/12/30/first-episode-of-ultisnips-screencast/), and the always-great [Drew Neil](https://twitter.com/nelstrom) has begun a series on [Vimcasts](http://vimcasts.org/episodes/meet-ultisnips/). My favorite feature may be its integration with YouCompleteMe, and it allows for fuzzy-search to find my snippets, because, as I talked about in the audio, I can't remember keyboard shortcuts for the life of me.
+* [Easy Motion](https://github.com/Lokaltog/vim-easymotion) - This plugin takes Vim's already great movement to the next level with some additional functionality and creative text highlighting. I am beating a dead horse, but learn baseline Vim motion before installing this. [I cannot be held responsible for my actions](http://media.tumblr.com/tumblr_lqeto3WZ3S1qdd6a1.gif) if you ignore this advice.
 
 #### Managing Dotfiles
 
-* git
-* bitbucket
-* dotfiles.io
+Managing and tweaking your dotfiles can be an addictive pursuit if you're not careful. We talked about it a little during the audio, but it is probably worth its own show (yeah, right. Like Gabe and Erik will ever let me near a microphone after this episode). For now I'll just point out a couple of good resources to learn more.
+
+* [Git](http://git-scm.com/) - It used the goal of putting my dotfiles online as the impetus to actually learn Git, and I now know enough fix every third thing I screw up. I like [Bitbucket's Git tutorials](https://www.atlassian.com/git/tutorial/git-basics) best, and their [Bitbucket 101 documentation](https://confluence.atlassian.com/display/BITBUCKET/Bitbucket+101) is great for learning about either Git or [Mercurial](http://mercurial.selenic.com/).  
+*[Bitbucket](https://bitbucket.org) - I keep everything on Bitbucket, because it allows me to have private repositories for nothing, and as I just demonstrated, I like their documentation. I don't know if they are really better about their institutional misogyny or not, but I think it's safe to say they are [*better* than some others that come to mind](http://techcrunch.com/2014/03/15/julie-ann-horvath-describes-sexism-and-intimidation-behind-her-github-exit/).
+* [dotfiles.github.io](http://dotfiles.github.io/) - Earlier criticism aside, I don't know of a better place to go to learn more about how smart people manage their dotfiles. I don't have do give my opinion about simply installing someone's complete dotfiles system, [do I](http://media.giphy.com/media/rkDS4KEVbMHKw/giphy.gif)?
 
 {{ theme:partial src="section-header" title="Working Remotely" url="{{ soundcloudurl }}" time="61:55" }}
 
-* DigitalOcean
-* mosh
+I do some work when mobile, as in while moving, so I often am subject to the pain of spotty internet connections. I have found no better tool than [Mosh](http://mosh.mit.edu/) to help me deal with this issue. Mosh, for "Mobile Shell" details a number of features on its page, but my favorite is "intelligent local echo." This is what I talked about in the audio as "intuiting" the response, but the idea here is that it doesn't wait for server response before locally echoing what was typed. This means that typing delay virtually disappears. You can [find some technical](http://reproducingnetworkresearch.wordpress.com/2013/03/13/cs244-2013-evaluation-of-mosh-mobile-shell-performance-results/] details online or you consider it magic, like I do.
+
+I also alluded to my love affair with [DigitalOcean](https://www.digitalocean.com/?refcode=729ca113e3c7), and it is love, to be sure. I don't like to be tied to a particular platform or OS at this point in my life, so I am slowly moving everything that is essential to my workflow onto my own online host. Right now, that host is DigitalOcean. They give me complete control of my own "droplet" (read: `sudo` and root access), so it is my server and their hosting. It also feels *very* fast, and I think this is probably due to magic too. I can use Vim on this server, with no noticeable lag, from any device, and the installation script I talked about in the audio can clone this setup to any Ubuntu system, so I don't feel any lock-in. The script is four-for-five now, so maybe it does work...
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Producer's Note" }}
 >
