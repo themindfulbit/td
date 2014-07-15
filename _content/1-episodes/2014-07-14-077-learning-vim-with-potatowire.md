@@ -283,7 +283,7 @@ One final assistance I can recommend is the [Beautiful Vim Cheat-Sheet](http://v
 
 #### Plugins
 
-I talked about this in the audio, but in general, I am against adding plugins to Vim too early. In a similar vein, I don't think it is wise to just start with someone else's `.vimrc`. I did that when I started and to this day, I have lingering confusion over whether some mappings are a part of baseline Vim or not. Had I to do it over again, I would work with a barebones installation (with Solarized installed though. I am not an animal), and make changes to my installation only when I reached repeated friction points in my workflow. I would also better learn the help system right away. As a counterpoint, there are full Vim "Distributions" like [Janus](https://github.com/carlhuda/janus), so you are free to go in the completely opposite direction.
+I talked about this in the audio, but in general, I am against adding plugins to Vim too early. In a similar vein, I don't think it is wise to just start with someone else's `.vimrc`. I did that when I started and to this day, I have lingering confusion over whether some mappings are a part of baseline Vim or not. If I had to do it over again, I would work with a barebones installation (with Solarized installed though. I am not an animal), and make changes to my installation only when I reached friction points in my workflow. I would also learn the help system right away. As a counterpoint, there are full Vim "Distributions" like [Janus](https://github.com/carlhuda/janus), so you are free to go in the completely opposite direction.
 
 With my preamble out of the way, here are the plugins that I mentioned on the show:
 
