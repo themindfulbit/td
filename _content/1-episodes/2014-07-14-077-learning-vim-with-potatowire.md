@@ -277,7 +277,7 @@ Now, as you move around from tag to tag, you may want to go back, and the way to
 
 All of this assumes that you know what the help subject you want is, but Vim provides some tools if you don't know exactly what you want. The first step here is to ensure that "wildmenu" on with `:set wildmenu`. Wildmenu in Vim allows for `<Tab>` completion in command mode, and it is fantastic. In this case, wildmenu means that you can type `:h patt<Tab>` and Vim will cycle through the available options. Even better, because sometimes the list of potential matches is long, you can  type `:h patt<C-D>` and see a list of the available possibilities.
 
-Another option when you are shooting blind if the use helpgrep by typing `helpg[rep] {pattern}`. You can navigate through the matches with the `:cn[ext]` or `:cp[revious] to jump around between the matches.  Or use `:cw[indow]` to get the list of matches.
+Another option when you are shooting blind if the use helpgrep by typing `helpg[rep] {pattern}`. You can navigate through the matches with the `:cn[ext]` or `:cp[revious]` to jump around between the matches.  Or use `:cw[indow]` to get the list of matches.
 
 One final assistance I can recommend is the [Beautiful Vim Cheat-Sheet](http://vimcheatsheet.com/). I used an older one when i was starting out, but this version provides a nice logical layout of the basics for getting around Vim. I like it.
 
