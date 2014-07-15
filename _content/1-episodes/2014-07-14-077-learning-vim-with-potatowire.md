@@ -299,7 +299,7 @@ Managing and tweaking your dotfiles can be an addictive pursuit if you're not ca
 
 * [Git](http://git-scm.com/) - It used the goal of putting my dotfiles online as the impetus to actually learn Git, and I now know enough fix every third thing I screw up. I like [Bitbucket's Git tutorials](https://www.atlassian.com/git/tutorial/git-basics) best, and their [Bitbucket 101 documentation](https://confluence.atlassian.com/display/BITBUCKET/Bitbucket+101) is great for learning about either Git or [Mercurial](http://mercurial.selenic.com/).  
 *[Bitbucket](https://bitbucket.org) - I keep everything on Bitbucket, because it allows me to have private repositories for nothing, and as I just demonstrated, I like their documentation. I don't know if they are really better about their institutional misogyny or not, but I think it's safe to say they are [*better* than some others that come to mind](http://techcrunch.com/2014/03/15/julie-ann-horvath-describes-sexism-and-intimidation-behind-her-github-exit/).
-* [dotfiles.github.io](http://dotfiles.github.io/) - Earlier criticism aside, I don't know of a better place to go to learn more about how smart people manage their dotfiles. I don't have do give my opinion about simply installing someone's complete dotfiles system, [do I](http://media.giphy.com/media/rkDS4KEVbMHKw/giphy.gif)?
+* [dotfiles.github.io](http://dotfiles.github.io/) - Earlier criticism aside, I don't know of a better place to go to learn more about how smart people manage their dotfiles. I don't have to give my opinion about simply installing someone's complete dotfiles system, [do I](http://media.giphy.com/media/rkDS4KEVbMHKw/giphy.gif)?
 
 {{ theme:partial src="section-header" title="Working Remotely" url="{{ soundcloudurl }}" time="61:55" }}
 
