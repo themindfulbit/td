@@ -53,7 +53,7 @@ terminal. I am very strong proponent about Vim, but I *try* not to browbeat
 people about it, since I know that it works best for me, and not necessarily
 for everyone else. Though it should be. Damn it, that slipped out.
 >
-> Also, if it seems like my attention occaisionally wandered, my kids came home during the middle of the recording, and my daughter, in particular, thought she ought to have my undivided attention periodically. I am not a professional.
+> Also, if it seems like my attention occasionally wandered, my kids came home during the middle of the recording, and my daughter, in particular, thought she ought to have my undivided attention periodically. I am not a professional.
 
 {{ theme:partial src="section-header" title="Introducing Potatowire" url="{{ soundcloudurl }}" time="0:00" }}
 
@@ -159,7 +159,7 @@ say this is because of how the Vim vocabulary functions.
 
 ##### Vocabulary
 
-Vim has its own vocabulary, and once you learn it it applies everywhere.
+Vim has its own vocabulary, and once you learn it, it applies everywhere.
 There are a lot of good resources about this language, but the basics are pretty easy to grasp. The general idea
 is that there are *verbs*, *objects*, and *modifiers*. To keep it simple (OK, *simpler*)
 we are going to talk about all of these in Normal mode.
@@ -184,7 +184,7 @@ has a command and its opposite):
 
 I worked from big movements to small, and I left plenty of things out. Just
 like when learning a foreign language, you can function with limited
-vocablulary, you just won't be very eloquent. 
+vocabulary. You just won't be very eloquent. 
 
 This small subset of the Vim "language" will allow you
 to move around, and once you have mastered these, you can expand your word list using [one
@@ -282,7 +282,7 @@ Regardless of how you get there, once you are in the help files, you can get awa
 
 Now, as you move around from tag to tag, you may want to go back, and the way to do that is either with `<C-T>` (think "Control Tag"), which jumps you back one older entry in the tag stack, or with `<C-O>` (think "Control Older"), which jumps you back one older entry in the "jump list" of old cursor positions (`<C-I>` takes you to newer cursor positions in the jump list). Jumping by cursor position is good if you have used `/` to search a little within the help file.
 
-All of this assumes that you know what the help subject you want is, but Vim provides some tools if you don't know exactly what you want. The first step here is to ensure that "wildmenu" on with `:set wildmenu`. Wildmenu in Vim allows for `<Tab>` completion in command mode, and it is fantastic. In this case, wildmenu means that you can type `:h patt<Tab>` and Vim will cycle through the available options. Even better, because sometimes the list of potential matches is long, you can  type `:h patt<C-D>` and see a list of the available possibilities.
+All of this assumes that you know what the help subject you want is, but Vim provides some tools if you don't know exactly what you want. The first step here is to ensure that "wildmenu" on with `:set wildmenu`. Wildmenu in Vim allows for `<Tab>` completion in command mode, and it is fantastic. In this case, if you type `:h patt<Tab>`, Vim will cycle through the available options with each `<Tab>`. Even better, because the list of potential matches is sometimes long, you can  type `:h patt<C-D>` and see a list of the available possibilities.
 
 Another option when you are shooting blind if the use helpgrep by typing `helpg[rep] {pattern}`. You can navigate through the matches with the `:cn[ext]` or `:cp[revious]` to jump around between the matches.  Or use `:cw[indow]` to get the list of matches.
 
@@ -296,7 +296,7 @@ With my preamble out of the way, here are the plugins that I mentioned on the sh
 
 * [Pathogen](https://github.com/tpope/vim-pathogen) - This plugin management system developed by [Tim Pope](https://twitter.com/tpope) is probably the main reason that the Vim bundle ecosystem is so healthy. Pathogen makes adding a plugin as easy as copying a folder into your `.vim` folder.
 * [Vundle](https://github.com/gmarik/Vundle.vim) - In my opinion, the only thing better than managing plugins through the filesystem is managing them right in the `.vimrc`. Using Vundle you simply put the location of a plugin's repository in your `.vimrc` and Vundle clones the repository and puts everything in its proper place after running `:PluginInstall` from within Vim.
-* [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) - YCM, as the cool kids call it, is a code-completion engine for Vim, and I am in love with it. It works in virtually any language, and it is pre-compiled so that it is fast. I have run it locally and on a remote server, and it always seems snappy and responsive. The project page has some gifs showing it in action, so take alook there to see some pictures worth far more than a thousand of my words.
+* [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) - YCM, as the cool kids call it, is a code-completion engine for Vim, and I am in love with it. It works in virtually any language, and it is pre-compiled so that it is fast. I have run it locally and on a remote server, and it always seems snappy and responsive. The project page has some gifs showing it in action, so take a look there to see some pictures worth far more than a thousand of my words.
 * [UltiSnips](https://github.com/SirVer/ultisnips) - This text expansion tool is the next of new-to-me plugins that I am madly in love with. Similar in capability to the much-beloved [TextExpander](http://smilesoftware.com/TextExpander/index.html), this tool allows fill-in snippets, shell script expansion, and quick editing snippets while you work. The author has some great screencasts beginning with [this one](http://www.sirver.net/blog/2011/12/30/first-episode-of-ultisnips-screencast/), and the always-great [Drew Neil](https://twitter.com/nelstrom) has begun a series on [Vimcasts](http://vimcasts.org/episodes/meet-ultisnips/). My favorite feature may be its integration with YouCompleteMe, and it allows for fuzzy-search to find my snippets, because, as I talked about in the audio, I can't remember keyboard shortcuts for the life of me. The starter set of snippets I mentioned in the audio can be found [here](https://github.com/honza/vim-snippets).
 * [Easy Motion](https://github.com/Lokaltog/vim-easymotion) - This plugin takes Vim's already great movement to the next level with some additional functionality and creative text highlighting. I am beating a dead horse, but learn baseline Vim motion before installing this. [I cannot be held responsible for my actions](http://media.tumblr.com/tumblr_lqeto3WZ3S1qdd6a1.gif) if you ignore this advice.
 
