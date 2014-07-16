@@ -19,7 +19,7 @@ download: >
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/158320675%3Fsecret_token%3Ds-PsuOC&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>'
 soundcloudurl: 076-whats-living-in-gabes-closet
 summary: >
-  Potatowire finally leaves the womb,
+  Potatowire finally leaves the crib,
   joining Gabe and Erik to discuss
   command-line text editing with vim. We
   learn how he started, why he uses a
@@ -59,12 +59,6 @@ for everyone else. Though it should be. Damn it, that slipped out.
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="1:50" person="potatowire" quote="I like my friends online where I can keep an eye on them." }}
 
-* [MacVim](https://code.google.com/p/macvim/)
-* [Dr. Bunsen - The Text Triumvirate](http://www.drbunsen.org/the-text-triumvirate/)
-  * [zsh](http://www.zsh.org/) and [Oh-My-Zsh](http://ohmyz.sh/)
-  * [Vim](http://www.vim.org/)
-  * [tmux](http://tmux.sourceforge.net/)
-
 The story about how I became so fascinated by Vim and the command line is not
 terribly glamorous or interesting. I think [Dr.Drang](http://twitter.com/drdrang) has a much better story, leaving aside some
 of the [great material](http://web.cecs.pdx.edu/~kirkenda/joy84.html) that
@@ -94,20 +88,20 @@ just do *whatever it was* in [DOS](http://en.wikipedia.org/wiki/DOS) instead of
 in [Windows 3.11](http://toastytech.com/guis/win311.html). I dug in a little,
 and the command line had me hooked.
 
+> {{ theme:partial src="aside-header" voice="erik" text="Similarities" }}
+>
+> If a friend of mine hadn't done *exactly the same thing to me* freshman year in college (and provided me with a lot of advice over the next few years) I'd be a much less capable computer user today.
+
 Fast forward to 2004, and I had a little extra money that I excitedly plunked
 down to buy a [PowerBook G4 1.5
-17"](http://www.everymac.com/systems/apple/powerbook_g4/faq/differences-between-12-15-17-powerbook-g4-models-introduced-april-19-2004.html).
+17"](http://www.everymac.com/systems/apple/powerbook_g4/faq/differences-between-12-15-17-powerbook-g4-models-introduced-april-19-2004.html).  It was a revelation. As I poked around this new-to-me [OS X](https://twitter.com/potatowire/status/473873091354177536) I discovered the hidden settings made possible by [`defaults
+write`](http://www.defaults-write.com/). I was in love with the command line
+all over again.
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="The management regrets the error" }}
 >
 > I said that I bought my new Mac in 2007, but I meant *2004*. Was there something 
 > else that happened in 2007?
-
-It was a revelation. As I poked around this new-to-me [OS
-X](https://twitter.com/potatowire/status/473873091354177536) I discovered the
-hidden settings made possible by [`defaults
-write`](http://www.defaults-write.com/). I was in love with the command line
-all over again.
 
 My computer use [took another leap forward in its evolution](https://www.youtube.com/watch?v=RlGqVk_9JLg) when I read a post
 on [O'Reilly's Radar](http://radar.oreilly.com/), which has since been lost from both my
@@ -116,6 +110,14 @@ about. This was interesting, but nothing *really* changed for me until I read [S
 Vim](http://stevelosh.com/blog/2010/09/coming-home-to-vim/). I thought it was
 wonderful and compelling and I [switched text
 editors](http://en.wikipedia.org/wiki/TextMate) on the spot.
+
+##### Section Links
+
+* [MacVim](https://code.google.com/p/macvim/)
+* [Dr. Bunsen - The Text Triumvirate](http://www.drbunsen.org/the-text-triumvirate/)
+  * [zsh](http://www.zsh.org/) and [Oh-My-Zsh](http://ohmyz.sh/)
+  * [Vim](http://www.vim.org/)
+  * [tmux](http://tmux.sourceforge.net/)
 
 {{ theme:partial src="section-header" title="Learning about the tools" url="{{ soundcloudurl }}" time="11:36" }} 
 
@@ -128,8 +130,8 @@ Much of the discussion in the audio was devoted to Vim, and tmux alone is worthy
 #### Vim - Everything Improved
 
 Now, those of you familiar with Vim know that it isn't very easy to switch to without significant forethought. For starters, it is ugly right out of the box. Really ugly. Second of
-all, once you try to type something into the ugly window, say, "hello
-world," you will actually see this:
+all, once you try to type something into the ugly window, say, `hello
+world` you will actually see this:
 
 {{ theme:partial src="image" show="{{ number }}" title="Windows version, so even uglier" file="vim-1st.jpg" }}
 
@@ -137,16 +139,16 @@ This is because Vim opens into [*Normal
 mode*](http://en.wikibooks.org/wiki/Learning_the_vi_Editor/Vim/Modes#normal_.28command.29).
 This is correct, right, sweetness and light, etc.; you just don't know it yet. So, a
 text editor that won't let you just type text. Just bear with me. What happens
-when you start typing, "hello world" in normal mode is nothing until you get to
-'l' when it tries to move the cursor to the right, but it can't because that is
+when you start typing, `hello world` in normal mode is nothing until you get to
+`l` when it tries to move the cursor to the right, but it can't because that is
 [virtual space](http://usevim.com/2012/09/21/vim101-virtualedit/), since you
-haven't yet "typed" anything. It's not until you get to the "o" that anything
-other than a [beep or visual bell](http://en.wikipedia.org/wiki/Bell_character) happens, because when you type the "o" you
+haven't yet "typed" anything. It's not until you get to the `o` that anything
+other than a [beep or visual bell](http://en.wikipedia.org/wiki/Bell_character) happens, because when you type the `o` you
 are telling Vim to "open a line below this one and go into [*Insert
 Mode*](http://en.wikibooks.org/wiki/Learning_the_vi_Editor/Vim/Modes#insert_.28and_replace.29)."
-After this, you can type " world" with impunity. Insert mode is where you can
+After this, you can type ` world` with impunity. Insert mode is where you can
 type like usual. At this point you may just want to quit Vim an move on. Wait,
-how in the Sam Hill do you quit Vim? For that you need to enter [Command-line or Command mode](http://en.wikibooks.org/wiki/Learning_the_vi_Editor/Vim/Modes#command-line) by typing `:`.
+how in the Sam Hill do you quit Vim? For that you need to enter [Command-line or Command mode](http://en.wikibooks.org/wiki/Learning_the_vi_Editor/Vim/Modes#command-line) by typing `:`. Then you've got to type `q` or `q!` to quit without saving.
 
 Vim doesn't seem to like beginners.
 
@@ -159,7 +161,7 @@ say this is because of how the Vim vocabulary functions.
 
 Vim has its own vocabulary, and once you learn it it applies everywhere.
 There are a lot of good resources about this language, but the basics are pretty easy to grasp. The general idea
-is that there are *verbs*, *objects*, and *modifiers*. To keep it simple(er),
+is that there are *verbs*, *objects*, and *modifiers*. To keep it simple (OK, *simpler*)
 we are going to talk about all of these in Normal mode.
 
 The verbs fall into the general categories of *movement* and *action*. This is my distinction. The most
@@ -176,7 +178,7 @@ has a command and its opposite):
 | :----- | :------------ | :----- | :------------ |
 | `gg` | Top of the buffer (file) | `G` | Bottom of the buffer |
 | `0` | Beginning of the line | `$` | End of the Line |
-| `(` | Beginning of the "sentence" | `(` | End of the "sentence" |
+| `(` | Beginning of the "sentence" | `)` | End of the "sentence" |
 | `{` | Beginning of the "paragraph" | `}` | End of the "paragraph" |
 | `W` | *Forward* to the beginning of the next WORD | `B` | *Backwards* to the beginning of the next WORD |
 
@@ -231,15 +233,14 @@ these links:
 
 * [Vim Text Objects: The Definitive Guide](http://blog.carbonfive.com/2011/10/17/vim-text-objects-the-definitive-guide/)
 * [Vim as
-  Language](http://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/)
-* This is part two of a serious that [Ben 
+  Language](http://benmccormick.org/2014/07/02/learning-vim-in-2014-vim-as-language/) &ndash; This is part two of a series that [Ben 
 McCormick](http://benmccormick.org/2014/06/30/learning-vim-in-2014-the-basics/benmccormick.org)
 just started, but man, it looks like it will be a great help for
 those starting out.
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Herr Doktor" }}
 >
-> I talked a bit in the audio about Dr. Drang's thoughts on why Vim doesn't work with theway he writes, as highlighted in [this post](http://www.leancrew.com/all-this/2011/11/the-siren-song-of-vim/). I seem to write in a similar way as he does, but while the modes bothered him, I always am ready to edit, because I spend most of my time in Normal mode. I used to always find myself in the the wrong mode, but that changed for me once I decided that I would train myself to go back to Normal mode every time I wasn't actively typing. This worked for me. Now my left pinky continually pecks at the Escape key any time I am deep in thought. I get a lot of weird looks in meetings, where there is usually no keyboard in sight...
+> I talked a bit in the audio about Dr. Drang's thoughts on why Vim doesn't work with the way he writes, as highlighted in [this post](http://www.leancrew.com/all-this/2011/11/the-siren-song-of-vim/). I seem to write in a similar way as he does, but while the modes bothered him, I always am ready to edit, because I spend most of my time in Normal mode. I used to always find myself in the the wrong mode, but that changed for me once I decided that I would train myself to go back to Normal mode every time I wasn't actively typing. This worked for me. Now my left pinky continually pecks at the Escape key any time I am deep in thought. I get a lot of weird looks in meetings, where there is usually no keyboard in sight...
 >
 > While I'm talking about Dr. Drang (as I so often do here), you really ought to go back and read his series "Text Files and Me." Seriously, go read the whole thing, I'll wait.
 > 
@@ -253,23 +254,29 @@ those starting out.
 
 {{ theme:partial src="section-header" title="Tweaking your setup" url="{{ soundcloudurl }}" time="37:37" }}
 
-As I earlier said, Vim is ugly out of the box, and some of its settings could benefit from some tuning. Vim makes this pretty easy...well Vim easy, at least. There are global settings for Vim which can be applied to all users, but most people keep all of their personal settings in a `.vimrc` file which lives in the [home directory](http://en.wikipedia.org/wiki/Home_directory). This is just a plain text file that contains customizations written in the Vim Language, and sometimes I think 10% of Github is hosted `.vimrc files`. There is plenty of ready help online.
+As I earlier said, Vim is ugly out of the box, and some of its settings could benefit from some tuning. Vim makes this pretty easy... well Vim easy, at least. There are global settings for Vim which can be applied to all users, but most people keep all of their personal settings in a `.vimrc` file which lives in the [home directory](http://en.wikipedia.org/wiki/Home_directory). This is just a plain text file that contains customizations written in the Vim Language, and sometimes I think 10% of Github is hosted `.vimrc files`. There is plenty of ready help online.
+
+{{ theme:partial src="image" show="{{ number }}" title="My Vim Setup" file="my-vim.png" }}
 
 #### Custom colors
 
 I have been using [Ethan Schoonover's](https://twitter.com/ethanschoonover) [Solarized](http://ethanschoonover.com/solarized) color scheme ever since I first saw it, but I recognize that others remain color-curious. For those in that camp, I don't think there is a better comparison-shopping resource than [this](http://daylerees.github.io/). All of these themes are available in [this repository](https://github.com/daylerees/colour-schemes), so switch around to your heart's content. Vim makes installing a new color scheme as simple as copying the folder to the `~/.vim/colors` directory and typing `:colorscheme solarized` or `:colo solarized`. Vim has a short version of all common commands, and the convention for writing these is of the form `:colo[rscheme]`, with the part in brackets being optional. I'll write it this way from now on.
 
-> {{ theme:partial src="aside-header" voice="potatowire" text="For ST refugees" }}
+> {{ theme:partial src="aside-header" voice="potatowire" text="For Sublime Text refugees" }}
 >
 > I mentioned the [Spacegray](https://github.com/kkga/spacegray) color scheme, and if you want it go [here](https://github.com/chriskempson/base16-vim), because it is based on the [base16](https://github.com/chriskempson/base16) project.
 
 #### Keyboard Mapping and the Help System
 
-Gabe asked about seeing a list of all the key mappings, and the way to get a listing of your custom mappings all at once is to type `:nmap`, `:imap`, `:vmap`, etc. You can see a summary of all default mappings by utilizing `:h[elp] index`. I didn't know about these  commands when we recorded the episode and had previously just taken a look in my .vimrc when something in Vim surprised me. Now, this provides a listing and general summary, but it doesn't really teach you anything. For that purpose, let's venture into the help system.
+Gabe asked about seeing a list of all the key mappings, and the way to get a listing of your custom mappings all at once is to type `:nmap`, `:imap`, `:vmap`, etc. You can see a summary of all default mappings by utilizing `:h[elp] index`. I didn't know about these  commands when we recorded the episode and had previously just taken a look in my `.vimrc` when something in Vim surprised me. Now, this provides a listing and general summary, but it doesn't really teach you anything. For that purpose, let's venture into the help system.
 
-The help system in Vim is very capable, and I have no problem saying that it is the best in any software application I have ever used. This being Vim, some homework is required. To drive that point home, you can even run `:h[elp] help` (which opens helphelp.txt), but I'll highlight a number of techniques here so that you can be pretty capable right off the bat.
+The help system in Vim is very capable, and I have no problem saying that it is the best in any software application I have ever used. This being Vim, some homework is required. To drive that point home, you can even run `:h[elp] help` (which opens `helphelp.txt`), but I'll highlight a number of techniques here so that you can be pretty capable right off the bat.
 
-First of all, if you are browsing help just to learn, you probably want to have it take up the whole window instead of having it split. If so, type `<C-W>o`. `C` is how the Control Key is represented in Vim convention and the `<>` indicates the use of a [modifier or special key](http://en.wikipedia.org/wiki/Modifier_key), `Control` plus `w` then `o` in this case,  and you'll see this sort of thing if you read about Vim on the interwebs. I mention this becuase my small mind was cunfused by this for a little while. Anyway `<C-W>` is the way that you talk to the window, and in this case you are typing saying "Window, only," because you want the active window to be the only window.
+First of all, if you are browsing help just to learn, you probably want to have it take up the whole window instead of having it split. If so, type `<C-W>o`. 
+
+> {{ theme:partial src="aside-header" voice="potatowire" text="Conventions" }}
+>
+> `C` is how the Control Key is represented in Vim convention and the `<>` indicates the use of a [modifier or special key](http://en.wikipedia.org/wiki/Modifier_key), `Control` plus `w` then `o` in this case,  and you'll see this sort of thing if you read about Vim on the interwebs. I mention this becuase my small mind was confused by this for a little while. Anyway `<C-W>` is the way that you talk to the window, and in this case you are typing saying "Window, only," because you want the active window to be the only window.
 
 Regardless of how you get there, once you are in the help files, you can get away with just typing `/` to search and then navigate by going forward with `n` and backwards with `N`. That works fine, and I did it for years, but it is much better to utilize the tags in Vim help. With your cursor in `|bookmark|`, typing `<C-]>` will search for where that `*tag*` is defined in the help files. Even better, if you see an interesting term in the documentation, `<C-]>` will search the help tags for whatever `WORD` (remember that distinction earlier) the cursor is on. 
 
@@ -298,7 +305,7 @@ With my preamble out of the way, here are the plugins that I mentioned on the sh
 Managing and tweaking your dotfiles can be an addictive pursuit if you're not careful. We talked about it a little during the audio, but it is probably worth its own show (yeah, right. Like Gabe and Erik will ever let me near a microphone after this episode). For now I'll just point out a couple of good resources to learn more.
 
 * [Git](http://git-scm.com/) - It used the goal of putting my dotfiles online as the impetus to actually learn Git, and I now know enough fix every third thing I screw up. I like [Bitbucket's Git tutorials](https://www.atlassian.com/git/tutorial/git-basics) best, and their [Bitbucket 101 documentation](https://confluence.atlassian.com/display/BITBUCKET/Bitbucket+101) is great for learning about either Git or [Mercurial](http://mercurial.selenic.com/).  
-*[Bitbucket](https://bitbucket.org) - I keep everything on Bitbucket, because it allows me to have private repositories for nothing, and as I just demonstrated, I like their documentation. I don't know if they are really better about their institutional misogyny or not, but I think it's safe to say they are [*better* than some others that come to mind](http://techcrunch.com/2014/03/15/julie-ann-horvath-describes-sexism-and-intimidation-behind-her-github-exit/).
+* [Bitbucket](https://bitbucket.org) - I keep everything on Bitbucket, because it allows me to have private repositories for nothing, and as I just demonstrated, I like their documentation. I don't know if they are really better about their institutional misogyny or not, but I think it's safe to say they are [*better* than some others that come to mind](http://techcrunch.com/2014/03/15/julie-ann-horvath-describes-sexism-and-intimidation-behind-her-github-exit/).
 * [dotfiles.github.io](http://dotfiles.github.io/) - Earlier criticism aside, I don't know of a better place to go to learn more about how smart people manage their dotfiles. I don't have to give my opinion about simply installing someone's complete dotfiles system, [do I](http://media.giphy.com/media/rkDS4KEVbMHKw/giphy.gif)?
 
 {{ theme:partial src="section-header" title="Working Remotely" url="{{ soundcloudurl }}" time="61:55" }}
