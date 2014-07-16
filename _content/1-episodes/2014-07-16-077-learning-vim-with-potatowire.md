@@ -138,7 +138,7 @@ world` you will actually see this:
 This is because Vim opens into [*Normal
 mode*](http://en.wikibooks.org/wiki/Learning_the_vi_Editor/Vim/Modes#normal_.28command.29).
 This is correct, right, sweetness and light, etc.; you just don't know it yet. So, a
-text editor that won't let you just type text. Just bear with me. What happens
+text editor that won't let you actually type text. Just bear with me. What happens
 when you start typing, `hello world` in normal mode is nothing until you get to
 `l` when it tries to move the cursor to the right, but it can't because that is
 [virtual space](http://usevim.com/2012/09/21/vim101-virtualedit/), since you
@@ -147,7 +147,9 @@ other than a [beep or visual bell](http://en.wikipedia.org/wiki/Bell_character) 
 are telling Vim to "open a line below this one and go into [*Insert
 Mode*](http://en.wikibooks.org/wiki/Learning_the_vi_Editor/Vim/Modes#insert_.28and_replace.29)."
 After this, you can type ` world` with impunity. Insert mode is where you can
-type like usual. At this point you may just want to quit Vim an move on. Wait,
+type like usual. 
+
+At this point you may just want to quit Vim an move on. Wait,
 how in the Sam Hill do you quit Vim? For that you need to enter [Command-line or Command mode](http://en.wikibooks.org/wiki/Learning_the_vi_Editor/Vim/Modes#command-line) by typing `:`. Then you've got to type `q` or `q!` to quit without saving.
 
 Vim doesn't seem to like beginners.
@@ -159,7 +161,7 @@ say this is because of how the Vim vocabulary functions.
 
 ##### Vocabulary
 
-Vim has its own vocabulary, and once you learn it, it applies everywhere.
+Vim has its own vocabulary, and it applies everywhere, once you learn it.
 There are a lot of good resources about this language, but the basics are pretty easy to grasp. The general idea
 is that there are *verbs*, *objects*, and *modifiers*. To keep it simple (OK, *simpler*)
 we are going to talk about all of these in Normal mode.
@@ -228,7 +230,9 @@ way, only the cursor moves backwards. This relationship between uppercase and lo
 The last thing I will say about vocabulary is to point out that this
 only scratches the surface. I will leave the following as exercises for the 
 reader: try typing any of the previous commands with a `2` in front, and
-try typing a `.` after any of them. If you want to explore this language analogy a little more, try
+try typing a `.` after any of them. 
+
+If you want to explore this language analogy a little more, try
 these links:
 
 * [Vim Text Objects: The Definitive Guide](http://blog.carbonfive.com/2011/10/17/vim-text-objects-the-definitive-guide/)
@@ -240,7 +244,9 @@ those starting out.
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Herr Doktor" }}
 >
-> I talked a bit in the audio about Dr. Drang's thoughts on why Vim doesn't work with the way he writes, as highlighted in [this post](http://www.leancrew.com/all-this/2011/11/the-siren-song-of-vim/). I seem to write in a similar way as he does, but while the modes bothered him, I always am ready to edit, because I spend most of my time in Normal mode. I used to always find myself in the the wrong mode, but that changed for me once I decided that I would train myself to go back to Normal mode every time I wasn't actively typing. This worked for me. Now my left pinky continually pecks at the Escape key any time I am deep in thought. I get a lot of weird looks in meetings, where there is usually no keyboard in sight...
+> I talked a bit in the audio about Dr. Drang's thoughts on why Vim doesn't work with the way he writes, as highlighted in [this post](http://www.leancrew.com/all-this/2011/11/the-siren-song-of-vim/). I seem to write in a similar way as he does, but while the modes bothered him, I always am ready to edit, because I spend most of my time in Normal mode. 
+> 
+> I used to always find myself in the the wrong mode, but that changed for me once I decided that I would train myself to go back to Normal mode every time I wasn't actively typing. This worked for me. Now my left pinky continually pecks at the Escape key any time I am deep in thought. I get a lot of weird looks in meetings, where there is usually no keyboard in sight...
 >
 > While I'm talking about Dr. Drang (as I so often do here), you really ought to go back and read his series "Text Files and Me." Seriously, go read the whole thing, I'll wait.
 > 
@@ -260,7 +266,9 @@ As I earlier said, Vim is ugly out of the box, and some of its settings could be
 
 #### Custom colors
 
-I have been using [Ethan Schoonover's](https://twitter.com/ethanschoonover) [Solarized](http://ethanschoonover.com/solarized) color scheme ever since I first saw it, but I recognize that others remain color-curious. For those in that camp, I don't think there is a better comparison-shopping resource than [this](http://daylerees.github.io/). All of these themes are available in [this repository](https://github.com/daylerees/colour-schemes), so switch around to your heart's content. Vim makes installing a new color scheme as simple as copying the folder to the `~/.vim/colors` directory and typing `:colorscheme solarized` or `:colo solarized`. Vim has a short version of all common commands, and the convention for writing these is of the form `:colo[rscheme]`, with the part in brackets being optional. I'll write it this way from now on.
+I have been using [Ethan Schoonover's](https://twitter.com/ethanschoonover) [Solarized](http://ethanschoonover.com/solarized) color scheme ever since I first saw it, but I recognize that others remain color-curious. For those in that camp, I don't think there is a better comparison-shopping resource than [this](http://daylerees.github.io/). All of these themes are available in [this repository](https://github.com/daylerees/colour-schemes), so switch around to your heart's content. 
+
+Vim makes installing a new color scheme as simple as copying the folder to the `~/.vim/colors` directory and typing `:colorscheme solarized` or `:colo solarized`. Vim has a short version of all common commands, and the convention for writing these is of the form `:colo[rscheme]`, with the part in brackets being optional. I'll write it this way from now on.
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="For Sublime Text refugees" }}
 >
@@ -268,7 +276,7 @@ I have been using [Ethan Schoonover's](https://twitter.com/ethanschoonover) [Sol
 
 #### Keyboard Mapping and the Help System
 
-Gabe asked about seeing a list of all the key mappings, and the way to get a listing of your custom mappings all at once is to type `:nmap`, `:imap`, `:vmap`, etc. You can see a summary of all default mappings by utilizing `:h[elp] index`. I didn't know about these  commands when we recorded the episode and had previously just taken a look in my `.vimrc` when something in Vim surprised me. Now, this provides a listing and general summary, but it doesn't really teach you anything. For that purpose, let's venture into the help system.
+Gabe asked about seeing a list of all the key mappings, and the way to get a listing of your custom mappings all at once is to type `:nmap`, `:imap`, `:vmap`, etc. You can see a summary of all default mappings by utilizing `:h[elp] index`. I didn't know about these  commands when we recorded the episode and had previously just taken a look in my `.vimrc` when something in Vim surprised me. Now, these commands provide a listing and general summary, but it doesn't really teach you anything. For that purpose, let's venture into the help system.
 
 The help system in Vim is very capable, and I have no problem saying that it is the best in any software application I have ever used. This being Vim, some homework is required. To drive that point home, you can even run `:h[elp] help` (which opens `helphelp.txt`), but I'll highlight a number of techniques here so that you can be pretty capable right off the bat.
 
@@ -276,7 +284,7 @@ First of all, if you are browsing help just to learn, you probably want to have 
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Conventions" }}
 >
-> `C` is how the Control Key is represented in Vim convention and the `<>` indicates the use of a [modifier or special key](http://en.wikipedia.org/wiki/Modifier_key), `Control` plus `w` then `o` in this case,  and you'll see this sort of thing if you read about Vim on the interwebs. I mention this becuase my small mind was confused by this for a little while. Anyway `<C-W>` is the way that you talk to the window, and in this case you are typing saying "Window, only," because you want the active window to be the only window.
+> `C` is how the Control Key is represented in Vim convention and the `<>` indicates the use of a [modifier or special key](http://en.wikipedia.org/wiki/Modifier_key), `Control` plus `w` then `o` in this case,  and you'll see this sort of thing if you read about Vim on the interwebs. I mention this becuase my small mind was confused by this for a little while. Anyway `<C-W>` is the way that you talk to the window, and in this case you are typing saying "Window, only," because you want the active window split to be the only window split.
 
 Regardless of how you get there, once you are in the help files, you can get away with just typing `/` to search and then navigate by going forward with `n` and backwards with `N`. That works fine, and I did it for years, but it is much better to utilize the tags in Vim help. With your cursor in `|bookmark|`, typing `<C-]>` will search for where that `*tag*` is defined in the help files. Even better, if you see an interesting term in the documentation, `<C-]>` will search the help tags for whatever `WORD` (remember that distinction earlier) the cursor is on. 
 
@@ -290,27 +298,29 @@ One final assistance I can recommend is the [Beautiful Vim Cheat-Sheet](http://v
 
 #### Plugins
 
-I talked about this in the audio, but in general, I am against adding plugins to Vim too early. In a similar vein, I don't think it is wise to just start with someone else's `.vimrc`. I did that when I started and to this day, I have lingering confusion over whether some mappings are a part of baseline Vim or not. If I had to do it over again, I would work with a barebones installation (with Solarized installed though. I am not an animal), and make changes to my installation only when I reached friction points in my workflow. I would also learn the help system right away. As a counterpoint, there are full Vim "Distributions" like [Janus](https://github.com/carlhuda/janus), so you are free to go in the completely opposite direction.
+I talked about this in the audio, but in general, I am against adding plugins to Vim too early. In a similar vein, I don't think it is wise to just start with someone else's `.vimrc`. I did that when I started and to this day, I have lingering confusion over whether some mappings are a part of baseline Vim or not. 
+
+If I had to do it over again, I would work with a barebones installation (with Solarized installed though. I am not an animal), and make changes to my installation only when I reached friction points in my workflow. I would also learn the help system right away. As a counterpoint, there are full Vim "Distributions" like [Janus](https://github.com/carlhuda/janus), so you are free to go in the completely opposite direction.
 
 With my preamble out of the way, here are the plugins that I mentioned on the show:
 
-* [Pathogen](https://github.com/tpope/vim-pathogen) - This plugin management system developed by [Tim Pope](https://twitter.com/tpope) is probably the main reason that the Vim bundle ecosystem is so healthy. Pathogen makes adding a plugin as easy as copying a folder into your `.vim` folder.
+* [Pathogen](https://github.com/tpope/vim-pathogen) - This plugin management system developed by [Tim Pope](https://twitter.com/tpope) is probably the reason that the Vim bundle ecosystem is so healthy. Pathogen makes adding a plugin as easy as copying a folder into your `~/.vim/bundles` folder.
 * [Vundle](https://github.com/gmarik/Vundle.vim) - In my opinion, the only thing better than managing plugins through the filesystem is managing them right in the `.vimrc`. Using Vundle you simply put the location of a plugin's repository in your `.vimrc` and Vundle clones the repository and puts everything in its proper place after running `:PluginInstall` from within Vim.
 * [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) - YCM, as the cool kids call it, is a code-completion engine for Vim, and I am in love with it. It works in virtually any language, and it is pre-compiled so that it is fast. I have run it locally and on a remote server, and it always seems snappy and responsive. The project page has some gifs showing it in action, so take a look there to see some pictures worth far more than a thousand of my words.
-* [UltiSnips](https://github.com/SirVer/ultisnips) - This text expansion tool is the next of new-to-me plugins that I am madly in love with. Similar in capability to the much-beloved [TextExpander](http://smilesoftware.com/TextExpander/index.html), this tool allows fill-in snippets, shell script expansion, and quick editing snippets while you work. The author has some great screencasts beginning with [this one](http://www.sirver.net/blog/2011/12/30/first-episode-of-ultisnips-screencast/), and the always-great [Drew Neil](https://twitter.com/nelstrom) has begun a series on [Vimcasts](http://vimcasts.org/episodes/meet-ultisnips/). My favorite feature may be its integration with YouCompleteMe, and it allows for fuzzy-search to find my snippets, because, as I talked about in the audio, I can't remember keyboard shortcuts for the life of me. The starter set of snippets I mentioned in the audio can be found [here](https://github.com/honza/vim-snippets).
+* [UltiSnips](https://github.com/SirVer/ultisnips) - This text expansion tool is the next of new-to-me plugins that I am madly in love with. Similar in capability to the much-beloved [TextExpander](http://smilesoftware.com/TextExpander/index.html), this tool allows fill-in snippets, shell script expansion, and quick editing snippets while you work. The author has some great screencasts beginning with [this one](http://www.sirver.net/blog/2011/12/30/first-episode-of-ultisnips-screencast/), and the always-great [Drew Neil](https://twitter.com/nelstrom) has begun a series on [Vimcasts](http://vimcasts.org/episodes/meet-ultisnips/). My favorite feature may be its integration with YouCompleteMe, and which allows fuzzy-search to find snippets. As I talked about in the audio, I can't remember keyboard shortcuts for the life of me. The starter set of snippets I mentioned in the audio can be found [here](https://github.com/honza/vim-snippets).
 * [Easy Motion](https://github.com/Lokaltog/vim-easymotion) - This plugin takes Vim's already great movement to the next level with some additional functionality and creative text highlighting. I am beating a dead horse, but learn baseline Vim motion before installing this. [I cannot be held responsible for my actions](http://media.tumblr.com/tumblr_lqeto3WZ3S1qdd6a1.gif) if you ignore this advice.
 
 #### Managing Dotfiles
 
-Managing and tweaking your dotfiles can be an addictive pursuit if you're not careful. We talked about it a little during the audio, but it is probably worth its own show (yeah, right. Like Gabe and Erik will ever let me near a microphone after this episode). For now I'll just point out a couple of good resources to learn more.
+Managing and tweaking your dotfiles can be an addictive pursuit if you're not careful. We talked about it a little during the audio, but it is probably worth its own show (Yeah, right. Like Gabe and Erik will ever let me near a microphone after this episode). For now I'll just point out a couple of good resources to learn more.
 
 * [Git](http://git-scm.com/) - It used the goal of putting my dotfiles online as the impetus to actually learn Git, and I now know enough fix every third thing I screw up. I like [Bitbucket's Git tutorials](https://www.atlassian.com/git/tutorial/git-basics) best, and their [Bitbucket 101 documentation](https://confluence.atlassian.com/display/BITBUCKET/Bitbucket+101) is great for learning about either Git or [Mercurial](http://mercurial.selenic.com/).  
-* [Bitbucket](https://bitbucket.org) - I keep everything on Bitbucket, because it allows me to have private repositories for nothing, and as I just demonstrated, I like their documentation. I don't know if they are really better about their institutional misogyny or not, but I think it's safe to say they are [*better* than some others that come to mind](http://techcrunch.com/2014/03/15/julie-ann-horvath-describes-sexism-and-intimidation-behind-her-github-exit/).
+* [Bitbucket](https://bitbucket.org) - I keep everything on Bitbucket, because it allows me to have private repositories for nothing, and as I just demonstrated, I like their documentation. I don't know if they are really better about their institutional misogyny, but I think it's safe to say they are [*better* than some others that come to mind](http://techcrunch.com/2014/03/15/julie-ann-horvath-describes-sexism-and-intimidation-behind-her-github-exit/).
 * [dotfiles.github.io](http://dotfiles.github.io/) - Earlier criticism aside, I don't know of a better place to go to learn more about how smart people manage their dotfiles. I don't have to give my opinion about simply installing someone's complete dotfiles system, [do I](http://media.giphy.com/media/rkDS4KEVbMHKw/giphy.gif)?
 
 {{ theme:partial src="section-header" title="Working Remotely" url="{{ soundcloudurl }}" time="61:55" }}
 
-I do some work when mobile, as in while moving, so I often am subject to the pain of spotty internet connections. I have found no better tool than [Mosh](http://mosh.mit.edu/) to help me deal with this issue. Mosh, for "Mobile Shell" details a number of features on its page, but my favorite is "intelligent local echo." This is what I talked about in the audio as "intuiting" the response, but the idea here is that it doesn't wait for server response before locally echoing what was typed. This means that typing delay virtually disappears. You can [find some technical](http://reproducingnetworkresearch.wordpress.com/2013/03/13/cs244-2013-evaluation-of-mosh-mobile-shell-performance-results/) details online or you consider it magic, like I do.
+I do some work when mobile, as in while moving, so I often am subject to the pain of spotty internet connections. I have found no better tool than [Mosh](http://mosh.mit.edu/) to help me deal with this issue. Mosh, for "Mobile Shell" details a number of features on its page, but my favorite is "intelligent local echo." This is what I talked about in the audio as "intuiting" the response, but the idea here is that it doesn't wait for server response before locally echoing what was typed. This means that typing delay virtually disappears. You can [find some technical](http://reproducingnetworkresearch.wordpress.com/2013/03/13/cs244-2013-evaluation-of-mosh-mobile-shell-performance-results/) details online, or you can consider it magic, like I do.
 
 I also alluded to my love affair with [DigitalOcean](https://www.digitalocean.com/?refcode=729ca113e3c7), and it is love, to be sure. I don't like to be tied to a particular platform or OS at this point in my life, so I am slowly moving everything that is essential to my workflow onto my own online host. Right now, that host is DigitalOcean. They give me complete control of my own "droplet" (read: `sudo` and root access), so it is my server and their hosting. It also feels *very* fast, and I think this is probably due to magic too. I can use Vim on this server, with no noticeable lag, from any device, and the installation script I talked about in the audio can clone this setup to any Ubuntu system, so I don't feel any lock-in. The script is four-for-five now, so maybe it does work...
 
