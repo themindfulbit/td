@@ -1,2 +1,0 @@
-ERROR|Fri, 09 May 2014 03:21:18 -0400|external|content|http://85.17.141.182/proxychecker/check.cgi?action=getinfo|85.17.141.182||404 - Page not found. User clicked an outside bad link at <a href="http://www.google.com/search?hl=ru&q=free+proxy+checker&sourceid=navclient-ff&ie=UTF-8">http://www.google.com/search?hl=ru&q=free+proxy+checker&sourceid=navclient-ff&ie=UTF-8</a>.
-ERROR|Fri, 09 May 2014 15:08:38 -0400|visitor|content|/manager/html|189.206.75.19||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.

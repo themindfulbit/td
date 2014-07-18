@@ -1,8 +1,0 @@
-ERROR|Sat, 12 Jul 2014 01:20:55 -0400|visitor|content|/manager/html|193.242.213.18||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
-ERROR|Sat, 12 Jul 2014 11:11:26 -0400|page|content|http://hotel.qunar.com/render/hoteldiv.jsp?&__jscallback=XQScript_4|115.29.34.30||404 - Page not found. There is a bad link on <a href="/">/</a>.
-ERROR|Sat, 12 Jul 2014 12:51:19 -0400|visitor|content|/wp-login.php|121.121.19.242|dev|404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
-ERROR|Sat, 12 Jul 2014 21:02:38 -0400|visitor|content|//cgi-bin/php|94.102.52.83||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
-ERROR|Sat, 12 Jul 2014 21:02:39 -0400|visitor|content|//cgi-bin/php5|94.102.52.83||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
-ERROR|Sat, 12 Jul 2014 21:02:39 -0400|visitor|content|//cgi-bin/php-cgi|94.102.52.83||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
-ERROR|Sat, 12 Jul 2014 21:02:39 -0400|visitor|content|//cgi-bin/php.cgi|94.102.52.83||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
-ERROR|Sat, 12 Jul 2014 21:02:40 -0400|visitor|content|//cgi-bin/php4|94.102.52.83||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.

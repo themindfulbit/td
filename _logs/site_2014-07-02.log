@@ -1,9 +1,0 @@
-ERROR|Wed, 02 Jul 2014 03:21:47 -0400|visitor|content|http://www.daydaydata.com/proxy.txt|110.249.208.16||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
-ERROR|Wed, 02 Jul 2014 10:51:55 -0400|visitor|content|http://www.google.com/|118.244.186.157||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
-ERROR|Wed, 02 Jul 2014 11:23:19 -0400|page|content|http://hotel.qunar.com/render/hoteldiv.jsp?&__jscallback=XQScript_4|114.232.166.165||404 - Page not found. There is a bad link on <a href="/">/</a>.
-ERROR|Wed, 02 Jul 2014 22:09:12 -0400|visitor|content|/w00tw00t.at.blackhats.romanian.anti-sec:)|69.174.245.163||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
-ERROR|Wed, 02 Jul 2014 22:09:12 -0400|visitor|content|/phpMyAdmin/scripts/setup.php|69.174.245.163||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
-ERROR|Wed, 02 Jul 2014 22:09:12 -0400|visitor|content|/phpmyadmin/scripts/setup.php|69.174.245.163||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
-ERROR|Wed, 02 Jul 2014 22:09:12 -0400|visitor|content|/pma/scripts/setup.php|69.174.245.163||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
-ERROR|Wed, 02 Jul 2014 22:09:12 -0400|visitor|content|/myadmin/scripts/setup.php|69.174.245.163||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
-ERROR|Wed, 02 Jul 2014 22:09:13 -0400|visitor|content|/MyAdmin/scripts/setup.php|69.174.245.163||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.

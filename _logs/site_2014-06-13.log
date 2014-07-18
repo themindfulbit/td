@@ -1,3 +1,0 @@
-ERROR|Fri, 13 Jun 2014 06:52:33 -0400|visitor|content|/reports/rwservlet|82.165.37.214||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
-ERROR|Fri, 13 Jun 2014 16:45:16 -0400|visitor|content|/manager/html|117.21.191.205||404 - Page not found. Visitor came directly to this page and may have typed the URL incorrectly.
-ERROR|Fri, 13 Jun 2014 20:40:51 -0400|page|content|http://hotel.qunar.com/render/hoteldiv.jsp?&__jscallback=XQScript_4|115.28.140.10||404 - Page not found. There is a bad link on <a href="/">/</a>.
