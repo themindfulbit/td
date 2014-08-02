@@ -10,10 +10,17 @@
 {{ elseif person == "gabe" }}
 <table class="fancy-quote gabe">
   <tr>
+   {{ if side == "right" }}
+    <td class="quote right"><a href="https://soundcloud.com/techdiffpodcast/{{ url }}#t={{ time }}">&ldquo;{{ quote|widont|smartypants }}&rdquo;</a></td>
+    <td class="avatar">
+      <img src="{{ _site_url }}assets/img/gabe-avatar.png" />
+    </td>
+   {{ else }}
     <td class="avatar">
       <img src="{{ _site_url }}assets/img/gabe-avatar.png" />
     </td>
     <td class="quote"><a href="https://soundcloud.com/techdiffpodcast/{{ url }}#t={{ time }}">&ldquo;{{ quote|widont|smartypants }}&rdquo;</a></td>
+   {{ endif }}
   </tr>
 </table>
 {{ elseif person == "potatowire" }}

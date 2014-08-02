@@ -17,7 +17,7 @@ caption: '[US National Archives](https://www.flickr.com/photos/usnationalarchive
 download: >
   https://www.buzzsprout.com/7417/188306-077-learning-vim-with-potatowire.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/158320675%3Fsecret_token%3Ds-PsuOC&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>'
-soundcloudurl: 076-whats-living-in-gabes-closet
+soundcloudurl: 077-learning-vim-with-potatowire
 summary: >
   Potatowire finally leaves the crib,
   joining Gabe and Erik to discuss
