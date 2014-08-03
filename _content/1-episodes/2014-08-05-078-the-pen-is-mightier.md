@@ -23,7 +23,10 @@ summary: >
 showtype: discussion
 ---
 
+
 {{ theme:partial src="section-header" title="Why Paper?" url="{{ soundcloudurl }}" time="0:00" }}
+
+Dummy content
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="1:05" person="bob" quote="Hope I can do two things at once" }}
 
@@ -43,6 +46,24 @@ Each book measures 3-1/2” wide by 5-1/2” tall and is bound with a rugged thr
 Bob prefers plain loose-leaf paper (no lines). Gabe likes dots on the page. Erik likes grids.
 
 {{ theme:partial src="product" show="{{ number }}" image="moleskine-reporter.jpg" name="Moleskine Reporter Notebook" description="The Moleskine Large Squared Reporter notebook has a cover that flips opens at the top, 24 detachable pages at the back for quick notes on the spot and can be used both horizontally and vertically." msrp="$15.88" manufacturer="http://shop.moleskine.com/en-us/notebooks-journals/reporter/classic-reporter-pocket-ruled-hard-black-6879" amazon="http://www.amazon.com/Moleskine-Reporter-Notebook-Squared-Notebooks/dp/8883705521/ref=sr_1_4?ie=UTF8&qid=1406985254&sr=8-4&keywords=moleskine+reporter+notebook" }}
+
+> {{ theme:partial src="aside-header" voice="gabe" text="Field Notes" }}
+>
+> [Field Notes](http://fieldnotesbrand.com) aren't good because they are small or because they have modestly high quality paper. They're good because I have a bunch of them and feel ok wasting pages. Having easy access to small notebooks changed the way I used paper notes. I previously coveted high end (and more expensive) hardbound notebooks and their preciousness made me conscious of how I used them. But Field Notes are available for about [$3 per notebook on Amazon](http://www.amazon.com/gp/product/B00GC5QTR0/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B00GC5QTR0) (I like the black dot grid but many other styles are available too). These aren't the cheapest notebooks you can find, but you don't want those. They're a nice compromise between quality and quantity.
+> 
+> I also wholeheartedly recommend the [Field Notes wallet](http://fieldnotesbrand.com/storage/leather/) even if it is almost $90. It's my everyday wallet and like anything good, changed some of my thinking for the better. I greatly reduced what I carried in my wallet because it has fewer pockets than a regular wallet. I also now have a notebook with me everywhere I go which means it's pretty easy to scribble any idea at any time. It's my spiritual successor to the DayRunner of days gone by.
+> 
+> {{ theme:partial src="image" title="Field Notes Wallet" caption="" show="{{ number }}" file="FieldNotesWallet.jpg" }}
+
+> {{ theme:partial src="aside-header" voice="gabe" text="Yafa Pens" }}
+>
+> I've been a fan of [Yafa Pens](http://www.yafa.com) from the time I could afford to buy a fountain pen. I hung out in a stationery store and played with the fountain pens for over a year before I saved up enough money to buy my first **good** pen and I still chose a Yafa. It was heavy and silver and wrote like it was dispensing buttered oil. This was in the mid eighties, shortly after Yafa started. It was a new brand but I was inexperienced and just knew it felt great. I still have that pen.
+
+> {{ theme:partial src="aside-header" voice="gabe" text="Fisher Space Pen" }}
+>
+> {{ theme:partial src="image" title="The Ultimate Space Pen" caption="" show="{{ number }}" file="SpacePenNitride.jpg" }}
+>
+> The Fisher Space Pen is once again popular amongst the nerds. It's gone through many periods of acceptance but it's always been a great go-to pen for throwing in a glovebox or desk drawer. My new favorite variation is the [Titanium Nitride](http://www.amazon.com/gp/product/B000HLD7ZC/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B000HLD7ZC) with a [black metal clip](http://www.amazon.com/gp/product/B0014M0AO4/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B0014M0AO4). This pairs perfectly with the Field Notes wallet.
 
 * [UI Stencils](http://www.uistencils.com/)
 * [Balsamiq](https://balsamiq.com/)
