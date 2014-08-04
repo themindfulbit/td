@@ -41,6 +41,13 @@ Each book measures 3-1/2” wide by 5-1/2” tall and is bound with a rugged thr
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="7:46" person="erik" quote="Do you take the shells of your dead moleskines, dry them out and hang them on the wall as trophies?" }}
 
+
+> {{ theme:partial src="aside-header" voice="gabe" text="Scanning Episode" }}
+>
+> We've done a scanning show before. If that interests you, then [check it out](http://technicaldifficulties.us/episodes/058-scanning)
+
+
+
 {{ theme:partial src="fancy-quote" side="right" url="{{ soundcloudurl }}" time="7:51" person="gabe" quote="Yeah, I throw them around the yard to ward off other notebooks" }}
 
 Bob prefers plain loose-leaf paper (no lines). Gabe likes dots on the page. Erik likes grids.
@@ -55,6 +62,14 @@ Bob prefers plain loose-leaf paper (no lines). Gabe likes dots on the page. Erik
 > 
 > {{ theme:partial src="image" title="Field Notes Wallet" caption="" show="{{ number }}" file="FieldNotesWallet.jpg" }}
 
+The Pilot G2 Gel Ink pen was a revolution in the late nineties. Hardly anything else felt like writing with gel ink but they were notorious for clogging and smudging.
+
+{{ theme:partial src="image" title="The Pilot G2" caption="" show="{{ number }}" file="PilotG2Gel.jpg" }}
+
+At the other end of the spectrum is the classic [Mont Blanc Meisterst&uuml;ck](http://www.montblanc.com/en-us/shop/writing-instruments/meisterstck/black-resin-gold/149-fountain-pen-10575.aspx) fountain pen. It's now the canonical look for a fancy fountain pen but it is truly a comfortable and well made writing implement. 
+
+{{ theme:partial src="image" title="The Mont Blanc Meisterst&uuml;ck" caption="" show="{{ number }}" file="Meisterstuck.jpg" }}
+
 > {{ theme:partial src="aside-header" voice="gabe" text="Yafa Pens" }}
 >
 > I've been a fan of [Yafa Pens](http://www.yafa.com) from the time I could afford to buy a fountain pen. I hung out in a stationery store and played with the fountain pens for over a year before I saved up enough money to buy my first **good** pen and I still chose a Yafa. It was heavy and silver and wrote like it was dispensing buttered oil. This was in the mid eighties, shortly after Yafa started. It was a new brand but I was inexperienced and just knew it felt great. I still have that pen.
@@ -65,8 +80,14 @@ Bob prefers plain loose-leaf paper (no lines). Gabe likes dots on the page. Erik
 >
 > The Fisher Space Pen is once again popular amongst the nerds. It's gone through many periods of acceptance but it's always been a great go-to pen for throwing in a glovebox or desk drawer. My new favorite variation is the [Titanium Nitride](http://www.amazon.com/gp/product/B000HLD7ZC/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B000HLD7ZC) with a [black metal clip](http://www.amazon.com/gp/product/B0014M0AO4/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B0014M0AO4). This pairs perfectly with the Field Notes wallet.
 
+The [Rotring 600 mechanical pencil](http://www.amazon.com/gp/product/B00AZX06U6/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B00AZX06U6) is a solid piece of construction. It's weighted well and feels good for sketching. The [800 model](http://www.amazon.com/gp/product/B00AZWS8XO/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B00AZWS8XO) brings the same attributes to a retractable pencil, which is nice if you want to carry it with you regularly.
+
 * [UI Stencils](http://www.uistencils.com/)
 * [Balsamiq](https://balsamiq.com/)
+
+> {{ theme:partial src="aside-header" voice="gabe" text="Prototyping Electronically" }}
+>
+> Balsamiq is nice but the last time I checked it required Flash. [UXPin](http://uxpin.com) and [LucidChart](https://www.lucidchart.com) make excellent products and both have some unique features that I think put them mostly ahead of Balsamiq.
 
 {{ theme:partial src="section-header" title="Paper-Like Technologies" url="{{ soundcloudurl }}" time="14:10" }}
 
@@ -77,6 +98,10 @@ There are still some real concerns about feel and friction.
 {{ theme:partial src="app" show="{{ number }}" image="53paper.png" name="Paper" description="Paper is where ideas begin. It’s the easiest and most beautiful way to create on iPad. Capture your ideas as sketches, diagrams, illustrations, notes or drawings and share them across the web." price="Free (IAP)" developer="https://www.fiftythree.com/paper" appstore="https://itunes.apple.com/us/app/paper-by-fiftythree/id506003812?mt=8" }}
 
 {{ theme:partial src="app" show="{{ number }}" image="zoomnotes.png" name="ZoomNotes" description="ZoomNotes is the most comprehensive visual note-taking app with unlimited zoom. Make handwritten notes and sketches on virtual paper, PDF files, images and MS Word, Excel and PowerPoint documents (via GoogleDrive)." price="$5.99" developer="http://www.zoom-notes.com/" appstore="https://itunes.apple.com/ca/app/zoomnotes/id462234530" }}
+
+> {{ theme:partial src="aside-header" voice="gabe" text="ZoomNotes for iOS" }}
+>
+> ZoomNotes has a lot of features. You'd be hard pressed to not find the feature you are looking for. The biggest problem is that the design is pretty awkward in places. But where it beats every other sketching app on iOS is the zoom sketching that allows you to draw detail by zooming in. There are also quite a few ways to get the content out. ZoomNotes is constantly updated (just about every week something new is added or improved) even though it's been on the App Store for a couple of years.
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Producer's Note" }}
 >
