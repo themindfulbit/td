@@ -73,10 +73,10 @@ lines of ruled paper.
 > I always liked the idea off a pocket notebook, but in practice,
 > they always annoy me (too small for my big ideas, with the inevitable 
 > anatomically-correct curve). For that reason, I use what Doane calls a
-> [http://doanepaper.bigcartel.com/product/flap-jotter](http://doanepaper.
-> bigcartel.com/product/flap-jotter), which is the size of a common 
+> [Flap Jotter](http://doanepaper.bigcartel.com/product/flap-jotter),
+ which is the size of a common 
 > stenographer's pad. I think these are portable enough for convenience,
-> and I much prefer having the extra real estate. I like them enough to keep a bunch of
+> and I much prefer having the extra real estate. I like them enough to keep some
 > spares on hand.
 > 
 > {{ theme:partial src="image" title="spares" show="{{ number }}" file="spares.jpg" }}
@@ -85,9 +85,9 @@ lines of ruled paper.
 > [Kokuyo Campus Loose Leaf Paper](http://www.jetpens.com/Kokuyo-Campus-Loose-Leaf-Paper-Sarasara-A4-Dotted-6-mm-Rule-30-Holes-50-Sheets/pd/9956) 
 > from the ever-dangerous [JetPens](http://www.jetpens.com/). This paper
 > is of the dotted-line variety, and I like it very much for any longer
-> form (or more deliberate) note-taking and sketching. 
+> form (or more deliberate) note-taking and sketching, since I have it in the larger [A4](http://en.wikipedia.org/wiki/Paper_size#mediaviewer/File:A_size_illustration2_with_letter_and_legal.svg) size 
 > 
-> {{ theme:partial src="image" title="Dotted Lines" show="{{ number }}" file="kokuyo.jpg" }}
+> {{ theme:partial src="image-set" title="Dotted Lines" show="{{ number }}" file="kokuyo.jpg" }}
 > 
 > I also have a few of the 
 > ["Slim Binders"](http://www.jetpens.com/Kokuyo-Campus-Adapt-Slim-Binder-A4-30-Rings-Yellow-Green/pd/9766),
