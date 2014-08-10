@@ -16,11 +16,12 @@ banner: /assets/img/the-pen.jpg
 caption: '[Foster, Milburn, & Co.](https://www.flickr.com/photos/muohio_digital_collections/3093592032)'
 download: >
   https://www.buzzsprout.com/7417/193300-078-the-pen-is-mightier.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/161275279%3Fsecret_token%3Ds-JpUuu&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/161275279%3Fsecret_token%3Ds-JpUuu&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>'
 soundcloudurl: 078-the-pen-is-mightier
-summary: >
-  Gabe and Erik are joined by friend-of-the-show and new audio producer Bob VanderClay to discuss pens, paper, notebooks and why we can't seem to transition to an all-digital workflow no matter how many notebooks we throw in the wood chipper.
+summary: "Gabe and Erik are joined by friend-of-the-show and new audio producer Bob VanderClay to discuss pens, paper, notebooks and why we can't seem to transition to an all-digital workflow no matter how many notebooks we throw in the wood chipper."
 showtype: discussion
+post_images: ""
+post_files: ""
 ---
 
 {{ theme:partial src="section-header" title="Why Paper?" url="{{ soundcloudurl }}" time="0:00" }}
@@ -53,6 +54,44 @@ Bob prefers plain loose-leaf paper (no lines). Gabe likes dots on the page. Erik
 > [Field Notes](http://fieldnotesbrand.com) aren't good because they are small or because they have modestly high quality paper. They're good because I have a bunch of them and feel ok wasting pages. Having easy access to small notebooks changed the way I used paper notes. I previously coveted high end (and more expensive) hardbound notebooks and their preciousness made me conscious of how I used them. But Field Notes are available for about [$3 per notebook on Amazon](http://www.amazon.com/gp/product/B00GC5QTR0/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B00GC5QTR0) (I like the black dot grid but many other styles are available too). These aren't the cheapest notebooks you can find, but you don't want those. They're a nice compromise between quality and quantity.
 >
 > {{ theme:partial src="image" title="Beer Field Notes... Mmmm." caption="" show="{{ number }}" file="field-notes-beer.jpg" }}
+
+> {{ theme:partial src="aside-header" voice="potatowire" text="grid+lines" }}
+>
+> I use two types of paper (willingly). The first of these is [Doane
+Paper](http://doanepaper.bigcartel.com/story), which I use for any day-to-day writing. I love this paper. It
+offers a great middle ground between paper with grid-lines and the usual
+lines of ruled paper. 
+> 
+> {{ theme:partial src="image" title="grid+lines" show="{{ number }}" file="doane.png" }}
+> 
+> Appropriately, "grid+lines" is Doane's tagline. Depending on the
+> product, the paper is either 70[lb](http://en.wikipedia.org/wiki/Paper_density) 
+> or 60lb recycled paper, that is a nice, bright white. It actually seems
+> like it would be too bright, but I really like looking at it. It's
+> something intangible, I guess. 
+> 
+> I always liked the idea off a pocket notebook, but in practice,
+> they always annoy me (too small for my big ideas, with the inevitable 
+> anatomically-correct curve). For that reason, I use what Doane calls a
+> [http://doanepaper.bigcartel.com/product/flap-jotter](http://doanepaper.
+> bigcartel.com/product/flap-jotter), which is the size of a common 
+> stenographer's pad. I think these are portable enough for convenience,
+> and I much prefer having the extra real estate. I like them enough to keep a bunch of
+> spares on hand.
+> 
+> {{ theme:partial src="image" title="spares" show="{{ number }}" file="spares.jpg" }}
+> 
+> The other type off paper I regularly use is 
+> [Kokuyo Campus Loose Leaf Paper](http://www.jetpens.com/Kokuyo-Campus-Loose-Leaf-Paper-Sarasara-A4-Dotted-6-mm-Rule-30-Holes-50-Sheets/pd/9956) 
+> from the ever-dangerous [JetPens](http://www.jetpens.com/). This paper
+> is of the dotted-line variety, and I like it very much for any longer
+> form (or more deliberate) note-taking and sketching. 
+> 
+> {{ theme:partial src="image" title="Dotted Lines" show="{{ number }}" file="kokuyo.jpg" }}
+> 
+> I also have a few of the 
+> ["Slim Binders"](http://www.jetpens.com/Kokuyo-Campus-Adapt-Slim-Binder-A4-30-Rings-Yellow-Green/pd/9766),
+> which are very nice.
 
 * [UI Stencils](http://www.uistencils.com/)
 * [Balsamiq](https://balsamiq.com/)
@@ -109,7 +148,7 @@ Erik prefers Uniball gel pens after years of being forced to use [cheap governme
 >
 > {{ theme:partial src="product" show="{{ number }}" image="govt-pen.jpg" name="Skilcraft U.S. Government Retractable Ball Point Pen, Fine Point, Black Ink, Box of 12" description="Designed to write anywhere regardless of climate or altitude. Ink does not skip or smear. Will write for one mile." msrp="$14.05" manufacturer="man_link" amazon="http://www.amazon.com/Skilcraft-Government-Retractable-Point-7520-00-935-7135/dp/B0055KSNYK" }}
 >
-> There are a few problems with the standard Skilcraft pens, among them the fact that it easily twists apart into [a bunch of pieces](http://en.wikipedia.org/wiki/Foreign_object_damage), it doesn't have a loop for the aforementioned string, and it only writes in black &ndash; inconvenient for keeping track of who's who in a complicated dogfight. These flaws have been almost completely overcome by the remarkable Bic 4-Color Pen.
+> There are a few problems with the standard Skilcraft pens, among them the fact that it easily twists apart into [a bunch of pieces](http://en.wikipedia.org/wiki/Foreign_object_damage), it doesn't have a loop for the aforementioned string, and it only writes in black – inconvenient for keeping track of who's who in a complicated dogfight. These flaws have been almost completely overcome by the remarkable Bic 4-Color Pen.
 >
 {{ theme:partial src="product" show="{{ number }}" image="bic4color.jpg" name="BIC 4-Color Ball Pen, Medium Point, 3 Pack, Assorted Ink" description="Get 4 Colors In One Pen. Black, Blue, Red & Green Ink. Perfect For Recording Data." msrp="$5.49" manufacturer="http://www.bicworld.com/us/products/details/18/4-color" amazon="http://www.amazon.com/BIC-4-Color-Medium-Assorted-MMP31-ASST/dp/B002JFR8Q8/ref=sr_1_1?s=office-products&ie=UTF8&qid=1407591133&sr=1-1&keywords=bic+four+color+pen" }}
 >
@@ -119,7 +158,7 @@ Erik prefers Uniball gel pens after years of being forced to use [cheap governme
 >
 > {{ theme:partial src="image" title="Cross Classic Century in Green" show="{{ number }}" file="flight-suit.jpg" }}
 >
-I took that pen and pencil with me on every flight over 17 years &ndash; including two combat deployments &ndash; and I still carry them in my flight suit today. There are those that say that the best tools are the ones that get used the most. Of all the writing tools I've ever owned, these are the ones with the most mileage.
+I took that pen and pencil with me on every flight over 17 years – including two combat deployments – and I still carry them in my flight suit today. There are those that say that the best tools are the ones that get used the most. Of all the writing tools I've ever owned, these are the ones with the most mileage.
 
 The Pilot G2 Gel Ink pen was a revolution in the late nineties. Hardly anything else felt like writing with gel ink but they were notorious for clogging and smudging.
 
@@ -141,9 +180,9 @@ Bob also likes the TWSBI Diamond Mini:
 
 {{ theme:partial src="product" show="{{ number }}" image="twsbi-mini.jpg" name="TWSBI Diamond Mini Clear Fountain Pen F nib" description="Piston filler type fountain pen." msrp="$55.00" manufacturer="http://www.twsbi.com/collections/fountain-pens/products/twsbi-mini-clear-fountain-pen" amazon="http://www.amazon.com/TWSBI-Diamond-Mini-Clear-Fountain/dp/B009V3LVIM/ref=sr_1_1?s=office-products&ie=UTF8&qid=1407594323&sr=1-1&keywords=twsbi+mini" }}
 
-At the other end of the spectrum is the classic [Mont Blanc Meisterst&uuml;ck](http://www.montblanc.com/en-us/shop/writing-instruments/meisterstck/black-resin-gold/149-fountain-pen-10575.aspx) fountain pen. It's now the canonical look for a fancy fountain pen but it is truly a comfortable and well made writing implement. 
+At the other end of the spectrum is the classic [Mont Blanc Meisterstück](http://www.montblanc.com/en-us/shop/writing-instruments/meisterstck/black-resin-gold/149-fountain-pen-10575.aspx) fountain pen. It's now the canonical look for a fancy fountain pen but it is truly a comfortable and well made writing implement. 
 
-{{ theme:partial src="image" title="The Mont Blanc Meisterst&uuml;ck" caption="" show="{{ number }}" file="Meisterstuck.jpg" }}
+{{ theme:partial src="image" title="The Mont Blanc Meisterstück" caption="" show="{{ number }}" file="Meisterstuck.jpg" }}
 
 > {{ theme:partial src="aside-header" voice="gabe" text="Yafa Pens" }}
 >
