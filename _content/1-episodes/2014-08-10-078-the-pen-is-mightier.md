@@ -180,6 +180,27 @@ Bob also likes the TWSBI Diamond Mini:
 
 {{ theme:partial src="product" show="{{ number }}" image="twsbi-mini.jpg" name="TWSBI Diamond Mini Clear Fountain Pen F nib" description="Piston filler type fountain pen." msrp="$55.00" manufacturer="http://www.twsbi.com/collections/fountain-pens/products/twsbi-mini-clear-fountain-pen" amazon="http://www.amazon.com/TWSBI-Diamond-Mini-Clear-Fountain/dp/B009V3LVIM/ref=sr_1_1?s=office-products&ie=UTF8&qid=1407594323&sr=1-1&keywords=twsbi+mini" }}
 
+> {{ theme:partial src="aside-header" voice="bob" text="Bob's Precious Pen Holder" }}
+> 
+> {{ theme:partial src="image" title="Bob's Precious Pen Holder" caption="" show="{{ number }}" file="bobs-precious-pens.jpg" }}
+> 
+> Besides the obvious fact that this is definitely a little precious, it's a little ridiculous that I have this nice portable setup for all my favorite pens, given I work almost exclusively from home. I suppose now that it's almost full, it might keep me from buying anything more. That's what I'm telling myself, anyhow.
+> 
+> On the right side, I keep a small sketching kit. It comes in very handy when working through interface designs. I'm a huge fan of [Copic Markers](https://www.copicmarker.com/). I really like the brush tip on the [Sketch](http://store.copicmarker.com/pages/overview-sketch-markers) version, which works well for both fine detail and large areas. No fountain pens on this side, the Micron's pigment-based ink is essential to withstand coloring over with the alcohol-based markers.
+> 
+> It looks like Copic makes a kit, with case, that has all this stuff and more. [Copic Gray Ink Pro Kit](http://store.copicmarker.com/products/gipwal).
+>
+> {{ theme:partial src="image" title="Bob's Inks" caption="" show="{{ number }}" file="bobs-inks.jpg" }}
+> 
+> On the left, I keep the fountain pens. They're all clear-bodied, essential to figure out what color I'm using. Lamy Safari's come in so many colors, I considered getting one to match each ink color. I change inks fairly regularly, so that was not a sustainable idea. Right now though, I'm using:
+> 
+> - [Noodler's Lexington Grey](http://www.amazon.com/Noodlers-Ink-3Oz-Lexington-Gray/dp/B00362DP6K).
+> - [Noodler's Red](http://www.amazon.com/Noodlers-Ink-3-Oz-Red/dp/B000WJ1JYK).
+> - [Noodler's Blue-Black](http://www.amazon.com/gp/product/B001MSKZ8G).
+> - [Noodler's Golden Brown](http://www.amazon.com/gp/product/B000WZJZ9A).
+> - [Noodler's Navajo Turquoise](http://www.amazon.com/Noodlers-Ink-Oz-Navajoe-Turquoise/dp/B000WJ0EY6).
+> - [Rohrer & Klingner Alt-Goldgrün](http://www.amazon.com/Rohrer-Klingner-bottled-fountain-pen/dp/B004MNYXJ0).
+
 At the other end of the spectrum is the classic [Mont Blanc Meisterstück](http://www.montblanc.com/en-us/shop/writing-instruments/meisterstck/black-resin-gold/149-fountain-pen-10575.aspx) fountain pen. It's now the canonical look for a fancy fountain pen but it is truly a comfortable and well made writing implement. 
 
 {{ theme:partial src="image" title="The Mont Blanc Meisterstück" caption="" show="{{ number }}" file="Meisterstuck.jpg" }}
@@ -197,6 +218,10 @@ At the other end of the spectrum is the classic [Mont Blanc Meisterstück](http:
 The [Rotring 600 mechanical pencil](http://www.amazon.com/gp/product/B00AZX06U6/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B00AZX06U6) is a solid piece of construction. It's weighted well and feels good for sketching. The [800 model](http://www.amazon.com/gp/product/B00AZWS8XO/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B00AZWS8XO) brings the same attributes to a retractable pencil, which is nice if you want to carry it with you regularly.
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="43:17" person="gabe" quote="The bigger the better" }} 
+
+> {{ theme:partial src="aside-header" voice="bob" text="Audio Engineer's Note" }}
+>
+> Nope, that title isn't going to do. Much too professional sounding. That's just bad expectation management. Anyways, I'm thrilled to be helping out with the show -- and the excuse to play with some new toys. If you have -- or hear -- any feedback, let me know at [@takitapart](http://twitter.com/takitapart/), or by email bob at vanderclay dot com.
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="Producer's Note" }}
 >
