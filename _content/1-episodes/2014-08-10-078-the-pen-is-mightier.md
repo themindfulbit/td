@@ -25,8 +25,6 @@ showtype: discussion
 
 {{ theme:partial src="section-header" title="Why Paper?" url="{{ soundcloudurl }}" time="0:00" }}
 
-Dummy content
-
 {{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="1:05" person="bob" quote="Hope I can do two things at once" }}
 
 For Bob, it's an issue of reliability and speed. Bob sketches out software architecture, and tends to keep his notes around even though he doesn't refer to them much.
@@ -39,7 +37,6 @@ For Gabe it's about the specific problem to be solved, and planning or meeting n
 Each book measures 3-1/2” wide by 5-1/2” tall and is bound with a rugged three-staple saddle-stitch process." msrp="$9.95" manufacturer="http://fieldnotesbrand.com/" amazon="http://www.amazon.com/Field-Notes-Kraft-Ruled-3-Pack/dp/B0034KDEMO/ref=sr_1_1?ie=UTF8&qid=1406984308&sr=8-1&keywords=field+notes" }}
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="7:46" person="erik" quote="Do you take the shells of your dead moleskines, dry them out and hang them on the wall as trophies?" }}
-
 
 > {{ theme:partial src="aside-header" voice="gabe" text="Scanning Episode" }}
 >
@@ -117,6 +114,12 @@ Erik prefers Uniball gel pens after years of being forced to use [cheap governme
 {{ theme:partial src="product" show="{{ number }}" image="bic4color.jpg" name="BIC 4-Color Ball Pen, Medium Point, 3 Pack, Assorted Ink" description="Get 4 Colors In One Pen. Black, Blue, Red & Green Ink. Perfect For Recording Data." msrp="$5.49" manufacturer="http://www.bicworld.com/us/products/details/18/4-color" amazon="http://www.amazon.com/BIC-4-Color-Medium-Assorted-MMP31-ASST/dp/B002JFR8Q8/ref=sr_1_1?s=office-products&ie=UTF8&qid=1407591133&sr=1-1&keywords=bic+four+color+pen" }}
 >
 > The 4-Color has a loop for a string, solid construction, and fighter-friendly multicolored ink: blue (good-guy #1), green (good-guy #2), red (bad-guy #1), and black (bad-guy #2). I never migrated to this highly upgraded piece of cockpit technology, but I know a lot of guys (especially [weapons school](http://en.wikipedia.org/wiki/Topgun) graduates) who swore by it.
+>
+> A US military flight suit has slots for two writing implements on its upper left sleeve. Most people kept their daily use (non-flying) pen and pencil there, and I was no exception. In 1997, when I finished ground school and received my first flight suit, my dad gave me a [Cross Classic Century](http://www.cross.com/catalog/collectionlanding.aspx?cat_name=classic_century_pen_collection&AspxAutoDetectCookieSupport=1) Pen and Pencil set in 24kt Gold and Matte Green. 
+>
+> {{ theme:partial src="image" title="Cross Classic Century in Green" show="{{ number }}" file="flight-suit.jpg" }}
+>
+I took that pen and pencil with me on every flight over 17 years &ndash; including two combat deployments &ndash; and I still carry them in my flight suit today. There are those that say that the best tools are the ones that get used the most. Of all the writing tools I've ever owned, these are the ones with the most mileage.
 
 The Pilot G2 Gel Ink pen was a revolution in the late nineties. Hardly anything else felt like writing with gel ink but they were notorious for clogging and smudging.
 
