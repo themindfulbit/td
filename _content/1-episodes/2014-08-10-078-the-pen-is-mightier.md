@@ -71,7 +71,7 @@ lines of ruled paper.
 > something intangible, I guess. 
 > 
 > I always liked the idea off a pocket notebook, but in practice,
-> they always annoy me (too small for my big ideas, with the inevitable 
+> they always annoy me (too small for my "big ideas," with the inevitable 
 > anatomically-correct curve). For that reason, I use what Doane calls a
 > [Flap Jotter](http://doanepaper.bigcartel.com/product/flap-jotter),
  which is the size of a common 
@@ -81,7 +81,7 @@ lines of ruled paper.
 > 
 > {{ theme:partial src="image" title="spares" show="{{ number }}" file="spares.jpg" }}
 > 
-> The other type off paper I regularly use is 
+> The other type of paper I regularly use is 
 > [Kokuyo Campus Loose Leaf Paper](http://www.jetpens.com/Kokuyo-Campus-Loose-Leaf-Paper-Sarasara-A4-Dotted-6-mm-Rule-30-Holes-50-Sheets/pd/9956) 
 > from the ever-dangerous [JetPens](http://www.jetpens.com/). This paper
 > is of the dotted-line variety, and I like it very much for any longer
@@ -89,7 +89,7 @@ lines of ruled paper.
 > 
 > {{ theme:partial src="image-set" title="Dotted Lines" show="{{ number }}" file="kokuyo.jpg" }}
 > 
-> I also have a few of the 
+> I also have a few of the corresponding  
 > ["Slim Binders"](http://www.jetpens.com/Kokuyo-Campus-Adapt-Slim-Binder-A4-30-Rings-Yellow-Green/pd/9766),
 > which are very nice.
 
