@@ -25,6 +25,15 @@ post_files: ""
 
 {{ theme:partial src="section-header" title="Our Favorite Internet Snowman" url="{{ soundcloudurl }}" time="0:00" }}
 
+{{ theme:partial src="image" title="" caption="[NASA](https://www.flickr.com/photos/nasacommons/7538102080/in/photostream/)" show="{{ number }}" file="favorite-snowman.jpg" }}
+
+* Really started in college
+* FORTRAN
+* [Keypunch Machine](http://en.wikipedia.org/wiki/Keypunch_machine)
+
+{{ theme:partial src="image" title="" caption="[Autopilot](http://en.wikipedia.org/wiki/File:IBM_129_Card_Data_Recorder.jpg)" show="{{ number }}" file="ibm129-keypunch.jpg" }}
+
+* Punch Cards
 
 > {{ theme:partial src="aside-header" voice="bob" text="Audio Engineer's Note" }}
 >
