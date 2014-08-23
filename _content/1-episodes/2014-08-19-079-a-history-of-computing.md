@@ -1,6 +1,6 @@
 ---
 number: "079"
-title: "A History of Computing with Dr. Drang" 
+title: A History of Computing with Dr. Drang
 type:
   - interview
 people:
@@ -10,14 +10,23 @@ people:
 topics:
   - computing
   - punchcards
-  - apple 
+  - apple
   - unix
 banner: /assets/img/not-drang.jpg
 caption: '[Internet Archive](https://www.flickr.com/photos/internetarchivebookimages/14783937073)'
-download: http://www.buzzsprout.com/7417/196108-079-a-history-of-computing-with-dr-drang.mp3 
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/162879096%3Fsecret_token%3Ds-rUEto&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
-soundcloudurl: 079-a-history-of-computing 
-summary: "Dr. Drang returns to explore his background in computing from the late 1970s to today. Along the way we discover what happens when you mess up a punchcard, what Linux was like in the early days, why he uses a Mac today, and his perspectives on the near future of computing."
+download: >
+  http://www.buzzsprout.com/7417/196108-079-a-history-of-computing-with-dr-drang.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/162879096%3Fsecret_token%3Ds-rUEto&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>'
+soundcloudurl: 079-a-history-of-computing
+summary: >
+  Dr. Drang returns to explore his
+  background in computing from the late
+  1970s to today. Along the way we
+  discover what happens when you mess up a
+  punchcard, what Linux was like in the
+  early days, why he uses a Mac today, and
+  his perspectives on the near future of
+  computing.
 showtype: interview
 post_images: ""
 post_files: ""
@@ -27,14 +36,65 @@ post_files: ""
 
 {{ theme:partial src="image" title="" caption="[NASA](https://www.flickr.com/photos/nasacommons/7538102080/in/photostream/)" show="{{ number }}" file="favorite-snowman.jpg" }}
 
-* Really started in college
-* FORTRAN
-* [Keypunch Machine](http://en.wikipedia.org/wiki/Keypunch_machine)
 
 {{ theme:partial src="image" title="" caption="[Autopilot](http://en.wikipedia.org/wiki/File:IBM_129_Card_Data_Recorder.jpg)" show="{{ number }}" file="ibm129-keypunch.jpg" }}
 
-* Punch Cards
+* Really started in college in highschool, computers were tied up with data entry. More Vo-tech
+* First exposure to coimputers was FORTRAN as an intro to programming
+* [Keypunch Machine](http://en.wikipedia.org/wiki/Keypunch_machine)
 
+*** aside on how punched card worked ***
+- pic of card without ink?
+- card width and how that relates to recommended terminal window width
+- programming work
+- "high priests of the mainframe"
+PULL ~10 min "so you only got 8 mistakes a day"
+- pic of computer output
+***
+- Dr. Drang is more deliberate and complete in his first draft.
+LINK dr scheme
+- Rich siegel (BBEdit) and lightspeed ad "make mistakes faster."
+- written on paper because time  on the card machine
+PIC Punched card paer
+- FORTRAN card format (7 as newline start, 6 for c to continue a line
+19MIN
+timesharing terminals
+ICE
+line editors (ed)
+PIC gif of a line editor
+Deck terminals that used paper
+
+### types of programming
+- loops and bobby on motorcycle blowing up
+- not excited by computers for the sake of computers. Learned in isolation.
+- Took Pascal course as technical elective which was how he learned programming 
+27+39
+- procedures vs functions
+- s (???)
+- linked lists, doubly-linked lists
+- wrote text editor
+- LINK dogfooding
+- wrote text editor as capstone
+- LINK "why pascal is not my favorite language"
+- first program as a tool as graduate school--reliability calculation
+- explaining to a computer in a program, changed the way he taught it.
+- LINK blogging technical solutions
+
+### Home computing
+- commodore 64 
+- 1985 fat mac looked like space man--fostered love of computers
+- LINK Bloom County
+- multitasking - programs inserted "break points"
+- kernel extensions
+- unstable
+- Apple wanted to buy a company (NeXT in the end) made him think that 
+- LINK os 10.0 date
+- Unix philosophy (otw, pipes, etc.)
+- 1996 Linux
+- Redhat Linux
+ASIDE my first Linux, "Dummies" book, made binders, etc.
+- packages and package managers
+43 MIN
 > {{ theme:partial src="aside-header" voice="bob" text="Audio Engineer's Note" }}
 >
 > If you have -- or hear -- any feedback, let me know on Twitter [@takitapart](http://twitter.com/takitapart/), or email bob at vanderclay dot com.
