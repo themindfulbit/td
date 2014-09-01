@@ -44,6 +44,12 @@ post_files: ""
 * [Keypunch Machine](http://en.wikipedia.org/wiki/Keypunch_machine)
 
 *** aside on how punched card worked ***
+
+Wikipedia has a [thorough write up](http://en.wikipedia.org/wiki/Punched_card) of the IBM style punched cards.
+
+{{ theme:partial src="image" title="A Fortran Punched Card" caption="" show="{{ number }}" file="FortranCardPROJ039.jpg" }}
+
+
 - pic of card without ink?
 - card width and how that relates to recommended terminal window width
 - programming work
@@ -73,12 +79,22 @@ Deck terminals that used paper
 - s (???)
 - linked lists, doubly-linked lists
 - wrote text editor
+
+["Dogfooding"](http://www.newrepublic.com/article/115349/dogfooding-tech-slang-working-out-glitches) is an expression that has risen to popular culture out of nerd culture at Microsoft and generally means using your own creation for real work and not just as a QA target. The expression represents something that is fairly commonplace now in software development. Dogfooding can often reveal bugs and awkward interactions models that scripted testing may not.
+
 - LINK dogfooding
 - wrote text editor as capstone
 - LINK "why pascal is not my favorite language"
 - first program as a tool as graduate school--reliability calculation
 - explaining to a computer in a program, changed the way he taught it.
 - LINK blogging technical solutions
+
+> {{ theme:partial src="aside-header" voice="gabe" text="My First Computer" }}
+>
+> My first computer was a calculator. It was a [Texas Instruments TI-74](http://en.wikipedia.org/wiki/TI-74) pocket computer. It was hard to call it a computer even then. But it was programmable using BASIC and it was the first time I could write down logic and have it repeatedly executed with different input. It was a computer.
+> 
+> Programming that little piece of plastic was not fun. It displayed one line at a time and forget any reasonable stack trace. But it made me think and plan my programs carefully because for that exact reason. Dumb mistakes were even less fun than now.
+
 
 ### Home computing
 - commodore 64 
