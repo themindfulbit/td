@@ -30,18 +30,18 @@ post_files: ""
 > {{ theme:partial src="aside-header" voice="potatowire" text="Useful Folders" }}
 > 
 > Like Gabe, I use and adore the Fastmail webapp. Besides the keyboard
-shorcuts, my favorite feature might be the ability to have folders in
+shortcuts, my favorite feature might be the ability to have folders in
 your sidebar be hidden unless you have new email in them. This is done
 very easily after clicking the "Create or edit folders" link in the
 sidebar. From here just utilize the dropdown box to change how the
-floder is displayed. It ought to look somethink like this:
+folder is displayed. It ought to look something like this:
 > 
 > {{ theme:partial src="image" title="Auto-hiding Folders" show="{{ number }}" file="auto-hide.png" }}
 > 
 > The reason that I like this feature so much, is that through the use
 of the server-side rules I have in place (stay tuned), only certain
 email goes to my inbox, but I can also see at a glance whether there is
-anything that I need to process in my sub-folders. If I am caught up,
+anything that I need to process in my subfolders. If I am caught up,
 there will be nothing in my sidebar at all.
 
 {{ theme:partial src="section-header" title="Using the Keyboard" url="{{ soundcloudurl }}" time="m:ss" }}
