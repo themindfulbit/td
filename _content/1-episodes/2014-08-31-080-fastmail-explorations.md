@@ -49,6 +49,24 @@ there will be nothing in my sidebar at all.
 {>>Put in a tutorial for setting up mail forward from gmail<<}
 {>>Insert instructions for using a custom domain with Fastmail<<}
 
+A "Personality" in Fastmail is like a virtual "from" address. This allows a user to send email through an external mail server right from within the Fastmail service. Combine a personality for sending messages with mail forwarding from a different email account and no one will be any the wiser that you manage all of your email from one Fastmail account.
+
+Here's a simple example using my preferred web hosting provider [Webfaction](https://www.webfaction.com/?affiliate=macdrifter). Login to Fastmail and go to the settings and then "Accounts". Switch to the "Advanced" option. From here, you can create a new personality. Provide the "from" address you want to use for the personality. If you are using  an external server, then you'll need the SMTP connection details. For Webfaction it looks something like this:
+
+{{ theme:partial src="image" title="" caption="Advanced Personality Connection" show="{{ number }}" file="Screen Shot 20140901_090844.jpg" }}
+
+Fastmail can now send mail as the external sender by choosing it from a drop down when composing new messages or replying. The recipient will not easily detect (if they care to) that the original message was sent from Fastmail.
+
+If you want to fake it, you can avoid the SMTP connection stuff and just have Fastmail assign a different sender address to the header. To anyone just using a dumb email client, it will likely look as if the message came from another account. However, digging just below the surface will reveal the Fastmail address as the origin of the message.
+
+There are a couple different options for receiving messages from an external email through Fastmail. The easiest option is to setup mail forwarding from the old email account. For iCloud, login to the iCloud web mail and open the preferences (gear icon in the lower left). Add your Fastmail email address for the forwarding service. I prefer to keep all of the mail in iCloud and do nothing with it other than forward. I no longer use iCloud mail at all.
+
+{{ theme:partial src="image" title="" caption="iCloud Mail Forwarding" show="{{ number }}" file="Screen Shot 20140901_093408.jpg" }}
+
+### Stupid Address Tricks ###
+
+Fastmail has great spam filtering but sometimes spam comes from companies that we have legitimate associations with. In those cases no automatic spam filtering will be effective. That's why I give out unique addresses to everyone that requires it. Fastmail adopts the long standing Gmail option of plus addressing. Append a plus and some other word to your primary email address. It's a very subtle way to mask your main email address. For example, gabe+verizon@technicaldifficulties.us is still sent to gabe@technicaldifficulties.us but now I know Verizon is the source of the spam. But even better than that, I can easily trash all mail sent to that address with a server side mail rule and never be bothered by their garbage again.
+
 {>>GABE ::: Tutorial for using aliasing and subdomain addressing and personalities<<}
 
 > {{ theme:partial src="aside-header" voice="gabe" text="Keyboard Shortcuts or GTFO" }}
