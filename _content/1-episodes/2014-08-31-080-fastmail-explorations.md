@@ -67,6 +67,21 @@ There are a couple different options for receiving messages from an external ema
 
 Fastmail has great spam filtering but sometimes spam comes from companies that we have legitimate associations with. In those cases no automatic spam filtering will be effective. That's why I give out unique addresses to everyone that requires it. Fastmail adopts the long standing Gmail option of plus addressing. Append a plus and some other word to your primary email address. It's a very subtle way to mask your main email address. For example, gabe+verizon@technicaldifficulties.us is still sent to gabe@technicaldifficulties.us but now I know Verizon is the source of the spam. But even better than that, I can easily trash all mail sent to that address with a server side mail rule and never be bothered by their garbage again.
 
+> {{ theme:partial src="aside-header" voice="potatowire" text="No
+plusses" }}
+>
+> I essentially do the same thing, but because I have all mis-addressed
+> email (i.e. not associated with an alias), I just change the whole email
+> address. This means I can redirect my email with a more natural-sounding
+> address, in case I ever have to say it or share it with my wife (i.e.
+> netflix@potatowire.com), but I still use suckispammers@potatowire.com,
+> if the situation calls for it. 
+> 
+> I also use purpose-oriented addresses to direct email without having 
+> to rinker with my rules, such as orders@potatowire.com and
+> newsletters@potowire.com. Nothing innovative here, but it took me way
+> too long to think of nonetheless.
+
 {>>GABE ::: Tutorial for using aliasing and subdomain addressing and personalities<<}
 
 > {{ theme:partial src="aside-header" voice="gabe" text="Keyboard Shortcuts or GTFO" }}
@@ -98,9 +113,46 @@ Fastmail has great spam filtering but sometimes spam comes from companies that w
 
 {>>POTATOWIRE ::: An introduction to Sieve<<}
 
+> {{ theme:partial src="aside-header" voice="potatowire" text="The first
+rule of email" }}
+>
+> A number of years ago, I decided that I needed my own email address.
+> I liked the idea of having a completely personalized address, sure, but
+> I also wanted to completely own the way that so many people communicate
+> online. The stories of [being locked out of Gmail](LINK) were still
+> relatively rare, but it seemed weird to still rely on Google, even
+> though I was inordinately proud of having been on Gmail since [account
+> creation required an invitation](LINK). If I had my own email address, I
+> could take it with me anywhere or even host it myself. [Google Apps](LINK)
+> was the first provider I tried, and I honestly had no issues with it.
+> I did have a brief freak-out about Google though, and decided to try to
+> find a dedicated mail provider. I tried Fastmail and the rest is boring
+> history.
+>
+> Once I made this switch, and my email began all coming to its new
+> home, I was left with a messy inbox. This led me to set up some rules in
+> Mail.app, which was okay, but come on, the system relied on Mail.app.
+> some time later, I set up a rule in the Fastmail webapp while away from
+> my Mac, and it was easy and worked well with lots of advanced options, 
+> but the last thing I wanted was to begin relying on some proprietary
+> system. 
+> 
+> That's when I noticed that the Fastmail rmail rules were just
+> implementing the [Sieve language](LINK) behind the scenes. This changed
+> everything. If I ever decided to leave Fastmail, I could easily bring my
+> rules with me. Fastmail being characteristically awesome, they made it
+> [easy to get the script out](LINK) of the settings, but since it is just
+> plain text in a flat file, there are plenty of ways to back up or move
+> on. Besides, this made it very easy to version control.
+> 
+> Having been convinced, I dug into the language and found out how
+> flexible it is. I don't do much that couldn't be done using the web
+> interface, but I will someday. In the menatime, here are some basics to
+> get you started. 
+
 {>>Shout out to Sanebox here. It's good but I canceled my account. I do most everything with filters and smart mailboxes<<}
 
-{{ theme:partial src="section-header" title="Searchhing" url="{{ soundcloudurl }}" time="m:ss" }}
+{{ theme:partial src="section-header" title="Searching" url="{{ soundcloudurl }}" time="m:ss" }}
 
 {>>SEARCH<<}
 
