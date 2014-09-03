@@ -65,7 +65,15 @@ There are a couple different options for receiving messages from an external ema
 
 ### Stupid Address Tricks ###
 
-Fastmail has great spam filtering but sometimes spam comes from companies that we have legitimate associations with. In those cases no automatic spam filtering will be effective. That's why I give out unique addresses to everyone that requires it. Fastmail adopts the long standing Gmail option of plus addressing. Append a plus and some other word to your primary email address. It's a very subtle way to mask your main email address. For example, gabe+verizon@technicaldifficulties.us is still sent to gabe@technicaldifficulties.us but now I know Verizon is the source of the spam. But even better than that, I can easily trash all mail sent to that address with a server side mail rule and never be bothered by their garbage again.
+Fastmail has great spam filtering but sometimes spam comes from companies that we have legitimate associations with. In those cases no automatic spam filtering will be effective. That's why I give out unique addresses to everyone that requires it. Fastmail adopts the long standing Gmail option of [plus addressing](https://www.fastmail.fm/help/receive/addressing.html). Append a plus and some other word to your primary email address. It's a very subtle way to mask your main email address. For example, gabe+verizon@technicaldifficulties.us is still sent to gabe@technicaldifficulties.us but now I know Verizon is the source of the spam. But even better than that, I can easily trash all mail sent to that address with a server side mail rule and never be bothered by their garbage again.
+
+The other advantage to the plus addressing is that it's a convenient way to automatically file messages as they come in. For example, if I had a folder somewhere in my Fastmail hierarchy named "verizon" then a message sent to gabe+verizon@technicaldifficulties.us would miss my inbox entirely and be gently placed in the verizon folder.
+
+Not everything is great about plus addressing though. Some email systems may refuse the format. In those cases you should use subdomain addressing.
+
+Subdomain addressing is very similar to a plus address. In our example, you'd use the address "verizon@gabe.technicaldifficulties.us" where the user name is included as part of the domain. As with plus addressing, these messages will also be filled if there's a matching folder somewhere in your account.
+
+If you want to be even more elegant, then I suggest setting up a new MX record at your host to handle all email sent to any recipient at your TLD. Most hosts make this simple and Fastmail has [some easy to follow directions](https://www.fastmail.fm/help/receive/domains.html). This means people can send a message to any address at your domain, like our example "verizon@technicaldifficulties.us". Of course, this is the way to go if you have your own domain.
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="No
 plusses" }}
@@ -82,7 +90,6 @@ plusses" }}
 > newsletters@potowire.com. Nothing innovative here, but it took me way
 > too long to think of nonetheless.
 
-{>>GABE ::: Tutorial for using aliasing and subdomain addressing and personalities<<}
 
 > {{ theme:partial src="aside-header" voice="gabe" text="Keyboard Shortcuts or GTFO" }}
 >
@@ -101,13 +108,20 @@ plusses" }}
 
 {{ theme:partial src="section-header" title="Spam, Ham, and Server-side Rules" url="{{ soundcloudurl }}" time="m:ss" }}
 
-{>>SPAM FILTERING AND TRAINING<<}
+
+The spam filtering in Fastmail is excellent. It's tough for me to tell if it's better than Gmail. I think Gmail accounts get much more spam in general than a custom domain. It's probably pretty easy to send millions of messages to "randomstring@gmail.com".
+
+Fastmail spam filtering uses SpamAssasin to score messages. Obvious spam is removed from the inbox. You can also mark messages as spam and Fastmail will learn about what your spam looks like. The more you mark, the better it gets. You can also tweak how aggressive spam filtering will be.
+
+{{ theme:partial src="image" title="" caption="Spam Protection Settings" show="{{ number }}" file="Screen Shot 20140902_181954.jpg" }}
+
+Fastmail is also very tough on spammers that might try to use their service. The recommend that you get written consent from recipients to things like newsletters before sending out a blast. If they get reports of spam on an account and the owner can not prove that the email was requested, they will boot the user off of the service.
 
 > {{ theme:partial src="aside-header" voice="gabe" text="I Get No Spam" }}
 >
 > Mail rules are a must. Using rules inside of Apple's Mail.app was a blessing for filtering out junk from friends as well as non-spam advertisements. But when  my Mac was off, the rules were useless and this was only exacerbated by processing more of my email through my phone. Fastmail's server-side rules were a huge step forward in convenience but a small step back in complexity.
 > 
-> The Fastmail rules are easily configured through a basic GUI and a lot can be accomplished this way. I manage all of my rules through the basic mail filters. But if you want control on par to Mail.app then you'll need to master the Sieve language. If you do, you'll be a wizard with your mail.
+> The Fastmail rules are easily configured through a basic GUI and a lot can be accomplished this way. I manage all of my rules through the basic mail filters. But if you want control on par to Mail.app then you'll need to master the [Sieve language](https://www.fastmail.fm/help/technical/sieve.html). If you do, you'll be a wizard with your mail.
 
 {>>A tutorial and examples of basic server side mail rules would be good here<<}
 
@@ -150,15 +164,26 @@ rule of email" }}
 > interface, but I will someday. In the menatime, here are some basics to
 > get you started. 
 
+
+
 {>>Shout out to Sanebox here. It's good but I canceled my account. I do most everything with filters and smart mailboxes<<}
 
 {{ theme:partial src="section-header" title="Searching" url="{{ soundcloudurl }}" time="m:ss" }}
 
-{>>SEARCH<<}
+
+One of Fastmail's more famous features is the [powerful search syntax](https://www.fastmail.fm/help/receive/search.html). It follows a familiar phrase-type of syntax. Searing "in:verizon statement" will search only in a folder named "verizon". There are a variety of phrases that allow very precise searching across dates, recipients, senders, even headers.
+
+Search terms are combined using boolean operators. For example, searching for messages received within the last two weeks that are not in my "__Bacon" folder uses this simple phrase:
+after:"2w" NOT in:__Bacon
+
+Server-side searches can be saved as smart folders. The search is executed when the folder is accessed. In this way, I have quick access to all emails with attachments or messages received in the past week, regardless of where they've been filed.
+
+It's hard to go back to a lesser client on iOS or even the Mac, which is one of the reasons I really enjoy Fastmail. The web app is so good, I can use it on my phone and have access to all of the searching power I use on my desktop.
 
 {{ theme:partial src="section-header" title="Other Features" url="{{ soundcloudurl }}" time="m:ss" }}
 
-{>>USING FILES<<}
+Fastmail provides a file storage option for accessing and using attachments. At the most basic level files are stored on the server and easily attached to any outgoing message. This can be taken one step further and files can be shared with a generic link. Fastmail also provides basic photo album creation and sharing too. If you don't want to run a server but you want great email support and the option to share an occasional file, it's hard to beat Fastmail.
+
 
 {>>ADDRESS BOOK<<}
 
