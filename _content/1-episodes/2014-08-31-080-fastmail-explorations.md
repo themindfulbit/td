@@ -71,10 +71,6 @@ anything that I need to process in my subfolders. If I am caught up,
 there will be nothing in my sidebar at all.
 
 
-{>>Put in a tutorial for setting up mail forward from gmail<<}
-
-{>>Insert instructions for using a custom domain with Fastmail<<}
-
 A "Personality" in Fastmail is like a virtual "from" address. This allows a user to send email through an external mail server right from within the Fastmail service. Combine a personality for sending messages with mail forwarding from a different email account and no one will be any the wiser that you manage all of your email from one Fastmail account.
 
 Here's a simple example using my preferred web hosting provider [Webfaction](https://www.webfaction.com/?affiliate=macdrifter). Login to Fastmail and go to the settings and then "Accounts". Switch to the "Advanced" option. From here, you can create a new personality. Provide the "from" address you want to use for the personality. If you are using  an external server, then you'll need the SMTP connection details. For Webfaction it looks something like this:
