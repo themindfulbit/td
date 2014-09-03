@@ -183,34 +183,32 @@ rule of email" }}
 > interface, but I will someday. In the meantime, here are some basics to
 > get you started. 
 > 
-> Fastmail doesn't currently supprt the entire [Sieve
-Spec](http://www.ietf.org/rfc/rfc5228.txt), but it includes some of the
-most common extensions:
-
-* [Relational Tests](http://www.ietf.org/rfc/rfc5231.txt) - Tests whether a field is
-	greater than, less than, etc. another field. For instance yuu could
-	act on an email with a certain number of people on the "To:" line.
-* [Subaddress Extension](http://www.ietf.org/rfc/rfc5233.txt) - Breaks up the incoming address into
-	`:user` and `:detail` using some sort divider, like a "+". This
-	enables the subdomain addressing mentioned earlier. 
-* [Copying Without Side Effects](http://www.ietf.org/rfc/rfc3894.txt) - Allows actions to take place without affecting the original message.
-	One example of this utility would be as some sort of backup through
-	either filing or forward particular messages.
-* [Regular Expression Extension](http://tools.ietf.org/html/draft-ietf-sieve-regex-01) - This permits conditions to be set based
-	on regular expressions instead of exact matches, globbing, etc.
-* [IMAP flag
-	Extension](https://www.fastmail.fm/help/technical/draft-melnikov-sieve-imapflags-04.txt)
-	- Sets IMAP flags such as flagged, deleted, answered, etc.
-* [Body Extension](http://www.ietf.org/rfc/rfc5173.txt) - Checks for a
-	string in the body of an email, and it can be refined to look for
-	plain text strings, html strings, etc.
-
-This just scratches the surface of Fastmail's Sieve implemetation, but
-spend some time browsing through the extension documentation linked
-above, and you will see how powerful this language is. Gabe 
-[wrote up](http://www.macdrifter.com/2013/11/server-side-mail-rules.html)
-how he uses his server-side rules too, and it is easy to find some
-inspiration there.
+> Fastmail doesn't currently supprt the entire [Sieve Spec](http://www.ietf.org/rfc/rfc5228.txt), but it includes some of the
+> most common extensions:
+> 
+> * [Relational Tests](http://www.ietf.org/rfc/rfc5231.txt) - Tests whether a field is
+> 	greater than, less than, etc. another field. For instance yuu could
+> 	act on an email with a certain number of people on the "To:" line.
+> * [Subaddress Extension](http://www.ietf.org/rfc/rfc5233.txt) - Breaks up the incoming address into
+> 	`:user` and `:detail` using some sort divider, like a "+". This
+> 	enables the subdomain addressing mentioned earlier. 
+> * [Copying Without Side Effects](http://www.ietf.org/rfc/rfc3894.txt) - Allows actions to take place without affecting the original message.
+> 	One example of this utility would be as some sort of backup through
+> 	either filing or forward particular messages.
+> * [Regular Expression Extension](http://tools.ietf.org/html/draft-ietf-sieve-regex-01) - This permits conditions to be set based
+> 	on regular expressions instead of exact matches, globbing, etc.
+> * [IMAP flag Extension](https://www.fastmail.fm/help/technical/draft-melnikov-sieve-imapflags-04.txt)
+> 	- Sets IMAP flags such as flagged, deleted, answered, etc.
+> * [Body Extension](http://www.ietf.org/rfc/rfc5173.txt) - Checks for a
+> 	string in the body of an email, and it can be refined to look for
+> 	plain text strings, html strings, etc.
+> 
+> This just scratches the surface of Fastmail's Sieve implemetation, but
+> spend some time browsing through the extension documentation linked
+> above, and you will see how powerful this language is. Gabe 
+> [wrote up](http://www.macdrifter.com/2013/11/server-side-mail-rules.html)
+> how he uses his server-side rules too, and it is easy to find some
+> inspiration there.
 
 At the time of this writing, you are no longer able to use the web
 interface to adjust your rules once you edit your Sieve script manually,
