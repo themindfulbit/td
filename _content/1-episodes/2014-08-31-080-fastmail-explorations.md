@@ -14,8 +14,11 @@ soundcloudurl: ""
 summary: ""
 post_images:
   - 
-    title: ""
     image: /assets/img/auto-hide.png
+    title: ""
+  - 
+    title: ""
+    image: /assets/img/rules.png
 post_files: ""
 ---
 
@@ -197,8 +200,7 @@ rule of email" }}
 > 	either filing or forward particular messages.
 > * [Regular Expression Extension](http://tools.ietf.org/html/draft-ietf-sieve-regex-01) - This permits conditions to be set based
 > 	on regular expressions instead of exact matches, globbing, etc.
-> * [IMAP flag Extension](https://www.fastmail.fm/help/technical/draft-melnikov-sieve-imapflags-04.txt)
-> 	- Sets IMAP flags such as flagged, deleted, answered, etc.
+> * [IMAP flag Extension](https://www.fastmail.fm/help/technical/draft-melnikov-sieve-imapflags-04.txt) - Sets IMAP flags such as flagged, deleted, answered, etc.
 > * [Body Extension](http://www.ietf.org/rfc/rfc5173.txt) - Checks for a
 > 	string in the body of an email, and it can be refined to look for
 > 	plain text strings, html strings, etc.
