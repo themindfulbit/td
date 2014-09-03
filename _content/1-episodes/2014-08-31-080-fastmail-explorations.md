@@ -17,11 +17,17 @@ post_images:
     image: /assets/img/auto-hide.png
     title: ""
   - 
-    title: ""
     image: /assets/img/rules.png
+    title: ""
+  - 
+    title: ""
+    image: /assets/img/revert-sieve.jpg
+  - 
+    title: ""
+    image: /assets/img/gui-move.jpg
 post_files: ""
 ---
-
+###### Your title here...
 > {{ theme:partial src="aside-header" voice="gabe" text="Web vs. Native" }}
 > 
 > The arguments about native vs. web app have torn families apart and divided nations. I lean more toward native apps ***if*** I can use it where and when I like. There are plenty of native mail apps that work very well and plenty of web apps for mail that stink. I was very skeptical of the Fastmail web app until I tried it.
