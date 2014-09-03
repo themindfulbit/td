@@ -98,16 +98,14 @@ plusses" }}
 >
 > Anyone that's proficient with Gmail will tell you that the real power is all in the keyboard shortcuts. [Gmail has a huge variety of shortcuts](http://www.shortcutworld.com/en/web/Gmail.html) and many of them are derived from older email tools. But the most important shortcuts are the ones that get the email read and moved out of the inbox. Fastmail has [a rich set of shortcuts](https://www.fastmail.fm/help/receive/kbshortcuts.html) that either mimic or duplicate the Gmail shortcuts. Moving from Gmail to Fastmail is pretty easy but there are some differences that will require some brain re-wiring.
 
-{>>Outline Fastmail keyboard shortcuts here.<<}
-
-`j`/`k` - move to next and previous message, as in Vim
-`/` - search, also as in Vim
-`x` - select current message
-`d` or `#` - delete message
-`m` - move message
-`y` - archive message
-`!` - report as spam
-`.` - mark, then `r` for read, `u` for unread, `p` for pin, etc.
+* `j`/`k` - move to next and previous message, as in Vim
+* `/` - search, also as in Vim
+* `x` - select current message
+* `d` or `#` - delete message
+* `m` - move message
+* `y` - archive message
+* `!` - report as spam
+* `.` - mark, then `r` for read, `u` for unread, `p` for pin, etc.
 
 {{ theme:partial src="section-header" title="Spam, Ham, and Server-side Rules" url="{{ soundcloudurl }}" time="m:ss" }}
 
