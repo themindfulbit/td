@@ -216,11 +216,11 @@ rule of email" }}
 > implementing the Sieve language. This changed
 > everything. If I ever decided to leave Fastmail, I could easily bring my
 > rules with me. Fastmail being characteristically awesome, they made it
-> [easy to get the script out](LINK) of the settings.
+> easy to go back to normal through the rules page in the settings.
 >
 > {{ theme:partial src="image" title="" caption="Un-nerding" show="{{ number }}" file="revert-sieve.jpg" }}
 >
-> Since it is just plain text, there are plenty of ways to back up or even move
+> This will also cause the old script to be sent to you (by email, naturally) as an attachment. Since it is just plain text, there are plenty of ways to back up or even move
 > on to a new provider, in addition to being very easy to version control.
 > 
 > Having been thus convinced, I dug into the language and found out how
