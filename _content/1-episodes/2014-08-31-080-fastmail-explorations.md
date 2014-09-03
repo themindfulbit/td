@@ -22,6 +22,29 @@ post_images:
 post_files: ""
 ---
 
+> {{ theme:partial src="aside-header" voice="gabe" text="Web vs. Native" }}
+> 
+> The arguments about native vs. web app have torn families apart and divided nations. I lean more toward native apps ***if*** I can use it where and when I like. There are plenty of native mail apps that work very well and plenty of web apps for mail that stink. I was very skeptical of the Fastmail web app until I tried it.
+> Wow. It's just so good everywhere. The Fastmail web app is responsive in the best way. It works right on a mobile device without having to zoom and pan. It's also very fast. Importantly, the Fastmail web app provides features not available in most native apps, like powerful search and keyboard shortcuts for things I care about.
+> There are three advantages of the Fastmail web app on mobile:
+> 1) I can access it through a 1Password entry, making login to multiple accounts easy and very secure.
+> 2) I can have separate accounts open in different tabs, thus avoiding mixing business with less painful business.
+> 3) It supports gestures where they makes sense. Slide right to left to delete, tap and drag to move, or slide left to right for archiving.
+> 
+> There's a lot to like about the Fastmail web apps and I appreciate someone giving mobile the attention it deserves. They've considered the difference between screen size on a phone vs. a tablet and provide access to additional menu controls by tapping the message on the phone. File drag-and-drop works with the web app on a desktop.
+> 
+> However, there are some things web apps aren't good at. The biggest issue is offline use. After caching the inbox list, you can browse while offline. You can even create a draft message and save it to the local cache in Safari for iOS. When you reconnect, the draft will be uploaded to the server but often with variable results like duplicate drafts. Native apps also get special treatment when interacting with other native apps. For most of my use, these aren't important detractors.
+
+
+
+> {{ theme:partial src="aside-header" voice="gabe" text="Archive or File but no Tags" }}
+> 
+> Fastmail has a built in Archive folder and easily accessed archive buttons (like slide to archive on mobile). If you're an archiver, then it's no problem to move to Fastmail. I happen to be 99% filing and 1% archiving. I archive things when I want to delay thinking about them. I guess my Archive is more like a temporary staging area and my folders are where I put my archives.
+> 
+> Fastmail does not supporting tagging. If you just use it as an IMAP server and use an app like MailTags, you're fine. But if you rely on Gmail tags, Fastmail is going to be rough for you. I really prefer nested folders to define an ontology for my mail. The keyboard shortcut to file a message in the web app, m, makes it pretty easy to figure out the right folder. Auto-complete in the pop-up for filing also improves the efficiency of hearding the messages.
+
+
+
 {{ theme:partial src="section-header" title="Why Fastmail" url="{{ soundcloudurl }}" time="0:00" }}
 
 > {{ theme:partial src="aside-header" voice="gabe" text="So Many Email Accounts" }}
@@ -42,13 +65,14 @@ folder is displayed. It ought to look something like this:
 > {{ theme:partial src="image" title="Auto-hiding Folders" show="{{ number }}" file="auto-hide.png" }}
 > 
 > The reason that I like this feature so much, is that through the use
-of the server-side rules I have in place (stay tuned), only certain
+of the server-side rules (stay tuned), only certain
 email goes to my inbox, but I can also see at a glance whether there is
 anything that I need to process in my subfolders. If I am caught up,
 there will be nothing in my sidebar at all.
 
 
 {>>Put in a tutorial for setting up mail forward from gmail<<}
+
 {>>Insert instructions for using a custom domain with Fastmail<<}
 
 A "Personality" in Fastmail is like a virtual "from" address. This allows a user to send email through an external mail server right from within the Fastmail service. Combine a personality for sending messages with mail forwarding from a different email account and no one will be any the wiser that you manage all of your email from one Fastmail account.
@@ -107,12 +131,21 @@ plusses" }}
 * `!` - report as spam
 * `.` - mark, then `r` for read, `u` for unread, `p` for pin, etc.
 
+If you are a point-and-click kind of person, the Fastmail web app also has you covered, with features like drag and drop for moving messages and dropdown menus for accessing all email operations.
+
+{>>Image of a message being dragged in web app here<<}
+
+
 {{ theme:partial src="section-header" title="Spam, Ham, and Server-side Rules" url="{{ soundcloudurl }}" time="m:ss" }}
 
 
 The spam filtering in Fastmail is excellent. It's tough for me to tell if it's better than Gmail. I think Gmail accounts get much more spam in general than a custom domain. It's probably pretty easy to send millions of messages to "randomstring@gmail.com".
 
 Fastmail spam filtering uses SpamAssasin to score messages. Obvious spam is removed from the inbox. You can also mark messages as spam and Fastmail will learn about what your spam looks like. The more you mark, the better it gets. You can also tweak how aggressive spam filtering will be.
+
+
+There are also tricks for avoiding accidental spam filtering. Adding a domain such as "*.macdrifter.com" as an address book contact will prevent any messages from that TLD from being sequestered. You can also provide a secret word to people you like and their messages will always be assumed safe AND will bypass all mail filters.
+
 
 {{ theme:partial src="image" title="" caption="Spam Protection Settings" show="{{ number }}" file="Screen Shot 20140902_181954.jpg" }}
 
@@ -229,6 +262,18 @@ Search terms are combined using boolean operators. For example, searching for me
 after:"2w" NOT in:__Bacon
 
 Server-side searches can be saved as smart folders. The search is executed when the folder is accessed. In this way, I have quick access to all emails with attachments or messages received in the past week, regardless of where they've been filed.
+
+> {{ theme:partial src="aside-header" voice="gabe" text="Tip: Saved Search URLs" }}
+> 
+> Create a search. Locate a message and right click (or tap and hold on iOS) and copy the URL. You'll get a URL like this:
+> 
+> https://www.fastmail.fm/mail/search:after%3A%222w%22+NOT+in%3A__Bacon/55ccdd75d9cb2f764-e68088183u4885?u=5sf94300
+> 
+> The URL is a shortcut to that exact message within that search result set. Clicking the link later will reload the search and that specific message in the result set.
+
+
+{>>Two Factor Authentication Option: https://www.fastmail.fm/help/account/2fa.html<<}
+
 
 It's hard to go back to a lesser client on iOS or even the Mac, which is one of the reasons I really enjoy Fastmail. The web app is so good, I can use it on my phone and have access to all of the searching power I use on my desktop.
 
