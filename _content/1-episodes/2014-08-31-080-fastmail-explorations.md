@@ -44,7 +44,6 @@ email goes to my inbox, but I can also see at a glance whether there is
 anything that I need to process in my subfolders. If I am caught up,
 there will be nothing in my sidebar at all.
 
-{{ theme:partial src="section-header" title="Using the Keyboard" url="{{ soundcloudurl }}" time="m:ss" }}
 
 {>>Put in a tutorial for setting up mail forward from gmail<<}
 {>>Insert instructions for using a custom domain with Fastmail<<}
@@ -90,6 +89,7 @@ plusses" }}
 > newsletters@potowire.com. Nothing innovative here, but it took me way
 > too long to think of nonetheless.
 
+{{ theme:partial src="section-header" title="Using the Keyboard" url="{{ soundcloudurl }}" time="m:ss" }}
 
 > {{ theme:partial src="aside-header" voice="gabe" text="Keyboard Shortcuts or GTFO" }}
 >
@@ -123,9 +123,28 @@ Fastmail is also very tough on spammers that might try to use their service. The
 > 
 > The Fastmail rules are easily configured through a basic GUI and a lot can be accomplished this way. I manage all of my rules through the basic mail filters. But if you want control on par to Mail.app then you'll need to master the [Sieve language](https://www.fastmail.fm/help/technical/sieve.html). If you do, you'll be a wizard with your mail.
 
-{>>A tutorial and examples of basic server side mail rules would be good here<<}
+Fastmail permits a pretty full set of rulle making through its logically
+laid out Settings page. 
 
-{>>POTATOWIRE ::: An introduction to Sieve<<}
+{{ theme:partial src="image" title="Rules Settings" show="{{ number }}" file="rules.png" }}
+
+Choosing "Rules" from the left sidebar provides
+four basic categories of actions which can be taken when new mail
+arrives:
+
+1. Discard - Deletes before delivering to the user
+2. Forward - Forward to a different email address
+3. Autoreply - Out-of-office type of notifications.
+4. Organize - File, pin, or otherwise act on new mail
+
+There are various options available here, but in general, it is the
+organization actios which provide the most flexibility. Behind the
+scenes, this GUI sort of rule setting is really just creating a 
+script in the background that is in the 
+[Sieve language](http://sieve.info/). Fastmail 
+[provides a good rundown](https://www.fastmail.fm/help/receive/rules.html)
+on their rules system, but the also allow access to the script itself so
+that you can [edit it manually](https://www.fastmail.fm/help/technical/sieve.html)
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="The first
 rule of email" }}
@@ -161,8 +180,43 @@ rule of email" }}
 > 
 > Having been convinced, I dug into the language and found out how
 > flexible it is. I don't do much that couldn't be done using the web
-> interface, but I will someday. In the menatime, here are some basics to
+> interface, but I will someday. In the meantime, here are some basics to
 > get you started. 
+> 
+> Fastmail doesn't currently supprt the entire [Sieve
+Spec](http://www.ietf.org/rfc/rfc5228.txt), but it includes some of the
+most common extensions:
+
+* [Relational Tests](http://www.ietf.org/rfc/rfc5231.txt) - Tests whether a field is
+	greater than, less than, etc. another field. For instance yuu could
+	act on an email with a certain number of people on the "To:" line.
+* [Subaddress Extension](http://www.ietf.org/rfc/rfc5233.txt) - Breaks up the incoming address into
+	`:user` and `:detail` using some sort divider, like a "+". This
+	enables the subdomain addressing mentioned earlier. 
+* [Copying Without Side Effects](http://www.ietf.org/rfc/rfc3894.txt) - Allows actions to take place without affecting the original message.
+	One example of this utility would be as some sort of backup through
+	either filing or forward particular messages.
+* [Regular Expression Extension](http://tools.ietf.org/html/draft-ietf-sieve-regex-01) - This permits conditions to be set based
+	on regular expressions instead of exact matches, globbing, etc.
+* [IMAP flag
+	Extension](https://www.fastmail.fm/help/technical/draft-melnikov-sieve-imapflags-04.txt)
+	- Sets IMAP flags such as flagged, deleted, answered, etc.
+* [Body Extension](http://www.ietf.org/rfc/rfc5173.txt) - Checks for a
+	string in the body of an email, and it can be refined to look for
+	plain text strings, html strings, etc.
+
+This just scratches the surface of Fastmail's Sieve implemetation, but
+spend some time browsing through the extension documentation linked
+above, and you will see how powerful this language is. Gabe 
+[wrote up](http://www.macdrifter.com/2013/11/server-side-mail-rules.html)
+how he uses his server-side rules too, and it is easy to find some
+inspiration there.
+
+At the time of this writing, you are no longer able to use the web
+interface to adjust your rules once you edit your Sieve script manually,
+but the [beta server](https://beta.fastmail.fm/) does provide a way to
+have your cake and eat it too, through the use of "blocks" that will
+combine the auto-generated Sieve with the user-created additions.
 
 
 
