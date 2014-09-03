@@ -262,7 +262,7 @@ auto-generated Sieve with user-created additions.
 {{ theme:partial src="section-header" title="Searching" url="{{ soundcloudurl }}" time="m:ss" }}
 
 
-One of Fastmail's more famous features is the [powerful search syntax](https://www.fastmail.fm/help/receive/search.html). It follows a familiar phrase-type of syntax. Searing "in:verizon statement" will search only in a folder named "verizon". There are a variety of phrases that allow very precise searching across dates, recipients, senders, even headers.
+One of Fastmail's more famous features is the [powerful search syntax](https://www.fastmail.fm/help/receive/search.html). It follows a familiar phrase-type of syntax. Searching "in:verizon statement" will search only in a folder named "verizon". There are a variety of phrases that allow very precise searching across dates, recipients, senders, even headers.
 
 Search terms are combined using boolean operators. For example, searching for messages received within the last two weeks that are not in the "__Bacon" folder uses this simple phrase:
 after:"2w" NOT in:__Bacon
