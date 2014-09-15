@@ -13,7 +13,7 @@ caption: '[Internet Archive](https://www.flickr.com/photos/internetarchivebookim
 download: "https://www.buzzsprout.com/7417/203357-079-fastmail.mp3?client_source=buzzsprout_site"
 player: "<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/167113326%3Fsecret_token%3Ds-SuMxJ&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>"
 soundcloudurl: "079-exploring-fastmail"
-summary: "This week, we take a detailed look at why Gabe switched to and continues to use FastMail."
+summary: "This week, we take a detailed look at why Gabe switched to and continues to use FastMail. We introduce the FastMail webapps, basic searching and filtering, and introduce some of their lesser-known features."
 post_images:
   - 
     title: ""
