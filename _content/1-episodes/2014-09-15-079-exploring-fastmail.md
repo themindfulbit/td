@@ -33,7 +33,7 @@ post_files: ""
 
 {{ theme:partial src="section-header" title="Introducing FastMail" url="{{ soundcloudurl }}" time="0:00" }}
 
-[FastMail](http://www.fastmail.fm) is an online email provider that is a compelling alternative to Gmail and (definitely) to iCloud mail.
+[FastMail](http://www.fastmail.fm/?STKI=7717857)(affiliate link) is an online email provider that is a compelling alternative to Gmail and iCloud ([seriously?](http://awesomegifs.com/wp-content/uploads/come-on-gob-arrested-development.gif)) mail.
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="1:14" person="gabe" quote="That sounds like an accusation" }}
 
@@ -67,7 +67,7 @@ For the security conscious (and who isn't these days) you can set up [Two Factor
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="A good indication" }}
 >
-> In reality, webmail is as private as a postcard, and efforts to claim otherwise are disengenuous at best. As FastMail's security page points out, (Hushmail)[https://www.hushmail.com/] turned over unencrypted email to the U.S. Government when served with a court order, in accordance with their [privacy policy](https://www.fastmail.fm/help/legal/privacy.html). Take note of this, ["a privacy-oriented email service](https://www.hushmail.com/about/) stores your unencrypted email. I much prefer FastMail's take on security than one [that can't really deliver](http://assets.nydailynews.com/polopoly_fs/1.1300712.1364565374!/img/httpImage/image.jpg_gen/derivatives/gallery_1200/job-meme.jpg) what it promises.
+> In reality, webmail is as private as a postcard, and efforts to claim otherwise are disingenuous at best. As FastMail's security page points out, (Hushmail)[https://www.hushmail.com/] turned over unencrypted email to the U.S. Government when served with a court order, in accordance with their [privacy policy](https://www.fastmail.fm/help/legal/privacy.html). Take note of this, ["a privacy-oriented email service](https://www.hushmail.com/about/) stores your unencrypted email. I much prefer FastMail's take on security than one [that can't really deliver](http://assets.nydailynews.com/polopoly_fs/1.1300712.1364565374!/img/httpImage/image.jpg_gen/derivatives/gallery_1200/job-meme.jpg) what it promises.
 
 With their robust featureset, and a quick webapp, Gabe thinks FastMail actually can make email fun again.
 
@@ -113,7 +113,7 @@ The mobile web view is impressively capable, giving the impression that it's a n
 >
 > 1. I can access it through a 1Password entry, making login to multiple accounts easy and very secure.
 > 2. I can have separate accounts open in different tabs, thus avoiding mixing business with less painful business.
-> 3. It supports gestures where they makes sense. Slide right to left to delete, tap and drag to move, or slide left to right for archiving.
+> 3. It supports gestures where they make sense. Slide right to left to delete, tap and drag to move, or slide left to right for archiving.
 > 
 > There's a lot to like about the FastMail web apps and I appreciate someone giving mobile the attention it deserves. They've considered the difference between screen size on a phone vs. a tablet and provide access to additional menu controls by tapping the message on the phone. File drag-and-drop works with the web app on a desktop.
 > 
@@ -149,7 +149,7 @@ You can't really control what email you get, but you can control what happens af
 > 
 > The spam filtering in FastMail is excellent. It's tough to tell if it's better than Gmail. I think Gmail accounts get much more spam in general than a custom domain. It's probably pretty easy to send millions of messages to `randomstring@gmail.com`.
 > 
-> FastMail spam filtering uses SpamAssasin to score messages. Obvious spam is removed from the inbox. You can also mark messages as spam and FastMail will learn about what your spam looks like. The more you mark, the better it gets. You can also tweak how aggressive spam filtering will be.
+> FastMail spam filtering uses [SpamAssassin](http://spamassassin.apache.org/) to score messages. Obvious spam is removed from the inbox. You can also mark messages as spam and FastMail will learn about what your spam looks like. The more you mark, the better it gets. You can also tweak how aggressive spam filtering will be.
 > 
 > There are also tricks for avoiding accidental spam filtering. Adding a domain such as `*.macdrifter.com` as an address book contact will prevent any messages from that TLD from being sequestered. You can also provide a secret word to people you like and their messages will always be assumed safe AND will bypass all mail filters.
 
@@ -161,11 +161,11 @@ You can't really control what email you get, but you can control what happens af
 > 
 > FastMail gives each user an individually trainable [Bayesian database](http://en.wikipedia.org/wiki/Bayesian_spam_filtering), but since they seem to think of everything, you can specify certain folders as spam/non-spam training folders in the event that you prefer to use native mail clients.
 
-FastMail is also very tough on spammers that might try to use their service. They recommend that you get written consent from recipients to do things like newsletters before sending out a blast. If they get reports of spam on an account and the owner can not prove that the email was requested, they will boot the user off of the service.
+FastMail is also very tough on spammers that might try to use their service. They recommend that you get written consent from recipients to do things like newsletters before sending out a blast. If they get reports of spam on an account and the owner cannot prove that the email was requested, they will boot the user off of the service.
 
 > {{ theme:partial src="aside-header" voice="gabe" text="I Get No Spam" }}
 >
-> Mail rules are a must. Using rules inside of Apple's Mail.app was a blessing for filtering out junk from friends as well as non-spam advertisements. But when  my Mac was off, the rules were useless and this was only exacerbated by processing more of my email through my phone. FastMail's server-side rules were a huge step forward in convenience but a small step back in complexity.
+> Mail rules are a must. Using rules inside of Apple's Mail.app was a blessing for filtering out junk from friends as well as non-spam advertisements. But when my Mac was off, the rules were useless and this was only exacerbated by processing more of my email through my phone. FastMail's server-side rules were a huge step forward in convenience but a small step back in complexity.
 > 
 > The FastMail rules are easily configured through a basic GUI and a lot can be accomplished this way. I manage all of my rules through the basic mail filters. But if you want control on par to Mail.app then you'll need to master the [Sieve language](https://www.FastMail.fm/help/technical/sieve.html). If you do, you'll be a wizard with your mail.
 
@@ -195,7 +195,7 @@ rule of email" }}
 >
 > A number of years ago, I decided that I needed my own email address. I liked the idea of having a completely personalized address, sure, but I also wanted to completely own the way that so many people communicate online. 
 >
-> The stories of [being locked out of Gmail](https://support.google.com/mail/answer/43692?hl=en) were still relatively rare, but I still wasn't happy relying only on on Google, even though I felt I deserved some nerd cred since I joined Gmail when [account creation required an invitation](http://www.webdevelopersnotes.com/tips/gmail/gmail-invites.php). If I had my own email address, I could take it with me anywhere or even host it myself. [Google Apps](https://www.google.com/enterprise/apps/business/) was the first provider I tried (I really stretched my comfort zone, huh), and it was great.
+> The stories of [being locked out of Gmail](https://support.google.com/mail/answer/43692?hl=en) were still relatively rare, but I still wasn't happy relying only on Google, even though I felt I deserved some nerd cred since I joined Gmail when [account creation required an invitation](http://www.webdevelopersnotes.com/tips/gmail/gmail-invites.php). If I had my own email address, I could take it with me anywhere or even host it myself. [Google Apps](https://www.google.com/enterprise/apps/business/) was the first provider I tried (I really stretched my comfort zone, huh), and it was great.
 > 
 > I did have a brief freak-out about Google a few years ago though, and decided to try to find a dedicated mail provider. I tried FastMail and the rest is boring history.
 >
@@ -212,7 +212,7 @@ rule of email" }}
 > 
 > Having been thus convinced, I dug into the language and found out how flexible it is. I don't do much that couldn't be done using the web interface, but I will someday. In the meantime, here are some basics to get you started. 
 
-FastMail doesn't currently supprt the entire [Sieve Spec](http://www.ietf.org/rfc/rfc5228.txt), but it includes the common extensions:
+FastMail doesn't currently support the entire [Sieve Spec](http://www.ietf.org/rfc/rfc5228.txt), but it includes the common extensions:
  
 * [Relational Tests](http://www.ietf.org/rfc/rfc5231.txt) - Tests whether a field is
 greater than, less than, or has some other relation to another field. For instance you could
@@ -226,7 +226,7 @@ act on an email with a certain number of people on the "To:" line.
 
 FastMail also offers a custom notification extension, which allows an SMS to be sent based on incoming messages. This requires the [purchase of SMS credits](https://www.FastMail.fm/go/purchasesms) for 12 cents each, and rules to utilize this extension [can be created via the GUI or by Sieve script](https://www.FastMail.fm/help/receive/advancedforwarding.html).
  
-This just scratches the surface of FastMail's Sieve implemetation, but spend some time browsing through the extension documentation linked above, and you will see how powerful this language is. Gabe  [previously wrote up](http://www.macdrifter.com/2013/11/server-side-mail-rules.html) how he uses his server-side rules too, and it is easy to find some inspiration there.
+This just scratches the surface of FastMail's Sieve implementation, but spend some time browsing through the extension documentation linked above, and you will see how powerful this language is. Gabe  [previously wrote up](http://www.macdrifter.com/2013/11/server-side-mail-rules.html) how he uses his server-side rules too, and it is easy to find some inspiration there.
 
 At the time of this writing, you are cannot use the web interface to adjust your rules once you edit your Sieve script manually, but the [beta server](https://beta.FastMail.fm/) does provide a way to have your cake and eat it too, through the use of "blocks" that combine auto-generated Sieve with user-created additions. Soon enough, they will roll this out to all customers.
 
@@ -284,7 +284,7 @@ Gmail isn't really IMAP, and that's why tags work there. IMAP uses the tradition
 > 
 > FastMail has a built in Archive folder and easily accessed archive buttons (like slide to archive on mobile). If you're an archiver, then it's no problem to move to FastMail. I happen to be 99% filing and 1% archiving. I archive things when I want to delay thinking about them. I guess my Archive is more like a temporary staging area and my folders are where I put my archives.
 > 
-> FastMail does not supporting tagging. If you just use it as an IMAP server and use an app like MailTags, you're fine. But if you rely on Gmail tags, FastMail is going to be rough for you. I really prefer nested folders to define an ontology for my mail. The keyboard shortcut to file a message in the web app `m` makes it pretty easy to figure out the right folder. Auto-complete in the pop-up for filing also improves the efficiency of hearding the messages.
+> FastMail does not supporting tagging. If you just use it as an IMAP server and use an app like MailTags, you're fine. But if you rely on Gmail tags, FastMail is going to be rough for you. I really prefer nested folders to define an ontology for my mail. The keyboard shortcut to file a message in the web app `m` makes it pretty easy to figure out the right folder. Auto-complete in the pop-up for filing also improves the efficiency of herding the messages.
 
 Tags are a mindset, really, and folder use can have it's own draw.
 
@@ -341,7 +341,7 @@ If you want to fake it, you can avoid the SMTP connection stuff and just have Fa
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="If you're all-in" }}
 > 
-> If you are doing this for a domain that is already setup with FastMail, creating a new personality will be how you generate an originating email address that is different from your log in. You won't have to worry about SMTP settings, since they will already be set. As I aluded to above, I use many addresses to only receive email, and if I do want to respond, I have to choose a different personality or stop and create it.
+> If you are doing this for a domain that is already setup with FastMail, creating a new personality will be how you generate an originating email address that is different from your log in. You won't have to worry about SMTP settings, since they will already be set. As I alluded to above, I use many addresses to only receive email, and if I do want to respond, I have to choose a different personality or stop and create it.
 
 There are a couple different options for receiving messages from an external email through FastMail. The easiest option is to setup mail forwarding from the old email account. For iCloud, login to the iCloud web mail and open the preferences (gear icon in the lower left). Add your FastMail email address for the forwarding service. I prefer to keep all of the mail in iCloud and do nothing with it other than forward. I no longer use iCloud mail at all.
 
