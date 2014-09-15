@@ -67,7 +67,7 @@ For the security conscious (and who isn't these days) you can set up [Two Factor
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="A good indication" }}
 >
-> In reality, webmail is as private as a postcard, and efforts to claim otherwise are disingenuous at best. As FastMail's security page points out, (Hushmail)[https://www.hushmail.com/] turned over unencrypted email to the U.S. Government when served with a court order, in accordance with their [privacy policy](https://www.fastmail.fm/help/legal/privacy.html). Take note of this, ["a privacy-oriented email service](https://www.hushmail.com/about/) stores your unencrypted email. I much prefer FastMail's take on security than one [that can't really deliver](http://assets.nydailynews.com/polopoly_fs/1.1300712.1364565374!/img/httpImage/image.jpg_gen/derivatives/gallery_1200/job-meme.jpg) what it promises.
+> In reality, webmail is as private as a postcard, and efforts to claim otherwise are disingenuous at best. As FastMail's security page points out, [Hushmail](https://www.hushmail.com/) turned over unencrypted email to the U.S. Government when served with a court order, in accordance with their [privacy policy](https://www.fastmail.fm/help/legal/privacy.html). Take note of this, [a privacy-oriented email service](https://www.hushmail.com/about/) stores your unencrypted email. I much prefer FastMail's take on security than one [that can't really deliver](http://assets.nydailynews.com/polopoly_fs/1.1300712.1364565374!/img/httpImage/image.jpg_gen/derivatives/gallery_1200/job-meme.jpg) what it promises.
 
 With their robust featureset, and a quick webapp, Gabe thinks FastMail actually can make email fun again.
 
