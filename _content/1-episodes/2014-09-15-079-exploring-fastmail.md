@@ -193,41 +193,34 @@ rule of email" }}
 >
 > Once I made this switch, and my email began all coming to its new home, I was left with a messy inbox. This led to rules in Mail.app, which was okay, but come on, the system relied on Mail.app.
 >
-> Some time later, I trialed a rule in the FastMail webapp while away from my Mac, and it was easy and had some advanced options,  but the last thing I wanted was to begin relying on some proprietary system. 
+> Some time later, I made a rule in the FastMail webapp while away from my Mac, and it was easy with some advanced options,  but the last thing I wanted was to begin relying on some other proprietary system. 
 > 
-> That's when I noticed that the FastMail email rules were just implementing the [Sieve language](LINK) behind the scenes. This changed everything. If I ever decided to leave FastMail, I could easily bring my rules with me. FastMail being characteristically awesome, they made it [easy to get the script out](LINK) of the settings, but since it is just
+> That's when I noticed that the FastMail email rules were just implementing the Sieve language behind the scenes. This changed everything. If I ever decided to leave FastMail, I could easily bring my rules with me. FastMail being characteristically awesome, they made it easy to get the script out of the settings page ([Settings → Rules → Advanced](https://www.fastmail.fm/go/settings/rules)).
 >
 > {{ theme:partial src="image" title="Un-nerding" caption="" show="{{ number }}" file="revert-sieve.jpg" }}
 >
-> This will also cause the old script to be sent to you (by email, naturally) as an attachment. Since it is just plain text, there are plenty of ways to back up or even move
+> This will also cause the old script to be sent to you (by email, naturally, as an attachment). Since it is just plain text, there are plenty of ways to back up or even move
 > on to a new provider, in addition to being very easy to version control.
 > 
-> Having been convinced, I dug into the language and found out how flexible it is. I don't do much that couldn't be done using the web interface, but I will someday. In the meantime, here are some basics to get you started. 
+> Having been thus convinced, I dug into the language and found out how flexible it is. I don't do much that couldn't be done using the web interface, but I will someday. In the meantime, here are some basics to get you started. 
 
 FastMail doesn't currently supprt the entire [Sieve Spec](http://www.ietf.org/rfc/rfc5228.txt), but it includes the common extensions:
  
 * [Relational Tests](http://www.ietf.org/rfc/rfc5231.txt) - Tests whether a field is
-greater than, less than, or has some other relation to another field. For instance yuu could
+greater than, less than, or has some other relation to another field. For instance you could
 act on an email with a certain number of people on the "To:" line.
 * [Subaddress Extension](http://www.ietf.org/rfc/rfc5233.txt) - Breaks up the incoming address into
 `:user` and `:detail` using some sort divider, like a "+". This
- enables the subdomain addressing mentioned earlier. 
-* [Copying without Side Effects](http://www.ietf.org/rfc/rfc3894.txt) - Allows actions to take place without affecting the original message.
-One example of the utility here would be to backup certain messages through
-filing or forwarding.
-* [Regular Expression Extension](http://tools.ietf.org/html/draft-ietf-sieve-regex-01) - This permits conditions to be set based
-on regular expressions instead of exact matches, globbing, etc.
-You're unlikely to make anything as automatic and comprehensive as paid service like [Sanebox](https://www.sanebox.com) but you can accomplish some amazing things with well considered rules and actions.
-* [Body Extension](http://www.ietf.org/rfc/rfc5173.txt) - Checks for a
-string in the body of an email. It can be further refined to look for
-plain text strings, html strings, etc.
+ enables the subdomain addressing which follows. 
+* [Copying without Side Effects](http://www.ietf.org/rfc/rfc3894.txt) - Allows actions to take place without affecting the original message. One example of the utility here would be to backup certain messages by filing or forwarding.
+* [Regular Expression Extension](http://tools.ietf.org/html/draft-ietf-sieve-regex-01) - This permits conditions to be set based on regular expressions instead of exact matches, globbing, etc. You're unlikely to make anything as automatic and comprehensive as paid service like [Sanebox](https://www.sanebox.com) but you can accomplish some amazing things with well considered rules and actions.
+* [Body Extension](http://www.ietf.org/rfc/rfc5173.txt) - Checks for a string in the body of an email. It can be further refined to look for plain text strings, html strings, etc.
 
-FastMail also offers a custom notification extension, which allows an SMS to be sent based on incoming messages. THis requires the [purchase of SMS credits](https://www.FastMail.fm/go/purchasesms) for 12 cents each, and rules to utilize this extension [can be created via the GUI or by Sieve script](https://www.FastMail.fm/help/receive/advancedforwarding.html).
+FastMail also offers a custom notification extension, which allows an SMS to be sent based on incoming messages. This requires the [purchase of SMS credits](https://www.FastMail.fm/go/purchasesms) for 12 cents each, and rules to utilize this extension [can be created via the GUI or by Sieve script](https://www.FastMail.fm/help/receive/advancedforwarding.html).
  
 This just scratches the surface of FastMail's Sieve implemetation, but spend some time browsing through the extension documentation linked above, and you will see how powerful this language is. Gabe  [previously wrote up](http://www.macdrifter.com/2013/11/server-side-mail-rules.html) how he uses his server-side rules too, and it is easy to find some inspiration there.
 
-At the time of this writing, you are cannot use the web interface to adjust your rules once you edit your Sieve script manually, but the [beta server](https://beta.FastMail.fm/) does provide a way to have your cake and eat it too, through the use of "blocks" that combine 
-auto-generated Sieve with user-created additions.
+At the time of this writing, you are cannot use the web interface to adjust your rules once you edit your Sieve script manually, but the [beta server](https://beta.FastMail.fm/) does provide a way to have your cake and eat it too, through the use of "blocks" that combine auto-generated Sieve with user-created additions. Soon enough, they will roll this out to all customers.
 
 > {{ theme:partial src="aside-header" voice="gabe" text="Shout out to Sanebox" }} 
 > 
@@ -269,7 +262,7 @@ It's very close to the Google calendar service in functionality. As with their e
 
 {{ theme:partial src="image" title="FastMail Calendar Invitation" caption="" show="{{ number }}" file="Screen Shot 20140903_211708.jpg" }}
 
-Finally, FastMail provides a file storage option for accessing and using attachments. At the most basic level files are stored on the server and easily attached to any outgoing message. This can be taken one step further and files can be shared with a generic link. FastMail also provides basic photo album creation and sharing too. If you don't want to run a server but you want great email support and the option to share an occasional file, it's hard to beat FastMail.
+Finally, FastMail provides a file storage option for accessing and using attachments. At the most basic level, files are stored on the server and easily attached to any outgoing message. This can be taken one step further and files can be shared with a generic link. FastMail also provides basic photo album creation and sharing too. If you don't want to run a server but you want great email support and the option to share an occasional file, it's hard to beat FastMail.
 
 {{ theme:partial src="section-header" title="A Few Missing Features" url="{{ soundcloudurl }}" time="20:20" }}
 
@@ -285,6 +278,8 @@ Gmail isn't really IMAP, and that's why tags work there. IMAP uses the tradition
 > 
 > FastMail does not supporting tagging. If you just use it as an IMAP server and use an app like MailTags, you're fine. But if you rely on Gmail tags, FastMail is going to be rough for you. I really prefer nested folders to define an ontology for my mail. The keyboard shortcut to file a message in the web app `m` makes it pretty easy to figure out the right folder. Auto-complete in the pop-up for filing also improves the efficiency of hearding the messages.
 
+Tags are a mindset, really, and folder use can have it's own draw.
+
 > {{ theme:partial src="aside-header" voice="potatowire" text="Useful Folders" }}
 > 
 > Like Gabe, I use and adore the FastMail webapp. Besides the keyboard
@@ -297,10 +292,10 @@ folder is displayed. It ought to look something like this:
 > {{ theme:partial src="image" title="Auto-hiding Folders" show="{{ number }}" file="auto-hide.png" }}
 > 
 > The reason that I like this feature so much, is that through the use
-of the server-side rules I have in place (stay tuned), only certain
-email goes to my inbox, but I can also see at a glance whether there is
-anything that I need to process in my subfolders. If I am caught up,
-there will be nothing in my sidebar at all.
+of the server-side rules I have in place, only certain
+email goes to my inbox, but I can tell at a glance if there is
+something I need to process in my subfolders. If I am caught up,
+my sidebar will be clear of everything but my inbox.
 
 #### External Address Book Sync
 
@@ -332,13 +327,13 @@ Here's a simple example using my preferred web hosting provider [Webfaction](htt
 
 {{ theme:partial src="image" title="Advanced Personality Connection" caption="" show="{{ number }}" file="Screen Shot 20140901_090844.jpg" }}
 
-FastMail can now send mail as the external sender by choosing it from a drop down when composing new messages or replying. The recipient will not easily detect (if they care to) that the original message was sent from FastMail.
+FastMail can now send mail as the external sender by choosing it from a drop down when composing new messages or replying. The recipient will not easily detect (if they care to check) that the original message was sent from FastMail.
 
 If you want to fake it, you can avoid the SMTP connection stuff and just have FastMail assign a different sender address to the header. To anyone just using a dumb email client, it will likely look as if the message came from another account. However, digging just below the surface will reveal the FastMail address as the origin of the message.
 
 > {{ theme:partial src="aside-header" voice="potatowire" text="If you're all-in" }}
 > 
-> If you are doing this for a domain that is already setup with FastMail, creating a new personality will be how you generate an originating email address that is different from your log in. You won't have to worry about SMTP settings, since they will already be set. I use many addresses that I only use to receive email and if I do want to respond, I have to choose a different personality or stop and create it.
+> If you are doing this for a domain that is already setup with FastMail, creating a new personality will be how you generate an originating email address that is different from your log in. You won't have to worry about SMTP settings, since they will already be set. As I aluded to above, I use many addresses to only receive email, and if I do want to respond, I have to choose a different personality or stop and create it.
 
 There are a couple different options for receiving messages from an external email through FastMail. The easiest option is to setup mail forwarding from the old email account. For iCloud, login to the iCloud web mail and open the preferences (gear icon in the lower left). Add your FastMail email address for the forwarding service. I prefer to keep all of the mail in iCloud and do nothing with it other than forward. I no longer use iCloud mail at all.
 
