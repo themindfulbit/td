@@ -13,7 +13,7 @@ caption: '[Internet Archive](https://www.flickr.com/photos/internetarchivebookim
 download: "https://www.buzzsprout.com/7417/203357-079-fastmail.mp3?client_source=buzzsprout_site"
 player: "<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/167113326%3Fsecret_token%3Ds-SuMxJ&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>"
 soundcloudurl: "079-exploring-fastmail"
-summary: "This week, we take a detailed look at why Gabe switched to and continues to use FastMail. We introduce the FastMail webapps, basic searching and filtering, and discuss some of the service's lesser-known but still compelling features."
+summary: "This week, we take a detailed look at why Gabe switched to and continues to use FastMail. We introduce the webapps, basic searching and filtering, and discuss some of the service's lesser-known but still compelling features."
 post_images:
   - 
     title: ""
@@ -33,7 +33,7 @@ post_files: ""
 
 {{ theme:partial src="section-header" title="Introducing FastMail" url="{{ soundcloudurl }}" time="0:00" }}
 
-[FastMail](http://www.fastmail.fm) is an online email provider that offers a compelling alternative to Gmail and (definitely) iCloud mail.
+[FastMail](http://www.fastmail.fm) is an online email provider that is a compelling alternative to Gmail and (definitely) to iCloud mail.
 
 {{ theme:partial src="fancy-quote" url="{{ soundcloudurl }}" time="1:14" person="gabe" quote="That sounds like an accusation" }}
 
@@ -41,7 +41,7 @@ An Australian company offering a paid service with a strong feature set (even if
 
 {{ theme:partial src="section-header" title="Types of Accounts" url="{{ soundcloudurl }}" time="2:55" }}
 
-On their lowest plan, you can use one of several different preexisting domains. You can pay more to use your own.  At the time of these show notes, the pricing for FastMail [personal accounts](https://www.FastMail.fm/signup/personal.html) breaks down like this:
+On their lowest plan, you can use one of several different preexisting domains, but you can pay more to use your own.  At the time of writing, the pricing for FastMail [personal accounts](https://www.FastMail.fm/signup/personal.html) breaks down like this:
 
 * $10/yr for 250MB of email
 * $20/yr for 1GB
@@ -54,7 +54,7 @@ You can also purchase more storage space as needed.
 >
 > FastMail supports several levels of individual accounts. Most of the difference between the individual account types can be chalked up to storage space allocation. If you need tons of mail storage then you'll need to pay for it.
 > 
-> The FastMail web app allows for login to multiple accounts with fast access to any account right from the landing page. There's no real reason to logout before accessing a different account.
+> The FastMail web app allows multiple accounts, with fast access to any account right on the landing page. There's no real reason to logout before accessing a different account.
 > 
 > I've also used the business account from FastMail. It's a nearly identical experience except for two differences:
 >
@@ -63,7 +63,11 @@ You can also purchase more storage space as needed.
 > 
 > I have not used [the Family plan](https://www.FastMail.fm/signup/family.html). It allows you to combine multiple personal accounts under one bill but you also get the option to share contacts and calendars as well as administer and monitor accounts for the kids.
 
-For the security conscious (and who isn't these days) you can set up [Two Factor Authentication](https://www.FastMail.fm/help/account/2fa.html). 
+For the security conscious (and who isn't these days) you can set up [Two Factor Authentication](https://www.FastMail.fm/help/account/2fa.html). FastMail has a very sane view of security, which is evident in its [communications on the subject](https://www.fastmail.fm/help/ourservice/security.html). They do everything possible on their end to maintain the security of your email but take care to point out that without using email encryption software such as [Pretty Good Privacy (PGP)](http://en.wikipedia.org/wiki/Pretty_Good_Privacy) or [Secure/Multipurpose Internet mail Extensions [S/MIME)](http://en.wikipedia.org/wiki/Smime), webmail remains flawed from a security standpoint. 
+
+> {{ theme:partial src="aside-header" voice="potatowire" text="A good indication" }}
+>
+> In reality, webmail is as private as a postcard, and efforts to claim otherwise are disengenuous at best. As FastMail's security page points out, (Hushmail)[https://www.hushmail.com/] turned over unencrypted email to the U.S. Government when served with a court order, in accordance with their [privacy policy](https://www.fastmail.fm/help/legal/privacy.html). Take note of this, ["a privacy-oriented email service](https://www.hushmail.com/about/) stores your unencrypted email. I much prefer FastMail's take on security than one [that can't really deliver](http://assets.nydailynews.com/polopoly_fs/1.1300712.1364565374!/img/httpImage/image.jpg_gen/derivatives/gallery_1200/job-meme.jpg) what it promises.
 
 With their robust featureset, and a quick webapp, Gabe thinks FastMail actually can make email fun again.
 
@@ -71,7 +75,7 @@ With their robust featureset, and a quick webapp, Gabe thinks FastMail actually 
 
 > {{ theme:partial src="aside-header" voice="gabe" text="So Many Email Accounts" }}
 >
-> Let's clear the skeletons out of the closet. Over the years I've used AOL, Hotmail, Yahoo, and Gmail for email. There have been many more through various university accounts. It's almost all out of my reach now. But for the past 5+ years I've primarily used my own domains for email. That makes it mine more than any other service. I highly recommend owning your own domain and getting an email address on that domain. Your email address will always be yours and you can usually point it to a new email provider with little effort.
+> Let's clear the skeletons out of the closet. Over the years I've used AOL, Hotmail, Yahoo, and Gmail for email. There have been many more through various university accounts. It's almost all out of my reach now. But for the past 5+ years I've primarily used my own domains for email. That makes it mine more than any other service. I highly recommend owning your own domain and getting an email address on that domain. Your email address will always be yours and you can point it to a new email provider, usually with little effort.
 
 {{ theme:partial src="section-header" title="The FastMail Web App" url="{{ soundcloudurl }}" time="5:22" }}
 
@@ -96,6 +100,8 @@ The FastMail Web App has some impressive keyboard shortcuts on the desktop. Here
 
 If you are a point-and-click kind of person, the FastMail web app also has you covered, with features like drag and drop for moving messages and dropdown menus for accessing all email operations.
 
+The mobile web view is impressively capable, giving the impression that it's a native app with some features you couldn't find natively. Gabe uses [1Password](https://agilebits.com/onepassword) to quickly get to different parts of the webapp, for example.
+
 {{ theme:partial src="image" title="GUI too" caption="" show="{{ number }}" file="gui-move.jpg" }}
 
 > {{ theme:partial src="aside-header" voice="gabe" text="Web vs. Native" }}
@@ -114,8 +120,6 @@ If you are a point-and-click kind of person, the FastMail web app also has you c
 > However, there are some things web apps aren't good at. The biggest issue is offline use. After caching the inbox list, you can browse while offline. You can even create a draft message and save it to the local cache in Safari for iOS. When you reconnect, the draft will be uploaded to the server but often with variable results like duplicate drafts. Native apps also get special treatment when interacting with other native apps. For most of my use, these aren't important detractors.
 
 {{ theme:partial src="image" title="FastMail Web App on Mobile" caption="" show="{{ number }}" file="fastmail-mobile.png" }}
-
-The mobile web view is impressively capable, giving the impression that it's a native app with some features you couldn't find natively. Gabe uses [1Password](https://agilebits.com/onepassword) to quickly get to different parts of the webapp, for example.
 
 {{ theme:partial src="section-header" title="Searching" url="{{ soundcloudurl }}" time="8:00" }}
 
@@ -139,11 +143,15 @@ Server-side searches can be saved as smart folders. The search is executed when 
 
 {{ theme:partial src="section-header" title="Spam, Ham, and Server-side Rules" url="{{ soundcloudurl }}" time="11:17" }}
 
-The spam filtering in FastMail is excellent. It's tough to tell if it's better than Gmail. I think Gmail accounts get much more spam in general than a custom domain. It's probably pretty easy to send millions of messages to `randomstring@gmail.com`.
+You can't really control what email you get, but you can control what happens after it is sent but before it reaches you. FastMail handles some of that itself spam filtering, and it provides a rich toolset for user personalization.
 
-FastMail spam filtering uses SpamAssasin to score messages. Obvious spam is removed from the inbox. You can also mark messages as spam and FastMail will learn about what your spam looks like. The more you mark, the better it gets. You can also tweak how aggressive spam filtering will be.
-
-There are also tricks for avoiding accidental spam filtering. Adding a domain such as `*.macdrifter.com` as an address book contact will prevent any messages from that TLD from being sequestered. You can also provide a secret word to people you like and their messages will always be assumed safe AND will bypass all mail filters.
+> {{ theme:partial src="aside-header" voice="gabe" text="Spam" }}
+> 
+> The spam filtering in FastMail is excellent. It's tough to tell if it's better than Gmail. I think Gmail accounts get much more spam in general than a custom domain. It's probably pretty easy to send millions of messages to `randomstring@gmail.com`.
+> 
+> FastMail spam filtering uses SpamAssasin to score messages. Obvious spam is removed from the inbox. You can also mark messages as spam and FastMail will learn about what your spam looks like. The more you mark, the better it gets. You can also tweak how aggressive spam filtering will be.
+> 
+> There are also tricks for avoiding accidental spam filtering. Adding a domain such as `*.macdrifter.com` as an address book contact will prevent any messages from that TLD from being sequestered. You can also provide a secret word to people you like and their messages will always be assumed safe AND will bypass all mail filters.
 
 {{ theme:partial src="image" title="Spam Protection Settings" caption="" show="{{ number }}" file="Screen Shot 20140902_181954.jpg" }}
 
