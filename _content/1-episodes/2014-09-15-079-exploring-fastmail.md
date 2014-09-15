@@ -31,7 +31,7 @@ post_images:
 post_files: ""
 ---
 
-{{ theme:partial src="section-header" title="Introducing FastMail?" url="{{ soundcloudurl }}" time="0:00" }}
+{{ theme:partial src="section-header" title="Introducing FastMail" url="{{ soundcloudurl }}" time="0:00" }}
 
 [FastMail](http://www.fastmail.fm) is an online email provider that offers a compelling alternative to Gmail and (definitely) iCloud mail.
 
