@@ -5141,7 +5141,8 @@ body .content .about .page-content .person ul.social-links li a:focus.web:hover 
 /* line 1139, ../sass/td.scss */
 body .content #show-archive,
 body .content #show-taxonomy,
-body .content #search {
+body .content #search,
+body .content #home-list {
   display: block;
   float: left;
   width: 100%;
@@ -5152,10 +5153,11 @@ body .content #search {
   box-sizing: border-box;
   padding: 2em 1em 1em;
 }
-/* line 1145, ../sass/td.scss */
+/* line 1146, ../sass/td.scss */
 body .content #show-archive h1,
 body .content #show-taxonomy h1,
-body .content #search h1 {
+body .content #search h1,
+body .content #home-list h1 {
   display: block;
   float: left;
   width: 83.33333%;
@@ -5173,7 +5175,7 @@ body .content #search h1 {
   margin-bottom: 0;
   line-height: 1em;
 }
-/* line 1157, ../sass/td.scss */
+/* line 1158, ../sass/td.scss */
 body .content #show-archive input[type="search"]::-webkit-search-decoration,
 body .content #show-archive input[type="search"]::-webkit-search-cancel-button,
 body .content #show-archive input[type="search"]::-webkit-search-results-button,
@@ -5185,13 +5187,18 @@ body .content #show-taxonomy input[type="search"]::-webkit-search-results-decora
 body .content #search input[type="search"]::-webkit-search-decoration,
 body .content #search input[type="search"]::-webkit-search-cancel-button,
 body .content #search input[type="search"]::-webkit-search-results-button,
-body .content #search input[type="search"]::-webkit-search-results-decoration {
+body .content #search input[type="search"]::-webkit-search-results-decoration,
+body .content #home-list input[type="search"]::-webkit-search-decoration,
+body .content #home-list input[type="search"]::-webkit-search-cancel-button,
+body .content #home-list input[type="search"]::-webkit-search-results-button,
+body .content #home-list input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
-/* line 1164, ../sass/td.scss */
+/* line 1165, ../sass/td.scss */
 body .content #show-archive input,
 body .content #show-taxonomy input,
-body .content #search input {
+body .content #search input,
+body .content #home-list input {
   display: block;
   float: left;
   width: 83.33333%;
@@ -5217,22 +5224,29 @@ body .content #search input {
   font-size: 0.9em;
   -webkit-appearance: none;
 }
-/* line 1184, ../sass/td.scss */
+/* line 1185, ../sass/td.scss */
 body .content #show-archive input:focus,
 body .content #show-taxonomy input:focus,
-body .content #search input:focus {
+body .content #search input:focus,
+body .content #home-list input:focus {
   outline-color: transparent;
   outline-style: none;
   border-color: #ff8600;
   background-color: #000000;
 }
-/* line 1192, ../sass/td.scss */
+/* line 1193, ../sass/td.scss */
 body .content #show-archive .instructions,
 body .content #show-archive .message,
+body .content #show-archive .explain,
 body .content #show-taxonomy .instructions,
 body .content #show-taxonomy .message,
+body .content #show-taxonomy .explain,
 body .content #search .instructions,
-body .content #search .message {
+body .content #search .message,
+body .content #search .explain,
+body .content #home-list .instructions,
+body .content #home-list .message,
+body .content #home-list .explain {
   display: block;
   float: left;
   width: 83.33333%;
@@ -5249,7 +5263,7 @@ body .content #search .message {
   color: #777;
   line-height: 1.2em;
 }
-/* line 1203, ../sass/td.scss */
+/* line 1205, ../sass/td.scss */
 body .content #show-archive .instructions a,
 body .content #show-archive .instructions a:visited,
 body .content #show-archive .instructions a:active,
@@ -5258,6 +5272,10 @@ body .content #show-archive .message a,
 body .content #show-archive .message a:visited,
 body .content #show-archive .message a:active,
 body .content #show-archive .message a:focus,
+body .content #show-archive .explain a,
+body .content #show-archive .explain a:visited,
+body .content #show-archive .explain a:active,
+body .content #show-archive .explain a:focus,
 body .content #show-taxonomy .instructions a,
 body .content #show-taxonomy .instructions a:visited,
 body .content #show-taxonomy .instructions a:active,
@@ -5266,6 +5284,10 @@ body .content #show-taxonomy .message a,
 body .content #show-taxonomy .message a:visited,
 body .content #show-taxonomy .message a:active,
 body .content #show-taxonomy .message a:focus,
+body .content #show-taxonomy .explain a,
+body .content #show-taxonomy .explain a:visited,
+body .content #show-taxonomy .explain a:active,
+body .content #show-taxonomy .explain a:focus,
 body .content #search .instructions a,
 body .content #search .instructions a:visited,
 body .content #search .instructions a:active,
@@ -5273,10 +5295,26 @@ body .content #search .instructions a:focus,
 body .content #search .message a,
 body .content #search .message a:visited,
 body .content #search .message a:active,
-body .content #search .message a:focus {
+body .content #search .message a:focus,
+body .content #search .explain a,
+body .content #search .explain a:visited,
+body .content #search .explain a:active,
+body .content #search .explain a:focus,
+body .content #home-list .instructions a,
+body .content #home-list .instructions a:visited,
+body .content #home-list .instructions a:active,
+body .content #home-list .instructions a:focus,
+body .content #home-list .message a,
+body .content #home-list .message a:visited,
+body .content #home-list .message a:active,
+body .content #home-list .message a:focus,
+body .content #home-list .explain a,
+body .content #home-list .explain a:visited,
+body .content #home-list .explain a:active,
+body .content #home-list .explain a:focus {
   color: #ff8600;
 }
-/* line 1209, ../sass/td.scss */
+/* line 1211, ../sass/td.scss */
 body .content #show-archive .instructions a:hover,
 body .content #show-archive .instructions a:visited:hover,
 body .content #show-archive .instructions a:active:hover,
@@ -5285,6 +5323,10 @@ body .content #show-archive .message a:hover,
 body .content #show-archive .message a:visited:hover,
 body .content #show-archive .message a:active:hover,
 body .content #show-archive .message a:focus:hover,
+body .content #show-archive .explain a:hover,
+body .content #show-archive .explain a:visited:hover,
+body .content #show-archive .explain a:active:hover,
+body .content #show-archive .explain a:focus:hover,
 body .content #show-taxonomy .instructions a:hover,
 body .content #show-taxonomy .instructions a:visited:hover,
 body .content #show-taxonomy .instructions a:active:hover,
@@ -5293,6 +5335,10 @@ body .content #show-taxonomy .message a:hover,
 body .content #show-taxonomy .message a:visited:hover,
 body .content #show-taxonomy .message a:active:hover,
 body .content #show-taxonomy .message a:focus:hover,
+body .content #show-taxonomy .explain a:hover,
+body .content #show-taxonomy .explain a:visited:hover,
+body .content #show-taxonomy .explain a:active:hover,
+body .content #show-taxonomy .explain a:focus:hover,
 body .content #search .instructions a:hover,
 body .content #search .instructions a:visited:hover,
 body .content #search .instructions a:active:hover,
@@ -5300,13 +5346,37 @@ body .content #search .instructions a:focus:hover,
 body .content #search .message a:hover,
 body .content #search .message a:visited:hover,
 body .content #search .message a:active:hover,
-body .content #search .message a:focus:hover {
+body .content #search .message a:focus:hover,
+body .content #search .explain a:hover,
+body .content #search .explain a:visited:hover,
+body .content #search .explain a:active:hover,
+body .content #search .explain a:focus:hover,
+body .content #home-list .instructions a:hover,
+body .content #home-list .instructions a:visited:hover,
+body .content #home-list .instructions a:active:hover,
+body .content #home-list .instructions a:focus:hover,
+body .content #home-list .message a:hover,
+body .content #home-list .message a:visited:hover,
+body .content #home-list .message a:active:hover,
+body .content #home-list .message a:focus:hover,
+body .content #home-list .explain a:hover,
+body .content #home-list .explain a:visited:hover,
+body .content #home-list .explain a:active:hover,
+body .content #home-list .explain a:focus:hover {
   color: #ff3300;
 }
-/* line 1215, ../sass/td.scss */
+/* line 1217, ../sass/td.scss */
+body .content #show-archive .explain,
+body .content #show-taxonomy .explain,
+body .content #search .explain,
+body .content #home-list .explain {
+  margin-top: 1em;
+}
+/* line 1221, ../sass/td.scss */
 body .content #show-archive #ep-toggle,
 body .content #show-taxonomy #ep-toggle,
-body .content #search #ep-toggle {
+body .content #search #ep-toggle,
+body .content #home-list #ep-toggle {
   display: block;
   float: left;
   width: 33.33333%;
@@ -5321,10 +5391,11 @@ body .content #search #ep-toggle {
   margin-bottom: 0;
   text-align: center;
 }
-/* line 1223, ../sass/td.scss */
+/* line 1229, ../sass/td.scss */
 body .content #show-archive #ep-toggle li,
 body .content #show-taxonomy #ep-toggle li,
-body .content #search #ep-toggle li {
+body .content #search #ep-toggle li,
+body .content #home-list #ep-toggle li {
   display: inline-block;
   text-indent: -10000px;
   height: 1.5em;
@@ -5333,40 +5404,47 @@ body .content #search #ep-toggle li {
   background-size: 1.2em 1.2em;
   background-position: 50% 50%;
 }
-/* line 1232, ../sass/td.scss */
+/* line 1238, ../sass/td.scss */
 body .content #show-archive #ep-toggle li#ep-browser,
 body .content #show-taxonomy #ep-toggle li#ep-browser,
-body .content #search #ep-toggle li#ep-browser {
+body .content #search #ep-toggle li#ep-browser,
+body .content #home-list #ep-toggle li#ep-browser {
   background-image: url("../img/episodes-light.svg");
 }
-/* line 1235, ../sass/td.scss */
+/* line 1241, ../sass/td.scss */
 body .content #show-archive #ep-toggle li#ep-browser:hover, body .content #show-archive #ep-toggle li#ep-browser.active,
 body .content #show-taxonomy #ep-toggle li#ep-browser:hover,
 body .content #show-taxonomy #ep-toggle li#ep-browser.active,
 body .content #search #ep-toggle li#ep-browser:hover,
-body .content #search #ep-toggle li#ep-browser.active {
+body .content #search #ep-toggle li#ep-browser.active,
+body .content #home-list #ep-toggle li#ep-browser:hover,
+body .content #home-list #ep-toggle li#ep-browser.active {
   background-image: url("../img/episodes-dark.svg");
   cursor: pointer;
 }
-/* line 1242, ../sass/td.scss */
+/* line 1248, ../sass/td.scss */
 body .content #show-archive #ep-toggle li#ep-list,
 body .content #show-taxonomy #ep-toggle li#ep-list,
-body .content #search #ep-toggle li#ep-list {
+body .content #search #ep-toggle li#ep-list,
+body .content #home-list #ep-toggle li#ep-list {
   background-image: url("../img/list-light.svg");
 }
-/* line 1245, ../sass/td.scss */
+/* line 1251, ../sass/td.scss */
 body .content #show-archive #ep-toggle li#ep-list:hover, body .content #show-archive #ep-toggle li#ep-list.active,
 body .content #show-taxonomy #ep-toggle li#ep-list:hover,
 body .content #show-taxonomy #ep-toggle li#ep-list.active,
 body .content #search #ep-toggle li#ep-list:hover,
-body .content #search #ep-toggle li#ep-list.active {
+body .content #search #ep-toggle li#ep-list.active,
+body .content #home-list #ep-toggle li#ep-list:hover,
+body .content #home-list #ep-toggle li#ep-list.active {
   background-image: url("../img/list-dark.svg");
   cursor: pointer;
 }
-/* line 1254, ../sass/td.scss */
+/* line 1260, ../sass/td.scss */
 body .content #show-archive ul.text-list,
 body .content #show-taxonomy ul.text-list,
-body .content #search ul.text-list {
+body .content #search ul.text-list,
+body .content #home-list ul.text-list {
   display: block;
   float: left;
   width: 100%;
@@ -5378,10 +5456,11 @@ body .content #search ul.text-list {
   padding: 0;
   border-bottom: 1px solid #ccc;
 }
-/* line 1259, ../sass/td.scss */
+/* line 1265, ../sass/td.scss */
 body .content #show-archive ul.text-list li,
 body .content #show-taxonomy ul.text-list li,
-body .content #search ul.text-list li {
+body .content #search ul.text-list li,
+body .content #home-list ul.text-list li {
   display: block;
   float: left;
   width: 100%;
@@ -5394,7 +5473,7 @@ body .content #search ul.text-list li {
   text-align: center;
   border-top: 1px solid #ccc;
 }
-/* line 1265, ../sass/td.scss */
+/* line 1271, ../sass/td.scss */
 body .content #show-archive ul.text-list li a,
 body .content #show-archive ul.text-list li a:visited,
 body .content #show-archive ul.text-list li a:active,
@@ -5406,7 +5485,11 @@ body .content #show-taxonomy ul.text-list li a:focus,
 body .content #search ul.text-list li a,
 body .content #search ul.text-list li a:visited,
 body .content #search ul.text-list li a:active,
-body .content #search ul.text-list li a:focus {
+body .content #search ul.text-list li a:focus,
+body .content #home-list ul.text-list li a,
+body .content #home-list ul.text-list li a:visited,
+body .content #home-list ul.text-list li a:active,
+body .content #home-list ul.text-list li a:focus {
   display: block;
   float: left;
   width: 100%;
@@ -5421,7 +5504,7 @@ body .content #search ul.text-list li a:focus {
   border-right: 1px solid #fafafa;
   overflow: hidden;
 }
-/* line 1276, ../sass/td.scss */
+/* line 1282, ../sass/td.scss */
 body .content #show-archive ul.text-list li a:hover,
 body .content #show-archive ul.text-list li a:visited:hover,
 body .content #show-archive ul.text-list li a:active:hover,
@@ -5433,12 +5516,16 @@ body .content #show-taxonomy ul.text-list li a:focus:hover,
 body .content #search ul.text-list li a:hover,
 body .content #search ul.text-list li a:visited:hover,
 body .content #search ul.text-list li a:active:hover,
-body .content #search ul.text-list li a:focus:hover {
+body .content #search ul.text-list li a:focus:hover,
+body .content #home-list ul.text-list li a:hover,
+body .content #home-list ul.text-list li a:visited:hover,
+body .content #home-list ul.text-list li a:active:hover,
+body .content #home-list ul.text-list li a:focus:hover {
   background-color: #eee;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
 }
-/* line 1282, ../sass/td.scss */
+/* line 1288, ../sass/td.scss */
 body .content #show-archive ul.text-list li a .show-banner,
 body .content #show-archive ul.text-list li a:visited .show-banner,
 body .content #show-archive ul.text-list li a:active .show-banner,
@@ -5450,10 +5537,14 @@ body .content #show-taxonomy ul.text-list li a:focus .show-banner,
 body .content #search ul.text-list li a .show-banner,
 body .content #search ul.text-list li a:visited .show-banner,
 body .content #search ul.text-list li a:active .show-banner,
-body .content #search ul.text-list li a:focus .show-banner {
+body .content #search ul.text-list li a:focus .show-banner,
+body .content #home-list ul.text-list li a .show-banner,
+body .content #home-list ul.text-list li a:visited .show-banner,
+body .content #home-list ul.text-list li a:active .show-banner,
+body .content #home-list ul.text-list li a:focus .show-banner {
   display: none;
 }
-/* line 1286, ../sass/td.scss */
+/* line 1292, ../sass/td.scss */
 body .content #show-archive ul.text-list li a .show-number,
 body .content #show-archive ul.text-list li a .show-title,
 body .content #show-archive ul.text-list li a:visited .show-number,
@@ -5477,13 +5568,21 @@ body .content #search ul.text-list li a:visited .show-title,
 body .content #search ul.text-list li a:active .show-number,
 body .content #search ul.text-list li a:active .show-title,
 body .content #search ul.text-list li a:focus .show-number,
-body .content #search ul.text-list li a:focus .show-title {
+body .content #search ul.text-list li a:focus .show-title,
+body .content #home-list ul.text-list li a .show-number,
+body .content #home-list ul.text-list li a .show-title,
+body .content #home-list ul.text-list li a:visited .show-number,
+body .content #home-list ul.text-list li a:visited .show-title,
+body .content #home-list ul.text-list li a:active .show-number,
+body .content #home-list ul.text-list li a:active .show-title,
+body .content #home-list ul.text-list li a:focus .show-number,
+body .content #home-list ul.text-list li a:focus .show-title {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   line-height: 1.1em;
   margin: 0 0 0.5em;
 }
-/* line 1294, ../sass/td.scss */
+/* line 1300, ../sass/td.scss */
 body .content #show-archive ul.text-list li a .show-date,
 body .content #show-archive ul.text-list li a:visited .show-date,
 body .content #show-archive ul.text-list li a:active .show-date,
@@ -5495,13 +5594,17 @@ body .content #show-taxonomy ul.text-list li a:focus .show-date,
 body .content #search ul.text-list li a .show-date,
 body .content #search ul.text-list li a:visited .show-date,
 body .content #search ul.text-list li a:active .show-date,
-body .content #search ul.text-list li a:focus .show-date {
+body .content #search ul.text-list li a:focus .show-date,
+body .content #home-list ul.text-list li a .show-date,
+body .content #home-list ul.text-list li a:visited .show-date,
+body .content #home-list ul.text-list li a:active .show-date,
+body .content #home-list ul.text-list li a:focus .show-date {
   margin: 0;
   color: #777;
   font-style: italic;
   text-align: center;
 }
-/* line 1301, ../sass/td.scss */
+/* line 1307, ../sass/td.scss */
 body .content #show-archive ul.text-list li a p,
 body .content #show-archive ul.text-list li a .summary,
 body .content #show-archive ul.text-list li a:visited p,
@@ -5525,11 +5628,19 @@ body .content #search ul.text-list li a:visited .summary,
 body .content #search ul.text-list li a:active p,
 body .content #search ul.text-list li a:active .summary,
 body .content #search ul.text-list li a:focus p,
-body .content #search ul.text-list li a:focus .summary {
+body .content #search ul.text-list li a:focus .summary,
+body .content #home-list ul.text-list li a p,
+body .content #home-list ul.text-list li a .summary,
+body .content #home-list ul.text-list li a:visited p,
+body .content #home-list ul.text-list li a:visited .summary,
+body .content #home-list ul.text-list li a:active p,
+body .content #home-list ul.text-list li a:active .summary,
+body .content #home-list ul.text-list li a:focus p,
+body .content #home-list ul.text-list li a:focus .summary {
   padding: 0;
   text-align: left;
 }
-/* line 1308, ../sass/td.scss */
+/* line 1314, ../sass/td.scss */
 body .content #show-archive ul.text-list li a .type,
 body .content #show-archive ul.text-list li a .people,
 body .content #show-archive ul.text-list li a .topics,
@@ -5565,13 +5676,26 @@ body .content #search ul.text-list li a:active .people,
 body .content #search ul.text-list li a:active .topics,
 body .content #search ul.text-list li a:focus .type,
 body .content #search ul.text-list li a:focus .people,
-body .content #search ul.text-list li a:focus .topics {
+body .content #search ul.text-list li a:focus .topics,
+body .content #home-list ul.text-list li a .type,
+body .content #home-list ul.text-list li a .people,
+body .content #home-list ul.text-list li a .topics,
+body .content #home-list ul.text-list li a:visited .type,
+body .content #home-list ul.text-list li a:visited .people,
+body .content #home-list ul.text-list li a:visited .topics,
+body .content #home-list ul.text-list li a:active .type,
+body .content #home-list ul.text-list li a:active .people,
+body .content #home-list ul.text-list li a:active .topics,
+body .content #home-list ul.text-list li a:focus .type,
+body .content #home-list ul.text-list li a:focus .people,
+body .content #home-list ul.text-list li a:focus .topics {
   display: none;
 }
-/* line 1317, ../sass/td.scss */
+/* line 1323, ../sass/td.scss */
 body .content #show-archive ul.image-list,
 body .content #show-taxonomy ul.image-list,
-body .content #search ul.image-list {
+body .content #search ul.image-list,
+body .content #home-list ul.image-list {
   display: block;
   float: left;
   width: 100%;
@@ -5582,10 +5706,11 @@ body .content #search ul.image-list {
   box-sizing: border-box;
   padding: 0;
 }
-/* line 1322, ../sass/td.scss */
+/* line 1328, ../sass/td.scss */
 body .content #show-archive ul.image-list li,
 body .content #show-taxonomy ul.image-list li,
-body .content #search ul.image-list li {
+body .content #search ul.image-list li,
+body .content #home-list ul.image-list li {
   display: block;
   float: left;
   width: 100%;
@@ -5597,7 +5722,7 @@ body .content #search ul.image-list li {
   padding: 0;
   text-align: center;
 }
-/* line 1328, ../sass/td.scss */
+/* line 1334, ../sass/td.scss */
 body .content #show-archive ul.image-list li a,
 body .content #show-archive ul.image-list li a:visited,
 body .content #show-archive ul.image-list li a:active,
@@ -5609,7 +5734,11 @@ body .content #show-taxonomy ul.image-list li a:focus,
 body .content #search ul.image-list li a,
 body .content #search ul.image-list li a:visited,
 body .content #search ul.image-list li a:active,
-body .content #search ul.image-list li a:focus {
+body .content #search ul.image-list li a:focus,
+body .content #home-list ul.image-list li a,
+body .content #home-list ul.image-list li a:visited,
+body .content #home-list ul.image-list li a:active,
+body .content #home-list ul.image-list li a:focus {
   display: block;
   float: left;
   width: 100%;
@@ -5624,7 +5753,7 @@ body .content #search ul.image-list li a:focus {
   position: relative;
   overflow: hidden;
 }
-/* line 1342, ../sass/td.scss */
+/* line 1348, ../sass/td.scss */
 body .content #show-archive ul.image-list li a .show-banner,
 body .content #show-archive ul.image-list li a:visited .show-banner,
 body .content #show-archive ul.image-list li a:active .show-banner,
@@ -5636,14 +5765,18 @@ body .content #show-taxonomy ul.image-list li a:focus .show-banner,
 body .content #search ul.image-list li a .show-banner,
 body .content #search ul.image-list li a:visited .show-banner,
 body .content #search ul.image-list li a:active .show-banner,
-body .content #search ul.image-list li a:focus .show-banner {
+body .content #search ul.image-list li a:focus .show-banner,
+body .content #home-list ul.image-list li a .show-banner,
+body .content #home-list ul.image-list li a:visited .show-banner,
+body .content #home-list ul.image-list li a:active .show-banner,
+body .content #home-list ul.image-list li a:focus .show-banner {
   width: 100%;
   height: 250px;
   margin: 0 auto;
   background-size: cover;
   background-position: 50% 50%;
 }
-/* line 1350, ../sass/td.scss */
+/* line 1356, ../sass/td.scss */
 body .content #show-archive ul.image-list li a .show-number,
 body .content #show-archive ul.image-list li a:visited .show-number,
 body .content #show-archive ul.image-list li a:active .show-number,
@@ -5655,7 +5788,11 @@ body .content #show-taxonomy ul.image-list li a:focus .show-number,
 body .content #search ul.image-list li a .show-number,
 body .content #search ul.image-list li a:visited .show-number,
 body .content #search ul.image-list li a:active .show-number,
-body .content #search ul.image-list li a:focus .show-number {
+body .content #search ul.image-list li a:focus .show-number,
+body .content #home-list ul.image-list li a .show-number,
+body .content #home-list ul.image-list li a:visited .show-number,
+body .content #home-list ul.image-list li a:active .show-number,
+body .content #home-list ul.image-list li a:focus .show-number {
   position: absolute;
   top: 0;
   right: 0;
@@ -5667,7 +5804,7 @@ body .content #search ul.image-list li a:focus .show-number {
   padding: 0.1em 0.2em;
   overflow: hidden;
 }
-/* line 1363, ../sass/td.scss */
+/* line 1369, ../sass/td.scss */
 body .content #show-archive ul.image-list li a .show-number .ticks,
 body .content #show-archive ul.image-list li a:visited .show-number .ticks,
 body .content #show-archive ul.image-list li a:active .show-number .ticks,
@@ -5679,10 +5816,14 @@ body .content #show-taxonomy ul.image-list li a:focus .show-number .ticks,
 body .content #search ul.image-list li a .show-number .ticks,
 body .content #search ul.image-list li a:visited .show-number .ticks,
 body .content #search ul.image-list li a:active .show-number .ticks,
-body .content #search ul.image-list li a:focus .show-number .ticks {
+body .content #search ul.image-list li a:focus .show-number .ticks,
+body .content #home-list ul.image-list li a .show-number .ticks,
+body .content #home-list ul.image-list li a:visited .show-number .ticks,
+body .content #home-list ul.image-list li a:active .show-number .ticks,
+body .content #home-list ul.image-list li a:focus .show-number .ticks {
   display: none;
 }
-/* line 1368, ../sass/td.scss */
+/* line 1374, ../sass/td.scss */
 body .content #show-archive ul.image-list li a .show-info,
 body .content #show-archive ul.image-list li a:visited .show-info,
 body .content #show-archive ul.image-list li a:active .show-info,
@@ -5694,7 +5835,11 @@ body .content #show-taxonomy ul.image-list li a:focus .show-info,
 body .content #search ul.image-list li a .show-info,
 body .content #search ul.image-list li a:visited .show-info,
 body .content #search ul.image-list li a:active .show-info,
-body .content #search ul.image-list li a:focus .show-info {
+body .content #search ul.image-list li a:focus .show-info,
+body .content #home-list ul.image-list li a .show-info,
+body .content #home-list ul.image-list li a:visited .show-info,
+body .content #home-list ul.image-list li a:active .show-info,
+body .content #home-list ul.image-list li a:focus .show-info {
   display: block;
   position: absolute;
   bottom: 0em;
@@ -5704,7 +5849,7 @@ body .content #search ul.image-list li a:focus .show-info {
   padding: 1em;
   font-size: 0.9em;
 }
-/* line 1378, ../sass/td.scss */
+/* line 1384, ../sass/td.scss */
 body .content #show-archive ul.image-list li a .show-info .show-title,
 body .content #show-archive ul.image-list li a:visited .show-info .show-title,
 body .content #show-archive ul.image-list li a:active .show-info .show-title,
@@ -5716,14 +5861,18 @@ body .content #show-taxonomy ul.image-list li a:focus .show-info .show-title,
 body .content #search ul.image-list li a .show-info .show-title,
 body .content #search ul.image-list li a:visited .show-info .show-title,
 body .content #search ul.image-list li a:active .show-info .show-title,
-body .content #search ul.image-list li a:focus .show-info .show-title {
+body .content #search ul.image-list li a:focus .show-info .show-title,
+body .content #home-list ul.image-list li a .show-info .show-title,
+body .content #home-list ul.image-list li a:visited .show-info .show-title,
+body .content #home-list ul.image-list li a:active .show-info .show-title,
+body .content #home-list ul.image-list li a:focus .show-info .show-title {
   color: #fafafa;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   line-height: 1.1em;
   margin: 0 0 0.1em;
 }
-/* line 1386, ../sass/td.scss */
+/* line 1392, ../sass/td.scss */
 body .content #show-archive ul.image-list li a .show-info .show-date,
 body .content #show-archive ul.image-list li a:visited .show-info .show-date,
 body .content #show-archive ul.image-list li a:active .show-info .show-date,
@@ -5735,12 +5884,16 @@ body .content #show-taxonomy ul.image-list li a:focus .show-info .show-date,
 body .content #search ul.image-list li a .show-info .show-date,
 body .content #search ul.image-list li a:visited .show-info .show-date,
 body .content #search ul.image-list li a:active .show-info .show-date,
-body .content #search ul.image-list li a:focus .show-info .show-date {
+body .content #search ul.image-list li a:focus .show-info .show-date,
+body .content #home-list ul.image-list li a .show-info .show-date,
+body .content #home-list ul.image-list li a:visited .show-info .show-date,
+body .content #home-list ul.image-list li a:active .show-info .show-date,
+body .content #home-list ul.image-list li a:focus .show-info .show-date {
   margin: 0;
   color: #fafafa;
   font-style: italic;
 }
-/* line 1393, ../sass/td.scss */
+/* line 1399, ../sass/td.scss */
 body .content #show-archive ul.image-list li a p,
 body .content #show-archive ul.image-list li a .summary,
 body .content #show-archive ul.image-list li a:visited p,
@@ -5764,10 +5917,18 @@ body .content #search ul.image-list li a:visited .summary,
 body .content #search ul.image-list li a:active p,
 body .content #search ul.image-list li a:active .summary,
 body .content #search ul.image-list li a:focus p,
-body .content #search ul.image-list li a:focus .summary {
+body .content #search ul.image-list li a:focus .summary,
+body .content #home-list ul.image-list li a p,
+body .content #home-list ul.image-list li a .summary,
+body .content #home-list ul.image-list li a:visited p,
+body .content #home-list ul.image-list li a:visited .summary,
+body .content #home-list ul.image-list li a:active p,
+body .content #home-list ul.image-list li a:active .summary,
+body .content #home-list ul.image-list li a:focus p,
+body .content #home-list ul.image-list li a:focus .summary {
   display: none;
 }
-/* line 1398, ../sass/td.scss */
+/* line 1404, ../sass/td.scss */
 body .content #show-archive ul.image-list li a .type,
 body .content #show-archive ul.image-list li a .people,
 body .content #show-archive ul.image-list li a .topics,
@@ -5803,10 +5964,22 @@ body .content #search ul.image-list li a:active .people,
 body .content #search ul.image-list li a:active .topics,
 body .content #search ul.image-list li a:focus .type,
 body .content #search ul.image-list li a:focus .people,
-body .content #search ul.image-list li a:focus .topics {
+body .content #search ul.image-list li a:focus .topics,
+body .content #home-list ul.image-list li a .type,
+body .content #home-list ul.image-list li a .people,
+body .content #home-list ul.image-list li a .topics,
+body .content #home-list ul.image-list li a:visited .type,
+body .content #home-list ul.image-list li a:visited .people,
+body .content #home-list ul.image-list li a:visited .topics,
+body .content #home-list ul.image-list li a:active .type,
+body .content #home-list ul.image-list li a:active .people,
+body .content #home-list ul.image-list li a:active .topics,
+body .content #home-list ul.image-list li a:focus .type,
+body .content #home-list ul.image-list li a:focus .people,
+body .content #home-list ul.image-list li a:focus .topics {
   display: none;
 }
-/* line 1404, ../sass/td.scss */
+/* line 1410, ../sass/td.scss */
 body .content #show-archive ul.image-list li a:hover,
 body .content #show-archive ul.image-list li a:visited:hover,
 body .content #show-archive ul.image-list li a:active:hover,
@@ -5818,10 +5991,14 @@ body .content #show-taxonomy ul.image-list li a:focus:hover,
 body .content #search ul.image-list li a:hover,
 body .content #search ul.image-list li a:visited:hover,
 body .content #search ul.image-list li a:active:hover,
-body .content #search ul.image-list li a:focus:hover {
+body .content #search ul.image-list li a:focus:hover,
+body .content #home-list ul.image-list li a:hover,
+body .content #home-list ul.image-list li a:visited:hover,
+body .content #home-list ul.image-list li a:active:hover,
+body .content #home-list ul.image-list li a:focus:hover {
   background-color: #000000;
 }
-/* line 1410, ../sass/td.scss */
+/* line 1416, ../sass/td.scss */
 body .content #show-archive ul.image-list li a:hover .show-banner,
 body .content #show-archive ul.image-list li a:visited:hover .show-banner,
 body .content #show-archive ul.image-list li a:active:hover .show-banner,
@@ -5833,11 +6010,15 @@ body .content #show-taxonomy ul.image-list li a:focus:hover .show-banner,
 body .content #search ul.image-list li a:hover .show-banner,
 body .content #search ul.image-list li a:visited:hover .show-banner,
 body .content #search ul.image-list li a:active:hover .show-banner,
-body .content #search ul.image-list li a:focus:hover .show-banner {
+body .content #search ul.image-list li a:focus:hover .show-banner,
+body .content #home-list ul.image-list li a:hover .show-banner,
+body .content #home-list ul.image-list li a:visited:hover .show-banner,
+body .content #home-list ul.image-list li a:active:hover .show-banner,
+body .content #home-list ul.image-list li a:focus:hover .show-banner {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
   opacity: 0.3;
 }
-/* line 1414, ../sass/td.scss */
+/* line 1420, ../sass/td.scss */
 body .content #show-archive ul.image-list li a:hover .show-number,
 body .content #show-archive ul.image-list li a:hover .show-info,
 body .content #show-archive ul.image-list li a:visited:hover .show-number,
@@ -5861,10 +6042,26 @@ body .content #search ul.image-list li a:visited:hover .show-info,
 body .content #search ul.image-list li a:active:hover .show-number,
 body .content #search ul.image-list li a:active:hover .show-info,
 body .content #search ul.image-list li a:focus:hover .show-number,
-body .content #search ul.image-list li a:focus:hover .show-info {
+body .content #search ul.image-list li a:focus:hover .show-info,
+body .content #home-list ul.image-list li a:hover .show-number,
+body .content #home-list ul.image-list li a:hover .show-info,
+body .content #home-list ul.image-list li a:visited:hover .show-number,
+body .content #home-list ul.image-list li a:visited:hover .show-info,
+body .content #home-list ul.image-list li a:active:hover .show-number,
+body .content #home-list ul.image-list li a:active:hover .show-info,
+body .content #home-list ul.image-list li a:focus:hover .show-number,
+body .content #home-list ul.image-list li a:focus:hover .show-info {
   background-color: transparent;
 }
-/* line 1426, ../sass/td.scss */
+/* line 1431, ../sass/td.scss */
+body .content #home-list h1 {
+  margin-top: 1em;
+}
+/* line 1435, ../sass/td.scss */
+body .content #home-list h1:first-child {
+  margin-top: 1em;
+}
+/* line 1440, ../sass/td.scss */
 body .footer {
   display: block;
   float: left;
@@ -5881,20 +6078,20 @@ body .footer {
   font-style: italic;
   margin-bottom: 2em;
 }
-/* line 1435, ../sass/td.scss */
+/* line 1449, ../sass/td.scss */
 body .footer .nav {
   font-style: normal;
 }
-/* line 1439, ../sass/td.scss */
+/* line 1453, ../sass/td.scss */
 body .footer .nav ul li {
   padding: 0.5em;
 }
-/* line 1442, ../sass/td.scss */
+/* line 1456, ../sass/td.scss */
 body .footer .nav ul li.extras {
   display: inline-block;
   padding: 0.5em;
 }
-/* line 1446, ../sass/td.scss */
+/* line 1460, ../sass/td.scss */
 body .footer .nav ul li.extras a,
 body .footer .nav ul li.extras a:visited,
 body .footer .nav ul li.extras a:active,
@@ -5907,35 +6104,35 @@ body .footer .nav ul li.extras a:focus {
   background-size: 1em 1em;
   background-position: 50% 50%;
 }
-/* line 1458, ../sass/td.scss */
+/* line 1472, ../sass/td.scss */
 body .footer .nav ul li.extras a.twitter,
 body .footer .nav ul li.extras a:visited.twitter,
 body .footer .nav ul li.extras a:active.twitter,
 body .footer .nav ul li.extras a:focus.twitter {
   background-image: url("../img/twitter-light.svg");
 }
-/* line 1461, ../sass/td.scss */
+/* line 1475, ../sass/td.scss */
 body .footer .nav ul li.extras a.twitter:hover,
 body .footer .nav ul li.extras a:visited.twitter:hover,
 body .footer .nav ul li.extras a:active.twitter:hover,
 body .footer .nav ul li.extras a:focus.twitter:hover {
   background-image: url("../img/twitter-yellow.svg");
 }
-/* line 1466, ../sass/td.scss */
+/* line 1480, ../sass/td.scss */
 body .footer .nav ul li.extras a.adn,
 body .footer .nav ul li.extras a:visited.adn,
 body .footer .nav ul li.extras a:active.adn,
 body .footer .nav ul li.extras a:focus.adn {
   background-image: url("../img/adn-light.svg");
 }
-/* line 1469, ../sass/td.scss */
+/* line 1483, ../sass/td.scss */
 body .footer .nav ul li.extras a.adn:hover,
 body .footer .nav ul li.extras a:visited.adn:hover,
 body .footer .nav ul li.extras a:active.adn:hover,
 body .footer .nav ul li.extras a:focus.adn:hover {
   background-image: url("../img/adn-yellow.svg");
 }
-/* line 1474, ../sass/td.scss */
+/* line 1488, ../sass/td.scss */
 body .footer .nav ul li.extras a.rss,
 body .footer .nav ul li.extras a:visited.rss,
 body .footer .nav ul li.extras a:active.rss,
@@ -5943,14 +6140,14 @@ body .footer .nav ul li.extras a:focus.rss {
   background-image: url("../img/rss-light.svg");
   background-size: 0.9em 0.9em;
 }
-/* line 1478, ../sass/td.scss */
+/* line 1492, ../sass/td.scss */
 body .footer .nav ul li.extras a.rss:hover,
 body .footer .nav ul li.extras a:visited.rss:hover,
 body .footer .nav ul li.extras a:active.rss:hover,
 body .footer .nav ul li.extras a:focus.rss:hover {
   background-image: url("../img/rss-yellow.svg");
 }
-/* line 1483, ../sass/td.scss */
+/* line 1497, ../sass/td.scss */
 body .footer .nav ul li.extras a.browser,
 body .footer .nav ul li.extras a:visited.browser,
 body .footer .nav ul li.extras a:active.browser,
@@ -5958,29 +6155,29 @@ body .footer .nav ul li.extras a:focus.browser {
   background-image: url("../img/browser-light.svg");
   background-size: 0.9em 0.9em;
 }
-/* line 1487, ../sass/td.scss */
+/* line 1501, ../sass/td.scss */
 body .footer .nav ul li.extras a.browser:hover,
 body .footer .nav ul li.extras a:visited.browser:hover,
 body .footer .nav ul li.extras a:active.browser:hover,
 body .footer .nav ul li.extras a:focus.browser:hover {
   background-image: url("../img/browser-yellow.svg");
 }
-/* line 1498, ../sass/td.scss */
+/* line 1512, ../sass/td.scss */
 body .footer p {
   margin: 0.5em 0 0;
 }
-/* line 1501, ../sass/td.scss */
+/* line 1515, ../sass/td.scss */
 body .footer p:last-of-type {
   margin: 0 0 0.5em;
 }
-/* line 1505, ../sass/td.scss */
+/* line 1519, ../sass/td.scss */
 body .footer p a,
 body .footer p a:visited,
 body .footer p a:focus,
 body .footer p a:active {
   color: #ffeb99;
 }
-/* line 1511, ../sass/td.scss */
+/* line 1525, ../sass/td.scss */
 body .footer p a:hover,
 body .footer p a:visited:hover,
 body .footer p a:focus:hover,
@@ -5990,7 +6187,7 @@ body .footer p a:active:hover {
 
 /* @media screen and (min-width: 520px) */
 @media screen and (min-width: 32.5em) {
-  /* line 1524, ../sass/td.scss */
+  /* line 1538, ../sass/td.scss */
   body .header a {
     display: block;
     float: left;
@@ -6004,7 +6201,7 @@ body .footer p a:active:hover {
     padding: 0;
   }
 
-  /* line 1536, ../sass/td.scss */
+  /* line 1550, ../sass/td.scss */
   body .content .show .show-header,
   body .content .show .show-banner,
   body .content .show .caption,
@@ -6056,28 +6253,28 @@ body .footer p a:active:hover {
     margin-left: 8.33333%;
     padding: 0;
   }
-  /* line 1551, ../sass/td.scss */
+  /* line 1565, ../sass/td.scss */
   body .content .show .show-header h2.show-number,
   body .content .page .show-header h2.show-number,
   body .content .error .show-header h2.show-number,
   body .content .about .show-header h2.show-number {
     margin-top: 0.5em;
   }
-  /* line 1555, ../sass/td.scss */
+  /* line 1569, ../sass/td.scss */
   body .content .show .show-header .listen-links .divider2,
   body .content .page .show-header .listen-links .divider2,
   body .content .error .show-header .listen-links .divider2,
   body .content .about .show-header .listen-links .divider2 {
     display: inline;
   }
-  /* line 1559, ../sass/td.scss */
+  /* line 1573, ../sass/td.scss */
   body .content .show .show-header .listen-links .break,
   body .content .page .show-header .listen-links .break,
   body .content .error .show-header .listen-links .break,
   body .content .about .show-header .listen-links .break {
     display: none;
   }
-  /* line 1563, ../sass/td.scss */
+  /* line 1577, ../sass/td.scss */
   body .content .show .show-notes,
   body .content .show .show-meta,
   body .content .show .page-content,
@@ -6096,28 +6293,28 @@ body .footer p a:active:hover {
   body .content .about .error-notes {
     font-size: 1.1em;
   }
-  /* line 1570, ../sass/td.scss */
+  /* line 1584, ../sass/td.scss */
   body .content .show .show-notes,
   body .content .page .show-notes,
   body .content .error .show-notes,
   body .content .about .show-notes {
     padding: 1em 0 0;
   }
-  /* line 1573, ../sass/td.scss */
+  /* line 1587, ../sass/td.scss */
   body .content .show .show-notes .timestamp a,
   body .content .page .show-notes .timestamp a,
   body .content .error .show-notes .timestamp a,
   body .content .about .show-notes .timestamp a {
     float: right;
   }
-  /* line 1577, ../sass/td.scss */
+  /* line 1591, ../sass/td.scss */
   body .content .show .show-notes blockquote,
   body .content .page .show-notes blockquote,
   body .content .error .show-notes blockquote,
   body .content .about .show-notes blockquote {
     padding: 1.5em 2em 1em;
   }
-  /* line 1581, ../sass/td.scss */
+  /* line 1595, ../sass/td.scss */
   body .content .show .show-notes p a.fancybox.set,
   body .content .page .show-notes p a.fancybox.set,
   body .content .error .show-notes p a.fancybox.set,
@@ -6131,7 +6328,7 @@ body .footer p a:active:hover {
     -ms-box-sizing: border-box;
     box-sizing: border-box;
   }
-  /* line 1585, ../sass/td.scss */
+  /* line 1599, ../sass/td.scss */
   body .content .show .show-notes .caption,
   body .content .page .show-notes .caption,
   body .content .error .show-notes .caption,
@@ -6148,7 +6345,7 @@ body .footer p a:active:hover {
     padding: 0;
     margin-top: -0.5em;
   }
-  /* line 1591, ../sass/td.scss */
+  /* line 1605, ../sass/td.scss */
   body .content .show .show-notes .caption p,
   body .content .page .show-notes .caption p,
   body .content .error .show-notes .caption p,
@@ -6156,7 +6353,7 @@ body .footer p a:active:hover {
     margin: auto;
     padding: 0;
   }
-  /* line 1597, ../sass/td.scss */
+  /* line 1611, ../sass/td.scss */
   body .content .show .show-notes .fancy-quote,
   body .content .page .show-notes .fancy-quote,
   body .content .error .show-notes .fancy-quote,
@@ -6171,14 +6368,14 @@ body .footer p a:active:hover {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 1606, ../sass/td.scss */
+  /* line 1620, ../sass/td.scss */
   body .content .show .show-notes .fancy-quote .quote,
   body .content .page .show-notes .fancy-quote .quote,
   body .content .error .show-notes .fancy-quote .quote,
   body .content .about .show-notes .fancy-quote .quote {
     font-size: 1.3em;
   }
-  /* line 1614, ../sass/td.scss */
+  /* line 1628, ../sass/td.scss */
   body .content .show .show-notes .product .fancybox img,
   body .content .show .show-notes .app .fancybox img,
   body .content .page .show-notes .product .fancybox img,
@@ -6198,7 +6395,7 @@ body .footer p a:active:hover {
     margin-left: 0%;
     padding: 0;
   }
-  /* line 1620, ../sass/td.scss */
+  /* line 1634, ../sass/td.scss */
   body .content .show .show-notes .product .details,
   body .content .show .show-notes .app .details,
   body .content .page .show-notes .product .details,
@@ -6221,7 +6418,7 @@ body .footer p a:active:hover {
     padding-left: 1em;
   }
 
-  /* line 1633, ../sass/td.scss */
+  /* line 1647, ../sass/td.scss */
   body .content .pagination .previous,
   body .content .pagination .filler {
     display: block;
@@ -6235,7 +6432,7 @@ body .footer p a:active:hover {
     margin-left: 8.33333%;
     padding: 0.5em;
   }
-  /* line 1640, ../sass/td.scss */
+  /* line 1654, ../sass/td.scss */
   body .content .pagination .next {
     display: block;
     float: left;
@@ -6248,7 +6445,7 @@ body .footer p a:active:hover {
     padding: 0.5em;
   }
 
-  /* line 1650, ../sass/td.scss */
+  /* line 1664, ../sass/td.scss */
   body .content #show-archive input,
   body .content #show-taxonomy input,
   body .content #search input {
@@ -6263,13 +6460,13 @@ body .footer p a:active:hover {
     margin-left: 16.66667%;
     padding: 0.3em 0 0.2em 2.2em;
   }
-  /* line 1656, ../sass/td.scss */
+  /* line 1670, ../sass/td.scss */
   body .content #show-archive ul.text-list li a,
   body .content #show-taxonomy ul.text-list li a,
   body .content #search ul.text-list li a {
     padding: 1em 2em;
   }
-  /* line 1660, ../sass/td.scss */
+  /* line 1674, ../sass/td.scss */
   body .content #show-archive ul.image-list,
   body .content #show-taxonomy ul.image-list,
   body .content #search ul.image-list {
@@ -6283,7 +6480,7 @@ body .footer p a:active:hover {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 1665, ../sass/td.scss */
+  /* line 1679, ../sass/td.scss */
   body .content #show-archive ul.image-list li,
   body .content #show-taxonomy ul.image-list li,
   body .content #search ul.image-list li {
@@ -6298,7 +6495,7 @@ body .footer p a:active:hover {
     padding: 0;
     text-align: center;
   }
-  /* line 1670, ../sass/td.scss */
+  /* line 1684, ../sass/td.scss */
   body .content #show-archive ul.image-list li a,
   body .content #show-archive ul.image-list li a:visited,
   body .content #show-archive ul.image-list li a:active,
@@ -6324,7 +6521,7 @@ body .footer p a:active:hover {
     background-color: #000000;
     position: relative;
   }
-  /* line 1680, ../sass/td.scss */
+  /* line 1694, ../sass/td.scss */
   body .content #show-archive ul.image-list li a .show-banner,
   body .content #show-archive ul.image-list li a:visited .show-banner,
   body .content #show-archive ul.image-list li a:active .show-banner,
@@ -6343,7 +6540,7 @@ body .footer p a:active:hover {
     background-size: cover;
     background-position: 50% 50%;
   }
-  /* line 1688, ../sass/td.scss */
+  /* line 1702, ../sass/td.scss */
   body .content #show-archive ul.image-list li a .show-number,
   body .content #show-archive ul.image-list li a:visited .show-number,
   body .content #show-archive ul.image-list li a:active .show-number,
@@ -6366,7 +6563,7 @@ body .footer p a:active:hover {
     margin: 0;
     padding: 0.1em 0.2em;
   }
-  /* line 1700, ../sass/td.scss */
+  /* line 1714, ../sass/td.scss */
   body .content #show-archive ul.image-list li a .show-info,
   body .content #show-archive ul.image-list li a:visited .show-info,
   body .content #show-archive ul.image-list li a:active .show-info,
@@ -6381,7 +6578,7 @@ body .footer p a:active:hover {
   body .content #search ul.image-list li a:focus .show-info {
     display: none;
   }
-  /* line 1704, ../sass/td.scss */
+  /* line 1718, ../sass/td.scss */
   body .content #show-archive ul.image-list li a p,
   body .content #show-archive ul.image-list li a .summary,
   body .content #show-archive ul.image-list li a:visited p,
@@ -6408,7 +6605,7 @@ body .footer p a:active:hover {
   body .content #search ul.image-list li a:focus .summary {
     display: none;
   }
-  /* line 1709, ../sass/td.scss */
+  /* line 1723, ../sass/td.scss */
   body .content #show-archive ul.image-list li a .type,
   body .content #show-archive ul.image-list li a .people,
   body .content #show-archive ul.image-list li a .topics,
@@ -6447,7 +6644,7 @@ body .footer p a:active:hover {
   body .content #search ul.image-list li a:focus .topics {
     display: none;
   }
-  /* line 1715, ../sass/td.scss */
+  /* line 1729, ../sass/td.scss */
   body .content #show-archive ul.image-list li a:hover,
   body .content #show-archive ul.image-list li a:visited:hover,
   body .content #show-archive ul.image-list li a:active:hover,
@@ -6462,7 +6659,7 @@ body .footer p a:active:hover {
   body .content #search ul.image-list li a:focus:hover {
     background-color: #000000;
   }
-  /* line 1719, ../sass/td.scss */
+  /* line 1733, ../sass/td.scss */
   body .content #show-archive ul.image-list li a:hover .show-banner,
   body .content #show-archive ul.image-list li a:visited:hover .show-banner,
   body .content #show-archive ul.image-list li a:active:hover .show-banner,
@@ -6478,7 +6675,7 @@ body .footer p a:active:hover {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
     opacity: 0.3;
   }
-  /* line 1723, ../sass/td.scss */
+  /* line 1737, ../sass/td.scss */
   body .content #show-archive ul.image-list li a:hover .show-number,
   body .content #show-archive ul.image-list li a:visited:hover .show-number,
   body .content #show-archive ul.image-list li a:active:hover .show-number,
@@ -6493,7 +6690,7 @@ body .footer p a:active:hover {
   body .content #search ul.image-list li a:focus:hover .show-number {
     background-color: transparent;
   }
-  /* line 1727, ../sass/td.scss */
+  /* line 1741, ../sass/td.scss */
   body .content #show-archive ul.image-list li a:hover .show-info,
   body .content #show-archive ul.image-list li a:visited:hover .show-info,
   body .content #show-archive ul.image-list li a:active:hover .show-info,
@@ -6513,7 +6710,7 @@ body .footer p a:active:hover {
     padding: 2em;
     background-color: transparent;
   }
-  /* line 1736, ../sass/td.scss */
+  /* line 1750, ../sass/td.scss */
   body .content #show-archive ul.image-list li a:hover .show-title,
   body .content #show-archive ul.image-list li a:visited:hover .show-title,
   body .content #show-archive ul.image-list li a:active:hover .show-title,
@@ -6532,7 +6729,7 @@ body .footer p a:active:hover {
     line-height: 1.1em;
     margin: 0 0 0.1em;
   }
-  /* line 1744, ../sass/td.scss */
+  /* line 1758, ../sass/td.scss */
   body .content #show-archive ul.image-list li a:hover .show-date,
   body .content #show-archive ul.image-list li a:visited:hover .show-date,
   body .content #show-archive ul.image-list li a:active:hover .show-date,
@@ -6550,11 +6747,33 @@ body .footer p a:active:hover {
     font-style: italic;
   }
 
-  /* line 1756, ../sass/td.scss */
+  /* line 1771, ../sass/td.scss */
+  body .content #home-list ul.image-list li {
+    display: block;
+    float: left;
+    width: 83.33333%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 8.33333%;
+    padding: 0;
+  }
+  /* line 1776, ../sass/td.scss */
+  body .content #home-list ul.image-list li a .show-banner,
+  body .content #home-list ul.image-list li a:hover .show-banner,
+  body .content #home-list ul.image-list li a:active .show-banner,
+  body .content #home-list ul.image-list li a:focus .show-banner,
+  body .content #home-list ul.image-list li a:visited .show-banner {
+    height: 360px;
+  }
+
+  /* line 1787, ../sass/td.scss */
   body .content .about .page-content {
     padding: 1em;
   }
-  /* line 1759, ../sass/td.scss */
+  /* line 1790, ../sass/td.scss */
   body .content .about .page-content .person {
     display: block;
     float: left;
@@ -6566,7 +6785,7 @@ body .footer p a:active:hover {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 1763, ../sass/td.scss */
+  /* line 1794, ../sass/td.scss */
   body .content .about .page-content .person .portrait {
     display: block;
     float: left;
@@ -6581,7 +6800,7 @@ body .footer p a:active:hover {
     clear: both;
     border-radius: 0.5em;
   }
-  /* line 1771, ../sass/td.scss */
+  /* line 1802, ../sass/td.scss */
   body .content .about .page-content .person .right {
     display: block;
     float: left;
@@ -6594,19 +6813,19 @@ body .footer p a:active:hover {
     margin-left: 8.33333%;
     padding: 0;
   }
-  /* line 1776, ../sass/td.scss */
+  /* line 1807, ../sass/td.scss */
   body .content .about .page-content .person .right h2 {
     margin-top: 0.5em;
     padding-bottom: 0.1em;
     text-align: left;
     font-size: 1.3em;
   }
-  /* line 1783, ../sass/td.scss */
+  /* line 1814, ../sass/td.scss */
   body .content .about .page-content .person .right h3 {
     text-align: left;
     font-size: 1em;
   }
-  /* line 1788, ../sass/td.scss */
+  /* line 1819, ../sass/td.scss */
   body .content .about .page-content .person .right ul.social-links {
     display: block;
     float: left;
@@ -6620,7 +6839,7 @@ body .footer p a:active:hover {
     text-align: left;
     margin-top: 0;
   }
-  /* line 1794, ../sass/td.scss */
+  /* line 1825, ../sass/td.scss */
   body .content .about .page-content .person .right ul.social-links li {
     display: block;
     float: left;
@@ -6632,7 +6851,7 @@ body .footer p a:active:hover {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 1798, ../sass/td.scss */
+  /* line 1829, ../sass/td.scss */
   body .content .about .page-content .person .right ul.social-links li a,
   body .content .about .page-content .person .right ul.social-links li a:visited,
   body .content .about .page-content .person .right ul.social-links li a:active,
@@ -6649,7 +6868,7 @@ body .footer p a:active:hover {
     height: 2em;
     background-size: 1.5em 1.5em;
   }
-  /* line 1812, ../sass/td.scss */
+  /* line 1843, ../sass/td.scss */
   body .content .about .page-content .site {
     display: block;
     float: left;
@@ -6662,7 +6881,7 @@ body .footer p a:active:hover {
     padding: 0 0 2em;
   }
 
-  /* line 1823, ../sass/td.scss */
+  /* line 1854, ../sass/td.scss */
   body .content #show-archive ul li a,
   body .content #show-taxonomy
   body .content #search ul li a {
@@ -6671,7 +6890,7 @@ body .footer p a:active:hover {
 }
 /* @media screen and (min-width: 640px) */
 @media screen and (min-width: 40em) {
-  /* line 1834, ../sass/td.scss */
+  /* line 1865, ../sass/td.scss */
   body .background {
     display: block;
     width: 100%;
@@ -6686,11 +6905,11 @@ body .footer p a:active:hover {
     background-size: cover;
     background-position: center center;
   }
-  /* line 1850, ../sass/td.scss */
+  /* line 1881, ../sass/td.scss */
   body.dp .background {
     background-image: url("../img/dp-scrim.jpg");
   }
-  /* line 1854, ../sass/td.scss */
+  /* line 1885, ../sass/td.scss */
   body .container {
     display: block;
     float: left;
@@ -6703,12 +6922,12 @@ body .footer p a:active:hover {
     padding: 1em;
   }
 
-  /* line 1861, ../sass/td.scss */
+  /* line 1892, ../sass/td.scss */
   body .nav ul li.extras {
     display: inline-block;
     padding: 0.5em;
   }
-  /* line 1865, ../sass/td.scss */
+  /* line 1896, ../sass/td.scss */
   body .nav ul li.extras a,
   body .nav ul li.extras a:visited,
   body .nav ul li.extras a:active,
@@ -6721,35 +6940,35 @@ body .footer p a:active:hover {
     background-size: 1em 1em;
     background-position: 50% 50%;
   }
-  /* line 1877, ../sass/td.scss */
+  /* line 1908, ../sass/td.scss */
   body .nav ul li.extras a.twitter,
   body .nav ul li.extras a:visited.twitter,
   body .nav ul li.extras a:active.twitter,
   body .nav ul li.extras a:focus.twitter {
     background-image: url("../img/twitter-light.svg");
   }
-  /* line 1880, ../sass/td.scss */
+  /* line 1911, ../sass/td.scss */
   body .nav ul li.extras a.twitter:hover,
   body .nav ul li.extras a:visited.twitter:hover,
   body .nav ul li.extras a:active.twitter:hover,
   body .nav ul li.extras a:focus.twitter:hover {
     background-image: url("../img/twitter-yellow.svg");
   }
-  /* line 1885, ../sass/td.scss */
+  /* line 1916, ../sass/td.scss */
   body .nav ul li.extras a.adn,
   body .nav ul li.extras a:visited.adn,
   body .nav ul li.extras a:active.adn,
   body .nav ul li.extras a:focus.adn {
     background-image: url("../img/adn-light.svg");
   }
-  /* line 1888, ../sass/td.scss */
+  /* line 1919, ../sass/td.scss */
   body .nav ul li.extras a.adn:hover,
   body .nav ul li.extras a:visited.adn:hover,
   body .nav ul li.extras a:active.adn:hover,
   body .nav ul li.extras a:focus.adn:hover {
     background-image: url("../img/adn-yellow.svg");
   }
-  /* line 1893, ../sass/td.scss */
+  /* line 1924, ../sass/td.scss */
   body .nav ul li.extras a.rss,
   body .nav ul li.extras a:visited.rss,
   body .nav ul li.extras a:active.rss,
@@ -6757,14 +6976,14 @@ body .footer p a:active:hover {
     background-image: url("../img/rss-light.svg");
     background-size: 0.9em 0.9em;
   }
-  /* line 1897, ../sass/td.scss */
+  /* line 1928, ../sass/td.scss */
   body .nav ul li.extras a.rss:hover,
   body .nav ul li.extras a:visited.rss:hover,
   body .nav ul li.extras a:active.rss:hover,
   body .nav ul li.extras a:focus.rss:hover {
     background-image: url("../img/rss-yellow.svg");
   }
-  /* line 1902, ../sass/td.scss */
+  /* line 1933, ../sass/td.scss */
   body .nav ul li.extras a.browser,
   body .nav ul li.extras a:visited.browser,
   body .nav ul li.extras a:active.browser,
@@ -6772,7 +6991,7 @@ body .footer p a:active:hover {
     background-image: url("../img/browser-light.svg");
     background-size: 0.9em 0.9em;
   }
-  /* line 1906, ../sass/td.scss */
+  /* line 1937, ../sass/td.scss */
   body .nav ul li.extras a.browser:hover,
   body .nav ul li.extras a:visited.browser:hover,
   body .nav ul li.extras a:active.browser:hover,
@@ -6780,7 +6999,7 @@ body .footer p a:active:hover {
     background-image: url("../img/browser-yellow.svg");
   }
 
-  /* line 1918, ../sass/td.scss */
+  /* line 1950, ../sass/td.scss */
   body .content #show-archive ul.text-list li a,
   body .content #show-archive ul.text-list li a:visited,
   body .content #show-archive ul.text-list li a:active,
@@ -6795,10 +7014,15 @@ body .footer p a:active:hover {
   body .content #search ul.text-list li a:visited,
   body .content #search ul.text-list li a:active,
   body .content #search ul.text-list li a:focus,
-  body .content #search ul.text-list li a:hover {
+  body .content #search ul.text-list li a:hover,
+  body .content #home-list ul.text-list li a,
+  body .content #home-list ul.text-list li a:visited,
+  body .content #home-list ul.text-list li a:active,
+  body .content #home-list ul.text-list li a:focus,
+  body .content #home-list ul.text-list li a:hover {
     padding: 1em 4em;
   }
-  /* line 1926, ../sass/td.scss */
+  /* line 1958, ../sass/td.scss */
   body .content #show-archive ul.image-list li a,
   body .content #show-archive ul.image-list li a:visited,
   body .content #show-archive ul.image-list li a:active,
@@ -6813,13 +7037,18 @@ body .footer p a:active:hover {
   body .content #search ul.image-list li a:visited,
   body .content #search ul.image-list li a:active,
   body .content #search ul.image-list li a:focus,
-  body .content #search ul.image-list li a:hover {
+  body .content #search ul.image-list li a:hover,
+  body .content #home-list ul.image-list li a,
+  body .content #home-list ul.image-list li a:visited,
+  body .content #home-list ul.image-list li a:active,
+  body .content #home-list ul.image-list li a:focus,
+  body .content #home-list ul.image-list li a:hover {
     padding: 0;
   }
 }
 /* @media screen and (min-width: 720px) */
 @media screen and (min-width: 45em) {
-  /* line 1941, ../sass/td.scss */
+  /* line 1973, ../sass/td.scss */
   body .container {
     display: block;
     float: left;
@@ -6832,7 +7061,7 @@ body .footer p a:active:hover {
     margin-left: 8.33333%;
     padding: 0;
   }
-  /* line 1946, ../sass/td.scss */
+  /* line 1978, ../sass/td.scss */
   body .container .header .search input {
     display: block;
     float: left;
@@ -6853,7 +7082,7 @@ body .footer p a:active:hover {
     font-size: 1.125em;
   }
 
-  /* line 1962, ../sass/td.scss */
+  /* line 1994, ../sass/td.scss */
   body .container {
     display: block;
     float: left;
@@ -6876,7 +7105,7 @@ body .footer p a:active:hover {
 }
 /* @media screen and (min-width: 1440px) */
 @media screen and (min-width: 90em) {
-  /* line 1996, ../sass/td.scss */
+  /* line 2028, ../sass/td.scss */
   body .container {
     display: block;
     float: left;
@@ -6890,7 +7119,7 @@ body .footer p a:active:hover {
     padding: 0;
   }
 
-  /* line 2017, ../sass/td.scss */
+  /* line 2050, ../sass/td.scss */
   body .content #show-archive ul.image-list li a .show-number,
   body .content #show-archive ul.image-list li a:visited .show-number,
   body .content #show-archive ul.image-list li a:focus .show-number,
@@ -6902,10 +7131,14 @@ body .footer p a:active:hover {
   body .content #search ul.image-list li a .show-number,
   body .content #search ul.image-list li a:visited .show-number,
   body .content #search ul.image-list li a:focus .show-number,
-  body .content #search ul.image-list li a:active .show-number {
+  body .content #search ul.image-list li a:active .show-number,
+  body .content #home-list ul.image-list li a .show-number,
+  body .content #home-list ul.image-list li a:visited .show-number,
+  body .content #home-list ul.image-list li a:focus .show-number,
+  body .content #home-list ul.image-list li a:active .show-number {
     font-size: 2.5em;
   }
-  /* line 2021, ../sass/td.scss */
+  /* line 2054, ../sass/td.scss */
   body .content #show-archive ul.image-list li a .show-info,
   body .content #show-archive ul.image-list li a:visited .show-info,
   body .content #show-archive ul.image-list li a:focus .show-info,
@@ -6917,7 +7150,11 @@ body .footer p a:active:hover {
   body .content #search ul.image-list li a .show-info,
   body .content #search ul.image-list li a:visited .show-info,
   body .content #search ul.image-list li a:focus .show-info,
-  body .content #search ul.image-list li a:active .show-info {
+  body .content #search ul.image-list li a:active .show-info,
+  body .content #home-list ul.image-list li a .show-info,
+  body .content #home-list ul.image-list li a:visited .show-info,
+  body .content #home-list ul.image-list li a:focus .show-info,
+  body .content #home-list ul.image-list li a:active .show-info {
     font-size: 0.7em;
   }
 }

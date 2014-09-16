@@ -1,77 +1,98 @@
-{{ entries:pagination folder="episodes" limit="1" show_future="{ future }" }}
-  <div class="pagination top">
-    {{ if previous_page }}
-        <a class="previous" href="{{ previous_page }}"><span class="arrows">&laquo;</span> Newer</a>
-    {{ else }}
-        <div class="filler">&nbsp;</div>
-    {{ endif }}
+<div id="home-list"> 
 
-        <a class="search" href="/search">All Episodes</a>
+  <h1>The Latest</h1>
+  <p class="explain">Here's our latest episode. For other episodes of Technical Difficulties or Dawn Patrol, check out <a href="/search">The Episode Archive.</a></p>
+  <ul class="list image-list">
+            {{ entries:listing folder="episodes|dawn-patrol" limit="1" show_future="{ future }" }}
+              <li>
+                <a class="permalink" href="{{ url }}">
+                  {{ theme:partial src="transform" title="" file="{{ banner }}" }}
+                  {{ if show == "td" }}
+                      <h2 class="show-number"><span class="ticks">&minus;&nbsp;</span>TD {{ number }}<span class="ticks">&nbsp;&minus;</span></h2>
+                  {{ elseif show == "dp" }}   
+                      <h2 class="show-number"><span class="ticks">&minus;&nbsp;</span>DP {{ number }}<span class="ticks">&nbsp;&minus;</span></h2>
+                  {{ endif }}   
+                  <div class="show-info">
+                    <h2 class="show-title"> {{ title }}</h2>
+                    <div class="show-date"> {{ datestamp format="F jS, Y" }}</div>
+                  </div>
+                  <p class="summary">{{ summary|markdown }}</p>
+                  {{ if type }}
+                    <p class="type">{{ type_list }}</p>
+                  {{ endif }}
 
-    {{ if next_page }}
-        <a class="next" href="{{ next_page }}">Older <span class="arrows">&raquo;</span></a>
-    {{ endif }}
-  </div>
-{{ /entries:pagination }}
+                  {{ if people }}
+                    <p class="people">{{ people_list }}</p>
+                  {{ endif }}
+                    
+                  {{ if topics }}
+                    <p class="topics">{{ topics_list }}</p>
+                  {{ endif }}
+                </a>
+              </li>
+            {{ /entries:listing }}
+  </ul>
 
-{{ entries:listing folder="episodes|dawn-patrol" limit="2" show_future="{ future }" }}
- <div class="show">
+  <h1>Technical Difficulties</h1>
+  <p class="explain">Here are the four latest episodes of Technical Difficulties. If you're looking for more you can find them <a href="/episodes">in the Technical Difficulties Archive.</a></p>
+  <ul class="list image-list">
+            {{ entries:listing folder="episodes" limit="4" show_future="{ future }" }}
+              <li>
+                <a class="permalink" href="{{ url }}">
+                  {{ theme:partial src="transform" title="" file="{{ banner }}" }}
+                  <h2 class="show-number"><span class="ticks">&minus;&nbsp;</span>{{ number }}<span class="ticks">&nbsp;&minus;</span></h2>
+         
+                  <div class="show-info">
+                    <h2 class="show-title"> {{ title }}</h2>
+                    <div class="show-date"> {{ datestamp format="F jS, Y" }}</div>
+                  </div>
+                  <p class="summary">{{ summary|markdown }}</p>
+                  {{ if type }}
+                    <p class="type">{{ type_list }}</p>
+                  {{ endif }}
 
-    <div class="show-header">
-      <a class="permalink" href="{{ url }}">
-        <h2 class="show-number">&minus;&nbsp;{{ number }}&nbsp;&minus;</h2>
-        <h2 class="show-title">{{ title|widont }}</h2>
-      </a>
-      <p class="show-date"> {{ datestamp format="F jS, Y" }}</p>
-      <p class="listen-links"><a href="{{ download }}" title="Technical Difficulties {{ number }} - {{ title }}">Download</a> <span class="divider">::</span> <a id="huffduffer">Huffduff it</a> <span class="divider2">::</span><span class="break"><br/></span> <a class="subscribe" href="{{ subscribe_link }}">Subscribe</a></p>
-    </div>
+                  {{ if people }}
+                    <p class="people">{{ people_list }}</p>
+                  {{ endif }}
+                    
+                  {{ if topics }}
+                    <p class="topics">{{ topics_list }}</p>
+                  {{ endif }}
+                </a>
+              </li>
+            {{ /entries:listing }}
+  </ul>
 
-    {{ if banner }}
-      <img class="show-banner" src="{{ path src='{{ banner }}' }}" />
-    {{ else }}
-      <img class="show-banner" src="{{ path src='assets/img/plane-wreck.jpg' }}" />
-    {{ endif }}
+  <h1>Dawn Patrol</h1>
+  <p class="explain">Here are the four latest episodes of Dawn Patrol. If you're looking for more you can find them <a href="/dawn-patrol">in the Dawn Patrol Archive.</a></p>
+  <ul class="list image-list">
+            {{ entries:listing folder="dawn-patrol" limit="4" show_future="{ future }" }}
+              <li>
+                <a class="permalink" href="{{ url }}">
+                  {{ theme:partial src="transform" title="" file="{{ banner }}" }}
+                  <h2 class="show-number"><span class="ticks">&minus;&nbsp;</span>{{ number }}<span class="ticks">&nbsp;&minus;</span></h2>
+         
+                  <div class="show-info">
+                    <h2 class="show-title"> {{ title }}</h2>
+                    <div class="show-date"> {{ datestamp format="F jS, Y" }}</div>
+                  </div>
+                  <p class="summary">{{ summary|markdown }}</p>
+                  {{ if type }}
+                    <p class="type">{{ type_list }}</p>
+                  {{ endif }}
 
-    {{ if caption }}
-      <div class="caption">
-        {{ caption|markdown }}
-      </div>
-    {{ endif }}
+                  {{ if people }}
+                    <p class="people">{{ people_list }}</p>
+                  {{ endif }}
+                    
+                  {{ if topics }}
+                    <p class="topics">{{ topics_list }}</p>
+                  {{ endif }}
+                </a>
+              </li>
+            {{ /entries:listing }}
+  </ul>
 
-    <div class="show-notes">
-      {{ summary|markdown }}
-      {{ player }}
-      {{ content }}
-    </div>
 
-    <div class="show-meta">
-
-      {{ if people }}
-      <h3>People:</h3>
-      <p class="people">{{ people_url_list }}</p>
-      {{ endif }}
-      
-      {{ if topics }}
-      <h3>Topics:</h3>
-      <p class="topics">{{ topics_url_list }}</p>
-      {{ endif }}
-    </div>
-
-  </div>
-{{ /entries:listing }}
-
-{{ entries:pagination folder="episodes" limit="1" show_future="{ future }" }}
-  <div class="pagination bottom">
-    {{ if previous_page }}
-        <a class="previous" href="{{ previous_page }}"><span class="arrows">&laquo;</span> Newer</a>
-    {{ else }}
-        <div class="filler">&nbsp;</div>
-    {{ endif }}
-
-        <a class="search" href="/episodes">Episodes</a>
-
-    {{ if next_page }}
-        <a class="next" href="{{ next_page }}">Older <span class="arrows">&raquo;</span></a>
-    {{ endif }}
-  </div>
-{{ /entries:pagination }}
+  <p class="explain">Looking for even more? Check out <a href="/search">The Episode Archive.</a></p>
+</div>

@@ -1138,7 +1138,8 @@ body {
 
     #show-archive,
     #show-taxonomy,
-    #search {
+    #search,
+    #home-list {
       @include column(12,12);
       padding: 2em 1em 1em;
 
@@ -1190,7 +1191,8 @@ body {
       }
 
       .instructions,
-      .message {
+      .message,
+      .explain {
         @include column(10,12);
         @include push(1);
         margin-top: 0.5em;
@@ -1210,6 +1212,10 @@ body {
             color: $dark-orange;
           }
         }
+      }
+
+      .explain {
+        margin-top: 1em;
       }
 
       #ep-toggle {
@@ -1420,6 +1426,14 @@ body {
         }
       }
 
+    }
+
+    #home-list h1 {
+      margin-top: 1em;
+    }
+
+    #home-list h1:first-child {
+      margin-top: 1em;
     }
   }
 
@@ -1752,6 +1766,23 @@ body {
     }
   }
 
+  body .content #home-list ul.image-list {
+
+    li {
+      @include column(10,12);
+      @include push(1,12);
+      padding: 0;
+
+      a .show-banner,
+      a:hover .show-banner,
+      a:active .show-banner,
+      a:focus .show-banner,
+      a:visited .show-banner {
+        height: 360px;
+      }
+    }
+  }
+
   body .content .about {
     .page-content {
       padding: 1em;
@@ -1913,7 +1944,8 @@ body {
 
   body .content #show-archive,
   body .content #show-taxonomy,
-  body .content #search {
+  body .content #search,
+  body .content #home-list {
 
     ul.text-list li a,
     ul.text-list li a:visited,
@@ -2003,7 +2035,8 @@ body {
 
   body .content #show-archive,
   body .content #show-taxonomy,
-  body .content #search {
+  body .content #search,
+  body .content #home-list {
 
     ul.image-list {
 
