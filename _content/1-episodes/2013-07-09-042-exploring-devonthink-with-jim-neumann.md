@@ -1,4 +1,5 @@
 ---
+show: td
 number: "042"
 title: Exploring DEVONthink with Jim Neumann
 showtype: interview
@@ -25,7 +26,7 @@ summary: >
   they venture off topic to explore mobile
   battery life and try to figure out when
   we have "enough".
-soundcloudurl: 042-exploring-devonthink-with
+soundcloudurl: techdiffpodcast/042-exploring-devonthink-with
 post_images: ""
 post_files: ""
 ---

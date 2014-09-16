@@ -1,4 +1,5 @@
 ---
+show: td
 number: "009"
 title: >
   Research Materials and Tools with Walton
@@ -20,7 +21,7 @@ summary: >
   Advanced Institute of Science and
   Technology (KAIST) and writer at the
   Drosophiliac
-soundcloudurl: 009-research-materials-and
+soundcloudurl: techdiffpodcast/009-research-materials-and
 post_images: ""
 post_files: ""
 ---

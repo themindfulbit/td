@@ -1,4 +1,5 @@
 ---
+show: td
 number: "011"
 title: >
   Planning, Outlining, and Mapping with
@@ -22,7 +23,7 @@ summary: >
   maps. Gabe and Brett examine their
   workflows and goals as well as a bevy of
   applications.
-soundcloudurl: 011-planning-outlining-and
+soundcloudurl: techdiffpodcast/011-planning-outlining-and
 post_images: ""
 post_files: ""
 ---

@@ -1,4 +1,5 @@
 ---
+show: td
 number: "031"
 title: |
   445 Days with Federico Viticci: "I'm just some guy that reads Twitter"
@@ -22,7 +23,7 @@ summary: >
   and running a business while doing it.
   Federico is a great friend and this was
   a rewarding conversation.
-soundcloudurl: 031-445-days-with-federico
+soundcloudurl: techdiffpodcast/031-445-days-with-federico
 post_images: ""
 post_files: ""
 ---

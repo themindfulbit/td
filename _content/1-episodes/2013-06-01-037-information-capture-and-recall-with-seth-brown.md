@@ -1,4 +1,5 @@
 ---
+show: td
 number: "037"
 title: 'Information Capture and Recall with Seth Brown: The File System'
 showtype: interview
@@ -23,7 +24,7 @@ summary: >
   to lend a hand with managing the file
   system. They discuss file organization
   and the value of a good naming system.
-soundcloudurl: 037-information-capture-and
+soundcloudurl: techdiffpodcast/037-information-capture-and
 post_images: ""
 post_files: ""
 ---

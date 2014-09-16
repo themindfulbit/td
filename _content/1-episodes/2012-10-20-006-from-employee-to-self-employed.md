@@ -1,4 +1,5 @@
 ---
+show: td
 number: "006"
 title: From Employee to Self Employed
 showtype: interview
@@ -20,7 +21,7 @@ summary: >
   self-employed blogger. He discusses
   where ShawnBlanc.net started and how he
   got to where he is now.
-soundcloudurl: 006-from-employee-to-self
+soundcloudurl: techdiffpodcast/006-from-employee-to-self
 post_images: ""
 post_files: ""
 ---

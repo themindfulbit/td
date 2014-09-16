@@ -1,4 +1,5 @@
 ---
+show: td
 number: "035"
 title: >
   Information Capture and Recall with
@@ -21,7 +22,7 @@ summary: >
   This week Bradley Chambers joins Erik
   and Gabe to talk about information
   capture and recall with Evernote.
-soundcloudurl: 035-information-capture-and
+soundcloudurl: techdiffpodcast/035-information-capture-and
 post_images: ""
 post_files: ""
 ---

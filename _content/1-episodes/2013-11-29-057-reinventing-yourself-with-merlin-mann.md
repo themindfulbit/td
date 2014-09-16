@@ -1,4 +1,5 @@
 ---
+show: td
 number: "057"
 title: Reinventing Yourself with Merlin Mann
 showtype: interview
@@ -18,7 +19,7 @@ caption: |
 download: >
   http://www.buzzsprout.com/7417/133581-057-reinventing-yourself-with-merlin-mann.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125811988%3Fsecret_token%3Ds-Bjenw&color=ff6600&auto_play=false&show_artwork=true"></iframe>'
-soundcloudurl: 057-reinventing-yourself-with
+soundcloudurl: techdiffpodcast/057-reinventing-yourself-with
 summary: >
   Gabe and Erik are joined by Merlin Mann
   to talk about starting over, what you

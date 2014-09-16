@@ -1,4 +1,5 @@
 ---
+show: td
 number: "010"
 title: Going Back to School with Julia Richert
 showtype: interview
@@ -20,7 +21,7 @@ summary: >
   They discuss the consequences on the
   family and some of the decisions and
   planning to make it work out right.
-soundcloudurl: 010-going-back-to-school-with
+soundcloudurl: techdiffpodcast/010-going-back-to-school-with
 post_images: ""
 post_files: ""
 ---

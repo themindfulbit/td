@@ -1,4 +1,5 @@
 ---
+show: td
 number: "004"
 title: "The Zymurgist's Dilemma"
 showtype: interview
@@ -17,7 +18,7 @@ summary: >
   apps and the joys of tracking good beer.
   They discuss the shortage of good beer
   apps and what is actually worth trying.
-soundcloudurl: 004-the-zymurgists-dilemma
+soundcloudurl: techdiffpodcast/004-the-zymurgists-dilemma
 post_images: ""
 post_files: ""
 ---

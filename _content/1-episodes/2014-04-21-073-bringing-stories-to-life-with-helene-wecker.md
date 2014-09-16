@@ -1,4 +1,5 @@
 ---
+show: td
 number: "073"
 title: >
   Bringing Stories to Life with Helene
@@ -16,7 +17,7 @@ caption: '[US National Archives](https://www.flickr.com/photos/usnationalarchive
 download: >
   http://www.buzzsprout.com/7417/167937-073-bringing-stories-to-life-with-helene-wecker.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/144026802%3Fsecret_token%3Ds-WxQGn&color=ff5500&auto_play=false&hide_related=false&show_artwork=true"></iframe>'
-soundcloudurl: >
+soundcloudurl: techdiffpodcast/>
   073-bringing-stories-to-life-with-helene-wecker
 summary: "We're thrilled to welcome Helene Wecker to the show this week. Helene recently published her debut novel *The Golem and the Jinni*. On the show, Helene discusses how she got started as an author, her approach to writing, and some of the tools she uses to bring her stories from concept to reality."
 showtype: interview

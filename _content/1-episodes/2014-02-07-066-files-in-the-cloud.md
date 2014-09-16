@@ -1,4 +1,5 @@
 ---
+show: td
 number: "066"
 title: Files in the Cloud
 type:
@@ -18,7 +19,7 @@ caption: '[Mennonite Church USA](http://www.flickr.com/photos/mennonitechurchusa
 download: >
   http://www.buzzsprout.com/7417/147653-066-files-in-the-cloud.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/132835633%3Fsecret_token%3Ds-dyR30&color=ff5500&auto_play=false&hide_related=false&show_artwork=true"></iframe>'
-soundcloudurl: 066-files-in-the-cloud
+soundcloudurl: techdiffpodcast/066-files-in-the-cloud
 summary: >
   Gabe and Erik take a look at a number of
   different online sync and storage

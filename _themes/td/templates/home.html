@@ -6,7 +6,7 @@
         <div class="filler">&nbsp;</div>
     {{ endif }}
 
-        <a class="search" href="/episodes">Episodes</a>
+        <a class="search" href="/search">All Episodes</a>
 
     {{ if next_page }}
         <a class="next" href="{{ next_page }}">Older <span class="arrows">&raquo;</span></a>
@@ -14,7 +14,7 @@
   </div>
 {{ /entries:pagination }}
 
-{{ entries:listing folder="episodes" limit="1" show_future="{ future }" }}
+{{ entries:listing folder="episodes|dawn-patrol" limit="2" show_future="{ future }" }}
  <div class="show">
 
     <div class="show-header">

@@ -1,4 +1,5 @@
 ---
+show: td
 number: "012"
 title: >
   The Home Office, Motivation and Poop
@@ -24,7 +25,7 @@ summary: >
   distinction of being the first profanity
   bleeped in the series. All around, this
   was great fun.
-soundcloudurl: 012-the-home-office-motivation
+soundcloudurl: techdiffpodcast/012-the-home-office-motivation
 post_images: ""
 post_files: ""
 ---

@@ -1,4 +1,5 @@
 ---
+show: td
 number: "014"
 title: >
   Everything Sucks for Somebody at Some
@@ -23,7 +24,7 @@ summary: >
   and introspective discussion of the role
   of charities, picking trustworthy
   charities and raising empathetic kids.
-soundcloudurl: 014-everything-sucks-for
+soundcloudurl: techdiffpodcast/014-everything-sucks-for
 post_images: ""
 post_files: ""
 ---

@@ -1,4 +1,5 @@
 ---
+show: td
 number: "018"
 title: Digital Publishing with Adam Engst
 showtype: interview
@@ -20,7 +21,7 @@ summary: >
   and Take Control Books to talk about
   digital publishing, eBooks and the
   intersection of writing and editing.
-soundcloudurl: 018-digital-publishing-with
+soundcloudurl: techdiffpodcast/018-digital-publishing-with
 post_images: ""
 post_files: ""
 ---

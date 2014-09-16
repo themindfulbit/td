@@ -1,4 +1,5 @@
 ---
+show: td
 number: "024"
 title: Text Editors and Plain Text
 showtype: interview
@@ -23,7 +24,7 @@ summary: >
   starts with text editors on Mac and iOS
   and wraps up with a discussion about the
   future of text editors and file formats.
-soundcloudurl: 024-text-editors-and-plain
+soundcloudurl: techdiffpodcast/024-text-editors-and-plain
 post_images: ""
 post_files: ""
 ---

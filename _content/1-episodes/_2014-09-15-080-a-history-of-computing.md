@@ -1,4 +1,5 @@
 ---
+show: td
 number: "080"
 title: A History of Computing with Dr. Drang
 type:
@@ -17,7 +18,7 @@ caption: '[Internet Archive](https://www.flickr.com/photos/internetarchivebookim
 download: >
   http://www.buzzsprout.com/7417/196108-079-a-history-of-computing-with-dr-drang.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/162879096%3Fsecret_token%3Ds-rUEto&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>'
-soundcloudurl: 079-a-history-of-computing
+soundcloudurl: techdiffpodcast/079-a-history-of-computing
 summary: >
   Dr. Drang returns to explore his
   background in computing from the late

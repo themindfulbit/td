@@ -1,4 +1,5 @@
 ---
+show: td
 number: "028"
 title: Jonathan Poritsky and Markup Languages
 showtype: interview
@@ -24,7 +25,7 @@ summary: >
   using Fountain to write screenplays with
   plain-text markup and explore the
   foundations of CriticMarkup.
-soundcloudurl: 028-jonathan-poritsky-and
+soundcloudurl: techdiffpodcast/028-jonathan-poritsky-and
 post_images: ""
 post_files: ""
 ---

@@ -1,4 +1,5 @@
 ---
+show: td
 number: "045"
 title: >
   Periodicals in the Digital Age with
@@ -20,7 +21,7 @@ download: >
   http://www.buzzsprout.com/7417/105550-045-periodicals-in-the-digital-age-with-jason-snell.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125809249&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 summary: "Gabe and Erik are joined by Jason Snell, Editorial Director of Macworld and host of The Incomparable, to look at the evolution of writing and publishing in the internet age. Is there still a place for periodical writing when news comes and goes by the minute? How have publications handled the transition from print to digital media? How has it changed the roles of the editor and writer? Then they go offtopic to talk about their favorite sci-fi interfaces, why some work and some don't, and how they've influenced today's devices for better and worse."
-soundcloudurl: 045-periodicals-in-the-digital
+soundcloudurl: techdiffpodcast/045-periodicals-in-the-digital
 post_images: ""
 post_files: ""
 ---

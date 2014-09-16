@@ -1,4 +1,5 @@
 ---
+show: td
 number: "029"
 title: Myke Hurley and Building a New Career
 showtype: interview
@@ -18,7 +19,7 @@ summary: >
   This week Myke Hurley joins Gabe and
   Erik to talk about building two parallel
   careers and preparing for the future.
-soundcloudurl: 029-myke-hurley-and-building-a
+soundcloudurl: techdiffpodcast/029-myke-hurley-and-building-a
 post_images: ""
 post_files: ""
 ---

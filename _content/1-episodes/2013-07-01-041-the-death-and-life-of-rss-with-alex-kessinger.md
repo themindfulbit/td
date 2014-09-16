@@ -1,4 +1,5 @@
 ---
+show: td
 number: "041"
 title: >
   The Death and Life of RSS with Alex
@@ -18,7 +19,7 @@ download: >
   http://www.buzzsprout.com/7417/100894-041-the-death-and-life-of-rss-with-alex-kessinger.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125808033%3Fsecret_token%3Ds-QQF6w&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 summary: 'To celebrate the demise of Google Reader, Erik and Gabe talk to Alex Kessinger of Rumproarious. They discuss the RSS apocalypse, current Google Reader alternatives, ways to manage high volume feeds, and the future of the RSS landscape. Alex is a developer at App.net, so they also touch on a few notable apps that build on its growing social platform. This week also features the debut of a new section: Offtopic. The first offtopic... er, topic... is whether online privacy can still exist on the post-Snowden internet.'
-soundcloudurl: 041-the-death-and-life-of-rss
+soundcloudurl: techdiffpodcast/041-the-death-and-life-of-rss
 post_images: ""
 post_files: ""
 ---

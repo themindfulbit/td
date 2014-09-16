@@ -1,4 +1,5 @@
 ---
+show: td
 number: "051"
 title: >
   David Lanham on Icons, Illustrations,
@@ -18,7 +19,7 @@ download: >
   http://www.buzzsprout.com/7417/114000-051-david-lanham-on-icons-illustrations-and-interfaces.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125810674&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 summary: "Gabe and Erik chat with David Lanham about creating compelling icons, beautiful worlds and engaging interfaces. They touch on depth without drop shadows, animation, and the future of iOS and OS X interaction design. Then they wrap up with a discussion about styluses, and David's advice for beginning designers."
-soundcloudurl: 051-david-lanham-on-icons
+soundcloudurl: techdiffpodcast/051-david-lanham-on-icons
 post_images: ""
 post_files: ""
 ---

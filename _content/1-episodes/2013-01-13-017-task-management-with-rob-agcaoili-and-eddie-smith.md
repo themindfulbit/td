@@ -1,4 +1,5 @@
 ---
+show: td
 number: "017"
 title: >
   Task Management with Rob Agcaoili and
@@ -26,7 +27,7 @@ summary: >
   project management. This first
   installment covers the basics of
   defining tasks and projects.
-soundcloudurl: 017-task-management-with-rob
+soundcloudurl: techdiffpodcast/017-task-management-with-rob
 post_images: ""
 post_files: ""
 ---

@@ -1,4 +1,5 @@
 ---
+show: td
 number: "022"
 title: The Inbox, Review and A Lot of Apps
 showtype: interview
@@ -23,7 +24,7 @@ summary: >
   Gridwriter.com about the inbox, task
   notes and the review. They also talk
   about A LOT of apps.
-soundcloudurl: 022-the-inbox-review-and-a-lot
+soundcloudurl: techdiffpodcast/022-the-inbox-review-and-a-lot
 post_images: ""
 post_files: ""
 ---

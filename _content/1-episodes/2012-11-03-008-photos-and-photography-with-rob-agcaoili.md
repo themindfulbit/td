@@ -1,4 +1,5 @@
 ---
+show: td
 number: "008"
 title: Photos and Photography with Rob Agcaoili
 showtype: interview
@@ -16,7 +17,7 @@ summary: >
   Rob Agcaoili of Gridwriter.com talks
   about his photography workflow. We start
   at backups and end at photo editing.
-soundcloudurl: 008-photos-and-photography
+soundcloudurl: techdiffpodcast/008-photos-and-photography
 post_images: ""
 post_files: ""
 ---

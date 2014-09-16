@@ -1,4 +1,5 @@
 ---
+show: td
 number: "034"
 title: >
   Developing Workflow Software with Greg
@@ -23,7 +24,7 @@ summary: >
   and Gabe to talk about building
   workflows and developing for
   sophisticated users.
-soundcloudurl: 034-developing-workflow
+soundcloudurl: techdiffpodcast/034-developing-workflow
 post_images: ""
 post_files: ""
 ---

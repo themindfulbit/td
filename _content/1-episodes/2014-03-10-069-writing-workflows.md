@@ -1,4 +1,5 @@
 ---
+show: td
 number: "069"
 title: Writing Workflows
 type:
@@ -16,7 +17,7 @@ caption: '[National Library of Scotland](http://www.flickr.com/photos/nlscotland
 download: >
   http://www.buzzsprout.com/7417/155613-069-writing-workflows.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/138049491%3Fsecret_token%3Ds-vBwNw&color=ff5500&auto_play=false&hide_related=false&show_artwork=true"></iframe>'
-soundcloudurl: 069-writing-workflows
+soundcloudurl: techdiffpodcast/069-writing-workflows
 summary: >
   Gabe takes time from his high-volume
   blogging schedule to join Erik for a

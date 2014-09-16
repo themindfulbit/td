@@ -1,4 +1,5 @@
 ---
+show: td
 number: "019"
 title: >
   Tasks, Contexts, and Projects with Jeff
@@ -23,7 +24,7 @@ summary: >
   about contexts and projects in task
   management. This is episode two in a
   three part series about task management.
-soundcloudurl: 019-tasks-contexts-and
+soundcloudurl: techdiffpodcast/019-tasks-contexts-and
 post_images: ""
 post_files: ""
 ---

@@ -1,4 +1,5 @@
 ---
+show: td
 number: "065"
 title: Stupid Clipboard Tricks
 type:
@@ -15,7 +16,7 @@ caption: '[SMU Central University](http://www.flickr.com/photos/41131493@N06/888
 download: >
   http://www.buzzsprout.com/7417/145323-065-stupid-clipboard-tricks.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/131210154%3Fsecret_token%3Ds-r4CnB&color=ff5500&auto_play=false&show_artwork=true"></iframe>'
-soundcloudurl: 065-stupid-clipboard-tricks
+soundcloudurl: techdiffpodcast/065-stupid-clipboard-tricks
 summary: >
   Clipboards and Pasteboards are the topic
   of the week, as Gabe breaks down the

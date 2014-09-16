@@ -1,4 +1,5 @@
 ---
+show: td
 number: "036"
 title: >
   Advocating for Science and Exploration
@@ -22,7 +23,7 @@ summary: >
   evangelist for The Planetary Society,
   joins Gabe and Erik to discuss planetary
   science, education and exploration.
-soundcloudurl: 036-advocating-for-science-and
+soundcloudurl: techdiffpodcast/036-advocating-for-science-and
 post_images: ""
 post_files: ""
 ---

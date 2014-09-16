@@ -1,4 +1,5 @@
 ---
+show: td
 number: "007"
 title: NaNoWriMo and the Writing Process
 showtype: interview
@@ -18,7 +19,7 @@ summary: >
   writing process and National Novel
   Writing Month with sweeping discussion
   of Tolkein and Vonnegut.
-soundcloudurl: 007-nanowrimo-and-the-writing
+soundcloudurl: techdiffpodcast/007-nanowrimo-and-the-writing
 post_images: ""
 post_files: ""
 ---

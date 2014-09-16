@@ -1,4 +1,5 @@
 ---
+show: td
 number: "038"
 title: >
   Building Sustainable Businesses with
@@ -25,7 +26,7 @@ summary: |
     travel, deciding to create your own
     business, and helping others build their
     own, $37 at a time.
-soundcloudurl: 038-building-sustainable
+soundcloudurl: techdiffpodcast/038-building-sustainable
 post_images: ""
 post_files: ""
 ---

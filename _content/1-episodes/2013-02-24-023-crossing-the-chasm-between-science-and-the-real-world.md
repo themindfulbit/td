@@ -1,4 +1,5 @@
 ---
+show: td
 number: "023"
 title: >
   Crossing the Chasm Between Science and
@@ -26,7 +27,7 @@ summary: >
   world. They talk about fear, anxiety,
   hard work and how to come out happy on
   other side of a life changing decision.
-soundcloudurl: 023-crossing-the-chasm-between
+soundcloudurl: techdiffpodcast/023-crossing-the-chasm-between
 post_images: ""
 post_files: ""
 ---

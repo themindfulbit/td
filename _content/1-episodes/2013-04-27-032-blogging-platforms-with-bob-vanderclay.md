@@ -1,4 +1,5 @@
 ---
+show: td
 number: "032"
 title: Blogging Platforms with Bob VanderClay
 showtype: interview
@@ -27,7 +28,7 @@ summary: >
   templating languages, commenting,
   writing tools, hosting providers, and
   backups.
-soundcloudurl: 032-blogging-platforms-with
+soundcloudurl: techdiffpodcast/032-blogging-platforms-with
 post_images: ""
 post_files: ""
 ---

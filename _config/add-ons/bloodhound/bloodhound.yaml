@@ -114,7 +114,7 @@ score_threshold: 10
 
 # folders to search through (search multiple folders at one by 
 # pipe-delimiting them)
-folders: episodes
+folders: episodes|dawn-patrol
 
 # grab the taxonomy from the URL and only search over matching items?
 #taxonomy: false

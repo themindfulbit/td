@@ -1,4 +1,5 @@
 ---
+show: td
 number: "052"
 title: Rob Trew and Brett Terpstra Talk Code
 showtype: interview
@@ -23,7 +24,7 @@ summary: >
   after the closing music for a special
   post-show continuation of the
   discussion.
-soundcloudurl: 052-rob-trew-and-brett
+soundcloudurl: techdiffpodcast/052-rob-trew-and-brett
 post_images: ""
 post_files: ""
 ---

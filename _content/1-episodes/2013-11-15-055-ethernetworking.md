@@ -1,4 +1,5 @@
 ---
+show: td
 number: "055"
 title: Ethernetworking
 showtype: interview
@@ -15,7 +16,7 @@ caption: '[US Library of Congress](http://www.flickr.com/photos/library_of_congr
 download: >
   http://www.buzzsprout.com/7417/130476-055-ethernetworking.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125811692%3Fsecret_token%3Ds-nIsQr&color=ff6600&auto_play=false&show_artwork=true"></iframe>'
-soundcloudurl: 055-ethernetworking
+soundcloudurl: techdiffpodcast/055-ethernetworking
 summary: >
   Gabe and Erik take a hard look at what
   it takes to wire your house for

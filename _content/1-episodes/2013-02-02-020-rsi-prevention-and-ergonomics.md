@@ -1,4 +1,5 @@
 ---
+show: td
 number: "020"
 title: RSI Prevention and Ergonomics
 showtype: interview
@@ -22,7 +23,7 @@ summary: >
   preventative measures. Lots of talk
   about keyboards, key layouts and making
   some hard choices.
-soundcloudurl: 020-rsi-prevention-and
+soundcloudurl: techdiffpodcast/020-rsi-prevention-and
 post_images: ""
 post_files: ""
 ---

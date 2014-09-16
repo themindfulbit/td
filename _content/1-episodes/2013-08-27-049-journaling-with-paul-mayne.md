@@ -1,4 +1,5 @@
 ---
+show: td
 number: "049"
 title: Journaling with Paul Mayne
 showtype: interview
@@ -26,7 +27,7 @@ summary: >
   is dead, and if not whether we can move
   beyond the anachronistic floppy disk
   icon.
-soundcloudurl: 049-journaling-with-paul-mayne
+soundcloudurl: techdiffpodcast/049-journaling-with-paul-mayne
 post_images: ""
 post_files: ""
 ---

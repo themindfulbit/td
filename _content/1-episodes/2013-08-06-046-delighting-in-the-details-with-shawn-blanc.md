@@ -1,4 +1,5 @@
 ---
+show: td
 number: "046"
 title: >
   Delighting in the Details with Shawn
@@ -26,7 +27,7 @@ summary: >
   affect the design process? Then they go
   offtopic to explore ways to make time
   for great work in a busy life.
-soundcloudurl: 046-delighting-in-the-details
+soundcloudurl: techdiffpodcast/046-delighting-in-the-details
 post_images: ""
 post_files: ""
 ---

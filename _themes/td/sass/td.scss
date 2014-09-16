@@ -80,12 +80,12 @@ body {
 
     ul {
       @include column(12,12);
-      padding: 0;
+      padding: 0.6em 0;
       margin: 0;
       text-align: center;
 
       li {
-        padding: 1em;
+        padding: 0.3em 1em;
         font-family: "futura-pt", sans-serif;
         text-transform: uppercase;
         display: inline-block;
@@ -146,6 +146,10 @@ body {
       font-size: 1.3em;
       line-height: 1em;
       text-align: center;
+
+      &.dp {
+        margin-top: 0.2em;
+      }
     }
 
     .search {
@@ -1136,7 +1140,7 @@ body {
     #show-taxonomy,
     #search {
       @include column(12,12);
-      padding: 1em;
+      padding: 2em 1em 1em;
 
       h1 {
         @include column(10,12);
@@ -1147,6 +1151,7 @@ body {
         text-transform: uppercase;
         margin-top: 0;
         margin-bottom: 0;
+        line-height: 1em;
       }
 
       input[type="search"]::-webkit-search-decoration,
@@ -1193,6 +1198,7 @@ body {
         text-align: center;
         font-style: italic;
         color: $medium-gray;
+        line-height: 1.2em;
 
         a,
         a:visited,
@@ -1839,6 +1845,10 @@ body {
       background-size: cover;
       background-position: center center;
 
+    }
+
+    &.dp .background {
+      background-image: url('../img/dp-scrim.jpg');
     }
 
     .container {

@@ -1,4 +1,5 @@
 ---
+show: td
 number: "050"
 title: Lists of Lists of Lists
 showtype: interview
@@ -19,7 +20,7 @@ summary: >
   Erik and Gabe take a quiet moment to
   reflect on how bad they are at managing
   lists and reminders.
-soundcloudurl: 050-lists-of-lists-of-lists
+soundcloudurl: techdiffpodcast/050-lists-of-lists-of-lists
 post_images: ""
 post_files: ""
 ---

@@ -1,4 +1,5 @@
 ---
+show: td
 number: "026"
 title: >
   Selling Physical Goods in a Digital
@@ -22,7 +23,7 @@ summary: >
   the Grooveboard and he’s gone through
   the a lot of work to make something he
   loves. Now he’s selling it.
-soundcloudurl: 026-selling-physical-goods-in
+soundcloudurl: techdiffpodcast/026-selling-physical-goods-in
 post_images: ""
 post_files: ""
 ---

@@ -1,4 +1,5 @@
 ---
+show: td
 number: "027"
 title: Aaron Hillegass and Teaching Experts
 showtype: interview
@@ -15,7 +16,7 @@ download: >
   http://www.buzzsprout.com/7417/83184-generational-episode-027.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125801186&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 summary: "Aaron Hillegass talks with Gabe about teaching experts. Aaron has taught many of the best iOS and Mac programmers in the world and has a lot to say about the process of teaching and learning. You also get to hear Gabe sound dumb as usual. What's not to love?"
-soundcloudurl: 027-aaron-hillegass-and
+soundcloudurl: techdiffpodcast/027-aaron-hillegass-and
 post_images: ""
 post_files: ""
 ---

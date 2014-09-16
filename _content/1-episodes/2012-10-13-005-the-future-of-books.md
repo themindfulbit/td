@@ -1,4 +1,5 @@
 ---
+show: td
 number: "005"
 title: The Future of Books
 showtype: interview
@@ -18,7 +19,7 @@ summary: >
   Yuvi Zalkow, Michael Schechter and Gabe
   spend 90 minutes talking about the past,
   present and future of books and reading.
-soundcloudurl: 005-the-future-of-books
+soundcloudurl: techdiffpodcast/005-the-future-of-books
 post_images: ""
 post_files: ""
 ---

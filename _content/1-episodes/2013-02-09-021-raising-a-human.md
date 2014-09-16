@@ -1,4 +1,5 @@
 ---
+show: td
 number: "021"
 title: Raising a Human
 showtype: interview
@@ -21,7 +22,7 @@ summary: >
   their own special way. The discussion
   ranges from death to religion to
   Miyazaki films.
-soundcloudurl: 021-raising-a-human
+soundcloudurl: techdiffpodcast/021-raising-a-human
 post_images: ""
 post_files: ""
 ---

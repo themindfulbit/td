@@ -1,4 +1,5 @@
 ---
+show: td
 number: "039"
 title: >
   Writing Technical eBooks with Brett
@@ -26,7 +27,7 @@ summary: >
   learned from the process as well as what
   he’s continuing to learn as an
   independent publisher.
-soundcloudurl: 039-writing-technical-ebooks
+soundcloudurl: techdiffpodcast/039-writing-technical-ebooks
 post_images: ""
 post_files: ""
 ---

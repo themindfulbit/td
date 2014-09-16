@@ -1,12 +1,21 @@
 <div class="logo">
 	<a href="{{ homepage }}">
-    <img src="{{ theme:img src='td-white.svg' }}" alt="logo">
+	{{ if show == 'dp' or current_url == '/dawn-patrol' }}
+		<img src="{{ theme:img src='dp-white.svg' }}" alt="logo">
+	{{ else }}
+    	<img src="{{ theme:img src='td-white.svg' }}" alt="logo">
+    {{ endif }}
   </a>
 </div>
 <h1>Technical Difficulties</h1>
-<h2>Like a normal tech podcast, but&nbsp;broken.</h2>
+{{ if show == 'dp' or current_url == '/dawn-patrol' }}
+	<h2 class="dp">Unfiltered. Unedited. Uncaffeinated.</h2>
+{{ else }}
+	<h2>Like a normal tech podcast, but&nbsp;broken.</h2>
+{{ endif }}
 
-<form class="search" action="/episodes" method="get">
+
+<form class="search" action="/search" method="get">
 
   <input class="search" placeholder="Search Episodes and Notes" type="text" name="query" value="{{ get:query|sanitize }}">
 

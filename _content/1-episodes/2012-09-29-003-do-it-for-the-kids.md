@@ -1,4 +1,5 @@
 ---
+show: td
 number: "003"
 title: Do it for the Kids
 showtype: interview
@@ -20,7 +21,7 @@ summary: >
   technology. They talk about setting
   rules, monitoring activity and the
   general challenges of being a parent.
-soundcloudurl: 003-do-it-for-the-kids
+soundcloudurl: techdiffpodcast/003-do-it-for-the-kids
 post_images: ""
 post_files: ""
 ---

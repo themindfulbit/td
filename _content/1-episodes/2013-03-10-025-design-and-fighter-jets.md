@@ -1,4 +1,5 @@
 ---
+show: td
 number: "025"
 title: Design and Fighter Jets
 showtype: interview
@@ -19,7 +20,7 @@ summary: >
   what design is, how he went from jet
   pilot to designer and how everything is
   a product of the design process.
-soundcloudurl: 025-design-and-fighter-jets
+soundcloudurl: techdiffpodcast/025-design-and-fighter-jets
 post_images: ""
 post_files: ""
 ---

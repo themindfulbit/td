@@ -1,4 +1,5 @@
 ---
+show: td
 number: "013"
 title: Modern Musical Merry Men
 showtype: interview
@@ -22,7 +23,7 @@ summary: >
   exploring music. We talk about streaming
   music and compare the available options
   with iTunes.
-soundcloudurl: 013-modern-musical-merry-men
+soundcloudurl: techdiffpodcast/013-modern-musical-merry-men
 post_images: ""
 post_files: ""
 ---

@@ -1,4 +1,5 @@
 ---
+show: td
 number: "068"
 title: Microphones and Headphones
 type:
@@ -14,7 +15,7 @@ caption: "[Jewish Women's Archive Commons](http://www.flickr.com/photos/36281769
 download: >
   http://www.buzzsprout.com/7417/153960-068-microphones-and-headphones.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/137063004%3Fsecret_token%3Ds-pqFuA&color=ff5500&auto_play=false&hide_related=false&show_artwork=true"></iframe>'
-soundcloudurl: 068-microphones-and-headphones
+soundcloudurl: techdiffpodcast/068-microphones-and-headphones
 summary: "Microphones and headphones are the topic of the day, as Gabe and Erik talk about the ones they like and the ones they don't really like, but own anyway. Along the way, they try out a bunch of different microphones, so listen in and decide for yourself."
 showtype: interview
 post_images:

@@ -1,0 +1,101 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){ 
+
+  $("#ep-browser").click(function() {
+    $("#ep-browser").addClass("active");
+    $("#ep-list").removeClass("active");
+    $(".list").removeClass("text-list");
+    $(".list").addClass("image-list");
+  });  
+
+  $("#ep-list").click(function() {
+    $("#ep-list").addClass("active");
+    $("#ep-browser").removeClass("active");
+    $(".list").removeClass("image-list");
+    $(".list").addClass("text-list");
+  });
+
+});
+
+</script>
+
+<div id="search">
+
+  {{ bloodhound:search }}
+
+      {{ if no_query }}
+
+        <!-- do nothing -->
+        
+        <h1>Dawn Patrol Archive</h1>
+        <p class="instructions">You can narrow this list by searching in the box above.</p>
+        <ul id="ep-toggle">
+          <li id="ep-browser" class="active">Browser</li>
+          <li id="ep-list">List</li>
+        </ul>
+        <ul class="list image-list">
+          {{ entries:listing folder="dawn-patrol" show_future="{ future }" }}
+            <li>
+              <a class="permalink" href="{{ url }}">
+                {{ theme:partial src="transform" title="" file="{{ banner }}" }}
+                <h2 class="show-number"><span class="ticks">&minus;&nbsp;</span>{{ number }}<span class="ticks">&nbsp;&minus;</span></h2>
+                <div class="show-info">
+                  <h2 class="show-title"> {{ title }}</h2>
+                  <div class="show-date"> {{ datestamp format="F jS, Y" }}</div>
+                </div>
+                <p class="summary">{{ summary|markdown }}</p>
+                {{ if type }}
+                  <p class="type">{{ type_list }}</p>
+                {{ endif }}
+
+                {{ if people }}
+                  <p class="people">{{ people_list }}</p>
+                {{ endif }}
+                  
+                {{ if topics }}
+                  <p class="topics">{{ topics_list }}</p>
+                {{ endif }}
+              </a>
+            </li>
+          {{ /entries:listing }}
+
+      {{ elseif no_results }}
+        
+        <h1>Nothing Found</h1>
+        <p class="message">Sorry, no results found for <b>{{ _query }}</b>. Try another search term, or <a href="/episodes">return to the list of all episodes.</a></p>
+
+      {{ else }}
+        {{ if first }}
+        
+          <h1>Search Results: {{ _query }}</h1>
+          <p class="message">If this wasn't what you're looking for, you can <a href="/episodes">return to the list of all episodes.</a></p>
+          <ul id="ep-toggle">
+            <li id="ep-browser">Browser</li>
+            <li id="ep-list" class="active">List</li>
+          </ul>
+          <ul class="list text-list">
+
+        {{ endif }}
+
+        <li>
+          <a class="permalink" href="{{ url }}">
+            {{ theme:partial src="transform" title="" file="{{ banner }}" }}
+            <h2 class="show-number"><span class="ticks">&minus;&nbsp;</span>{{ number }}<span class="ticks">&nbsp;&minus;</span></h2>
+            <div class="show-info">
+              <h2 class="show-title"> {{ title }}</h2>
+              <div class="show-date"> {{ datestamp format="F jS, Y" }}</div>
+            </div>
+            {{ summary|markdown }}
+          </a>
+        </li>
+
+        {{ if last }}
+          </ul>
+        {{ endif }}
+      {{ endif }}
+
+  {{ /bloodhound:search }}
+
+</div>

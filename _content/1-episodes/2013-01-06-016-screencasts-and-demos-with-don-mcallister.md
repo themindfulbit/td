@@ -1,4 +1,5 @@
 ---
+show: td
 number: "016"
 title: >
   ScreenCasts and Demos with Don
@@ -20,7 +21,7 @@ summary: >
   ScreenCastsOnline about the process of
   instructing and presenting to a wide
   audience over the internet.
-soundcloudurl: 016-screencasts-and-demos-with
+soundcloudurl: techdiffpodcast/016-screencasts-and-demos-with
 post_images: ""
 post_files: ""
 ---

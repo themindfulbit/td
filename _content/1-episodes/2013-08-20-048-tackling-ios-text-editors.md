@@ -1,4 +1,5 @@
 ---
+show: td
 number: "048"
 title: Tackling iOS Text Editors
 showtype: interview
@@ -23,7 +24,7 @@ summary: >
   editing apps on iOS. Then they go
   through some of the bigger names in the
   field before picking their favorites.
-soundcloudurl: 048-tackling-ios-text-editors
+soundcloudurl: techdiffpodcast/048-tackling-ios-text-editors
 post_images: ""
 post_files: ""
 ---

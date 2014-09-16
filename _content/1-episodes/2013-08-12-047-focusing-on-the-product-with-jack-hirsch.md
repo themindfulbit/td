@@ -1,4 +1,5 @@
 ---
+show: td
 number: "047"
 title: Focusing on the Product with Jack Hirsch
 showtype: interview
@@ -25,7 +26,7 @@ summary: >
   engineering realities, the importance of
   communication, and what large companies
   owe their customers.
-soundcloudurl: 047-focusing-on-the-product
+soundcloudurl: techdiffpodcast/047-focusing-on-the-product
 post_images: ""
 post_files: ""
 ---

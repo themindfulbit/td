@@ -1,4 +1,5 @@
 ---
+show: td
 number: "030"
 title: 'The Evolution of Internet Media with  Neha Tiwari'
 showtype: interview
@@ -21,7 +22,7 @@ summary: >
   production and advertising, and the
   future of visual entertainment in a
   mobile, on-demand era.
-soundcloudurl: 030-the-evolution-of-internet
+soundcloudurl: techdiffpodcast/030-the-evolution-of-internet
 post_images: ""
 post_files: ""
 ---
