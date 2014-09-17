@@ -21,7 +21,7 @@
 
   {{ entries:listing folder="episodes|dawn-patrol" }}
   <item>
-    <title>{{ number }} - {{ title }}</title>
+    <title>{{ if show == "td" }}TD {{ elseif show == "dp" }}DP {{ endif}}{{ number }} - {{ title }}</title>
     <link>{{ permalink }}</link>
     <guid isPermaLink="true">{{ permalink }}</guid>
     <description><![CDATA[{{ if banner }}<img class="show-banner" src="http://technicaldifficulties.us{{ banner }}" />{{ endif }}{{ if caption }}<div class="caption">{{ caption|markdown }}</div>{{ endif }}{{ summary|markdown}} {{ content }}]]></description>
