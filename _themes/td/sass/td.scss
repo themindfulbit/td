@@ -1897,6 +1897,8 @@ body {
   body .nav ul li.extras {
     display: inline-block;
     padding: 0.5em;
+    position: relative;
+    top: 0.2em;
 
     a,
     a:visited,
