@@ -16,7 +16,7 @@ topics:
   - Peerage
   - Apple Watch
   - Fanbois
-  - Lock-In
+  - Lock in
 banner: /assets/img/crash.jpg
 caption: '[Smithsonian Institution](https://www.flickr.com/photos/smithsonian/2536801872)'
 download: "http://www.buzzsprout.com/7417/205007-dawn-patrol-001.mp3?client_source=buzzsprout_site"
