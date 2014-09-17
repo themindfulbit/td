@@ -27,4 +27,4 @@ post_images:
 post_files: ""
 ---
 
-After helping Potatowire learn how to add friends to Skype, the guys discuss how much they want a Dr. Drang bobblehead, catching up on Roderick on the Line, Heretics, the mirror universe, the definition of "in the can", the TD fall schedule, self-muting, peerage within the Potato kingdom, the &#63743; Watch, the roots of fanboiism, and lock-in.
+After helping Potatowire learn how to add friends to Skype, the guys discuss how much they want a Dr. Drang bobblehead, catching up on Roderick on the Line, Heretics, the mirror universe, the definition of "in the can", the TD fall schedule, self-muting, peerage within the Potato Kingdom, the &#63743; Watch, the roots of fanboiism, and lock-in.
