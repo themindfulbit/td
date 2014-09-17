@@ -20,13 +20,17 @@ $(document).ready(function(){
   <input class="search" placeholder="Search Shows">
   <p class="instructions">You can refine your search by show number, name, date, summary, type, people, or topic.</p>
   <ul class="list text-list">
-    {{ entries:listing folder="episodes" taxonomy="true" }}
+    {{ entries:listing folder="episodes|dawn-patrol" taxonomy="true" }}
       {{ if no_results }}
         {{ redirect url="/404" }}
       {{ else }}
       <li>
         <a class="permalink" href="{{ url }}">
-          <h2 class="show-number">&minus;&nbsp;{{ number }}&nbsp;&minus;</h2>
+          {{ if show == "td" }}
+              <h2 class="show-number"><span class="ticks">&minus;&nbsp;</span>TD {{ number }}<span class="ticks">&nbsp;&minus;</span></h2>
+          {{ elseif show == "dp" }}   
+              <h2 class="show-number"><span class="ticks">&minus;&nbsp;</span>DP {{ number }}<span class="ticks">&nbsp;&minus;</span></h2>
+          {{ endif }}   
           <h2 class="show-title"> {{ title|widont }}</h2>
           <p class="show-date"> {{ datestamp format="F jS, Y" }}</p>
           <p class="summary">{{ summary }}</p>
