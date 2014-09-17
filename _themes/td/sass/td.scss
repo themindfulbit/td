@@ -1429,7 +1429,7 @@ body {
     }
 
     #home-list h1 {
-      margin-top: 1em;
+      margin-top: 2em;
     }
 
     #home-list h1:first-child {
@@ -1781,6 +1781,11 @@ body {
         height: 360px;
       }
     }
+  }
+
+  body .content #home-list .explain {
+    font-size: 1.2em;
+    line-height: 1.5em;
   }
 
   body .content .about {

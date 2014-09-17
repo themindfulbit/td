@@ -6055,7 +6055,7 @@ body .content #home-list ul.image-list li a:focus:hover .show-info {
 }
 /* line 1431, ../sass/td.scss */
 body .content #home-list h1 {
-  margin-top: 1em;
+  margin-top: 2em;
 }
 /* line 1435, ../sass/td.scss */
 body .content #home-list h1:first-child {
@@ -6769,11 +6769,17 @@ body .footer p a:active:hover {
     height: 360px;
   }
 
-  /* line 1787, ../sass/td.scss */
+  /* line 1786, ../sass/td.scss */
+  body .content #home-list .explain {
+    font-size: 1.2em;
+    line-height: 1.5em;
+  }
+
+  /* line 1792, ../sass/td.scss */
   body .content .about .page-content {
     padding: 1em;
   }
-  /* line 1790, ../sass/td.scss */
+  /* line 1795, ../sass/td.scss */
   body .content .about .page-content .person {
     display: block;
     float: left;
@@ -6785,7 +6791,7 @@ body .footer p a:active:hover {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 1794, ../sass/td.scss */
+  /* line 1799, ../sass/td.scss */
   body .content .about .page-content .person .portrait {
     display: block;
     float: left;
@@ -6800,7 +6806,7 @@ body .footer p a:active:hover {
     clear: both;
     border-radius: 0.5em;
   }
-  /* line 1802, ../sass/td.scss */
+  /* line 1807, ../sass/td.scss */
   body .content .about .page-content .person .right {
     display: block;
     float: left;
@@ -6813,19 +6819,19 @@ body .footer p a:active:hover {
     margin-left: 8.33333%;
     padding: 0;
   }
-  /* line 1807, ../sass/td.scss */
+  /* line 1812, ../sass/td.scss */
   body .content .about .page-content .person .right h2 {
     margin-top: 0.5em;
     padding-bottom: 0.1em;
     text-align: left;
     font-size: 1.3em;
   }
-  /* line 1814, ../sass/td.scss */
+  /* line 1819, ../sass/td.scss */
   body .content .about .page-content .person .right h3 {
     text-align: left;
     font-size: 1em;
   }
-  /* line 1819, ../sass/td.scss */
+  /* line 1824, ../sass/td.scss */
   body .content .about .page-content .person .right ul.social-links {
     display: block;
     float: left;
@@ -6839,7 +6845,7 @@ body .footer p a:active:hover {
     text-align: left;
     margin-top: 0;
   }
-  /* line 1825, ../sass/td.scss */
+  /* line 1830, ../sass/td.scss */
   body .content .about .page-content .person .right ul.social-links li {
     display: block;
     float: left;
@@ -6851,7 +6857,7 @@ body .footer p a:active:hover {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 1829, ../sass/td.scss */
+  /* line 1834, ../sass/td.scss */
   body .content .about .page-content .person .right ul.social-links li a,
   body .content .about .page-content .person .right ul.social-links li a:visited,
   body .content .about .page-content .person .right ul.social-links li a:active,
@@ -6868,7 +6874,7 @@ body .footer p a:active:hover {
     height: 2em;
     background-size: 1.5em 1.5em;
   }
-  /* line 1843, ../sass/td.scss */
+  /* line 1848, ../sass/td.scss */
   body .content .about .page-content .site {
     display: block;
     float: left;
@@ -6881,7 +6887,7 @@ body .footer p a:active:hover {
     padding: 0 0 2em;
   }
 
-  /* line 1854, ../sass/td.scss */
+  /* line 1859, ../sass/td.scss */
   body .content #show-archive ul li a,
   body .content #show-taxonomy
   body .content #search ul li a {
@@ -6890,7 +6896,7 @@ body .footer p a:active:hover {
 }
 /* @media screen and (min-width: 640px) */
 @media screen and (min-width: 40em) {
-  /* line 1865, ../sass/td.scss */
+  /* line 1870, ../sass/td.scss */
   body .background {
     display: block;
     width: 100%;
@@ -6905,11 +6911,11 @@ body .footer p a:active:hover {
     background-size: cover;
     background-position: center center;
   }
-  /* line 1881, ../sass/td.scss */
+  /* line 1886, ../sass/td.scss */
   body.dp .background {
     background-image: url("../img/dp-scrim.jpg");
   }
-  /* line 1885, ../sass/td.scss */
+  /* line 1890, ../sass/td.scss */
   body .container {
     display: block;
     float: left;
@@ -6922,12 +6928,12 @@ body .footer p a:active:hover {
     padding: 1em;
   }
 
-  /* line 1892, ../sass/td.scss */
+  /* line 1897, ../sass/td.scss */
   body .nav ul li.extras {
     display: inline-block;
     padding: 0.5em;
   }
-  /* line 1896, ../sass/td.scss */
+  /* line 1901, ../sass/td.scss */
   body .nav ul li.extras a,
   body .nav ul li.extras a:visited,
   body .nav ul li.extras a:active,
@@ -6940,35 +6946,35 @@ body .footer p a:active:hover {
     background-size: 1em 1em;
     background-position: 50% 50%;
   }
-  /* line 1908, ../sass/td.scss */
+  /* line 1913, ../sass/td.scss */
   body .nav ul li.extras a.twitter,
   body .nav ul li.extras a:visited.twitter,
   body .nav ul li.extras a:active.twitter,
   body .nav ul li.extras a:focus.twitter {
     background-image: url("../img/twitter-light.svg");
   }
-  /* line 1911, ../sass/td.scss */
+  /* line 1916, ../sass/td.scss */
   body .nav ul li.extras a.twitter:hover,
   body .nav ul li.extras a:visited.twitter:hover,
   body .nav ul li.extras a:active.twitter:hover,
   body .nav ul li.extras a:focus.twitter:hover {
     background-image: url("../img/twitter-yellow.svg");
   }
-  /* line 1916, ../sass/td.scss */
+  /* line 1921, ../sass/td.scss */
   body .nav ul li.extras a.adn,
   body .nav ul li.extras a:visited.adn,
   body .nav ul li.extras a:active.adn,
   body .nav ul li.extras a:focus.adn {
     background-image: url("../img/adn-light.svg");
   }
-  /* line 1919, ../sass/td.scss */
+  /* line 1924, ../sass/td.scss */
   body .nav ul li.extras a.adn:hover,
   body .nav ul li.extras a:visited.adn:hover,
   body .nav ul li.extras a:active.adn:hover,
   body .nav ul li.extras a:focus.adn:hover {
     background-image: url("../img/adn-yellow.svg");
   }
-  /* line 1924, ../sass/td.scss */
+  /* line 1929, ../sass/td.scss */
   body .nav ul li.extras a.rss,
   body .nav ul li.extras a:visited.rss,
   body .nav ul li.extras a:active.rss,
@@ -6976,14 +6982,14 @@ body .footer p a:active:hover {
     background-image: url("../img/rss-light.svg");
     background-size: 0.9em 0.9em;
   }
-  /* line 1928, ../sass/td.scss */
+  /* line 1933, ../sass/td.scss */
   body .nav ul li.extras a.rss:hover,
   body .nav ul li.extras a:visited.rss:hover,
   body .nav ul li.extras a:active.rss:hover,
   body .nav ul li.extras a:focus.rss:hover {
     background-image: url("../img/rss-yellow.svg");
   }
-  /* line 1933, ../sass/td.scss */
+  /* line 1938, ../sass/td.scss */
   body .nav ul li.extras a.browser,
   body .nav ul li.extras a:visited.browser,
   body .nav ul li.extras a:active.browser,
@@ -6991,7 +6997,7 @@ body .footer p a:active:hover {
     background-image: url("../img/browser-light.svg");
     background-size: 0.9em 0.9em;
   }
-  /* line 1937, ../sass/td.scss */
+  /* line 1942, ../sass/td.scss */
   body .nav ul li.extras a.browser:hover,
   body .nav ul li.extras a:visited.browser:hover,
   body .nav ul li.extras a:active.browser:hover,
@@ -6999,7 +7005,7 @@ body .footer p a:active:hover {
     background-image: url("../img/browser-yellow.svg");
   }
 
-  /* line 1950, ../sass/td.scss */
+  /* line 1955, ../sass/td.scss */
   body .content #show-archive ul.text-list li a,
   body .content #show-archive ul.text-list li a:visited,
   body .content #show-archive ul.text-list li a:active,
@@ -7022,7 +7028,7 @@ body .footer p a:active:hover {
   body .content #home-list ul.text-list li a:hover {
     padding: 1em 4em;
   }
-  /* line 1958, ../sass/td.scss */
+  /* line 1963, ../sass/td.scss */
   body .content #show-archive ul.image-list li a,
   body .content #show-archive ul.image-list li a:visited,
   body .content #show-archive ul.image-list li a:active,
@@ -7048,7 +7054,7 @@ body .footer p a:active:hover {
 }
 /* @media screen and (min-width: 720px) */
 @media screen and (min-width: 45em) {
-  /* line 1973, ../sass/td.scss */
+  /* line 1978, ../sass/td.scss */
   body .container {
     display: block;
     float: left;
@@ -7061,7 +7067,7 @@ body .footer p a:active:hover {
     margin-left: 8.33333%;
     padding: 0;
   }
-  /* line 1978, ../sass/td.scss */
+  /* line 1983, ../sass/td.scss */
   body .container .header .search input {
     display: block;
     float: left;
@@ -7082,7 +7088,7 @@ body .footer p a:active:hover {
     font-size: 1.125em;
   }
 
-  /* line 1994, ../sass/td.scss */
+  /* line 1999, ../sass/td.scss */
   body .container {
     display: block;
     float: left;
@@ -7105,7 +7111,7 @@ body .footer p a:active:hover {
 }
 /* @media screen and (min-width: 1440px) */
 @media screen and (min-width: 90em) {
-  /* line 2028, ../sass/td.scss */
+  /* line 2033, ../sass/td.scss */
   body .container {
     display: block;
     float: left;
@@ -7119,7 +7125,7 @@ body .footer p a:active:hover {
     padding: 0;
   }
 
-  /* line 2050, ../sass/td.scss */
+  /* line 2055, ../sass/td.scss */
   body .content #show-archive ul.image-list li a .show-number,
   body .content #show-archive ul.image-list li a:visited .show-number,
   body .content #show-archive ul.image-list li a:focus .show-number,
@@ -7138,7 +7144,7 @@ body .footer p a:active:hover {
   body .content #home-list ul.image-list li a:active .show-number {
     font-size: 2.5em;
   }
-  /* line 2054, ../sass/td.scss */
+  /* line 2059, ../sass/td.scss */
   body .content #show-archive ul.image-list li a .show-info,
   body .content #show-archive ul.image-list li a:visited .show-info,
   body .content #show-archive ul.image-list li a:focus .show-info,
