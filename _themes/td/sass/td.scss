@@ -420,6 +420,7 @@ body {
 
         .correction {
           @include column(12,12);
+          // margin-left: -1.5em;
           padding: 0 0 0 1em;
           border-left: 0.5em solid $dark-orange;
         }
@@ -1592,6 +1593,10 @@ body {
 
       .timestamp a {
         float: right;
+      }
+
+      .correction {
+        margin-left: -1.5em;
       }
 
       blockquote {
