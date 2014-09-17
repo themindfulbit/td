@@ -1602,7 +1602,7 @@ body .content .error .error-notes iframe {
   box-sizing: border-box;
   padding: 0;
   margin-top: 0.7em;
-  margin-bottom: 0.7em;
+  margin-bottom: 1.5em;
 }
 /* line 333, ../sass/td.scss */
 body .content .show .show-notes h1,
