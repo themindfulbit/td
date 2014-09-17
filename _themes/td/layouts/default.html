@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>{{ _site_name }}{{ if number }} - {{ number }}{{ endif }} - {{ title }}</title>
+  <title>{{ if show == 'dp' or current_url == '/dawn-patrol' }}TD Dawn Patrol{{ else }}{{ _site_name }}{{ endif}}{{ if number }} - {{ number }}{{ endif }} - {{ title }}</title>
   <meta name = "viewport" content = "initial-scale = 1.0">
   <meta name="description" content="{{ if summary }}{{ summary }}{{ endif }}">
   <meta name="keywords" content="{{ if topics }}{{ topics_list }}{{ endif }}">

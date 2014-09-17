@@ -133,7 +133,7 @@ Gabe uses one of several iOS scanning apps to add his notes to Dropbox.
 
 Bob loves using fountain pens at home, but they're more problematic on the go. For day-to-day use, he prefers Micron pens.
 
-{{ theme:partial src="product" show="{{ number }}" image="micron-pens.jpg" name="Sakura 30062 6-Piece Pigma Micron Ink Pen Set, Black" description="Fine point pens ideal for drawing and writing. Archival quality ink for use in acid-free environments. Includes 1 of each size: #005 (0.20mm), #01 (0.25mm), #02 (0.30mm), #03 (0.35mm), #05 (0.45mm), #08 (0.50mm)." msrp="$8.90" manufacturer="http://www.sakuraofamerica.com/Pen-Archival" amazon="http://www.amazon.com/Sakura-30062-6-Piece-Pigma-Micron/dp/B0008G8G8Y }} 
+{{ theme:partial src="product" show="{{ number }}" image="micron-pens.jpg" name="Sakura 30062 6-Piece Pigma Micron Ink Pen Set, Black" description="Fine point pens ideal for drawing and writing. Archival quality ink for use in acid-free environments. Includes 1 of each size: #005 (0.20mm), #01 (0.25mm), #02 (0.30mm), #03 (0.35mm), #05 (0.45mm), #08 (0.50mm)." msrp="$8.90" manufacturer="http://www.sakuraofamerica.com/Pen-Archival" amazon="http://www.amazon.com/Sakura-30062-6-Piece-Pigma-Micron/dp/B0008G8G8Y" }} 
 
 Gabe appreciates a good cheap ballpoint, and loved fountain pens, but they were too messy for everyday use. His favorite is his space pen.
 
