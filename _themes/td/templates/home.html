@@ -1,7 +1,7 @@
 <div id="home-list"> 
 
   <h1>The Latest</h1>
-  <p class="explain">Here's our latest episode. For other episodes of Technical Difficulties or Dawn Patrol, check out <a href="/search">The Episode Archive.</a></p>
+  <p class="explain">Here's our latest episode. For other episodes of Technical Difficulties or Dawn Patrol, check out <a href="/search">The Episode Archive.</a> You can also subscribe to the <a class="subscribe" href="http://technicaldifficulties.us/master-feed">Master Feed</a> and get episodes of both shows on your RSS reader or Podcatcher.</p>
   <ul class="list image-list">
             {{ entries:listing folder="episodes|dawn-patrol" limit="1" show_future="{ future }" }}
               <li>
@@ -34,7 +34,7 @@
   </ul>
 
   <h1>Technical Difficulties</h1>
-  <p class="explain">Here are the four latest episodes of Technical Difficulties. If you're looking for more you can find them <a href="/episodes">in the Technical Difficulties Archive.</a></p>
+  <p class="explain">Here are the four latest episodes of Technical Difficulties. If you're looking for more you can find them <a href="/episodes">in the Technical Difficulties Archive.</a> You can also subscribe to the <a class="subscribe" href="{{ subscribe_link }}">Technical Difficulties Feed</a>.</p>
   <ul class="list image-list">
             {{ entries:listing folder="episodes" limit="4" show_future="{ future }" }}
               <li>
@@ -64,7 +64,7 @@
   </ul>
 
   <h1>Dawn Patrol</h1>
-  <p class="explain">Here are the four latest episodes of Dawn Patrol. If you're looking for more you can find them <a href="/dawn-patrol">in the Dawn Patrol Archive.</a></p>
+  <p class="explain">Here are the four latest episodes of Dawn Patrol. If you're looking for more you can find them <a href="/dawn-patrol">in the Dawn Patrol Archive.</a> You can also subscribe to the <a class="subscribe" href="{{ dp_subscribe }}">Dawn Patrol Feed</a>.</p>
   <ul class="list image-list">
             {{ entries:listing folder="dawn-patrol" limit="4" show_future="{ future }" }}
               <li>
@@ -94,5 +94,7 @@
   </ul>
 
 
-  <p class="explain">Looking for even more? Check out <a href="/search">The Episode Archive.</a></p>
+  <p class="explain">Looking for even more? Check out <a href="/search">The Episode Archive</a> or subscribe to the <a class="subscribe" href="http://technicaldifficulties.us/master-feed">Master Feed</a> to get all our latest episodes as soon as they're released.</p>
+
+  <p class="explain">Thanks for listening!</p>
 </div>
