@@ -16,9 +16,9 @@ topics:
 banner: /assets/img/not-drang.jpg
 caption: '[Internet Archive](https://www.flickr.com/photos/internetarchivebookimages/14783937073)'
 download: >
-  http://www.buzzsprout.com/7417/196108-079-a-history-of-computing-with-dr-drang.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/162879096%3Fsecret_token%3Ds-rUEto&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>'
-soundcloudurl: techdiffpodcast/079-a-history-of-computing
+  http://www.buzzsprout.com/7417/206997-td-080.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/169175884%3Fsecret_token%3Ds-jeIew&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>'
+soundcloudurl: techdiffpodcast/080-a-history-of-computing
 summary: >
   Dr. Drang returns to explore his
   background in computing from the late
