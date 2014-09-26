@@ -3,9 +3,15 @@
 # BEGIN FEEDPRESS
 RewriteEngine On
 RewriteCond %{HTTP_USER_AGENT} !FeedValidator [NC]
-# RewriteCond %{HTTP_USER_AGENT} !FeedPress [NC]
+RewriteCond %{HTTP_USER_AGENT} !FeedPress [NC]
 RewriteRule ^feed/?$ http://feedpress.me/td/feed [R=302,NC,L]
+
+RewriteCond %{HTTP_USER_AGENT} !FeedValidator [NC]
+RewriteCond %{HTTP_USER_AGENT} !FeedPress [NC]
 RewriteRule ^dp-feed/?$ http://feedpress.me/td-dp [R=302,NC,L]
+
+RewriteCond %{HTTP_USER_AGENT} !FeedValidator [NC]
+RewriteCond %{HTTP_USER_AGENT} !FeedPress [NC]
 RewriteRule ^master-feed/?$ http://feedpress.me/td-master [R=302,NC,L]
 # END FEEDPRESS
 
