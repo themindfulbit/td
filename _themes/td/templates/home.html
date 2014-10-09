@@ -1,6 +1,6 @@
 <div id="home-list"> 
 
-  <h1>The Latest</h1>
+<h1>Our Latest Episode</h1>
   <p class="explain">Here's our latest episode. For other episodes of Technical Difficulties or Dawn Patrol, check out <a href="/search">The Episode Archive.</a> You can also subscribe to the <a class="subscribe" href="http://technicaldifficulties.us/master-feed">Master Feed</a> and get episodes of both shows on your RSS reader or Podcatcher.</p>
   <ul class="list image-list">
             {{ entries:listing folder="episodes|dawn-patrol" limit="1" show_future="{ future }" }}
@@ -32,6 +32,38 @@
               </li>
             {{ /entries:listing }}
   </ul>
+<!-- 
+  <h1>Our Latest Articles</h1>
+  <p class="explain">We mostly talk, but occasionally we write too. For other articles, check out the alliterative <a href="/search-articles">Article Archive.</a> You can also subscribe to the <a class="subscribe" href="http://technicaldifficulties.us/articles-feed">Articles RSS Feed</a> and get all our articles sent straight to your RSS reader.</p>
+  <ul class="list article-list">
+            {{ entries:listing folder="articles" limit="1" show_future="{ future }" }}
+              <li>
+                <a class="permalink" href="{{ url }}">
+                  {{ theme:partial src="transform" title="" file="{{ banner }}" }}
+
+                  <div class="show-info">
+                    <h2 class="show-title"> {{ title }}</h2>
+                    <div class="show-date"> {{ datestamp format="F jS, Y" }}</div>
+                    <div class="article-author">By {{ people_sentence_list }}</div>
+                  </div>
+                  <p class="summary">{{ summary|markdown }}</p>
+                  {{ if type }}
+                    <p class="type">{{ type_list }}</p>
+                  {{ endif }}
+
+                  {{ if people }}
+                    <p class="people">{{ people_list }}</p>
+                  {{ endif }}
+                    
+                  {{ if topics }}
+                    <p class="topics">{{ topics_list }}</p>
+                  {{ endif }}
+                </a>
+              </li>
+            {{ /entries:listing }}
+  </ul>
+
+   -->
 
   <h1>Technical Difficulties</h1>
   <p class="explain">Here are the four latest episodes of Technical Difficulties. If you're looking for more you can find them <a href="/episodes">in the Technical Difficulties Archive.</a> You can also subscribe to the <a class="subscribe" href="{{ subscribe_link }}">Technical Difficulties Feed</a>.</p>
