@@ -111,7 +111,79 @@ Deck terminals that used paper
 - Redhat Linux
 ASIDE my first Linux, "Dummies" book, made binders, etc.
 - packages and package managers
-43 MIN
+43:00
+- messing with it all the time
+- multimedia (movies and music)
+- working to get work done saved time in the long run -- skills
+- 10.4or5 late 2004-5
+- report wf from anit
+- terminal vs. GUI - always a mix, always terminal window ready
+- vi/Vim, emacs, netedit
+- BBEdit on mac
+- omnigraffle acorn for visual 
+- dumbing-down direction of osx is troubling
+- Scripting is still there: Python, Perl, AppleScript (ot as good as it should be)
+- Sandboxing (breakage expectected, Apple doesn't care about the legacy - Win goes too far)
+- OS X without the Unix would drive Dr. Drang away)
+- 2.7 vs 3.4(5?) -- poor 3 adoption
+- Apple not using GNU versions, loses some future. Worse than the Lagging [looking into Darwin]
+- inter-app communication, workarounds, eg BBEdit CLI tools not available in MAS version
+- trend away from reluctantly-used term power user is hopefully slow enough that he will be retired before the bottom
+- iPad good in many ways, but even apps like Pythonista can't come close to computer with all the tools.
+- iOS silos. Viticci makes work happeInitially, had to have a Lisa to develop, Mac Pascal was interpreter but, not compiler
+- OS X as the truck. That's fine, but why dd doesn't care to have an iPad
+- ihnatko on big phones (anit on big phones?
+- timestamp of iPhones indicates our slowness (9 AUG)
+- jeans and cargo pockets, schlumpy, perfect market for dd
+- larger iPhone obviating the need for iPad more generally
+- Goble on app size continuum and Terp's disagreement, dd expects resonlution ind ependence. %, distance, not pixels, dd figures that's the purpose of retina
+1:08
+- Apple patent for docking device [similar linuxy things], Handoff leading to prefs etc carried over, no divisions btn devices
+- fear being one thing lost = everything lost
+- offload the things you care about
+- Jobs NeXT interview --> having his computer environment anywhere...why is iCloud sucking, given this idea of Jobs's
+- ubiquity != iCloud
+- Yojimbo [find iCloud syncing post] --> shift to Evernote
+- Apple-native feeling...die Evernote get there?
+## leaving Mac. miss most
+- BBEdit
+- Applescript (tech, not lang) --> power outside the cli
+- [Autohotkey] --> API mindset [Spolsky post]
+- MAS apps losing AppleScript libraries
+- [Swift as follow-on to Applescript] [is Swift a trainwreck?]
+- no Preview Applescript --> Apple isn't even supporting AS, why should devs?
+- js bridges
+- can't even select 
+- devs control the hooks/terminology, so you get divergent. Apple doesn't set a good example
+- eg getting selected text
+- OS X as single package would be lost in move to Linux
+- can't really understand Windows...
+
+
+* * * 
+
+https://techdiff.slack.com/files/gabe/F02LXERU5/make-mistakes-ad.jpg
+
+# DD input
+Sorry I'm late with this, but work has gotten in the way and I just couldn't bear to listen to myself for so long.
+
+I did want to give you something about the Think/Lightspeed compilers. There's a nice interview with Rich Siegel here
+
+http://www.imore.com/debug-36-rich-siegel-bbedit
+
+in which he talks about his days with Think. I had hoped to find a scan of one of the old Lightspeed ads but came up empty. I did, however, find Potatowire's nascent show notes, so I have better idea now of where he needs help.
+
+I happen to have an old punchcard in my office (I found it several years ago being used as a bookmark), so I scanned it and put it here
+
+https://www.dropbox.com/s/3nls5ifzsy8x1pw/punchcard.jpg?dl=0
+
+It's not the buff color that most cards were, but it is pristine.
+
+I'll try to get you more links tonight.
+
+Regards,
+Mark
+
 > {{ theme:partial src="aside-header" voice="bob" text="Audio Engineer's Note" }}
 >
 > If you have -- or hear -- any feedback, let me know on Twitter [@takitapart](http://twitter.com/takitapart/), or email bob at vanderclay dot com.
