@@ -37,14 +37,13 @@ post_files: ""
 
 {{ theme:partial src="image" title="" caption="[NASA](https://www.flickr.com/photos/nasacommons/7538102080/in/photostream/)" show="{{ number }}" file="favorite-snowman.jpg" }}
 
+Dr. Drang didn't use a computer until he went to college in the early 1980s. The lone computer at his high school was tied up by a data processing class, which was focused on teaching data entry via punchcards in a vocational setting.
+
+The computing world was at the dawn of a revolution. While the [Apple II](http://en.wikipedia.org/wiki/Apple_II) had been for sale for a short while at this point, the [Commodore 64](http://en.wikipedia.org/wiki/Commodore_64) wouldn't be released until 1982. Popularization of home computing had just begun, and the [Xerox Star](http://en.wikipedia.org/wiki/Xerox_Star) offered one of the first commercially available graphical user interfaces for a cool $75,000 ($195,000 in today's dollars).
+
+Dr. Drang's first exposure to computers was learning FORTRAN in an Introduction to Programming course his Freshman Year of collge. He believes he was one of the last people to learn computing via punch cards and [Keypunch Machines](http://en.wikipedia.org/wiki/Keypunch_machine)
 
 {{ theme:partial src="image" title="" caption="[Autopilot](http://en.wikipedia.org/wiki/File:IBM_129_Card_Data_Recorder.jpg)" show="{{ number }}" file="ibm129-keypunch.jpg" }}
-
-* Really started in college in highschool, computers were tied up with data entry. More Vo-tech
-* First exposure to coimputers was FORTRAN as an intro to programming
-* [Keypunch Machine](http://en.wikipedia.org/wiki/Keypunch_machine)
-
-*** aside on how punched card worked ***
 
 Wikipedia has a [thorough write up](http://en.wikipedia.org/wiki/Punched_card) of the IBM style punched cards.
 
