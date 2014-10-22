@@ -3,6 +3,7 @@
 .Trashes
 /_config/environments/*
 /_cache/*
+/.sass-cache/*
 .htaccess
 /_config/users/*
 !/_config/users/index.html
