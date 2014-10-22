@@ -4,8 +4,11 @@
   {{ else }}
       <div class="filler">&nbsp;</div>
   {{ endif }}
-
+  {{ if show == "dp" }}
+      <a class="search" href="/dawn-patrol">Episodes</a>
+  {{ else }}
       <a class="search" href="/episodes">Episodes</a>
+  {{ endif}}
 
   {{ if next }}
       <a class="next" href="{{ next }}">Older <span class="arrows">&raquo;</span></a>
