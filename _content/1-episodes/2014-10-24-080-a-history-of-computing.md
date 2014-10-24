@@ -73,11 +73,13 @@ Since time on the Keypunch Machine was almost as limited as time on the mainfram
 
 > {{ theme:partial src="aside-header" voice="drang" text="Make Mistakes Faster" }}
 > 
-> Rich Siegel (of [BBEdit](http://www.barebones.com/) fame) [used to work](http://appstories4girls.wordpress.com/2013/07/12/rich-siegel/) for a company called THINK, which made Lightspeed Pascal and LightspeedC for early Macs. They ran an ad with a tagline "Make mistakes faster" because it was one of the first interactive IDEs that gave you feedback when it experienced a bug.
+> Rich Siegel (of [BBEdit](http://www.barebones.com/) fame) [used to work](http://appstories4girls.wordpress.com/2013/07/12/rich-siegel/) for a company called Think Technologies, which made Lightspeed Pascal and LightspeedC for early Macs. They ran an ad with a tagline "Make mistakes faster", because it was one of the first interactive IDEs that gave you feedback when it experienced a bug. 
+>
+> There's a nice interview with Rich on [episode 36](http://www.imore.com/debug-36-rich-siegel-bbedit) of [Debug](http://www.imore.com/debug) in which he talks about his days with Think.
 >
 > {{ theme:partial src="image" title="" caption="" show="{{ number }}" file="make-mistakes-ad.jpg" }}
 >
-> There's a nice interview with Rich  on [episode 36](http://www.imore.com/debug-36-rich-siegel-bbedit) of [Debug](http://www.imore.com/debug) in which he talks about his days with Think. 
+>  Thanks to [Doreen Howell](http://dhacollaborative.com/doreen-howell.html), who served as Marketing Communications Manager during Think Technologies' merger with Symantec, Rich was able to find the original ad for us.
 
 {{ theme:partial src="section-header" title="Enter the Terminal" url="{{ soundcloudurl }}" time="17:30" }}
 
