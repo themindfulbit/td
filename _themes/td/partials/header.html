@@ -2,6 +2,8 @@
 	<a href="{{ homepage }}">
 	{{ if show == 'dp' or current_url == '/dawn-patrol' }}
 		<img src="{{ theme:img src='dp-white.svg' }}" alt="logo">
+	{{ elseif show == 'heretics' or current_url == '/heretics' }}
+		<img src="{{ theme:img src='heretics-white.svg' }}" alt="logo">
 	{{ else }}
     	<img src="{{ theme:img src='td-white.svg' }}" alt="logo">
     {{ endif }}
@@ -10,6 +12,8 @@
 <h1>Technical Difficulties</h1>
 {{ if show == 'dp' or current_url == '/dawn-patrol' }}
 	<h2 class="dp">Unscripted. Unedited. Uncaffeinated.</h2>
+{{ elseif show == 'heretics' or current_url == '/heretics' }}
+	<h2 class="heretics">Every walled garden has a gate.</h2>
 {{ else }}
 	<h2>Like a normal tech podcast, but&nbsp;broken.</h2>
 {{ endif }}
