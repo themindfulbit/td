@@ -39,6 +39,8 @@ $white: #fafafa;
 $yellow: #ffeb99;
 $dark-orange: #ff3300;
 $light-orange: #ff8600;
+$active-red: #ee0000;
+$inactive-red: #aa0000;
 
 body {
   @include box-sizing(border-box);
@@ -150,6 +152,10 @@ body {
       &.dp {
         margin-top: 0.2em;
       }
+
+      &.heretics {
+        margin-top: 0.2em;
+      }
     }
 
     .search {
@@ -197,6 +203,7 @@ body {
     background-color: $white;
 
     .show,
+    .article,
     .page,
     .about,
     .error {
@@ -1010,6 +1017,50 @@ body {
       }
     }
 
+    .article {
+
+      .show-number,
+      .listen-links {
+        display: none;
+      }
+
+      .show-header h2.show-title {
+        margin-top: 1em;
+        margin-bottom: 0.2em;
+      }
+
+      .show-header .show-date {
+        margin: 0 0 0.5em;
+        font-family: "futura-pt", sans-serif;
+        color: $light-orange;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1em;
+        font-style: normal;
+      }
+
+      .article-author {
+        margin: 0 0 2em;
+        color: $medium-gray;
+        font-style: italic;
+        text-align: center;
+        line-height: 1.2em;
+      }
+
+      .caption p a,
+      .show-meta a,
+      .show-notes .timestamp a,
+      .show-notes p a,
+      .show-notes table a,
+      .show-notes ul li a {
+        color: $inactive-red !important; 
+
+        &:hover {
+          color: $active-red !important;
+        }
+      }
+    }
+
     .pagination {
       @include column(12,12);
       padding: 0;
@@ -1452,7 +1503,7 @@ body {
           a:active,
           a:focus {
             @include column(12,12);
-            padding: 1em 0.5em;
+            padding: 0em 0em 1em;
             color: $black;
             overflow: hidden;
 
@@ -1467,6 +1518,11 @@ body {
               background-size: cover;
               background-position: 50% 50%;
             } 
+
+            .show-info {
+              padding-left: 1em;
+              padding-right: 1em;
+            }
 
             .show-title {
               text-transform: uppercase;
@@ -1493,7 +1549,7 @@ body {
 
             p,
             .summary {
-              padding: 0;
+              padding: 0 1em;
               // font-size: 0.9em;
               text-align: left;
             }
@@ -1624,6 +1680,7 @@ body {
   }
 
   body .content .show,
+  body .content .article,
   body .content .page,
   body .content .error,
   body .content .about {
@@ -1977,6 +2034,16 @@ body {
 
     &.dp .background {
       background-image: url('../img/dp-scrim.jpg');
+    }
+
+    &.heretics {
+      background-image: url('../img/bosch.jpg');
+      background-size: cover;
+      background-position: center top;
+
+      .background {
+        display: none;
+      }
     }
 
     .container {

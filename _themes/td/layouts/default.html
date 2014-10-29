@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>{{ if show == 'dp' or current_url == '/dawn-patrol' }}TD Dawn Patrol{{ else }}{{ _site_name }}{{ endif}}{{ if number }} - {{ number }}{{ endif }} - {{ title }}</title>
+  <title>{{ if show == 'dp' or current_url == '/dawn-patrol' }}TD Dawn Patrol{{ elseif show == 'heretics' or current_url == '/heretics' }}Heretics{{ else }}{{ _site_name }}{{ endif}}{{ if number }} - {{ number }}{{ endif }} - {{ title }}</title>
   <meta name = "viewport" content = "initial-scale = 1.0">
   <meta name="description" content="{{ if summary }}{{ summary }}{{ endif }}">
   <meta name="keywords" content="{{ if topics }}{{ topics_list }}{{ endif }}">
@@ -17,7 +17,7 @@
   <script type="text/javascript" src="{{ theme:js src="td"}}"></script>
   <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
 </head>
-<body class="{{ if show == 'dp' or current_url == '/dawn-patrol' }}dp{{ endif }}">
+<body class="{{ if show == 'dp' or current_url == '/dawn-patrol' }}dp{{ elseif  show == 'heretics' or current_url == '/heretics' }}heretics{{ endif }}">
   <div class="background"></div>
   <div class="container">
     <div class="nav">
