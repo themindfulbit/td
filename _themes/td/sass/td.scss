@@ -210,6 +210,28 @@ body {
       @include column(12,12);
       padding: 0;
 
+      &.heretics {      
+
+        .show-header .show-date {
+          color: $inactive-red;
+        }
+
+        .caption p a,
+        .show-meta a,
+        .show-notes .timestamp a,
+        .show-notes p a,
+        .show-notes table a,
+        .show-notes ul li a,
+        .listen-links a {
+          color: $inactive-red !important; 
+
+          &:hover {
+            color: $active-red !important;
+          }
+        }
+
+      }
+
       .show-header,
       .page-header,
       .error-header {
@@ -1047,17 +1069,25 @@ body {
         line-height: 1.2em;
       }
 
-      .caption p a,
-      .show-meta a,
-      .show-notes .timestamp a,
-      .show-notes p a,
-      .show-notes table a,
-      .show-notes ul li a {
-        color: $inactive-red !important; 
+      &.heretics {      
 
-        &:hover {
-          color: $active-red !important;
+        .show-header .show-date {
+          color: $inactive-red;
         }
+
+        .caption p a,
+        .show-meta a,
+        .show-notes .timestamp a,
+        .show-notes p a,
+        .show-notes table a,
+        .show-notes ul li a {
+          color: $inactive-red !important; 
+
+          &:hover {
+            color: $active-red !important;
+          }
+        }
+
       }
     }
 
@@ -2037,12 +2067,10 @@ body {
     }
 
     &.heretics {
-      background-image: url('../img/bosch.jpg');
-      background-size: cover;
-      background-position: center top;
 
       .background {
-        display: none;
+        background-image: url('../img/bosch.jpg');
+        background-position: center top;
       }
     }
 
