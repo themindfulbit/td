@@ -18,9 +18,9 @@
 </div>
 
  {{ if showtype == "article" }}
- <div class="article">
+ <div class="article {{ show }}">
  {{ else }}
- <div class="show">
+ <div class="show {{ show }}">
  {{ endif }}
 
     <div class="show-header">
@@ -30,7 +30,7 @@
       </a>
       <p class="show-date"> {{ datestamp format="F jS, Y" }}</p>
 
-      <p class="listen-links"><a href="{{ download }}" title="Technical Difficulties {{ number }} - {{ title }}">Download</a> <span class="divider">::</span> <a id="huffduffer">Huffduff it</a> <span class="divider2">::</span><span class="break"><br/></span> {{ if show == "td" }}<a class="subscribe" href="{{ subscribe_link }}">Subscribe</a>{{ elseif show == "dp" }}<a class="subscribe" href="{{ dp_subscribe }}">Subscribe</a>{{ endif }}</p>
+      <p class="listen-links"><a href="{{ download }}" title="Technical Difficulties {{ number }} - {{ title }}">Download</a> <span class="divider">::</span> <a id="huffduffer">Huffduff it</a> <span class="divider2">::</span><span class="break"><br/></span> {{ if show == "td" }}<a class="subscribe" href="{{ subscribe_link }}">Subscribe</a>{{ elseif show == "dp" }}<a class="subscribe" href="{{ dp_subscribe }}">Subscribe</a>{{ elseif show == "heretics" }}<a class="subscribe" href="{{ heretics_subscribe }}">Subscribe</a>{{ endif }}</p>
 
       {{ if showtype == "article" }}
           <div class="article-author">By {{ people_sentence_list }}</div>

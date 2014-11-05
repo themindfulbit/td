@@ -1,0 +1,35 @@
+<channel>
+
+  <title>TD Dawn Patrol</title>
+  <link>http://technicaldifficulties.us/dawn-patrol</link>
+  <language>en-us</language>
+  <copyright>Gabe Weatherhead and Erik Hess</copyright>
+  <itunes:owner>
+    <itunes:email>erik@themindfulbit.com</itunes:email>
+    <itunes:name>Technical Difficulties</itunes:name>
+  </itunes:owner>
+  <itunes:author>Technical Difficulties</itunes:author>
+  <itunes:explicit>no</itunes:explicit>
+  <itunes:image href="http://technicaldifficulties.us/assets/img/itunes-dp.png" />
+  <itunes:keywords>Macdrifter,TheMindfulBit,Potatowire,Takitapart,Gabe,Erik,Bob,Technology,Security,Apple,Mac,iOS,Family,Parenting,Writing,Hardware,Social</itunes:keywords>
+  <itunes:subtitle>Unscripted. Unedited. Uncaffeinated.</itunes:subtitle>
+  <itunes:summary>Dawn Patrol features the entire Technical Difficulties gang in an unscripted discussion on technology and life. Hosted by Gabe Weatherhead, Erik Hess, Bob VanderClay and Potatowire.</itunes:summary>
+  <description>Dawn Patrol features the entire Technical Difficulties gang in an unscripted discussion on technology and life. Hosted by Gabe Weatherhead, Erik Hess, Bob VanderClay and Potatowire.</description>
+  <itunes:category text="Technology" />
+  <admin:generatorAgent rdf:resource="http://technicaldifficulties.us/" />
+  <atom:link href="http://technicaldifficulties.us/dp-feed" rel="self" type="application/rss+xml" />
+
+  {{ entries:listing folder="heretics" }}
+  <item>
+    <title>{{ number }} - {{ title }}</title>
+    <link>{{ permalink }}</link>
+    <guid isPermaLink="true">{{ permalink }}</guid>
+    <description><![CDATA[{{ if banner }}<img class="show-banner" src="http://technicaldifficulties.us{{ banner }}" />{{ endif }}{{ if caption }}<div class="caption">{{ caption|markdown }}</div>{{ endif }}{{ summary|markdown}} {{ content }}]]></description>
+    <pubDate>{{ datestamp format="r" }}</pubDate>
+    <itunes:image href="http://technicaldifficulties.us/assets/img/itunes-heretics.png" />
+    <enclosure url="{{ download }}" length="0" type="audio/mpeg" />
+    <itunes:duration>0</itunes:duration>
+  </item>
+  {{ /entries:listing }}
+
+</channel>

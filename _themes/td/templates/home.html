@@ -3,7 +3,7 @@
 <h1>Our Latest Episode</h1>
   <p class="explain">Here's our latest episode. For other episodes of Technical Difficulties or Dawn Patrol, check out <a href="/search">The Episode Archive.</a> You can also subscribe to the <a class="subscribe" href="http://technicaldifficulties.us/master-feed">Master Feed</a> and get episodes of both shows on your RSS reader or Podcatcher.</p>
   <ul class="list image-list">
-            {{ entries:listing folder="episodes|dawn-patrol" limit="1" show_future="{ future }" }}
+            {{ entries:listing folder="episodes|dawn-patrol|heretics" limit="1" show_future="{ future }" }}
               <li>
                 <a class="permalink" href="{{ url }}">
                   {{ theme:partial src="transform" title="" file="{{ banner }}" }}
@@ -92,6 +92,36 @@
               </li>
             {{ /entries:listing }}
   </ul>
+<!-- 
+  <h1>Heretics</h1>
+  <p class="explain">Here are the four latest episodes of Heretics. If you're looking for more you can find them <a href="/heretics">in the Heretics Archive.</a> You can also subscribe to the <a class="subscribe" href="{{ heretics_subscribe }}">Heretics Feed</a>.</p>
+  <ul class="list image-list">
+            {{ entries:listing folder="heretics" limit="4" show_future="{ future }" }}
+              <li>
+                <a class="permalink" href="{{ url }}">
+                  {{ theme:partial src="transform" title="" file="{{ banner }}" }}
+                  <h2 class="show-number"><span class="ticks">&minus;&nbsp;</span>{{ number }}<span class="ticks">&nbsp;&minus;</span></h2>
+         
+                  <div class="show-info">
+                    <h2 class="show-title"> {{ title }}</h2>
+                    <div class="show-date"> {{ datestamp format="F jS, Y" }}</div>
+                  </div>
+                  <p class="summary">{{ summary|markdown }}</p>
+                  {{ if type }}
+                    <p class="type">{{ type_list }}</p>
+                  {{ endif }}
+
+                  {{ if people }}
+                    <p class="people">{{ people_list }}</p>
+                  {{ endif }}
+                    
+                  {{ if topics }}
+                    <p class="topics">{{ topics_list }}</p>
+                  {{ endif }}
+                </a>
+              </li>
+            {{ /entries:listing }}
+  </ul> -->
 
   <h1>Dawn Patrol</h1>
   <p class="explain">Here are the four latest episodes of Dawn Patrol. If you're looking for more you can find them <a href="/dawn-patrol">in the Dawn Patrol Archive.</a> You can also subscribe to the <a class="subscribe" href="{{ dp_subscribe }}">Dawn Patrol Feed</a>.</p>
