@@ -1,7 +1,7 @@
 ---
 show: heretics
 number: 
-title: Heretics &ndash; A Concept
+title: Heretics - A Concept
 people:
   - Potatowire
   - Bob VanderClay
