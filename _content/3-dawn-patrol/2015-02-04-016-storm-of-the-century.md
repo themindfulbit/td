@@ -54,12 +54,12 @@ Shipping deals
 * [Thee-act structure](http://en.wikipedia.org/wiki/Three-act_structure)
 * Personal time management
 * [Other](https://play.google.com/store/movies?hl=en) [rental](http://www.amazon.com/s?rh=n%3A2858905011%2Cp_drm_rights%3ARental) [options](http://makemkv.com/)
-* [Lucy](http://www.rottentomatoes.com/m/lucy_2014/)
-* [Guardians of the Galaxy](http://www.rottentomatoes.com/m/guardians_of_the_galaxy/)
+* [*Lucy*](http://www.rottentomatoes.com/m/lucy_2014/)
+* [*Guardians of the Galaxy*](http://www.rottentomatoes.com/m/guardians_of_the_galaxy/)
 * [Wrong opinions](http://defocused.co/defocused/tag/guardians-of-the-galaxy)
-* [Avatar](http://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender)
-* [Tumble Leaf](http://www.amazon.com/Shiny-Coins-Fig-Finds-Shadow/dp/B00CC00JDE)
-* [Wolf Children](http://www.rottentomatoes.com/m/okami_kodomo_no_ame_to_yuki/)
+* [*Avatar*](http://en.wikipedia.org/wiki/Avatar:_The_Last_Airbender)
+* [*Tumble Leaf*](http://www.amazon.com/Shiny-Coins-Fig-Finds-Shadow/dp/B00CC00JDE)
+* [*Wolf Children*](http://www.rottentomatoes.com/m/okami_kodomo_no_ame_to_yuki/)
 
 {{ theme:partial src="section-header" title="Lego" url="{{ soundcloudurl }}" time="41:28" }}
 
@@ -70,5 +70,5 @@ Shipping deals
 * [LEGOLAND Discovery Center](http://www.legolanddiscoverycenter.com/boston/)
 * [Lego Friends](http://www.lego.com/en-us/friends/)
 * [What if your daughter likes pink, purple, fairies, and princesses?](http://en.wikipedia.org/wiki/Rosie_the_Riveter)
-* [Expectations on Invisibilia](http://www.npr.org/programs/invisibilia/378577902/how-to-become-batman)
+* ["Expectations" on *Invisibilia*](http://www.npr.org/programs/invisibilia/378577902/how-to-become-batman)
 * [Turns out](https://twitter.com/hotdogsladies/status/72390171408089088)
