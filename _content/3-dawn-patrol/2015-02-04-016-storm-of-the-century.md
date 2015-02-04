@@ -64,9 +64,9 @@ Shipping deals
 {{ theme:partial src="section-header" title="Lego" url="{{ soundcloudurl }}" time="41:28" }}
 
 * Legoing above one’s age
-* [Step one](http://ecx.images-amazon.com/images/I/41iOKz-Ia1L.jpg)
-* [Step two](http://tinkernology.blogspot.com/2011/04/four-lego-delta-robots.html)
-* [Step three](http://media.tumblr.com/747fc02d5763bb123420fee2e9282947/tumblr_inline_nilv96nexo1rqg5v6.gif)
+ * [Step one](http://ecx.images-amazon.com/images/I/41iOKz-Ia1L.jpg)
+ * [Step two](http://tinkernology.blogspot.com/2011/04/four-lego-delta-robots.html)
+ * [Step three](http://media.tumblr.com/747fc02d5763bb123420fee2e9282947/tumblr_inline_nilv96nexo1rqg5v6.gif)
 * [LEGOLAND Discovery Center](http://www.legolanddiscoverycenter.com/boston/)
 * [Lego Friends](http://www.lego.com/en-us/friends/)
 * [What if your daughter likes pink, purple, fairies, and princesses?](http://en.wikipedia.org/wiki/Rosie_the_Riveter)
