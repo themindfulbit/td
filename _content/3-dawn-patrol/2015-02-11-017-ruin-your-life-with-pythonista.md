@@ -45,7 +45,7 @@ post_files: ""
 
 * Temper tantrums overhead
 * Shell inception
-* [`sudo`](http://xkcd.com/149/]
+* [`sudo`](http://xkcd.com/149/)
 * [Dagerous commands](http://www.commandlinefu.com/commands/tagged/904/dangerous)
 * [Gmail Goggles](http://www.labnol.org/internet/email/gmail-goggles-prevent-drunk-emailing-on-friday-nights/4808/)
 * [Breathalyzers](http://www.amazon.com/gp/product/B0026IBZSK/ref=as_li_ss_tl?ie=UTF8&tag=duckwing-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B0026IBZSK)
@@ -83,7 +83,7 @@ post_files: ""
 * "Exhaustive" app research instead of scripting
 * Kids ruin Daddy's concentration
 * Actually creating script *on* iOS
-* ["It's all Ole"](https://twitter.com/olemoritz): [genius](http://omz-software.com/)
+* ["It's all Ole"](https://twitter.com/olemoritz), i.e. [genius](http://omz-software.com/)
 * [Tasker](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm&hl=en) as Android's uglier utilty tool
 * Scripting: The Nerd's Song
 * Inability to read documentation indicates a lack of seriousness
@@ -94,7 +94,7 @@ post_files: ""
 * Constraints foster creativity
 * Android's freedom and iOS's artisanal app market
 * [CyanogenMod](http://www.cyanogenmod.org/)
-* Android text editors are nothing special, *however*, [ssh](https://play.google.com/store/apps/details?id=com.sonelli.juicessh) plus [Vim is wonderous](http://technicaldifficulties.us/episodes/077-learning-vim-with-potatowire)
+* Android text editors are nothing special, *however*, [`ssh`](https://play.google.com/store/apps/details?id=com.sonelli.juicessh) plus Vim is [wonderous](http://technicaldifficulties.us/episodes/077-learning-vim-with-potatowire)
 * iOS-only as clickbait
 * Quitting the internet as clickbait
 * The misjudged [Federico article](http://www.macstories.net/stories/ipad-air-2-review-why-the-ipad-became-my-main-computer/)
@@ -122,7 +122,7 @@ post_files: ""
   * [Feedbin](https://feedbin.com/)
   * [Trello](https://trello.com/)
   * [Slack](https://slack.com/)
-  * [Pocketcasts](https://play.pocketcasts.com)
+  * [Pocket Casts](https://play.pocketcasts.com)
 
 {{ theme:partial src="section-header" title="Styluses...Stylii?...Digital-Marker-thingies" url="{{ soundcloudurl }}" time="45:28" }}
 
