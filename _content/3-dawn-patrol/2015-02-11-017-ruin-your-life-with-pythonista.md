@@ -138,4 +138,4 @@ post_files: ""
 * [Tauntaun survival](http://www.thinkgeek.com/product/bb2e/)
 * [Trains in the snow](http://i.imgur.com/azp2uQJ.gif)
 * [One-handed keyboards](http://blog.xkcd.com/2007/08/14/mirrorboard-a-one-handed-keyboard-layout-for-the-lazy/)
-* Do you like these notes better? [Email me](mailto:shownotes@potatowire.com?subject=I%20Like%20Big%20Notes%20and%20I%20Cannot%20Lie)
+* Do you like these notes better? [Email me](mailto:shownotes@potatowire.com?subject=I%20Like%20Big%28ger%29%20Notes%20and%20I%20Cannot%20Lie)
