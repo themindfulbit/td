@@ -16,8 +16,7 @@ topics:
   - productivity
 banner: /assets/img/details.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/library_of_congress/7562146704/)'
-download: >
-  http://www.buzzsprout.com/7417/107167-046-delighting-in-the-details-with-shawn-blanc.mp3
+download: td046.m4a
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125809519%3Fsecret_token%3Ds-8dt34&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 summary: >
   Shawn Blanc joins Gabe and Erik to

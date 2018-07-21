@@ -13,8 +13,7 @@ topics:
   - productivity
 banner: /assets/img/exploring.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/cornelluniversitylibrary/3675918994/)'
-download: >
-  http://www.buzzsprout.com/7417/102038-042-exploring-devonthink-with-jim-neumann.mp3
+download: td042.m4a
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125808299%3Fsecret_token%3Ds-SmAIo&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 summary: >
   This week Gabe and Erik wrap up their

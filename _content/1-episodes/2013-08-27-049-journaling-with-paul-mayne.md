@@ -12,8 +12,7 @@ topics:
   - Day One
 banner: /assets/img/journal.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/99902797@N03/9736726086/)'
-download: >
-  http://www.buzzsprout.com/7417/110943-049-journaling-with-paul-mayne.mp3
+download: td049.m4a
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125810367%3Fsecret_token%3Ds-NrFmq&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 summary: >
   Paul Mayne joins Gabe and Erik to

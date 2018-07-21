@@ -18,8 +18,7 @@ topics:
   - dictation
 banner: /assets/img/first-class-typist.jpg
 caption: '[University of Washington](http://www.flickr.com/photos/uw_digital_images/4670206226/)'
-download: >
-  http://www.buzzsprout.com/7417/148312-067-authoring-ibooks-with-david-sparks.mp3
+download: td067.m4a
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/133189353%3Fsecret_token%3Ds-a8kTI&color=ff5500&auto_play=false&hide_related=false&show_artwork=true"></iframe>'
 soundcloudurl: techdiffpodcast/067-authoring-ibooks-with
 summary: 'David Sparks joins Gabe and Erik to talk about why he switched from writing paper books to writing iBooks. Along the way they touch on  ideas, tools, inspiration, collaboration, and Star Wars.'

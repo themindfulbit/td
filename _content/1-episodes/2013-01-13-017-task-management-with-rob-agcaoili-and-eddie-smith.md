@@ -14,8 +14,7 @@ topics:
   - project management
 banner: /assets/img/tickle.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/sdasmarchives/7211915306/)'
-download: >
-  http://www.buzzsprout.com/7417/72637-generational-episode-017.mp3
+download: td017.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125792808&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 summary: >
   This week is the first part in a three

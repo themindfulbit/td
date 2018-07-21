@@ -14,8 +14,7 @@ topics:
   - credit
 banner: /assets/img/lifeboat.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/anmm_thecommons/7749814006/)'
-download: >
-  http://www.buzzsprout.com/7417/60285-generational-episode-002.mp3
+download: td002.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125779501%3Fsecret_token%3Ds-staHK&color=ff6600&auto_play=false&show_artwork=true"></iframe>'
 summary: "In this episode Eddie Smith of Practically Efficient talks with Gabe about planning our digital records for the worst case scenario. Eddie is an extremely smart guy and has some terrific advice. It's usually expensive to get advice this good."
 soundcloudurl: techdiffpodcast/002-preparing-for-the-worst

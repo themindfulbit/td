@@ -11,8 +11,7 @@ topics:
   - WiFi
   - Networking
 caption: '[NASA](http://www.flickr.com/photos/nasacommons/8972299673/sizes/o/)'
-download: >
-  http://www.buzzsprout.com/7417/140581-061-taming-wifi-with-bradley-chambers.mp3
+download: td061.m4a
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/127854435%3Fsecret_token%3Ds-kiaVq&color=ff6600&auto_play=false&show_artwork=true"></iframe>'
 soundcloudurl: techdiffpodcast/061-taming-wifi-with-bradley
 summary: "Bradley Chambers drops by to help Gabe and Erik understand how to make WiFi work in the home. Along the way they talk about the way wireless signals propagate and interfere, how to select the best hardware, and how to configure your router's software to ensure a secure and reliable wireless network."

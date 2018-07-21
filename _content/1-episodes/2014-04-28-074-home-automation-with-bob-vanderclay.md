@@ -15,8 +15,7 @@ topics:
   - wemo
 banner: /assets/img/unimate.jpg
 caption: '[Glucksman Library](https://www.flickr.com/photos/ul_digital_library/11102656665)'
-download: >
-  http://www.buzzsprout.com/7417/169040-074-home-automation-with-bob-vanderclay.mp3
+download: td074.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/146573770%3Fsecret_token%3Ds-ef0SX&color=ff5500&auto_play=false&hide_related=false&show_artwork=true"></iframe>'
 soundcloudurl: techdiffpodcast/074-home-automation-with-bob-vanderclay
 summary: 'Bob VanderClay returns to discuss the ultimate topic for Technical Difficulties: Home Automation. We touch on several popular tools, including Hue, SmartThings, WeMo, and Nest.'

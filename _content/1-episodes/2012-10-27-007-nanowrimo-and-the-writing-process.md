@@ -10,8 +10,7 @@ topics:
   - writing
 banner: /assets/img/writer.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/nationalmediamuseum/7893553148/)'
-download: >
-  http://www.buzzsprout.com/7417/64231-generational-episode-007.mp3
+download: td007.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125781624%3Fsecret_token%3Ds-APyil&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 summary: >
   Aaron Mahnke and I discuss his writing

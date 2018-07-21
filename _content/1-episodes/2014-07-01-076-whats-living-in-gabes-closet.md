@@ -12,8 +12,7 @@ topics:
   - closets
 banner: /assets/img/generator-room.jpg
 caption: '[Library of Congress](https://www.flickr.com/photos/library_of_congress/2179853552)'
-download: >
-  http://www.buzzsprout.com/7417/176280-076-what-s-living-in-gabe-s-closet.mp3
+download: td076.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/151055094%3Fsecret_token%3Ds-3DnAx&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_artwork=true"></iframe>'
 soundcloudurl: techdiffpodcast/076-whats-living-in-gabes-closet
 summary: 'Intrigued by Gabe's frequent mentions of his Network Closet, Erik asks some tough questions. Why put the closet in the basement? Why all the extra ventilation? What happens when you run out of red printer ink? The answers may disturb and frighten you.'

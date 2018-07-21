@@ -11,8 +11,7 @@ topics:
   - Power Strips
   - Surge Protectors
 caption: '[Library of Congress](http://www.flickr.com/photos/library_of_congress/2179851346/)'
-download: >
-  http://www.buzzsprout.com/7417/140620-062-drunk-with-power.mp3
+download: td062.m4a
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/127920253%3Fsecret_token%3Ds-LXJpf&color=ff6600&auto_play=false&show_artwork=true"></iframe>'
 soundcloudurl: techdiffpodcast/062-drunk-with-power
 summary: >

@@ -14,8 +14,7 @@ topics:
   - Android
 banner: /assets/img/anxiety.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/nlscotland/4699780467/)'
-download: >
-  http://www.buzzsprout.com/7417/103144-043-anxiety-fear-and-risk.mp3
+download: td043.m4a
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125808539%3Fsecret_token%3Ds-itiIe&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 summary: "This week Gabe and Erik talk about things that make them anxious, the difference between anxiety and fear, and ways they assess and manage risk so they can be functioning members of society. Then they veer off topic to examine the possibility that iOS 7's new look might siphon development resources away from new and improved app features. Finally, they throw all caution to the wind to talk about Erik's brief dip in the foreign waters of Android."
 soundcloudurl: techdiffpodcast/043-anxiety-fear-and-risk

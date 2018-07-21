@@ -12,8 +12,7 @@ topics:
   - reading
 banner: /assets/img/illuminated.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/nationalarchives/3752393114/)'
-download: >
-  http://www.buzzsprout.com/7417/62672-generational-episode-005.mp3
+download: td005.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125781414%3Fsecret_token%3Ds-BVwLr&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 summary: >
   Yuvi Zalkow, Michael Schechter and Gabe

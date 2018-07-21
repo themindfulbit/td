@@ -12,8 +12,7 @@ topics:
   - AppleScript
 banner: /assets/img/census.jpg
 caption: '[US National Archives](http://www.flickr.com/photos/usnationalarchives/3903231183/)'
-download: >
-  http://www.buzzsprout.com/7417/115644-052a-rob-trew-and-brett-terpstra-talk-code-fixed.mp3
+download: td052.m4a
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125811213%3Fsecret_token%3Ds-cLR8C&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 summary: >
   With Erik on vacation, Gabe chats with

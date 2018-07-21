@@ -13,8 +13,7 @@ topics:
   - reminders
 banner: /assets/img/list.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/state-records-nsw/5227890976/)'
-download: >
-  http://www.buzzsprout.com/7417/112383-050-lists-of-lists-of-lists.mp3
+download: td050.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125810512%3Fsecret_token%3Ds-GYBVS&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 summary: >
   Erik and Gabe take a quiet moment to

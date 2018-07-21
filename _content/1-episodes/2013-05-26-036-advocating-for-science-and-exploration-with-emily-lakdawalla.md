@@ -15,8 +15,7 @@ topics:
   - exploration
 banner: /assets/img/jupiter.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/sdasmarchives/6996861298/)'
-download: >
-  http://www.buzzsprout.com/7417/94141-036-advocating-for-science-and-exploration-with-emily-lakdawalla.mp3
+download: td036.m4a
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125806814%3Fsecret_token%3Ds-dfaSQ&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 summary: >
   This week Emily Lakdawalla, planetary

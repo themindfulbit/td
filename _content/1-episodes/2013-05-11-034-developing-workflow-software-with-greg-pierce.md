@@ -16,9 +16,8 @@ topics:
   - careers
 banner: /assets/img/assembly-line.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/sdasmarchives/8870280165/)'
-download: >
-  http://www.buzzsprout.com/7417/91760-generational-episode-034.mp3
-player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125805460%3Fsecret_token%3Ds-vUjFt&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
+download: td034.mp3
+player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.Soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125805460%3Fsecret_token%3Ds-vUjFt&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 summary: >
   Greg Pierce of Agiletortoise joins Erik
   and Gabe to talk about building

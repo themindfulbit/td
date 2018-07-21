@@ -15,8 +15,7 @@ topics:
   - notebooks
 banner: /assets/img/the-pen.jpg
 caption: '[Foster, Milburn, & Co.](https://www.flickr.com/photos/muohio_digital_collections/3093592032)'
-download: >
-  https://www.buzzsprout.com/7417/193300-078-the-pen-is-mightier.mp3
+download: td078.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/161275279%3Fsecret_token%3Ds-JpUuu&color=ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false"></iframe>'
 soundcloudurl: techdiffpodcast/078-the-pen-is-mightier
 summary: "Gabe and Erik are joined by friend-of-the-show and new audio producer Bob VanderClay to discuss pens, paper, notebooks and why we can't seem to transition to an all-digital workflow no matter how many notebooks we throw in the wood chipper."

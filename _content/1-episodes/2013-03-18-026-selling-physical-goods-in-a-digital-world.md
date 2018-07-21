@@ -13,8 +13,7 @@ topics:
   - sales
 banner: /assets/img/market.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/library_of_congress/2179931106/)'
-download: >
-  http://www.buzzsprout.com/7417/82309-generational-episode-026.mp3
+download: td026.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125800673&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 summary: >
   This week Tom Borowski talks with Gabe

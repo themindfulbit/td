@@ -11,8 +11,7 @@ topics:
   - family
 banner: /assets/img/school.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/mennonitechurchusa-archives/8024388985/)'
-download: >
-  http://www.buzzsprout.com/7417/66657-generational-episode-010.mp3
+download: td010.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125782141%3Fsecret_token%3Ds-42jhv&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 summary: >
   Julia Richert and Gabe talk at length

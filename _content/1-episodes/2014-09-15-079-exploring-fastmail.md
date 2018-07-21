@@ -11,7 +11,7 @@ topics:
   - FastMail
 banner: /assets/img/pony-express.jpg
 caption: '[Internet Archive](https://www.flickr.com/photos/internetarchivebookimages/14761137812)'
-download: "https://www.buzzsprout.com/7417/203357-079-fastmail.mp3?client_source=buzzsprout_site"
+download: td079.mp3
 player: "<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/167113326%3Fsecret_token%3Ds-SuMxJ&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>"
 soundcloudurl: techdiffpodcast/079-exploring-fastmail
 summary: "This week, we take a detailed look at why Gabe switched to and continues to use FastMail. We introduce the webapps, basic searching and filtering, and discuss some of the service's lesser-known but still compelling features."

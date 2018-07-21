@@ -14,8 +14,7 @@ topics:
   - photos
 banner: /assets/img/console.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/sdasmarchives/7142832931/)'
-download: >
-  http://www.buzzsprout.com/7417/95462-generational-episode-037.mp3
+download: td037.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125806992%3Fsecret_token%3Ds-YXE2e&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 summary: >
   This week Erik and Gabe continue their

@@ -12,8 +12,7 @@ topics:
   - airplay
 banner: /assets/img/radio.jpg
 caption: 'Dr. Drang listening to Generational on an early wireless home audio system. [US National Archives](http://www.flickr.com/photos/usnationalarchives/5589767274/)'
-download: >
-  http://www.buzzsprout.com/7417/132277-056-sonos-showdown.mp3
+download: td056.m4a
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125811815&color=ff6600&auto_play=false&show_artwork=true"></iframe>'
 soundcloudurl: techdiffpodcast/056-sonos-showdown
 summary: "Erik and Gabe go toe-to-toe over the Sonos Wireless sound system. Erik thinks it's expensive but worth it. Gabe thinks it's expensive and worthless. Who wins? You judge."

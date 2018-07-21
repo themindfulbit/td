@@ -13,8 +13,7 @@ topics:
   - review
 banner: /assets/img/inbox.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/lselibrary/6950307678/)'
-download: >
-  http://www.buzzsprout.com/7417/77897-generational-episode-022.mp3
+download: td022.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125797429&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 summary: >
   This is the final show in a three part

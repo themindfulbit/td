@@ -11,8 +11,7 @@ topics:
   - video
 banner: /assets/img/filming.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/nationaalarchief/3199096890/)'
-download: >
-  http://www.buzzsprout.com/7417/86993-generational-030-the-evolution-of-internet-media-with-neha-tiwari.mp3
+download: td030.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125803132%3Fsecret_token%3Ds-tUR31&color=ff6600&auto_play=false&show_artwork=true"></iframe>'
 summary: >
   This week Gabe and Erik are joined by

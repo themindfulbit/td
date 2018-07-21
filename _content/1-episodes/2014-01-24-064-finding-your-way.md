@@ -14,8 +14,7 @@ topics:
   - flying
 banner: /assets/img/iter-avto.jpg
 caption: '[Nationaal Archief](http://www.flickr.com/photos/nationaalarchief/4192749543/)'
-download: >
-  http://www.buzzsprout.com/7417/144921-064-finding-your-way.mp3
+download: td064.m4a
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/130884066%3Fsecret_token%3Ds-WKt2e&color=ff5500&auto_play=false&show_artwork=true"></iframe>'
 soundcloudurl: techdiffpodcast/064-finding-your-way
 summary: "This week's topic is navigation apps. From Gabe and Erik's earliest dedicated GPS devices to today's location-enabled everything, they break down the good and the not-so-good in today's market."

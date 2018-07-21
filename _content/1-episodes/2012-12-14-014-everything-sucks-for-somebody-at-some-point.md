@@ -14,8 +14,7 @@ topics:
   - parenting
 banner: /assets/img/ward.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/nlscotland/4699252069/)'
-download: >
-  http://www.buzzsprout.com/7417/69470-generational-episode-014.mp3
+download: td014.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125782779%3Fsecret_token%3Ds-9lEGN&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 summary: >
   Gabe talks with Stephen Hackett of

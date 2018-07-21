@@ -16,8 +16,7 @@ topics:
   - dropbox
 banner: /assets/img/file-cabinet.jpg
 caption: '[Mennonite Church USA](http://www.flickr.com/photos/mennonitechurchusa-archives/9011343990/)'
-download: >
-  http://www.buzzsprout.com/7417/147653-066-files-in-the-cloud.mp3
+download: td066.m4a
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/132835633%3Fsecret_token%3Ds-dyR30&color=ff5500&auto_play=false&hide_related=false&show_artwork=true"></iframe>'
 soundcloudurl: techdiffpodcast/066-files-in-the-cloud
 summary: >

@@ -12,8 +12,7 @@ topics:
   - careers
 banner: /assets/img/tomcat.jpg
 caption: 'F-14 Tomcat asymmetric wing sweep testing [Flickr Commons](http://www.flickr.com/photos/sdasmarchives/4559760940/)'
-download: >
-  http://www.buzzsprout.com/7417/81128-generational-episode-025.mp3
+download: td025.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125799871&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 summary: >
   This week Erik Hess educates Gabe about

@@ -15,8 +15,7 @@ topics:
   - projects
 banner: /assets/img/overlord.jpg
 caption: '[Flickr Commons](http://www.flickr.com/photos/sdasmarchives/7211912952/)'
-download: >
-  http://www.buzzsprout.com/7417/74452-generational-episode-019.mp3
+download: td019.mp3
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125795641&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>'
 summary: >
   In this episode Jeff Hunsberger of

@@ -16,8 +16,7 @@ topics:
   - compass
 banner: /assets/img/maquette.jpg
 caption: '[Het Nieuwe Instituut](http://www.flickr.com/photos/nai_collection/8157177063/)'
-download: >
-  http://www.buzzsprout.com/7417/143046-063-intro-to-responsive-web-design.mp3
+download: td063.m4a
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/129636942%3Fsecret_token%3Ds-8QbCc&color=ff6600&auto_play=false&show_artwork=true"></iframe>'
 soundcloudurl: techdiffpodcast/063-intro-to-responsive-web
 summary: "This week's topic is responsive web design, both what it is, and how it's done. Erik steers clear of the controversies surrounding the issue and talks about what it actually takes to make your site work on a wide range of screen sizes."

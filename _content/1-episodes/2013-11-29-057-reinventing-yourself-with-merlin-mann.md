@@ -16,8 +16,7 @@ topics:
 banner: /assets/img/edison.jpg
 caption: |
   ["I'll start all over again tomorrow"](http://query.nytimes.com/mem/archive-free/pdf?res=F40614FF3F5C13738DDDA90994DA415B848DF1D3) [Library of Congress](http://www.flickr.com/photos/library_of_congress/6559347383/)
-download: >
-  http://www.buzzsprout.com/7417/133581-057-reinventing-yourself-with-merlin-mann.mp3
+download: td057.m4a
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/125811988%3Fsecret_token%3Ds-Bjenw&color=ff6600&auto_play=false&show_artwork=true"></iframe>'
 soundcloudurl: techdiffpodcast/057-reinventing-yourself-with
 summary: >

@@ -13,8 +13,7 @@ topics:
   - textexpander
 banner: /assets/img/clipboard-tricks.jpg
 caption: '[SMU Central University](http://www.flickr.com/photos/41131493@N06/8880203168/in/photolist-ewHn2b-8DwfYA)'
-download: >
-  http://www.buzzsprout.com/7417/145323-065-stupid-clipboard-tricks.mp3
+download: td065.m4a
 player: '<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/131210154%3Fsecret_token%3Ds-r4CnB&color=ff5500&auto_play=false&show_artwork=true"></iframe>'
 soundcloudurl: techdiffpodcast/065-stupid-clipboard-tricks
 summary: >
